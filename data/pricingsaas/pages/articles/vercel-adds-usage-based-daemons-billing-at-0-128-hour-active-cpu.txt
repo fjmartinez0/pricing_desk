@@ -1,0 +1,60 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 16, 2026
+V
+Vercel
+PACKAGING CHANGE
+Vercel adds usage-based Daemons billing at $0.128/hour Active CPU
+Vercel added a new Vercel Daemons section to its pricing page with two usage-based line items: Active CPU billed at $0.128 per hour with 5 hours per month included, and Provisioned Memory at $0.0212 per GB-hour with 420 GB-hours per month included.
+See before and after
+Enlarge
+Vercel’s pricing page · Change Detected Oct 16, 2026
+WHY IT MATTERS
+Watch whether Daemons pricing stays a standalone metered line or gets folded into Pro/Enterprise allotments as usage grows — Vercel's last several usage-billing changes have each added or restructured a metered item rather than raising list prices outright — and whether $0.128/hour Active CPU becomes the template for pricing the next compute primitive it ships.
+BY THE NUMBERS
+6 of Vercel's recent changes, including this one, lean on credits/usage billing
+22 real pricing changes tracked since Dec 29, 2025
+11 days since Vercel's last change (OWASP firewall for Pro Plus, Oct 5)
+Vercel's event mix shows 5 pricing restructurings among its recent changes
+THEIR RATIONALE
+Vercel ships Daemons pricing with the metering baked in from day one rather than folding it into existing plan limits — Active CPU at $0.128/hour with 5 hours included, Provisioned Memory at $0.0212/GB-hour with 420 GB-hours included, Enterprise custom. The timing is on Vercel's usual cadence: this is one of 22 real pricing changes since tracking began Dec 29, 2025, landing 11 days after it added an OWASP Core Ruleset firewall to Pro Plus priority projects, close to its roughly 12-day average gap. It's also a continuation of a pattern: counting this change, 6 of Vercel's recent moves have built on credits and usage billing, including splitting AI pricing into token and trigger fees and swapping Pro CDN overages for flat-rate included data transfer.
+TRACK RECORD·22 changes since Dec 29, 2025·22 in the last 12 months·a change every ~12 days·previous change Oct 5, 2026 (11 days ago)
+THE SIGNAL
+The bigger picture is architectural as much as it is pricing: Vercel keeps reaching for metered billing on every new compute surface it ships — sandboxes, Connect, CDN, AI tokens, and now background-process Daemons — rather than bundling usage into existing plan tiers. With 6 of its recent changes now built on credits-and-usage billing, the model looks less like one-off pricing tweaks and more like Vercel's default answer for monetizing anything new it ships.
+CREDITS & USAGE BILLING·153 companies in the last 6 months·11.7% of 1,721 tracked changes·6× on Vercel's page·Invideo most often (4)
+IN CONTEXT
+Daemons lands 11 days after Vercel added an OWASP Core Ruleset firewall to Pro Plus priority projects, continuing a run of usage-pricing moves that includes swapping Pro CDN overages for flat-rate data transfer, a Connect/Token Requests hike paired with a new Triggers metric, and splitting AI pricing into token and trigger fees. Counting this one, that's 6 real changes built on credits-and-usage billing since doubling its Sandbox Memory overage price in March — a steady cadence (11 days since its last change, a roughly 12-day average gap) that treats usage metering as the default way to price anything new it ships, rather than an occasional repricing exercise.
+WHAT PEOPLE ARE SAYING
+@RusticStacktwitter
+Free-tier math on @vercel Daemons: Hobby gets 10 vCPU-hours a month, and a daemon uses them for every hour it's up, including hours spent just waiting on an empty queue. One worker gets about 10 hours, then Vercel stops it until next month. Worth knowing before you point a side project's Celery queue at it.
+View original
+@CyberIdleoqtwitter
+Background workers make document conversion and scheduled reports much more interesting here. I’d love an example showing retries without sending the same report twice—and what it costs while the worker is idle.
+View original
+@KowalPrato4otwitter
+能带来什么：
+· 课设/小项目：前端、API、worker 一次部署，不用管服务器
+· 容器按 Active CPU 计费，等模型回复的空闲不收
+· Daemons、Drives 含 Hobby 档（按配额）
+· Daemons 仍公测：只跑生产、不收入站流量、暂不自动扩容
+综合 @vercel @cramforce + 官方博客/文档
+#AI技巧 #海外华人 #留学生
+View original
+Questions about this change?
+The Pulse Agent has this change, Vercel's pricing history and its peers loaded — and answers from verified data.
+Why it mattersVercel's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from VercelAll pricing news
+V
+Vercel
+Vercel launches metered Drives storage at $0.05/GB-month
+B
+Baseten
+Baseten cuts Reflection Beam rates up to 72%, four days after launch
+H
+HubSpot
+HubSpot cuts Free plan email sends from 2,000 to 300, shifts Starter onto shared Credits

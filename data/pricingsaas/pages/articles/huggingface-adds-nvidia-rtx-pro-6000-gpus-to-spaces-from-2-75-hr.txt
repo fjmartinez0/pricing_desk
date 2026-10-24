@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 16, 2026
+H
+Huggingface
+PACKAGING CHANGE
+Hugging Face adds Nvidia RTX PRO 6000 GPUs to Spaces from $2.75/hr
+Spaces hardware pricing gained four new Nvidia RTX PRO 6000 GPU options: 1x ($2.75/hr), 2x ($5.50/hr), 4x ($11.00/hr) and 8x ($22.00/hr).
+See before and after
+Enlarge
+Huggingface’s pricing page · Change Detected Oct 16, 2026
+WHY IT MATTERS
+Spaces builders now get paid access to the same RTX PRO 6000 class of GPU Hugging Face already offers through Inference Endpoints, without moving the workload off Spaces. It continues a steady rollout of this GPU generation across the platform — Inference Endpoints in May, free Spaces GPUs in June, now paid Spaces hardware. Watch whether Hugging Face standardizes further, retiring older GPU options from Spaces hardware pricing as RTX PRO 6000 becomes the default rather than the newest add-on.
+BY THE NUMBERS
+Same RTX PRO 6000 config added to AWS Inference Endpoints on May 25, 2026
+Free Spaces GPUs upgraded to RTX Pro 6000 (96GB VRAM) on Jun 1, 2026
+Hugging Face has made 9 tracked feature additions since Apr 2024
+Previous pricing-page change came just 8 days earlier, on Oct 8, 2026
+THEIR RATIONALE
+Hugging Face is rolling one GPU generation out across its platform rather than introducing something new: it added this exact Nvidia RTX PRO 6000 configuration to AWS Inference Endpoints on May 25, then upgraded free Spaces GPUs to RTX Pro 6000 on Jun 1. Adding it to paid Spaces hardware brings the same GPU to one more product rather than launching a new capability.
+TRACK RECORD·19 changes since Nov 14, 2023·11 in the last 12 months·a change every ~57 days·previous change Oct 8, 2026 (8 days ago)
+THE SIGNAL
+This is one of Hugging Face's 9 tracked feature additions since Apr 2024, but it's a narrower story than most: a hardware tier that already exists elsewhere on the platform simply became available in one more place. Feature additions are a broad, common category across the index (343 of 1,721 changes tracked in the last six months, across 294 companies), so the newsworthy part isn't the category, it's that Hugging Face is standardizing on this specific chip across multiple products in quick succession.
+FEATURE ADDITIONS·294 companies in the last 6 months·19.9% of 1,721 tracked changes·9× on Huggingface's page·MindsDB most often (4)
+IN CONTEXT
+Hugging Face already sells this exact chip: the same four configurations and prices — 1x at $2.75/hr up to 8x at $22.00/hr — appeared on AWS Inference Endpoints on May 25, 2026, and free Spaces GPUs were upgraded to RTX Pro 6000 on Jun 1. Paid Spaces hardware now offers it too. Hugging Face has now made 9 tracked feature additions since granular Resource groups landed in Apr 2024, arriving just 8 days after it swapped PRO's 20x inference multiplier for a flat $2 monthly credit. Feature additions are a crowded category right now — MindsDB and Together shipped new capabilities the same day.
+Questions about this change?
+The Pulse Agent has this change, Huggingface's pricing history and its peers loaded — and answers from verified data.
+Why it mattersHuggingface's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from HuggingfaceAll pricing news
+M
+MindsDB
+MindsDB adds Gemini 4 Argon pricing at $2 input, $10 output per million
+C
+Clay
+Clay expands Enterprise plan with SCIM, IP allowlists and user groups
+T
+Together
+Together adds Reflection Beam to serverless inference at $0.40 per 1M input tokens

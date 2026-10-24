@@ -4,6 +4,7 @@
  "edition_date": "2026-10-19",
  "period": "1–19 Oct",
  "week_order": [
+  "2026-W44",
   "2026-W43",
   "2026-W42",
   "2026-W41",
@@ -12,6 +13,14 @@
   "2026-W38"
  ],
  "weeks": [
+  {
+   "week": "2026-W44",
+   "label": "19–25 Oct",
+   "start": "2026-10-19",
+   "source_week": "PricingSaaS reports",
+   "coverage": "partial",
+   "note": "Our own captures didn’t cover all of this week (they started on 24 Oct 2026), so it shows mainly the changes PricingSaaS published in its daily briefings and weekly review. Totals are far below the whole market."
+  },
   {
    "week": "2026-W43",
    "label": "12–18 Oct",
@@ -7342,7 +7351,7 @@
     "high": 12.5,
     "basis": "list price"
    },
-   "rank": 2
+   "rank": 4
   },
   {
    "id": "dialpad-2026w43",
@@ -7442,7 +7451,7 @@
     "high": 12,
     "basis": "list price"
    },
-   "rank": 4
+   "rank": 5
   },
   {
    "id": "glossgenius-2026w43",
@@ -7464,7 +7473,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 5
+   "rank": 9
   },
   {
    "id": "homebase-2026w43",
@@ -7486,7 +7495,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 6
+   "rank": 10
   },
   {
    "id": "impact-2026w43",
@@ -7508,7 +7517,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 7
+   "rank": 11
   },
   {
    "id": "hemlane-2026w43",
@@ -7530,7 +7539,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 8
+   "rank": 12
   },
   {
    "id": "flux-2026w43",
@@ -7552,7 +7561,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 9
+   "rank": 13
   },
   {
    "id": "cubesoftware-2026w43",
@@ -7574,7 +7583,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 10
+   "rank": 14
   },
   {
    "id": "bolster-2026w43",
@@ -7596,7 +7605,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 11
+   "rank": 15
   },
   {
    "id": "contracthero-2026w43",
@@ -7618,7 +7627,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 12
+   "rank": 16
   },
   {
    "id": "commpeak-2026w43",
@@ -7640,7 +7649,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 13
+   "rank": 17
   },
   {
    "id": "coderpad-2026w43",
@@ -7662,7 +7671,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 14
+   "rank": 18
   },
   {
    "id": "channel-2026w43",
@@ -7684,7 +7693,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 15
+   "rank": 19
   },
   {
    "id": "bird-2026w43",
@@ -7706,7 +7715,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 16
+   "rank": 20
   },
   {
    "id": "chargeflow-2026w43",
@@ -7728,7 +7737,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 17
+   "rank": 21
   },
   {
    "id": "casemark-2026w43",
@@ -7750,7 +7759,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 18
+   "rank": 22
   },
   {
    "id": "browserbase-2026w43",
@@ -7772,7 +7781,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 19
+   "rank": 23
   },
   {
    "id": "batomic-2026w43",
@@ -7794,7 +7803,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 20
+   "rank": 24
   },
   {
    "id": "apptile-2026w43",
@@ -7816,7 +7825,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 21
+   "rank": 25
   },
   {
    "id": "allstacks-2026w43",
@@ -7838,7 +7847,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 22
+   "rank": 26
   },
   {
    "id": "adapt-2026w43",
@@ -7860,7 +7869,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 23
+   "rank": 27
   },
   {
    "week": "2026-W41",
@@ -8219,6 +8228,409 @@
    "src": "PricingSaaS week 41 review",
    "url": "https://pricingsaas.com/news/article/luma-ai-doubles-video-to-video-credit-costs-on-seedance-adds-minimax-h3-max",
    "rank": 55
+  },
+  {
+   "id": "shopify-2026w43",
+   "week": "2026-W43",
+   "rank": 2,
+   "co": "Shopify",
+   "company": "shopify",
+   "tier": 1,
+   "group": "up",
+   "delta": "+13–20%",
+   "short": "Annual Grow shown at $89 instead of $79 and Advanced at $359 instead of $299 on Oct 15; back to $79 and $299 on Oct 16.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 1,
+   "magnitude": {
+    "low": 0,
+    "high": 20,
+    "basis": "list price"
+   },
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "15 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/shopify/diffs/2026W43",
+   "evidence": {
+    "report": "shopify:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/shopify__2026W43.txt",
+     "data/pricingsaas/pages/diffs/shopify__2026D288.txt",
+     "data/pricingsaas/pages/diffs/shopify__2026D289.txt",
+     "data/pricingsaas/pages/articles/shopify-raises-annual-grow-to-89-mo-advanced-to-359-mo.txt",
+     "data/pricingsaas/pages/articles/shopify-rewords-its-in-person-sales-pitch-adds-two-new-comparison-rows.txt",
+     "data/pricingsaas/pages/articles/shopify-s-grow-and-advanced-annual-prices-flip-back-to-79-and-299-a-day-after-a-hike.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/shopify/diffs/2026W43",
+     "https://pricingsaas.com/companies/shopify/diffs/2026D288",
+     "https://pricingsaas.com/companies/shopify/diffs/2026D289"
+    ]
+   },
+   "reported": true,
+   "plan": "Grow and Advanced, annual billing",
+   "deltaSub": "annual price, test reverted next day",
+   "headline": "Shopify showed higher annual Grow and Advanced prices for one day and then went back, which looks like a price test, not a decided rise.",
+   "rows": [
+    [
+     "Grow, per month billed annually",
+     "$79",
+     "$89"
+    ],
+    [
+     "Advanced, per month billed annually",
+     "$299",
+     "$359"
+    ],
+    [
+     "Grow / Advanced from Oct 16",
+     "$89 / $359",
+     "$79 / $299"
+    ]
+   ],
+   "who": "New merchants choosing annual billing on Grow or Advanced; monthly prices and Basic were unchanged.",
+   "stated": null,
+   "read": "Testing a rise only on annual billing suggests Shopify is checking whether committed merchants will accept a higher price. If one arm sticks, Advanced moves the most.",
+   "model": "Flat",
+   "modelBefore": "Flat",
+   "modelAfter": "Flat",
+   "appliesTo": "new",
+   "caveat": "PricingSaaS saw the higher prices in one capture only and reads the reversal as an A/B arm flipping back; the current page shows $79 and $299."
+  },
+  {
+   "id": "remote-2026w43",
+   "week": "2026-W43",
+   "rank": 28,
+   "co": "Remote",
+   "company": "remote",
+   "tier": 3,
+   "group": "down",
+   "delta": "−14%",
+   "short": "Employer of Record from $699 to $599 per employee a month; new 15% Remote for Startups discount, Social Purpose 15% discount removed.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "12 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/remote/diffs/2026W43",
+   "evidence": {
+    "report": "remote:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/remote__2026W43.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/remote/diffs/2026W43"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "precog-2026w43",
+   "week": "2026-W43",
+   "rank": 7,
+   "co": "Precog",
+   "company": "precog",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Credits → flat tiers",
+   "short": "Credits pricing replaced by flat annual tiers per source: Essentials $3,950, Business $13,500, SAP $22,000, Enterprise $27,000.",
+   "pattern": "New billing units",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "12 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/precog/diffs/2026W43",
+   "evidence": {
+    "report": "precog:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/precog__2026W43.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/precog/diffs/2026W43"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "hubspot-2026w44",
+   "week": "2026-W44",
+   "rank": 1,
+   "co": "HubSpot",
+   "company": "hubspot",
+   "tier": 1,
+   "group": "up",
+   "delta": "−85%",
+   "short": "Free plan email sends cut from 2,000 to 300 a month; Starter’s 5x-contact-tier send limit replaced by shared HubSpot Credits.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "23 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/hubspot/diffs/2026D296",
+   "evidence": {
+    "report": "hubspot:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/hubspot__2026D296.txt",
+     "data/pricingsaas/pages/articles/hubspot-cuts-free-plan-email-sends-from-2-000-to-300-shifts-starter-onto-shared-credits.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/hubspot/diffs/2026D296"
+    ]
+   },
+   "reported": true,
+   "plan": "Free and Starter",
+   "deltaSub": "Free plan email sends a month",
+   "headline": "HubSpot cut the Free plan’s monthly marketing email sends from 2,000 to 300 and moved Starter’s email sending onto its shared Credits pool.",
+   "rows": [
+    [
+     "Free, marketing email sends per month",
+     "2,000",
+     "300"
+    ],
+    [
+     "Starter, email send allowance",
+     "5x marketing contact tier email send limit/month",
+     "Draws on shared HubSpot Credits"
+    ]
+   ],
+   "who": "Free users who send marketing email, and Starter customers whose email sends now count against Credits.",
+   "stated": null,
+   "read": "Cutting free sends this hard makes the free plan a trial of email marketing rather than a usable tool, which pushes active senders to Starter. Putting Starter’s sends on Credits means email now competes with other credit-spending actions, so heavy senders may hit a wall sooner than a fixed cap suggested.",
+   "model": "Seat → Hybrid",
+   "modelBefore": "Seat",
+   "modelAfter": "Hybrid",
+   "appliesTo": "unknown",
+   "caveat": "The page doesn’t say how many Credits one email send uses, so the real Starter allowance can’t be compared with the old limit."
+  },
+  {
+   "id": "leadloft-2026w43",
+   "week": "2026-W43",
+   "rank": 8,
+   "co": "LeadLoft",
+   "company": "leadloft",
+   "tier": 3,
+   "group": "up",
+   "delta": "Unlimited → 300 credits",
+   "short": "Unlimited plan ($99) swaps Unlimited Prospecting for 300 Data Credits; Scale AI ($299) now lists $1,500 Data Credits.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "12 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/leadloft/diffs/2026W43",
+   "evidence": {
+    "report": "leadloft:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/leadloft__2026W43.txt",
+     "data/pricingsaas/pages/articles/hubspot-cuts-free-plan-email-sends-from-2-000-to-300-shifts-starter-onto-shared-credits.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/leadloft/diffs/2026W43"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "baseten-2026w44",
+   "week": "2026-W44",
+   "rank": 3,
+   "co": "Baseten",
+   "company": "baseten",
+   "tier": 3,
+   "group": "down",
+   "delta": "−69%",
+   "short": "Reflection Beam per 1M tokens: input $1.30 → $0.40, cached input $0.13 → $0.04, output $4.30 → $1.20.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "21 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/baseten/diffs/2026D295",
+   "evidence": {
+    "report": "baseten:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/baseten__2026D295.txt",
+     "data/pricingsaas/pages/diffs/baseten__2026D294.txt",
+     "data/pricingsaas/pages/articles/baseten-cuts-reflection-beam-rates-up-to-72-four-days-after-launch.txt",
+     "data/pricingsaas/pages/articles/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/baseten/diffs/2026D295",
+     "https://pricingsaas.com/companies/baseten/diffs/2026D294"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "bolt-2026w44",
+   "week": "2026-W44",
+   "rank": 2,
+   "co": "Bolt",
+   "company": "bolt",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Image editing cut",
+   "short": "Pro ($18) loses AI image editing but gains the newest AI models and Connectors/MCPs; Teams ($27) adds Priority support.",
+   "pattern": "Unbundling",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "20 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/bolt/diffs/2026D293",
+   "evidence": {
+    "report": "bolt:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/bolt__2026D293.txt",
+     "data/pricingsaas/pages/articles/bolt-pro-adds-the-newest-ai-models-and-mcps-drops-ai-image-editing.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/bolt/diffs/2026D293"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "xai-2026w43",
+   "week": "2026-W43",
+   "rank": 6,
+   "co": "xAI",
+   "company": "xai",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$8–$200",
+   "short": "SuperGrok lineup retired; new plans are Free, Plus $8, Premium $30, Super $100, Ultra $200 and Teams $30+/user, sized as 4x, 15x and 50x Plus usage.",
+   "pattern": "Bundling",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "13 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/xai/diffs/2026D286",
+   "evidence": {
+    "report": "xai:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/xai__2026D286.txt",
+     "data/pricingsaas/pages/articles/xai-retires-supergrok-rebuilds-grok-pricing-around-cursor-and-usage-multiples.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/xai/diffs/2026D286"
+    ]
+   },
+   "reported": true,
+   "plan": "Grok individual and Teams plans",
+   "deltaSub": "new monthly plan ladder",
+   "headline": "xAI retired its SuperGrok plans and rebuilt Grok pricing as a ladder from $8 to $200 a month, with Cursor coding tools bundled in.",
+   "rows": [
+    [
+     "Plan lineup",
+     "SuperGrok Lite, SuperGrok, SuperGrok Plus, SuperGrok Heavy, Business",
+     "Free, Plus, Premium, Super, Ultra, Teams"
+    ],
+    [
+     "Plus, per month",
+     "Not offered",
+     "$8"
+    ],
+    [
+     "Premium / Super / Ultra, per month",
+     "Not offered",
+     "$30 / $100 / $200"
+    ],
+    [
+     "Teams, per user per month",
+     "Not offered",
+     "$30+"
+    ],
+    [
+     "Usage above entry plan",
+     "Higher rate limits",
+     "4x / 15x / 50x Plus"
+    ]
+   ],
+   "who": "Every Grok subscriber: the old SuperGrok plans are gone, so existing subscribers land on or must choose one of the new tiers.",
+   "stated": null,
+   "read": "An $8 entry tier lowers the price of getting into paid Grok, while the 50x Ultra tier at $200 targets heavy coding-agent users. Bundling Cursor features into every tier suggests xAI wants to sell Grok as a coding subscription as much as a chatbot.",
+   "model": "Flat",
+   "modelBefore": "Flat",
+   "modelAfter": "Flat",
+   "appliesTo": "unknown",
+   "caveat": "The saved text doesn’t give the old SuperGrok prices, so the change for any one subscriber can’t be measured. PricingSaaS says the same lineup appears on Cursor’s pricing page."
+  },
+  {
+   "id": "pika-2026w43",
+   "week": "2026-W43",
+   "rank": 29,
+   "co": "Pika",
+   "company": "pika",
+   "tier": 3,
+   "group": "down",
+   "delta": "MCP allowed",
+   "short": "Top-up credits now usable with MCP; before, MCP was listed as unsupported alongside API, iOS app and old.pika.art.",
+   "pattern": "Limits loosen",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-12",
+   "seenLabel": "12–18 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pika/diffs/2026D292",
+   "evidence": {
+    "report": "pika:2026-W43",
+    "files": [
+     "data/pricingsaas/pages/diffs/pika__2026D292.txt",
+     "data/pricingsaas/pages/articles/pika-reopens-mcp-to-its-top-up-credits-a-month-after-shutting-it-out.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pika/diffs/2026D292"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
   }
  ],
  "categories": [
@@ -10791,6 +11203,86 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "shopify": {
+   "name": "Shopify",
+   "tier": 1,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "remote": {
+   "name": "Remote",
+   "tier": 3,
+   "category": "Workforce Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "precog": {
+   "name": "Precog",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "runway": {
+   "name": "Runway",
+   "tier": null,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "leadloft": {
+   "name": "LeadLoft",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "baseten": {
+   "name": "Baseten",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "bolt": {
+   "name": "Bolt",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "xai": {
+   "name": "xAI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -11117,6 +11609,86 @@
    "kind": "changed",
    "text": "First-year offer reworded: same $23.99 a month, now billed as 27% off the yearly rate instead of 40% off monthly.",
    "src": "PricingSaaS week 41"
+  },
+  {
+   "id": "together-ai-promo-2026w43",
+   "week": "2026-W43",
+   "company": "together-ai",
+   "co": "Together AI",
+   "kind": "ended",
+   "text": "Kimi K3 10% off ended: cached input back to $0.30 per 1M tokens from $0.27",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "openart-promo-2026w43",
+   "week": "2026-W43",
+   "company": "openart",
+   "co": "OpenArt",
+   "kind": "ended",
+   "text": "Up to 50% off Seedance, unlimited Flux 3 Image on Wonder, 30% off Nano Banana 2.1 and new-user 25% off ended Oct 14",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "synthesia-promo-2026w44",
+   "week": "2026-W44",
+   "company": "synthesia",
+   "co": "Synthesia",
+   "kind": "changed",
+   "text": "Syren launch credits (1 month) cut from 2,000 to 1,000 on Basic and 1,500 on Starter and Pro; Enterprise still 2,000 per user",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "krea-promo-2026w44",
+   "week": "2026-W44",
+   "company": "krea",
+   "co": "Krea",
+   "kind": "ended",
+   "text": "14 days of unlimited Krea 3 Fast with an annual Pro or Max purchase ended",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "krea-promo-2026w43",
+   "week": "2026-W43",
+   "company": "krea",
+   "co": "Krea",
+   "kind": "new",
+   "text": "14 days of unlimited Krea 3 fast generations (1K/2K) with an annual Pro or Max purchase",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "runway-promo-2026w44",
+   "week": "2026-W44",
+   "company": "runway",
+   "co": "Runway",
+   "kind": "ended",
+   "text": "Max plan’s unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode ended after October 18",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "intercom-promo-2026w44",
+   "week": "2026-W44",
+   "company": "intercom",
+   "co": "Intercom",
+   "kind": "new",
+   "text": "Essential $19 per seat a month instead of $29 for new customers (‘save 35%’); likely one arm of a live price test",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "runway-promo-2026w43",
+   "week": "2026-W43",
+   "company": "runway",
+   "co": "Runway",
+   "kind": "new",
+   "text": "Max plan: unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode until October 18",
+   "src": "PricingSaaS report",
+   "reported": true
   }
  ],
  "news": [

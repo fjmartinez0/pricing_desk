@@ -1,0 +1,58 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 20, 2026
+T
+Together
+PACKAGING CHANGE
+Together adds NVIDIA B200 post-training at $11/GPU/hr, $9 launch promo
+Together added a new Post-Training product to its pricing page: on-demand training infrastructure on NVIDIA HGX B200 GPUs, billed per minute, at $11.00/GPU/hr list with a launch promo price of $9.00/GPU/hr valid until 12/14/2026.
+See before and after
+Enlarge
+Together’s pricing page · Change Detected Oct 20, 2026
+WHY IT MATTERS
+The B200 post-training launch extends Together's infrastructure stack beyond serverless inference and fine-tuning into on-demand training compute, competing more directly with dedicated GPU-cloud providers on raw hardware access rather than managed model endpoints. Watch whether the $9.00 launch promo reverts to the $11.00 list price when it expires 12/14/2026, and whether Together keeps layering new hardware SKUs onto this page at its current pace.
+BY THE NUMBERS
+New Post-Training product: NVIDIA HGX B200 at $11.00/GPU/hr list, $9.00/GPU/hr promo through 12/14/2026
+Together's previous change, one day earlier, ended a free Muse Spark Open promo
+38 real pricing changes in the last 365 days, averaging one every 8 days
+Credits/usage-billing changes made up 12.1% of all tracked pricing changes in the last 180 days
+THEIR RATIONALE
+Together doesn't publish a stated rationale, but discounting a brand-new product's list price — $9.00 against an $11.00 list, valid until 12/14/2026 — is a familiar land-grab move: get usage on the books on new infrastructure before reverting to list price. Pairing the launch with another new model (DeepSeek V4.1 Flash 1017) on the same day fits Together's pattern of shipping GPU capacity and inference pricing together, as fast as the underlying hardware and model landscape moves.
+TRACK RECORD·38 changes since Dec 29, 2025·38 in the last 12 months·a change every ~8 days·previous change Oct 19, 2026 (1 day ago)
+THE SIGNAL
+Together ships on this page roughly every 8 days — 38 real changes in the last 365 days, 18 of them in just the last 90 — and 10 of its tracked changes, including this one, involved credits or usage-based billing. Index-wide, 241 of the 1,995 pricing changes tracked in the last 180 days (12.1%) involved credits or usage-based billing, with Pika, Ideogram and Mintlify the most frequent movers.
+CREDITS & USAGE BILLING·175 companies in the last 6 months·12.1% of 1,995 tracked changes·10× on Together's page·Pika most often (4)
+IN CONTEXT
+Together's pricing page rarely sits still: this B200 post-training launch lands one day after the company ended a free Muse Spark Open promo, and follows a run of serverless-rate tweaks — Reflection Beam added Oct 17, Kimi K3 cached pricing raised Oct 14, and Kimi K3 cut 10% while Qwen3.8 Flash rose Oct 6. Together averages a change about every 8 days; across the index, Pika, Ideogram and Mintlify make credits and usage-billing changes most often. Launching new hardware at a discount, then presumably reverting to list, is a familiar way to seed usage on new infrastructure before committing to it at full price.
+WHAT PEOPLE ARE SAYING
+@Shawkat_m1twitter
+That is Great deal:
+- you own the training loop, data, rewards, custom losses. We handle the GPUs, tuned rollout engines, and weight sync.
+- RL stays consistent between training and serving. Multiple LoRAs run in parallel on the same GPUs.
+- Train, compare adapters, deploy the winner, or download the weights.
+I’d take that deal 10 times 😀
+View original
+@tcv1991twitter
+I like how Together AI is literally getting into all aspects of AI development. With the newly launched post-training service. they’re truly covering the field, proving that focus is indeed not chic in this era
+View original
+@realSamKomotwitter
+SFT-as-a-service is a hosting problem. RL-as-a-service is a verifier problem. Once users define their own rewards, your job becomes stopping reward hacking at scale, not running rollouts. What guardrails do you ship: verifier templates, sandboxes, or caveat emptor?
+View original
+Questions about this change?
+The Pulse Agent has this change, Together's pricing history and its peers loaded — and answers from verified data.
+Why it mattersTogether's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from TogetherAll pricing news
+K
+Krea
+Krea ends 14-day unlimited Krea 3 Fast promo for annual Pro and Max buyers
+T
+Together
+Together adds Reflection Beam to serverless inference at $0.40 per 1M input tokens
+B
+Bolt
+Bolt lets Pro's free Bolt Forge promo lapse after the Oct 18 deadline

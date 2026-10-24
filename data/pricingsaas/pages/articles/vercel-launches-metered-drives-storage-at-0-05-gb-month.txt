@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 20, 2026
+V
+Vercel
+PACKAGING CHANGE
+Vercel launches metered Drives storage at $0.05/GB-month
+Vercel added a new "Vercel Drives" section to its pricing page, inserted between the existing Sandbox and Daemons rows, with its own metered pricing: Drive Storage at $0.05 per GB-month, Drive Reads at $0.0015 per GB, and Drive Writes at $0.004 per GB.
+See before and after
+Enlarge
+Vercel’s pricing page · Change Detected Oct 20, 2026
+WHY IT MATTERS
+As more of Vercel's platform becomes its own metered line item, the sticker price on a plan tells less of the story -- a team's real bill depends on how many of these primitives it touches. Watch whether the next changes keep splitting formerly-included resources into pay-per-unit add-ons, and whether the roughly 12-day cadence between changes keeps compressing.
+BY THE NUMBERS
+Drive Storage $0.05/GB-month, Reads $0.0015/GB, Writes $0.004/GB
+Launched 4 days after Vercel's Daemons billing (Oct 16, 2026)
+7th Vercel pricing change tied to credits & usage billing
+11 Vercel pricing changes in the last 90 days, ~12-day average cadence
+THEIR RATIONALE
+Vercel frames this as a new platform primitive rather than a change to existing prices, consistent with its recent pattern: this is the company's seventh pricing change tagged to credits and usage billing, and it landed just 4 days after the Daemons compute billing launch on Oct 16 -- well inside its usual roughly 12-day gap between changes, with 11 changes in the last 90 days. Storage is now billed the same metered way as compute, sandboxes and CDN.
+TRACK RECORD·23 changes since Dec 29, 2025·23 in the last 12 months·a change every ~12 days·previous change Oct 16, 2026 (4 days ago)
+THE SIGNAL
+This is Vercel's second usage-metered product in four days, following a run that includes Tracing Spans billing and the CDN overage rework in September. Each change adds its own per-unit meter rather than folding into existing plan prices, so the platform is accumulating separately billed primitives rather than consolidating them. Market-wide, 241 of the 1,995 pricing changes tracked in the last 180 days (12.1%), across 175 companies, involved credits and usage billing, so Vercel's shift fits a broader move toward consumption pricing -- though few peers are splitting a single platform into this many separately metered lines this fast.
+CREDITS & USAGE BILLING·175 companies in the last 6 months·12.1% of 1,995 tracked changes·7× on Vercel's page·Pika most often (4)
+IN CONTEXT
+Vercel Drives is the company's seventh credits-and-usage-billing change on record, and its second usage product in four days after Daemons launched at $0.128/hr Active CPU on Oct 16. The pattern traces back through Tracing Spans billing in September and the CDN overage rework, each adding its own per-unit meter rather than folding into existing plan prices. Vercel has now shipped 11 pricing changes in 90 days against a historical average gap of about 12 days between changes -- this one landed in just 4. Market-wide, 241 of the 1,995 pricing changes tracked in the last 180 days (12.1%), across 175 companies, involved credits and usage billing, so Vercel's shift fits a broader move toward consumption pricing, though few peers are splitting a single platform into this many separately metered lines.
+Questions about this change?
+The Pulse Agent has this change, Vercel's pricing history and its peers loaded — and answers from verified data.
+Why it mattersVercel's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from VercelAll pricing news
+H
+Heygen
+Heygen adds Voice TTS and Seedance 2.5 to Creator and Pro without raising prices
+T
+Tailscale
+Tailscale drops Premium support for SLA-backed Silver, Gold and Platinum tiers
+H
+HubSpot
+HubSpot cuts Free plan email sends from 2,000 to 300, shifts Starter onto shared Credits

@@ -1187,7 +1187,9 @@
    ],
    "article_files": [
     "data/pricingsaas/pages/articles/together-cuts-gpu-cluster-minimum-reservation-from-7-days-to-3-prices-hold.txt",
-    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt"
+    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt",
+    "data/pricingsaas/pages/articles/together-adds-reflection-beam-to-serverless-inference-at-0-40-per-1m-input-tokens.txt",
+    "data/pricingsaas/pages/articles/together-makes-muse-spark-open-free-through-oct-18-adds-nemotron-3-5-super-vl.txt"
    ],
    "title": "Together AI hikes Qwen3.8 Flash prices up to 68%, adds 10% off Kimi K3 promo — Oct 12, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
@@ -1530,14 +1532,18 @@
    "report_id": "cursor:2026-W43",
    "ps_slug": "cursor",
    "week": "2026-W43",
-   "change_date": null,
+   "change_date": "2026-10-13",
    "urls": [
-    "https://pricingsaas.com/companies/cursor/diffs/2026W43"
+    "https://pricingsaas.com/companies/cursor/diffs/2026W43",
+    "https://pricingsaas.com/companies/cursor/diffs/2026D286"
    ],
    "files": [
-    "data/pricingsaas/pages/diffs/cursor__2026W43.txt"
+    "data/pricingsaas/pages/diffs/cursor__2026W43.txt",
+    "data/pricingsaas/pages/diffs/cursor__2026D286.txt"
    ],
-   "article_files": [],
+   "article_files": [
+    "data/pricingsaas/pages/articles/cursor-rebuilds-its-pricing-around-grok-and-x-with-plans-from-8-to-200.txt"
+   ],
    "title": "Cursor rebuilds lineup around Grok/X bundle: Plus $8, Premium $30, Super $100; Teams cut to $30+ — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
    "status": "todo",
@@ -1554,23 +1560,77 @@
    "change_date": "2026-10-15",
    "urls": [
     "https://pricingsaas.com/companies/shopify/diffs/2026W43",
-    "https://pricingsaas.com/companies/shopify/diffs/2026D288"
+    "https://pricingsaas.com/companies/shopify/diffs/2026D288",
+    "https://pricingsaas.com/companies/shopify/diffs/2026D289"
    ],
    "files": [
     "data/pricingsaas/pages/diffs/shopify__2026W43.txt",
-    "data/pricingsaas/pages/diffs/shopify__2026D288.txt"
+    "data/pricingsaas/pages/diffs/shopify__2026D288.txt",
+    "data/pricingsaas/pages/diffs/shopify__2026D289.txt"
    ],
    "article_files": [
-    "data/pricingsaas/pages/articles/shopify-raises-annual-grow-to-89-mo-advanced-to-359-mo.txt"
+    "data/pricingsaas/pages/articles/shopify-raises-annual-grow-to-89-mo-advanced-to-359-mo.txt",
+    "data/pricingsaas/pages/articles/shopify-rewords-its-in-person-sales-pitch-adds-two-new-comparison-rows.txt",
+    "data/pricingsaas/pages/articles/shopify-s-grow-and-advanced-annual-prices-flip-back-to-79-and-299-a-day-after-a-hike.txt"
    ],
    "title": "Shopify Pricing: Free plan, from $29/mo | PricingSaaS",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "shopify",
+   "decision": {
+    "kind": "price_increase",
+    "why": "Annual Grow shown at $89 (was $79) and Advanced at $359 (was $299) on Oct 15, then back to $79 and $299 on Oct 16; looks like an A/B price test.",
+    "detail": "card",
+    "record": {
+     "plan": "Grow and Advanced, annual billing",
+     "group": "up",
+     "delta": "+13–20%",
+     "deltaSub": "annual price, test reverted next day",
+     "short": "Annual Grow shown at $89 instead of $79 and Advanced at $359 instead of $299 on Oct 15; back to $79 and $299 on Oct 16.",
+     "headline": "Shopify showed higher annual Grow and Advanced prices for one day and then went back, which looks like a price test, not a decided rise.",
+     "rows": [
+      [
+       "Grow, per month billed annually",
+       "$79",
+       "$89"
+      ],
+      [
+       "Advanced, per month billed annually",
+       "$299",
+       "$359"
+      ],
+      [
+       "Grow / Advanced from Oct 16",
+       "$89 / $359",
+       "$79 / $299"
+      ]
+     ],
+     "who": "New merchants choosing annual billing on Grow or Advanced; monthly prices and Basic were unchanged.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "Testing a rise only on annual billing suggests Shopify is checking whether committed merchants will accept a higher price. If one arm sticks, Advanced moves the most.",
+     "caveat": "PricingSaaS saw the higher prices in one capture only and reads the reversal as an A/B arm flipping back; the current page shows $79 and $299.",
+     "pattern": "Price increase",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "mid",
+     "reach": 1,
+     "model": "Flat",
+     "modelBefore": "Flat",
+     "modelAfter": "Flat",
+     "appliesTo": "new",
+     "magnitude": {
+      "low": 0,
+      "high": 20,
+      "basis": "list price"
+     }
+    },
+    "promo": null
+   },
+   "outcome": "added shopify-2026w43",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "fal:2026-W43",
@@ -1586,7 +1646,8 @@
     "data/pricingsaas/pages/diffs/fal__2026D289.txt"
    ],
    "article_files": [
-    "data/pricingsaas/pages/articles/fal-doubles-flux-3-image-edit-price-to-0-048-per-megapixel.txt"
+    "data/pricingsaas/pages/articles/fal-doubles-flux-3-image-edit-price-to-0-048-per-megapixel.txt",
+    "data/pricingsaas/pages/articles/fal-adds-flux-3-max-video-model-at-0-085-sec.txt"
    ],
    "title": "fal doubles Flux 3 Image edit price to $0.048 per megapixel — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
@@ -1604,23 +1665,45 @@
    "change_date": "2026-10-14",
    "urls": [
     "https://pricingsaas.com/companies/together/diffs/2026W43",
-    "https://pricingsaas.com/companies/together/diffs/2026D287"
+    "https://pricingsaas.com/companies/together/diffs/2026D287",
+    "https://pricingsaas.com/companies/together/diffs/2026D292",
+    "https://pricingsaas.com/companies/together/diffs/2026D290",
+    "https://pricingsaas.com/companies/together/diffs/2026D289"
    ],
    "files": [
     "data/pricingsaas/pages/diffs/together__2026W43.txt",
-    "data/pricingsaas/pages/diffs/together__2026D287.txt"
+    "data/pricingsaas/pages/diffs/together__2026D287.txt",
+    "data/pricingsaas/pages/diffs/together__2026D292.txt",
+    "data/pricingsaas/pages/diffs/together__2026D290.txt",
+    "data/pricingsaas/pages/diffs/together__2026D289.txt"
    ],
    "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-adds-nvidia-rtx-pro-6000-gpus-to-spaces-from-2-75-hr.txt",
+    "data/pricingsaas/pages/articles/krea-adds-14-days-of-unlimited-krea-3-to-pro-and-max-annual-plans.txt",
+    "data/pricingsaas/pages/articles/together-adds-nvidia-b200-post-training-at-11-gpu-hr-9-launch-promo.txt",
+    "data/pricingsaas/pages/articles/together-adds-reflection-beam-to-serverless-inference-at-0-40-per-1m-input-tokens.txt",
+    "data/pricingsaas/pages/articles/together-lets-its-brief-muse-spark-open-promo-expire-on-schedule.txt",
+    "data/pricingsaas/pages/articles/together-makes-muse-spark-open-free-through-oct-18-adds-nemotron-3-5-super-vl.txt",
     "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt"
    ],
    "title": "Together AI lists Muse Spark Open, Reflection Beam, Nemotron 3.5 Super VL — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "together-ai",
+   "decision": {
+    "kind": "promo",
+    "why": "Kimi K3 cached input back from $0.27 to $0.30 per 1M tokens as the 10%-off Kimi K3 promo ended (standard input/output already back at $3.00/$15.00); the week’s new models and the short Muse Spark Open free promo are new listings.",
+    "detail": "card",
+    "record": null,
+    "promo": {
+     "kind": "ended",
+     "text": "Kimi K3 10% off ended: cached input back to $0.30 per 1M tokens from $0.27"
+    }
+   },
+   "outcome": "promo together-ai-promo-2026w43",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "tailscale:2026-W43",
@@ -1640,12 +1723,19 @@
    ],
    "title": "Tailscale Pricing History: From $8/user/mo | PricingSaaS",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "tailscale",
+   "decision": {
+    "kind": "support",
+    "why": "Premium priority support and Enterprise professional services replaced by SLA-backed Silver, Gold and Platinum support packages; plan prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (support)",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "atlassian.bitbucket:2026-W43",
@@ -1724,12 +1814,19 @@
    "article_files": [],
    "title": "PagerDuty Incident: AI Actions quota revealed, 1,000-100,000/year by tier — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "pagerduty",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "AI Actions allowances shown as numbers for the first time (Starter 1,000 to Ultimate 100,000 per year), where the page had only an unquantified ‘AI actions’ bullet before.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "openart:2026-W43",
@@ -1749,12 +1846,22 @@
    ],
    "title": "OpenArt drops expired Seedance, Nano Banana and new-user promos — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "openart",
+   "decision": {
+    "kind": "promo",
+    "why": "Expired Oct 14 promos removed: up to 50% off Seedance and unlimited Flux 3 Image on Wonder, 30% off Nano Banana 2.1, and the new-user 25% first-month offer; the Flux 3 720p video promo runs to Oct 31.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "ended",
+     "text": "Up to 50% off Seedance, unlimited Flux 3 Image on Wonder, 30% off Nano Banana 2.1 and new-user 25% off ended Oct 14"
+    }
+   },
+   "outcome": "promo openart-promo-2026w43",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "remote:2026-W43",
@@ -1770,12 +1877,28 @@
    "article_files": [],
    "title": "Remote cuts Employer of Record price to $599, launches startup discount — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "remote",
+   "decision": {
+    "kind": "price_cut",
+    "why": "Employer of Record cut from $699 to $599 per employee/month; Remote for Startups 15% discount added and Social Purpose 15% discount removed.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "−14%",
+     "short": "Employer of Record from $699 to $599 per employee a month; new 15% Remote for Startups discount, Social Purpose 15% discount removed.",
+     "pattern": "Price cut",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added remote-2026w43",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "adapt:2026-W43",
@@ -1854,12 +1977,19 @@
    "article_files": [],
    "title": "GorillaDesk reveals $50/mo added-route fees across Basic, Pro, Growth plans — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "gorilladesk",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Added-route fees shown for the first time (Basic $50/mo routes 2–3, $30/mo route 4+; Pro/Growth $50/mo per route); before, they weren’t shown or were contact-sales.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "precog:2026-W43",
@@ -1875,12 +2005,28 @@
    "article_files": [],
    "title": "Precog ditches credits for public flat tiers, from $3,950 to $27,000 per source — Oct 19, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "precog",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Credits-based pricing replaced by four flat annual tiers per source instance: Essentials $3,950, Business $13,500, SAP $22,000, Enterprise $27,000.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Credits → flat tiers",
+     "short": "Credits pricing replaced by flat annual tiers per source: Essentials $3,950, Business $13,500, SAP $22,000, Enterprise $27,000.",
+     "pattern": "New billing units",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added precog-2026w43",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "approvalmax:2026-W43",
@@ -2173,7 +2319,8 @@
     "data/pricingsaas/pages/diffs/elevenlabs__2026D287.txt"
    ],
    "article_files": [
-    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt"
+    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt",
+    "data/pricingsaas/pages/articles/baseten-adds-deepseek-v4-1-flash-1017-at-0-30-1-20-per-1m-tokens.txt"
    ],
    "title": "ElevenLabs pulls Eleven v4 3x-credits promo for Creator+ after Oct 12 end — Oct 14, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
@@ -2196,16 +2343,24 @@
     "data/pricingsaas/pages/diffs/mintlify__2026D286.txt"
    ],
    "article_files": [
-    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt"
+    "data/pricingsaas/pages/articles/together-raises-kimi-k3-cached-input-price-to-0-30-per-1m-tokens.txt",
+    "data/pricingsaas/pages/articles/together-makes-muse-spark-open-free-through-oct-18-adds-nemotron-3-5-super-vl.txt"
    ],
    "title": "Mintlify swaps free credits for a 14-day Pro trial with 5,000 credits — Oct 13, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
-   "status": "todo",
-   "attempts": 0,
+   "status": "done",
+   "attempts": 1,
    "waits": 0,
-   "company": null,
-   "decision": null,
-   "outcome": null
+   "company": "mintlify",
+   "decision": {
+    "kind": "trial",
+    "why": "First month of free credits replaced by a 14-day no-card Pro trial with 5,000 credits; Starter stays free.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (trial)",
+   "decided_run": "2026-10-24T15"
   },
   {
    "report_id": "tailscale:2026-W42",
@@ -2272,6 +2427,1528 @@
     "data/pricingsaas/pages/articles/openart-ends-50-off-seedance-and-unlimited-flux-3-image-promos-on-wonder.txt"
    ],
    "title": "OpenArt Pro dropped from Seedance/Flux 3 promo; Wonder-only deal ends Oct 14 — Oct 9, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "synthesia:2026-W44",
+   "ps_slug": "synthesia",
+   "week": "2026-W44",
+   "change_date": "2026-10-22",
+   "urls": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D295"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/synthesia__2026D295.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/synthesia-cuts-syren-promo-credits-in-half-on-basic-by-a-quarter-on-starter-and-pro.txt"
+   ],
+   "title": "Synthesia cuts Syren promo credits to 1,000 on Basic and 1,500 on Starter and Pro — Oct 22, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "synthesia",
+   "decision": {
+    "kind": "promo",
+    "why": "Limited-time Syren promo credits cut from 2,000 to 1,000 on Basic and to 1,500 on Starter and Pro; Enterprise stays at 2,000 per user.",
+    "detail": "card",
+    "record": null,
+    "promo": {
+     "kind": "changed",
+     "text": "Syren launch credits (1 month) cut from 2,000 to 1,000 on Basic and 1,500 on Starter and Pro; Enterprise still 2,000 per user"
+    }
+   },
+   "outcome": "promo synthesia-promo-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "shopify:2026-W44",
+   "ps_slug": "shopify",
+   "week": "2026-W44",
+   "change_date": "2026-10-23",
+   "urls": [
+    "https://pricingsaas.com/companies/shopify/diffs/2026D296"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/shopify__2026D296.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/shopify-rewords-its-in-person-sales-pitch-adds-two-new-comparison-rows.txt"
+   ],
+   "title": "Shopify simplifies in-person sales messaging, adds plan comparison rows — Oct 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "shopify",
+   "decision": {
+    "kind": "wording",
+    "why": "In-person sales row reworded and two comparison rows (Customer profiles, Returns) added for all plans; no price or limit changed.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "lumaai:2026-W44",
+   "ps_slug": "lumaai",
+   "week": "2026-W44",
+   "change_date": "2026-10-23",
+   "urls": [
+    "https://pricingsaas.com/companies/lumaai/diffs/2026D296"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/lumaai__2026D296.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/hubspot-cuts-free-plan-email-sends-from-2-000-to-300-shifts-starter-onto-shared-credits.txt",
+    "data/pricingsaas/pages/articles/lumaai-adds-kling-4-0-and-kling-4-0-omni-to-its-api-model-pricing-table.txt"
+   ],
+   "title": "Luma AI adds Kling 4.0 API pricing, from 53 credits per second at 720p — Oct 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "lumaai",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Kling 4.0 and Kling 4.0 Omni added to the API video model price table (from 53 credits/sec at 720p); existing model prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "krea:2026-W44",
+   "ps_slug": "krea",
+   "week": "2026-W44",
+   "change_date": "2026-10-21",
+   "urls": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D296",
+    "https://pricingsaas.com/companies/krea/diffs/2026D294"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/krea__2026D296.txt",
+    "data/pricingsaas/pages/diffs/krea__2026D294.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-ends-14-day-unlimited-krea-3-fast-promo-for-annual-pro-and-max-buyers.txt",
+    "data/pricingsaas/pages/articles/krea-s-comparison-table-keeps-flipping-between-nodes-agent-and-recraft-v4-1-flash.txt"
+   ],
+   "title": "Krea ends 14-day unlimited Krea 3 Fast promo for annual Pro and Max buyers — Oct 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "krea",
+   "decision": {
+    "kind": "promo",
+    "why": "14-day unlimited Krea 3 Fast offer for annual Pro and Max buyers removed on Oct 23; the Oct 21 ‘Nodes Agent’ row removal is one side of a table row PricingSaaS sees flipping back and forth (likely a test), not a decided change.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "ended",
+     "text": "14 days of unlimited Krea 3 Fast with an annual Pro or Max purchase ended"
+    }
+   },
+   "outcome": "promo krea-promo-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "krea:2026-W43",
+   "ps_slug": "krea",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D289",
+    "https://pricingsaas.com/companies/krea/diffs/2026D292"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/krea__2026D289.txt",
+    "data/pricingsaas/pages/diffs/krea__2026D292.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-adds-14-days-of-unlimited-krea-3-to-pro-and-max-annual-plans.txt",
+    "data/pricingsaas/pages/articles/krea-ends-14-day-unlimited-krea-3-fast-promo-for-annual-pro-and-max-buyers.txt",
+    "data/pricingsaas/pages/articles/krea-s-comparison-table-keeps-flipping-between-nodes-agent-and-recraft-v4-1-flash.txt",
+    "data/pricingsaas/pages/articles/krea-s-pro-plan-nets-more-nano-banana-images-fewer-seedance-videos-for-the-same-compute.txt"
+   ],
+   "title": "Krea offers 14 days of unlimited Krea 3 with Pro or Max annual plans — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "krea",
+   "decision": {
+    "kind": "promo",
+    "why": "New limited-time offer: 14 days of unlimited Krea 3 fast generations with an annual Pro or Max purchase; the Oct 19 rewrite of allowance examples left compute units unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "14 days of unlimited Krea 3 fast generations (1K/2K) with an annual Pro or Max purchase"
+    }
+   },
+   "outcome": "promo krea-promo-2026w43",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "runwayml:2026-W44",
+   "ps_slug": "runwayml",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/runwayml__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-ends-14-day-unlimited-krea-3-fast-promo-for-annual-pro-and-max-buyers.txt",
+    "data/pricingsaas/pages/articles/runwayml-drops-max-plan-s-expired-unlimited-wan-3-0-promo-prices-hold.txt"
+   ],
+   "title": "Runway drops Max plan's expired Unlimited Wan 3.0 promo, prices hold — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "runway",
+   "decision": {
+    "kind": "promo",
+    "why": "Expired ‘Unlimited Wan 3.0 & Wan 3.0 Prime until October 18’ promo removed from the Max plan; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "ended",
+     "text": "Max plan’s unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode ended after October 18"
+    }
+   },
+   "outcome": "promo runway-promo-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "heygen:2026-W44",
+   "ps_slug": "heygen",
+   "week": "2026-W44",
+   "change_date": "2026-10-23",
+   "urls": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D296"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/heygen__2026D296.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/heygen-adds-voice-tts-and-seedance-2-5-to-creator-and-pro-without-raising-prices.txt"
+   ],
+   "title": "HeyGen adds Voice TTS and Seedance 2.5 to Creator and Pro, prices flat — Oct 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "heygen",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Creator and Pro gain HeyGen Voice text-to-speech and Pro moves to Seedance 2.5; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "hubspot:2026-W44",
+   "ps_slug": "hubspot",
+   "week": "2026-W44",
+   "change_date": "2026-10-23",
+   "urls": [
+    "https://pricingsaas.com/companies/hubspot/diffs/2026D296"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/hubspot__2026D296.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/hubspot-cuts-free-plan-email-sends-from-2-000-to-300-shifts-starter-onto-shared-credits.txt"
+   ],
+   "title": "HubSpot slashes free email sends from 2,000 to 300 monthly, overhauls Starter... — Oct 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "hubspot",
+   "decision": {
+    "kind": "free_plan",
+    "why": "Free plan’s email marketing sends cut from 2,000 to 300 a month; Starter email sends moved from a contact-tier-based limit onto shared HubSpot Credits.",
+    "detail": "card",
+    "record": {
+     "plan": "Free and Starter",
+     "group": "up",
+     "delta": "−85%",
+     "deltaSub": "Free plan email sends a month",
+     "short": "Free plan email sends cut from 2,000 to 300 a month; Starter’s 5x-contact-tier send limit replaced by shared HubSpot Credits.",
+     "headline": "HubSpot cut the Free plan’s monthly marketing email sends from 2,000 to 300 and moved Starter’s email sending onto its shared Credits pool.",
+     "rows": [
+      [
+       "Free, marketing email sends per month",
+       "2,000",
+       "300"
+      ],
+      [
+       "Starter, email send allowance",
+       "5x marketing contact tier email send limit/month",
+       "Draws on shared HubSpot Credits"
+      ]
+     ],
+     "who": "Free users who send marketing email, and Starter customers whose email sends now count against Credits.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "Cutting free sends this hard makes the free plan a trial of email marketing rather than a usable tool, which pushes active senders to Starter. Putting Starter’s sends on Credits means email now competes with other credit-spending actions, so heavy senders may hit a wall sooner than a fixed cap suggested.",
+     "caveat": "The page doesn’t say how many Credits one email send uses, so the real Starter allowance can’t be compared with the old limit.",
+     "pattern": "Limits tighten",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "free",
+     "reach": 2,
+     "model": "Seat → Hybrid",
+     "modelBefore": "Seat",
+     "modelAfter": "Hybrid",
+     "appliesTo": "unknown",
+     "magnitude": {
+      "low": -85,
+      "high": -85,
+      "basis": "allowance"
+     }
+    },
+    "promo": null
+   },
+   "outcome": "added hubspot-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "leadloft:2026-W43",
+   "ps_slug": "leadloft",
+   "week": "2026-W43",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/leadloft/diffs/2026W43"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/leadloft__2026W43.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/hubspot-cuts-free-plan-email-sends-from-2-000-to-300-shifts-starter-onto-shared-credits.txt"
+   ],
+   "title": "LeadLoft swaps Unlimited prospecting for 300 credits, adds AI Sales Agent — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "leadloft",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Unlimited plan swaps Unlimited Prospecting for 300 Data Credits and pay-per-use rows are now priced in Data Credits; LinkedIn/Email Automation replaced by AI Sales Agent and Outreach Automation.",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "Unlimited → 300 credits",
+     "short": "Unlimited plan ($99) swaps Unlimited Prospecting for 300 Data Credits; Scale AI ($299) now lists $1,500 Data Credits.",
+     "pattern": "Limits tighten",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "entry",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added leadloft-2026w43",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "fireflies:2026-W44",
+   "ps_slug": "fireflies",
+   "week": "2026-W44",
+   "change_date": "2026-10-22",
+   "urls": [
+    "https://pricingsaas.com/companies/fireflies/diffs/2026D295"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fireflies__2026D295.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fireflies-adds-iso-42001-ai-certification-and-extends-hipaa-to-cover-ferpa.txt"
+   ],
+   "title": "Fireflies.ai adds ISO 42001 AI certification, expands HIPAA to cover FERPA — Oct 22, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "fireflies-ai",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Security section adds ISO 42001 certification and widens the HIPAA item to HIPAA & FERPA (Enterprise with Private Storage); compliance copy, no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "baseten:2026-W44",
+   "ps_slug": "baseten",
+   "week": "2026-W44",
+   "change_date": "2026-10-21",
+   "urls": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D295",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D294"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/baseten__2026D295.txt",
+    "data/pricingsaas/pages/diffs/baseten__2026D294.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-cuts-reflection-beam-rates-up-to-72-four-days-after-launch.txt",
+    "data/pricingsaas/pages/articles/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet.txt"
+   ],
+   "title": "Baseten adds elephant-1 and mammoth-1 models from Base Labs, pricing TBD — Oct 22, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "baseten",
+   "decision": {
+    "kind": "price_cut",
+    "why": "Reflection Beam Model API rates cut four days after launch: input $1.30 → $0.40, cached input $0.13 → $0.04, output $4.30 → $1.20 per 1M tokens (the Oct 22 unpriced elephant-1/mammoth-1 listings are new models only).",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "−69%",
+     "short": "Reflection Beam per 1M tokens: input $1.30 → $0.40, cached input $0.13 → $0.04, output $4.30 → $1.20.",
+     "pattern": "Price cut",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added baseten-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "baseten:2026-W43",
+   "ps_slug": "baseten",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D291",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D290",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/baseten__2026D291.txt",
+    "data/pricingsaas/pages/diffs/baseten__2026D290.txt",
+    "data/pricingsaas/pages/diffs/baseten__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-adds-deepseek-v4-1-flash-1017-at-0-30-1-20-per-1m-tokens.txt",
+    "data/pricingsaas/pages/articles/baseten-adds-nemotron-3-5-super-vl-at-0-20-per-1m-input-tokens.txt",
+    "data/pricingsaas/pages/articles/baseten-adds-reflection-beam-and-meta-muse-spark-open-a-day-after-its-last-model.txt",
+    "data/pricingsaas/pages/articles/baseten-cuts-reflection-beam-rates-up-to-72-four-days-after-launch.txt",
+    "data/pricingsaas/pages/articles/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet.txt"
+   ],
+   "title": "Baseten adds DeepSeek V4.1 Flash 1017 at $0.30 input, $1.20 output per 1M tokens — Oct 18, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "fal:2026-W44",
+   "ps_slug": "fal",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/fal/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fal__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet.txt",
+    "data/pricingsaas/pages/articles/fal-adds-flux-3-max-video-model-at-0-085-sec.txt"
+   ],
+   "title": "fal adds FLUX 3 Max video model at $0.085/sec — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "fal",
+   "decision": {
+    "kind": "new_feature",
+    "why": "FLUX 3 Max video ($0.085/sec) and new audio models added to the Model API tables, which now list more models; some ElevenLabs rows left the featured list, no existing price changed.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "intercom:2026-W44",
+   "ps_slug": "intercom",
+   "week": "2026-W44",
+   "change_date": "2026-10-21",
+   "urls": [
+    "https://pricingsaas.com/companies/intercom/diffs/2026D294"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/intercom__2026D294.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/intercom-s-19-essential-seat-price-is-one-arm-of-a-live-pricing-test.txt"
+   ],
+   "title": "Intercom offers new customers 35% off Essential, cutting seats to $19 — Oct 21, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "intercom",
+   "decision": {
+    "kind": "promo",
+    "why": "Essential seat shown as $29 struck through to $19 with ‘New customers save 35%’; PricingSaaS sees test-targeting markup, so this looks like the $19 arm of the ongoing Essential price test.",
+    "detail": "card",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Essential $19 per seat a month instead of $29 for new customers (‘save 35%’); likely one arm of a live price test"
+    }
+   },
+   "outcome": "promo intercom-promo-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "intercom:2026-W43",
+   "ps_slug": "intercom",
+   "week": "2026-W43",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/intercom/diffs/2026W43"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/intercom__2026W43.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/intercom-s-19-essential-seat-price-is-one-arm-of-a-live-pricing-test.txt"
+   ],
+   "title": "Intercom drops Fin Million Dollar Guarantee and 90-day money-back pledge — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "intercom",
+   "decision": {
+    "kind": "wording",
+    "why": "Fin Million Dollar Guarantee badge and 90-day money-back copy removed from the pricing hero; no price or plan change.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "hemlane:2026-W43",
+   "ps_slug": "hemlane",
+   "week": "2026-W43",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/hemlane/diffs/2026W43"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/hemlane__2026W43.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-s-comparison-table-keeps-flipping-between-nodes-agent-and-recraft-v4-1-flash.txt"
+   ],
+   "title": "Hemlane cuts local leasing network access from $86/mo Complete plan — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "hemlane",
+   "decision": {
+    "kind": "duplicate",
+    "why": "Removal of local leasing network access from the Complete plan is already recorded as hemlane-2026w43.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "wisprflow:2026-W44",
+   "ps_slug": "wisprflow",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/wisprflow/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/wisprflow__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/wisprflow-swaps-its-1-000-word-mobile-dictation-cap-for-vague-wording.txt"
+   ],
+   "title": "Wispr Flow hides mobile dictation cap, swaps 1,000-word free limit for vague w... — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "wispr-flow",
+   "decision": {
+    "kind": "price_hidden",
+    "why": "Free plan’s mobile dictation cap no longer shows the 1,000 words/week figure, only ‘Limited weekly use’; the page doesn’t say whether the limit itself changed.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_hidden)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "slack:2026-W44",
+   "ps_slug": "slack",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/slack-launches-a-frontline-teams-add-on-for-enterprise-field-workers.txt"
+   ],
+   "title": "Slack: Frontline teams add-on launched for Enterprise+ field workers — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "slack",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New ‘Frontline teams’ add-on for Enterprise+ field workers, no price shown; existing plan prices unchanged.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "slack:2026-W43",
+   "ps_slug": "slack",
+   "week": "2026-W43",
+   "change_date": "2026-10-14",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D287"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D287.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/slack-launches-a-frontline-teams-add-on-for-enterprise-field-workers.txt"
+   ],
+   "title": "Slack: Enterprise+ now shows a public price of $45 USD per user/month (billed annually) instead of 'Contact sales… — Oct 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "slack",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Enterprise+ shows $45 per user/month instead of ‘Contact sales’, one more flip in a pattern PricingSaaS reads as a live test (hidden again on Oct 19).",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "runwayml:2026-W43",
+   "ps_slug": "runwayml",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/runwayml__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/runwayml-drops-max-plan-s-expired-unlimited-wan-3-0-promo-prices-hold.txt"
+   ],
+   "title": "Runway Max plan adds Unlimited Wan 3.0 and Wan 3.0 Prime until October 18 — Oct 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "runway",
+   "decision": {
+    "kind": "promo",
+    "why": "Max plan adds unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode until October 18.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Max plan: unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode until October 18"
+    }
+   },
+   "outcome": "promo runway-promo-2026w43",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "together:2026-W44",
+   "ps_slug": "together",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/together/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/together__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/together-adds-nvidia-b200-post-training-at-11-gpu-hr-9-launch-promo.txt"
+   ],
+   "title": "Together AI adds NVIDIA B200 post-training at $11/GPU/hr, $9 launch promo — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "together-ai",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New Post-Training product on NVIDIA HGX B200 ($11.00/GPU/hr list, $9.00 launch price until 12/14/2026) and new model DeepSeek V4.1 Flash 1017 added; no existing price changed.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "bolt:2026-W44",
+   "ps_slug": "bolt",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/bolt/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/bolt__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/bolt-pro-adds-the-newest-ai-models-and-mcps-drops-ai-image-editing.txt"
+   ],
+   "title": "Bolt Pro adds newest AI models and MCPs, drops AI image editing — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "bolt",
+   "decision": {
+    "kind": "feature_move",
+    "why": "Pro drops ‘Image editing with AI’ while adding newest AI models and Connectors/MCPs; Teams adds Priority support; prices unchanged.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Image editing cut",
+     "short": "Pro ($18) loses AI image editing but gains the newest AI models and Connectors/MCPs; Teams ($27) adds Priority support.",
+     "pattern": "Unbundling",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added bolt-2026w44",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "bolt:2026-W43",
+   "ps_slug": "bolt",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/bolt/diffs/2026D292",
+    "https://pricingsaas.com/companies/bolt/diffs/2026D289",
+    "https://pricingsaas.com/companies/bolt/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/bolt__2026D292.txt",
+    "data/pricingsaas/pages/diffs/bolt__2026D289.txt",
+    "data/pricingsaas/pages/diffs/bolt__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/bolt-extends-free-forge-promo-on-pro-through-oct-18.txt",
+    "data/pricingsaas/pages/articles/bolt-lets-pro-s-free-bolt-forge-promo-lapse-after-the-oct-18-deadline.txt",
+    "data/pricingsaas/pages/articles/bolt-pro-adds-the-newest-ai-models-and-mcps-drops-ai-image-editing.txt",
+    "data/pricingsaas/pages/articles/krea-adds-14-days-of-unlimited-krea-3-to-pro-and-max-annual-plans.txt"
+   ],
+   "title": "Bolt ends Pro plan's free Bolt Forge promo as Oct 18 deadline passes — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "vercel:2026-W44",
+   "ps_slug": "vercel",
+   "week": "2026-W44",
+   "change_date": "2026-10-20",
+   "urls": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026D293"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vercel__2026D293.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/vercel-launches-metered-drives-storage-at-0-05-gb-month.txt"
+   ],
+   "title": "Vercel: Vercel Drives storage launched at $0.05/GB-month, metered reads/writes — Oct 20, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "vercel",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New Vercel Drives storage product added with its own meters ($0.05/GB-month storage, $0.0015/GB reads, $0.004/GB writes); no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "vercel:2026-W43",
+   "ps_slug": "vercel",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vercel__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/vercel-adds-usage-based-daemons-billing-at-0-128-hour-active-cpu.txt",
+    "data/pricingsaas/pages/articles/vercel-launches-metered-drives-storage-at-0-05-gb-month.txt"
+   ],
+   "title": "Vercel launches usage-based Daemons billing at $0.128/hr Active CPU — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "vercel",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New Vercel Daemons product with its own meters (Active CPU $0.128/hr, Provisioned Memory $0.0212/GB-hr, with included amounts); no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "xai:2026-W43",
+   "ps_slug": "xai",
+   "week": "2026-W43",
+   "change_date": "2026-10-13",
+   "urls": [
+    "https://pricingsaas.com/companies/xai/diffs/2026D286"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/xai__2026D286.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/xai-retires-supergrok-rebuilds-grok-pricing-around-cursor-and-usage-multiples.txt"
+   ],
+   "title": "xAI rebuilds Grok plans: Plus $8 to Ultra $200, adds Cursor integration — Oct 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "xai",
+   "decision": {
+    "kind": "plan_change",
+    "why": "SuperGrok Lite/SuperGrok/Plus/Heavy/Business lineup replaced by Free, Plus $8, Premium $30, Super $100, Ultra $200 and Teams $30+/user, with Cursor tools bundled and tiers framed as usage multiples.",
+    "detail": "card",
+    "record": {
+     "plan": "Grok individual and Teams plans",
+     "group": "pack",
+     "delta": "$8–$200",
+     "deltaSub": "new monthly plan ladder",
+     "short": "SuperGrok lineup retired; new plans are Free, Plus $8, Premium $30, Super $100, Ultra $200 and Teams $30+/user, sized as 4x, 15x and 50x Plus usage.",
+     "headline": "xAI retired its SuperGrok plans and rebuilt Grok pricing as a ladder from $8 to $200 a month, with Cursor coding tools bundled in.",
+     "rows": [
+      [
+       "Plan lineup",
+       "SuperGrok Lite, SuperGrok, SuperGrok Plus, SuperGrok Heavy, Business",
+       "Free, Plus, Premium, Super, Ultra, Teams"
+      ],
+      [
+       "Plus, per month",
+       "Not offered",
+       "$8"
+      ],
+      [
+       "Premium / Super / Ultra, per month",
+       "Not offered",
+       "$30 / $100 / $200"
+      ],
+      [
+       "Teams, per user per month",
+       "Not offered",
+       "$30+"
+      ],
+      [
+       "Usage above entry plan",
+       "Higher rate limits",
+       "4x / 15x / 50x Plus"
+      ]
+     ],
+     "who": "Every Grok subscriber: the old SuperGrok plans are gone, so existing subscribers land on or must choose one of the new tiers.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "An $8 entry tier lowers the price of getting into paid Grok, while the 50x Ultra tier at $200 targets heavy coding-agent users. Bundling Cursor features into every tier suggests xAI wants to sell Grok as a coding subscription as much as a chatbot.",
+     "caveat": "The saved text doesn’t give the old SuperGrok prices, so the change for any one subscriber can’t be measured. PricingSaaS says the same lineup appears on Cursor’s pricing page.",
+     "pattern": "Bundling",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3,
+     "model": "Flat",
+     "modelBefore": "Flat",
+     "modelAfter": "Flat",
+     "appliesTo": "unknown",
+     "magnitude": null
+    },
+    "promo": null
+   },
+   "outcome": "added xai-2026w43",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "bird:2026-W43",
+   "ps_slug": "bird",
+   "week": "2026-W43",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/bird/diffs/2026W43"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/bird__2026W43.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/xai-retires-supergrok-rebuilds-grok-pricing-around-cursor-and-usage-multiples.txt"
+   ],
+   "title": "Bird moves to wallet billing; Apple Messages $100/mo, Email from $15/mo — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "pika:2026-W43",
+   "ps_slug": "pika",
+   "week": "2026-W43",
+   "change_date": "2026-10-19",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D292"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D292.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-reopens-mcp-to-its-top-up-credits-a-month-after-shutting-it-out.txt"
+   ],
+   "title": "Pika top-up credits now work with MCP, ending a key limitation — Oct 19, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "pika",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Top-up credits can now be used with MCP; before, the page said MCP was excluded alongside API, iOS app and old.pika.art.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "MCP allowed",
+     "short": "Top-up credits now usable with MCP; before, MCP was listed as unsupported alongside API, iOS app and old.pika.art.",
+     "pattern": "Limits loosen",
+     "seg": "B2C",
+     "ai": true,
+     "planLevel": "add-on",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added pika-2026w43",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "atlassian.jira:2026-W43",
+   "ps_slug": "atlassian.jira",
+   "week": "2026-W43",
+   "change_date": "2026-10-14",
+   "urls": [
+    "https://pricingsaas.com/companies/atlassian.jira/diffs/2026D287"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/atlassian.jira__2026D287.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/atlassian-raises-jira-cloud-prices-7-standard-climbs-to-8-48-per-user.txt"
+   ],
+   "title": "Atlassian Jira raises Cloud Standard and Premium prices about 7% for large teams — Oct 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "replit:2026-W43",
+   "ps_slug": "replit",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/replit/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/replit__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/atlassian-raises-jira-cloud-prices-7-standard-climbs-to-8-48-per-user.txt",
+    "data/pricingsaas/pages/articles/replit-adds-scim-audit-logs-to-enterprise-drops-static-outbound-ips.txt"
+   ],
+   "title": "Replit adds SCIM, audit logs to Enterprise, drops static outbound IPs — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "replit",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Enterprise feature list reworked: adds SCIM, audit logs, private networking; ‘custom seat limits’ and ‘static outbound IPs’ bullets dropped, possibly covered by ‘private networking’; Enterprise stays contact-sales, no price change.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "figma:2026-W43",
+   "ps_slug": "figma",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/figma/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/figma__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/atlassian-raises-jira-cloud-prices-7-standard-climbs-to-8-48-per-user.txt",
+    "data/pricingsaas/pages/articles/figma-launches-specs-in-beta-for-full-dev-and-collab-seats.txt"
+   ],
+   "title": "Figma debuts Specs in beta, bundled with Full, Dev and Collab seats — Oct 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "anthropic:2026-W42",
+   "ps_slug": "anthropic",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/anthropic/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/anthropic__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-adds-deepseek-v4-1-flash-1017-at-0-30-1-20-per-1m-tokens.txt"
+   ],
+   "title": "Anthropic gives Max subscribers monthly API credits, up to $200 — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "fireworks:2026-W43",
+   "ps_slug": "fireworks",
+   "week": "2026-W43",
+   "change_date": "2026-10-17",
+   "urls": [
+    "https://pricingsaas.com/companies/fireworks/diffs/2026D290"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fireworks__2026D290.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fireworks-expands-serverless-training-with-muse-spark-open-and-deepseek-v4-1-flash.txt"
+   ],
+   "title": "Fireworks adds Muse Spark Open, DeepSeek V4.1 Flash to Serverless Training — Oct 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "deepseek:2026-W43",
+   "ps_slug": "deepseek",
+   "week": "2026-W43",
+   "change_date": "2026-10-17",
+   "urls": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026D290"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/deepseek__2026D290.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/deepseek-adds-pay-per-request-search-and-fetch-apis-at-0-75-per-1-000-calls.txt"
+   ],
+   "title": "DeepSeek launches Search and Fetch APIs at $0.75 per 1,000 requests — Oct 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "github:2026-W43",
+   "ps_slug": "github",
+   "week": "2026-W43",
+   "change_date": "2026-10-17",
+   "urls": [
+    "https://pricingsaas.com/companies/github/diffs/2026D290"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/github__2026D290.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/github-adds-usage-based-ai-secret-detection-to-push-protection.txt"
+   ],
+   "title": "GitHub adds usage-based AI detection for push protection to Secret Protection — Oct 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "mindsdb:2026-W43",
+   "ps_slug": "mindsdb",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D289",
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mindsdb__2026D289.txt",
+    "data/pricingsaas/pages/diffs/mindsdb__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-adds-nvidia-rtx-pro-6000-gpus-to-spaces-from-2-75-hr.txt",
+    "data/pricingsaas/pages/articles/mindsdb-adds-gemini-4-argon-pricing-at-2-input-10-output-per-million.txt",
+    "data/pricingsaas/pages/articles/mindsdb-adds-meta-s-muse-wonder-1-0-to-its-rate-card-at-4-input-20-output.txt"
+   ],
+   "title": "MindsDB adds Gemini 4 Argon pricing at $2 input, $10 output per million — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "mindsdb",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New models added to the rate card: Muse Wonder 1.0 ($4/$20 per 1M) and Gemini 4 Argon ($2/$10 per 1M); existing rates unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "mindsdb:2026-W42",
+   "ps_slug": "mindsdb",
+   "week": "2026-W42",
+   "change_date": "2026-10-12",
+   "urls": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D285"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mindsdb__2026D285.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mindsdb-adds-gemini-4-argon-pricing-at-2-input-10-output-per-million.txt",
+    "data/pricingsaas/pages/articles/mindsdb-adds-meta-s-muse-wonder-1-0-to-its-rate-card-at-4-input-20-output.txt"
+   ],
+   "title": "MindsDB replaces plan-less rate card with Free and Pay-as-you-go tiers — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "huggingface:2026-W43",
+   "ps_slug": "huggingface",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/huggingface/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/huggingface__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-adds-nvidia-rtx-pro-6000-gpus-to-spaces-from-2-75-hr.txt"
+   ],
+   "title": "Huggingface adds Nvidia RTX PRO 6000 GPUs to Spaces from $2.75/hr — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "hugging-face",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Nvidia RTX PRO 6000 GPU options (1x–8x, $2.75–$22.00/hr) added to Spaces hardware; existing rates unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "huggingface:2026-W42",
+   "ps_slug": "huggingface",
+   "week": "2026-W42",
+   "change_date": "2026-10-08",
+   "urls": [
+    "https://pricingsaas.com/companies/huggingface/diffs/2026D281"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/huggingface__2026D281.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-adds-nvidia-rtx-pro-6000-gpus-to-spaces-from-2-75-hr.txt"
+   ],
+   "title": "Huggingface swaps PRO's 20x inference multiplier for a flat $2 monthly credit — Oct 8, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "airbyte:2026-W42",
+   "ps_slug": "airbyte",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/airbyte/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/airbyte__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/together-makes-muse-spark-open-free-through-oct-18-adds-nemotron-3-5-super-vl.txt"
+   ],
+   "title": "Airbyte cuts free trial from 30 to 14 days, keeps 400 credits — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "clay:2026-W43",
+   "ps_slug": "clay",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/clay/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/clay__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/clay-expands-enterprise-plan-with-scim-ip-allowlists-and-user-groups.txt"
+   ],
+   "title": "Clay expands Enterprise plan with SCIM, IP allowlists and user groups — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "gitlab:2026-W43",
+   "ps_slug": "gitlab",
+   "week": "2026-W43",
+   "change_date": "2026-10-16",
+   "urls": [
+    "https://pricingsaas.com/companies/gitlab/diffs/2026D289"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/gitlab__2026D289.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/gitlab-brings-secrets-manager-to-self-managed-dedicated-still-pending.txt"
+   ],
+   "title": "GitLab brings Secrets Manager to Self-Managed, Dedicated still pending — Oct 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "gitlab",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Secrets Manager availability widened from GitLab.com to GitLab.com and Self-Managed; Dedicated still coming soon; no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "krea:2026-W42",
+   "ps_slug": "krea",
+   "week": "2026-W42",
+   "change_date": "2026-10-07",
+   "urls": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D280"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/krea__2026D280.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-adds-14-days-of-unlimited-krea-3-to-pro-and-max-annual-plans.txt"
+   ],
+   "title": "Krea Pricing History: Free plan, from $5/mo | PricingSaaS",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "ideogram:2026-W43",
+   "ps_slug": "ideogram",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/ideogram/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/ideogram__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/ideogram-upgrades-plus-s-generation-queue-from-large-to-larger-lists-every-model-across-plans.txt"
+   ],
+   "title": "Ideogram lists all image and video models, unlimited character consistency — Oct 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "ideogram",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Plan cards now list all image and video models and an Apps & API section; Plus queue relabelled Large → Larger and Team ‘Minimum 2 users’ note removed; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "mercury:2026-W43",
+   "ps_slug": "mercury",
+   "week": "2026-W43",
+   "change_date": "2026-10-15",
+   "urls": [
+    "https://pricingsaas.com/companies/mercury/diffs/2026D288"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mercury__2026D288.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mercury-adds-free-priority-support-to-its-plus-and-pro-plans.txt"
+   ],
+   "title": "Mercury adds Priority Support to Plus and Pro plans at no extra cost — Oct 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "done",
+   "attempts": 1,
+   "waits": 0,
+   "company": "mercury",
+   "decision": {
+    "kind": "support",
+    "why": "Priority Support added as an included feature on Plus and Pro; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (support)",
+   "decided_run": "2026-10-24T15"
+  },
+  {
+   "report_id": "figma:2026-W42",
+   "ps_slug": "figma",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/figma/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/figma__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/figma-launches-specs-in-beta-for-full-dev-and-collab-seats.txt"
+   ],
+   "title": "Figma agent exits beta, ending free ride as AI credit charges now apply — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "chameleon:2026-W42",
+   "ps_slug": "chameleon",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/chameleon/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/chameleon__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/figma-launches-specs-in-beta-for-full-dev-and-collab-seats.txt"
+   ],
+   "title": "Chameleon drops beta tag from its Compass and Prism AI agents — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "heymarket:2026-W42",
+   "ps_slug": "heymarket",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/heymarket/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/heymarket__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/figma-launches-specs-in-beta-for-full-dev-and-collab-seats.txt"
+   ],
+   "title": "Heymarket drops BETA tag from AI Agents Q&A, scheduling, enrichment — Oct 12, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-10-24T15",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "protopie:2026-W42",
+   "ps_slug": "protopie",
+   "week": "2026-W42",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/protopie/diffs/2026W42"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/protopie__2026W42.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/figma-launches-specs-in-beta-for-full-dev-and-collab-seats.txt"
+   ],
+   "title": "ProtoPie splits MCP into Core and Enterprise tiers, drops Beta label — Oct 12, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-10-24T15",
    "status": "todo",
    "attempts": 0,

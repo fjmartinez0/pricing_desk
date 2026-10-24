@@ -1,0 +1,853 @@
+=== https://telnyx.com/pricing ===
+Home
+Products
+Solutions
+Pricing
+Why Telnyx
+Resources
+Developers
+Contact salesLog in
+Sign up
+Contact salesLog in
+Sign up
+Home/Pricing
+Pay for what you use.
+Usage based rates on every product, published in full. Start at zero, move to volume pricing when usage makes it worth it.
+Sign upCompare plans
+Buying as an agent? Pay per request at x402.telnyx.com
+AI
+Voice intelligence built into the carrier network.
+Voice AI Agents
+Orchestration, speech to text and text to speech in one rate.
+from $0.05 per minute
+Text to Speech
+Native and partner voices, priced per character.
+from $0.000003 per character
+Speech to Text
+Real time transcription on the network, per minute of audio.
+from $0.0015 per minute
+Communications
+Voice, messaging, email and numbers. Pay per unit of use.
+Voice API
+Pay per minute, outbound and inbound.
+from $0.002 per minute
+SIP Trunking
+Per minute rates, charged only on what you use.
+from $0.0032 per minute
+Messaging
+SMS and MMS, priced per message part.
+from $0.004 per message
+WhatsApp
+Inbound and outbound WhatsApp calling on your Telnyx number.
+from $0.0025 per minute
+Email API
+Transactional email with volume based tiers.
+from $0.30 per 1,000 emails
+Fax API
+Programmable fax, priced per page.
+from $0.007 per page
+Numbers
+Local, national and toll free numbers.
+from $1 per month
+Identity
+Verification and trust signals, priced per event.
+Verify API
+2FA and OTP. Channel delivery billed separately.
+$0.03 per successful verification
+Number Lookup
+LRN, carrier and CNAM data per query.
+from $0.0015 per query
+Branded Calling
+Your name, logo and call reason on outgoing calls.
+$0.075 per call
+Network
+Connectivity from the SIM to the backbone.
+IoT SIM
+Global IoT data, pay as you go or volume based.
+from $0.01 per MB
+Mobile Voice
+Programmable mobile voice for AI agent deployments.
+from $5 per SIM per month
+Networking
+Programmable networking and cloud interconnects.
+from $100 per month
+Global Edge Router
+Pay as you go or volume based routing to the private backbone.
+from $5 per month
+Edge
+Inference and storage where the network already runs.
+Inference
+OpenAI compatible API across open source models.
+from $0.130 per 1M tokens
+Cloud Storage
+Distributed object storage, no egress surprise.
+from $0.006 per GiB per month
+Plans
+Every rate above, three ways to pay.
+The rates are the same product to product. Plans change the discounts, not the catalogue.
+Pay as you go
+$0per month minimum
+Every product on this page at the published rate, with no minimum spend.
+Sign up
+Growth
+$2,000per month minimum
+15% off Voice, Messaging and Numbers, plus automatic volume discounts as usage grows. Other products stay at published rates.
+Choose your plan
+Enterprise
+$5,000per month minimum
+Custom contracts, custom rates and dedicated support at volume.
+Talk to sales
+Start at zero. Scale on the same rates.
+Sign up and every rate on this page is live in your account the same day.
+Sign upTalk to an expert
+Start building
+Ask AI
+
+=== https://telnyx.com/pricing/voice-api ===
+Home
+Products
+Solutions
+Pricing
+Why Telnyx
+Resources
+Developers
+Contact salesLog in
+Sign up
+Contact salesLog in
+Sign up
+COMMUNICATIONS
+Voice API Pricing
+$0.002 a minute. The network underneath comes free. Two lines on the bill: the API and the SIP trunk it rides. Both published, neither marked up, because the carrier and the API are one company. Every feature is a separate primitive at its own rate.
+SIGN UP FOR FREEGET VOLUME RATE
+$0.002per min
+$0platform fee
+$0support · HIPAA
+5 minto first call
+EXAMPLE OF MONTHLY COST
+$628Per month
+100,000 MINUTES, 60% OUTBOUND
+Voice API100,000 × $0.002
+$200
+SIP trunk · outbound60,000 × $0.005
+$300
+SIP trunk · inbound40,000 × $0.0032
+$128
+Published rates, pay as you go, before volume tiers. Carrier passthrough and taxes vary by destination.
+Rates
+What's on the card.
+Each row is a line on your invoice. Nothing is bundled into another primitive's rate and nothing turns on unless you call it.
+Services
+Line
+Pay as you go
+Make outbound calls
+$0.002 per minute + the SIP Trunking fee for outbound calls
+Local number
+$0.002 per minute + the SIP Trunking fee for inbound calls
+Toll-free number
+$0.002 per minute + the SIP Trunking fee for inbound calls
+For a full list of global SIP Trunking prices, download our global SIP Trunking price sheet
+If you're using TeXML, you'll be charged the same $0.002 fee.
+Optional features
+Line
+Pay as you go
+Conversational AI
+View comprehensive pricing
+Call recording
+$0.002 per minute
+Call recording storage
+$0 per minute
+Conference calls
+$0.002 per participant, per minute
+SIP interface
+$0.002 per minute
+Call transfer
+$0.10 per invocation
+Browser/app calling
+$0.002 per minute
+Secure media
+Free
+Standard answering machine detection
+$0.002 per call
+Premium answering machine detection
+$0.0065 per call
+Deepfake detection
+$0.01 per invocation
+Telnyx STT
+$0.015 per minute
+Deepgram Nova 2 STT
+$0.005 per minute
+Deepgram Nova 3 STT
+$0.005 per minute
+Deepgram Flux STT
+$0.005 per minute
+Google STT
+$0.017 per minute
+Azure STT
+$0.027 per minute
+AssemblyAI STT
+$0.005 per minute
+Grok (xAI) STT
+$0.0033 per minute
+Parakeet STT
+$0.0015 per minute
+Soniox STT
+$0.002 per minute
+Speechmatics STT
+$0.0035 per minute
+Humain STT
+$0.007 per minute
+Basira STT
+$0.007 per minute
+Cohere Arabic STT
+$0.0015 per minute
+Telnyx TTS
+$0.000003 per character
+Standard TTS (Amazon Polly)
+$0.000009 per character
+Telnyx HD Voices TTS
+$0.000048 per character
+Neural Voices TTS (Amazon Polly)
+$0.000024 per character
+MiniMax speech-2.8-turbo TTS
+$0.000034 per character
+Rime TTS
+$0.00002 per character
+Inworld Mini TTS
+$0.0000055 per character
+Inworld Max TTS
+$0.00001 per character
+Qwen3TTS
+$0.000032 per character
+Telnyx Ultra
+$0.000032 per character
+Resemble TTS
+$0.000008 per character
+Murf TTS
+$0.000008 per character
+ElevenLabs TTS
+BYO API key (billed by ElevenLabs)
+Azure Neural HD TTS
+BYO API key (billed by Azure)
+Noise Suppression
+$0.002 per leg per minute
+Noise Suppression - Krisp
+$0.005 per leg per minute
+Noise Suppression - AICoustics
+$0.003 per leg per minute
+Media Streaming over WebSockets
+$0.0035 per minute
+Conversation Relay
+$0.05 per minute
+Decrypted Forking
+$0.0025 per minute
+Machine readable: GET /v2/public/pricing. Rates may vary by destination and volume tier. Machine readable: GET /v2/public/pricing?primitive=voice.
+Compare
+The same unit, list to list.
+Public rate cards, side by side. The difference is structural: the carrier, the network, and the API are one company, so there is no markup on someone else's rate.
+VENDOR
+LIST RATE
+BASIS
+Twilio Programmable Voice
+$0.014 out · $0.0085 in
+per min, US, list
+Vonage Voice API
+$0.0139 out · $0.0049 in
+per min, US, list
+Telnyx
+$0.007 out
+per min, US, list
+Competitor figures from public rate cards, Aug 2026. Volume and committed pricing on both sides changes the picture; ask us to run your numbers.
+VOLUME
+Commit more, pay less per unit. Nothing is gated.
+PAY AS YOU GO
+$0
+Standard rates. Card on file. Automatic tier discounts as usage crosses thresholds, no contract needed.
+START BUILDING
+GROWTH
+$2,000/ mo
+Monthly minimum spend. 15% discount on Voice, Messaging and Numbers. Automatic volume discounts with usage. Support 24/7 via chat or call.
+CHOOSE YOUR PLAN
+ENTERPRISE
+$5,000/ mo
+Monthly minimum spend. Dedicated infrastructure and IPs, private interconnect, in region GPUs, unlimited rate limits.
+CONTACT SALES
+Usually bought with
+What people add next.
+See the whole composition on contact center ↗
+Phone NumbersLocal, toll free, and international numbers from one API, one inventory.$1.00 / NUMBER/MO · RATES ↗
+Toll Free Numbers8xx numbers with toll free SMS enabled from the same inventory as local.$1.00 / NUMBER/MO · RATES ↗
+SIP TrunkingElastic SIP trunks on the Telnyx network.FROM $0.0032 / MIN · RATES ↗
+TeXMLPoint your TwiML application at Telnyx and it runs unchanged at the Voice API rate.$0.002 / MIN · RATES ↗
+Live in five minutes. No sales gate in front of the API.
+Card on file, provisioned by API. When you want a human, they run the network and pick up 24/7.
+SIGN UP FOR FREETALK TO SALES
+Start building
+Ask AI
+
+=== https://telnyx.com/pricing/messaging ===
+Home
+Products
+Solutions
+Pricing
+Why Telnyx
+Resources
+Developers
+Contact salesLog in
+Sign up
+Contact salesLog in
+Sign up
+COMMUNICATIONS
+SMS API Pricing
+$0.004 a part. Then the carrier, at cost. Two lines: our rate and the carrier's passthrough, both published, neither marked up. Volume tiers apply automatically at 100M parts. Numbers, lookup, and 10DLC are their own primitives.
+SIGN UP FOR FREEGET VOLUME RATE
+from $0.004per part
+$0platform fee
+$0support · HIPAA
+5 minto first call
+EXAMPLE OF MONTHLY COST
+$7,800Per month
+1,000,000 MESSAGE PARTS
+SMS1,000,000 × $0.004
+$4,000
+Carrier passthrough · blended US1,000,000 × $0.0038
+$3,800
+Published rates, pay as you go, before volume tiers. Carrier passthrough and taxes vary by destination.
+Rates
+What's on the card.
+Each row is a line on your invoice. Nothing is bundled into another primitive's rate and nothing turns on unless you call it.
+SENDER types
+Local inc. 10DLC
+Toll-Free
+Short Code
+RCS
+Services
+Direction
+SMS
+MMS
+Send outbound messages
+$0.004 per message part + carrier fee
+$0.015 per message part + carrier fee
+Receive inbound messages
+$0.004 per message part + carrier fee
+$0.005 per message part + carrier fee
+Prices are applied per message part. Learn more about character limits and message parts.
+Send or receive more than 100M messages per month and automatically receive a discount.
+Discounted outbound messaging pricing
+Quantity per month
+SMS
+MMS
+Next 150M messages per month
+$0.0020 per message part
+$0.0135 per message part
+Next 250M messages per month
+$0.0015 per message part
+$0.0110 per message part
+Next 500M messages per month
+$0.0010 per message part
+$0.0100 per message part
+Next 1B messages per month
+$0.0005 per message part
+$0.0090 per message part
+Discounted inbound messaging pricing
+Quantity per month
+SMS
+MMS
+Next 150M messages per month
+$0.0020 per message part
+$0.0045 per message part
+Next 250M messages per month
+$0.0015 per message part
+$0.0040 per message part
+Next 500M messages per month
+$0.0010 per message part
+$0.0035 per message part
+Next 1B messages per month
+$0.0005 per message part
+$0.0030 per message part
+Carrier fees for outbound messages
+Carrier
+SMS
+MMS
+1st Point
+$0.0035 per message part
+N/A
+ACS Alaska
+$0.0045 per message part
+$0.01 per message part
+Appalachian Wireless
+$0.004 per message part
+N/A
+AT&T
+$0.0035 per message part
+$0.009 per message part
+C Spire Wireless
+$0.0045 per message part
+$0.01 per message part
+Carolina West
+$0.0045 per message part
+$0.01 per message part
+Carrier Group A
+No carrier fee
+Carrier Group B
+No carrier fee
+N/A
+Cellcom
+$0.0045 per message part
+$0.01 per message part
+Cellular One
+$0.0045 per message part
+N/A
+Chat Mobility
+$0.0045 per message part
+$0.01 per message part
+Copper Valley LRA
+$0.0045 per message part
+$0.01 per message part
+Cross Wireless
+$0.0045 per message part
+$0.01 per message part
+Digicel
+$0.20 per message part
+N/A
+Dish Wireless
+$0.0045 per message part
+$0.01 per message part
+GCI
+$0.0045 per message part
+$0.01 per message part
+Inland Cellular
+$0.0045 per message part
+$0.01 per message part
+James Valley Cellular
+$0.0045 per message part
+$0.01 per message part
+Lleida
+$0.04 per message part
+Nemont
+$0.0045 per message part
+N/A
+Nex-Tech Wireless
+$0.0045 per message part
+$0.01 per message part
+Panhandle Telecommunications
+$0.0045 per message part
+$0.01 per message part
+Pine Belt Cellular
+$0.0045 per message part
+$0.01 per message part
+Pine Cellular
+$0.0045 per message part
+$0.01 per message part
+Shelcomm
+$0.0035 per message part
+N/A
+SouthernLinc Wireless
+$0.0045 per message part
+$0.01 per message part
+T-Mobile USA
+$0.0045 per message part
+$0.01 per message part
+Textnow Peerless
+$0.0035 per message part
+U.S. Cellular
+$0.005 per message part
+$0.01 per message part
+Union Wireless
+$0.0045 per message part
+$0.01 per message part
+Verizon Wireless
+$0.0045 per message part
+$0.007 per message part
+Viaero Wireless
+$0.0045 per message part
+$0.01 per message part
+All other carriers
+No carrier fee
+Carrier fees for inbound messages
+Carrier
+SMS
+MMS
+ACS Alaska
+$0.0045 per message part
+$0.005 per message part
+Appalachian Wireless
+No carrier fee
+N/A
+AT&T
+$0.0035 per message part
+$0.009 per message part
+Bell & Virgin
+N/A
+No carrier fee
+C Spire Wireless
+$0.0045 per message part
+$0.005 per message part
+Carolina West
+$0.0045 per message part
+$0.005 per message part
+Carrier Group A
+No carrier fee
+Carrier Group B
+No carrier fee
+N/A
+Cellcom
+$0.0045 per message part
+$0.005 per message part
+Cellular One
+No carrier fee
+N/A
+Chat Mobility
+$0.0045 per message part
+$0.005 per message part
+Copper Valley LRA
+$0.0045 per message part
+$0.005 per message part
+Cross Wireless
+$0.0045 per message part
+$0.005 per message part
+Dish Wireless
+No carrier fee
+EastLink
+N/A
+No carrier fee
+GCI
+$0.0045 per message part
+$0.005 per message part
+Inland Cellular
+$0.0045 per message part
+$0.005 per message part
+James Valley Cellular
+$0.0045 per message part
+$0.005 per message part
+Lleida
+No carrier fee
+Nemont
+No carrier fee
+N/A
+Nex-Tech Wireless
+$0.0045 per message part
+$0.005 per message part
+Panhandle Telecommunications
+$0.0045 per message part
+$0.005 per message part
+Pine Belt Cellular
+$0.0045 per message part
+$0.005 per message part
+Pine Cellular
+$0.0045 per message part
+$0.005 per message part
+SouthernLinc Wireless
+$0.0045 per message part
+$0.005 per message part
+T-Mobile USA
+$0.0025 per message part
+$0.01 per message part
+Telus
+N/A
+No carrier fee
+Textnow Peerless
+No carrier fee
+U.S. Cellular
+No carrier fee
+Union Wireless
+$0.0045 per message part
+$0.005 per message part
+Verizon Wireless
+No carrier fee
+Viaero Wireless
+$0.0045 per message part
+$0.005 per message part
+All other carriers
+No carrier fee
+Services
+Direction
+SMS
+MMS
+Send outbound messages
+$0.0055 per message part + carrier fee
+$0.016 per message part + carrier fee
+Receive inbound messages
+$0.0055 per message part + carrier fee
+$0.016 per message part + carrier fee
+Prices are applied per message part. Learn more about character limits and message parts.
+Carrier fees for outbound messages
+Carrier
+SMS
+MMS
+AT&T
+$0.0035 per message part
+$0.009 per message part
+C Spire Wireless
+No carrier fee
+Carrier Group A
+$0.0015 per message part
+$0.002 per message part
+Carrier Group B
+$0.0035 per message part
+$0.01 per message part
+Lleida
+N/A
+No carrier fee
+T-Mobile USA
+$0.0045 per message part
+$0.01 per message part
+U.S. Cellular
+$0.0025 per message part
+$0.005 per message part
+Verizon Wireless
+$0.0045 per message part
+$0.007 per message part
+All other carriers
+No carrier fee
+Carrier fees for inbound messages
+Carrier
+SMS
+MMS
+AT&T
+$0.0035 per message part
+$0.009 per message part
+C Spire Wireless
+$0.00001 per message part
+No carrier fee
+Carrier Group A
+No carrier fee
+Carrier Group B
+No carrier fee
+N/A
+Lleida
+N/A
+No carrier fee
+T-Mobile USA
+$0.0025 per message part
+$0.01 per message part
+U.S. Cellular
+$0.0025 per message part
+$0.005 per message part
+Verizon Wireless
+No carrier fee
+All other carriers
+No carrier fee
+Services
+Direction
+SMS
+MMS
+Send outbound messages
+$0.007 per message part + carrier fee
+$0.018 per message part + carrier fee
+Receive inbound messages
+$0.007 per message part + carrier fee
+$0.009 per message part + carrier fee
+Prices are applied per message part. Learn more about character limits and message parts.
+Send or receive more than 500K messages per month and automatically receive a discount.
+Discounted outbound messaging pricing
+Quantity per month
+SMS
+MMS
+Next 4.5M messages per month
+$0.0045 per message part
+Next 20M messages per month
+$0.0025 per message part
+Next 75M messages per month
+$0.0015 per message part
+$0.0150 per message part
+Next 100M messages per month
+$0.0010 per message part
+$0.0130 per message part
+Discounted inbound messaging pricing
+Quantity per month
+SMS
+MMS
+Next 4.5M messages per month
+$0.0045 per message part
+Next 20M messages per month
+$0.0025 per message part
+Next 75M messages per month
+$0.0015 per message part
+$0.0080 per message part
+Next 100M messages per month
+$0.0010 per message part
+$0.0070 per message part
+Carrier fees for outbound messages
+Carrier
+SMS
+MMS
+AT&T
+$0.0035 per message part
+$0.009 per message part
+C Spire Wireless
+$0.0035 per message part
+N/A
+Carrier Group A
+$0.0035 per message part
+$0.005 per message part
+Carrier Group B
+$0.0035 per message part
+N/A
+T-Mobile USA
+$0.0045 per message part
+$0.01 per message part
+Textnow Peerless
+No carrier fee
+N/A
+U.S. Cellular
+$0.0035 per message part
+$0.01 per message part
+Verizon Wireless
+$0.0045 per message part
+$0.007 per message part
+All other carriers
+No carrier fee
+N/A
+Carrier fees for inbound messages
+Carrier
+SMS
+MMS
+AT&T
+$0.0035 per message part
+$0.009 per message part
+C Spire Wireless
+$0.00001 per message part
+N/A
+Carrier Group A
+$0.0035 per message part
+$0.005 per message part
+Carrier Group B
+$0.0035 per message part
+N/A
+T-Mobile USA
+$0.0025 per message part
+$0.01 per message part
+U.S. Cellular
+No carrier fee
+Verizon Wireless
+No carrier fee
+All other carriers
+No carrier fee
+N/A
+RCS Rich text pricing
+Carrier
+Outbound
+Inbound
+AT&T
+$0.0065 per segment
+C-Spire
+$0.0065 per segment
+Dish Wireless
+$0.0065 per segment
+Google Fi
+$0.0065 per segment
+Metro by T-Mobile
+$0.0065 per segment
+Spectrum
+$0.0065 per segment
+T-Mobile USA
+$0.0065 per segment
+Verizon Wireless
+$0.0065 per segment
+RCS Rich text messages are charged per segment.
+RCS Rich Media pricing
+Carrier
+Outbound
+Inbound
+AT&T
+$0.016 per message
+C-Spire
+$0.016 per message
+Dish Wireless
+$0.016 per message
+Google Fi
+$0.016 per message
+Metro by T-Mobile
+$0.016 per message
+Spectrum
+$0.016 per message
+T-Mobile USA
+$0.016 per message
+Verizon Wireless
+$0.016 per message
+RCS Rich Media is charged per message.
+RCS Business Messaging - Rich text Passthrough Fees
+Carrier
+Rich text (Origination)
+Rich text (Termination)
+AT&T
+$0.0045
+other
+Free
+T-Mobile USA
+$0.0025
+$0.0062
+U.S. Cellular
+$0.0025
+$0.0062
+Verizon Wireless
+Free
+$0.0045
+Dish Wireless
+N/A
+$0.003
+RCS Rich text messages are charged per segment and RCS Rich Media is charged per message.
+T-Mobile charges an additional $0.001 for every MB over 5MB in media size on outbound Rich Media messages.
+RCS Business Messaging - Rich Media Passthrough Fees
+Carrier
+Rich Media (Origination)
+Rich Media (Termination)
+AT&T
+$0.01
+other
+Free
+T-Mobile USA
+$0.0125
+U.S. Cellular
+$0.0125
+Verizon Wireless
+Free
+$0.007
+Dish Wireless
+N/A
+$0.005
+RCS Rich text messages are charged per segment and RCS Rich Media is charged per message.
+T-Mobile charges an additional $0.001 for every MB over 5MB in media size on outbound Rich Media messages.
+Machine readable: GET /v2/public/pricing. Rates may vary by destination and volume tier. Machine readable: GET /v2/public/pricing?primitive=sms.
+Compare
+The same unit, list to list.
+Public rate cards, side by side. The difference is structural: the carrier, the network, and the API are one company, so there is no markup on someone else's rate.
+VENDOR
+LIST RATE
+BASIS
+Twilio
+$0.0083 + carrier
+per part, US local
+Vonage
+$0.0079 + carrier
+per part, US
+Telnyx
+from $0.004
+per part, US local
+Competitor figures from public rate cards, Aug 2026. Volume and committed pricing on both sides changes the picture; ask us to run your numbers.
+VOLUME
+Commit more, pay less per unit. Nothing is gated.
+PAY AS YOU GO
+$0
+Standard rates. Card on file. Automatic tier discounts as usage crosses thresholds, no contract needed.
+START BUILDING
+GROWTH
+$2,000/ mo
+Monthly minimum spend. 15% discount on Voice, Messaging and Numbers. Automatic volume discounts with usage. Support 24/7 via chat or call.
+CHOOSE YOUR PLAN
+ENTERPRISE
+$5,000/ mo
+Monthly minimum spend. Dedicated infrastructure and IPs, private interconnect, in region GPUs, unlimited rate limits.
+CONTACT SALES
+Usually bought with
+What people add next.
+See the whole composition on global notifications ↗
+Phone NumbersLocal, toll free, and international numbers from one API, one inventory.$1.00 / NUMBER/MO · RATES ↗
+MMSMedia messaging on local, toll free, and short code senders.$0.015 / PART · RATES ↗
+WhatsAppTelnyx is a WhatsApp BSP.META RATE / CONV · RATES ↗
+Email APISend transactional and bulk email from the same account, with deliverability infrastructure Telnyx runs.BETA · RATES ↗
+Live in five minutes. No sales gate in front of the API.
+Card on file, provisioned by API. When you want a human, they run the network and pick up 24/7.
+SIGN UP FOR FREETALK TO SALES
+Start building
+Ask AI

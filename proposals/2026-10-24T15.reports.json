@@ -1,0 +1,646 @@
+{
+ "type": "reports",
+ "run": "2026-10-24T15",
+ "items": [
+  {
+   "report_id": "wisprflow:2026-W44",
+   "company": "wispr-flow",
+   "new_company": null,
+   "kind": "price_hidden",
+   "why": "Free plan’s mobile dictation cap no longer shows the 1,000 words/week figure, only ‘Limited weekly use’; the page doesn’t say whether the limit itself changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "vercel:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "Vercel",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": ["https://vercel.com/pricing"],
+    "domains": ["vercel.com"],
+    "source_url": "https://pricingsaas.com/companies/vercel/diffs/2026D293",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New Vercel Drives storage product added with its own meters ($0.05/GB-month storage, $0.0015/GB reads, $0.004/GB writes); no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W44",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Post-Training product on NVIDIA HGX B200 ($11.00/GPU/hr list, $9.00 launch price until 12/14/2026) and new model DeepSeek V4.1 Flash 1017 added; no existing price changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "synthesia:2026-W44",
+   "company": "synthesia",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Limited-time Syren promo credits cut from 2,000 to 1,000 on Basic and to 1,500 on Starter and Pro; Enterprise stays at 2,000 per user.",
+   "detail": "card",
+   "record": null,
+   "promo": {"kind": "changed", "text": "Syren launch credits (1 month) cut from 2,000 to 1,000 on Basic and 1,500 on Starter and Pro; Enterprise still 2,000 per user"}
+  },
+  {
+   "report_id": "slack:2026-W44",
+   "company": "slack",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New ‘Frontline teams’ add-on for Enterprise+ field workers, no price shown; existing plan prices unchanged.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shopify:2026-W44",
+   "company": "shopify",
+   "new_company": null,
+   "kind": "wording",
+   "why": "In-person sales row reworded and two comparison rows (Customer profiles, Returns) added for all plans; no price or limit changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "runwayml:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "Runway",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": ["https://runwayml.com/pricing"],
+    "domains": ["runwayml.com", "runway.com"],
+    "source_url": "https://pricingsaas.com/companies/runwayml/diffs/2026D293",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Expired ‘Unlimited Wan 3.0 & Wan 3.0 Prime until October 18’ promo removed from the Max plan; prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "ended", "text": "Max plan’s unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode ended after October 18"}
+  },
+  {
+   "report_id": "lumaai:2026-W44",
+   "company": "lumaai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Kling 4.0 and Kling 4.0 Omni added to the API video model price table (from 53 credits/sec at 720p); existing model prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "krea:2026-W44",
+   "company": "krea",
+   "new_company": null,
+   "kind": "promo",
+   "why": "14-day unlimited Krea 3 Fast offer for annual Pro and Max buyers removed on Oct 23; the Oct 21 ‘Nodes Agent’ row removal is one side of a table row PricingSaaS sees flipping back and forth (likely a test), not a decided change.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "ended", "text": "14 days of unlimited Krea 3 Fast with an annual Pro or Max purchase ended"}
+  },
+  {
+   "report_id": "intercom:2026-W44",
+   "company": "intercom",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Essential seat shown as $29 struck through to $19 with ‘New customers save 35%’; PricingSaaS sees test-targeting markup, so this looks like the $19 arm of the ongoing Essential price test.",
+   "detail": "card",
+   "record": null,
+   "promo": {"kind": "new", "text": "Essential $19 per seat a month instead of $29 for new customers (‘save 35%’); likely one arm of a live price test"}
+  },
+  {
+   "report_id": "hubspot:2026-W44",
+   "company": "hubspot",
+   "new_company": null,
+   "kind": "free_plan",
+   "why": "Free plan’s email marketing sends cut from 2,000 to 300 a month; Starter email sends moved from a contact-tier-based limit onto shared HubSpot Credits.",
+   "detail": "card",
+   "record": {
+    "plan": "Free and Starter",
+    "group": "up",
+    "delta": "−85%",
+    "deltaSub": "Free plan email sends a month",
+    "short": "Free plan email sends cut from 2,000 to 300 a month; Starter’s 5x-contact-tier send limit replaced by shared HubSpot Credits.",
+    "headline": "HubSpot cut the Free plan’s monthly marketing email sends from 2,000 to 300 and moved Starter’s email sending onto its shared Credits pool.",
+    "rows": [
+     ["Free, marketing email sends per month", "2,000", "300"],
+     ["Starter, email send allowance", "5x marketing contact tier email send limit/month", "Draws on shared HubSpot Credits"]
+    ],
+    "who": "Free users who send marketing email, and Starter customers whose email sends now count against Credits.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Cutting free sends this hard makes the free plan a trial of email marketing rather than a usable tool, which pushes active senders to Starter. Putting Starter’s sends on Credits means email now competes with other credit-spending actions, so heavy senders may hit a wall sooner than a fixed cap suggested.",
+    "caveat": "The page doesn’t say how many Credits one email send uses, so the real Starter allowance can’t be compared with the old limit.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2,
+    "model": "Seat → Hybrid",
+    "modelBefore": "Seat",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -85, "high": -85, "basis": "allowance"}
+   },
+   "promo": null
+  },
+  {
+   "report_id": "heygen:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "HeyGen",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": ["https://www.heygen.com/pricing"],
+    "domains": ["heygen.com"],
+    "source_url": "https://pricingsaas.com/companies/heygen/diffs/2026D296",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Creator and Pro gain HeyGen Voice text-to-speech and Pro moves to Seedance 2.5; prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "fireflies:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "Fireflies.ai",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": ["https://fireflies.ai/pricing"],
+    "domains": ["fireflies.ai"],
+    "source_url": "https://pricingsaas.com/companies/fireflies/diffs/2026D295",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Security section adds ISO 42001 certification and widens the HIPAA item to HIPAA & FERPA (Enterprise with Private Storage); compliance copy, no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "fal:2026-W44",
+   "company": "fal",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "FLUX 3 Max video ($0.085/sec) and new audio models added to the Model API tables, which now list more models; some ElevenLabs rows left the featured list, no existing price changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "bolt:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "Bolt",
+    "category": "Software Development & Testing",
+    "segment": "Both",
+    "pricing_urls": ["https://bolt.new/pricing"],
+    "domains": ["bolt.new"],
+    "source_url": "https://pricingsaas.com/companies/bolt/diffs/2026D293",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "feature_move",
+   "why": "Pro drops ‘Image editing with AI’ while adding newest AI models and Connectors/MCPs; Teams adds Priority support; prices unchanged.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Image editing cut",
+    "short": "Pro ($18) loses AI image editing but gains the newest AI models and Connectors/MCPs; Teams ($27) adds Priority support.",
+    "pattern": "Unbundling",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W44",
+   "company": null,
+   "new_company": {
+    "name": "Baseten",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.baseten.co/pricing"],
+    "domains": ["baseten.co"],
+    "source_url": "https://pricingsaas.com/companies/baseten/diffs/2026D294",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_cut",
+   "why": "Reflection Beam Model API rates cut four days after launch: input $1.30 → $0.40, cached input $0.13 → $0.04, output $4.30 → $1.20 per 1M tokens (the Oct 22 unpriced elephant-1/mammoth-1 listings are new models only).",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−69%",
+    "short": "Reflection Beam per 1M tokens: input $1.30 → $0.40, cached input $0.13 → $0.04, output $4.30 → $1.20.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "xai:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "xAI",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/xai/diffs/2026D286",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "SuperGrok Lite/SuperGrok/Plus/Heavy/Business lineup replaced by Free, Plus $8, Premium $30, Super $100, Ultra $200 and Teams $30+/user, with Cursor tools bundled and tiers framed as usage multiples.",
+   "detail": "card",
+   "record": {
+    "plan": "Grok individual and Teams plans",
+    "group": "pack",
+    "delta": "$8–$200",
+    "deltaSub": "new monthly plan ladder",
+    "short": "SuperGrok lineup retired; new plans are Free, Plus $8, Premium $30, Super $100, Ultra $200 and Teams $30+/user, sized as 4x, 15x and 50x Plus usage.",
+    "headline": "xAI retired its SuperGrok plans and rebuilt Grok pricing as a ladder from $8 to $200 a month, with Cursor coding tools bundled in.",
+    "rows": [
+     ["Plan lineup", "SuperGrok Lite, SuperGrok, SuperGrok Plus, SuperGrok Heavy, Business", "Free, Plus, Premium, Super, Ultra, Teams"],
+     ["Plus, per month", "Not offered", "$8"],
+     ["Premium / Super / Ultra, per month", "Not offered", "$30 / $100 / $200"],
+     ["Teams, per user per month", "Not offered", "$30+"],
+     ["Usage above entry plan", "Higher rate limits", "4x / 15x / 50x Plus"]
+    ],
+    "who": "Every Grok subscriber: the old SuperGrok plans are gone, so existing subscribers land on or must choose one of the new tiers.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "An $8 entry tier lowers the price of getting into paid Grok, while the 50x Ultra tier at $200 targets heavy coding-agent users. Bundling Cursor features into every tier suggests xAI wants to sell Grok as a coding subscription as much as a chatbot.",
+    "caveat": "The saved text doesn’t give the old SuperGrok prices, so the change for any one subscriber can’t be measured. PricingSaaS says the same lineup appears on Cursor’s pricing page.",
+    "pattern": "Bundling",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3,
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "vercel:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "Vercel",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": ["https://vercel.com/pricing"],
+    "domains": ["vercel.com"],
+    "source_url": "https://pricingsaas.com/companies/vercel/diffs/2026D289",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New Vercel Daemons product with its own meters (Active CPU $0.128/hr, Provisioned Memory $0.0212/GB-hr, with included amounts); no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W43",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Kimi K3 cached input back from $0.27 to $0.30 per 1M tokens as the 10%-off Kimi K3 promo ended (standard input/output already back at $3.00/$15.00); the week’s new models and the short Muse Spark Open free promo are new listings.",
+   "detail": "card",
+   "record": null,
+   "promo": {"kind": "ended", "text": "Kimi K3 10% off ended: cached input back to $0.30 per 1M tokens from $0.27"}
+  },
+  {
+   "report_id": "tailscale:2026-W43",
+   "company": "tailscale",
+   "new_company": null,
+   "kind": "support",
+   "why": "Premium priority support and Enterprise professional services replaced by SLA-backed Silver, Gold and Platinum support packages; plan prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "slack:2026-W43",
+   "company": "slack",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Enterprise+ shows $45 per user/month instead of ‘Contact sales’, one more flip in a pattern PricingSaaS reads as a live test (hidden again on Oct 19).",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shopify:2026-W43",
+   "company": "shopify",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Annual Grow shown at $89 (was $79) and Advanced at $359 (was $299) on Oct 15, then back to $79 and $299 on Oct 16; looks like an A/B price test.",
+   "detail": "card",
+   "record": {
+    "plan": "Grow and Advanced, annual billing",
+    "group": "up",
+    "delta": "+13–20%",
+    "deltaSub": "annual price, test reverted next day",
+    "short": "Annual Grow shown at $89 instead of $79 and Advanced at $359 instead of $299 on Oct 15; back to $79 and $299 on Oct 16.",
+    "headline": "Shopify showed higher annual Grow and Advanced prices for one day and then went back, which looks like a price test, not a decided rise.",
+    "rows": [
+     ["Grow, per month billed annually", "$79", "$89"],
+     ["Advanced, per month billed annually", "$299", "$359"],
+     ["Grow / Advanced from Oct 16", "$89 / $359", "$79 / $299"]
+    ],
+    "who": "New merchants choosing annual billing on Grow or Advanced; monthly prices and Basic were unchanged.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Testing a rise only on annual billing suggests Shopify is checking whether committed merchants will accept a higher price. If one arm sticks, Advanced moves the most.",
+    "caveat": "PricingSaaS saw the higher prices in one capture only and reads the reversal as an A/B arm flipping back; the current page shows $79 and $299.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 1,
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "new",
+    "magnitude": {"low": 0, "high": 20, "basis": "list price"}
+   },
+   "promo": null
+  },
+  {
+   "report_id": "runwayml:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "Runway",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": ["https://runwayml.com/pricing"],
+    "domains": ["runwayml.com", "runway.com"],
+    "source_url": "https://pricingsaas.com/companies/runwayml/diffs/2026D288",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Max plan adds unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode until October 18.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Max plan: unlimited Wan 3.0 and Wan 3.0 Prime in Tool Mode until October 18"}
+  },
+  {
+   "report_id": "replit:2026-W43",
+   "company": "replit",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Enterprise feature list reworked: adds SCIM, audit logs, private networking; ‘custom seat limits’ and ‘static outbound IPs’ bullets dropped, possibly covered by ‘private networking’; Enterprise stays contact-sales, no price change.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "remote:2026-W43",
+   "company": "remote",
+   "new_company": null,
+   "kind": "price_cut",
+   "why": "Employer of Record cut from $699 to $599 per employee/month; Remote for Startups 15% discount added and Social Purpose 15% discount removed.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−14%",
+    "short": "Employer of Record from $699 to $599 per employee a month; new 15% Remote for Startups discount, Social Purpose 15% discount removed.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "precog:2026-W43",
+   "company": "precog",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "Credits-based pricing replaced by four flat annual tiers per source instance: Essentials $3,950, Business $13,500, SAP $22,000, Enterprise $27,000.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Credits → flat tiers",
+    "short": "Credits pricing replaced by flat annual tiers per source: Essentials $3,950, Business $13,500, SAP $22,000, Enterprise $27,000.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W43",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Top-up credits can now be used with MCP; before, the page said MCP was excluded alongside API, iOS app and old.pika.art.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "MCP allowed",
+    "short": "Top-up credits now usable with MCP; before, MCP was listed as unsupported alongside API, iOS app and old.pika.art.",
+    "pattern": "Limits loosen",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pagerduty.incident:2026-W43",
+   "company": "pagerduty",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "AI Actions allowances shown as numbers for the first time (Starter 1,000 to Ultimate 100,000 per year), where the page had only an unquantified ‘AI actions’ bullet before.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "openart:2026-W43",
+   "company": "openart",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Expired Oct 14 promos removed: up to 50% off Seedance and unlimited Flux 3 Image on Wonder, 30% off Nano Banana 2.1, and the new-user 25% first-month offer; the Flux 3 720p video promo runs to Oct 31.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "ended", "text": "Up to 50% off Seedance, unlimited Flux 3 Image on Wonder, 30% off Nano Banana 2.1 and new-user 25% off ended Oct 14"}
+  },
+  {
+   "report_id": "mintlify:2026-W43",
+   "company": "mintlify",
+   "new_company": null,
+   "kind": "trial",
+   "why": "First month of free credits replaced by a 14-day no-card Pro trial with 5,000 credits; Starter stays free.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mindsdb:2026-W43",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New models added to the rate card: Muse Wonder 1.0 ($4/$20 per 1M) and Gemini 4 Argon ($2/$10 per 1M); existing rates unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mercury:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "Mercury",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": ["https://mercury.com/pricing"],
+    "domains": ["mercury.com"],
+    "source_url": "https://pricingsaas.com/companies/mercury/diffs/2026D288",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "support",
+   "why": "Priority Support added as an included feature on Plus and Pro; prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "leadloft:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "LeadLoft",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.leadloft.com/pricing"],
+    "domains": ["leadloft.com"],
+    "source_url": "https://pricingsaas.com/companies/leadloft/diffs/2026W43",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "limit_change",
+   "why": "Unlimited plan swaps Unlimited Prospecting for 300 Data Credits and pay-per-use rows are now priced in Data Credits; LinkedIn/Email Automation replaced by AI Sales Agent and Outreach Automation.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Unlimited → 300 credits",
+    "short": "Unlimited plan ($99) swaps Unlimited Prospecting for 300 Data Credits; Scale AI ($299) now lists $1,500 Data Credits.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "krea:2026-W43",
+   "company": "krea",
+   "new_company": null,
+   "kind": "promo",
+   "why": "New limited-time offer: 14 days of unlimited Krea 3 fast generations with an annual Pro or Max purchase; the Oct 19 rewrite of allowance examples left compute units unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "14 days of unlimited Krea 3 fast generations (1K/2K) with an annual Pro or Max purchase"}
+  },
+  {
+   "report_id": "intercom:2026-W43",
+   "company": "intercom",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Fin Million Dollar Guarantee badge and 90-day money-back copy removed from the pricing hero; no price or plan change.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "ideogram:2026-W43",
+   "company": "ideogram",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Plan cards now list all image and video models and an Apps & API section; Plus queue relabelled Large → Larger and Team ‘Minimum 2 users’ note removed; prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "huggingface:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "Hugging Face",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": ["https://huggingface.co/pricing"],
+    "domains": ["huggingface.co"],
+    "source_url": "https://pricingsaas.com/companies/huggingface/diffs/2026D289",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Nvidia RTX PRO 6000 GPU options (1x–8x, $2.75–$22.00/hr) added to Spaces hardware; existing rates unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "hemlane:2026-W43",
+   "company": "hemlane",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Removal of local leasing network access from the Complete plan is already recorded as hemlane-2026w43.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "gorilladesk:2026-W43",
+   "company": "gorilladesk",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Added-route fees shown for the first time (Basic $50/mo routes 2–3, $30/mo route 4+; Pro/Growth $50/mo per route); before, they weren’t shown or were contact-sales.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "gitlab:2026-W43",
+   "company": null,
+   "new_company": {
+    "name": "GitLab",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": ["https://about.gitlab.com/pricing/"],
+    "domains": ["gitlab.com", "about.gitlab.com"],
+    "source_url": "https://pricingsaas.com/companies/gitlab/diffs/2026D289",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Secrets Manager availability widened from GitLab.com to GitLab.com and Self-Managed; Dedicated still coming soon; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

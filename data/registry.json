@@ -33,10 +33,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": null,
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.action1.com/pricing/"
+   ],
+   "domains": [
+    "action1.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -55,10 +59,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.activepieces.com/pricing"
+   ],
+   "domains": [
+    "activepieces.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -125,10 +133,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://addigy.com/pricing/"
+   ],
+   "domains": [
+    "addigy.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -147,14 +159,12 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": true,
-   "pricing_urls": [
-    "https://www.adobe.com/creativecloud/plans.html"
-   ],
+   "pricing_urls": [],
    "domains": [
     "adobe.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "dead",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -164,8 +174,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 2,
-   "notes": "rejected https://www.adobe.com/products/photoshop/plans.html, https://www.adobe.com/acrobat/pricing.html: page shows no prices"
+   "url_attempts": 3,
+   "notes": "rejected https://www.adobe.com/creativecloud/plans.html: page shows no prices"
   },
   "aihr": {
    "name": "AIHR",
@@ -173,10 +183,14 @@
    "category": "Workforce Management",
    "segment": null,
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.aihr.com/pricing/"
+   ],
+   "domains": [
+    "aihr.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -269,10 +283,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.allstacks.com/pricing"
+   ],
+   "domains": [
+    "allstacks.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -342,10 +360,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://applitools.com/pricing/"
+   ],
+   "domains": [
+    "applitools.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -364,10 +386,14 @@
    "category": "Marketing & Content",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://apptile.com/pricing"
+   ],
+   "domains": [
+    "apptile.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -408,10 +434,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.aptible.com/pricing"
+   ],
+   "domains": [
+    "aptible.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -430,10 +460,14 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://artlist.io/pricing"
+   ],
+   "domains": [
+    "artlist.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -506,10 +540,14 @@
    "category": "Cloud & DevOps",
    "segment": null,
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://axiom.co/pricing"
+   ],
+   "domains": [
+    "axiom.co"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -598,10 +636,14 @@
    "category": "Collaboration & Productivity",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.beautiful.ai/pricing"
+   ],
+   "domains": [
+    "beautiful.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -646,10 +688,14 @@
    "category": "Marketing & Content",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.befunky.com/pricing/"
+   ],
+   "domains": [
+    "befunky.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -668,10 +714,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://betterstack.com/pricing"
+   ],
+   "domains": [
+    "betterstack.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1986,7 +2036,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "fal"
+   ]
   },
   "figma": {
    "name": "Figma",
@@ -2376,7 +2429,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "hemlane"
+   ]
   },
   "homebase": {
    "name": "Homebase",
@@ -2490,7 +2546,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 1,
-   "notes": "rejected https://www.hubspot.com/pricing/marketing, https://www.hubspot.com/pricing/sales: page shows no prices"
+   "notes": "rejected https://www.hubspot.com/pricing/marketing, https://www.hubspot.com/pricing/sales: page shows no prices",
+   "ps_slugs": [
+    "hubspot"
+   ]
   },
   "ideogram": {
    "name": "Ideogram",
@@ -2512,7 +2571,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "ideogram"
+   ]
   },
   "impact": {
    "name": "impact.com",
@@ -2560,7 +2622,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "intercom"
+   ]
   },
   "invideo": {
    "name": "InVideo",
@@ -2872,7 +2937,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "krea"
+   ]
   },
   "kurrent": {
    "name": "Kurrent",
@@ -3090,10 +3158,14 @@
    "category": "Marketing & Content",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://linktr.ee/s/pricing"
+   ],
+   "domains": [
+    "linktr.ee"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "APAC",
@@ -3258,7 +3330,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "lumaai"
+   ]
   },
   "lyzr": {
    "name": "Lyzr",
@@ -3398,10 +3473,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://matterport.com/plans"
+   ],
+   "domains": [
+    "matterport.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -3548,7 +3627,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "mindsdb"
+   ]
   },
   "mintlify": {
    "name": "Mintlify",
@@ -3570,7 +3652,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "mintlify"
+   ]
   },
   "mobbin": {
    "name": "Mobbin",
@@ -3608,7 +3693,7 @@
     "moodlecloud.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "Australia",
@@ -3649,10 +3734,14 @@
    "category": "Marketing & Content",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://moz.com/products/pro/pricing"
+   ],
+   "domains": [
+    "moz.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -3678,7 +3767,7 @@
     "n8n.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -3898,7 +3987,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "openart"
+   ]
   },
   "opensolr": {
    "name": "Opensolr",
@@ -3958,7 +4050,7 @@
     "us.ovhcloud.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "Europe",
@@ -4006,7 +4098,7 @@
     "padlet.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4076,7 +4168,7 @@
     "pagerduty.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -4087,7 +4179,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "pagerduty.incident"
+   ]
   },
   "peec": {
    "name": "Peec AI",
@@ -4197,7 +4292,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "pika"
+   ]
   },
   "pipedream": {
    "name": "Pipedream",
@@ -4212,7 +4310,7 @@
     "pipedream.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -4517,10 +4615,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://render.com/pricing"
+   ],
+   "domains": [
+    "render.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4546,7 +4648,7 @@
     "replit.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4557,7 +4659,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "replit"
+   ]
   },
   "resdiary": {
    "name": "ResDiary",
@@ -4682,7 +4787,7 @@
     "runpod.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4757,7 +4862,7 @@
     "scribehow.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4827,7 +4932,7 @@
     "semrush.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -4952,7 +5057,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "slack"
+   ]
   },
   "slangai": {
    "name": "Slang AI",
@@ -5033,7 +5141,7 @@
     "sonarsource.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -5170,7 +5278,7 @@
     "sugarai.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5196,7 +5304,7 @@
     "supabase.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5310,7 +5418,7 @@
     "synthesia.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "UK",
@@ -5321,7 +5429,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "synthesia"
+   ]
   },
   "taskade": {
    "name": "Taskade",
@@ -5404,7 +5515,7 @@
     "telnyx.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5474,7 +5585,7 @@
     "together.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5485,7 +5596,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "together"
+   ]
   },
   "tooljet": {
    "name": "ToolJet",
@@ -5610,7 +5724,7 @@
     "vapi.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5768,7 +5882,7 @@
     "warp.dev"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5838,7 +5952,7 @@
     "wisprflow.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5849,7 +5963,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "wisprflow"
+   ]
   },
   "wodify": {
    "name": "Wodify",
@@ -5997,10 +6114,15 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.zoho.com/one/pricing.html",
+    "https://www.zoho.com/crm/zohocrm-pricing.html"
+   ],
+   "domains": [
+    "zoho.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "India",
@@ -6054,7 +6176,7 @@
     "shopify.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6065,7 +6187,10 @@
    "source": "manual",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "shopify"
+   ]
   },
   "tailscale": {
    "name": "Tailscale",
@@ -6080,7 +6205,7 @@
     "tailscale.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6091,7 +6216,10 @@
    "source": "manual",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "tailscale"
+   ]
   },
   "remote": {
    "name": "Remote",
@@ -6106,7 +6234,7 @@
     "remote.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6117,7 +6245,10 @@
    "source": "manual",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "remote"
+   ]
   },
   "buildkite": {
    "name": "Buildkite",
@@ -6132,7 +6263,7 @@
     "buildkite.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6158,7 +6289,7 @@
     "gorilladesk.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6169,7 +6300,10 @@
    "source": "manual",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "gorilladesk"
+   ]
   },
   "approvalmax": {
    "name": "ApprovalMax",
@@ -6177,14 +6311,12 @@
    "category": "Finance & Accounting",
    "segment": null,
    "watch": false,
-   "pricing_urls": [
-    "https://www.approvalmax.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "approvalmax.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -6194,8 +6326,8 @@
    "added": "2026-10-24",
    "source": "manual",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.approvalmax.com/pricing: page shows no prices"
   },
   "precog": {
    "name": "Precog",
@@ -6217,7 +6349,10 @@
    "source": "manual",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "precog"
+   ]
   },
   "fileai": {
    "name": "fileAI",
@@ -6240,6 +6375,323 @@
    "source_url": null,
    "url_attempts": 0,
    "notes": ""
+  },
+  "vercel": {
+   "name": "Vercel",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://vercel.com/pricing"
+   ],
+   "domains": [
+    "vercel.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/vercel/diffs/2026D293",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "vercel"
+   ]
+  },
+  "runway": {
+   "name": "Runway",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://runwayml.com/pricing"
+   ],
+   "domains": [
+    "runwayml.com",
+    "runway.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/runwayml/diffs/2026D293",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "runwayml"
+   ]
+  },
+  "heygen": {
+   "name": "HeyGen",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.heygen.com/pricing"
+   ],
+   "domains": [
+    "heygen.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/heygen/diffs/2026D296",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "heygen"
+   ]
+  },
+  "fireflies-ai": {
+   "name": "Fireflies.ai",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://fireflies.ai/pricing"
+   ],
+   "domains": [
+    "fireflies.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/fireflies/diffs/2026D295",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "fireflies"
+   ]
+  },
+  "bolt": {
+   "name": "Bolt",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://bolt.new/pricing"
+   ],
+   "domains": [
+    "bolt.new"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/bolt/diffs/2026D293",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "bolt"
+   ]
+  },
+  "baseten": {
+   "name": "Baseten",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.baseten.co/pricing"
+   ],
+   "domains": [
+    "baseten.co"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/baseten/diffs/2026D294",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "baseten"
+   ]
+  },
+  "xai": {
+   "name": "xAI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/xai/diffs/2026D286",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "xai"
+   ]
+  },
+  "mercury": {
+   "name": "Mercury",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://mercury.com/pricing"
+   ],
+   "domains": [
+    "mercury.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/mercury/diffs/2026D288",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mercury"
+   ]
+  },
+  "leadloft": {
+   "name": "LeadLoft",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.leadloft.com/pricing"
+   ],
+   "domains": [
+    "leadloft.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/leadloft/diffs/2026W43",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "leadloft"
+   ]
+  },
+  "hugging-face": {
+   "name": "Hugging Face",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://huggingface.co/pricing"
+   ],
+   "domains": [
+    "huggingface.co"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/huggingface/diffs/2026D289",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "huggingface"
+   ]
+  },
+  "gitlab": {
+   "name": "GitLab",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://about.gitlab.com/pricing/"
+   ],
+   "domains": [
+    "gitlab.com",
+    "about.gitlab.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "agent 2026-10-24T15",
+   "source_url": "https://pricingsaas.com/companies/gitlab/diffs/2026D289",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gitlab"
+   ]
   }
  }
 }
