@@ -8,7 +8,7 @@
    "segment": "Both",
    "watch": true,
    "pricing_urls": [
-    "https://1password.com/pricing"
+    "https://1password.com/pricing/password-manager"
    ],
    "domains": [
     "1password.com"
@@ -24,8 +24,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://1password.com/pricing: page shows no prices"
   },
   "action1": {
    "name": "Action1",
@@ -77,10 +77,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://acuityscheduling.com/pricing"
+   ],
+   "domains": [
+    "acuityscheduling.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -144,7 +148,8 @@
    "segment": "Both",
    "watch": true,
    "pricing_urls": [
-    "https://www.adobe.com/creativecloud/plans.html"
+    "https://www.adobe.com/products/photoshop/plans.html",
+    "https://www.adobe.com/acrobat/pricing.html"
    ],
    "domains": [
     "adobe.com"
@@ -160,8 +165,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.adobe.com/creativecloud/plans.html: page shows no prices"
   },
   "aihr": {
    "name": "AIHR",
@@ -191,10 +196,14 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://aircall.io/pricing/"
+   ],
+   "domains": [
+    "aircall.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -220,7 +229,7 @@
     "airtable.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -283,10 +292,17 @@
    "category": "AI & Machine Learning",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://claude.com/pricing",
+    "https://platform.claude.com/docs/en/about-claude/pricing"
+   ],
+   "domains": [
+    "anthropic.com",
+    "claude.com",
+    "claude.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -437,10 +453,14 @@
    "category": "Project Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://asana.com/pricing"
+   ],
+   "domains": [
+    "asana.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -460,11 +480,12 @@
    "segment": "B2B",
    "watch": true,
    "pricing_urls": [
-    "https://www.atlassian.com/software/jira/pricing",
-    "https://www.atlassian.com/software/confluence/pricing"
+    "https://www.atlassian.com/software/bitbucket/pricing",
+    "https://trello.com/pricing"
    ],
    "domains": [
-    "atlassian.com"
+    "atlassian.com",
+    "trello.com"
    ],
    "capture": "static",
    "status": "candidate",
@@ -477,8 +498,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.atlassian.com/software/jira/pricing, https://www.atlassian.com/software/confluence/pricing: page shows no prices"
   },
   "axiom": {
    "name": "Axiom",
@@ -530,10 +551,14 @@
    "category": "Data & Analytics",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://baremetrics.com/pricing"
+   ],
+   "domains": [
+    "baremetrics.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -596,10 +621,14 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.beehiiv.com/pricing"
+   ],
+   "domains": [
+    "beehiiv.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -889,7 +918,7 @@
     "calendly.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -908,14 +937,12 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": true,
-   "pricing_urls": [
-    "https://www.canva.com/pricing/"
-   ],
+   "pricing_urls": [],
    "domains": [
     "canva.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": false,
    "ownership": "private",
    "hq": "APAC",
@@ -925,8 +952,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.canva.com/pricing/: page shows no prices"
   },
   "canvasapp": {
    "name": "Canvas",
@@ -1154,10 +1181,14 @@
    "category": "Project Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://clickup.com/pricing"
+   ],
+   "domains": [
+    "clickup.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1220,10 +1251,16 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://devin.ai/pricing"
+   ],
+   "domains": [
+    "cognition.ai",
+    "devin.ai",
+    "windsurf.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -1242,10 +1279,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://cohere.com/pricing"
+   ],
+   "domains": [
+    "cohere.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "Canada",
@@ -1506,10 +1547,14 @@
    "category": "Software Development & Testing",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://cursor.com/pricing"
+   ],
+   "domains": [
+    "cursor.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "acquired",
    "hq": "US",
@@ -1550,10 +1595,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.datadoghq.com/pricing/"
+   ],
+   "domains": [
+    "datadoghq.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -1594,10 +1643,14 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.dialpad.com/pricing/"
+   ],
+   "domains": [
+    "dialpad.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1616,10 +1669,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.docker.com/pricing/"
+   ],
+   "domains": [
+    "docker.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -1689,7 +1746,7 @@
     "dropbox.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -1886,10 +1943,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.expressvpn.com/pricing"
+   ],
+   "domains": [
+    "expressvpn.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "Europe",
@@ -1908,10 +1969,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://fal.ai/pricing"
+   ],
+   "domains": [
+    "fal.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -1937,7 +2002,7 @@
     "figma.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -2088,10 +2153,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://github.com/pricing"
+   ],
+   "domains": [
+    "github.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -2154,10 +2223,14 @@
    "category": "Cloud & DevOps",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://workspace.google.com/pricing"
+   ],
+   "domains": [
+    "workspace.google.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -2183,7 +2256,7 @@
     "grammarly.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -2401,8 +2474,7 @@
    "segment": "B2B",
    "watch": true,
    "pricing_urls": [
-    "https://www.hubspot.com/pricing/marketing",
-    "https://www.hubspot.com/pricing/sales"
+    "https://www.hubspot.com/pricing/crm"
    ],
    "domains": [
     "hubspot.com"
@@ -2418,8 +2490,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.hubspot.com/pricing/marketing, https://www.hubspot.com/pricing/sales: page shows no prices"
   },
   "ideogram": {
    "name": "Ideogram",
@@ -2478,7 +2550,7 @@
     "intercom.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -2761,10 +2833,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://konghq.com/pricing"
+   ],
+   "domains": [
+    "konghq.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -2871,10 +2947,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.langchain.com/pricing"
+   ],
+   "domains": [
+    "langchain.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -2937,10 +3017,14 @@
    "category": "Business Operations",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.legalzoom.com/business/business-formation/llc-pricing.html"
+   ],
+   "domains": [
+    "legalzoom.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -2966,7 +3050,7 @@
     "linear.app"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -3410,7 +3494,7 @@
     "microsoft.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -3679,7 +3763,7 @@
     "notion.so"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -3773,7 +3857,7 @@
     "chatgpt.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -4591,7 +4675,7 @@
     "salesforce.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -4815,7 +4899,7 @@
     "slack.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -5758,10 +5842,14 @@
    "category": "Finance & Accounting",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.xero.com/us/pricing-plans/"
+   ],
+   "domains": [
+    "xero.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "APAC",
@@ -5787,7 +5875,7 @@
     "zapier.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -5851,7 +5939,8 @@
    "segment": "Both",
    "watch": true,
    "pricing_urls": [
-    "https://zoom.us/pricing"
+    "https://zoom.us/pricing/zoom-bundles",
+    "https://zoom.us/pricing/zoom-phone"
    ],
    "domains": [
     "zoom.us",
@@ -5868,8 +5957,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://zoom.us/pricing: page shows no prices"
   }
  }
 }
