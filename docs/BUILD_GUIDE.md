@@ -53,8 +53,10 @@ says what to do next.
 - **Tabs:** News (`#t-news`), Main Price Changes (`#t-main`: Ranked and Timeline), All Price Changes
   (`#t-all`: Changes and Promotions), Statistics (`#t-stats`: Analysis, Models & patterns), Market Trends
   from News (`#t-newstrends`), Sources (`#t-src`).
-- **Week selector:** current edition, all weeks, a month, or a single week. A single week shows its
-  coverage note in a `.cov-note` box.
+- **Week selector:** current edition, all weeks, a month, or a single week. Any view other than the
+  current edition shows one `.pilot` box built by `weekNoteHTML()`: backfill origin, partial coverage
+  and the week's `note`.
+- **News order:** newest first by `date` ("7 Oct" or "Week 42"), via `newsTime()`.
 - **Cards (D6):** headline delta chip → one-line summary → Before/After table → Who it hits → They say
   (only if stated) → Why · our read.
 - **Relevant changes:** `isMain = c.main ?? tier <= 2`. The front page shows the first 7 changes of the

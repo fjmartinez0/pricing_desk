@@ -270,7 +270,7 @@ footer a{color:var(--muted)}
 
 <div class="wrap">
   <header>
-    <span class="eyebrow" id="masthead-date">Daily brief</span>
+    <span class="eyebrow" id="masthead-date">Weekly edition</span>
     <h1>SaaS Pricing Desk</h1>
     <span class="proto">Prototype · real content, hand-assembled</span>
   </header>
@@ -303,7 +303,7 @@ footer a{color:var(--muted)}
     </div>
     <div id="mv-ranked">
     <div class="filterbar" id="filters-main"></div>
-    <div class="pilot" id="pilot-note-main" hidden><b>Backfill.</b> Relevant changes for this week, rebuilt from the PricingSaaS weekly feed. The front page and market context are built from that week’s changes; “What connects them” groups them by shared pattern.</div>
+    <div class="pilot" id="pilot-note-main" hidden></div>
     <div id="edition-panels">
     <div class="panel">
       <span class="lbl" id="front-lbl">Front page</span>
@@ -349,7 +349,7 @@ footer a{color:var(--muted)}
       <button class="chip" type="button" role="tab" data-asub="promos" aria-pressed="false" aria-selected="false">Promotions</button>
     </div>
     <div class="filterbar" id="filters-all"></div>
-    <div class="pilot" id="pilot-note" hidden><b>Backfill.</b> Rebuilt from the PricingSaaS weekly feed with the same rules as a daily edition. Dates are the week PricingSaaS spotted the change; we only search for announcements on market-leader changes.</div>
+    <div class="pilot" id="pilot-note" hidden></div>
     <div id="av-changes">
       <div class="panel">
         <h2 id="all-title">Every change in this edition</h2>
@@ -493,10 +493,20 @@ const byId=Object.fromEntries(CHANGES.concat(HISTORY).map(c=>[c.id,c]));
 const DC={up:"d-up",down:"d-down",pack:"d-pack"}, CC={up:"c-up",down:"c-down",pack:"c-pack"};
 const TYPE={up:"You pay more",down:"You pay less",pack:"Restructured"};
 
+// News sort key: "7 Oct" (year from the edition date) or "Week 42" (that week's Sunday); unknown dates go last.
+const MONTHS={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+function newsTime(n){
+  const s=String(n.date||"").trim();let m=s.match(/^(\d{1,2})\s+([A-Z][a-z]{2})/);
+  if(m&&m[2] in MONTHS){const ed=new Date(DATA.edition_date+"T12:00:00");const d=new Date(ed.getFullYear(),MONTHS[m[2]],+m[1],12);
+    if(d-ed>60*864e5)d.setFullYear(d.getFullYear()-1);return +d}
+  m=s.match(/^Week\s+(\d+)/i);
+  if(m){const w=DATA.weeks.find(x=>wkNum(x.week)===String(+m[1]));if(w)return +new Date(w.start+"T12:00:00")+6*864e5}
+  return -1e15;
+}
 function renderNews(){
   const only=document.getElementById("only-pricing").checked;
   const hidden=NEWS.filter(n=>!n.rel).length;
-  const items=only?NEWS.filter(n=>n.rel):NEWS;
+  const items=(only?NEWS.filter(n=>n.rel):NEWS.slice()).map((n,i)=>[n,i]).sort((a,b)=>(newsTime(b[0])-newsTime(a[0]))||(a[1]-b[1])).map(x=>x[0]);
   document.getElementById("hidden-count").textContent=only?`(${hidden} off-topic hidden)`:"";
   document.getElementById("news-list").innerHTML=items.map(n=>n.rel?`
    <article class="card${n.lead?" lead":""}" id="n-${n.id}">
@@ -517,7 +527,7 @@ function relevantForWeek(){
 }
 function renderEditionStatic(){
   const d=new Date(DATA.edition_date+"T12:00:00");
-  document.getElementById("masthead-date").textContent="Daily brief · "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
+  document.getElementById("masthead-date").textContent="Weekly edition · "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
   document.getElementById("d-stories").textContent=NEWS.filter(n=>n.rel).length;
   document.getElementById("d-changes").textContent=CHANGES.length;
   document.getElementById("d-leaders").textContent=CHANGES.filter(c=>c.tier===1).length;
@@ -640,21 +650,35 @@ function weekList(){
   const base=state.week===CUR?CHANGES:CHANGES.concat(HISTORY).filter(c=>inScope(c.week));
   return state.cat==="All"?base:base.filter(c=>catOf(c)===state.cat);
 }
+// One coverage box per view: hand-built (PricingSaaS) weeks say so, partial weeks say so, tracked weeks show their note if any.
+function weekNoteHTML(){
+  if(state.week===CUR)return "";
+  const hand=w=>(w.source_week||"").startsWith("PricingSaaS");
+  if(!multiWeek()){
+    const w=DATA.weeks.find(x=>x.week===state.week);if(!w)return "";
+    const parts=[];if(hand(w))parts.push("Rebuilt by hand from the PricingSaaS feed, not from our own captures.");if(w.note)parts.push(w.note);
+    if(!parts.length)return "";
+    return `<b>${w.coverage==="partial"?"Partial week":hand(w)?"Backfill":"Coverage"}.</b> ${esc(parts.join(" "))}`;
+  }
+  const scope=DATA.weeks.filter(w=>inScope(w.week)),hw=scope.filter(hand),pw=scope.filter(w=>w.coverage==="partial");
+  const nums=ws=>{const n=ws.map(w=>+wkNum(w.week)).sort((a,b)=>a-b);
+    if(n.length>2&&n[n.length-1]-n[0]===n.length-1)return n[0]+"–"+n[n.length-1];
+    return n.length>1?n.slice(0,-1).join(", ")+" and "+n[n.length-1]:String(n[0])};
+  const out=[];
+  if(hw.length)out.push(`<b>Backfill.</b> Week${hw.length>1?"s":""} ${nums(hw)} ${hw.length>1?"were":"was"} rebuilt by hand from the PricingSaaS feed${hw.length<scope.length?"; later weeks come from our own captures":""}.`);
+  if(pw.length)out.push(`<b>Partial ${pw.length===1?"week":"weeks"}:</b> week${pw.length>1?"s":""} ${nums(pw)} ${pw.length===1?"was":"were"} only partly captured, so counts for ${pw.length===1?"it":"them"} are low.`);
+  return out.join(" ");
+}
 function renderGroups(){
   segChips(document.getElementById("segbar-main"));segChips(document.getElementById("segbar-all"));filterBars();
   const wl=weekList().filter(c=>state.seg==="All"||c.seg===state.seg), wrel=wl.filter(isMain).length;
   const main=wl.filter(isMain), rest=wl.length-main.length;
   document.getElementById("groups-main").innerHTML=groupsHTML(main,"m");
   renderFront();renderPatterns();renderCtx();
-  document.getElementById("pilot-note-main").hidden=state.week===CUR;
   renderPromos();
   document.getElementById("groups-all").innerHTML=groupsHTML(wl,"a");
-  document.getElementById("pilot-note").hidden=state.week===CUR;
-  const partial=multiWeek()?DATA.weeks.filter(w=>w.coverage==="partial"&&inScope(w.week)):[];
-  const wkNote=multiWeek()?null:DATA.weeks.find(w=>w.week===state.week&&w.note);
-  ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);let cn=el.nextElementSibling;if(!cn||!cn.classList.contains("cov-note")){el.insertAdjacentHTML("afterend",`<div class="pilot cov-note" hidden></div>`);cn=el.nextElementSibling}cn.hidden=!wkNote;if(wkNote)cn.innerHTML=`<b>${wkNote.coverage==="partial"?"Partial week.":"Coverage."}</b> ${esc(wkNote.note)}`});
-  ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);const old=el.querySelector(".partial");if(old)old.remove();
-    if(partial.length)el.insertAdjacentHTML("beforeend",` <span class="partial"><b>Partial ${partial.length===1?"week":"weeks"}:</b> week ${partial.map(w=>wkNum(w.week)).join(", ")} was only partly captured, so counts for it are low.</span>`)});
+  const noteHTML=weekNoteHTML();
+  ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);el.hidden=!noteHTML;el.innerHTML=noteHTML});
   document.getElementById("all-title").textContent=state.week===CUR?`All ${wl.length} changes in this edition`:
     `${wl.length} changes · ${weekLabel()} · ${wrel} Relevant`;
   document.getElementById("more-all").textContent=rest?`${rest} more ${rest===1?"change":"changes"} from smaller companies in All Price Changes ›`:"";

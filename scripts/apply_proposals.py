@@ -391,7 +391,7 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
     today = now().date()
     desk.update({
         "current_week": week, "edition_date": today.isoformat(), "today": today.isoformat(),
-        "period": f"1–{today.day} {today.strftime('%b')}",
+        "period": week_range_label(week),
         "news": news, "patterns": patterns, "stats_analysis": stats, "news_trends": trends,
         "market_context": {
             "source": f"Pricing Desk, {active} tracked pricing pages", "total": st["total"],
