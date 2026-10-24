@@ -1,0 +1,433 @@
+=== https://fal.ai/pricing ===
+Products
+Docs
+Pricing
+Enterprise
+Resources
+Contact Sales
+Get Started
+Pricing
+Fast, reliable, and cost-efficient.
+fal adapts to your usage, ensuring you only pay for the computing power you consume. It's cost-effective scalability at its best.
+Trusted by over 2,500,000 developers and leading companies.
+Serverless & Compute Pricing
+Competitive pricing for custom deployments.
+Deploy your own app on our competitively priced GPU fleet, as low as $2.49/hr for H100.
+GPU
+VRAM
+List Price
+As low as
+B300
+VRAM
+288 GB
+List Price
+$12.99/h
+As low as
+$5.99/h
+GB200
+VRAM
+192 GB
+List Price
+$9.99/h
+As low as
+$5.89/h
+B200
+VRAM
+192 GB
+List Price
+$7.99/h
+As low as
+$5.49/h
+H200
+VRAM
+141 GB
+List Price
+$6.00/h
+As low as
+$2.99/h
+H100
+VRAM
+80 GB
+List Price
+$4.50/h
+As low as
+$2.49/h
+RTX PRO 6000
+VRAM
+96 GB
+List Price
+$4.00/h
+As low as
+$1.99/h
+Start Building
+Contact Sales
+Model APIs Pricing
+Video Models
+Video models are billed by output unit — per second or per video — depending on the model. The values shown represent output-based pricing.
+Model
+Unit
+Price
+Units per $1
+H3 Max Reference to Video
+↳ minimax/h3-max/reference-to-video
+Unit
+seconds
+Price
+$0.05
+Units per $1
+20 seconds
+H3 Max Image to Video
+↳ minimax/h3-max/image-to-video
+Unit
+seconds
+Price
+$0.03
+Units per $1
+33.33 seconds
+MiniMax H3 Max Text to Video
+↳ minimax/h3-max/text-to-video
+Unit
+seconds
+Price
+$0.03
+Units per $1
+33.33 seconds
+H3 Max Turbo Image to Video
+↳ minimax/h3-max-turbo/image-to-video
+Unit
+seconds
+Price
+$0.015
+Units per $1
+66.67 seconds
+H3 Max Turbo Text to Video
+↳ minimax/h3-max-turbo/text-to-video
+Unit
+seconds
+Price
+$0.015
+Units per $1
+66.67 seconds
+Kling Video
+↳ fal-ai/kling-video/v2.5-turbo/pro/image-to-video
+Unit
+seconds
+Price
+$0.07
+Units per $1
+14.29 seconds
+Kling Video v3 Image to Video [Pro]
+↳ fal-ai/kling-video/v3/pro/image-to-video
+Unit
+seconds
+Price
+$0.14
+Units per $1
+7.14 seconds
+Kling Video v3 Text to Video [Pro]
+↳ fal-ai/kling-video/v3/pro/text-to-video
+Unit
+seconds
+Price
+$0.14
+Units per $1
+7.14 seconds
+Seedance 2 Reference to Video
+↳ bytedance/seedance-2.0/reference-to-video
+Unit
+1000 tokens
+Price
+$0.014
+Units per $1
+71.43 1000 tokens
+Seedance 2 Image to Video
+↳ bytedance/seedance-2.0/image-to-video
+Unit
+1000 tokens
+Price
+$0.014
+Units per $1
+71.43 1000 tokens
+Start Building
+Contact Sales
+For a fair comparison, we've normalized these values to show approximate output per $1.
+Based on an estimated average video = 5 seconds at 720p. Actual output may vary based on model, resolution, and prompt complexity.
+Image Models
+Image models are billed by either image count or output size in megapixels (MP). All pricing here is normalized to 1MP to allow simple comparison.
+Model
+Unit
+Price
+Units per $1
+Nano Banana 2
+↳ fal-ai/nano-banana-2/edit
+Unit
+images
+Price
+$0.08
+Units per $1
+12.5 images
+Nano Banana 2
+↳ fal-ai/nano-banana-2
+Unit
+images
+Price
+$0.08
+Units per $1
+12.5 images
+GPT Image 2 API
+↳ openai/gpt-image-2/edit
+Unit
+units
+Price
+$1
+Units per $1
+1 units
+GPT Image 2 API
+↳ openai/gpt-image-2
+Unit
+units
+Price
+$1
+Units per $1
+1 units
+Nano Banana Pro
+↳ fal-ai/nano-banana-pro/edit
+Unit
+images
+Price
+$0.15
+Units per $1
+6.67 images
+Nano Banana Pro
+↳ fal-ai/nano-banana-pro
+Unit
+images
+Price
+$0.15
+Units per $1
+6.67 images
+Nano Banana
+↳ fal-ai/nano-banana/edit
+Unit
+images
+Price
+$0.0398
+Units per $1
+25.13 images
+Nano Banana
+↳ fal-ai/nano-banana
+Unit
+images
+Price
+$0.0398
+Units per $1
+25.13 images
+Z Image Turbo
+↳ fal-ai/z-image/turbo
+Unit
+megapixels
+Price
+$0.005
+Units per $1
+200 megapixels
+FLUX.1 [schnell]
+↳ fal-ai/flux/schnell
+Unit
+megapixels
+Price
+$0.003
+Units per $1
+333.33 megapixels
+Start Building
+Contact Sales
+Output is based on 1MP images. Higher resolutions will be priced proportionally. All models listed here follow output-based pricing. Some other models may use GPU-based pricing depending on architecture.
+Audio Models
+Audio models are billed per 1,000 characters or per second, depending on the model. The table shows the price per unit and the approximate units per $1.
+Model
+Unit
+Price
+Units per $1
+ElevenLabs TTS Multilingual v2
+↳ fal-ai/elevenlabs/tts/multilingual-v2
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+Elevenlabs Tts Eleven V3
+↳ fal-ai/elevenlabs/tts/eleven-v3
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+Elevenlabs Sound Effects V2
+↳ fal-ai/elevenlabs/sound-effects/v2
+Unit
+seconds
+Price
+$0.002
+Units per $1
+500 seconds
+ACE Step Prompt To Audio
+↳ fal-ai/ace-step/prompt-to-audio
+Unit
+seconds
+Price
+$0.0002
+Units per $1
+5,000 seconds
+ElevenLabs TTS Turbo v2.5
+↳ fal-ai/elevenlabs/tts/turbo-v2.5
+Unit
+1000 characters
+Price
+$0.05
+Units per $1
+20 1000 characters
+MiniMax Speech-02 HD
+↳ fal-ai/minimax/speech-02-hd
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+xAI Text to Speech
+↳ xai/tts/v1
+Unit
+1000 characters
+Price
+$0.015
+Units per $1
+66.67 1000 characters
+MiniMax Speech 2.8 [HD]
+↳ fal-ai/minimax/speech-2.8-hd
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+MiniMax Speech 2.8 [Turbo]
+↳ fal-ai/minimax/speech-2.8-turbo
+Unit
+1000 characters
+Price
+$0.06
+Units per $1
+16.67 1000 characters
+Gemini 3.1 Flash Tts
+↳ fal-ai/gemini-3.1-flash-tts
+Unit
+1000 characters
+Price
+$0.05
+Units per $1
+20 1000 characters
+3D Models
+3D models are billed in units, generations, or credits, depending on the model. The table shows the price per unit and the approximate units per $1.
+Model
+Unit
+Price
+Units per $1
+Sam 3
+↳ fal-ai/sam-3/3d-objects
+Unit
+units
+Price
+$0.02
+Units per $1
+50 units
+Hunyuan Motion [1B]
+↳ fal-ai/hunyuan-motion
+Unit
+generations
+Price
+$0.08
+Units per $1
+12.5 generations
+Trellis
+↳ fal-ai/trellis
+Unit
+generations
+Price
+$0.02
+Units per $1
+50 generations
+Tripo H3.1 Image to 3D
+↳ tripo3d/h3.1/image-to-3d
+Unit
+credits
+Price
+$0.01
+Units per $1
+100 credits
+Tripo H3.1 Text to 3D
+↳ tripo3d/h3.1/text-to-3d
+Unit
+credits
+Price
+$0.01
+Units per $1
+100 credits
+Tripo H3.1 Multiview to 3D
+↳ tripo3d/h3.1/multiview-to-3d
+Unit
+credits
+Price
+$0.01
+Units per $1
+100 credits
+Meshy 6 Preview
+↳ fal-ai/meshy/v6-preview/image-to-3d
+Unit
+generations
+Price
+$0.8
+Units per $1
+1.25 generations
+Hunyuan 3D Pro Image to 3D
+↳ fal-ai/hunyuan-3d/v3.1/pro/image-to-3d
+Unit
+units
+Price
+$0.015
+Units per $1
+66.67 units
+Hunyuan 3D Pro Text to 3D
+↳ fal-ai/hunyuan-3d/v3.1/pro/text-to-3d
+Unit
+units
+Price
+$0.015
+Units per $1
+66.67 units
+Trellis 2
+↳ fal-ai/trellis-2
+Unit
+units
+Price
+$0.05
+Units per $1
+20 units
+Build with the fastest inference platform on the planet.
+Whether you need to ship a feature today or train a massive model from scratch — fal gives you the power and flexibility to do both.
+Get Started
+Contact Sales
+Learn More
+StatusDocumentationPricingServerlessEnterpriseGenmedia CLIEventsVerify fal-Generated ContentReport ContentGen Media Report 2026
+Trust & SafetyCareersBlogGrantsLegalYour Privacy ChoicesLearnGet in touch
+Image Models
+Seedream 5.0GPT Image 2.5GPT Image 2Flux 2Nano Banana 2Ideogram 4Krea 2Nano Banana ProQwen Image 3Explore More
+Video Models
+AI Video GeneratorText to VideoSeedance 2.5Seedance 2.0Gemini OmniMiniMax H3Kling 3.0Veo 3.1Grok Imagine 1.5Happy Horse 1.1Happy OysterWan 3.0LTX 2.3PixVerse V6
+Labs
+Black Forest LabsGoogleOpenAIxAIAlibabaKlingByteDanceElevenLabs
+Playgrounds
+fal AgentSandboxWorkflowsTrainingFree ToolsBackground RemoverImage UpscalerImage ExtenderImage Resizer
+Social
+DiscordGithubRedditXLinkedInYouTubeInstagramTikTok
+features and labels, 2026. All Rights Reserved. Terms of Service and Privacy Policy.

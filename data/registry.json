@@ -14,7 +14,7 @@
     "1password.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -84,7 +84,7 @@
     "acuityscheduling.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -148,8 +148,7 @@
    "segment": "Both",
    "watch": true,
    "pricing_urls": [
-    "https://www.adobe.com/products/photoshop/plans.html",
-    "https://www.adobe.com/acrobat/pricing.html"
+    "https://www.adobe.com/creativecloud/plans.html"
    ],
    "domains": [
     "adobe.com"
@@ -165,8 +164,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 1,
-   "notes": "rejected https://www.adobe.com/creativecloud/plans.html: page shows no prices"
+   "url_attempts": 2,
+   "notes": "rejected https://www.adobe.com/products/photoshop/plans.html, https://www.adobe.com/acrobat/pricing.html: page shows no prices"
   },
   "aihr": {
    "name": "AIHR",
@@ -203,7 +202,7 @@
     "aircall.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -302,7 +301,7 @@
     "claude.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -460,7 +459,7 @@
     "asana.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -488,7 +487,7 @@
     "trello.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -558,7 +557,7 @@
     "baremetrics.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -628,7 +627,7 @@
     "beehiiv.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -1188,7 +1187,7 @@
     "clickup.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1260,7 +1259,7 @@
     "windsurf.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -1286,7 +1285,7 @@
     "cohere.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "Canada",
@@ -1554,7 +1553,7 @@
     "cursor.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "acquired",
    "hq": "US",
@@ -1602,7 +1601,7 @@
     "datadoghq.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -1650,7 +1649,7 @@
     "dialpad.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1676,7 +1675,7 @@
     "docker.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -1950,7 +1949,7 @@
     "expressvpn.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "Europe",
@@ -1976,7 +1975,7 @@
     "fal.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -2160,7 +2159,7 @@
     "github.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -2230,7 +2229,7 @@
     "workspace.google.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -2479,8 +2478,8 @@
    "domains": [
     "hubspot.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -2840,7 +2839,7 @@
     "konghq.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -2954,7 +2953,7 @@
     "langchain.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -3024,7 +3023,7 @@
     "legalzoom.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -3601,10 +3600,15 @@
    "category": "Collaboration & Productivity",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.moodlecloud.com/standard-plans/"
+   ],
+   "domains": [
+    "moodle.com",
+    "moodlecloud.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "Australia",
@@ -3667,10 +3671,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://n8n.io/pricing/"
+   ],
+   "domains": [
+    "n8n.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -3942,10 +3950,15 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://us.ovhcloud.com/public-cloud/prices/"
+   ],
+   "domains": [
+    "ovhcloud.com",
+    "us.ovhcloud.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "Europe",
@@ -3986,10 +3999,14 @@
    "category": "Collaboration & Productivity",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://padlet.com/site/pricing"
+   ],
+   "domains": [
+    "padlet.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4052,10 +4069,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.pagerduty.com/pricing/"
+   ],
+   "domains": [
+    "pagerduty.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -4184,10 +4205,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://pipedream.com/pricing"
+   ],
+   "domains": [
+    "pipedream.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "acquired",
    "hq": "US",
@@ -4514,10 +4539,14 @@
    "category": "Software Development & Testing",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://replit.com/pricing"
+   ],
+   "domains": [
+    "replit.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4646,10 +4675,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.runpod.io/pricing"
+   ],
+   "domains": [
+    "runpod.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4716,10 +4749,15 @@
    "category": "Collaboration & Productivity",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://scribe.com/pricing"
+   ],
+   "domains": [
+    "scribe.com",
+    "scribehow.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -4782,10 +4820,14 @@
    "category": "Marketing & Content",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.semrush.com/prices/"
+   ],
+   "domains": [
+    "semrush.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "public",
    "hq": "US",
@@ -4984,10 +5026,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.sonarsource.com/plans-and-pricing/"
+   ],
+   "domains": [
+    "sonarsource.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "Europe",
@@ -5116,10 +5162,15 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.sugarai.com/pricing"
+   ],
+   "domains": [
+    "sugarcrm.com",
+    "sugarai.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5138,10 +5189,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://supabase.com/pricing"
+   ],
+   "domains": [
+    "supabase.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5248,10 +5303,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.synthesia.io/pricing"
+   ],
+   "domains": [
+    "synthesia.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "UK",
@@ -5336,10 +5395,16 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://telnyx.com/pricing",
+    "https://telnyx.com/pricing/voice-api",
+    "https://telnyx.com/pricing/messaging"
+   ],
+   "domains": [
+    "telnyx.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5402,10 +5467,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.together.ai/pricing"
+   ],
+   "domains": [
+    "together.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5534,10 +5603,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://vapi.ai/pricing"
+   ],
+   "domains": [
+    "vapi.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5688,10 +5761,14 @@
    "category": "Software Development & Testing",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.warp.dev/pricing"
+   ],
+   "domains": [
+    "warp.dev"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -5754,10 +5831,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://wisprflow.ai/pricing"
+   ],
+   "domains": [
+    "wisprflow.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -5849,7 +5930,7 @@
     "xero.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "public",
    "hq": "APAC",
@@ -5946,8 +6027,8 @@
     "zoom.us",
     "zoom.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
