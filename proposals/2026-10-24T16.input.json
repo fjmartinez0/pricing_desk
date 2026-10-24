@@ -1,0 +1,30 @@
+{
+ "run": "2026-10-24T16",
+ "changes": [
+  {
+   "diff_id": "intercom-2026-10-24T16",
+   "company": "intercom",
+   "unstable": false,
+   "before_file": "data/snapshots/intercom/2026-10-24T13.txt",
+   "after_file": "data/snapshots/intercom/2026-10-24T16.txt",
+   "last_old_at": "2026-10-24T13:34:06-04:00",
+   "first_new_at": "2026-10-24T15:45:47-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/intercom-2026-10-24T16.diff",
+   "attempts": 1
+  },
+  {
+   "diff_id": "microsoft-365-2026-10-24T16",
+   "company": "microsoft-365",
+   "unstable": true,
+   "before_file": "data/snapshots/microsoft-365/2026-10-24T13.txt",
+   "after_file": "data/snapshots/microsoft-365/2026-10-24T16_a.txt",
+   "alt_file": "data/snapshots/microsoft-365/2026-10-24T16_b.txt",
+   "last_old_at": "2026-10-24T13:23:22-04:00",
+   "first_new_at": "2026-10-24T16:06:20-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/microsoft-365-2026-10-24T16.diff",
+   "attempts": 1
+  }
+ ]
+}

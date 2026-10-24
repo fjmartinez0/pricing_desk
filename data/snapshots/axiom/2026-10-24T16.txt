@@ -1,0 +1,298 @@
+=== https://axiom.co/pricing ===
+Sign inStart free→→
+Pricing that scales with you, not against you.
+Usage-based pricing with automatic volume discounts as you scale. Always Free allowances on every plan. Add-ons unlock in the Console, not on a sales call.
+Start free→→Talk to sales→→
+Axiom Cloud
+For teams scaling from first deployment to hyperscale.
+$25/month
+Platform fee + usage. No minimum commitment.
+→Always Free allowance (1 TB / 100 GB-hrs / 100 GB) included
+→Automatic volume discounts on usage beyond the allowance
+→Configurable retention
+→Self-serve add-ons (SSO, RBAC, Directory Sync, Extended Audit Logs)
+→Compute credit pre-purchase for deeper discounts
+→All integrations
+→Email support (paid SLA + dedicated available)
+Get Started→→
+Personal
+For individual developers and small projects.
+$0/month
+Permanent. No credit card required.
+→500 GB/mo data loading compute
+→10 GB-hours query compute
+→25 GB storage
+→30-day retention
+→Full APL access
+→All integrations
+→Community support
+Start Free→→
+Model your bill. Compare your current one.
+Configure your usage and see exactly what you'd pay on Axiom. Already on Splunk, Datadog or CloudWatch? Compare your bill across platforms.
+Monthly Estimate
+Estimate
+Compare to providers
+Ingest / month
+1 TB/mo
+100 GB1 TB100 TB500 TB5 PB
+Query (GB-hrs/mo)
+Low50GB-hrs/mo
+Base250GB-hrs/mo
+High1,500GB-hrs/mo
+CustomManualGB-hrs/mo
+└For compliance and log retention workloads.
+Add-ons
+SAML SSO+$100
+RBAC+$50
+Extended Audit Logs+$50
+Directory Sync+$100
+BreakdownAxiom Cloud
+Data loading compute
+Included
+Query compute
+Included
+Total compute credits
+0cr/mo
+Storage
+Included
+Platform fee
+$25/mo
+Pay as you go
+$25/mo
+Enterprise features when you need them. Not when sales decides to call.
+All available on Axiom Cloud, in-console, no sales call required.
+Role-Based Access Control$50/ month
+Define granular permissions that control who can access what data and perform specific actions. Essential for organizations with multiple teams accessing shared resources.
+Extended Audit Logs$50/ month
+Track and review all actions taken within your Axiom organization. Provides complete visibility for compliance requirements, security investigations, and operational monitoring.
+Single Sign-On (SAML SSO)$100/ month
+Seamlessly authenticate users through your existing identity provider (IdP). Simplifies access management, enhances security, and streamlines the user experience for your entire organization.
+Directory Sync$100/ month
+Automatically provision and manage users from your organizational directory. Ensures access stays in sync with your team changes, reducing manual user management and improving security.
+└HIPAA BAA available as a self-serve add-on. SOC 2 Type II and GDPR compliant today.
+Procurement-ready, today.
+The certifications, BAAs, and residency controls your security review asks for — most of them self-serve, none of them a sales gate.
+SOC 2 Type II
+Independently audited security controls with reports available in our Trust Center.
+ISO 27001
+Certified information security management, audited to the international standard.
+GDPR
+Built to support GDPR requirements with privacy-first data handling.
+HIPAA BAA
+Sign a Business Associate Agreement for HIPAA-compliant healthcare workloads.
+Regional residency
+Keep your data in your chosen region with multi-region edge architecture.
+Find our current sub-processor list and audit reports in the Trust Center.
+Open the Trust Center→→
+Compare plans in detail.
+Explore every feature, limit, and capability side by side to find the plan that best fits your team's needs.
+Personal
+Start Free
+Axiom Cloud
+Get Started→→
+Personal
+Axiom Cloud
+Get Started→→
+ALWAYS FREE ALLOWANCE
+Data loading compute
+500 GB / mo
+1 TB / mo (included in platform fee)
+Query compute
+10 GB-hours / mo
+100 GB-hours / mo
+Storage
+25 GB
+100 GB
+PRICING
+Platform fee
+$0 / mo, permanent
+$25 / mo platform fee + usage
+Volume discounts
+n/a
+Automatic, applied as usage grows
+Pre-purchase compute credits
+n/a
+Available (up to 40% off)
+RETENTION
+Retention window
+30 days
+Configurable
+APL & QUERY
+Full APL access
+Yes
+Virtual fields, joins, scheduled queries
+Yes
+Alerting
+Yes
+INTEGRATIONS
+OTel, Vector, CloudWatch, AWS, Kubernetes, CI/CD
+All
+Splunk App
+In preview
+AI AGENTS
+MCP server + SRE skill + Metrics skill
+Included
+Included (not a separate add-on)
+COST CONTROLS
+Spend alerts and hard caps
+n/a (no spend)
+Yes, in the Console
+GOVERNANCE (SELF-SERVE ADD-ONS)
+SSO (SAML)
+—
+$100 / mo
+Directory Sync (SCIM)
+—
+$100 / mo
+Role-Based Access Control
+—
+$50 / mo
+Extended Audit Logs
+—
+$50 / mo
+SUPPORT
+Support tier
+Community
+Email included. SLA / dedicated as add-ons
+COMPLIANCE
+SOC 2 Type II + GDPR
+Underlying platform: Yes
+Yes
+HIPAA BAA
+—
+Self-serve add-on
+Region residency
+Underlying platform: Yes
+Yes (edge architecture)
+DEPLOYMENT
+Managed
+Yes
+Edge regions
+—
+Available
+SOFT LIMITS (CAN BE LIFTED ON REQUEST)
+Datasets / fields per dataset / query concurrency
+Soft limits
+How Axiom pricing compares.
+Splunk
+Same query power. Modern infrastructure. No renewal-cycle math.
+Datadog
+Logs + metrics on one usage-based dial. No Standard Indexing SKU.
+ClickHouse
+Same backend class. Fully managed. No DIY ops.
+Elastic
+Columnar event store built for observability volumes. No cluster to operate.
+Pricing is also machine-readable.
+The full rate card is published at /pricing/llms.txt for AI agents modeling spend and procurement-automation tools that ingest published rates. Same math as the calculator above.
+Copy prompt for agents
+View the rate card→→
+Claude Code v2.1.180
+Opus 4.8 (1M context) with xHigh effort • Claude Max
+~/desktop/axiom.co
+> Estimate my monthly cost for 1 PB/month ingest with 12-month retention.
+▶▶ Bypass permissions on • pricing.md • Axiom MCP Connected
+Questions teams ask before signing up.
+Have more specific questions about your use case?
+Talk to sales→→
+SPEND AND OVERAGES
+How does the Always Free allowance work?
+Every organization gets a free allowance each month, and you only pay for usage above it.
+On Personal, that's 500 GB of data loading compute, 10 GB-hours of query compute and 25 GB of storage, with no credit card needed. On Axiom Cloud, it's 1 TB of data loading compute, 100 GB-hours of query compute and 100 GB of storage, included in the $25 monthly platform fee.
+What happens when usage exceeds the Always Free allowance?
+On Axiom Cloud, you pay as you go for anything above the allowance. There's no separate overage rate: extra usage is billed at the normal rates, and those rates get lower as your monthly volume grows.
+Can I set a spending limit?
+Yes. You can set a spending limit and spend alerts in the Console. If you reach the limit, usage beyond it is paused rather than billed.
+How do volume discounts work?
+They apply automatically. Data loading compute and query compute are priced in tiers, and each tier is cheaper per unit than the one before, so the more you use in a month, the less each extra GB or GB-hour costs. There's nothing to negotiate or request. The rates are in the next answer.
+What do data loading compute, query compute and storage cost?
+Data loading compute and query compute are billed in compute credits, at $1 per compute credit if you pay as you go. Rates are graduated: each rate applies only to the usage within its tier. Each month, the first 1,000 GB of data loading compute and 100 GB-hours of query compute are free.
+Storage is charged on compressed data, which moves to cheaper tiers as it ages. The first 100 GB is free.
+Data loading compute
+Per month
+Per GB
+0 – 999 GB
+Included
+1,000 – 99,999 GB
+$0.12
+100,000 – 499,999 GB
+$0.10
+500,000 – 999,999 GB
+$0.085
+1,000,000 – 4,999,999 GB
+$0.07
+5,000,000+ GB
+$0.06
+Query compute
+Per month
+Per GB-hour
+0 – 99 GB-hrs
+Included
+100 – 499 GB-hrs
+$0.20
+500 – 4,999 GB-hrs
+$0.16
+5,000 – 49,999 GB-hrs
+$0.12
+50,000 – 2,499,999 GB-hrs
+$0.10
+2,500,000+ GB-hrs
+$0.08
+Storage
+Access tier
+Per GB per month
+Frequent Access · Recently accessed data (default tier)
+$0.03
+Infrequent Access · Data not accessed for 30+ days
+$0.0163
+Archive Instant Access · Data not accessed for 90+ days
+$0.00522
+PLAN FIT
+What's the difference between Personal and Axiom Cloud?
+Personal is for individual developers and small projects. It's free, needs no credit card, and keeps data for 30 days.
+Axiom Cloud is for teams. It costs $25 a month plus usage, comes with a larger free allowance, lets you choose how long to keep data, and lets you turn on paid add-ons yourself in the Console. Both run on the same platform.
+Can I pre-purchase compute credits, or is everything pay as you go?
+Both. Pay as you go is the default. If you prefer, you can commit to a yearly volume of compute credits for 12, 24 or 36 months and pay less per compute credit. To find your rate in the table below, pick the row for the compute credits you'll use each year, then the column for how long you commit. For a 24- or 36-month commitment, you can pay the whole amount upfront or one year at a time. The rate is the same either way.
+Committed use · price per compute credit
+Compute credits a year
+12 months
+24 months
+36 months
+0 – 24,999
+$1.00
+25,000 – 99,999
+$0.9010% off
+$0.8614% off
+$0.8317% off
+100,000 – 249,999
+$0.8515% off
+$0.8119% off
+$0.7822% off
+250,000 – 499,999
+$0.8020% off
+$0.7624% off
+$0.7327% off
+500,000 – 2,499,999
+$0.7030% off
+$0.6634% off
+$0.6337% off
+2,500,000+
+$0.6040% off
+$0.5644% off
+$0.5347% off
+Can I self-serve add-ons without a sales call?
+Yes. Once you're on Axiom Cloud, you can turn on SSO, RBAC, Directory Sync and Extended Audit Logs yourself in the Console.
+CUSTOM AND PROCUREMENT
+Do you support AWS Marketplace billing?
+Yes. You can pre-purchase compute credits through AWS Marketplace.
+Can I get invoice or PO-based billing?
+Yes. When you pre-purchase compute credits on Axiom Cloud, you can pay for them by invoice or purchase order. The platform fee, storage and any add-ons are invoiced monthly.
+Do you offer migration and services support?
+Yes. Partners like 4Data can take on professional services engagements, including migrations. Axiom's own team also provides support directly.
+SPECIFIC FEATURES
+Are MCP server access and the SRE skill priced separately?
+No. The MCP server, SRE skill and Metrics skill are included with Axiom Cloud at no extra cost, and agents have no separate rate limits. Queries run by agents count toward your query compute in exactly the same way as queries run by people.
+What's the data-residency story?
+You can keep your data in the region you choose. Axiom's edge architecture also lets you write data to several regions from a single organization.
+Start free. Scale without renegotiating.
+Always Free allowance on every plan. No credit card to start. No sales call required.
+Start free→→Talk to sales

@@ -1,0 +1,22 @@
+{
+  "type": "changes",
+  "run": "2026-10-24T16",
+  "items": [
+    {
+      "diff_id": "intercom-2026-10-24T16",
+      "kind": "wording",
+      "why": "Pricing page redesign: same prices ($29→$19 Essential for new customers, $85 Advanced, $132 Expert, Fin $0.99 per outcome now shown as ‘From’, Pro from $100, Copilot $29, Proactive Support Plus $99); cost estimator, Fin Voice line and testimonials replaced, ‘per teammate’ renamed ‘per agent’, monthly/annual toggle added; no price, limit or plan change.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "diff_id": "microsoft-365-2026-10-24T16",
+      "kind": "noise",
+      "why": "Only the page Trace Id changed in both versions; all prices, plans and the Copilot Business promo ($21.00 → $18.00) are identical to the previous capture, so the ‘unstable’ flag reflects the rotating Trace Id, not an A/B price test.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "type": "reports",
+  "run": "2026-10-24T16",
+  "items": [
+    {
+      "report_id": "github:2026-W43",
+      "company": "github",
+      "new_company": null,
+      "kind": "new_feature",
+      "why": "New ‘AI detection for push protection’ added to Secret Protection, billed by usage; the existing Copilot secret scanning is renamed ‘AI detection for alerts’ and stays included, so no existing price changes.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "fireworks:2026-W43",
+      "company": null,
+      "new_company": {
+        "name": "Fireworks AI",
+        "category": "AI & Machine Learning",
+        "segment": "B2B",
+        "pricing_urls": ["https://fireworks.ai/pricing"],
+        "domains": ["fireworks.ai"],
+        "source_url": "https://pricingsaas.com/companies/fireworks/diffs/2026D290",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "new_feature",
+      "why": "Two models (Muse Spark Open, DeepSeek V4.1 Flash) added to the Serverless Training price list; existing prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "file:2026-W43",
+      "company": "fileai",
+      "new_company": null,
+      "kind": "price_cut",
+      "why": "fileForensics per-file starting price cut from $0.05 to $0.03 (−40%). Registry has both ‘file’ and ‘fileai’ for this company; filed under ‘fileai’.",
+      "detail": "line",
+      "record": {
+        "group": "down",
+        "delta": "−40%",
+        "short": "fileForensics per-file starting price cut from $0.05 to $0.03.",
+        "pattern": "Price cut",
+        "seg": "B2B",
+        "ai": true,
+        "planLevel": "all",
+        "reach": 1
+      },
+      "promo": null
+    },
+    {
+      "report_id": "figma:2026-W43",
+      "company": "figma",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Specs (beta) added to paid Full, Dev and Collab seats; already recorded as figma-2026w42 (and would otherwise be new_feature, no price change).",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "fal:2026-W43",
+      "company": "fal",
+      "new_company": null,
+      "kind": "price_increase",
+      "why": "Flux 3 Image edit endpoint doubled from $0.024 to $0.048 per megapixel on Oct 16; the week page shows the same change.",
+      "detail": "card",
+      "record": {
+        "plan": "Flux 3 Image edit (Model API)",
+        "group": "up",
+        "delta": "×2",
+        "deltaSub": "per megapixel, Flux 3 Image edit",
+        "short": "Flux 3 Image edit price doubled from $0.024 to $0.048 per megapixel.",
+        "headline": "fal doubled the price of its Flux 3 Image edit endpoint from $0.024 to $0.048 per megapixel, days after listing it.",
+        "rows": [
+          ["Flux 3 Image edit, per megapixel", "$0.024", "$0.048"],
+          ["Megapixels per $1", "41.67", "20.83"]
+        ],
+        "who": "Developers calling the Flux 3 Image edit endpoint on fal’s Model API.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "A rate that doubles within days of being listed looks more like the end of an introductory price than a cost-driven hike. Newly added endpoints are the least settled lines on fal’s rate card, so teams should budget at the higher rate.",
+        "caveat": "Social posts quoted with the PricingSaaS report describe the earlier rate as a launch promo; the report does not show fal’s page labelling it as one.",
+        "pattern": "Price increase",
+        "seg": "B2B",
+        "ai": true,
+        "planLevel": "all",
+        "model": "Usage",
+        "modelBefore": "Usage",
+        "modelAfter": "Usage",
+        "appliesTo": "all",
+        "reach": 1,
+        "magnitude": {"low": 100, "high": 100, "basis": "unit price"}
+      },
+      "promo": null
+    },
+    {
+      "report_id": "elevenlabs:2026-W43",
+      "company": null,
+      "new_company": {
+        "name": "ElevenLabs",
+        "category": "AI & Machine Learning",
+        "segment": "Both",
+        "pricing_urls": ["https://elevenlabs.io/pricing"],
+        "domains": ["elevenlabs.io"],
+        "source_url": "https://pricingsaas.com/companies/elevenlabs/diffs/2026D287",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "promo",
+      "why": "Eleven v4 launch banner (3x credits on Creator and up until October 12) removed after its end date; plan prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": {"kind": "ended", "text": "Eleven v4 launch offer of 3x credits on Creator and up ended 12 Oct"}
+    },
+    {
+      "report_id": "deepseek:2026-W43",
+      "company": null,
+      "new_company": {
+        "name": "DeepSeek",
+        "category": "AI & Machine Learning",
+        "segment": "Both",
+        "pricing_urls": ["https://api-docs.deepseek.com/quick_start/pricing"],
+        "domains": ["deepseek.com"],
+        "source_url": "https://pricingsaas.com/companies/deepseek/diffs/2026D290",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "new_feature",
+      "why": "New Search and Fetch APIs priced at $0.75 per 1,000 successful requests from Nov 1; a new priced product, existing token prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "cursor:2026-W43",
+      "company": "cursor",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Lineup rebuilt around the Grok/X bundle (Plus $8, Premium $30, Super $100) and Teams cut from $40 to $30+; already recorded as cursor-2026w43.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "clickup:2026-W43",
+      "company": "clickup",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Core $8 → $9 per user a month (annual) already recorded as clickup-2026w43; note PricingSaaS says this appears only in an A/B test layout, which the existing record does not mention.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "clay:2026-W43",
+      "company": null,
+      "new_company": {
+        "name": "Clay",
+        "category": "Sales & Customer Relationship Management (CRM)",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.clay.com/pricing"],
+        "domains": ["clay.com"],
+        "source_url": "https://pricingsaas.com/companies/clay/diffs/2026D289",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "new_feature",
+      "why": "Enterprise plan lists new governance features (User Groups, SCIM, IP allowlists, connection controls, workflow limits) plus relabels; no price change.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "buildkite:2026-W43",
+      "company": "buildkite",
+      "new_company": null,
+      "kind": "price_reveal",
+      "why": "Pro plan now states overage rates ($0.05/GB-month storage beyond 250GB, $0.10/GB downloads beyond 2.5TB) that were not shown before.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "bolt:2026-W43",
+      "company": "bolt",
+      "new_company": null,
+      "kind": "promo",
+      "why": "Free Bolt Forge on Pro was dropped Oct 15, reinstated until Oct 18 the next day, then removed after Oct 18; Pro and Teams prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": {"kind": "ended", "text": "Bolt Forge included free on Pro, extended to 18 Oct, has ended"}
+    },
+    {
+      "report_id": "bird:2026-W43",
+      "company": "bird",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Move to wallet billing with Apple Messages at $100 a month and email from $15 already recorded as bird-2026w43.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "baseten:2026-W43",
+      "company": "baseten",
+      "new_company": null,
+      "kind": "new_feature",
+      "why": "Four models added to the Model APIs price list over three days (Nemotron 3.5 Super VL, Reflection Beam, Muse Spark Open, DeepSeek V4.1 Flash 1017); existing prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "atlassian.jira:2026-W43",
+      "company": "atlassian",
+      "new_company": null,
+      "kind": "price_increase",
+      "why": "Jira Cloud Standard $7.91 → $8.48 and Premium $14.54 → $15.56 per user a month (~7%) at the page’s default 300-user team size, monthly billing.",
+      "detail": "card",
+      "record": {
+        "plan": "Jira Cloud Standard and Premium",
+        "group": "up",
+        "delta": "+7%",
+        "deltaSub": "per user, 300-user team, monthly",
+        "short": "Jira Cloud Standard up from $7.91 to $8.48 and Premium from $14.54 to $15.56 per user a month at a 300-user team size.",
+        "headline": "Atlassian raised Jira Cloud Standard and Premium by about 7% per user a month at the pricing page’s default 300-user team size.",
+        "rows": [
+          ["Jira Standard, per user per month (300 users, monthly)", "$7.91", "$8.48"],
+          ["Jira Premium, per user per month (300 users, monthly)", "$14.54", "$15.56"]
+        ],
+        "who": "Jira Cloud Standard and Premium customers on monthly billing at larger team sizes; the rate for small teams was not reported.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "A quiet list-price rise with no notice on the page, landing on larger teams where per-seat rates are already volume-discounted. At 300 seats it adds a few hundred dollars a month, small enough to slip through at renewal.",
+        "caveat": "Prices are for the page’s default 300-user team on monthly billing, not the small-team list rate; a later PricingSaaS capture lists Standard at $7.92 and Premium at $16.25, so the calculator output may vary.",
+        "pattern": "Price increase",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "mid",
+        "model": "Seat",
+        "modelBefore": "Seat",
+        "modelAfter": "Seat",
+        "appliesTo": "unknown",
+        "reach": 2,
+        "magnitude": {"low": 7, "high": 7, "basis": "list price"}
+      },
+      "promo": null
+    },
+    {
+      "report_id": "atlassian.bitbucket:2026-W43",
+      "company": "atlassian",
+      "new_company": null,
+      "kind": "price_increase",
+      "why": "Bitbucket Premium up from $7.25 to $8 per user per month (+10%); Standard unchanged at $3.65.",
+      "detail": "card",
+      "record": {
+        "plan": "Bitbucket Premium",
+        "group": "up",
+        "delta": "+10%",
+        "deltaSub": "per user per month",
+        "short": "Bitbucket Premium up from $7.25 to $8 per user a month.",
+        "headline": "Atlassian raised Bitbucket Premium from $7.25 to $8 per user a month, while Standard stays at $3.65.",
+        "rows": [
+          ["Bitbucket Premium, per user per month", "$7.25", "$8"]
+        ],
+        "who": "Bitbucket Premium customers and new Premium buyers.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "Arriving in the same week as the Jira increase, this looks like a coordinated autumn price move across Atlassian’s cloud products rather than a one-off. The top tier takes the rise while the entry paid tier holds.",
+        "pattern": "Price increase",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "top",
+        "model": "Seat",
+        "modelBefore": "Seat",
+        "modelAfter": "Seat",
+        "appliesTo": "unknown",
+        "reach": 2,
+        "magnitude": {"low": 10, "high": 10, "basis": "list price"}
+      },
+      "promo": null
+    },
+    {
+      "report_id": "approvalmax:2026-W43",
+      "company": "approvalmax",
+      "new_company": null,
+      "kind": "price_hidden",
+      "why": "Standard ($49.50), Advanced ($79.20) and Premium ($111.00) monthly prices removed from the plan cards; new Approval Intelligence AI agents added alongside.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "adapt:2026-W43",
+      "company": "adapt",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Managed plan cut from $14 to $8 per user already recorded as adapt-2026w43.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "acuityscheduling:2026-W43",
+      "company": "acuityscheduling",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Premium $49 → $55 a month on annual billing already recorded as acuityscheduling-2026w43.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "wingspan:2026-W42",
+      "company": null,
+      "new_company": {
+        "name": "Wingspan",
+        "category": "Workforce Management",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.wingspan.app/pricing"],
+        "domains": ["wingspan.app"],
+        "source_url": "https://pricingsaas.com/companies/wingspan/diffs/2026W42",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "price_increase",
+      "why": "Adds a $1,000 monthly minimum and a $20 per employee a month fee for seasonal, part-time and temporary W-2 workers; Premium support prices hidden.",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "$1,000 minimum",
+        "short": "Adds a $1,000 monthly minimum and a $20 per employee a month fee for seasonal, part-time and temporary W-2 workers; Premium support prices now hidden.",
+        "pattern": "Minimums",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "all",
+        "reach": 2
+      },
+      "promo": null
+    },
+    {
+      "report_id": "whalesync:2026-W42",
+      "company": "whalesync",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Starter halved, new $32 Plus tier and 20,000-record self-serve cap already recorded as whalesync-2026w42.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "volusion:2026-W42",
+      "company": null,
+      "new_company": {
+        "name": "Volusion",
+        "category": "Business Operations",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.volusion.com/pricing"],
+        "domains": ["volusion.com"],
+        "source_url": "https://pricingsaas.com/companies/volusion/diffs/2026W42",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "price_increase",
+      "why": "Business plan’s $299/month now applies only with annual payment; paying monthly costs $399.",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "+33%",
+        "short": "Business plan $299 a month now requires annual payment; paying monthly costs $399.",
+        "pattern": "Billing terms",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "top",
+        "reach": 1
+      },
+      "promo": null
+    },
+    {
+      "report_id": "together:2026-W42",
+      "company": "together-ai",
+      "new_company": null,
+      "kind": "price_increase",
+      "why": "Qwen3.8 Flash serverless price raised from $0.09/$0.28 to $0.15/$0.47 per 1M tokens (Oct 6); same week a time-limited Kimi K3 promo and a shorter 3-day GPU reservation minimum were added.",
+      "detail": "card",
+      "record": {
+        "plan": "Qwen3.8 Flash (serverless inference)",
+        "group": "up",
+        "delta": "+68%",
+        "deltaSub": "output price per 1M tokens",
+        "short": "Qwen3.8 Flash serverless price up from $0.09 input / $0.28 output to $0.15 / $0.47 per 1M tokens.",
+        "headline": "Together AI raised Qwen3.8 Flash serverless prices by up to 68%, to $0.15 input and $0.47 output per 1M tokens.",
+        "rows": [
+          ["Qwen3.8 Flash input, per 1M tokens", "$0.09", "$0.15"],
+          ["Qwen3.8 Flash output, per 1M tokens", "$0.28", "$0.47"]
+        ],
+        "who": "Serverless inference customers using Qwen3.8 Flash.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "A steep rise on a small, cheap model, made in the same week Together put Kimi K3 on a time-limited discount. Together is repricing model by model rather than across its catalogue, so per-model rates are worth rechecking often.",
+        "pattern": "Price increase",
+        "seg": "B2B",
+        "ai": true,
+        "planLevel": "all",
+        "model": "Usage",
+        "modelBefore": "Usage",
+        "modelAfter": "Usage",
+        "appliesTo": "all",
+        "reach": 1,
+        "magnitude": {"low": 67, "high": 68, "basis": "unit price"}
+      },
+      "promo": null
+    },
+    {
+      "report_id": "telnyx.conversationalai:2026-W42",
+      "company": "telnyx",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Growth (formerly Committed) minimum raised from $500 to $2,000 a month and made self-serve; already recorded as telnyx-2026w42.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "taskade:2026-W42",
+      "company": "taskade",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Claude removed below Enterprise already recorded as taskade-2026w42; the same report also ends Free’s 6,000 starter credits and shows Enterprise at $250/mo, which that record does not mention.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "tailscale:2026-W42",
+      "company": "tailscale",
+      "new_company": null,
+      "kind": "new_feature",
+      "why": "‘Custom tailnet subdomains’ added as a new Enterprise benefit; no price change.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "scribe:2026-W42",
+      "company": "scribe",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Pro Team $13 → $23 per seat with a 5-seat minimum already recorded as scribe-2026w42.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "runwayml:2026-W42",
+      "company": "runway",
+      "new_company": null,
+      "kind": "promo",
+      "why": "Banner added Oct 8: new Enterprise customers get 2 months of usage free if they sign by 10/31; day and week pages show the same offer.",
+      "detail": "line",
+      "record": null,
+      "promo": {"kind": "new", "text": "2 months of usage free for new Enterprise customers signing by 31 Oct"}
+    },
+    {
+      "report_id": "protopie:2026-W42",
+      "company": null,
+      "new_company": {
+        "name": "ProtoPie",
+        "category": "Collaboration & Productivity",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.protopie.io/pricing"],
+        "domains": ["protopie.io"],
+        "source_url": "https://pricingsaas.com/companies/protopie/diffs/2026W42",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "new_feature",
+      "why": "MCP leaves beta and is split into MCP Core (Pro) and MCP Enterprise (Enterprise); no price change.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "openart:2026-W42",
+      "company": "openart",
+      "new_company": null,
+      "kind": "promo",
+      "why": "A run of promo banner swaps (unlimited Flux 3 720p video on Wonder, 30% off Nano Banana 2.1, Seedance/Flux 3 promo narrowed to Wonder until Oct 14); plan prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": {"kind": "changed", "text": "Seedance/Flux 3 Image promo narrowed to Wonder only until 14 Oct; Pro dropped"}
+    },
+    {
+      "report_id": "mindsdb:2026-W42",
+      "company": "mindsdb",
+      "new_company": null,
+      "kind": "wording",
+      "why": "Plan-less rate card restyled as Free ($0) and Pay as you go plan cards; model rates unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "microsoft.teams-home:2026-W42",
+      "company": "microsoft-365",
+      "new_company": null,
+      "kind": "limit_change",
+      "why": "Microsoft 365 Family and Premium storage cut from up to 6 TB (1 TB per person) to 2 TB shared, prices unchanged at $129.99 / $199.99 a year; PricingSaaS slug microsoft.teams-home is the Microsoft 365 consumer page.",
+      "detail": "card",
+      "record": {
+        "plan": "Microsoft 365 Family and Premium",
+        "group": "up",
+        "delta": "−67%",
+        "deltaSub": "cloud storage, up to 6 people",
+        "short": "Microsoft 365 Family and Premium storage cut from up to 6 TB (1 TB per person) to 2 TB shared; prices unchanged.",
+        "headline": "Microsoft cut cloud storage on Microsoft 365 Family and Premium from up to 6 TB to 2 TB shared across up to 6 people, keeping prices at $129.99 and $199.99 a year.",
+        "rows": [
+          ["Family, storage (up to 6 people)", "6 TB (1 TB per person)", "2 TB shared"],
+          ["Premium, storage (up to 6 people)", "6 TB (1 TB per person)", "2 TB shared"],
+          ["Family / Premium, per year", "$129.99 / $199.99", "$129.99 / $199.99"]
+        ],
+        "who": "Households on Microsoft 365 Family or Premium that share the plan with several people.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "A downgrade without a price change: a full six-person household loses up to two-thirds of its storage. Heavy OneDrive users may be pushed toward extra storage purchases or separate plans.",
+        "caveat": "PricingSaaS’s before/after table is garbled (‘up’ → ‘6 TB’); the figures come from its written summary. We capture only Microsoft’s business plans page, so this consumer change was not seen by our own pipeline.",
+        "pattern": "Limits tighten",
+        "seg": "B2C",
+        "ai": false,
+        "planLevel": "mid",
+        "model": "Flat",
+        "modelBefore": "Flat",
+        "modelAfter": "Flat",
+        "appliesTo": "unknown",
+        "reach": 2,
+        "magnitude": {"low": -67, "high": -67, "basis": "allowance"}
+      },
+      "promo": null
+    },
+    {
+      "report_id": "matterport:2026-W42",
+      "company": "matterport",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Starter and Business removed and Professional repriced already recorded as matterport-2026w42.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "krea:2026-W42",
+      "company": "krea",
+      "new_company": null,
+      "kind": "noise",
+      "why": "The saved page says no pricing change was recorded for Oct 7; the attached article is about a promo added Oct 16, outside this report’s week.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "invideo:2026-W42",
+      "company": "invideo",
+      "new_company": null,
+      "kind": "limit_change",
+      "why": "Seedance 2 video allowances cut (Plus 56 → 52, Max 142 → 131) and Seedance 2.5 1080p now 96 credits per 5s (was 72); annual Starter falls from $20 to $10 a seat via a deeper promo discount.",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "−7%",
+        "short": "Seedance 2 video allowances cut (Plus 56 → 52, Max 142 → 131) as annual Starter drops from $20 to $10 a seat on a deeper discount.",
+        "pattern": "Limits tighten",
+        "seg": "Both",
+        "ai": true,
+        "planLevel": "mid",
+        "reach": 2
+      },
+      "promo": null
+    },
+    {
+      "report_id": "intercom:2026-W42",
+      "company": "intercom",
+      "new_company": null,
+      "kind": "new_feature",
+      "why": "Fin Voice AI at $1.99 per outcome, a 90-day guarantee and spending limits appear only in an A/B-tested page layout; the Pro add-on $99 → $100 move shows on the day page as a rewording (‘$100/mo’ → ‘From $100 per workspace/mo’), so no decided price change.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "huggingface:2026-W42",
+      "company": "hugging-face",
+      "new_company": null,
+      "kind": "wording",
+      "why": "PRO’s inference credit benefit restated from ‘20x included inference credits’ to ‘$2 of included inference credits monthly’; the report shows no change in the allowance itself.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "hiya.connect:2026-W42",
+      "company": null,
+      "new_company": {
+        "name": "Hiya",
+        "category": "Sales & Customer Relationship Management (CRM)",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.hiya.com/products/connect/pricing"],
+        "domains": ["hiya.com"],
+        "source_url": "https://pricingsaas.com/companies/hiya.connect/diffs/2026W42",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "price_increase",
+      "why": "Branded-call grid rebuilt into four tiers: $99 now buys 750 calls (was 1,000), 5,000 calls $449 → $550, 10,000 calls $799 → $835; pay-as-you-go $0.14 per call (overage was $0.13).",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "+22%",
+        "short": "Branded-call tiers rebuilt: $99 now buys 750 calls (was 1,000), 5,000 calls up from $449 to $550, 10,000 calls from $799 to $835.",
+        "pattern": "Price increase",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "all",
+        "reach": 3
+      },
+      "promo": null
+    },
+    {
+      "report_id": "heymarket:2026-W42",
+      "company": null,
+      "new_company": {
+        "name": "Heymarket",
+        "category": "Sales & Customer Relationship Management (CRM)",
+        "segment": "B2B",
+        "pricing_urls": ["https://www.heymarket.com/pricing/"],
+        "domains": ["heymarket.com"],
+        "source_url": "https://pricingsaas.com/companies/heymarket/diffs/2026W42",
+        "why": "reported by PricingSaaS"
+      },
+      "kind": "wording",
+      "why": "BETA label removed from AI Agents Q&A, scheduling and contact enrichment; availability and prices unchanged.",
+      "detail": "line",
+      "record": null,
+      "promo": null
+    },
+    {
+      "report_id": "figma:2026-W42",
+      "company": "figma",
+      "new_company": null,
+      "kind": "duplicate",
+      "why": "Figma agent leaves beta and the ‘free during beta’ AI credit note is removed; already recorded as figma-agent-2026w42.",
+      "detail": "card",
+      "record": null,
+      "promo": null
+    }
+  ]
+}
