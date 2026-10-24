@@ -253,6 +253,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{o
 .pk.new{background:var(--down-soft,rgba(16,122,64,.12));color:var(--down)}
 .pk.ended{background:var(--up-soft,rgba(190,40,40,.12));color:var(--up)}
 .pk.changed{background:var(--wash);color:var(--muted)}
+.via{font-size:12px;color:var(--muted,inherit);white-space:nowrap}
 .pilot{font-size:13px;line-height:1.5;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:0 0 12px}
 .empty{font-size:14px;color:var(--muted);padding:20px;text-align:center;border:1px dashed var(--line);border-radius:12px}
 
@@ -593,6 +594,7 @@ function dateLine(c){
       return `<div class="dates"><span><i class="dot both"></i>Announced and in effect <b>${esc(a)}</b>${note}</span></div>`;
     return `<div class="dates">${a?`<span><i class="dot ann"></i>Announced <b>${esc(a)}</b></span>`:""}${e?`<span><i class="dot eff"></i>${c.effective<=TODAY?"Effective":"Takes effect"} <b>${esc(e)}</b>${note}</span>`:""}</div>`;
   }
+  if(c.reported) return `<div class="dates"><span><i class="dot seen"></i>Reported by <a href="${esc(c.url)}" target="_blank" rel="noopener">PricingSaaS</a> <b>${esc(c.seenLabel)}</b></span><span class="muted">Not from our own captures</span></div>`;
   if(c.seen) return `<div class="dates"><span><i class="dot seen"></i>Spotted on pricing page <b>${esc(c.seenLabel)}</b></span><span class="muted">No announcement tracked</span></div>`;
   return "";
 }
@@ -618,7 +620,7 @@ function card(c,pre){
     </div>${body(c)}</article>`;
 }
 function mini(c,pre){
-  if(c.detail==="line")return `<div class="mini line" id="${pre}-${c.id}"><div class="row"><span class="tx"><b>${esc(c.co)}</b><span class="s">${esc(c.short)}</span></span><span class="flags"><span class="dchip ${DC[c.group]}">${esc(c.delta)}</span></span></div></div>`;
+  if(c.detail==="line")return `<div class="mini line" id="${pre}-${c.id}"><div class="row"><span class="tx"><b>${esc(c.co)}</b><span class="s">${esc(c.short)}${c.reported?` <a class="via" href="${esc(c.url)}" target="_blank" rel="noopener">via PricingSaaS</a>`:""}</span></span><span class="flags"><span class="dchip ${DC[c.group]}">${esc(c.delta)}</span></span></div></div>`;
   return `<details class="mini" id="${pre}-${c.id}">
     <summary><span class="tx"><b>${esc(c.co)}${pre==="a"&&isMain(c)?'<i class="maindot" title="Also in Main Price Changes" aria-label="Also in Main Price Changes"></i>':""}</b><span class="s">${esc(c.short)}</span></span><span class="flags"><span class="dchip ${DC[c.group]}">${esc(c.delta)}</span></span><span class="chev" aria-hidden="true">›</span></summary>
     <div class="card">${body(c)}</div></details>`;
@@ -653,10 +655,12 @@ function weekList(){
 // One coverage box per view: hand-built (PricingSaaS) weeks say so, partial weeks say so, tracked weeks show their note if any.
 function weekNoteHTML(){
   if(state.week===CUR)return "";
-  const hand=w=>(w.source_week||"").startsWith("PricingSaaS");
+  const hand=w=>(w.source_week||"").startsWith("PricingSaaS week");
   if(!multiWeek()){
     const w=DATA.weeks.find(x=>x.week===state.week);if(!w)return "";
     const parts=[];if(hand(w))parts.push("Rebuilt by hand from the PricingSaaS feed, not from our own captures.");if(w.note)parts.push(w.note);
+    const rep=DATA.changes.filter(c=>c.week===w.week&&c.reported).length;
+    if(rep&&hand(w))parts.push(`${rep} ${rep===1?"change was":"changes were"} added later from PricingSaaS’s daily briefings and weekly review.`);
     if(!parts.length)return "";
     return `<b>${w.coverage==="partial"?"Partial week":hand(w)?"Backfill":"Coverage"}.</b> ${esc(parts.join(" "))}`;
   }

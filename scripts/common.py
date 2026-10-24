@@ -30,6 +30,9 @@ AGENT = ROOT / "agent"
 SITE = ROOT / "site"
 RUN = ROOT / ".run"                       # per-run scratch files (gitignored)
 LOGS = ROOT / "logs"
+PS_DIR = DATA / "pricingsaas"             # PricingSaaS pages we read (hybrid, D39): evidence for reported records
+PS_INDEX = PS_DIR / "index.json"           # every PricingSaaS URL seen, with its status
+REPORTS = DATA / "reports.json"            # PricingSaaS diff pages waiting for a decision or for our own capture
 
 # ---------------------------------------------------------------- time
 TZ = ZoneInfo("America/Toronto")
@@ -53,7 +56,24 @@ REGISTRY_BATCH = 30          # needs_url entries handed to the agent per run
 MIN_CAPTURE_OK_RATIO = 0.9   # below this, coverage_check sends a quiet alert
 BACKLOG_MAX_ATTEMPTS = 4     # agent runs a change may wait for a decision before it is given up (2 days)
 
-# Sites that copy other companies' prices. Never accepted as a pricing page or as proof.
+# ---------------------------------------------------------------- PricingSaaS reports (hybrid, D39–D42)
+PS_BASE = "https://pricingsaas.com"
+PS_NEWS_URL = PS_BASE + "/news"                       # daily briefings, "Load more" goes back about 9 days
+PS_REVIEW_URL = PS_BASE + "/news/week/{year}W{week:02d}"   # weekly review; same week numbers as ours
+PS_LOAD_MORE_MAX = 40          # "Load more" clicks per run at most
+PS_MAX_FETCHES = 150           # PricingSaaS pages fetched per run at most (polite; the rest wait)
+PS_DELAY_SEC = float(os.environ.get("PS_DELAY_SEC", "2"))
+REPORTS_BATCH = 40             # reports handed to the agent per run
+REPORT_MAX_ATTEMPTS = 4        # agent runs a report may wait for a decision before it is given up
+REPORT_WAIT_RUNS = 4           # a change at a company we already capture waits this many runs for our own capture
+REPORTS_PER_COMPANY_WEEK = 3   # reported records per company per week at most
+# Text after these lines on a PricingSaaS diff page is about other changes (history, peers, FAQ): cut it,
+# so a reported record's numbers must come from this change only.
+PS_CUT_MARKERS = [r"^\S.*\b\d+-day history\b", r"^Related\b", r"^Frequently asked\b", r"^FAQ\b",
+                  r"^Ask the Pulse Agent\b", r"^Current .* plans\b"]
+
+# Sites that copy other companies' prices. Never accepted as a pricing page. PricingSaaS diff pages are the
+# one exception as proof: they back records marked "reported" (SRC_REPORTED), never our own captures.
 AGGREGATOR_DOMAINS = {
     "pricingsaas.com", "g2.com", "capterra.com", "getapp.com", "softwareadvice.com",
     "saasworthy.com", "trustradius.com", "saaspricepulse.com", "vendr.com", "producthunt.com",
@@ -103,6 +123,7 @@ WATCHLIST = [
 ]
 
 SRC_CAPTURE = "Pricing Desk capture"
+SRC_REPORTED = "PricingSaaS report"       # change reported by PricingSaaS; numbers checked against their diff page
 
 
 # ---------------------------------------------------------------- weeks
@@ -123,6 +144,23 @@ def week_label(day: dt.date) -> str:
 def week_start(label: str) -> dt.date:
     year, week = label.split("-W")
     return dt.date.fromisocalendar(int(year), int(week), 1) - dt.timedelta(days=7)
+
+
+def ps_period_week(period: str) -> tuple[str, dt.date | None]:
+    """PricingSaaS diff period → (our week label, change date or None).
+
+    "2026W43" is a week (same numbering as ours). "2026D294" is day 294 of 2026 (21 Oct): the page shows
+    the change between day 293 and day 294, so the change belongs to the week of day 293, the last day
+    that still showed the old page (same rule as our captures, D28).
+    """
+    m = re.fullmatch(r"(\d{4})([WD])(\d{1,3})", period or "")
+    if not m:
+        raise ValueError(f"not a PricingSaaS period: {period!r}")
+    year, kind, n = int(m.group(1)), m.group(2), int(m.group(3))
+    if kind == "W":
+        return f"{year}-W{n:02d}", None
+    day = dt.date(year, 1, 1) + dt.timedelta(days=n - 1)
+    return week_label(day - dt.timedelta(days=1)), day
 
 
 def short_date(day: dt.date) -> str:

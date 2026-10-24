@@ -3,7 +3,7 @@
 Checks:
   * enough tracked pages captured (MIN_CAPTURE_OK_RATIO);
   * the agent decided on every confirmed change (each diff_id appears once in the proposal);
-  * the agent wrote its proposal files when it was asked to.
+  * the agent wrote its proposal files when it was asked to (changes, PricingSaaS reports, edition).
 
 Usage: python3 scripts/coverage_check.py [--run RUN_ID]
 """
@@ -36,6 +36,9 @@ def main() -> int:
             missing = wanted - got
             if missing:
                 report_problem(f"Agent skipped {len(missing)} of {len(wanted)} page changes: {', '.join(sorted(missing))[:300]}", "coverage")
+    rep_in = load_json(PROPOSALS / f"{run}.reports_input.json", {})
+    if rep_in.get("reports") and load_json(PROPOSALS / f"{run}.reports.json") is None:
+        report_problem(f"Agent wrote no decision for {len(rep_in['reports'])} PricingSaaS reports; they are retried.", "coverage")
     if (RUN / f"edition_due_{run}.json").exists() and not (PROPOSALS / f"{run}.edition.json").exists():
         report_problem("Edition was due but the agent wrote no edition proposal; it will be retried.", "coverage")
     log("coverage check done")

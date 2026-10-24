@@ -6,19 +6,29 @@ from __future__ import annotations
 
 from collections import Counter
 
-from common import TIERS, week_key, week_range_label, week_start
+from common import FIRST_AUTO_EDITION, TIERS, week_key, week_range_label, week_start
 
 COMPANY_FIELDS = ["name", "tier", "category", "aiNative", "ownership", "hq", "funding", "employees"]
 
 
-def ensure_week(desk: dict, week: str) -> None:
-    """Add a week to weeks[] and week_order (newest first) if it isn't there."""
+REPORTED_WEEK_NOTE = ("Our own captures didn’t cover all of this week (they started on 24 Oct 2026), so it shows mainly "
+                      "the changes PricingSaaS published in its daily briefings and weekly review. Totals are far below "
+                      "the whole market.")
+
+
+def ensure_week(desk: dict, week: str, reported: bool = False) -> None:
+    """Add a week to weeks[] and week_order (newest first) if it isn't there.
+
+    A week first created by a PricingSaaS report before our automated editions started gets a coverage note."""
     if week not in desk["week_order"]:
         desk["week_order"].append(week)
         desk["week_order"].sort(key=week_key, reverse=True)
     if not any(w["week"] == week for w in desk["weeks"]):
-        desk["weeks"].append({"week": week, "label": week_range_label(week),
-                              "start": week_start(week).isoformat(), "source_week": "Pricing Desk capture"})
+        w = {"week": week, "label": week_range_label(week), "start": week_start(week).isoformat(),
+             "source_week": "Pricing Desk capture"}
+        if reported and week_key(week) < week_key(FIRST_AUTO_EDITION):
+            w.update(source_week="PricingSaaS reports", coverage="partial", note=REPORTED_WEEK_NOTE)
+        desk["weeks"].append(w)
         desk["weeks"].sort(key=lambda w: week_key(w["week"]), reverse=True)
 
 

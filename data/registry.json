@@ -6040,6 +6040,206 @@
    "source_url": null,
    "url_attempts": 1,
    "notes": "rejected https://zoom.us/pricing: page shows no prices"
+  },
+  "shopify": {
+   "name": "Shopify",
+   "tier": 1,
+   "category": "Business Operations",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://www.shopify.com/pricing"
+   ],
+   "domains": [
+    "shopify.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "tailscale": {
+   "name": "Tailscale",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://tailscale.com/pricing"
+   ],
+   "domains": [
+    "tailscale.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "remote": {
+   "name": "Remote",
+   "tier": 3,
+   "category": "Workforce Management",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://remote.com/pricing"
+   ],
+   "domains": [
+    "remote.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "buildkite": {
+   "name": "Buildkite",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://buildkite.com/pricing"
+   ],
+   "domains": [
+    "buildkite.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "gorilladesk": {
+   "name": "GorillaDesk",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://gorilladesk.com/pricing/"
+   ],
+   "domains": [
+    "gorilladesk.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "approvalmax": {
+   "name": "ApprovalMax",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [
+    "https://www.approvalmax.com/pricing"
+   ],
+   "domains": [
+    "approvalmax.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "precog": {
+   "name": "Precog",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
+  },
+  "fileai": {
+   "name": "fileAI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": null,
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-24",
+   "source": "manual",
+   "source_url": null,
+   "url_attempts": 0,
+   "notes": ""
   }
  }
 }

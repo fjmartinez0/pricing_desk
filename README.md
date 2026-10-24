@@ -3,7 +3,9 @@
 A phone-friendly newspaper of software price changes. A Mac mini captures the pricing pages of
 every tracked company twice a day, Claude (headless Claude Code) classifies and writes up what
 changed, Python code decides what is published, and GitHub Pages serves the page. Alerts go to
-the iPhone through ntfy (topic `fmz_pricing_desk`).
+the iPhone through ntfy (topic `fmz_pricing_desk`). It also reads PricingSaaS's daily briefings and
+weekly reviews: changes at companies we don't capture yet are published as "reported" records, checked
+against PricingSaaS's own before/after page, and those companies join the registry.
 
 **The AI proposes; code decides.** Every number on a card must appear in the captured page text,
 "They say" quotes must be found on the company's own site, and two validation gates (on the Mac
@@ -18,7 +20,8 @@ and in GitHub Actions) stop anything broken from going live.
 launchd → scripts/run_daily.sh
   1 pull, snapshot desk.json        6 recheck.py      quotes and news numbers checked online
   2 capture.py   pricing pages      7 validate.py     integrity rules (abort + alert)
-  3 Claude       changes / registry / edition (writes proposals/ only)
+  2b pricingsaas_capture.py  PricingSaaS briefings + weekly reviews → data/reports.json
+  3 Claude       changes / reports / registry / edition (writes proposals/ only)
   4 coverage_check.py (quiet alerts) 8 stamp, commit, push → GitHub Actions validates and deploys
   5 apply_proposals.py (the rules)  9 notify.py       iPhone alerts
 ```

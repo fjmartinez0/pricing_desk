@@ -12,7 +12,7 @@ import sys
 from collections import Counter
 
 from common import (AGGREGATOR_DOMAINS, APPLIES_TO, CAPTURE_MODES, DESK, GROUPS, MAX_ROWS, PATTERNS, PLAN_LEVELS,
-                    PROMO_KINDS, REGISTRY, REGISTRY_STATUS, SEGMENTS, SRC_CAPTURE, TIERS, WATCHLIST, domain_of, is_http_url,
+                    PROMO_KINDS, REGISTRY, REGISTRY_STATUS, SEGMENTS, SRC_CAPTURE, SRC_REPORTED, TIERS, WATCHLIST, domain_of, is_http_url,
                     load_json, week_key)
 
 REQUIRED_TOP = ["current_week", "today", "edition_date", "period", "week_order", "weeks", "tiers", "pattern_cats",
@@ -57,9 +57,13 @@ def validate_desk(d: dict) -> list[str]:
             bad(f"tier {c.get('tier')!r}")
         if not isinstance(c.get("rank"), int) or c["rank"] < 1:
             bad("rank must be a positive integer")
-        ours = c.get("src") == SRC_CAPTURE   # records before automation were built by hand: looser rules
+        ours = c.get("src") in (SRC_CAPTURE, SRC_REPORTED)   # records before automation were built by hand: looser rules
         if not is_http_url(c.get("url")) and (ours or c.get("url") is not None):
             bad("url must be http(s)")
+        if c.get("src") == SRC_REPORTED and (domain_of(c.get("url") or "") != "pricingsaas.com" or not c.get("reported")):
+            bad("a PricingSaaS report must link its PricingSaaS diff page and be marked reported")
+        if c.get("src") == SRC_CAPTURE and domain_of(c.get("url") or "") in AGGREGATOR_DOMAINS:
+            bad("our own capture can't point to an aggregator")
         for f in PROSE:
             if isinstance(c.get(f), str) and ("http://" in c[f] or "https://" in c[f]):
                 bad(f"{f} contains a URL")

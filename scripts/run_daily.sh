@@ -1,10 +1,12 @@
 #!/bin/bash
 # Pricing Desk: one run (launchd starts it at 07:00 and 19:00, Toronto time).
 #
-#   1. pull; snapshot desk.json            5. merge proposals (code decides)
-#   2. capture pricing pages               6. recheck today's additions online
-#   3. agent: changes / registry / edition 7. validate (abort + alert on failure)
-#   4. coverage check (quiet alerts)       8. stamp, commit, push; 9. notify
+#   1. pull; snapshot desk.json               5. merge proposals (code decides)
+#   2. capture pricing pages                  6. recheck today's additions online
+#   2b. read PricingSaaS (reports, D39)       7. validate (abort + alert on failure)
+#   3. agent: changes / reports / registry /  8. stamp, commit, push
+#      edition                                9. notify
+#   4. coverage check (quiet alerts)
 #
 # Manual run: bash scripts/run_daily.sh        (logs go to logs/<date>.log)
 set -uo pipefail
@@ -42,9 +44,15 @@ cp data/desk.json .run/desk_before.json
 step "2 capture"
 python3 scripts/capture.py || fail "capture"
 
+step "2b pricingsaas"
+python3 scripts/pricingsaas_capture.py || python3 scripts/notify.py --problem "PricingSaaS reading failed in run $RUN; own captures unaffected."
+
 step "3 agent"
 if has "proposals/$RUN.input.json" changes; then
   bash scripts/run_agent.sh agent/changes_prompt.md "proposals/$RUN.input.json" "proposals/$RUN.changes.json"
+fi
+if python3 scripts/prepare_reports.py; then     # PricingSaaS diff pages waiting for a decision
+  bash scripts/run_agent.sh agent/reports_prompt.md "proposals/$RUN.reports_input.json" "proposals/$RUN.reports.json"
 fi
 if python3 scripts/prepare_registry.py; then   # until every company has a pricing URL
   bash scripts/run_agent.sh agent/registry_prompt.md ".run/registry_todo_$RUN.json" "proposals/$RUN.registry.json"

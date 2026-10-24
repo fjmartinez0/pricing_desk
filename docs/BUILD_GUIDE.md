@@ -80,10 +80,14 @@ pricing_desk/
   data/backlog.json             confirmed changes waiting for an agent decision
   data/snapshots/<slug>/<run>.txt   confirmed page texts = evidence
   data/checks.jsonl             append-only log of external checks
+  data/pricingsaas/index.json   every PricingSaaS URL seen and its status (hybrid, D39)
+  data/pricingsaas/pages/{articles,diffs}/*.txt   saved PricingSaaS texts = evidence for reported records
+  data/reports.json             PricingSaaS diff pages grouped per company and week: todo → decided → done
   data/meta.json                last run time (watchdog), registry counts
   proposals/<run>.input.json    backlog handed to the agent (audit)
-  proposals/<run>.{changes,registry,edition}.json   agent outputs (audit)
-  agent/changes_prompt.md  agent/registry_prompt.md  agent/edition_prompt.md  agent/sources.json
+  proposals/<run>.reports_input.json   PricingSaaS reports handed to the agent (audit)
+  proposals/<run>.{changes,reports,registry,edition}.json   agent outputs (audit)
+  agent/changes_prompt.md  agent/reports_prompt.md  agent/registry_prompt.md  agent/edition_prompt.md  agent/sources.json
   scripts/*.py, *.sh            one script per step (§4)
   tests/test_pipeline.py  tests/fixtures/
   launchd/com.fmz.pricing_desk.plist   (template with __REPO__)
@@ -142,7 +146,13 @@ every per-run file.
   New tier, Rename & reposition, Limits tighten, Limits loosen, Minimums, Billing terms, New billing units,
   AI gets a meter, AI moves between tiers, AI costs pass through, Free plans as funnels)
 
-**Records before automation** (`src` starting "PricingSaaS") were built by hand and have looser rules
+**Reported records** (D40): `src: "PricingSaaS report"`, `reported: true`, `url` = the PricingSaaS diff page,
+`evidence: {report, files, source}`. Same fields and rules as automated records, but every number must be in
+the saved PricingSaaS text. The page shows "Reported by PricingSaaS" on cards and "via PricingSaaS" on lines.
+Weeks created by a report before `FIRST_AUTO_EDITION` get `source_week: "PricingSaaS reports"`,
+`coverage: "partial"` and a note.
+
+**Records before automation** (`src` starting "PricingSaaS week") were built by hand and have looser rules
 in the validator: `url` may be null and rows may number up to 8. Automated records have
 `src: "Pricing Desk capture"`.
 
@@ -187,11 +197,13 @@ Status flow:
 | `browser_capture.py` | — | — | The only Playwright module: one Chromium per run, `networkidle` + 1.5 s |
 | `seed_registry.py` | setup | desk.json → registry.json | Idempotent; adds missing companies + watchlist URLs |
 | `capture.py` | 2 | registry, capture_state → snapshots, backlog, `proposals/<run>.input.json`, `.run/diffs/` | State machine (§4.2) |
+| `pricingsaas_capture.py` | 2b | PricingSaaS /news (browser, "Load more"), weekly reviews, articles, diff pages → `data/pricingsaas/`, `data/reports.json` | `--review WEEK…` backfill, `--max-fetches`, `--no-browser`, `--dry-run`; never fails the run |
+| `prepare_reports.py` | 3 | reports.json → `proposals/<run>.reports_input.json` | Exit 10 = nothing to do; adds registry guess and existing records |
 | `prepare_registry.py` | 3 | registry → `.run/registry_todo_<run>.json` | Exit 10 = nothing to do |
 | `close_week.py` | 3 | desk → `.run/edition_due_<run>.json`, `.run/week_stats_<run>.json` | Exit 10 = not due; `--force-week` for tests |
 | `run_agent.sh` | 3 | prompt template → proposal | Fills `{{TODAY}} {{WEEKDAY}} {{RUN}} {{INPUT_FILE}} {{OUTPUT_FILE}} {{WEEK}} {{WEEK_LABEL}} {{STATS_FILE}}`; agent may write only `./proposals/**` |
 | `coverage_check.py` | 4 | run files → problems | Never blocks |
-| `apply_proposals.py` | 5 | proposals → desk, registry, backlog, `.run/merge_<run>.json` | **The rules** (PROJECT_CONTEXT §5) |
+| `apply_proposals.py` | 5 | proposals → desk, registry, backlog, reports, `.run/merge_<run>.json` | **The rules** (PROJECT_CONTEXT §5, incl. rule 11: `apply_reports`) |
 | `desk.py` | 5 | — | `ensure_week`, `rerank`, `sync_company`, `week_stats`, `stats_numbers` |
 | `recheck.py` | 6 | merge result → desk, checks.jsonl | Quotes and news numbers online |
 | `validate.py` | 7 + CI | desk, registry | Integrity; exit 1 lists problems |
@@ -206,6 +218,7 @@ Status flow:
 The exact formats are in the prompts. These are the shapes the merge expects:
 - **changes:** `{"type": "changes", "items": [{"diff_id", "kind", "why", "detail": "card"|"line", "record": {…}, "promo": {kind, text}|null}]}`
 - **registry:** `{"type": "registry", "urls": [{"slug", "pricing_urls", "domains"}], "new_companies": [{"name", "category", "segment", "pricing_urls", "domains", "source_url", "why"}]}`
+- **reports:** `{"type": "reports", "items": [{"report_id", "company"|null, "new_company"|null, "kind", "why", "detail", "record", "promo"}]}`
 - **edition:** `{"type": "edition", "week", "news", "patterns", "stats_analysis", "news_trends", "missed": [new-company shape]}`
 
 A proposal file that's missing or isn't valid JSON is reported and ignored. The backlog keeps the
@@ -240,6 +253,8 @@ What a capture does:
 - `EDITION_READY_AFTER` 18 h
 - `FIRST_AUTO_EDITION` 2026-W45
 - `DELAY_BETWEEN_COMPANIES_SEC` 2
+- PricingSaaS: `PS_LOAD_MORE_MAX` 40, `PS_MAX_FETCHES` 150, `PS_DELAY_SEC` 2, `REPORTS_BATCH` 40,
+  `REPORT_MAX_ATTEMPTS` 4, `REPORT_WAIT_RUNS` 4, `REPORTS_PER_COMPANY_WEEK` 3, `PS_CUT_MARKERS`
 
 ---
 
@@ -259,6 +274,9 @@ What a capture does:
   - debounce, glitch and flip detection;
   - merge cases: traceable card accepted, invented number downgraded or held, off-site quote removed,
     drop and promo kinds, price reveal dropped, bad enum rejected;
+  - PricingSaaS: canonical links, day/week periods, history cut from diff text, grouping per company-week;
+    reported record published with label, number not in report held, history numbers not evidence, new company
+    added, tracked company waits then publishes with an alert, our own record wins, hand-built week not duplicated;
   - the template builds and the data validates.
 
 ---

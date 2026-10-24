@@ -13,11 +13,12 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import urllib.request
 from pathlib import Path
 
-from common import DESK, RUN, WATCHLIST, load_config, load_json, log, run_id
+from common import DESK, RUN, WATCHLIST, load_config, load_json, log, now, run_id, week_key, week_label
 
 MAX_SINGLE = 3
 
@@ -39,8 +40,10 @@ def send(title: str, body: str, priority: str = "default", tags: str = "", cfg: 
 
 def qualifying(before: dict, after: dict) -> list[dict]:
     old = {c["id"] for c in before.get("changes", [])}
+    recent = week_key(week_label(now().date() - dt.timedelta(days=14)))   # backfilled reports stay quiet
     return [c for c in after["changes"]
-            if c["id"] not in old and (c.get("tier") == 1 or c.get("company") in WATCHLIST)]
+            if c["id"] not in old and (c.get("tier") == 1 or c.get("company") in WATCHLIST)
+            and not (c.get("reported") and week_key(c["week"]) < recent)]
 
 
 def main() -> int:
@@ -65,7 +68,8 @@ def main() -> int:
         send(f"{len(news)} market-leader price changes", "\n".join(lines), tags="chart_with_upwards_trend")
     else:
         for c in news:
-            send(f"{c['co']} {c['delta']}", c["short"], tags="chart_with_upwards_trend")
+            send(f"{c['co']} {c['delta']}" + (" (reported by PricingSaaS)" if c.get("reported") else ""), c["short"],
+                 tags="chart_with_upwards_trend")
     if before and after.get("current_week") != before.get("current_week"):
         mc = after.get("market_context", {})
         send(f"Edition {after['current_week']} published",

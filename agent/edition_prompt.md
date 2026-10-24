@@ -4,6 +4,8 @@ Today is {{TODAY}}. Run id: `{{RUN}}`. The week {{WEEK}} ({{WEEK_LABEL}}) has cl
 
 ## Inputs
 - `data/desk.json`: all records. This week's changes are those with `"week": "{{WEEK}}"`.
+  Records with `"reported": true` come from PricingSaaS reports at companies we don't capture yet; the rest
+  from our own captures. When a pattern or stat leans on reported records, say so in its text.
   Look at last week's `news`, `patterns`, `stats_analysis`, `news_trends` for the style and length.
 - `{{STATS_FILE}}`: counts for this week, computed by code. **Every number in a stats figure must come from this file.**
 - `agent/sources.json`: the news sources to read this week.

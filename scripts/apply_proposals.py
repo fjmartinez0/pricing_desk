@@ -4,6 +4,7 @@ Reads, for the current run (PD_RUN_ID):
   proposals/<run>.changes.json    page changes classified and written up by the agent
   proposals/<run>.registry.json   pricing URLs for companies that need one, new companies
   proposals/<run>.edition.json    weekly edition text (only when an edition is due)
+  proposals/<run>.reports.json    changes reported by PricingSaaS, classified by the agent (hybrid, D39–D42)
 
 Rules enforced here (see PROJECT_CONTEXT.md, "Rules the code enforces"):
   * keep rule: the change kind decides keep / drop / promo, from common.KEEP_KINDS etc.;
@@ -11,7 +12,9 @@ Rules enforced here (see PROJECT_CONTEXT.md, "Rules the code enforces"):
     a card that fails is downgraded to a one-line record, a line that fails is held back;
   * "They say" is kept only with a link on the company's own site (recheck.py then checks the words);
   * tier comes from the registry, IDs, weeks, ranks and companies are assigned here;
-  * records are append-only: existing records are never changed or removed.
+  * records are append-only: existing records are never changed or removed;
+  * PricingSaaS reports (D40): numbers must appear in the saved PricingSaaS diff page; a change at a company
+    we already capture waits for our own capture, which wins; reported records are marked `reported`.
 
 Usage: python3 scripts/apply_proposals.py [--run RUN_ID]
 """
@@ -23,9 +26,10 @@ import re
 
 from common import (AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, BACKLOG_MAX_ATTEMPTS, APPLIES_TO, DESK, DROP_KINDS, GROUPS, KEEP_KINDS, MAGNITUDE_BASIS,
                     MAX_ROWS, MODELS, PATTERNS, PLAN_LEVELS, PROMO_KIND, PROMO_KINDS, PROPOSALS, REACH, REGISTRY,
-                    ROOT, RUN, SEGMENTS, SRC_CAPTURE, TIERS, WATCHLIST, change_id, claimed_numbers, domain_of,
-                    is_http_url, load_json, log, now, numbers_in, report_problem, run_id, same_site, save_json,
-                    short_date, week_range_label, week_start)
+                    REPORT_MAX_ATTEMPTS, REPORT_WAIT_RUNS, REPORTS, REPORTS_PER_COMPANY_WEEK, ROOT, RUN, SEGMENTS,
+                    SNAPSHOTS, SRC_CAPTURE, SRC_REPORTED, TIERS, WATCHLIST, append_check, change_id, claimed_numbers,
+                    domain_of, is_http_url, load_json, log, now, numbers_in, report_problem, run_id, same_site,
+                    save_json, short_date, week_range_label, week_start)
 from desk import ensure_week, rerank, stats_numbers, sync_company, week_stats
 
 PROSE_FIELDS = ["short", "headline", "who", "read", "caveat", "stated", "plan", "deltaSub"]
@@ -134,6 +138,22 @@ def is_duplicate(desk: dict, slug: str, rec: dict) -> bool:
 
 # ---------------------------------------------------------------- changes
 def build_change(item: dict, event: dict, entry: dict, slug: str, desk: dict, taken: set[str]) -> dict:
+    """A record from one of our own captures: before-cells checked against the old page, after-cells the new one."""
+    before_text = (ROOT / event["before_file"]).read_text(encoding="utf-8")
+    after_text = (ROOT / event["after_file"]).read_text(encoding="utf-8")
+    if event.get("alt_file"):
+        after_text += "\n" + (ROOT / event["alt_file"]).read_text(encoding="utf-8")
+    evidence = {"before": event["before_file"], "after": event["after_file"], "diff": event["diff_id"]}
+    if event.get("unstable"):
+        evidence["alt"] = event["alt_file"]
+    return make_record(item, entry, slug, desk, taken, numbers_in(before_text), numbers_in(after_text),
+                       event["week"], dt.datetime.fromisoformat(event["first_new_at"]).date(),
+                       SRC_CAPTURE, entry["pricing_urls"][0], evidence)
+
+
+def make_record(item: dict, entry: dict, slug: str, desk: dict, taken: set[str], before: set[str], after: set[str],
+                week: str, when: dt.date, src: str, url: str, evidence: dict) -> dict:
+    """Check the agent's record against the evidence numbers and build the stored record."""
     rec = {k: tidy(v) if isinstance(v, str) else v for k, v in (item.get("record") or {}).items()}
     detail = item.get("detail", "card")
     if detail not in ("card", "line"):
@@ -146,12 +166,6 @@ def build_change(item: dict, event: dict, entry: dict, slug: str, desk: dict, ta
     check_prose(rec)
     if len(rec.get("delta", "")) > MAX_LEN["delta"]:
         raise Rejected("delta too long")
-
-    before_text = (ROOT / event["before_file"]).read_text(encoding="utf-8")
-    after_text = (ROOT / event["after_file"]).read_text(encoding="utf-8")
-    if event.get("alt_file"):
-        after_text += "\n" + (ROOT / event["alt_file"]).read_text(encoding="utf-8")
-    before, after = numbers_in(before_text), numbers_in(after_text)
 
     if detail == "card":
         rows = rec["rows"]
@@ -179,27 +193,24 @@ def build_change(item: dict, event: dict, entry: dict, slug: str, desk: dict, ta
     if is_duplicate(desk, slug, rec):
         raise Rejected("duplicate of an existing record (keep rule)")
 
-    week = event["week"]
-    first_new = dt.datetime.fromisoformat(event["first_new_at"]).date()
     tier = 1 if slug in WATCHLIST else entry.get("tier") or 3
     out = {
         "id": change_id(slug, week, taken), "week": week, "rank": None, "co": entry["name"], "company": slug,
         "tier": tier, "group": rec["group"], "delta": rec["delta"], "short": rec["short"],
         "pattern": rec["pattern"], "seg": rec["seg"], "ai": rec["ai"], "planLevel": rec["planLevel"],
         "reach": rec.get("reach") or 2, "magnitude": None,
-        "seen": week_start(week).isoformat(), "seenLabel": week_range_label(week), "when": short_date(first_new),
-        "src": SRC_CAPTURE, "url": entry["pricing_urls"][0],
-        "evidence": {"before": event["before_file"], "after": event["after_file"], "diff": event["diff_id"]},
+        "seen": week_start(week).isoformat(), "seenLabel": week_range_label(week), "when": short_date(when),
+        "src": src, "url": url, "evidence": evidence,
     }
-    if event.get("unstable"):
-        out["evidence"]["alt"] = event["alt_file"]
+    if src == SRC_REPORTED:
+        out["reported"] = True
     if detail == "line":
         out["detail"] = "line"
         return out
 
     stated, stated_url = rec.get("stated"), rec.get("statedUrl")
-    domains = entry.get("domains") or [domain_of(u) for u in entry["pricing_urls"]]
-    if stated and not (is_http_url(stated_url) and same_site(stated_url, domains)):
+    domains = entry.get("domains") or [domain_of(u) for u in entry.get("pricing_urls") or []]
+    if stated and not (is_http_url(stated_url) and domains and same_site(stated_url, domains)):
         log(f"  {slug}: 'They say' removed (no link on the company's own site)")
         stated, stated_url = None, None
     out.update({
@@ -217,24 +228,29 @@ def build_change(item: dict, event: dict, entry: dict, slug: str, desk: dict, ta
 
 
 def build_promo(item: dict, event: dict, entry: dict, slug: str, desk: dict) -> dict:
+    pages = (ROOT / event["before_file"]).read_text(encoding="utf-8") + (ROOT / event["after_file"]).read_text(encoding="utf-8")
+    return make_promo(item, entry, slug, desk, numbers_in(pages), event["week"], SRC_CAPTURE)
+
+
+def make_promo(item: dict, entry: dict, slug: str, desk: dict, allowed: set[str], week: str, src: str) -> dict:
     p = item.get("promo") or {}
     if p.get("kind") not in PROMO_KINDS:
         raise Rejected(f"promo kind must be one of {sorted(PROMO_KINDS)}")
     text = tidy(p.get("text") or "")
     if not text or len(text) > 240 or "http" in text:
         raise Rejected("promo text missing, too long or contains a URL")
-    pages = (ROOT / event["before_file"]).read_text(encoding="utf-8") + (ROOT / event["after_file"]).read_text(encoding="utf-8")
-    bad = claimed_numbers(text) - numbers_in(pages)
+    bad = claimed_numbers(text) - allowed
     if bad:
         raise Rejected(f"promo numbers not on the page: {', '.join(sorted(bad))}")
-    week = event["week"]
     base = f"{slug}-promo-{week.lower().replace('-', '')}"
     taken = {x["id"] for x in desk["promos"]}
     pid, n = base, 2
     while pid in taken:
         pid, n = f"{base}-{n}", n + 1
-    return {"id": pid, "week": week, "company": slug, "co": entry["name"], "kind": p["kind"], "text": text,
-            "src": SRC_CAPTURE}
+    out = {"id": pid, "week": week, "company": slug, "co": entry["name"], "kind": p["kind"], "text": text, "src": src}
+    if src == SRC_REPORTED:
+        out["reported"] = True
+    return out
 
 
 def apply_changes(desk: dict, registry: dict, proposal: dict, inputs: dict, result: dict) -> None:
@@ -308,30 +324,177 @@ def apply_registry(desk: dict, registry: dict, proposal: dict, result: dict) -> 
             continue
         entry.update(pricing_urls=item["pricing_urls"], domains=domains, status="candidate")
         result["registry"].append(f"url:{slug}")
-    known_domains = {d for e in companies.values() for d in e.get("domains", [])}
     for item in proposal.get("new_companies", []):
-        name = tidy(item.get("name") or "")
-        slug = slugify(name)
-        domains = item.get("domains") or []
-        if not name or slug in companies or any(d in known_domains for d in domains):
+        add_company(desk, registry, item, result)
+
+
+def add_company(desk: dict, registry: dict, item: dict, result: dict) -> str | None:
+    """Add a new company to the registry. Returns its slug, the slug of the existing company with the same
+    name or domain, or None if the item is unusable."""
+    companies = registry["companies"]
+    categories = {c["name"] for c in desk["categories"]}
+    name = tidy(item.get("name") or "") if isinstance(item, dict) else ""
+    slug = slugify(name)
+    domains = [d for d in (item.get("domains") or []) if isinstance(d, str) and d not in AGGREGATOR_DOMAINS]
+    if not name or not slug:
+        return None
+    if slug in companies:
+        return slug
+    for other, e in companies.items():
+        if set(domains) & set(e.get("domains") or []):
+            return other
+    if item.get("category") not in categories:
+        result["rejected"].append({"registry": slug, "why": f"category {item.get('category')!r} unknown"})
+        return None
+    urls = item.get("pricing_urls") or []
+    has_urls = bool(urls) and bool(domains) and valid_pricing_urls(urls, domains)
+    companies[slug] = {
+        "name": name, "tier": 2 if item.get("tier") == 2 else 3, "category": item["category"],
+        "segment": item.get("segment") if item.get("segment") in SEGMENTS else None,
+        "watch": False, "pricing_urls": urls if has_urls else [], "domains": domains,
+        "capture": "static", "status": "candidate" if has_urls else "needs_url",
+        "aiNative": item.get("aiNative") if isinstance(item.get("aiNative"), bool) else None,
+        "ownership": None, "hq": None, "funding": None, "employees": None,
+        "ignore_patterns": [], "added": now().date().isoformat(), "source": f"agent {run_id()}",
+        "source_url": item.get("source_url") if is_http_url(item.get("source_url")) else None,
+        "url_attempts": 0, "notes": tidy(item.get("why") or "")[:200],
+    }
+    result["registry"].append(f"new:{slug}")
+    return slug
+
+
+# ---------------------------------------------------------------- PricingSaaS reports (hybrid, D39–D42)
+def tracked_since(slug: str) -> dt.date | None:
+    """Date of our first saved capture of this company (its baseline), or None if we never captured it."""
+    folder = SNAPSHOTS / slug
+    stamps = sorted(p.stem[:10] for p in folder.glob("*.txt")) if folder.exists() else []
+    try:
+        return dt.date.fromisoformat(stamps[0]) if stamps else None
+    except ValueError:
+        return None
+
+
+def report_numbers(r: dict) -> set[str]:
+    texts = [(ROOT / f).read_text(encoding="utf-8") for f in r["files"] + r.get("article_files", []) if (ROOT / f).exists()]
+    if not texts:
+        raise Rejected("evidence files missing")
+    return numbers_in("\n".join(texts))
+
+
+def hand_built(desk: dict, week: str) -> bool:
+    w = next((x for x in desk["weeks"] if x["week"] == week), None)
+    return bool(w) and (w.get("source_week") or "").startswith("PricingSaaS week")
+
+
+def record_report(desk: dict, registry: dict, r: dict, taken: set[str], result: dict) -> str:
+    """Publish one decided report. Returns the outcome; raises Rejected."""
+    d, slug = r["decision"], r["company"]
+    entry, week = registry["companies"][slug], r["week"]
+    if any(c.get("company") == slug and c["week"] == week for c in desk["changes"]) and hand_built(desk, week):
+        return "duplicate: the hand-built week already has this company"
+    if sum(c.get("company") == slug and c["week"] == week and c.get("reported") for c in desk["changes"]) \
+            >= REPORTS_PER_COMPANY_WEEK:
+        return "dropped: too many reported records for this company and week"
+    allowed = report_numbers(r)
+    if d["kind"] == PROMO_KIND:
+        promo = make_promo(d, entry, slug, desk, allowed, week, SRC_REPORTED)
+        ensure_week(desk, week, reported=True)
+        desk["promos"].append(promo)
+        if slug not in desk["companies"]:
+            sync_company(desk, registry, slug)
+            desk["companies"][slug]["tier"] = None
+        result["promos"].append(promo["id"])
+        return f"promo {promo['id']}"
+    when = dt.date.fromisoformat(r["change_date"]) if r.get("change_date") else week_start(week)
+    rec = make_record(d, entry, slug, desk, taken, allowed, allowed, week, when, SRC_REPORTED, r["urls"][0],
+                      {"report": r["report_id"], "files": r["files"] + r.get("article_files", []), "source": r["urls"]})
+    ensure_week(desk, week, reported=True)
+    sync_company(desk, registry, slug)
+    desk["companies"][slug]["tier"] = rec["tier"]
+    desk["changes"].append(rec)
+    taken.add(rec["id"])
+    result["added"].append(rec["id"])
+    log(f"  + {rec['id']} ({'line' if rec.get('detail') else 'card'}, reported by PricingSaaS)")
+    return f"added {rec['id']}"
+
+
+def apply_reports(desk: dict, registry: dict, proposal, result: dict) -> None:
+    """Record the agent's decisions on PricingSaaS reports, then publish every decided report that is ready.
+
+    A change at a company we already captured before the change (our baseline is older) is ours to see:
+    the report waits REPORT_WAIT_RUNS runs for our own record of that company and week. If ours arrives,
+    the report only corroborates it; if not, the report is published and a problem is raised, because our
+    capture missed something (wrong URL, a page needing the browser, an ignore pattern hiding it…).
+    """
+    reports = load_json(REPORTS, {"reports": []})
+    by_id = {r["report_id"]: r for r in reports["reports"]}
+    companies = registry["companies"]
+    for item in (proposal or {}).get("items", []):
+        rid = item.get("report_id")
+        r = by_id.get(rid)
+        try:
+            if not r or r["status"] != "todo":
+                raise Rejected("unknown or already decided report_id")
+            kind = item.get("kind")
+            if kind not in ALL_KINDS:
+                raise Rejected(f"kind={kind!r} unknown")
+            slug = item.get("company")
+            if slug not in companies:
+                slug = add_company(desk, registry, item.get("new_company") or {}, result)
+            if not slug:
+                raise Rejected("company not in the registry and no usable new_company")
+            ps = companies[slug].setdefault("ps_slugs", [])
+            if r["ps_slug"] not in ps:
+                ps.append(r["ps_slug"])
+            r.update(status="decided", company=slug, decided_run=run_id(),
+                     decision={k: item.get(k) for k in ("kind", "why", "detail", "record", "promo")})
+        except Rejected as e:
+            result["rejected"].append({"report": rid, "why": str(e)})
+            log(f"  - report {rid}: {e}")
+
+    taken = {c["id"] for c in desk["changes"]}
+    touched = set()
+    for r in reports["reports"]:
+        if r["status"] == "todo" and r.get("attempts", 0) >= REPORT_MAX_ATTEMPTS:
+            r.update(status="done", outcome="no agent decision, given up")
+            report_problem(f"PricingSaaS report {r['report_id']}: no agent decision after {r['attempts']} runs; given up.",
+                           "merge")
             continue
-        if item.get("category") not in categories:
-            result["rejected"].append({"registry": slug, "why": f"category {item.get('category')!r} unknown"})
+        if r["status"] != "decided":
             continue
-        urls = item.get("pricing_urls") or []
-        has_urls = bool(urls) and bool(domains) and valid_pricing_urls(urls, domains)
-        companies[slug] = {
-            "name": name, "tier": 2 if item.get("tier") == 2 else 3, "category": item["category"],
-            "segment": item.get("segment") if item.get("segment") in SEGMENTS else None,
-            "watch": False, "pricing_urls": urls if has_urls else [], "domains": domains,
-            "capture": "static", "status": "candidate" if has_urls else "needs_url",
-            "aiNative": item.get("aiNative") if isinstance(item.get("aiNative"), bool) else None,
-            "ownership": None, "hq": None, "funding": None, "employees": None,
-            "ignore_patterns": [], "added": now().date().isoformat(), "source": f"agent {run_id()}",
-            "source_url": item.get("source_url") if is_http_url(item.get("source_url")) else None,
-            "url_attempts": 0, "notes": tidy(item.get("why") or "")[:200],
-        }
-        result["registry"].append(f"new:{slug}")
+        kind, slug, week = r["decision"]["kind"], r["company"], r["week"]
+        if kind in DROP_KINDS:
+            r.update(status="done", outcome=f"dropped ({kind})")
+            result["dropped"].append({"report": r["report_id"], "kind": kind, "why": r["decision"].get("why", "")})
+            continue
+        since = tracked_since(slug)
+        changed_on = dt.date.fromisoformat(r["change_date"]) if r.get("change_date") else week_start(week)
+        if since and since < changed_on and companies[slug]["status"] == "active":
+            ours = [c["id"] for c in desk["changes"] if c.get("company") == slug and c["week"] == week
+                    and c.get("src") == SRC_CAPTURE]
+            ours += [p["id"] for p in desk["promos"] if p.get("company") == slug and p["week"] == week
+                     and p.get("src") == SRC_CAPTURE]
+            if ours:
+                r.update(status="done", outcome=f"corroborates {', '.join(ours)}")
+                append_check("report", r["report_id"], True, f"PricingSaaS agrees with our capture: {', '.join(ours)}")
+                continue
+            if r.get("waits", 0) < REPORT_WAIT_RUNS:
+                r["waits"] = r.get("waits", 0) + 1
+                continue
+            report_problem(f"PricingSaaS reported a {kind.replace('_', ' ')} at {companies[slug]['name']} ({week}) that "
+                           f"our capture didn't record; published as a reported record. Check its pricing URL and "
+                           f"ignore_patterns.", "merge")
+        try:
+            outcome = record_report(desk, registry, r, taken, result)
+            touched.add(week)
+        except Rejected as e:
+            outcome = f"rejected: {e}"
+            result["rejected"].append({"report": r["report_id"], "why": str(e)})
+            log(f"  - report {r['report_id']}: {e}")
+        r.update(status="done", outcome=outcome)
+    for w in touched:
+        rerank(desk, w)
+    save_json(REPORTS, reports)
 
 
 # ---------------------------------------------------------------- edition
@@ -388,13 +551,15 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
                 p[k] = tidy(p[k])
     st = week_stats(desk, week)
     active = sum(e["status"] == "active" for e in registry["companies"].values())
+    reported = sum(1 for c in desk["changes"] if c["week"] == week and c.get("reported"))
     today = now().date()
     desk.update({
         "current_week": week, "edition_date": today.isoformat(), "today": today.isoformat(),
         "period": week_range_label(week),
         "news": news, "patterns": patterns, "stats_analysis": stats, "news_trends": trends,
         "market_context": {
-            "source": f"Pricing Desk, {active} tracked pricing pages", "total": st["total"],
+            "source": f"Pricing Desk, {active} tracked pricing pages" + (" + PricingSaaS reports" if reported else ""),
+            "total": st["total"],
             "increases": st["by_group"].get("up", 0), "cuts": st["by_group"].get("down", 0),
             "other": st["by_group"].get("pack", 0),
             "note": (f"Of {st['total']} changes kept from {active} tracked pricing pages this week, "
@@ -407,7 +572,9 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
         if w["week"] == week:
             w.update(coverage="tracked", source_week="Pricing Desk capture",
                      note=(f"Captured from {active} tracked pricing pages, twice a day. "
-                           f"We kept {st['total']} changes this week."))
+                           f"We kept {st['total']} changes this week"
+                     + (f", {reported} of them reported by PricingSaaS at companies we didn’t capture yet." if reported
+                        else ".")))
     for m in proposal.get("missed", []):          # companies the news or PricingSaaS mentioned that we don't track
         if isinstance(m, dict) and m.get("name"):
             apply_registry(desk, registry, {"new_companies": [m]}, result)
@@ -460,6 +627,8 @@ def main() -> int:
     if changes is not None:
         apply_changes(desk, registry, changes, load_json(PROPOSALS / f"{run}.input.json", {}), result)
     update_backlog(changes, result)
+    reports = load_proposal(run, "reports")
+    apply_reports(desk, registry, reports, result)       # runs every time: waiting reports may now be due
     reg = load_proposal(run, "registry")
     if reg is not None:
         apply_registry(desk, registry, reg, result)

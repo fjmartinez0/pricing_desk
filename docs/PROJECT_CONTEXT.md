@@ -1,14 +1,13 @@
 # Pricing Desk: project context, decisions and next steps
 
-**Updated:** Tue 20 Oct 2026. **Supersedes** every earlier handoff (v1–v6).
+**Updated:** Sat 24 Oct 2026. **Supersedes** every earlier handoff (v1–v7).
 **Owner:** fmz. **Language:** English.
 
 > **Claude: read this first.**
 > This file, `BUILD_GUIDE.md` and `pricing_desk.zip` (the code) are everything the project needs.
 > 1. Read this file fully, then `BUILD_GUIDE.md`.
 > 2. Go to **§10 Next steps** and start with the first step that isn't marked done.
-> 3. The first step is to **walk the user through §9 "Install and first run", one step at a time**:
->    show one step, wait for the user to confirm it worked (or paste the error), then show the next.
+> 3. Installation is done (§8). Use `pdpy` (python.org Python) for every project command, never `python3`.
 > 4. Never weaken the rules in §5. They are what makes fully automatic publishing safe.
 
 ---
@@ -46,7 +45,10 @@ the job-board notes, and the job-posting status words.
 **Environment:**
 - **Mac mini** that never sleeps, with the user logged in so the Keychain is unlocked.
 - **launchd** job `com.fmz.pricing_desk`, running at **07:00 and 19:00** America/Toronto.
-- **python.org Python 3.13**. Standard library everywhere, except Playwright in one module.
+- **python.org Python 3.13** (`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3`, alias **`pdpy`**
+  on the Mac). Homebrew's `python3` comes first on the user's PATH and must not be used for this project.
+  Standard library everywhere, except Playwright in one module.
+- **Repo on the Mac:** `/Users/fernandomartinez/personal_projects/pricing_desk`.
 - **git** pushing to GitHub over HTTPS, using the Keychain helper.
 - **Claude Code** run headless on the user's Claude subscription. It can only write to `proposals/`.
 - **GitHub Actions**, with two workflows:
@@ -60,8 +62,12 @@ the job-board notes, and the job-posting status words.
    JavaScript) and normalize it to text. A new page version must appear on **2 captures in a row**
    before it counts. A page that shows two different versions within one run is reported as a
    possible price test. Confirmed changes go into `data/backlog.json`.
-3. **Claude**, up to three tasks:
+2b. **pricingsaas_capture.py** (hybrid, D39): read PricingSaaS's daily briefings (clicking "Load more",
+   about 9 days back) and this and last week's weekly review; fetch new articles and diff pages; queue them
+   in `data/reports.json`.
+3. **Claude**, up to four tasks:
    - classify and write up the backlog (`agent/changes_prompt.md`);
+   - classify up to 40 PricingSaaS reports (`agent/reports_prompt.md`);
    - find pricing URLs for up to 30 companies that need one (`agent/registry_prompt.md`);
    - when an edition is due, write the weekly edition (`agent/edition_prompt.md`).
 4. **coverage_check.py:** quiet alerts if the run did less than expected.
@@ -120,25 +126,39 @@ the job-board notes, and the job-posting status words.
 | D35 | **Watchdog:** GitHub Actions alerts the phone if `data/meta.json` shows no run for 36 hours, since the Mac can't report its own death. |
 | D36 | **Currency risk:** the Mac is in Quebec, so some sites may show CAD. Values are copied as shown, with a caveat. If a site does it, set a US URL with `add_company.py`. |
 | D37 | **Code must stay maintainable:** one script per step, every rule in `common.py`, standard library except Playwright, unit tests on known cases, README + RUNBOOK. |
-| D38 | **Backfill is closed** at weeks 38–43; from here on the project only goes forward. |
+| D38 | ~~Backfill is closed at weeks 38–43.~~ Superseded by D42. |
+
+### Decisions of 24 Oct 2026 (D39–D44)
+| # | Decision |
+|---|---|
+| D39 | **Hybrid: our captures + PricingSaaS reports.** Every run reads PricingSaaS's daily briefings (`/news`, "Load more" to the end, about 9 days) and weekly reviews (`/news/week/2026Wnn`), follows them to the per-company **diff pages** (`/companies/<slug>/diffs/2026Dnnn` or `2026Wnn`), saves their text in `data/pricingsaas/pages/` and queues them in `data/reports.json`. Companies they name are added to the registry, so from then on we capture them ourselves. Educational, non-commercial use (user's decision); robots.txt is still respected. Amends D21 and D34. |
+| D40 | **Reported records:** a kept change found only through PricingSaaS becomes a record with `src: "PricingSaaS report"`, `reported: true`, `url` = the PricingSaaS diff page and `evidence.files` = the saved texts. Every number must appear in that saved text, after cutting the page's history, peer and FAQ sections. The page labels them "Reported by PricingSaaS" / "via PricingSaaS". |
+| D41 | **Our own capture wins.** If we captured the company before the change date, the report waits up to 4 runs for our own record of that company and week. If ours arrives, the report only corroborates it (logged in `checks.jsonl`); if not, the report is published and a problem alert says our capture missed it. Hand-built weeks (38–43) never get a second record for a company they already have. At most 3 reported records per company per week. |
+| D42 | **Backfill reopened** (supersedes D38): weekly reviews from week 35 on can be read with `pricingsaas_capture.py --review …`. Weeks created this way (35–37, and 44) are marked partial with a note. Weekly reviews itemize only about 20 of the 150–280 changes PricingSaaS counts per week. |
+| D43 | **Page tweaks:** one coverage box per week view (`weekNoteHTML`), News newest first, masthead "Weekly edition", edition `period` = the week range. |
+| D44 | **Weekly edition stays** (Monday 19:00, captures twice a day). Decide on a daily "this week so far" panel after two weeks of data (around 8 Nov), based on how many Relevant changes arrive per day. |
 
 ---
 
 ## 4. Sources
 
 - **Primary:** the companies' own pricing pages, captured twice a day (registry).
+- **Secondary (hybrid, D39):** PricingSaaS daily briefings and weekly reviews, read every run; their diff pages
+  back "reported" records and point to companies to add.
 - **News for the edition** (`agent/sources.json`): Growth Unhinged, PricingSaaS newsletter (Good Better
   Best), AgentDeals digest, Ibbaka, and the PricingSaaS Pulse weekly review. The review is used only to
   find companies we miss.
 - **PricingSaaS** (`pricingsaas.com/feed`, `/news/week/2026Wnn`) was the source for weeks 38–43, built by
-  hand. Its free unfiltered feed shows only the last 7 days, about 50 rows. Weekly review pages before
-  week 41 don't exist publicly.
+  hand. Its free unfiltered feed shows only the last 7 days, about 50 rows. Weekly review pages exist from
+  week 35 (checked 24 Oct 2026).
 - **In a claude.ai conversation**, `web_fetch` only opens URLs that came from a search result or from the
   user's message. Headless Claude Code on the Mac doesn't have that limit.
 
 ---
 
 ## 5. Rules the code enforces (never weaken these)
+
+Rules 1–10 apply to our own captures. **Rule 11** covers PricingSaaS reports (D40–D41).
 
 1. **Cards are never invented.** Every number in a card's rows must appear in the captured page text:
    before-cells in the old page, after-cells in the new one. Numbers in `delta`, `deltaSub`, `short`
@@ -162,6 +182,10 @@ the job-board notes, and the job-posting status words.
 10. **Evidence is kept:** every automated record carries `evidence` (before/after snapshot files and
     the diff id). Snapshots and every proposal are committed, and every external check is logged in
     `data/checks.jsonl`.
+11. **PricingSaaS reports:** numbers must appear in the saved PricingSaaS diff page or article text (history,
+    peer and FAQ sections cut); "They say" still needs the company's own site; a company we already capture
+    waits for our own capture (D41); reported records must link a pricingsaas.com diff page and carry
+    `reported: true` (validator); a report never overwrites or duplicates an existing record.
 
 ---
 
@@ -216,27 +240,32 @@ New fields on automated records (the page ignores them): `reach` (1–3), `state
 
 ---
 
-## 8. Current state (20 Oct 2026)
+## 8. Current state (24 Oct 2026)
+
+**Installed and running** on the Mac mini since Sat 24 Oct 2026, 13:18 (first run). Runs at 07:00 and 19:00.
+- Install issues met and fixed: the repo wasn't a git repo at first (step 5 redone); Playwright was installed
+  in Homebrew's Python, not python.org's (fixed; use `pdpy`); zsh doesn't treat `#` as a comment when typing.
+- First run: 13 of 19 watchlist pages captured (the other 6 needed Playwright, since fixed); 26 pricing URLs
+  accepted from the registry agent.
+- Page fixes applied (D43). Week 43 note rewritten.
+- 8 companies added by hand from PricingSaaS's week 43 review: Shopify (tier 1), Tailscale, Remote, Buildkite,
+  GorillaDesk, ApprovalMax (candidates), Precog, fileAI (needs_url).
+- Registry balance checked: 127 companies A–K, 136 L–Z. The A–K gap was only in week 43's hand-built records.
+- **Hybrid (D39–D42): built and tested, waiting to be applied** (`pricing_desk_hybrid.patch`), then backfill
+  weeks 35–43 from the weekly reviews.
 
 | Week | Dates | Changes | Relevant | Promos | Coverage |
 |---|---|---|---|---|---|
-| 43 | 12–18 Oct | 23 | 4 | 0 | Partial: free 7-day feed, about 50 of 67 rows (companies A–K) |
+| 43 | 12–18 Oct | 23 | 4 | 0 | Partial: free 7-day feed, companies A–K only; PricingSaaS counted 204 that week |
 | 42 | 5–11 Oct | 58 | 21 | 5 | Subset (AI-moves view), **current edition** |
-| 41 | 28 Sep–4 Oct | 55 | 18 | 10 | Subset + weekly review (gaps filled 19 Oct) |
+| 41 | 28 Sep–4 Oct | 55 | 18 | 10 | Subset + weekly review |
 | 40 | 21–27 Sep | 44 | 11 | 10 | Subset |
 | 39 | 14–20 Sep | 41 | 7 | 7 | Subset |
 | 38 | 7–13 Sep | 29 | 5 | 4 | Partial |
 
-- **Registry:** 263 companies. 19 watchlist companies have their pricing URLs and start as `candidate`;
-  Duolingo and the other 243 are `needs_url`. The agent resolves 30 per run, so most should be done
-  within about 5 days of installing.
-- **Code:** complete, with 15 unit tests passing. It was tested end to end with a local web server, a
-  stub agent and a local git remote; the built page passed a headless browser check with no errors.
-  It hasn't run on the Mac yet.
+## 9. Install and first run (done 24 Oct 2026; kept for a reinstall)
 
----
-
-## 9. Install and first run (show the user one step at a time)
+On the user's Mac, use `pdpy` wherever this section says `python3`.
 
 Assumed already in place: python.org Python 3.13, git configured with GitHub (Keychain helper, token
 with the **workflow** scope), Playwright for Python. The GitHub repo **doesn't exist yet**.
@@ -304,38 +333,28 @@ If a step fails, the user pastes the error and Claude helps fix it before going 
 
 ## 10. Next steps, in order
 
-1. **Install and first run** (§9). *Not done.* Do this first, ideally by Thu 22 Oct, so baselines
-   exist before week 45 starts on Mon 26 Oct.
-2. **Watch the first three days** (through about Sun 25 Oct):
-   - check that captured companies grow, using `data/meta.json` (`tracked_active`) or
-     `python3 -c "import json,collections;r=json.load(open('data/registry.json'))['companies'];print(collections.Counter(e['status'] for e in r.values()))"`;
-   - read any problem alerts and fix pages with `scripts/add_company.py` (RUNBOOK.md). Duolingo has no
-     URL yet; ask the user for one or pause it.
-   - spot-check 2–3 snapshots in `data/snapshots/` for cookie banners or rotating text that would cause
-     false changes, and add `ignore_patterns` to those registry entries if needed.
-3. **Week 44 (19–25 Oct), by hand, on Mon 26 Oct.** The pipeline only has baselines for week 44, so
-   capture it once more the old way: in a Claude conversation, fetch `https://pricingsaas.com/feed`
-   (last 7 days, about 50 rows) and that week's review page (search "PricingSaaS Pulse Weekly week 44").
-   Apply the keep rule and add the records to `data/desk.json` in the repo:
-   - `src` "PricingSaaS week 44";
-   - week `2026-W44`, `seen` 2026-10-19, `seenLabel` "19–25 Oct";
-   - `coverage: "partial"` with a note.
-
-   Then run `python3 scripts/validate.py` and push. Optionally build the week-44 edition by hand too:
-   set `current_week` to `2026-W44` and write the news, patterns, stats and `market_context` the
-   same way. PricingSaaS rows age out around 2 Nov.
-4. **First automatic edition: Mon 2 Nov, 19:00** (week 45). Check the iPhone alert, then the page:
-   - every card's numbers match its company's pricing page;
-   - "They say" appears only with real quotes;
-   - news links work.
-
-   Tune `agent/*.md` if the writing needs it; tune rules only in `common.py`, with a test.
-5. **Side-by-side comparison, weeks 45–48.** Each Monday, compare our week with PricingSaaS's weekly
-   review for the same companies. Add companies we miss (the edition agent proposes them automatically
-   under `missed`), and fix capture problems. When we reliably catch the changes that matter, PricingSaaS
-   becomes one more news source.
-6. **Open questions to ask the user when relevant:**
+1. **Apply the hybrid** (`pricing_desk_hybrid.patch`) and **backfill weeks 35–43** from PricingSaaS's weekly
+   reviews: `pdpy scripts/pricingsaas_capture.py --review 2026-W35 … 2026-W43 --max-fetches 400`. The agent
+   then works through the queue at 40 reports per run (a few runs). *Not done.*
+2. **Watch the first days** (through about Wed 28 Oct):
+   - companies captured grow (`data/meta.json` → `tracked_active`, or the status counter in RUNBOOK.md);
+   - `data/reports.json`: reports move from `todo` to `done`; read the `outcome`s;
+   - problem alerts, especially "PricingSaaS reported … that our capture didn't record" (a capture miss to fix
+     with `scripts/add_company.py`: URL, `--browser`, ignore_patterns);
+   - spot-check 2–3 snapshots in `data/snapshots/` for cookie banners or rotating text.
+   - Duolingo has no URL yet; ask the user for one or pause it.
+3. **Week 44 (19–25 Oct)** no longer needs building by hand: the briefings reach back about 9 days, so the
+   hybrid reads week 44 automatically. Check on Mon 26 Oct that week 44 has records and a partial-week note.
+4. **First automatic edition: Mon 2 Nov, 19:00** (week 45). Check: every card's numbers match its source page;
+   "They say" only with real quotes; reported records labeled; news links work. Tune `agent/*.md` if the
+   writing needs it; tune rules only in `common.py`, with a test.
+5. **Weeks 45–48:** the hybrid now does most of the side-by-side automatically (corroborations and capture
+   misses). Each Monday, skim the reports' outcomes and fix capture misses.
+6. **Coverage by design:** draft a list of about 50 widely used software products across the 12 categories
+   that aren't in the registry; the user reviews it once; add the chosen ones. (Offered 24 Oct, pending.)
+7. **Decide on daily** (D44), around Sun 8 Nov: count Relevant changes per day; if most days have one, add a
+   "this week so far" panel to the front page.
+8. **Open questions to ask the user when relevant:**
    - should trials and new priced AI add-ons count (§6)?
    - keep or drop the Sources tab?
-   - optional: cross-check weeks 39, 40 and 42 against their PricingSaaS review pages;
    - check the Cursor / X Subscription terms against xAI's own announcement.
