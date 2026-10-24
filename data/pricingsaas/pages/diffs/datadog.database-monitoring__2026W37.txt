@@ -1,0 +1,60 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Datadog/All changes/Database host → billable host
+D
+DatadogPackaging change · Metric change · Aug 31 → Sep 7, 2026
+Datadog redefines "billable host" as full DB instance, not...
+Verified Sep 7, 2026·Cloud & DevOps·Direction: neutral
+Covered on Pulse:Week in review, Week 37, 2026
+The changeDatabase host — reworded.
+Before · Aug 31database host
+After · Sep 7billable host
+reworded
+1 change·2 captures·Aug 31, 2026 → Sep 7, 2026
+What happened
+Between the Aug 31, 2026 and Sep 7, 2026 captures of Datadog's pricing page, Pulse recorded one change: FAQ renamed 'database host' to 'billable host', redefining it as a database instance (self-hosted or cloud-managed) running one or more logical databases, not just any monitored physical/virtual server. Pulse files it as a packaging change (metric change) with a neutral direction. The current page lists Database Monitoring at $70.
+It lands 49 days after Datadog's previous change, "Datadog Database Monitoring Database Monitoring: AI-powered root cause analysis agent removed from Features" (Jul 20, 2026). Before that Pulse recorded "Datadog Database Monitoring DBM: added AI root-cause agent, auto-optimization, ClickHouse/Supabase" (Jul 2, 2026). Datadog has been tracked since 2023-11-14.
+In the same window Grafana, Sumologic, Splunk, Dynatrace and New Relic also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · Pricing modelReworded
+database host→billable host
+Plan
+Field
+Before
+After
+Change
+—
+Pricing model
+database host
+billable host
+Reworded
+Values as written on Datadog's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Datadog's pricing page (datadoghq.com) from Aug 31, 2026 and Sep 7, 2026; the change is marked around the middle of the page, where "database host" becomes "billable host".
+Aug 31, 2026 · database host
+Sep 7, 2026 · billable host
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Datadog, the last 90 days
+Full history
+Sep 7, 2026packagingDatadog redefines "billable host" as full DB instance, not... · this change
+Jul 20, 2026packagingDatadog Database Monitoring Database Monitoring: AI-powered root cause analysis agent removed from Features
+Jul 2, 2026improvedDatadog Database Monitoring DBM: added AI root-cause agent, auto-optimization, ClickHouse/Supabase
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+GrafanaAug 17Grafana: Logs Query price hidden from Pro plan card ($0.003/GB)
+SumologicAug 11Sumo Logic: New MCP Server AI integration added to Dojo AI
+SplunkJul 20Splunk: removed "Activity-based pricing" model
+DynatraceJul 2Dynatrace: Log correlation democratized to Foundation & Discovery tier
+New RelicJun 23New Relic adds ROI calculator to pricing page for observability value
+Questions about this change
+Did Datadog raise prices in September 2026?
+No list-price increase was recorded between Aug 31, 2026 and Sep 7, 2026. The change Pulse detected was a packaging change: metric change.
+What changed on Datadog's pricing page between Aug 31, 2026 and Sep 7, 2026?
+Pricing model: database host → billable host, reworded. Pulse compared the captures it took on Aug 31, 2026 and Sep 7, 2026; the before/after table above lists each item as written on the page.
+How often does Datadog change its pricing?
+Pulse recorded 2 other pricing-page changes for Datadog in the 90 days before this one; the previous change was "Datadog Database Monitoring Database Monitoring: AI-powered root cause analysis agent removed from Features" on Jul 20, 2026; Datadog has been tracked since 2023-11-14.

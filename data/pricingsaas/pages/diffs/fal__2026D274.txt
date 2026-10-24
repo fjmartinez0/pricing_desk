@@ -1,0 +1,62 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/fal/All changes/Endpoints each added
+f
+falPricing change · Price revealed · Sep 30 → Oct 1, 2026
+fal publishes Audio and 3D model API pricing, expands video/image tables to 10 endpoints
+Verified Oct 1, 2026·AI & Machine Learning·Direction: up
+Covered on Pulse:Fal rebuilds its model API pricing into per-endpoint tables, triples video model listings
+The changeEndpoints each — added.
+Before · Sep 30No endpoints each
+After · Oct 110 endpoints each
+added
+1 change·2 captures·Sep 30, 2026 → Oct 1, 2026
+What happened
+Between the Sep 30, 2026 and Oct 1, 2026 captures of fal's pricing page, Pulse recorded one change: Model API pricing rebuilt into per-endpoint tables: new Audio and 3D pricing tables published; Video/Image tables expanded to 10 endpoints (H3 Max, Kling v3, Seedance 2, Nano Banana 2, GPT Image 2), Wan 2.5/Veo 3/Ovi/Seedream V4/Qwen samples dropped. Overlapping model prices and GPU rates unchanged. In detail: Model API pricing rebuilt into per-endpoint tables: new Audio (ElevenLabs, MiniMax, xAI) and 3D (Tripo, Trellis, Hunyuan, Meshy) pricing tables published; Video/Image tables now list 10 endpoints each (H3 Max, Kling v3, Seedance 2, Nano Banana 2/Pro, GPT Image 2) replacing the Wan 2.5/Veo 3/Ovi/Seedream V4/Qwen samples. Overlapping models unchanged (Kling 2.5 Turbo $0.07/s, Nano Banana $0.0398); GPU rates unchanged. Pulse files it as a pricing change (price revealed) with an upward direction. Pulse's latest capture (Oct 20, 2026) lists Audio Model APIs at $0.1 per 1,000 characters (MiniMax Speech 2.8 HD) + $0.2 per 100 seconds (ElevenLabs Sound Effects v2), 3D Model APIs at $0.08 per generation (Hunyuan Motion 1B) + $0.01 per credit (Tripo H3.1), Serverless Compute at $6 per H200 GPU hour + $4 per RTX PRO 6000 GPU hour, Video Model APIs at $0.05 per second of video output (MiniMax H3 Max) + $0.07 per second of video output (Kling 2.5 Turbo Pro) and Image Model APIs at $1 per unit (GPT Image 2) + $0.5 per 100 megapixels (Z Image Turbo).
+It lands 57 days after fal's previous change, "fal: H100 GPU list price increase ($3.99→$4.50/h)" (Aug 5, 2026). fal has been tracked since 2026-07-15.
+In the same window Anthropic, Together AI, Modal, Runway and Huggingface also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Model API · Price visibilityAdded
+No endpoints each→10 endpoints each
+Plan
+Field
+Before
+After
+Change
+Model API
+Price visibility
+No endpoints each
+10 endpoints each
+Added
+Values as written on fal's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of fal's pricing page (fal.ai) from Sep 30, 2026 and Oct 1, 2026; the change is marked around the middle of the page, where 10 endpoints each now appears.
+Sep 30, 2026 · No endpoints each
+Oct 1, 2026 · 10 endpoints each
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+fal, the last 90 days
+Full history
+Oct 9, 2026improvedfal adds Flux 3 image editing to rate card at $0.024 per megapixel
+Oct 5, 2026improvedfal hikes GPU rates up to 33%, adds GB200 tier and Nano Banana 2/Pro models
+Oct 2, 2026increasefal raises H100 GPU rate to $2.49/hr, adds GB200, doubles MiniMax video price
+Oct 1, 2026packagingfal publishes Audio and 3D model API pricing, expands video/image tables to 10 endpoints · this change
+Aug 5, 2026increasefal: H100 GPU list price increase ($3.99→$4.50/h)
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+AnthropicSep 28Anthropic API: Opus 5.5 launches, replaces Opus 5 as flagship
+Together AISep 25Together AI reveals NVIDIA HGX B300 pricing at $9.99/GPU/hr, $4.99 preemptible
+ModalSep 14Modal renames Enterprise SSO from Okta to standards-based SAML
+RunwaySep 7Runway slashes Pro storage to 100GB, adds Agentic collaborator and Brand Kits
+HuggingfaceJul 3Enterprise SCIM provisioning & Team SSO OIDC added + 2 more changes
+Questions about this change
+Did fal raise prices in October 2026?
+No list-price increase was recorded between Sep 30, 2026 and Oct 1, 2026. The change Pulse detected was a pricing change: price revealed.
+What changed on fal's pricing page between Sep 30, 2026 and Oct 1, 2026?
+Model API price visibility: No endpoints each → 10 endpoints each, added. Pulse compared the captures it took on Sep 30, 2026 and Oct 1, 2026; the before/after table above lists each item as written on the page.
+How often does fal change its pricing?
+Pulse recorded 1 other pricing-page change for fal in the 90 days before this one; the previous change was "fal: H100 GPU list price increase ($3.99→$4.50/h)" on Aug 5, 2026; fal has been tracked since 2026-07-15.

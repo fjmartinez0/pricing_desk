@@ -1,0 +1,60 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/GitLab/All changes/Across multiple organizations or instances reworded
+G
+GitLabPackaging change · Package change · Sep 14 → Sep 21, 2026
+GitLab: Flex billing FAQ overhauled — new usage-cap self-service, terms narrowed
+Verified Sep 21, 2026·Software Development & Testing·Direction: neutral
+Covered on Pulse:Week in review, Week 39, 2026
+The changeAcross multiple organizations or instances — reworded.
+Before · Sep 14across multiple organizations or instances
+After · Sep 21across multiple Self-Managed instances
+reworded
+1 change·2 captures·Sep 14, 2026 → Sep 21, 2026
+What happened
+Between the Sep 14, 2026 and Sep 21, 2026 captures of GitLab's pricing page, Pulse recorded one change: 'Do volume discounts apply to overage?' replaced by a 'reserved vs on-demand' usage Q&A; new self-service FAQs added for viewing Flex balance/reservations and setting on-demand usage caps; commitment allocation narrowed from 'organizations or instances' to 'Self-Managed instances' only. In detail: GitLab Flex commitment FAQ restructured: the "Do volume discounts apply to overage?" question was replaced by a new "reserved vs on-demand" usage question; two new self-service questions were added (viewing Flex balance/reservations, setting on-demand usage caps); and commitment allocation was narrowed from "across multiple organizations or instances" to "across multiple Self-Managed instances" only. Pulse files it as a packaging change (package change) with a neutral direction. Pulse's latest capture (Oct 16, 2026) lists Premium at $29, Enterprise Agile Planning at $15, Compute Minutes at $10 per 1,000 minutes, Storage at $5 and GitLab Duo Agent Platform at $1 per GitLab Credit.
+It lands 3 days after GitLab's previous change, "GitLab renames Flex 'per-use' credits to 'on-demand,' drops overage discounts" (Sep 18, 2026). Before that Pulse recorded "GitLab: New Flex Commitment annual billing option introduced" (Jul 3, 2026). GitLab has been tracked since 2025-10-05.
+In the same window Google Cloud, JetBrains and Gitpod also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · PackagingReworded
+Beforeacross multiple organizations or instances
+Afteracross multiple Self-Managed instances
+Plan
+Field
+Before
+After
+Change
+—
+Packaging
+across multiple organizations or instances
+across multiple Self-Managed instances
+Reworded
+Values as written on GitLab's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of GitLab's pricing page (gitlab.com) from Sep 14, 2026 and Sep 21, 2026; the change is marked in the lower part of the page, where "across multiple organizations or instances" becomes "across multiple Self-Managed instances".
+Sep 14, 2026 · across multiple organizations or instances
+Sep 21, 2026 · across multiple Self-Managed instances
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+GitLab, the last 90 days
+Full history
+Oct 16, 2026improvedGitLab brings Secrets Manager to Self-Managed, Dedicated still pending
+Sep 21, 2026packagingGitLab: Flex billing FAQ overhauled — new usage-cap self-service, terms narrowed · this change
+Sep 18, 2026packagingGitLab renames Flex 'per-use' credits to 'on-demand,' drops overage discounts
+Jul 3, 2026packagingGitLab: New Flex Commitment annual billing option introduced
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+JetBrainsAug 31JetBrains: Added multi-year billing with 2–3 year price-freeze guarantee
+GitpodJul 3Gitpod/Ona: Free plan removed; Core adds Codex subscription
+Questions about this change
+Did GitLab raise prices in September 2026?
+No list-price increase was recorded between Sep 14, 2026 and Sep 21, 2026. The change Pulse detected was a packaging change: package change.
+What changed on GitLab's pricing page between Sep 14, 2026 and Sep 21, 2026?
+Packaging: across multiple organizations or instances → across multiple Self-Managed instances, reworded. Pulse compared the captures it took on Sep 14, 2026 and Sep 21, 2026; the before/after table above lists each item as written on the page.
+How often does GitLab change its pricing?
+Pulse recorded 2 other pricing-page changes for GitLab in the 90 days before this one; the previous change was "GitLab renames Flex 'per-use' credits to 'on-demand,' drops overage discounts" on Sep 18, 2026; GitLab has been tracked since 2025-10-05.

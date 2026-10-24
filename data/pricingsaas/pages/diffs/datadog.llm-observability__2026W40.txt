@@ -1,0 +1,67 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Datadog/All changes/Experiment result retention now extends changed
+D
+DatadogPackaging change · Limit increase · Add-on change · Sep 21 → Sep 28, 2026
+Datadog LLM Observability quadruples 30-day retention to $6.50 per 10K spans
+Verified Sep 28, 2026·Cloud & DevOps·Direction: up
+Covered on Pulse:Week in review, Week 40, 2026
+The changeExperiment result retention now extends — changed.
+Before · Sep 2115 days by default
+After · Sep 283 months when customers have an annual or month-to-month commitment
+changed
+2 changes·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Datadog's pricing page, Pulse recorded 2 changes: Extended data retention add-ons for LLM Observability increased across all tiers: 30-day retention $1.50->$6.50, 60-day $3->$8, 90-day $4->$9 per 10K LLM spans/month; Experiment result retention now extends from 15 days by default to 3 months when customers have an annual or month-to-month commitment. Pulse files it as a packaging change (limit increase, add-on change) with an upward direction. The current page lists Pro at $160, 90-Day Retention Add-on at $9, 30-Day Retention Add-on at $6.5 and 60-Day Retention Add-on at $8.
+It lands 87 days after Datadog's previous change, "LLM Observability renamed Agent Observability, repriced per-span (Free+Pro)" (Jul 3, 2026). Datadog has been tracked since 2023-11-14.
+In the same window Elastic, Grafana, Sumologic, Splunk and Dynatrace also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · LimitChanged
+Before15 days by default
+After3 months when customers have an annual or month-to-month commitment
+— · Add-on+333%
+$1.50→$6.50
+Plan
+Field
+Before
+After
+Change
+—
+Limit
+15 days by default
+3 months when customers have an annual or month-to-month commitment
+Changed
+—
+Add-on
+$1.50
+$6.50
++333%
+Values as written on Datadog's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Datadog's pricing page (datadoghq.com) from Sep 21, 2026 and Sep 28, 2026; the change is marked in the lower part of the page, where "15 days by default" becomes "3 months when customers have an annual or month-to-month commitment".
+Sep 21, 2026 · 15 days by default
+Sep 28, 2026 · 3 months when customers have an annual or month-to-month commitment
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Datadog, the last 90 days
+Full history
+Sep 28, 2026improvedDatadog LLM Observability quadruples 30-day retention to $6.50 per 10K spans · this change
+Jul 3, 2026packagingLLM Observability renamed Agent Observability, repriced per-span (Free+Pro)
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+GrafanaAug 17Grafana: Logs Query price hidden from Pro plan card ($0.003/GB)
+SumologicAug 11Sumo Logic: New MCP Server AI integration added to Dojo AI
+SplunkJul 20Splunk: removed "Activity-based pricing" model
+DynatraceJul 2Dynatrace: Log correlation democratized to Foundation & Discovery tier
+Questions about this change
+Did Datadog raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: limit increase, add-on change.
+What changed on Datadog's pricing page between Sep 21, 2026 and Sep 28, 2026?
+Limit: 15 days by default → 3 months when customers have an annual or month-to-month commitment, changed; add-on: $1.50 → $6.50 (+333%). Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Datadog change its pricing?
+Pulse recorded 1 other pricing-page change for Datadog in the 90 days before this one; the previous change was "LLM Observability renamed Agent Observability, repriced per-span (Free+Pro)" on Jul 3, 2026; Datadog has been tracked since 2023-11-14.

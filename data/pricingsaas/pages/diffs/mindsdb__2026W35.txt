@@ -1,0 +1,66 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/MindsDB/All changes/Cache-write fee added
+M
+MindsDBPackaging change · Package change · Aug 17 → Aug 24, 2026
+MindsDB splits Free/Pro into Cowork + Inference API, adds 5% platform fee
+Verified Aug 24, 2026·AI & Machine Learning·Direction: neutral
+Covered on Pulse:Week in review, Week 35, 2026
+The changeCache-write fee — added.
+Before · Aug 17No cache-write fee
+After · Aug 24cache-write fee
+added
+1 change·2 captures·Aug 17, 2026 → Aug 24, 2026
+What happened
+Between the Aug 17, 2026 and Aug 24, 2026 captures of MindsDB's pricing page, Pulse recorded one change: MindsHub split Free/Pro into Cowork plus a new Unified Inference API product; both add a 5% platform fee on rate-card prices. Gemini 3.6 Flash rates were halved; Kimi K3 gained a cache-write fee. Pulse files it as a packaging change (package change) with a neutral direction. Pulse's latest capture (Oct 19, 2026) lists Pay as you go at $0.1 input tokens (MindsHub Air, per 1M) + $0.5 output tokens (MindsHub Air, per 1M).
+It lands 7 days after MindsDB's previous change, "MindsDB: Pro plan billing moved from spend-controls to prepaid balance" (Aug 17, 2026). Before that Pulse recorded "MindsHub: Air & Luna rate cut ~80%, web app dropped, support added" (Aug 10, 2026), "MindsDB: Pro tier drops $9.95 flat fee for pay-as-you-go pricing" (Aug 4, 2026) and "MindsDB slashes per-token prices ~30% across 17 models on MindsHub" (Jul 20, 2026). MindsDB has been tracked since 2026-03-01.
+In the same window Huggingface also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+“MindsHub” is the name MindsDB’s pricing page uses; Pulse files the change under MindsDB, the company it tracks.
+Show more
+Flash · PackagingAdded
+No cache-write fee→cache-write fee
+Plan
+Field
+Before
+After
+Change
+Flash
+Packaging
+No cache-write fee
+cache-write fee
+Added
+Values as written on MindsDB's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of MindsDB's pricing page (mindsdb.com) from Aug 17, 2026 and Aug 24, 2026; the change is marked near the top of the page, where cache-write fee now appears.
+Aug 17, 2026 · No cache-write fee
+Aug 24, 2026 · cache-write fee
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+MindsDB, the last 90 days
+Full history
+Sep 14, 2026packagingMindsHub: 4 new AI models added to rate card (GPT-6 Astra, Claude Fable 5.1)
+Sep 8, 2026packagingMindsDB adds DeepSeek V4 Flash, GLM 5.3 and GLM 5.3 Flash to the model rate card
+Sep 4, 2026decreaseMindsDB quietly deletes all mentions of its 5% platform fee, rates untouched
+Aug 24, 2026packagingMindsDB splits Free/Pro into Cowork + Inference API, adds 5% platform fee · this change
+Aug 17, 2026packagingMindsDB: Pro plan billing moved from spend-controls to prepaid balance
+Aug 10, 2026improvedMindsHub: Air & Luna rate cut ~80%, web app dropped, support added
+Aug 4, 2026packagingMindsDB: Pro tier drops $9.95 flat fee for pay-as-you-go pricing
+Jul 20, 2026packagingMindsDB slashes per-token prices ~30% across 17 models on MindsHub
+Jul 13, 2026packagingMindsDB: Cowork workspace renamed to MindsHub
+Jun 29, 2026improvedMindsDB upgrades Model Router: Opus alias now points to Claude Opus 4.8
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+HuggingfaceJul 3Enterprise SCIM provisioning & Team SSO OIDC added + 2 more changes
+HuggingfaceJun 8Huggingface reframes PRO pitch from crowd count to value promise
+HuggingfaceJun 1Huggingface upgrades free GPUs to RTX Pro 6000 with 96GB VRAM
+Questions about this change
+Did MindsDB raise prices in August 2026?
+No list-price increase was recorded between Aug 17, 2026 and Aug 24, 2026. The change Pulse detected was a packaging change: package change.
+What changed on MindsDB's pricing page between Aug 17, 2026 and Aug 24, 2026?
+Flash packaging: No cache-write fee → cache-write fee, added. Pulse compared the captures it took on Aug 17, 2026 and Aug 24, 2026; the before/after table above lists each item as written on the page.
+How often does MindsDB change its pricing?
+Pulse recorded 11 other pricing-page changes for MindsDB in the 90 days before this one; the previous change was "MindsDB: Pro plan billing moved from spend-controls to prepaid balance" on Aug 17, 2026; MindsDB has been tracked since 2026-03-01.

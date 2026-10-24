@@ -1,0 +1,67 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Modal/All changes/Region selection surcharge changed
+M
+ModalPricing change · Price decrease · Aug 31 → Sep 8, 2026
+Modal cuts region surcharge floor to 1.15x, easing cross-region compute costs
+Verified Sep 8, 2026·Cloud & DevOps·Direction: down
+Covered on Pulse:Week in review, Week 37, 2026
+The changeRegion selection surcharge — changed.
+Before · Aug 311.5-1.75x
+After · Sep 81.15-1.75x base compute prices
+changed
+1 change·2 captures·Aug 31, 2026 → Sep 8, 2026
+What happened
+Between the Aug 31, 2026 and Sep 8, 2026 captures of Modal's pricing page, Pulse recorded one change: Region selection surcharge dropped from 1.5-1.75x to 1.15-1.75x base compute prices, lowering the minimum premium for choosing a specific region across Starter, Team, and Enterprise plans. Pulse files it as a pricing change (price decrease) with a downward direction. Pulse's latest capture (Oct 5, 2026) lists Team at $250, Compute resources at $1.1 NVIDIA A10G instance hour + $1.95 L40S GPU hour and Sandbox + Notebooks compute at $2.4 per 100 GiB-Hour + $14.19 per 100 core-hours.
+It lands 5 days after Modal's previous change, "Modal slashes region surcharge floor from 1.5x to 1.15x across all tiers" (Sep 3, 2026). Before that Pulse recorded "Modal adds included token usage row, renames free credits to free compute" (Sep 12, 2026), "Modal swaps Okta SSO for SAML SSO in Enterprise audit logs bullet" (Sep 11, 2026) and "Modal: Added Environment-level budgets to Team and Enterprise plans" (Aug 10, 2026). Modal has been tracked since 2023-11-14.
+In the same window Together AI, Lambda Labs, Paper, Huggingface and Anyscale also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Starter, Team, Enterprise · PriceChanged
+Before1.5-1.75x
+After1.15-1.75x base compute prices
+Plan
+Field
+Before
+After
+Change
+Starter, Team, Enterprise
+Price
+1.5-1.75x
+1.15-1.75x base compute prices
+Changed
+Values as written on Modal's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Modal's pricing page (modal.com) from Aug 31, 2026 and Sep 8, 2026; the change is marked in the lower part of the page, where "1.5-1.75x" becomes "1.15-1.75x base compute prices".
+Aug 31, 2026 · 1.5-1.75x
+Sep 8, 2026 · 1.15-1.75x base compute prices
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Modal, the last 90 days
+Full history
+Sep 14, 2026improvedModal renames Enterprise SSO from Okta to standards-based SAML
+Sep 12, 2026packagingModal adds included token usage row, renames free credits to free compute
+Sep 11, 2026improvedModal swaps Okta SSO for SAML SSO in Enterprise audit logs bullet
+Sep 8, 2026decreaseModal cuts region surcharge floor to 1.15x, easing cross-region compute costs · this change
+Sep 3, 2026decreaseModal slashes region surcharge floor from 1.5x to 1.15x across all tiers
+Aug 10, 2026improvedModal: Added Environment-level budgets to Team and Enterprise plans
+Aug 4, 2026improvedModal: Team plan container limit increased 1000→5000
+Jul 13, 2026packagingModal adds Nvidia B300 GPU tier at $0.001972/sec, above B200
+Jul 3, 2026packagingModal: New Volumes storage pricing + lower Cloud Marketplace multiplier
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Together AISep 1Together AI adds Qwen3.8 Flash at $0.15/1M tokens, drops Gemma 3n E4B
+Lambda LabsJul 27Lambda Labs gates HGX B200 clusters behind sales, keeps $9.86–$8.87/hr rates
+PaperJul 6Paper: removed "collaboration files" from Free and Pro plan lists
+HuggingfaceJul 3Enterprise SCIM provisioning & Team SSO OIDC added + 2 more changes
+AnyscaleJun 15Anyscale pulls H100/H200 GPU prices, pushes enterprise sales
+Questions about this change
+Did Modal raise prices in September 2026?
+No — prices went down. Between Aug 31, 2026 and Sep 8, 2026 Modal's pricing page showed 1 price cut: Starter, Team, Enterprise: 1.5-1.75x → 1.15-1.75x base compute prices (changed).
+What changed on Modal's pricing page between Aug 31, 2026 and Sep 8, 2026?
+Starter, Team, Enterprise price: 1.5-1.75x → 1.15-1.75x base compute prices, changed. Pulse compared the captures it took on Aug 31, 2026 and Sep 8, 2026; the before/after table above lists each item as written on the page.
+How often does Modal change its pricing?
+Pulse recorded 5 other pricing-page changes for Modal in the 90 days before this one; the previous change was "Modal slashes region surcharge floor from 1.5x to 1.15x across all tiers" on Sep 3, 2026; Modal has been tracked since 2023-11-14.

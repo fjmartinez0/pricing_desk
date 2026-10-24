@@ -1,0 +1,70 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/fal/All changes/GB200 price raised 32%
+f
+falPricing change · Feature added · Price increase · Sep 28 → Oct 5, 2026
+fal hikes GPU rates up to 33%, adds GB200 tier and Nano Banana 2/Pro models
+Verified Oct 5, 2026·AI & Machine Learning·Direction: up
+Covered on Pulse:Week in review, Week 41, 2026
+The changeGB200 price — price increase.
+Before · Sep 28$1.89
+After · Oct 5$2.49/h
++32%
+2 changes·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of fal's pricing page, Pulse recorded 2 changes: GPU/Compute hourly pricing increased across all tiers (H100 $1.89->$2.49/h, B300 $4.49->$5.99/h, B200 $3.49->$5.49/h, H200 $2.10->$2.99/h, RTX 6000 $1.10->$1.99/h); new GB200 tier added at $5.89/h; Model APIs overhauled: added MiniMax H3 Max, Kling v3, Seedance 2, Nano Banana 2/Pro, GPT Image 2, plus new Audio Models & 3D Models sections; dropped Wan 2.5, Veo 3, Ovi, Seedream V4, Flux Kontext Pro. In detail: Model APIs overhauled: added MiniMax H3 Max, Kling v3, Seedance 2, Nano Banana 2/Pro, GPT Image 2, plus new Audio Models & 3D Models sections; dropped Wan 2.5, Veo 3, Ovi, Seedream V4, Flux Kontext Pro, Qwen. Pulse files it as a pricing change (feature added, price increase) with an upward direction. Pulse's latest capture (Oct 20, 2026) lists Audio Model APIs at $0.1 per 1,000 characters (MiniMax Speech 2.8 HD) + $0.2 per 100 seconds (ElevenLabs Sound Effects v2), 3D Model APIs at $0.08 per generation (Hunyuan Motion 1B) + $0.01 per credit (Tripo H3.1), Serverless Compute at $6 per H200 GPU hour + $4 per RTX PRO 6000 GPU hour, Video Model APIs at $0.05 per second of video output (MiniMax H3 Max) + $0.07 per second of video output (Kling 2.5 Turbo Pro) and Image Model APIs at $1 per unit (GPT Image 2) + $0.5 per 100 megapixels (Z Image Turbo).
+It lands 3 days after fal's previous change, "fal raises H100 GPU rate to $2.49/hr, adds GB200, doubles MiniMax video price" (Oct 2, 2026). Before that Pulse recorded "fal adds Flux 3 image editing to rate card at $0.024 per megapixel" (Oct 9, 2026), "fal publishes Audio and 3D model API pricing, expands video/image tables to 10 endpoints" (Oct 1, 2026) and "fal: H100 GPU list price increase ($3.99→$4.50/h)" (Aug 5, 2026). fal has been tracked since 2026-07-15.
+In the same window Together AI, Modal, Anthropic and Runway also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · FeatureRemoved
+Wan 2.5→No Wan 2.5
+GB200 · Price+32%
+$1.89→$2.49/h
+Plan
+Field
+Before
+After
+Change
+—
+Feature
+Wan 2.5
+No Wan 2.5
+Removed
+GB200
+Price
+$1.89
+$2.49/h
++32%
+Values as written on fal's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of fal's pricing page (fal.ai) from Sep 28, 2026 and Oct 5, 2026; the change is marked around the middle of the page, where gb200 price reads $1.89 and then $2.49/h.
+Sep 28, 2026 · GB200 price at $1.89
+Oct 5, 2026 · GB200 price at $2.49/h
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+fal, the last 90 days
+Full history
+Oct 16, 2026increasefal doubles Flux 3 Image edit price to $0.048 per megapixel
+Oct 12, 2026improvedfal adds Flux 3 Image editing at $0.024 per megapixel to Model API
+Oct 9, 2026improvedfal adds Flux 3 image editing to rate card at $0.024 per megapixel
+Oct 5, 2026improvedfal hikes GPU rates up to 33%, adds GB200 tier and Nano Banana 2/Pro models · this change
+Oct 2, 2026increasefal raises H100 GPU rate to $2.49/hr, adds GB200, doubles MiniMax video price
+Oct 1, 2026packagingfal publishes Audio and 3D model API pricing, expands video/image tables to 10 endpoints
+Aug 5, 2026increasefal: H100 GPU list price increase ($3.99→$4.50/h)
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+Together AIOct 5Together AI adds Tev1 4B Experimental at $0.04 input with free output
+ModalOct 5Modal adds $0.04/GiB network egress fee, with up to 100 TiB free per plan
+AnthropicSep 28Anthropic API: Opus 5.5 launches, replaces Opus 5 as flagship
+RunwaySep 7Runway slashes Pro storage to 100GB, adds Agentic collaborator and Brand Kits
+Questions about this change
+Did fal raise prices in October 2026?
+Yes. Pulse captured fal's pricing page on Sep 28, 2026 and again on Oct 5, 2026 and recorded 1 price increase: GB200: $1.89 → $2.49/h (+32%).
+What changed on fal's pricing page between Sep 28, 2026 and Oct 5, 2026?
+Feature: Wan 2.5 → No Wan 2.5, removed; GB200 price: $1.89 → $2.49/h (+32%). Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does fal change its pricing?
+Pulse recorded 3 other pricing-page changes for fal in the 90 days before this one; the previous change was "fal raises H100 GPU rate to $2.49/hr, adds GB200, doubles MiniMax video price" on Oct 2, 2026; fal has been tracked since 2026-07-15.

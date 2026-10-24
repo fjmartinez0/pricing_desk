@@ -1,0 +1,59 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 8, 2026
+A
+Anthropic
+PACKAGING CHANGE
+Big price drops from Anthropic: Haiku 5.5 at $0.10/$0.50, Sonnet 5.5 cache reads halved
+Anthropic added Haiku 5.5 to its Latest models lineup at $0.10 input / $0.50 output per MTok (jumping to $0.50/$2.50 for prompts over 100K tokens), with cache reads at $0.01 and cache writes at $0.125 per MTok ($0.05/$0.625 above 100K).
+See before and after
+Enlarge
+Anthropic’s pricing page · Change Detected Oct 8, 2026
+WHY IT MATTERS
+For teams running high-volume or agentic workloads, the caching price cut is the line to act on: re-pricing multi-turn or repeated-context usage against the new $0.10 (Sonnet 5.5) and $0.01 (Haiku 5.5) cache-read rates could meaningfully change which model tier is most cost-effective for a given pipeline. More broadly, this is Anthropic's second pricing-page change in two weeks and its fourth in 90 days — watch whether that cadence continues, and whether cache-read discounts keep deepening even as sticker input/output prices for the flagship models stay flat.
+BY THE NUMBERS
+Haiku 5.5: $0.10/$0.50 per MTok, undercutting Haiku 4.5's $1/$5 Legacy pricing
+Sonnet 5.5 cache-read price halved: $0.20 to $0.10 per MTok
+14th pricing change in the last 365 days; previous one was 14 days earlier (Sep 24)
+4 pricing changes in the last 90 days; average cadence about 34 days
+THEIR RATIONALE
+Anthropic frames this as a routine lineup refresh rather than a repricing event: the new Haiku 5.5 slots in as the cheapest current-generation model while Haiku 4.5 is retired to a stable-priced Legacy tier, preserving pricing for existing integrations. The Sonnet 5.5 cache-read cut is narrow and surgical, leaving base input/output pricing untouched. This fits the company's own cadence — 17 real pricing-page changes since tracking began, averaging one every 34 days, with four in the last 90 days alone — and arrives just 14 days after the last one, so it reads as part of a steady drumbeat of incremental tuning rather than a one-off reaction.
+TRACK RECORD·17 changes since Jan 3, 2025·14 in the last 12 months·a change every ~34 days·previous change Sep 24, 2026 (14 days ago)
+THE SIGNAL
+The more consequential number here is the cache economics, not the headline per-token price: a $0.01 cache-read rate on Haiku 5.5 and a halved $0.10 rate on Sonnet 5.5 make repeated-context workloads — long agentic loops, RAG pipelines replaying the same documents — dramatically cheaper to run than a straight input-token read, which matters more to volume customers than the base rate card. Keeping legacy models frozen at their old prices while routing cost cuts through the newest model and through caching, rather than across-the-board discounts, lets Anthropic sharpen pricing for its heaviest users without disturbing budgets built around existing deployments.
+IN CONTEXT
+This is Anthropic's second pricing-page change in two weeks, coming just 14 days after it added a Developer tab between the Individual and Team plans [[anthropic/2026D267]]. It continues a dense run of changes this year — four in the last 90 days alone — including the September context-window overhaul that pushed all Claude plans to 1M tokens [[anthropic/2026W39]] and the July launch of Sonnet 5 at a promotional $2/$10 per MTok [[anthropic/2026W28]]. Rather than touching Sonnet 5.5's headline input/output prices, Anthropic left those untouched and instead cut only the cache-read rate in half, while quietly moving Haiku 4.5 to a stable-priced Legacy tier beneath the new Haiku 5.5. With 17 real changes tracked since Anthropic's page was first indexed in January 2025, this kind of frequent, narrow tuning — rather than one big repricing — looks like the company's default mode.
+WHAT PEOPLE ARE SAYING
+@Mr_Saliotwitter
+🚨 Haiku 5.5 Is Now live
+And the pricing looks really cheap
+• Under 100K tokens: $0.10/M input + $0.50/M output
+• Over 100K tokens: $0.50/M input + $2.50/M output
+Anthropic might’ve cooked with this one
+View original
+@Velessustwitter
+anthropic launched haiku 5.5 yesterday: $0.10 in, $0.50 out per million tokens, about 75% cheaper than haiku 4.5. a small model that can drive a computer now costs almost nothing per step. the agent loop got cheap. what would you run in it?
+View original
+@Nileshblogtwitter
+Sonnet 5.5 prompt cache reads just dropped to $0.10/Mtok (was $0.20). Cache writes stayed the same.
+If your agent keeps the system prompt and tool defs stable, that is the line that actually moves the bill. Check hit rate before you rewrite the prompt.
+#Claude #Backend
+View original
+Questions about this change?
+The Pulse Agent has this change, Anthropic's pricing history and its peers loaded — and answers from verified data.
+Why it mattersAnthropic's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from AnthropicAll pricing news
+B
+Baseten
+Baseten cuts Reflection Beam rates up to 72%, four days after launch
+I
+Intercom
+Intercom's $19 Essential seat price is one arm of a live pricing test
+P
+Pika
+Pika reopens MCP to its top-up credits, a month after shutting it out
