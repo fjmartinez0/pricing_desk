@@ -14,7 +14,7 @@ import json
 import subprocess
 from pathlib import Path
 
-from common import DESK, ROOT, SITE, load_json, now
+from common import DESK, META, ROOT, SITE, load_json, now
 
 PLACEHOLDER = "__PD_DATA__"
 
@@ -23,7 +23,10 @@ def render() -> str:
     template = (SITE / "template.html").read_text(encoding="utf-8")
     if template.count(PLACEHOLDER) != 1:
         raise SystemExit("site/template.html must contain __PD_DATA__ exactly once")
-    data = json.dumps(load_json(DESK), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    desk = load_json(DESK)
+    # "Last updated" on the page = the last pipeline run (data/meta.json), not stored in desk.json.
+    desk["updated_at"] = (load_json(META, {}) or {}).get("last_run_at")
+    data = json.dumps(desk, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return template.replace(PLACEHOLDER, data)
 
 

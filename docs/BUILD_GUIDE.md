@@ -19,7 +19,9 @@ says what to do next.
   ```html
   <script id="pd-data" type="application/json">__PD_DATA__</script>
   ```
-- `scripts/build_site.py` replaces `__PD_DATA__` with `data/desk.json`, serialized compactly, with
+- `scripts/build_site.py` replaces `__PD_DATA__` with `data/desk.json` plus `updated_at` (the last run time
+  from `data/meta.json`, shown as "Updated Sat 24 Oct 2026, 19:04 EDT" under the title and flagged after
+  36 hours without a run), serialized compactly, with
   `</` escaped as `<\/` so the JSON can't close the script tag. It writes `_site/index.html`,
   `_site/meta.json` (time of the last data commit) and `_site/.nojekyll`.
 - GitHub Actions (`.github/workflows/pages.yml`) runs validate → unit tests → build → deploy on every

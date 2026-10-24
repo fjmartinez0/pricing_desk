@@ -32,7 +32,8 @@ header{display:flex;flex-direction:column;gap:4px;padding-block:8px 16px}
 .eyebrow,.lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
 h1{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,7vw,40px);line-height:1.05;margin:0;letter-spacing:-.01em}
 h2{font-family:var(--f-display);font-weight:600;font-size:20px;line-height:1.2;margin:0;text-wrap:balance}
-.proto{display:inline-flex;align-self:flex-start;margin-top:6px;font-size:12px;color:var(--warn);background:var(--warn-soft);padding:3px 10px;border-radius:99px}
+.proto{display:inline-flex;align-self:flex-start;margin-top:6px;font-size:12px;color:var(--muted);background:var(--wash);border:1px solid var(--line);padding:3px 10px;border-radius:99px}
+.proto.stale{color:var(--warn);background:var(--warn-soft);border-color:transparent}
 
 .digest{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
 .stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
@@ -273,7 +274,7 @@ footer a{color:var(--muted)}
   <header>
     <span class="eyebrow" id="masthead-date">Weekly edition</span>
     <h1>SaaS Pricing Desk</h1>
-    <span class="proto">Prototype · real content, hand-assembled</span>
+    <span class="proto" id="updated">Updated –</span>
   </header>
 
   <section class="digest" aria-label="This edition">
@@ -526,8 +527,21 @@ function relevantForWeek(){
   const wo=k=>WEEK_ORDER.indexOf(k);
   return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
 }
+// "Updated …": time of the last pipeline run, in the reader's time zone; flagged when the pipeline looks stalled.
+function renderUpdated(){
+  const el=document.getElementById("updated"),iso=DATA.updated_at;
+  if(!iso){el.textContent="Updated "+fmtD(DATA.today);return}
+  const t=new Date(iso),hours=(Date.now()-t)/36e5;
+  const day=t.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
+  const time=t.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"});
+  let tz="";try{tz=new Intl.DateTimeFormat("en-US",{timeZoneName:"short"}).formatToParts(t).find(p=>p.type==="timeZoneName").value}catch(e){}
+  el.textContent=`Updated ${day}, ${time}${tz?" "+tz:""}`;
+  el.title="Last automatic check of every tracked pricing page";
+  if(hours>36){el.classList.add("stale");el.textContent+=` · no update for ${hours<48?Math.floor(hours)+" hours":Math.floor(hours/24)+" days"}`}
+}
 function renderEditionStatic(){
   const d=new Date(DATA.edition_date+"T12:00:00");
+  renderUpdated();
   document.getElementById("masthead-date").textContent="Weekly edition · "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
   document.getElementById("d-stories").textContent=NEWS.filter(n=>n.rel).length;
   document.getElementById("d-changes").textContent=CHANGES.length;

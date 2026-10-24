@@ -338,6 +338,7 @@ class Site(unittest.TestCase):
         html = build_site.render()
         self.assertNotIn("__PD_DATA__", html)
         self.assertIn('"current_week":', html)
+        self.assertIn('"updated_at":', html)              # "Updated …" line comes from data/meta.json
 
 
 if __name__ == "__main__":
