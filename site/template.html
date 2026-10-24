@@ -1,0 +1,908 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SaaS Pricing Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single newspaper column; Price Changes = front page ranked by market weight → patterns → leaders / notable / smaller (collapsed) */
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --ink:#141B2B; --muted:#5B6578; --line:#DDE2EA; --wash:#F7F8FB;
+  --accent:#2A4BD7; --accent-soft:#E6EBFC;
+  --up:#C0392B; --up-soft:#FBE7E6; --down:#17794A; --down-soft:#E2F4EA;
+  --pack:#7A4CC2; --pack-soft:#F0E9FA; --neutral:#C9D0DC; --warn:#9A6200; --warn-soft:#FCF1DC;
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1320; --surface:#161D2D; --ink:#E8ECF4; --muted:#98A2B6; --line:#283149; --wash:#121929;
+  --accent:#8BA3FF; --accent-soft:#1E2A4D;
+  --up:#FF8A80; --up-soft:#3A1A1C; --down:#6FD9A2; --down-soft:#132E22;
+  --pack:#C3A3F5; --pack-soft:#2A1F40; --neutral:#3A4560; --warn:#F2C26B; --warn-soft:#33270F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1320; --surface:#161D2D; --ink:#E8ECF4; --muted:#98A2B6; --line:#283149; --wash:#121929;
+  --accent:#8BA3FF; --accent-soft:#1E2A4D;
+  --up:#FF8A80; --up-soft:#3A1A1C; --down:#6FD9A2; --down-soft:#132E22;
+  --pack:#C3A3F5; --pack-soft:#2A1F40; --neutral:#3A4560; --warn:#F2C26B; --warn-soft:#33270F; color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+header{display:flex;flex-direction:column;gap:4px;padding-block:8px 16px}
+.eyebrow,.lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,7vw,40px);line-height:1.05;margin:0;letter-spacing:-.01em}
+h2{font-family:var(--f-display);font-weight:600;font-size:20px;line-height:1.2;margin:0;text-wrap:balance}
+.proto{display:inline-flex;align-self:flex-start;margin-top:6px;font-size:12px;color:var(--warn);background:var(--warn-soft);padding:3px 10px;border-radius:99px}
+
+.digest{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.stat b{display:block;font-family:var(--f-display);font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:14px;overflow-x:auto}
+nav button{font:600 14px var(--f-body);color:var(--muted);background:none;border:0;padding:12px 12px 10px;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.chip{font:500 13px var(--f-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);padding:5px 11px;border-radius:99px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.toggle{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin:10px 0 14px}
+.toggle input{accent-color:var(--accent);width:16px;height:16px}
+
+.list{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0;scroll-margin-top:60px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--muted)}
+.src{font-weight:600;color:var(--ink)}
+.card h3{margin:0;font-family:var(--f-display);font-weight:600;font-size:19px;line-height:1.25;text-wrap:balance}
+.card.lead h3{font-size:clamp(22px,5.5vw,28px)}
+.card h3 a{color:inherit;text-decoration:none}
+.card h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.card p{margin:0;max-width:65ch}
+.block{display:flex;flex-direction:column;gap:4px}
+.nums{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:5px}
+.nums li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;font-size:14px}
+.nums li b{font-family:var(--f-mono);font-weight:500;font-variant-numeric:tabular-nums;color:var(--accent);white-space:nowrap}
+.why{background:var(--wash);border-left:3px solid var(--accent);padding:10px 12px;border-radius:0 8px 8px 0}
+.tag{font:500 11px var(--f-mono);letter-spacing:.03em;padding:2px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
+.tag.dim{background:var(--line);color:var(--muted)}
+.brief{font-size:14px;color:var(--muted)}
+.brief b{color:var(--ink);font-weight:600}
+
+/* ---------- Price Changes ---------- */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px;margin-bottom:12px}
+.panel-sub{font-size:13px;color:var(--muted);margin:0;max-width:65ch}
+
+.front{display:flex;flex-direction:column}
+.fp{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:10px 4px;border:0;border-top:1px solid var(--line);background:none;text-align:left;color:var(--ink);font:inherit;cursor:pointer;border-radius:0}
+.fp:first-child{border-top:0}
+.fp:hover{background:var(--wash)}
+.fp .rk{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:2px}
+.fp .tx{display:flex;flex-direction:column;gap:2px;min-width:0}
+.fp .tx b{font-family:var(--f-display);font-weight:600;font-size:16px;line-height:1.25}
+.fp .tx span{font-size:13px;color:var(--muted);line-height:1.4}
+.dchip{font:500 12px var(--f-mono);font-variant-numeric:tabular-nums;padding:3px 8px;border-radius:5px;white-space:nowrap;margin-top:2px}
+.d-up{background:var(--up-soft);color:var(--up)} .d-down{background:var(--down-soft);color:var(--down)} .d-pack{background:var(--pack-soft);color:var(--pack)}
+
+.mix{display:flex;height:12px;border-radius:4px;overflow:hidden;gap:2px}
+.mix span{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.legend b{color:var(--ink);font-family:var(--f-mono);font-weight:500}
+
+.pats{display:flex;flex-direction:column;gap:14px}
+.pat{display:flex;flex-direction:column;gap:4px}
+.pat strong{font-size:15px}
+.pat p{font-size:14px;margin:0;max-width:65ch}
+.pat .jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.jumpbtn{font:500 12px var(--f-body);color:var(--accent);background:var(--accent-soft);border:0;border-radius:99px;padding:3px 10px;cursor:pointer}
+
+.segbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:20px 0 4px}
+.segbar .lbl{margin-right:4px}
+.group-h{display:flex;align-items:baseline;gap:10px;margin:24px 0 4px;flex-wrap:wrap}
+.group-h h2{font-size:20px}
+.group-h .count{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.group-note{font-size:13px;color:var(--muted);margin:0 0 12px;max-width:65ch}
+
+.chg-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.chg-top h3 small{display:block;font-family:var(--f-body);font-weight:500;font-size:13px;color:var(--muted);margin-top:2px}
+.delta{font-family:var(--f-display);font-weight:700;font-size:24px;line-height:1;white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right}
+.delta small{display:block;font-family:var(--f-mono);font-weight:400;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.c-up{color:var(--up)} .c-down{color:var(--down)} .c-pack{color:var(--pack)}
+.headline{font-size:15px;font-weight:500}
+
+/* Before/After: one block per row. Label on its own line, then before → after on the line below, all left-aligned. */
+.ba{display:flex;flex-direction:column;background:var(--wash);border:1px solid var(--line);border-radius:8px;padding:2px 12px}
+.ba-row{display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid var(--line);min-width:0}
+.ba-row:first-child{border-top:0}
+.ba .k{font-size:13px;color:var(--muted)}
+.ba .v{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-family:var(--f-mono);font-size:14px;font-variant-numeric:tabular-nums}
+.ba .b{color:var(--muted)}
+.ba .ar{color:var(--muted)}
+.ba .a{color:var(--ink);font-weight:500}
+/* Long values: Before / After on their own lines, in the body font so sentences read easily */
+.ba-row.long .v{display:grid;grid-template-columns:auto minmax(0,1fr);gap:3px 10px;font-family:var(--f-body);font-size:14px;line-height:1.45}
+.ba .tag2{font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.ba .tag2.now{color:var(--accent)}
+
+.who{display:flex;gap:8px;font-size:14px}
+.who .lbl{flex:none;padding-top:2px}
+.stated{font-size:14px;display:flex;gap:8px}
+.stated .lbl{flex:none;padding-top:2px}
+.read{background:var(--wash);border-left:3px solid var(--pack);padding:10px 12px;border-radius:0 8px 8px 0;display:flex;flex-direction:column;gap:4px}
+.read .lbl{color:var(--pack)}
+.caveat{font-size:12px;color:var(--warn)}
+.card.flash,.mini.flash,.card.flash{box-shadow:0 0 0 2px var(--accent)}
+@media (prefers-reduced-motion:no-preference){.card,.mini{transition:box-shadow .4s}}
+
+.minis{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mini{border-top:1px solid var(--line);scroll-margin-top:60px}
+.mini:first-child{border-top:0}
+.mini summary{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto 14px;gap:12px;align-items:center;padding:12px 16px;cursor:pointer}
+.mini summary::-webkit-details-marker{display:none}
+.mini summary .tx{display:flex;flex-direction:column;gap:1px;min-width:0}
+.mini summary b{font-weight:600;font-size:15px}
+.mini summary span.s{font-size:13px;color:var(--muted)}
+.mini summary .chev{color:var(--muted);transition:transform .15s}
+.mini[open] summary .chev{transform:rotate(90deg)}
+.mini .card{border:0;border-radius:0;border-top:1px dashed var(--line);background:var(--surface)}
+.morelink{display:block;width:100%;margin-top:16px;font:600 14px var(--f-body);color:var(--accent);background:var(--accent-soft);border:0;border-radius:10px;padding:12px 16px;text-align:left;cursor:pointer}
+.morelink:empty{display:none}
+.maindot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-left:7px;vertical-align:2px}
+.mini summary .flags{display:flex;align-items:center;flex-wrap:wrap;justify-content:flex-end;gap:4px}
+/* ---------- Market Trends ---------- */
+.tr-switch{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+.tv-intro{margin:0 0 12px}
+.finding{gap:8px}
+.finding .fig{font-family:var(--f-display);font-weight:700;font-size:28px;line-height:1;color:var(--pack);font-variant-numeric:tabular-nums}
+.finding .fig small{font-family:var(--f-body);font-weight:500;font-size:13px;color:var(--muted);margin-left:8px}
+.finding .jump{display:flex;flex-wrap:wrap;gap:6px}
+.big3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.big3 div{background:var(--wash);border-radius:8px;padding:10px 12px;min-width:0}
+.big3 b{display:block;font-family:var(--f-display);font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.big3 span{font-size:12px;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:minmax(90px,140px) minmax(0,1fr) auto;gap:10px;align-items:center;font-size:13px}
+.brow .n{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.hbar{height:10px;border-radius:4px;overflow:hidden;background:var(--wash);border:1px solid var(--line)}
+.hbar span{display:block;height:100%;background:var(--accent)}
+.brow .mix{height:10px}
+.insight{font-size:14px;margin:0;max-width:65ch}
+.shifts{display:flex;flex-direction:column;gap:4px;font-size:14px;margin-top:4px}
+.shifts .m{font-family:var(--f-mono);font-size:13px;color:var(--pack)}
+.theme-nums{margin:4px 0 2px}
+.statlib li{grid-template-columns:auto 1fr}
+.statlib small{display:block;font-size:12px;color:var(--muted)}
+/* ---------- Dates + timeline ---------- */
+.dates{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted);margin:-2px 0 2px}
+.dates b{color:var(--ink);font-weight:600}
+.dates small{font-size:12px}
+.dates .muted{font-style:italic}
+.pat .muted{color:var(--muted)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:0;box-sizing:border-box}
+.dot.ann{border:2px solid var(--accent);background:var(--surface)}
+.dot.eff,.dot.both{background:var(--accent)}
+.dot.both{box-shadow:0 0 0 2px var(--surface),0 0 0 3.5px var(--accent)}
+.dot.seen{border:2px dashed var(--muted);background:var(--surface)}
+.dot.also{background:var(--pack)}
+.tl-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+.tl-stats div{background:var(--wash);border-radius:8px;padding:10px 12px}
+.tl-stats b{display:block;font-family:var(--f-display);font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
+.tl-stats span{font-size:12px;color:var(--muted)}
+.tl{list-style:none;margin:0;padding:0}
+.tl-month{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:18px 0 6px}
+.tl-item{display:grid;grid-template-columns:62px 18px minmax(0,1fr);gap:0 8px;align-items:start;padding:0}
+.tl-item .d{font-family:var(--f-mono);font-size:11px;white-space:nowrap;color:var(--muted);text-align:right;padding-top:12px;font-variant-numeric:tabular-nums}
+.tl-item .rail{position:relative;align-self:stretch;display:flex;justify-content:center}
+.tl-item .rail::before{content:"";position:absolute;top:0;bottom:0;width:2px;background:var(--line)}
+.tl-item .rail .dot{position:relative;margin:15px 0 0}
+.tl-item button{all:unset;cursor:pointer;display:block;margin:4px 0;padding:8px 12px;border-radius:10px;background:var(--surface);border:1px solid var(--line);min-width:0}
+.tl-item button:hover{border-color:var(--accent)}
+.tl-item button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tl-item .k{display:block;font-size:11px;font-family:var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tl-item .t{display:block;font-size:14px;line-height:1.4}
+.tl-item .t b{font-weight:600}
+.tl-item .e{display:block;margin-top:3px;font-size:12px;font-weight:600;color:var(--accent)}
+.tl-item .e.none{color:var(--muted);font-weight:400;font-style:italic}
+.tl-item.future button{background:var(--wash)}
+.tl-today{display:grid;grid-template-columns:62px 18px minmax(0,1fr);gap:0 8px;align-items:center;margin:10px 0}
+.tl-today span{font-family:var(--f-mono);font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+.tl-today hr{grid-column:2/4;border:0;border-top:2px solid var(--accent);margin:0}
+.keynums{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.5}
+.keynums b{font-weight:600}
+.keynums .c-up{color:var(--up)}.keynums .c-down{color:var(--down)}.keynums .c-pack{color:var(--pack)}
+.keynums .k{color:var(--muted)}
+.bigfig{font-family:var(--f-display);font-weight:700;font-size:30px;line-height:1.1;color:var(--up);font-variant-numeric:tabular-nums}
+.bigfig small{display:block;font-family:var(--f-body);font-weight:400;font-size:14px;color:var(--muted);margin-top:2px}
+.heat-wrap{overflow-x:auto;margin:0 -4px}
+.heat{border-collapse:separate;border-spacing:3px;width:100%;min-width:0;table-layout:fixed;font-size:13px;font-variant-numeric:tabular-nums}
+.heat th:not(:first-child){width:30px}
+.heat th:last-child{width:16px}
+.heat th,.heat td{border-bottom:0;vertical-align:middle}
+.heat th{font-family:var(--f-mono);font-size:10px;font-weight:500;letter-spacing:.04em;color:var(--muted);text-align:center;padding:2px 0}
+.heat th:first-child{text-align:left}
+.heat td{text-align:center;border-radius:4px;height:26px;padding:0 2px}
+.heat td.cell{background:var(--wash)}
+.heat td.tot{font-weight:600}
+.heat td.tr{font-size:11px}.heat td.tr.upx{color:var(--up)}.heat td.tr.dnx{color:var(--down)}.heat td.tr.flat{color:var(--muted)}
+.heat tr.cat td{text-align:left;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:10px}
+.heat td.pn{text-align:left;overflow-wrap:anywhere}
+.heat td.pn button{all:unset;cursor:pointer;line-height:1.3}
+.heat td.pn button:hover,.heat td.pn button[aria-expanded="true"]{color:var(--accent)}
+.heat td.pn button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.heat tr.zero td.pn{color:var(--muted)}
+.heat tr.open td{text-align:left;padding:2px 0 8px}
+.filterbar{display:flex;flex-wrap:wrap;gap:8px 12px;margin:4px 0 12px}
+.filterbar label{display:flex;flex-direction:column;gap:3px;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);flex:1 1 150px;max-width:260px}
+.filterbar select{font:500 14px var(--f-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;text-transform:none;letter-spacing:0}
+.filterbar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.mini.line .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 16px}
+.mini.line .tx{display:flex;flex-direction:column;gap:1px;min-width:0}
+.mini.line b{font-weight:600;font-size:15px}
+.mini.line span.s{font-size:13px;color:var(--muted)}
+.pcat{display:flex;flex-direction:column;gap:12px;padding-top:4px}
+.pcat+.pcat{border-top:1px solid var(--line);padding-top:12px}
+.guide{font-size:14px;margin-top:4px}
+.guide summary{cursor:pointer;color:var(--accent);font-weight:600}
+.guide dl{margin:8px 0 0}.guide dt{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
+.guide dd{margin:0 0 6px;line-height:1.45}
+.promos{list-style:none;margin:0;padding:0}
+.promos li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;padding:10px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.45}
+.promos li:first-child{border-top:0}
+.promos .wk{grid-column:1/-1;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:6px 0 0;border:0}
+.pk{font-family:var(--f-mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;padding:2px 6px;border-radius:4px;height:fit-content;margin-top:2px}
+.pk.new{background:var(--down-soft,rgba(16,122,64,.12));color:var(--down)}
+.pk.ended{background:var(--up-soft,rgba(190,40,40,.12));color:var(--up)}
+.pk.changed{background:var(--wash);color:var(--muted)}
+.pilot{font-size:13px;line-height:1.5;background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:0 0 12px}
+.empty{font-size:14px;color:var(--muted);padding:20px;text-align:center;border:1px dashed var(--line);border-radius:12px}
+
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:13px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.s-ok{color:var(--down);font-weight:600} .s-warn{color:var(--warn);font-weight:600} .s-plan{color:var(--muted);font-weight:600}
+.notes{font-size:13px;color:var(--muted);margin-top:14px;display:flex;flex-direction:column;gap:6px;max-width:65ch}
+footer{margin-top:28px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+footer a{color:var(--muted)}
+@media (max-width:440px){.delta{font-size:21px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow" id="masthead-date">Daily brief</span>
+    <h1>SaaS Pricing Desk</h1>
+    <span class="proto">Prototype · real content, hand-assembled</span>
+  </header>
+
+  <section class="digest" aria-label="This edition">
+    <div class="stat"><b id="d-stories">–</b><span>stories</span></div>
+    <div class="stat"><b id="d-changes">–</b><span>price changes</span></div>
+    <div class="stat"><b id="d-leaders">–</b><span>from market leaders</span></div>
+  </section>
+
+  <nav role="tablist" aria-label="Sections">
+    <button role="tab" id="t-news" aria-selected="true" data-tab="news">News</button>
+    <button role="tab" id="t-main" aria-selected="false" data-tab="main">Main Price Changes</button>
+    <button role="tab" id="t-all" aria-selected="false" data-tab="all">All Price Changes</button>
+    <button role="tab" id="t-stats" aria-selected="false" data-tab="stats">Statistics</button>
+    <button role="tab" id="t-newstrends" aria-selected="false" data-tab="newstrends">Market Trends from News</button>
+    <button role="tab" id="t-src" aria-selected="false" data-tab="src">Sources</button>
+  </nav>
+
+  <section id="p-news" role="tabpanel" aria-labelledby="t-news">
+    <label class="toggle"><input type="checkbox" id="only-pricing" checked> Pricing-relevant only <span id="hidden-count"></span></label>
+    <div class="list" id="news-list"></div>
+  </section>
+
+  <!-- MAIN CHANGES: the ones flagged relevant (main), full cards -->
+  <section id="p-main" role="tabpanel" aria-labelledby="t-main" hidden>
+    <div class="tr-switch" role="tablist" aria-label="Main Price Changes views">
+      <button class="chip" type="button" role="tab" data-msub="ranked" aria-pressed="true" aria-selected="true">Ranked</button>
+      <button class="chip" type="button" role="tab" data-msub="timeline" aria-pressed="false" aria-selected="false">Timeline</button>
+    </div>
+    <div id="mv-ranked">
+    <div class="filterbar" id="filters-main"></div>
+    <div class="pilot" id="pilot-note-main" hidden><b>Backfill.</b> Relevant changes for this week, rebuilt from the PricingSaaS weekly feed. The front page and market context are built from that week’s changes; “What connects them” groups them by shared pattern.</div>
+    <div id="edition-panels">
+    <div class="panel">
+      <span class="lbl" id="front-lbl">Front page</span>
+      <h2>The changes that matter most</h2>
+      <div class="front" id="front"></div>
+      <p class="panel-sub">Ranked by market weight (company size and reach), then by how many customers the change affects.</p>
+    </div>
+
+    <div class="panel">
+      <span class="lbl" id="pat-lbl">What connects them</span>
+      <div class="pats" id="patterns"></div>
+    </div>
+
+    <div class="panel">
+      <div id="ctx-week" hidden></div>
+      <div id="ctx-static"></div>
+    </div>
+    </div>
+
+    <div class="segbar" id="segbar-main"><span class="lbl">Show</span></div>
+    <div id="groups-main"></div>
+    <button class="morelink" type="button" data-tab-go="all" id="more-all"></button>
+    </div>
+
+    <div id="mv-timeline" hidden>
+      <div class="panel">
+        <h2>When it happens</h2>
+        <p class="panel-sub">Every Relevant price change on one line, by announcement and effective date. Covers this edition and every backfilled week. Tap an entry to read the change.</p>
+        <div class="tl-stats" id="tl-stats"></div>
+        <div class="legend" style="margin-top:4px">
+          <span><i class="dot ann"></i>Announced</span><span><i class="dot eff"></i>Takes effect</span><span><i class="dot both"></i>Same day</span><span><i class="dot seen"></i>Spotted on pricing page</span><span><i class="dot also"></i>Related date</span>
+        </div>
+      </div>
+      <div id="tl"></div>
+    </div>
+
+  </section>
+
+  <!-- ALL CHANGES: every change in the edition, compact and expandable -->
+  <section id="p-all" role="tabpanel" aria-labelledby="t-all" hidden>
+    <div class="tr-switch" role="tablist" aria-label="All Price Changes views">
+      <button class="chip" type="button" role="tab" data-asub="changes" aria-pressed="true" aria-selected="true">Changes</button>
+      <button class="chip" type="button" role="tab" data-asub="promos" aria-pressed="false" aria-selected="false">Promotions</button>
+    </div>
+    <div class="filterbar" id="filters-all"></div>
+    <div class="pilot" id="pilot-note" hidden><b>Backfill.</b> Rebuilt from the PricingSaaS weekly feed with the same rules as a daily edition. Dates are the week PricingSaaS spotted the change; we only search for announcements on market-leader changes.</div>
+    <div id="av-changes">
+      <div class="panel">
+        <h2 id="all-title">Every change in this edition</h2>
+        <p class="panel-sub">One line per change, ranked the same way as Main Price Changes. Tap a row for the full before/after. A <i class="maindot" aria-hidden="true"></i> dot marks a Relevant change.</p>
+      </div>
+      <div class="segbar" id="segbar-all"><span class="lbl">Show</span></div>
+      <div id="groups-all"></div>
+    </div>
+    <div id="av-promos" hidden>
+      <div class="panel">
+        <h2 id="promo-title">Promotions</h2>
+        <p class="panel-sub">Time-limited discounts, intro offers and their removal. Kept apart from price changes because they come and go, but they often signal pressure on price.</p>
+        <div class="big3" id="promo-stats"></div>
+        <p class="insight" id="promo-cycle"></p>
+      </div>
+      <div class="card"><ul class="promos" id="promo-list"></ul></div>
+    </div>
+  </section>
+
+  <!-- STATISTICS: sub-tabs Analysis (key numbers + our read of this edition) / Models & patterns (computed across all logged weeks) -->
+  <section id="p-stats" role="tabpanel" aria-labelledby="t-stats" hidden>
+    <div class="tr-switch" role="tablist" aria-label="Statistics views">
+      <button class="chip" type="button" role="tab" data-sub="analysis" aria-pressed="true" aria-selected="true">Analysis</button>
+      <button class="chip" type="button" role="tab" data-sub="models" aria-pressed="false" aria-selected="false">Models &amp; patterns</button>
+    </div>
+
+    <div id="sv-analysis">
+      <div class="panel">
+        <h2>Key numbers</h2>
+        <ul class="keynums" id="sa-keys"></ul>
+      </div>
+      <p class="panel-sub tv-intro">What this edition’s numbers say. The figures are counted from our price-change data; the interpretation is our read, not a company statement.</p>
+      <div class="list" id="sa-list"></div>
+      <p class="panel-sub tv-intro" id="sa-caveat" style="margin-top:12px"></p>
+    </div>
+
+    <div id="sv-models" hidden>
+      <p class="panel-sub tv-intro" id="sm-intro"></p>
+      <div class="panel">
+        <h2>How prices go up</h2>
+        <div class="bigfig" id="sm-up-fig"></div>
+        <div class="bars" id="sm-up"></div>
+        <p class="insight" id="sm-up-ins"></p>
+      </div>
+      <div class="panel">
+        <h2>Pricing models</h2>
+        <p class="panel-sub">Which way prices moved, by how the plan is priced after the change.</p>
+        <div class="legend" id="sm-legend"></div>
+        <div class="bars" id="sm-models"></div>
+        <p class="insight" id="sm-models-ins"></p>
+        <div id="sm-shifts"></div>
+      </div>
+      <div class="panel">
+        <h2>By software category</h2>
+        <p class="panel-sub">Which way prices moved in each PricingSaaS software category.</p>
+        <div class="bars" id="sm-cats"></div>
+        <p class="insight" id="sm-cats-ins"></p>
+      </div>
+      <div class="panel">
+        <h2>Most common moves, week by week</h2>
+        <p class="insight" id="sm-heat-ins"></p>
+        <div class="heat-wrap"><table class="heat" id="sm-heat"></table></div>
+        <p class="panel-sub">Darker = more changes that week. ▲▼ compare this edition with the average of earlier weeks. Tap a pattern to see its changes.</p>
+        <details class="guide"><summary>Pattern guide</summary><dl id="tc-guide"></dl></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET TRENDS FROM NEWS: themes synthesized across NEWS + stats library -->
+  <section id="p-newstrends" role="tabpanel" aria-labelledby="t-newstrends" hidden>
+    <div>
+      <p class="panel-sub tv-intro" id="tn-intro"></p>
+      <div class="panel">
+        <h2>Themes across the stories</h2>
+        <p class="panel-sub">Our read, connecting several stories. Each theme links to the stories it draws on and to price changes that fit it.</p>
+        <div class="pats" id="tn-themes"></div>
+      </div>
+      <div class="panel">
+        <h2>Stats library</h2>
+        <p class="panel-sub">Every key number from the pricing-relevant stories, with where it came from.</p>
+        <ul class="nums statlib" id="tn-stats"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="p-src" role="tabpanel" aria-labelledby="t-src" hidden>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Source</th><th>Feeds</th><th>How we capture it</th><th>Cadence</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td><b>Growth Unhinged</b><br>Kyle Poyar</td><td>News</td><td>No feed at /feed (beehiiv). Parse homepage, then fetch each post for the full text.</td><td>~2 posts/week</td><td><span class="s-ok">In this edition</span></td></tr>
+          <tr><td><b>PricingSaaS Pulse</b></td><td>News + changes</td><td>Public weekly ticker and daily briefings on the homepage</td><td>Weekly + daily</td><td><span class="s-ok">In this edition</span></td></tr>
+          <tr><td><b>AgentDeals</b></td><td>Changes (dev &amp; AI tools)</td><td>Weekly digest page with before, after and effective dates</td><td>Weekly</td><td><span class="s-ok">In this edition</span></td></tr>
+          <tr><td><b>Vendor partners + press</b><br>Atlassian partners, tech press</td><td>Detail + stated reasons</td><td>Search per market-leader change for the company's own explanation</td><td>Per change</td><td><span class="s-ok">Used for Atlassian, Cursor, GitHub, Xero</span></td></tr>
+          <tr><td><b>Good Better Best</b><br>PricingSaaS</td><td>News</td><td>Substack feed at /feed</td><td>Weekly</td><td><span class="s-warn">Not yet captured</span></td></tr>
+          <tr><td><b>Ibbaka</b></td><td>News</td><td>Substack feed at /feed</td><td>~Weekly</td><td><span class="s-warn">Not yet captured</span></td></tr>
+          <tr><td><b>Impact Pricing</b></td><td>News</td><td>Podcast RSS</td><td>Weekly</td><td><span class="s-warn">Not yet captured</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="notes">
+      <span><b>How market weight gets assigned in the build:</b> each company’s tier is stored once and reused for every change. New companies are scored on public listing or valuation, employee count, and web-traffic rank (e.g. the free Tranco top-sites list). In this prototype, tiers were set by hand.</span>
+      <span>Market-leader changes get a dedicated search for the company's stated reason. Smaller ones rely on the tracker's description only.</span>
+    </div>
+  </section>
+
+  <footer>
+    <span>Sources: <a href="https://www.growthunhinged.com/" target="_blank" rel="noopener">Growth Unhinged</a> · <a href="https://pricingsaas.com/" target="_blank" rel="noopener">PricingSaaS Pulse</a> · <a href="https://agentdeals.dev/digest/2026-w42" target="_blank" rel="noopener">AgentDeals week 42</a> · <a href="https://www.adaptavist.com/blog/atlassian-price-updates-effective-october-2026" target="_blank" rel="noopener">Adaptavist</a> · <a href="https://www.empyra.com/blog/atlassian-cloud-price-increase-2026" target="_blank" rel="noopener">Empyra</a> · <a href="https://andrew.ooo/answers/what-is-the-x-subscription-grok-cursor-bundle-2026/" target="_blank" rel="noopener">X Subscription explainer</a> · <a href="https://easyspawn.com/blog/github-copilot-billing-changes-2026" target="_blank" rel="noopener">Copilot billing summary</a> · <a href="https://helpcompare.com/saas-price-increases-2026/" target="_blank" rel="noopener">HelpCompare</a></span>
+    <span>Summaries are paraphrased for personal reading. "Our read" is analysis, not a company statement. Prices marked ≈ are back-calculated from the reported % change.</span>
+  </footer>
+</div>
+
+<script id="pd-data" type="application/json">__PD_DATA__</script>
+<script>
+// ---------- DATA: generated by build.py from data/*.json(l); do not edit here ----------
+const DATA=JSON.parse(document.getElementById("pd-data").textContent);
+const CUR=DATA.current_week, TODAY=DATA.today, WEEK_ORDER=DATA.week_order; // newest first
+const WEEKS=Object.fromEntries(DATA.weeks.map(w=>[w.week,w.label]));
+const NEWS=DATA.news, PATTERNS=DATA.patterns, NEWS_TRENDS=DATA.news_trends, STATS_ANALYSIS=DATA.stats_analysis;
+const TIERS=DATA.tiers.map(t=>[t.tier,t.name,t.note]);
+const PATTERN_CATS=DATA.pattern_cats.map(c=>[c.name,c.patterns.map(p=>[p.name,p.definition])]);
+const CHANGES=DATA.changes.filter(c=>c.week===CUR).sort((a,b)=>a.rank-b.rank);
+const HISTORY=DATA.changes.filter(c=>c.week!==CUR).sort((a,b)=>WEEK_ORDER.indexOf(a.week)-WEEK_ORDER.indexOf(b.week)||a.rank-b.rank);
+const PROMOS=DATA.promos;
+const wkNum=k=>String(+k.split("-W")[1]);
+const RANGE=`weeks ${wkNum(WEEK_ORDER[WEEK_ORDER.length-1])}–${wkNum(WEEK_ORDER[0])}`;
+const COMPANIES=DATA.companies, CATS=DATA.categories;
+const CAT_SHORT=Object.fromEntries(CATS.map(c=>[c.name,c.short]));
+const catOf=c=>(COMPANIES[c.company]||{}).category||"";
+const WEEK_START=Object.fromEntries(DATA.weeks.map(w=>[w.week,w.start]));
+const monthOf=wk=>(WEEK_START[wk]||"").slice(0,7);
+const MONTH_NAMES=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const monthName=m=>MONTH_NAMES[+m.slice(5,7)-1]+" "+m.slice(0,4);
+// Period: CUR (this edition) | "ALL" | "M:YYYY-MM" (a month, by week start date) | a week id
+const inScope=wk=>state.week==="ALL"||state.week===wk||(state.week.startsWith("M:")&&monthOf(wk)===state.week.slice(2));
+const multiWeek=()=>state.week==="ALL"||state.week.startsWith("M:");
+const PATTERN_CAT=Object.fromEntries(PATTERN_CATS.flatMap(([cat,ps])=>ps.map(([n])=>[n,cat])));
+const state={seg:"All",sub:"numbers",week:CUR,asub:"changes",cat:"All"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const byId=Object.fromEntries(CHANGES.concat(HISTORY).map(c=>[c.id,c]));
+const DC={up:"d-up",down:"d-down",pack:"d-pack"}, CC={up:"c-up",down:"c-down",pack:"c-pack"};
+const TYPE={up:"You pay more",down:"You pay less",pack:"Restructured"};
+
+function renderNews(){
+  const only=document.getElementById("only-pricing").checked;
+  const hidden=NEWS.filter(n=>!n.rel).length;
+  const items=only?NEWS.filter(n=>n.rel):NEWS;
+  document.getElementById("hidden-count").textContent=only?`(${hidden} off-topic hidden)`:"";
+  document.getElementById("news-list").innerHTML=items.map(n=>n.rel?`
+   <article class="card${n.lead?" lead":""}" id="n-${n.id}">
+     <div class="meta">${n.lead?'<span class="tag">LEAD</span>':""}<span class="src">${esc(n.src)}</span><span>${esc(n.by)}</span><span>${esc(n.date)}</span><span class="tag">${esc(n.topic)}</span></div>
+     <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
+     <div class="block"><span class="lbl">The gist</span><p>${esc(n.gist)}</p></div>
+     <div class="block"><span class="lbl">Key numbers</span><ul class="nums">${n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul></div>
+     <div class="why block"><span class="lbl">Why it matters</span><p>${esc(n.why)}</p></div>
+   </article>`:`
+   <article class="card" id="n-${n.id}"><div class="meta"><span class="src">${esc(n.src)}</span><span>${esc(n.date)}</span><span class="tag dim">${esc(n.topic)}</span><span class="tag dim">OFF-TOPIC</span></div>
+     <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3><p class="brief">${esc(n.gist)}</p></article>`).join("");
+}
+
+function weekLabel(){return state.week===CUR?DATA.period:state.week==="ALL"?RANGE:state.week.startsWith("M:")?monthName(state.week.slice(2)):"week "+wkNum(state.week)+", "+WEEKS[state.week]}
+function relevantForWeek(){
+  const wo=k=>WEEK_ORDER.indexOf(k);
+  return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
+}
+function renderEditionStatic(){
+  const d=new Date(DATA.edition_date+"T12:00:00");
+  document.getElementById("masthead-date").textContent="Daily brief · "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
+  document.getElementById("d-stories").textContent=NEWS.filter(n=>n.rel).length;
+  document.getElementById("d-changes").textContent=CHANGES.length;
+  document.getElementById("d-leaders").textContent=CHANGES.filter(c=>c.tier===1).length;
+  const m=DATA.market_context;if(!m){document.getElementById("ctx-static").innerHTML="";return}
+  const pc=x=>(x/m.total*100).toFixed(1)+"%";
+  document.getElementById("ctx-static").innerHTML=`<span class="lbl">Market context · ${esc(m.source)}</span>
+    <div class="mix" role="img" aria-label="Of ${m.total} changes: ${m.increases} increases, ${m.cuts} cuts, ${m.other} other">
+      <span style="width:${pc(m.increases)};background:var(--up)"></span><span style="width:${pc(m.cuts)};background:var(--down)"></span><span style="flex:1;background:var(--neutral)"></span></div>
+    <div class="legend"><span><i style="background:var(--up)"></i><b>${m.increases}</b> increases</span><span><i style="background:var(--down)"></i><b>${m.cuts}</b> cuts</span><span><i style="background:var(--neutral)"></i><b>${m.other}</b> plans, limits, AI features, promos</span></div>
+    <p class="panel-sub">${esc(m.note)}</p>`;
+}
+function renderCtx(){
+  const hist=state.week!==CUR;
+  document.getElementById("ctx-static").hidden=hist;document.getElementById("ctx-week").hidden=!hist;
+  if(!hist)return;
+  const L=weekList(),c=countBy(L,x=>x.group),n=L.length||1;
+  const P=PROMOS.filter(x=>inScope(x.week)&&(state.cat==="All"||catOf(x)===state.cat));
+  const ai=L.filter(x=>PATTERN_CAT[x.pattern]==="AI monetization").length;
+  document.getElementById("ctx-week").innerHTML=`<span class="lbl">Market context · ${esc(weekLabel())}</span>
+    <div class="mix" role="img" aria-label="${c.up||0} pay more, ${c.down||0} pay less, ${c.pack||0} restructured">
+      <span style="width:${(c.up||0)/n*100}%;background:var(--up)"></span><span style="width:${(c.down||0)/n*100}%;background:var(--down)"></span><span style="width:${(c.pack||0)/n*100}%;background:var(--pack)"></span></div>
+    <div class="legend"><span><i style="background:var(--up)"></i><b>${c.up||0}</b> pay more</span><span><i style="background:var(--down)"></i><b>${c.down||0}</b> pay less</span><span><i style="background:var(--pack)"></i><b>${c.pack||0}</b> restructured</span><span><b>${P.length}</b> promotions</span></div>
+    <p class="panel-sub">Counted from the ${L.length} changes we kept from the PricingSaaS feed (${L.filter(isMain).length} Relevant), of which ${ai} are AI monetization moves. PricingSaaS’s own weekly totals are only captured for the current edition.</p>`;
+}
+function renderFront(){
+  const top=state.week===CUR?CHANGES.slice(0,7):relevantForWeek().slice(0,7);
+  document.getElementById("front-lbl").textContent=`Front page · ${weekLabel()} · tap to read`;
+  document.getElementById("front").innerHTML=top.map((c,i)=>`
+   <button class="fp" type="button" data-go="${c.id}">
+     <span class="rk">${i+1}</span>
+     <span class="tx"><b>${esc(c.co)}</b><span>${esc(c.short)}</span></span>
+     <span class="dchip ${DC[c.group]}">${esc(c.delta)}</span>
+   </button>`).join("");
+}
+function renderPatterns(){
+  const lbl=document.getElementById("pat-lbl");
+  if(state.week!==CUR){
+    // Past weeks: group that week's Relevant changes by their (fixed-list) pattern; show patterns shared by 2+ changes.
+    lbl.textContent=`What connects them · ${weekLabel()}`;
+    const g={};relevantForWeek().forEach(c=>(g[c.pattern]=g[c.pattern]||[]).push(c));
+    const DEF=Object.fromEntries(PATTERN_CATS.flatMap(([,ps])=>ps));
+    const shared=Object.entries(g).filter(([,l])=>l.length>1).sort((a,b)=>b[1].length-a[1].length);
+    document.getElementById("patterns").innerHTML=shared.length?shared.map(([t,l])=>`
+     <div class="pat"><strong>${esc(t)} · ${l.length} changes</strong><p>${esc(DEF[t]||"")} <span class="muted">(${esc(PATTERN_CAT[t]||"")})</span></p>
+     <div class="jump">${l.map(c=>`<button class="jumpbtn" type="button" data-go="${c.id}">${esc(c.co)} ↓</button>`).join("")}</div></div>`).join("")
+     :'<p class="panel-sub">No pattern is shared by two or more Relevant changes this week.</p>';
+    return;
+  }
+  lbl.textContent="What connects them";
+  document.getElementById("patterns").innerHTML=PATTERNS.map(p=>`
+   <div class="pat"><strong>${esc(p.t)}</strong><p>${esc(p.p)}</p>
+     <div class="jump">${p.ids.map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)} ↓</button>`).join("")}</div></div>`).join("");
+}
+// ---------- Dates ----------
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmtD=iso=>{const[y,m,d]=iso.split("-").map(Number);return `${d} ${MON[m-1]}${y!==+TODAY.slice(0,4)?" "+y:""}`};
+const hasDates=c=>!!(c.announced||c.effective||c.seen);
+function dateLine(c){
+  if(c.announced||c.effective){
+    const a=c.announcedLabel||(c.announced&&fmtD(c.announced)), e=c.effectiveLabel||(c.effective&&fmtD(c.effective));
+    const note=c.effectiveNote?` <small>(${esc(c.effectiveNote)})</small>`:"";
+    if(c.announced&&c.announced===c.effective&&!c.announcedLabel)
+      return `<div class="dates"><span><i class="dot both"></i>Announced and in effect <b>${esc(a)}</b>${note}</span></div>`;
+    return `<div class="dates">${a?`<span><i class="dot ann"></i>Announced <b>${esc(a)}</b></span>`:""}${e?`<span><i class="dot eff"></i>${c.effective<=TODAY?"Effective":"Takes effect"} <b>${esc(e)}</b>${note}</span>`:""}</div>`;
+  }
+  if(c.seen) return `<div class="dates"><span><i class="dot seen"></i>Spotted on pricing page <b>${esc(c.seenLabel)}</b></span><span class="muted">No announcement tracked</span></div>`;
+  return "";
+}
+function body(c){
+  return `<p class="headline">${esc(c.headline)}</p>${dateLine(c)}
+    <div class="ba" role="list" aria-label="Before and after">
+      ${c.rows.map(([k,b,a])=>(b.length+a.length>44)
+        ?`<div class="ba-row long" role="listitem"><span class="k">${esc(k)}</span><span class="v"><span class="tag2">Before</span><span class="b">${esc(b)}</span><span class="tag2 now">After</span><span class="a">${esc(a)}</span></span></div>`
+        :`<div class="ba-row" role="listitem"><span class="k">${esc(k)}</span><span class="v"><span class="b" title="Before">${esc(b)}</span><span class="ar" aria-label="changed to">→</span><span class="a" title="After">${esc(a)}</span></span></div>`).join("")}</div>
+    <div class="who"><span class="lbl">Who it hits</span><span>${esc(c.who)}</span></div>
+    ${c.stated?`<div class="stated"><span class="lbl">They say</span><span>${esc(c.stated)}</span></div>`:""}
+    <div class="read"><span class="lbl">Why · our read</span><p>${esc(c.read)}</p>${c.caveat?`<span class="caveat">${esc(c.caveat)}</span>`:""}</div>
+    <div class="meta">${hasDates(c)?"":`<span>${esc(c.when)}</span>`}${c.stated?"":"<span>No reason given by the company</span>"}<span class="tag">${esc(c.pattern)}</span><span class="tag dim">${c.seg}</span><span class="tag dim">${esc(c.model)}</span></div>`;
+}
+// Relevance: a change shows in Main changes when c.main is true.
+// If c.main isn't set, market leaders and notable companies (tiers 1–2) count as main.
+const isMain=c=>c.main!==undefined?!!c.main:c.tier<=2;
+function card(c,pre){
+  return `<article class="card" id="${pre}-${c.id}">
+    <div class="chg-top">
+      <h3>${esc(c.co)}<small>${esc(c.plan)} · ${TYPE[c.group]}</small></h3>
+      <div class="delta ${CC[c.group]}">${esc(c.delta)}<small>${esc(c.deltaSub)}</small></div>
+    </div>${body(c)}</article>`;
+}
+function mini(c,pre){
+  if(c.detail==="line")return `<div class="mini line" id="${pre}-${c.id}"><div class="row"><span class="tx"><b>${esc(c.co)}</b><span class="s">${esc(c.short)}</span></span><span class="flags"><span class="dchip ${DC[c.group]}">${esc(c.delta)}</span></span></div></div>`;
+  return `<details class="mini" id="${pre}-${c.id}">
+    <summary><span class="tx"><b>${esc(c.co)}${pre==="a"&&isMain(c)?'<i class="maindot" title="Also in Main Price Changes" aria-label="Also in Main Price Changes"></i>':""}</b><span class="s">${esc(c.short)}</span></span><span class="flags"><span class="dchip ${DC[c.group]}">${esc(c.delta)}</span></span><span class="chev" aria-hidden="true">›</span></summary>
+    <div class="card">${body(c)}</div></details>`;
+}
+function segChips(el){
+  el.querySelectorAll(".chip").forEach(c=>c.remove());
+  ["All","B2B","B2C","Both"].forEach(o=>{const b=document.createElement("button");b.className="chip";b.type="button";b.textContent=o==="Both"?"B2B + B2C":o;
+    b.setAttribute("aria-pressed",state.seg===o);b.onclick=()=>{state.seg=o;renderGroups()};el.appendChild(b)});
+}
+function groupsHTML(items,pre){
+  return TIERS.map(([t,name,note])=>{
+    const g=items.filter(c=>c.tier===t);if(!g.length)return"";
+    const fn=pre==="m"?c=>card(c,pre):c=>mini(c,pre);
+    return `<div class="group-h"><h2>${name}</h2><span class="count">${g.length}</span></div><p class="group-note">${note}</p>
+      ${pre==="m"?`<div class="list">${g.map(fn).join("")}</div>`:`<div class="minis">${g.map(fn).join("")}</div>`}`}).join("")||'<div class="empty">No changes match these filters. Try “All” segments or all categories.</div>';
+}
+function filterBars(){
+  const months=[...new Set(WEEK_ORDER.map(monthOf))];
+  const opt=(v,l)=>`<option value="${esc(v)}"${state.week===v?" selected":""}>${esc(l)}</option>`;
+  const per=opt(CUR,`This edition · week ${wkNum(CUR)}`)+opt("ALL",`All weeks (${RANGE})`)+months.map(m=>`<optgroup label="${esc(monthName(m))}">${opt("M:"+m,"All of "+monthName(m))}${WEEK_ORDER.filter(w=>monthOf(w)===m&&w!==CUR).map(w=>opt(w,`Week ${wkNum(w)} · ${WEEKS[w]}`)).join("")}</optgroup>`).join("");
+  const used=new Set(CHANGES.concat(HISTORY).map(catOf));
+  const cat=`<option value="All"${state.cat==="All"?" selected":""}>All categories</option>`+CATS.filter(c=>used.has(c.name)).map(c=>`<option value="${esc(c.name)}"${state.cat===c.name?" selected":""}>${esc(c.short)}</option>`).join("");
+  ["filters-main","filters-all"].forEach(id=>{
+    document.getElementById(id).innerHTML=`<label>Period<select data-f="week">${per}</select></label><label>Software category<select data-f="cat">${cat}</select></label>`;
+  });
+}
+document.addEventListener("change",e=>{const t=e.target.closest("select[data-f]");if(!t)return;state[t.dataset.f]=t.value;renderGroups()});
+function weekList(){
+  const base=state.week===CUR?CHANGES:CHANGES.concat(HISTORY).filter(c=>inScope(c.week));
+  return state.cat==="All"?base:base.filter(c=>catOf(c)===state.cat);
+}
+function renderGroups(){
+  segChips(document.getElementById("segbar-main"));segChips(document.getElementById("segbar-all"));filterBars();
+  const wl=weekList().filter(c=>state.seg==="All"||c.seg===state.seg), wrel=wl.filter(isMain).length;
+  const main=wl.filter(isMain), rest=wl.length-main.length;
+  document.getElementById("groups-main").innerHTML=groupsHTML(main,"m");
+  renderFront();renderPatterns();renderCtx();
+  document.getElementById("pilot-note-main").hidden=state.week===CUR;
+  renderPromos();
+  document.getElementById("groups-all").innerHTML=groupsHTML(wl,"a");
+  document.getElementById("pilot-note").hidden=state.week===CUR;
+  const partial=multiWeek()?DATA.weeks.filter(w=>w.coverage==="partial"&&inScope(w.week)):[];
+  const wkNote=multiWeek()?null:DATA.weeks.find(w=>w.week===state.week&&w.note);
+  ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);let cn=el.nextElementSibling;if(!cn||!cn.classList.contains("cov-note")){el.insertAdjacentHTML("afterend",`<div class="pilot cov-note" hidden></div>`);cn=el.nextElementSibling}cn.hidden=!wkNote;if(wkNote)cn.innerHTML=`<b>${wkNote.coverage==="partial"?"Partial week.":"Coverage."}</b> ${esc(wkNote.note)}`});
+  ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);const old=el.querySelector(".partial");if(old)old.remove();
+    if(partial.length)el.insertAdjacentHTML("beforeend",` <span class="partial"><b>Partial ${partial.length===1?"week":"weeks"}:</b> week ${partial.map(w=>wkNum(w.week)).join(", ")} was only partly captured, so counts for it are low.</span>`)});
+  document.getElementById("all-title").textContent=state.week===CUR?`All ${wl.length} changes in this edition`:
+    `${wl.length} changes · ${weekLabel()} · ${wrel} Relevant`;
+  document.getElementById("more-all").textContent=rest?`${rest} more ${rest===1?"change":"changes"} from smaller companies in All Price Changes ›`:"";
+}
+function go(id){
+  const hist=HISTORY.some(h=>h.id===id), want=byId[id].week;
+  if(!inScope(want)){state.week=want;renderGroups()}
+  if(state.cat!=="All"&&catOf(byId[id])!==state.cat){state.cat="All";renderGroups()}
+  let pre=isMain(byId[id])?"m":"a";
+  if(pre==="a")setAllSub("changes");
+  if(pre==="m")setMainSub("ranked");
+  if(!document.getElementById(pre+"-"+id)){state.seg="All";renderGroups()}
+  showTab(pre==="m"?"main":"all");
+  const el=document.getElementById(pre+"-"+id);if(!el)return;
+  if(el.tagName==="DETAILS")el.open=true;
+  el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+  el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1400);
+}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-go]");if(t)go(t.dataset.go);
+  const g=e.target.closest("[data-tab-go]");if(g){showTab(g.dataset.tabGo);const n=document.querySelector("nav");scrollTo({top:document.getElementById("p-"+g.dataset.tabGo).getBoundingClientRect().top+scrollY-n.offsetHeight-14})}});
+
+// ---------- Market Trends ----------
+const GROUPS=[["up","You pay more","var(--up)"],["down","You pay less","var(--down)"],["pack","Restructured","var(--pack)"]];
+const newsById=Object.fromEntries(NEWS.map(n=>[n.id,n]));
+const countBy=(arr,f)=>arr.reduce((m,x)=>{const k=f(x);m[k]=(m[k]||0)+1;return m},{});
+function stack(list){ // stacked bar of up/down/pack
+  const c=countBy(list,x=>x.group),n=list.length||1;
+  const label=GROUPS.map(([g,l])=>`${c[g]||0} ${l.toLowerCase()}`).join(", ");
+  return `<div class="mix" role="img" aria-label="${label}">${GROUPS.map(([g,,col])=>c[g]?`<span style="width:${c[g]/n*100}%;background:${col}"></span>`:"").join("")}</div>`;
+}
+function stackRow(name,list){
+  const c=countBy(list,x=>x.group);
+  return `<div class="brow"><span>${esc(name)}</span>${stack(list)}<span class="n">${GROUPS.map(([g])=>c[g]||0).join(" / ")}</span></div>`;
+}
+function barRow(name,n,max){
+  return `<div class="brow"><span>${esc(name)}</span><div class="hbar"><span style="width:${n/max*100}%"></span></div><span class="n">${n}</span></div>`;
+}
+function renderTrends(){
+  renderKeyNumbers();renderModels();
+  const rel=NEWS.filter(n=>n.rel),srcs=new Set(rel.map(n=>n.src));
+  document.getElementById("tn-intro").textContent=`Drawn from ${rel.length} pricing-relevant ${rel.length===1?"story":"stories"} from ${srcs.size} ${srcs.size===1?"source":"sources"}. In the build this view covers every story from the last 90 days, so the themes firm up as stories accumulate.`;
+  document.getElementById("tn-themes").innerHTML=NEWS_TRENDS.map(th=>`<div class="pat"><strong>${esc(th.t)}</strong><p>${esc(th.p)}</p>
+     <ul class="nums theme-nums">${th.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul>
+     <span class="lbl">Stories</span><div class="jump">${th.news.filter(id=>newsById[id]).map(id=>`<button class="jumpbtn" type="button" data-gonews="${id}">${esc(newsById[id].title)}</button>`).join("")}</div>
+     <span class="lbl">Seen in price changes</span><div class="jump">${th.changes.filter(id=>byId[id]).map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)}</button>`).join("")}</div></div>`).join("");
+  document.getElementById("tn-stats").innerHTML=rel.flatMap(n=>n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}<small>${esc(n.src)} · ${esc(n.date)}</small></span></li>`)).join("");
+}
+// ---------- Statistics ----------
+const ALLC=()=>CHANGES.concat(HISTORY);
+const dirTxt={up:"pay more",down:"pay less",pack:"restructured"};
+const MODEL_VERB={up:"raise prices",down:"cut prices",pack:"restructure"};
+const trip=l=>{const c=countBy(l,x=>x.group);return `<b class="c-up">${c.up||0}</b> pay more, <b class="c-down">${c.down||0}</b> pay less, <b class="c-pack">${c.pack||0}</b> restructured`};
+function dominant(l){const c=Object.entries(countBy(l,x=>x.group)).sort((a,b)=>b[1]-a[1]);return c.length?{g:c[0][0],n:c[0][1],tie:!!(c[1]&&c[1][1]===c[0][1])}:null}
+function renderKeyNumbers(){
+  const C=CHANGES,P=HISTORY,VERB={up:"raised prices",down:"cut prices",pack:"restructured"};
+  const share=l=>l.length?Math.round((countBy(l,x=>x.group).up||0)/l.length*100):0;
+  const items=[];
+  items.push(`<span class="k">Who pays more.</span> This edition: ${trip(C)} of ${C.length} changes.`+(P.length?` Earlier weeks: ${trip(P)} of ${P.length}. That’s ${share(C)}% paying more now vs ${share(P)}% before.`:""));
+  items.push(`<span class="k">By company size.</span> `+TIERS.map(([t,name])=>{const l=C.filter(x=>x.tier===t);if(!l.length)return"";const d=dominant(l);
+     return d.tie?`${name} were split.`:`${name} mostly ${VERB[d.g]} (${d.n} of ${l.length}).`}).join(" "));
+  const SEG=[["B2B","B2B"],["Both","B2B + B2C"],["B2C","B2C"]];
+  items.push(`<span class="k">By customer segment.</span> `+SEG.map(([k,l])=>{const g=C.filter(x=>x.seg===k);if(!g.length)return"";const d=dominant(g);
+     return g.length===1?`${l}: 1 change (${dirTxt[g[0].group]}).`:`${l}: ${g.length} changes, ${d.tie?"split":`mostly ${dirTxt[d.g]} (${d.n})`}.`}).filter(Boolean).join(" "));
+  const A=C.concat(P),aiC=C.filter(x=>x.ai).length,aiA=A.filter(x=>x.ai).length;
+  items.push(`<span class="k">AI involved.</span> ${aiC} of ${C.length} changes this edition touch AI features, usage or products; ${Math.round(aiA/A.length*100)}% across all logged weeks.`);
+  const cats=Object.entries(countBy(C,catOf)).sort((a,b)=>b[1]-a[1]);
+  items.push(`<span class="k">By software category.</span> `+cats.slice(0,3).map(([k,n])=>{const g=C.filter(x=>catOf(x)===k),d=dominant(g);
+     return `${CAT_SHORT[k]||k}: ${n} ${n===1?"change":"changes"}${n>1&&!d.tie?`, mostly ${dirTxt[d.g]}`:n===1?` (${dirTxt[g[0].group]})`:", split"}`}).join("; ")+(cats.length>3?`; ${cats.length-3} other categories with ${cats.slice(3).reduce((a,[,n])=>a+n,0)}.`:"."));
+  document.getElementById("sa-keys").innerHTML=items.map(x=>`<li>${x}</li>`).join("");
+}
+function renderModels(){
+  const A=ALLC(),weeks=WEEK_ORDER.slice().reverse();
+  document.getElementById("sm-intro").textContent=`Across every logged week (${RANGE}, ${A.length} changes), so patterns aren’t one week’s noise. Grows as weeks are added.`;
+  // How prices go up
+  const up=A.filter(x=>x.group==="up"),hidden=up.filter(x=>x.pattern!=="Price increase");
+  document.getElementById("sm-up-fig").innerHTML=`${hidden.length} of ${up.length}<small>pay-more changes didn’t touch the list price</small>`;
+  const byP=Object.entries(countBy(up,x=>x.pattern)).sort((a,b)=>b[1]-a[1]),mx=byP.length?byP[0][1]:1;
+  document.getElementById("sm-up").innerHTML=byP.map(([p,n])=>`<div class="pat">${barRow(p,n,mx)}<div class="jump">${up.filter(x=>x.pattern===p).map(x=>`<button class="jumpbtn" type="button" data-go="${x.id}">${esc(x.co)}</button>`).join("")}</div></div>`).join("");
+  const list=(byP.find(([p])=>p==="Price increase")||[0,0])[1], hp=byP.filter(([p])=>p!=="Price increase").slice(0,2);
+  const mid=x=>(x.magnitude.low+x.magnitude.high)/2, med=a=>{const v=a.slice().sort((x,y)=>x-y),n=v.length;return n?(n%2?v[(n-1)/2]:(v[n/2-1]+v[n/2])/2):null};
+  const lp=A.filter(x=>x.magnitude&&x.magnitude.basis==="list price"), inc=lp.filter(x=>mid(x)>0).map(mid), cut=A.filter(x=>x.magnitude&&x.magnitude.basis!=="allowance"&&x.magnitude.basis!=="minimum"&&mid(x)<0).map(mid);
+  const sizeTxt=(inc.length?` The typical list-price increase is +${Math.round(med(inc))}% (median of ${inc.length} with a stated size)`:"")+(cut.length?`; the typical cut is −${Math.abs(Math.round(med(cut)))}% (median of ${cut.length}).`:inc.length?".":"");
+  document.getElementById("sm-up-ins").textContent=(hp.length?`Customers mostly pay more through what’s included, not the sticker price. ${hp.map(([p,n])=>`${p} (${n})`).join(" and ")} together ${hp.reduce((a,[,n])=>a+n,0)>list?"outnumber":"come close to"} straight list-price increases (${list}).`:"")+sizeTxt;
+  // Pricing models × direction
+  document.getElementById("sm-legend").innerHTML=GROUPS.map(([,l,col])=>`<span><i style="background:${col}"></i>${l}</span>`).join("");
+  const after=x=>x.modelAfter||(x.model||"Not recorded").split("→").pop().trim();
+  const models=Object.entries(countBy(A,after)).sort((a,b)=>b[1]-a[1]);
+  document.getElementById("sm-models").innerHTML=models.map(([m,n])=>stackRow(`${m} · ${n}`,A.filter(x=>after(x)===m))).join("");
+  const sent=models.map(([m,n])=>{const d=dominant(A.filter(x=>after(x)===m));return d.tie?`${m} plans are split`:`${m} plans mostly ${MODEL_VERB[d.g]} (${d.n} of ${n})`});
+  const cuts=A.filter(x=>x.group==="down");let cutTxt="";
+  if(cuts.length){const cm=Object.entries(countBy(cuts,after)).sort((a,b)=>b[1]-a[1])[0],mshare=A.filter(x=>after(x)===cm[0]).length;
+    cutTxt=` Cuts are rare (${cuts.length} of ${A.length}) and most often hit ${cm[0].toLowerCase()} pricing: ${cm[1]} of ${cuts.length}, though ${cm[0].toLowerCase()} plans are only ${mshare} of ${A.length} changes.`}
+  document.getElementById("sm-models-ins").textContent=sent.join("; ")+"."+cutTxt;
+  const sh=A.filter(x=>x.modelBefore&&x.modelAfter&&x.modelBefore!==x.modelAfter),fromSeat=sh.length&&sh.every(x=>x.modelBefore==="Seat");
+  document.getElementById("sm-shifts").innerHTML=sh.length?`<span class="lbl">Model shifts</span><div class="shifts">${sh.map(x=>`<span><b>${esc(x.co)}</b> <span class="m">${esc(x.modelBefore+" → "+x.modelAfter)}</span></span>`).join("")}</div>
+    <p class="panel-sub">${fromSeat?"Every recorded shift moves away from pure seat pricing; none moves toward it. ":""}Shifts are only recorded when the source shows the old model, so this undercounts.</p>`:"";
+  // By software category
+  const cc=Object.entries(countBy(A,catOf)).sort((a,b)=>b[1]-a[1]);
+  document.getElementById("sm-cats").innerHTML=`<div class="legend">${GROUPS.map(([,l,col])=>`<span><i style="background:${col}"></i>${l}</span>`).join("")}</div>`+cc.map(([k,n])=>stackRow(`${CAT_SHORT[k]||k} · ${n}`,A.filter(x=>catOf(x)===k))).join("");
+  const big=cc.filter(([,n])=>n>=4).map(([k,n])=>{const g=A.filter(x=>catOf(x)===k),c=countBy(g,x=>x.group);return{k,n,up:(c.up||0)/n,down:c.down||0}});
+  if(big.length){const hi=big.slice().sort((a,b)=>b.up-a.up)[0],lo=big.slice().sort((a,b)=>a.up-b.up)[0];
+    document.getElementById("sm-cats-ins").textContent=`Among categories with 4+ changes, ${CAT_SHORT[hi.k]} leans hardest toward paying more (${Math.round(hi.up*100)}% of ${hi.n})`+(lo.k!==hi.k?` and ${CAT_SHORT[lo.k]} least (${Math.round(lo.up*100)}% of ${lo.n}).`:".")+` Categories are assigned per company; most are our call, a few checked against PricingSaaS.`;}
+  // Heat table: pattern × week
+  const cnt={};A.forEach(x=>{const k=x.pattern+"|"+x.week;(cnt[k]=cnt[k]||[]).push(x)});
+  const cell=(p,w)=>(cnt[p+"|"+w]||[]).length, maxCell=Math.max(1,...Object.values(cnt).map(l=>l.length));
+  const prev=weeks.filter(w=>w!==CUR), avgPrev=p=>prev.length?prev.reduce((a,w)=>a+cell(p,w),0)/prev.length:0;
+  const trend=p=>{if(!prev.length)return["",""];const d=cell(p,CUR)-avgPrev(p);return d>=1?["▲","upx"]:d<=-1?["▼","dnx"]:["–","flat"]};
+  const cols=weeks.length+3;
+  let html=`<thead><tr><th>Pattern</th>${weeks.map(w=>`<th title="${esc(WEEKS[w])}">${w===CUR?"Now":"W"+wkNum(w)}</th>`).join("")}<th>All</th><th></th></tr></thead><tbody>`;
+  PATTERN_CATS.forEach(([cat,ps])=>{
+    const ct=ps.reduce((a,[p])=>a+weeks.reduce((b,w)=>b+cell(p,w),0),0);
+    html+=`<tr class="cat"><td colspan="${cols}">${esc(cat)} · ${ct}</td></tr>`;
+    ps.forEach(([p])=>{const tot=weeks.reduce((a,w)=>a+cell(p,w),0),[ar,cls]=trend(p),open=state.heatOpen===p;
+      html+=`<tr class="${tot?"":"zero"}"><td class="pn"><button type="button" data-heat="${esc(p)}" aria-expanded="${open}">${esc(p)}</button></td>${weeks.map(w=>{const n=cell(p,w);
+        return `<td class="cell"${n?` style="background:color-mix(in srgb, var(--accent) ${Math.round(18+n/maxCell*62)}%, var(--wash));color:${n/maxCell>.5?"#fff":"var(--ink)"}"`:""}>${n||""}</td>`}).join("")}<td class="tot">${tot||""}</td><td class="tr ${cls}">${tot?ar:""}</td></tr>`;
+      if(open){const l=A.filter(x=>x.pattern===p);html+=`<tr class="open"><td colspan="${cols}"><div class="jump">${l.length?l.map(x=>`<button class="jumpbtn" type="button" data-go="${x.id}">${esc(x.co)} · ${x.week===CUR?"now":"W"+wkNum(x.week)}</button>`).join(""):'<span class="panel-sub">No changes yet.</span>'}</div></td></tr>`}
+    });
+  });
+  document.getElementById("sm-heat").innerHTML=html+"</tbody>";
+  const tots=PATTERN_CATS.flatMap(([,ps])=>ps.map(([p])=>[p,weeks.reduce((a,w)=>a+cell(p,w),0)])).sort((a,b)=>b[1]-a[1]);
+  const rising=PATTERN_CATS.flatMap(([,ps])=>ps.map(([p])=>[p,cell(p,CUR)-avgPrev(p)])).filter(x=>prev.length&&x[1]>=1.5).sort((a,b)=>b[1]-a[1]);
+  document.getElementById("sm-heat-ins").textContent=`Most frequent so far: ${tots.slice(0,2).map(([p,n])=>`${p} (${n})`).join(" and ")}.`+(rising.length?` Up this edition: ${rising.slice(0,2).map(([p])=>`${p} (${cell(p,CUR)} vs ${avgPrev(p).toFixed(1)} a week before)`).join(", ")}.`:"");
+  document.getElementById("tc-guide").innerHTML=PATTERN_CATS.map(([cat,ps])=>`<dt>${esc(cat)}</dt>${ps.map(([n,d])=>`<dd><b>${esc(n)}</b> ${esc(d)}</dd>`).join("")}`).join("");
+}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-heat]");if(!t)return;state.heatOpen=state.heatOpen===t.dataset.heat?null:t.dataset.heat;renderModels()});
+function renderAnalysis(){
+  document.getElementById("sa-list").innerHTML=STATS_ANALYSIS.map(f=>`<article class="card finding">
+     <div class="fig">${esc(f.fig)}<small>${esc(f.figNote)}</small></div>
+     <h3>${esc(f.t)}</h3>
+     <div class="read"><span class="lbl">Our read</span><p>${esc(f.p)}</p></div>
+     <div class="jump">${f.ids.filter(id=>byId[id]).map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)}</button>`).join("")}</div></article>`).join("");
+  document.getElementById("sa-caveat").textContent=`Based on ${CHANGES.length} changes from one edition. Treat these as signals to watch, not conclusions; they firm up as editions accumulate.`;
+}
+function setSub(v){
+  state.sub=v;
+  document.querySelectorAll("#p-stats .tr-switch .chip").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.sub===v);b.setAttribute("aria-selected",b.dataset.sub===v)});
+  document.getElementById("sv-models").hidden=v!=="models";document.getElementById("sv-analysis").hidden=v!=="analysis";
+  try{localStorage.setItem("statsSub",v)}catch(e){}
+}
+document.querySelectorAll("#p-stats .tr-switch .chip").forEach(b=>b.onclick=()=>setSub(b.dataset.sub));
+function goNews(id){
+  const cb=document.getElementById("only-pricing");
+  if(!newsById[id].rel&&cb.checked){cb.checked=false;renderNews()}
+  showTab("news");const el=document.getElementById("n-"+id);if(!el)return;
+  el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+  el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1400);
+}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-gonews]");if(t)goNews(t.dataset.gonews)});
+
+// ---------- Timeline (Main Price Changes → Timeline) ----------
+function renderTimeline(){
+  const M=CHANGES.concat(HISTORY).filter(isMain),ev=[];
+  M.forEach(c=>{
+    if(c.announced&&c.announced===c.effective&&!c.announcedLabel)ev.push({d:c.effective,kind:"both",c});
+    else{
+      if(c.announced)ev.push({d:c.announced,kind:"ann",c,label:c.announcedLabel});
+      if(c.effective)ev.push({d:c.effective,kind:"eff",c,label:c.effectiveLabel});
+    }
+    if(c.seen)ev.push({d:c.seen,kind:"seen",c,label:c.seenLabel});
+    (c.also||[]).forEach(([d,t,l])=>ev.push({d,kind:"also",c,text:t,label:l}));
+  });
+  ev.sort((a,b)=>a.d.localeCompare(b.d)||["ann","seen","both","eff","also"].indexOf(a.kind)-["ann","seen","both","eff","also"].indexOf(b.kind));
+  const KIND={ann:"Announced",eff:"Takes effect",both:"Announced and in effect",seen:"Spotted on pricing page",also:"Related date"};
+  let html="",month="",todayDone=false;
+  ev.forEach(e=>{
+    if(!todayDone&&e.d>TODAY){html+=`<div class="tl-today" aria-label="Today"><span>Today</span><hr></div>`;todayDone=true}
+    const [y,m]=e.d.split("-").map(Number),mk=`${MON[m-1]} ${y}`;
+    if(mk!==month){month=mk;html+=`<div class="tl-month">${["January","February","March","April","May","June","July","August","September","October","November","December"][m-1]} ${y}</div>`}
+    const future=e.d>TODAY, kindTxt=e.kind==="eff"&&!future?"Took effect":KIND[e.kind];
+    const txt=e.text||(e.kind==="eff"?(e.c.effectiveNote?`${e.c.short} (${e.c.effectiveNote})`:e.c.short):e.c.short);
+    html+=`<div class="tl-item${future?" future":""}"><span class="d">${esc(e.label&&e.label.length<=8?e.label:fmtD(e.d).replace(/ 20\d\d$/,""))}</span><span class="rail"><i class="dot ${e.kind}"></i></span>
+      <button type="button" data-go="${e.c.id}"><span class="k">${kindTxt}${e.label&&e.label.length>8?" · "+esc(e.label):""}</span><span class="t"><b>${esc(e.c.co)}</b> · ${esc(txt)}</span>${effInline(e)}</button></div>`;
+  });
+  if(!todayDone)html+=`<div class="tl-today" aria-label="Today"><span>Today</span><hr></div>`;
+  document.getElementById("tl").innerHTML=html;
+  // notice stats
+  const both=M.filter(c=>c.announced&&c.effective),gap=c=>(new Date(c.effective)-new Date(c.announced))/864e5;
+  const notice=both.filter(c=>gap(c)>0),same=both.filter(c=>gap(c)===0),silent=M.filter(c=>!c.announced&&c.seen);
+  const avg=notice.length?Math.round(notice.reduce((a,c)=>a+gap(c),0)/notice.length):0;
+  const upcoming=ev.filter(e=>e.d>TODAY).length;
+  document.getElementById("tl-stats").innerHTML=
+    `<div><b>${notice.length}</b><span>gave advance notice, about ${avg} days on average</span></div>`+
+    `<div><b>${same.length}</b><span>took effect the day they were announced</span></div>`+
+    `<div><b>${silent.length}</b><span>changed the pricing page with no announcement we tracked</span></div>`+
+    `<div><b>${upcoming}</b><span>${upcoming===1?"date":"dates"} still ahead</span></div>`;
+}
+// Inline effective date on each timeline entry, e.g. "Effective Oct 13th, 2026"
+function ordDate(iso){
+  const [y,m,d]=iso.split("-").map(Number);
+  const suf=(d%100>=11&&d%100<=13)?"th":["th","st","nd","rd"][d%10]||"th";
+  return `${MON[m-1]} ${d}${suf}, ${y}`;
+}
+function effInline(e){
+  const c=e.c;
+  if(e.kind==="also") return `<span class="e">Effective ${e.label?esc(e.label)+" at the earliest":ordDate(e.d)}</span>`;
+  if(c.effective){
+    // Notice = days between announcement and effective date. ≈ when either date is approximate ("by 28 Aug", "week of …").
+    let notice="";
+    if(c.announced){
+      const n=Math.round((new Date(c.effective)-new Date(c.announced))/864e5);
+      const approx=!!(c.announcedLabel&&/^(by|week)/.test(c.announcedLabel))||!!(c.effectiveLabel&&/^week/.test(c.effectiveLabel));
+      notice=`. Notice days: ${approx?"≈":""}${n}`;
+    }
+    return `<span class="e">Effective ${c.effectiveLabel&&/^week/.test(c.effectiveLabel)?"week of ":""}${ordDate(c.effective)}${notice}</span>`;
+  }
+  return `<span class="e none">Effective date not announced</span>`;
+}
+// ---------- Promotions (All Price Changes → Promotions) ----------
+function renderPromos(){
+  const L=PROMOS.filter(x=>inScope(x.week)&&(state.cat==="All"||catOf(x)===state.cat));
+  const c=countBy(L,x=>x.kind);
+  document.getElementById("promo-title").textContent=`${L.length} ${L.length===1?"promotion":"promotions"} · ${state.week===CUR?"this edition":weekLabel()}`;
+  document.getElementById("promo-stats").innerHTML=[["new","Started"],["ended","Ended"],["changed","Changed"]].map(([k,l])=>`<div><b>${c[k]||0}</b><span>${l}</span></div>`).join("");
+  const byCo={};PROMOS.forEach(x=>{(byCo[x.co]=byCo[x.co]||new Set()).add(x.week)});
+  const cyc=Object.entries(byCo).filter(([,w])=>w.size>1).sort((a,b)=>b[1].size-a[1].size);
+  document.getElementById("promo-cycle").textContent=cyc.length?`On and off: ${cyc.map(([co,w])=>`${co} (${w.size} weeks)`).join(", ")}. A promo that keeps returning is effectively part of the price.`:"";
+  const KL={new:"Started",ended:"Ended",changed:"Changed"};
+  const order=WEEK_ORDER;
+  let html="";
+  order.forEach(w=>{const g=L.filter(x=>x.week===w);if(!g.length)return;
+    if(multiWeek())html+=`<li class="wk">${w===CUR?"This edition":"Week "+wkNum(w)} · ${WEEKS[w]}</li>`;
+    g.forEach(x=>html+=`<li><span class="pk ${x.kind}">${KL[x.kind]}</span><span><b>${esc(x.co)}</b> · ${esc(x.text)}</span></li>`)});
+  document.getElementById("promo-list").innerHTML=html||'<li>No promotions recorded for this week.</li>';
+}
+function setAllSub(v){
+  state.asub=v;
+  document.querySelectorAll("#p-all .tr-switch .chip").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.asub===v);b.setAttribute("aria-selected",b.dataset.asub===v)});
+  document.getElementById("av-changes").hidden=v!=="changes";document.getElementById("av-promos").hidden=v!=="promos";
+}
+document.querySelectorAll("#p-all .tr-switch .chip").forEach(b=>b.onclick=()=>setAllSub(b.dataset.asub));
+function setMainSub(v){
+  document.querySelectorAll("#p-main .tr-switch .chip").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.msub===v);b.setAttribute("aria-selected",b.dataset.msub===v)});
+  document.getElementById("mv-ranked").hidden=v!=="ranked";document.getElementById("mv-timeline").hidden=v!=="timeline";
+  try{localStorage.setItem("mainSub",v)}catch(e){}
+}
+document.querySelectorAll("#p-main .tr-switch .chip").forEach(b=>b.onclick=()=>setMainSub(b.dataset.msub));
+
+document.getElementById("only-pricing").onchange=renderNews;
+function showTab(t){
+  document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  ["news","main","all","stats","newstrends","src"].forEach(k=>document.getElementById("p-"+k).hidden=k!==t);
+  try{localStorage.setItem("tab",t)}catch(e){}
+}
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+const TABS=["news","main","all","stats","newstrends","src"];
+let start="news";try{start=localStorage.getItem("tab")||"news"}catch(e){}
+const h=location.hash.slice(1);if(TABS.includes(h)||h==="price"||h==="trends")start=h;
+if(start==="price")start="main"; if(start==="trends")start="stats"; // old tab names
+if(!TABS.includes(start))start="news";
+renderEditionStatic();renderNews();renderFront();renderPatterns();renderGroups();renderTrends();renderAnalysis();renderTimeline();{let ms="ranked";try{ms=localStorage.getItem("mainSub")||"ranked"}catch(e){}setMainSub(ms==="timeline"?"timeline":"ranked")}let sub="analysis";try{sub=localStorage.getItem("statsSub")||"analysis"}catch(e){}setSub(sub==="models"?"models":"analysis");showTab(start);
+</script>

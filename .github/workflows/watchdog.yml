@@ -1,0 +1,30 @@
+# The Mac can't report its own death. Once a day, check that a run committed in the
+# last 36 hours (runs happen at 07:00 and 19:00); if not, push an alert to the phone.
+name: watchdog
+on:
+  schedule:
+    - cron: "0 16 * * *"   # 12:00 Toronto (EDT), 11:00 (EST)
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check last run time
+        env:
+          NTFY_TOPIC: ${{ vars.NTFY_TOPIC || 'fmz_pricing_desk' }}
+        run: |
+          python3 - <<'PY'
+          import json, os, datetime as dt, urllib.request
+          meta = json.load(open("data/meta.json"))
+          if not meta.get("last_run_at"):
+              raise SystemExit("no run yet; nothing to check")
+          last = dt.datetime.fromisoformat(meta["last_run_at"])
+          age = dt.datetime.now(dt.timezone.utc) - last
+          print(f"last run {last}, {age} ago")
+          if age > dt.timedelta(hours=36):
+              msg = f"No Pricing Desk run since {last:%a %d %b %H:%M}. Check the Mac mini (power, login, network)."
+              req = urllib.request.Request(f"https://ntfy.sh/{os.environ['NTFY_TOPIC']}", data=msg.encode(),
+                  headers={"Title": "Pricing Desk: Mac mini silent", "Priority": "high", "Tags": "warning"})
+              urllib.request.urlopen(req, timeout=20)
+          PY
