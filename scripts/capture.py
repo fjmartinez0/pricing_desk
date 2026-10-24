@@ -239,9 +239,7 @@ def main() -> int:
     backlog = load_json(BACKLOG, {"changes": []})
     for e in events:
         e["attempts"] = 0
-    backlog["changes"].extend(events)
-    for e in backlog["changes"]:
-        e["attempts"] = e.get("attempts", 0) + 1
+    backlog["changes"].extend(events)          # attempts are counted by the merge, only when the agent answered
     save_json(BACKLOG, backlog)
     save_json(PROPOSALS / f"{stamp}.input.json", {"run": stamp, "changes": backlog["changes"]})
     save_json(RUN / f"capture_{stamp}.json", report)

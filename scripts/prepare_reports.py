@@ -45,7 +45,6 @@ def main() -> int:
                     "title": r.get("title"), "registry_guess": guess,
                     "registry_name": companies[guess]["name"] if guess else None,
                     "existing_records": existing})
-        r["attempts"] = r.get("attempts", 0) + 1
     save_json(PROPOSALS / f"{run_id()}.reports_input.json", {"run": run_id(), "reports": out})
     save_json(REPORTS, reports)
     return 0

@@ -35,6 +35,10 @@ fail() {
   exit 1
 }
 step() { echo "== $1"; }
+agent() {   # run one agent task unless this run already hit the Claude usage limit
+  if [ -f ".run/agent_limited_$RUN" ]; then echo "agent: skipped ($(basename "$1" .md)): usage limit"; return 0; fi
+  bash scripts/run_agent.sh "$@"
+}
 has() { python3 -c "import json,sys; d=json.load(open('$1')); sys.exit(0 if d.get('$2') else 1)" 2>/dev/null; }
 
 step "1 pull"
@@ -49,18 +53,18 @@ python3 scripts/pricingsaas_capture.py || python3 scripts/notify.py --problem "P
 
 step "3 agent"
 if has "proposals/$RUN.input.json" changes; then
-  bash scripts/run_agent.sh agent/changes_prompt.md "proposals/$RUN.input.json" "proposals/$RUN.changes.json"
+  agent agent/changes_prompt.md "proposals/$RUN.input.json" "proposals/$RUN.changes.json"
 fi
 if python3 scripts/prepare_reports.py; then     # PricingSaaS diff pages waiting for a decision
-  bash scripts/run_agent.sh agent/reports_prompt.md "proposals/$RUN.reports_input.json" "proposals/$RUN.reports.json"
+  agent agent/reports_prompt.md "proposals/$RUN.reports_input.json" "proposals/$RUN.reports.json"
 fi
 if python3 scripts/prepare_registry.py; then   # until every company has a pricing URL
-  bash scripts/run_agent.sh agent/registry_prompt.md ".run/registry_todo_$RUN.json" "proposals/$RUN.registry.json"
+  agent agent/registry_prompt.md ".run/registry_todo_$RUN.json" "proposals/$RUN.registry.json"
 fi
 if python3 scripts/close_week.py; then
   WEEK="$(python3 -c "import json; print(json.load(open('.run/edition_due_$RUN.json'))['week'])")"
   LABEL="$(cd scripts && python3 -c "from common import week_range_label; print(week_range_label('$WEEK'))")"
-  bash scripts/run_agent.sh agent/edition_prompt.md "data/desk.json" "proposals/$RUN.edition.json" \
+  agent agent/edition_prompt.md "data/desk.json" "proposals/$RUN.edition.json" \
     "$WEEK" "$LABEL" ".run/week_stats_$RUN.json"
 fi
 

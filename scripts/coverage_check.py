@@ -19,6 +19,12 @@ def main() -> int:
     ap.add_argument("--run", default=run_id())
     run = ap.parse_args().run
 
+    if (RUN / f"agent_limited_{run}").exists():
+        report_problem("Claude usage limit reached: the agent tasks were skipped this run. Nothing is lost; "
+                       "every queued change and report is retried on the next run.", "agent")
+        log("coverage check done (agent skipped: usage limit)")
+        return 0
+
     cap = load_json(RUN / f"capture_{run}.json")
     if cap and cap["attempted"]:
         ratio = cap["captured_ok"] / cap["attempted"]

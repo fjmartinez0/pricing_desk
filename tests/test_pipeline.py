@@ -325,6 +325,29 @@ class Reports(unittest.TestCase):
         self.assertEqual(r["added"], [])
         self.assertIn("hand-built", self.stored()["outcome"])
 
+    def test_attempts_count_only_when_the_agent_answered(self):
+        handed = {"atlassian.bitbucket:2026-W44"}
+        result = {"added": [], "promos": [], "dropped": [], "rejected": [], "registry": []}
+        ap.apply_reports(self.desk, self.registry, None, result, handed)            # agent never ran (usage limit)
+        self.assertEqual(self.stored()["attempts"], 1)
+        ap.apply_reports(self.desk, self.registry, {"items": []}, result, handed)   # agent answered, skipped it
+        self.assertEqual(self.stored()["attempts"], 2)
+
+    def test_backlog_waits_when_the_agent_did_not_run(self):
+        saved = ap.BACKLOG
+        ap.BACKLOG = self.tmp / "backlog.json"
+        try:
+            common.save_json(ap.BACKLOG, {"changes": [{"diff_id": "x-r1", "attempts": 0, "after_file": "f"}]})
+            result = {"rejected": []}
+            for _ in range(6):
+                ap.update_backlog(None, result)
+            self.assertEqual(common.load_json(ap.BACKLOG)["changes"][0]["attempts"], 0)
+            for _ in range(common.BACKLOG_MAX_ATTEMPTS):
+                ap.update_backlog({"items": []}, result)
+            self.assertEqual(common.load_json(ap.BACKLOG)["changes"], [])        # skipped 4 times: given up
+        finally:
+            ap.BACKLOG = saved
+
     def test_drop_kind(self):
         r = self.merge(self.item(kind="price_reveal", record=None))
         self.assertEqual(len(r["dropped"]), 1)

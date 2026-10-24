@@ -418,13 +418,16 @@ def record_report(desk: dict, registry: dict, r: dict, taken: set[str], result: 
     return f"added {rec['id']}"
 
 
-def apply_reports(desk: dict, registry: dict, proposal, result: dict) -> None:
+def apply_reports(desk: dict, registry: dict, proposal, result: dict, handed: set[str] | None = None) -> None:
     """Record the agent's decisions on PricingSaaS reports, then publish every decided report that is ready.
 
     A change at a company we already captured before the change (our baseline is older) is ours to see:
     the report waits REPORT_WAIT_RUNS runs for our own record of that company and week. If ours arrives,
     the report only corroborates it; if not, the report is published and a problem is raised, because our
     capture missed something (wrong URL, a page needing the browser, an ignore pattern hiding it…).
+
+    `handed` = the report ids given to the agent this run. Only when the agent answered (proposal exists)
+    does a report it left out count as an attempt; a run without the agent costs nothing.
     """
     reports = load_json(REPORTS, {"reports": []})
     by_id = {r["report_id"]: r for r in reports["reports"]}
@@ -452,6 +455,11 @@ def apply_reports(desk: dict, registry: dict, proposal, result: dict) -> None:
             result["rejected"].append({"report": rid, "why": str(e)})
             log(f"  - report {rid}: {e}")
 
+    if proposal is not None:
+        answered = {i.get("report_id") for i in proposal.get("items", [])}
+        for r in reports["reports"]:
+            if r["status"] == "todo" and r["report_id"] in (handed or set()) and r["report_id"] not in answered:
+                r["attempts"] = r.get("attempts", 0) + 1
     taken = {c["id"] for c in desk["changes"]}
     touched = set()
     for r in reports["reports"]:
@@ -598,14 +606,20 @@ def load_proposal(run: str, kind: str):
 
 
 def update_backlog(proposal, result: dict) -> None:
-    """Remove every change the agent decided on; give up on changes that waited too long."""
+    """Remove every change the agent decided on; give up on changes it skipped too often.
+
+    An attempt counts only when the agent wrote a proposal and left this change out. A run where the agent
+    didn't run at all (usage limit, crash) costs nothing: the change simply waits."""
     backlog = load_json(BACKLOG, {"changes": []})
-    decided = {i.get("diff_id") for i in (proposal or {}).get("items", [])}
+    if proposal is None:
+        return
+    decided = {i.get("diff_id") for i in proposal.get("items", [])}
     keep = []
     for e in backlog["changes"]:
         if e["diff_id"] in decided:
             continue
-        if e.get("attempts", 0) >= BACKLOG_MAX_ATTEMPTS:
+        e["attempts"] = e.get("attempts", 0) + 1
+        if e["attempts"] >= BACKLOG_MAX_ATTEMPTS:
             report_problem(f"{e['diff_id']}: no agent decision after {e['attempts']} runs; given up "
                            f"(evidence kept in {e['after_file']}).", "merge")
             result["rejected"].append({"diff_id": e["diff_id"], "why": "no decision, given up"})
@@ -628,7 +642,8 @@ def main() -> int:
         apply_changes(desk, registry, changes, load_json(PROPOSALS / f"{run}.input.json", {}), result)
     update_backlog(changes, result)
     reports = load_proposal(run, "reports")
-    apply_reports(desk, registry, reports, result)       # runs every time: waiting reports may now be due
+    handed = {r["report_id"] for r in load_json(PROPOSALS / f"{run}.reports_input.json", {}).get("reports", [])}
+    apply_reports(desk, registry, reports, result, handed)   # runs every time: waiting reports may now be due
     reg = load_proposal(run, "registry")
     if reg is not None:
         apply_registry(desk, registry, reg, result)
