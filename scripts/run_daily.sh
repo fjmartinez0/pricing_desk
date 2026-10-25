@@ -28,6 +28,7 @@ if ! mkdir "$LOCK" 2>/dev/null; then
   else echo "another run is active; exiting"; exit 0; fi
 fi
 trap 'rm -rf "$LOCK"' EXIT
+rm -f ".run/problems_$RUN.jsonl" ".run/agent_limited_$RUN"   # a 2nd run in the same hour starts clean
 
 fail() {
   echo "FAILED at: $1"
