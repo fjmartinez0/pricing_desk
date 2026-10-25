@@ -1,0 +1,58 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/ClickHouse/All changes/Starting prices removed
+C
+ClickHousePricing change · Price hidden · Oct 5 → Oct 12, 2026
+ClickHouse hides starting prices on plan cards, drops Basic's $53 entry point
+Verified Oct 12, 2026·Data & Analytics·Direction: down
+The changeStarting prices — removed.
+Before · Oct 5starting prices
+After · Oct 12No starting prices
+removed
+1 change·2 captures·Oct 5, 2026 → Oct 12, 2026
+What happened
+Between the Oct 5, 2026 and Oct 12, 2026 captures of ClickHouse's pricing page, Pulse recorded one change: Plan cards no longer show starting prices (Basic From $53, Scale From $437, Enterprise From $571 per month) or the Most popular badge; only per-unit storage/compute rates remain. Pulse files it as a pricing change (price hidden) with a downward direction. The current page lists Basic at $35.33 per TB + $0.22 per TB and Scale at $0.69 per TB + $47.1 per TB.
+It lands 7 days after ClickHouse's previous change, "ClickHouse adds headline plan prices from $53 to $571 per month" (Oct 5, 2026). ClickHouse has been tracked since 2026-05-15.
+In the same window Datadog, Elastic, Quest Software, Grafana and Splunk also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Basic, Scale, Enterprise · Price visibilityRemoved
+starting prices→No starting prices
+Plan
+Field
+Before
+After
+Change
+Basic, Scale, Enterprise
+Price visibility
+starting prices
+No starting prices
+Removed
+Values as written on ClickHouse's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of ClickHouse's pricing page (clickhouse.com) from Oct 5, 2026 and Oct 12, 2026; the change is marked near the top of the page, where the starting prices no longer appears.
+Oct 5, 2026 · starting prices
+Oct 12, 2026 · No starting prices
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+ClickHouse, the last 90 days
+Full history
+Oct 12, 2026packagingClickHouse hides starting prices on plan cards, drops Basic's $53 entry point · this change
+Oct 5, 2026packagingClickHouse adds headline plan prices from $53 to $571 per month
+Across Data & Analytics in the same window
+All Data & Analytics changes
+DatadogOct 12Datadog bundles on-prem Sensitive Data Scanner at no e...
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+Quest SoftwareAug 17Quest Software catalog grows to 20 items with Change Auditor, GPOADmin, KACE Cloud
+GrafanaAug 17Grafana: Logs Query price hidden from Pro plan card ($0.003/GB)
+SplunkJul 20Splunk: removed "Activity-based pricing" model
+Questions about this change
+Did ClickHouse raise prices in October 2026?
+No list-price increase was recorded between Oct 5, 2026 and Oct 12, 2026. The change Pulse detected was a pricing change: price hidden.
+What changed on ClickHouse's pricing page between Oct 5, 2026 and Oct 12, 2026?
+Basic, Scale, Enterprise price visibility: starting prices → No starting prices, removed. Pulse compared the captures it took on Oct 5, 2026 and Oct 12, 2026; the before/after table above lists each item as written on the page.
+How often does ClickHouse change its pricing?
+Pulse recorded 1 other pricing-page change for ClickHouse in the 90 days before this one; the previous change was "ClickHouse adds headline plan prices from $53 to $571 per month" on Oct 5, 2026; ClickHouse has been tracked since 2026-05-15.

@@ -1,0 +1,71 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/MotherDuck/All changes/Bring Your Own Compute added
+M
+MotherDuckPackaging change · Feature added · Add-on change · Sep 28 → Oct 5, 2026
+MotherDuck splits Flights into F4, F16, F32 tiers, starting at $0.15/hr
+Verified Oct 5, 2026·Data & Analytics·Direction: up
+The changeBring Your Own Compute — added.
+Before · Sep 28No Bring Your Own Compute
+After · Oct 5Bring Your Own Compute
+added
+2 changes·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of MotherDuck's pricing page, Pulse recorded 2 changes: Flights pricing changed from a flat $0.60/hr rate to size-based tiers: F4 $0.15/hr, F16 $0.60/hr (Lite needs credit card), F32 $1.20/hr; Lite gets 30 min/day free on F4; Enterprise plan now lists Bring Your Own Compute (BYOC), available on request. Pulse files it as a packaging change (feature added, add-on change) with an upward direction. The current page lists Business at $250 and Lite at $0.15 per F4 compute hour + $1 per AI unit.
+It lands 18 days after MotherDuck's previous change, "MotherDuck: AWS Marketplace purchasing option added for Enterprise" (Sep 17, 2026). Before that Pulse recorded "MotherDuck adds cloud/support pricing toggle, Business RBAC custom roles, tab" (Aug 24, 2026), "MotherDuck adds IP allowlisting to Enterprise plan for network security" (Aug 17, 2026) and "MotherDuck: Giga instance price cut $36/hr → $24/hr" (Aug 11, 2026). MotherDuck has been tracked since 2026-06-25.
+In the same window ClickHouse, Snowflake and Firebolt also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Enterprise · FeatureAdded
+BeforeNo Bring Your Own Compute
+AfterBring Your Own Compute
+Lite · Add-onChanged
+a flat $0.60/hr rate→size-based tiers
+Plan
+Field
+Before
+After
+Change
+Enterprise
+Feature
+No Bring Your Own Compute
+Bring Your Own Compute
+Added
+Lite
+Add-on
+a flat $0.60/hr rate
+size-based tiers
+Changed
+Values as written on MotherDuck's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of MotherDuck's pricing page (motherduck.com) from Sep 28, 2026 and Oct 5, 2026; the change is marked near the top of the page, where Bring Your Own Compute now appears.
+Sep 28, 2026 · No Bring Your Own Compute
+Oct 5, 2026 · Bring Your Own Compute
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+MotherDuck, the last 90 days
+Full history
+Oct 5, 2026improvedMotherDuck splits Flights into F4, F16, F32 tiers, starting at $0.15/hr · this change
+Sep 17, 2026improvedMotherDuck: AWS Marketplace purchasing option added for Enterprise
+Aug 24, 2026packagingMotherDuck adds cloud/support pricing toggle, Business RBAC custom roles, tab...
+Aug 17, 2026improvedMotherDuck adds IP allowlisting to Enterprise plan for network security
+Aug 11, 2026decreaseMotherDuck: Giga instance price cut $36/hr → $24/hr
+Jul 27, 2026improvedMotherDuck: Role-Based Access Control added across all plans
+Jul 13, 2026improvedMotherDuck adds Iceberg Catalog Support, enabling read/write via REST catalogs
+Across Data & Analytics in the same window
+All Data & Analytics changes
+ClickHouseOct 5ClickHouse adds headline plan prices from $53 to $571 per month
+SnowflakeAug 11Snowflake: default pricing hidden — now requires platform/region selection
+ClickHouseOct 12ClickHouse hides starting prices on plan cards, drops Basic's $53 entry point
+FireboltJul 6Firebolt: static pricing table replaced by interactive Engine Calculator (Arm hardware, S rate $1.84→$0.92/hr)
+SnowflakeJul 4Snowflake: Free trial reassurance messaging removed from pricing page
+Questions about this change
+Did MotherDuck raise prices in October 2026?
+No list-price increase was recorded between Sep 28, 2026 and Oct 5, 2026. The change Pulse detected was a packaging change: feature added, add-on change.
+What changed on MotherDuck's pricing page between Sep 28, 2026 and Oct 5, 2026?
+Enterprise feature: No Bring Your Own Compute → Bring Your Own Compute, added; Lite add-on: a flat $0.60/hr rate → size-based tiers, changed. Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does MotherDuck change its pricing?
+Pulse recorded 6 other pricing-page changes for MotherDuck in the 90 days before this one; the previous change was "MotherDuck: AWS Marketplace purchasing option added for Enterprise" on Sep 17, 2026; MotherDuck has been tracked since 2026-06-25.

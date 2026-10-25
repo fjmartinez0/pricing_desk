@@ -56,8 +56,13 @@ step "3 agent"
 if has "proposals/$RUN.input.json" changes; then
   agent agent/changes_prompt.md "proposals/$RUN.input.json" "proposals/$RUN.changes.json"
 fi
-if python3 scripts/prepare_reports.py; then     # PricingSaaS diff pages waiting for a decision
-  agent agent/reports_prompt.md "proposals/$RUN.reports_input.json" "proposals/$RUN.reports.json"
+if python3 scripts/prepare_reports.py; then     # PricingSaaS diff pages waiting for a decision, in parts
+  n=0
+  while [ -f "proposals/$RUN.reports_input.$n.json" ]; do
+    agent agent/reports_prompt.md "proposals/$RUN.reports_input.$n.json" "proposals/$RUN.reports.$n.json"
+    n=$((n + 1))
+  done
+  python3 scripts/prepare_reports.py --merge
 fi
 if python3 scripts/prepare_registry.py; then   # until every company has a pricing URL
   agent agent/registry_prompt.md ".run/registry_todo_$RUN.json" "proposals/$RUN.registry.json"

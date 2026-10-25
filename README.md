@@ -20,7 +20,7 @@ and in GitHub Actions) stop anything broken from going live.
 launchd → scripts/run_daily.sh
   1 pull, snapshot desk.json        6 recheck.py      quotes and news numbers checked online
   2 capture.py   pricing pages      7 validate.py     integrity rules (abort + alert)
-  2b pricingsaas_capture.py  PricingSaaS briefings + weekly reviews → data/reports.json
+  2b pricingsaas_capture.py  PricingSaaS briefings, move explorer (/feed), weekly reviews → data/reports.json
   3 Claude       changes / reports / registry / edition (writes proposals/ only)
   4 coverage_check.py (quiet alerts) 8 stamp, commit, push → GitHub Actions validates and deploys
   5 apply_proposals.py (the rules)  9 notify.py       iPhone alerts

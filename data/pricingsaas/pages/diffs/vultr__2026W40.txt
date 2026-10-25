@@ -1,0 +1,58 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Vultr/All changes/System RAM allocation changed
+V
+VultrPackaging change · Limit decrease · Sep 21 → Sep 28, 2026
+Vultr: NVIDIA A16 2-GPU tier RAM cut 128GB→120GB
+Verified Sep 28, 2026·Cloud & DevOps·Direction: down
+The changesystem RAM allocation — changed.
+Before · Sep 21128GB
+After · Sep 28120GB
+changed
+1 change·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Vultr's pricing page, Pulse recorded one change: NVIDIA A16 Cloud GPU 2-GPU tier included RAM reduced from 128GB to 120GB; storage, bandwidth, and price ($0.942/hr) unchanged. In detail: NVIDIA A16 Cloud GPU (2 GPU / 32GB GPU RAM / 12 vCPUs tier) system RAM allocation reduced from 128GB to 120GB; storage, bandwidth, and price ($0.942/hr) unchanged. Pulse files it as a packaging change (limit decrease) with a downward direction. Pulse's latest capture (Oct 19, 2026) lists Load Balancers at $10, Global Load Balancers at $10, CDN at $10, Cloud Compute Regular Performance at $2.5 per month and Object Storage Archival at $6 per TB per month.
+It lands 54 days after Vultr's previous change, "Vultr: new Audit Logs add-on ($0.50/GB ingestion + $0.01/GB/mo retention)" (Aug 5, 2026). Vultr has been tracked since 2026-05-16.
+In the same window Digitalocean, Google Cloud, OVHcloud and Scale also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Cloud GPU · LimitChanged
+128GB→120GB
+Plan
+Field
+Before
+After
+Change
+Cloud GPU
+Limit
+128GB
+120GB
+Changed
+Values as written on Vultr's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Vultr's pricing page (www.vultr.com) from Sep 21, 2026 and Sep 28, 2026; the change is marked around the middle of the page, where "128GB" becomes "120GB".
+Sep 21, 2026 · 128GB
+Sep 28, 2026 · 120GB
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Vultr, the last 90 days
+Full history
+Oct 19, 2026packagingVultr drops 4x and 8x NVIDIA A16 GPU tiers, jumping from 2x straight to 16x
+Sep 28, 2026packagingVultr: NVIDIA A16 2-GPU tier RAM cut 128GB→120GB · this change
+Aug 5, 2026packagingVultr: new Audit Logs add-on ($0.50/GB ingestion + $0.01/GB/mo retention)
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+DigitaloceanSep 28Digitalocean launches AI Harness Runtime and Action Gateway pricing tiers
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+OVHcloudSep 14OVHcloud Publiccloud: AI GPU resource unit quota doubled (4→8)
+ScaleAug 28Scale rebrands GenAI Platform to GenAI Portfolio; no pricing or feature changes
+Questions about this change
+Did Vultr raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: limit decrease.
+What changed on Vultr's pricing page between Sep 21, 2026 and Sep 28, 2026?
+Cloud GPU limit: 128GB → 120GB, changed. Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Vultr change its pricing?
+Pulse recorded 1 other pricing-page change for Vultr in the 90 days before this one; the previous change was "Vultr: new Audit Logs add-on ($0.50/GB ingestion + $0.01/GB/mo retention)" on Aug 5, 2026; Vultr has been tracked since 2026-05-16.

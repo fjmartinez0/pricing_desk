@@ -1,0 +1,63 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Postman/All changes/Context Graph usage rows added
+P
+PostmanPackaging change · New add-on · Sep 21 → Sep 28, 2026
+Postman: Context Graph usage add-on introduced
+Verified Sep 28, 2026·Software Development & Testing·Direction: up
+The changeContext Graph usage rows — added.
+Before · Sep 21No Context Graph usage rows
+After · Sep 28Context Graph usage rows
+added
+1 change·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Postman's pricing page, Pulse recorded one change: New Context Graph rows added to comparison table — free ingestion/24hr refresh on all plans; metered API queries at 1,000/mo free on Free tier and 5,000/mo on Solo/Team/Enterprise, then $0.01/query overage on all plans. In detail: New Context Graph usage rows added to the comparison table: free ingestion/24hr refresh on all plans, plus metered API queries (1,000/mo free tier, 5,000/mo on paid tiers) with $0.01/query overage. Pulse files it as a packaging change (new add-on) with an upward direction. The current page lists Solo at $9, Team at $19, Enterprise at $0.04 per AI credit + $0.04 per VuH (cloud performance testing) and Simple Security at $6.
+It lands 5 days after Postman's previous change, "Postman adds free Context Graph tracking, metered API query overages" (Sep 23, 2026). Before that Pulse recorded "Postman hides $49/user Enterprise price behind Contact Sales, drops AWS buy" (Sep 21, 2026), "Postman pulls $49 Enterprise pricing, moves plan behind contact sales" (Sep 19, 2026) and "Postman adds Cloud performance testing ($0.04/VuH)" (Aug 31, 2026). Postman has been tracked since 2024-10-01.
+In the same window Konghq also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+All plans · Add-onAdded
+BeforeNo Context Graph usage rows
+AfterContext Graph usage rows
+Plan
+Field
+Before
+After
+Change
+All plans
+Add-on
+No Context Graph usage rows
+Context Graph usage rows
+Added
+Values as written on Postman's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Postman's pricing page (postman.com) from Sep 21, 2026 and Sep 28, 2026; the change is marked near the top of the page, where Context Graph usage rows now appears.
+Sep 21, 2026 · No Context Graph usage rows
+Sep 28, 2026 · Context Graph usage rows
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Postman, the last 90 days
+Full history
+Sep 28, 2026packagingPostman: Context Graph usage add-on introduced · this change
+Sep 23, 2026improvedPostman adds free Context Graph tracking, metered API query overages
+Sep 21, 2026packagingPostman hides $49/user Enterprise price behind Contact Sales, drops AWS buy
+Sep 19, 2026packagingPostman pulls $49 Enterprise pricing, moves plan behind contact sales
+Aug 31, 2026improvedPostman adds Cloud performance testing ($0.04/VuH)
+Aug 29, 2026packagingPostman unbundles cloud load testing into a $0.04/VuH usage-based add-on
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+KonghqJul 3Kong: AI Gateway A2A traffic added to Plus; Paid Plugins/Manager now included in Enterprise
+KonghqJul 2Konghq Insomnia bundles AI Gateway add-ons into Enterprise plan at no extra cost
+KonghqOct 5Konghq Plus now starts at $25/month plus usage, drops free trial card
+KonghqMar 17Konghq launches Kong Identity with $30 per million token pricing
+KonghqJan 21Konghq Introduces Dedicated Cloud Gateways Pricing and Expands Access to Plus Tier, Enhancing Accessibility for Users
+Questions about this change
+Did Postman raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: new add-on.
+What changed on Postman's pricing page between Sep 21, 2026 and Sep 28, 2026?
+All plans add-on: No Context Graph usage rows → Context Graph usage rows, added. Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Postman change its pricing?
+Pulse recorded 5 other pricing-page changes for Postman in the 90 days before this one; the previous change was "Postman adds free Context Graph tracking, metered API query overages" on Sep 23, 2026; Postman has been tracked since 2024-10-01.

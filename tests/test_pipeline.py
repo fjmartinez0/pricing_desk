@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import shutil
 import sys
 import tempfile
@@ -209,6 +210,125 @@ class PricingSaaSPages(unittest.TestCase):
         q["reports"][0]["status"] = "done"
         c = ps.queue_report(q, "https://pricingsaas.com/companies/shopify/diffs/2026D289", "f3", [], "t", "r3")
         self.assertEqual(c, "shopify:2026-W43#2")    # after the decision: a follow-up report
+
+
+class PricingSaaSFeed(unittest.TestCase):
+    """The move explorer (/feed): every row comes from the embedded data, not only the 50 the table shows."""
+
+    def setUp(self):
+        self.html = (FIX / "ps_feed.html").read_text()
+        self.tmp = Path(tempfile.mkdtemp())
+        self._saved = ps.PS_DIR
+        ps.PS_DIR = self.tmp
+
+    def tearDown(self):
+        ps.PS_DIR = self._saved
+        shutil.rmtree(self.tmp)
+
+    def test_rows_from_embedded_data(self):
+        rows = ps.feed_rows(self.html)
+        self.assertEqual([r["slug"] for r in rows], ["example", "sample.api"])   # bad slug dropped, duplicate once
+        self.assertEqual(rows[0]["detail"], 'Example Co raises Pro from $10 to "$12"')
+        self.assertNotIn("logo", rows[0])
+
+    def test_links_rows_first_then_markup(self):
+        self.assertEqual(ps.feed_links(self.html), [
+            "https://pricingsaas.com/companies/example/diffs/2026W43",
+            "https://pricingsaas.com/companies/sample.api/diffs/2026W43",
+            "https://pricingsaas.com/companies/other/diffs/2026W43"])
+
+    def test_row_list_is_kept_and_merged(self):
+        rows = ps.feed_rows(self.html)
+        self.assertEqual(ps.save_feed_rows(rows[:1]), {"2026W43": 1})
+        self.assertEqual(ps.save_feed_rows(rows), {"2026W43": 2})
+        self.assertEqual(ps.save_feed_rows(rows), {"2026W43": 2})          # reading it again adds nothing
+
+    def test_page_without_data(self):
+        self.assertEqual(ps.feed_rows("<html><body>Sign in</body></html>"), [])
+
+    TABLE = ('<table><tr data-slot="table-row"><td><time datetime="2026-09-14T01:15:22+00:00">Sep 14, 2026</time></td>'
+             '<td><span><div>C<img src="x.png" alt="Casemark &amp; Co"></div>Casemark</span></td>'
+             '<td><span>●</span><span>Limit increase +2</span></td><td>Casemark reveals $200/user pricing</td>'
+             '<td>—</td><td><a href="/companies/casemark/diffs/2026W38">View</a></td></tr>'
+             '<tr data-slot="table-row"><td>x</td><td>Example Co</td><td>Price increase</td><td>dup of the data row</td>'
+             '<td>$10 → $12</td><td><a href="/companies/example/diffs/2026W43">View</a></td></tr></table>')
+
+    def test_table_rows_from_saved_full_history(self):
+        rows = ps.table_rows(self.TABLE)
+        self.assertEqual(rows[0], {"at": "2026-09-14T01:15:22+00:00", "company": "Casemark & Co", "slug": "casemark",
+                                   "period": "2026W38", "change": "Limit increase +2",
+                                   "detail": "Casemark reveals $200/user pricing", "move": "", "category": None, "url": None})
+        both = ps.all_feed_rows(self.html + self.TABLE)
+        self.assertEqual([(r["slug"], r["period"]) for r in both],
+                         [("example", "2026W43"), ("sample.api", "2026W43"), ("casemark", "2026W38")])
+        self.assertEqual(both[0]["category"], "Developer Tools")      # the embedded row wins
+
+    def test_manual_import_waits_for_a_running_run(self):
+        saved = ps.RUN
+        ps.RUN = self.tmp / ".run"
+        try:
+            (ps.RUN / "lock").mkdir(parents=True)
+            argv, sys.argv = sys.argv, ["pricingsaas_capture.py", "--feed-file", str(FIX / "ps_feed.html")]
+            try:
+                self.assertEqual(ps.main(), 1)
+            finally:
+                sys.argv = argv
+            self.assertTrue((ps.RUN / "lock").exists())                # the run's lock is left alone
+        finally:
+            ps.RUN = saved
+
+
+class ReportParts(unittest.TestCase):
+    """Reports go to the agent in parts; only answered parts count (D46)."""
+
+    def setUp(self):
+        import prepare_reports as pr
+        self.pr = pr
+        self.tmp = Path(tempfile.mkdtemp())
+        (self.tmp / "proposals").mkdir()
+        self._saved = (pr.PROPOSALS, pr.REPORTS, pr.REGISTRY, pr.RUN, pr.REPORTS_BATCH, pr.REPORTS_PARTS,
+                       common.RUN, common.CHECKS, os.environ.get("PD_RUN_ID"))
+        pr.PROPOSALS, pr.REPORTS, pr.REGISTRY = self.tmp / "proposals", self.tmp / "reports.json", self.tmp / "registry.json"
+        pr.RUN = common.RUN = self.tmp / ".run"
+        common.CHECKS = self.tmp / "checks.jsonl"
+        pr.REPORTS_BATCH, pr.REPORTS_PARTS = 2, 2
+        os.environ["PD_RUN_ID"] = "2026-10-26T07"
+        common.save_json(pr.REGISTRY, {"companies": {}})
+        common.save_json(pr.REPORTS, {"reports": [
+            {"report_id": f"c{i}:2026-W43", "ps_slug": f"c{i}", "week": "2026-W43", "change_date": None,
+             "urls": [], "files": [], "article_files": [], "title": "", "status": "todo"} for i in range(5)]})
+
+    def tearDown(self):
+        pr = self.pr
+        (pr.PROPOSALS, pr.REPORTS, pr.REGISTRY, pr.RUN, pr.REPORTS_BATCH, pr.REPORTS_PARTS,
+         common.RUN, common.CHECKS, rid) = self._saved
+        if rid is None:
+            os.environ.pop("PD_RUN_ID", None)
+        else:
+            os.environ["PD_RUN_ID"] = rid
+        shutil.rmtree(self.tmp)
+
+    def test_split_and_merge_answered_parts_only(self):
+        pr, P = self.pr, self.tmp / "proposals"
+        self.assertEqual(pr.main([]), 0)
+        parts = sorted(f.name for f in P.glob("*.reports_input.*.json"))
+        self.assertEqual(parts, ["2026-10-26T07.reports_input.0.json", "2026-10-26T07.reports_input.1.json"])
+        first = [r["report_id"] for r in common.load_json(P / parts[0])["reports"]]
+        common.save_json(P / "2026-10-26T07.reports.0.json",
+                         {"type": "reports", "items": [{"report_id": first[0], "kind": "wording"}]})
+        (P / "2026-10-26T07.reports.1.json").write_text("{not json")
+        self.assertEqual(pr.main(["--merge"]), 0)
+        handed = [r["report_id"] for r in common.load_json(P / "2026-10-26T07.reports_input.json")["reports"]]
+        self.assertEqual(handed, first)                   # part 1 was not answered: it costs no attempt
+        self.assertEqual(len(common.load_json(P / "2026-10-26T07.reports.json")["items"]), 1)
+        self.assertEqual(sorted(f.name for f in P.iterdir()),
+                         ["2026-10-26T07.reports.json", "2026-10-26T07.reports_input.json"])
+
+    def test_nothing_answered_writes_nothing(self):
+        pr, P = self.pr, self.tmp / "proposals"
+        pr.main([])
+        pr.main(["--merge"])
+        self.assertEqual(list(P.iterdir()), [])
 
 
 class Reports(unittest.TestCase):

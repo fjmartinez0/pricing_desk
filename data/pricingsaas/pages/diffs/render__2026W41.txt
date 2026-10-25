@@ -1,0 +1,63 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Render/All changes/Price cut 37%
+R
+RenderPricing change · Price decrease · Limit decrease · Sep 28 → Oct 5, 2026
+Render Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved
+Verified Oct 5, 2026·Software Development & Testing·Direction: down
+The changePrice — price decrease.
+Before · Sep 28$32
+After · Oct 5$20/month
+−37%
+2 changes·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of Render's pricing page, Pulse recorded 2 changes: Render Key Value (Redis-compatible) compute tiers repriced and restructured: 1 GB RAM cut from $32 to $20/month, 5 GB from $135 to $100, 10 GB from $250 to $200, 20 GB from $550 to $350, 40 GB from $1,100 to $600; new 3 GB ($60) and 50 GB ($750) tiers added; table now lists storage and CPU per tier, and connection limits reduced on the 256 MB (250→200) and 1 GB (1,000→250) tiers; Workflows max compute reduced from 8 CPU/32 GB RAM to 4 CPU/16 GB (8c-32g $2.50/hour option removed); Render Key Value max RAM raised from 40 GB to 50 GB. Pulse files it as a pricing change (price decrease, limit decrease) with a downward direction. The current page lists Pro at $25, Scale at $499, Postgres - Pro 4GB at $55, Postgres - Pro 16GB at $200 and Postgres - Pro 64GB at $800.
+It lands 7 days after Render's previous change, "Render: Workflows compute doubles to 8 CPU / 32 GB RAM" (Sep 28, 2026). Render has been tracked since 2024-10-01.
+In the same window Digitalocean, Railway and Google Cloud also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · Price−37%
+$32→$20/month
+— · Limit+25%
+40 GB→50 GB
+Plan
+Field
+Before
+After
+Change
+—
+Price
+$32
+$20/month
+−37%
+—
+Limit
+40 GB
+50 GB
++25%
+Values as written on Render's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Render's pricing page (render.com) from Sep 28, 2026 and Oct 5, 2026; the change is marked near the top of the page, where price reads $32 and then $20/month.
+Sep 28, 2026 · Price at $32
+Oct 5, 2026 · Price at $20/month
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Render, the last 90 days
+Full history
+Oct 5, 2026decreaseRender Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved · this change
+Sep 28, 2026improvedRender: Workflows compute doubles to 8 CPU / 32 GB RAM
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+DigitaloceanSep 28Digitalocean launches AI Harness Runtime and Action Gateway pricing tiers
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+Questions about this change
+Did Render raise prices in October 2026?
+No — prices went down. Between Sep 28, 2026 and Oct 5, 2026 Render's pricing page showed 1 price cut: $32 → $20/month (−37%).
+What changed on Render's pricing page between Sep 28, 2026 and Oct 5, 2026?
+Price: $32 → $20/month (−37%); limit: 40 GB → 50 GB (+25%). Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does Render change its pricing?
+Pulse recorded 1 other pricing-page change for Render in the 90 days before this one; the previous change was "Render: Workflows compute doubles to 8 CPU / 32 GB RAM" on Sep 28, 2026; Render has been tracked since 2024-10-01.

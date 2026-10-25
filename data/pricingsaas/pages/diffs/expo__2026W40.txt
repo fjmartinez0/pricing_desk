@@ -1,0 +1,60 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Expo/All changes/Starter, Production, Enterprise limit raised 900%
+E
+ExpoPackaging change · Limit increase · Sep 21 → Sep 28, 2026
+Expo raises Hosting subrequest limit 10x to 10,000 on all paid plans
+Verified Sep 28, 2026·Software Development & Testing·Direction: up
+The changeStarter, Production, Enterprise limit — limit increase.
+Before · Sep 211,000
+After · Sep 2810,000 per request
++900%
+1 change·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Expo's pricing page, Pulse recorded one change: Hosting 'Subrequests' limit increased from 1,000 to 10,000 per request for Starter, Production, and Enterprise plans; Free plan's limit of 10 is unchanged. Pulse files it as a packaging change (limit increase) with an upward direction. Pulse's latest capture (Oct 19, 2026) lists Starter at $19 and Production at $199.
+It lands 49 days after Expo's previous change, "Expo: Hosting Aliases limit cut to 200 (was Unlimited)" (Aug 10, 2026). Before that Pulse recorded "Expo: Observe moves from free beta to paid usage-based pricing (Aug 20, 2026)" (Jul 27, 2026). Expo has been tracked since 2026-06-19.
+In the same window GitHub, Unity, Stedi and Spline also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Starter, Production, Enterprise · Limit+900%
+1,000→10,000 per request
+Plan
+Field
+Before
+After
+Change
+Starter, Production, Enterprise
+Limit
+1,000
+10,000 per request
++900%
+Values as written on Expo's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Expo's pricing page (expo.dev) from Sep 21, 2026 and Sep 28, 2026; the change is marked in the lower part of the page, where starter, production, enterprise limit reads 1,000 and then 10,000 per request.
+Sep 21, 2026 · Starter, Production, Enterprise limit at 1,000
+Sep 28, 2026 · Starter, Production, Enterprise limit at 10,000 per request
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Expo, the last 90 days
+Full history
+Oct 19, 2026improvedExpo quintuples free build concurrency to 5, lifts Enterprise cap to 20
+Sep 28, 2026improvedExpo raises Hosting subrequest limit 10x to 10,000 on all paid plans · this change
+Aug 10, 2026packagingExpo: Hosting Aliases limit cut to 200 (was Unlimited)
+Jul 27, 2026packagingExpo: Observe moves from free beta to paid usage-based pricing (Aug 20, 2026)
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+GitHubOct 19GitHub renames Copilot secret scanning, adds AI push protection detection
+UnityOct 19Unity Asset Manager storage overage set at $0.75/GB across all plans
+UnityOct 19Unity adds $0.75/GB Asset Manager storage fee across all four plans
+StediOct 19Stedi rebrands AI features as Stedi Agent, prices hold steady
+SplineOct 19Spline sets daily MCP call caps: Free 20, Hobby 100, Pro 200, Max 400
+Questions about this change
+Did Expo raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: limit increase.
+What changed on Expo's pricing page between Sep 21, 2026 and Sep 28, 2026?
+Starter, Production, Enterprise limit: 1,000 → 10,000 per request (+900%). Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Expo change its pricing?
+Pulse recorded 2 other pricing-page changes for Expo in the 90 days before this one; the previous change was "Expo: Hosting Aliases limit cut to 200 (was Unlimited)" on Aug 10, 2026; Expo has been tracked since 2026-06-19.

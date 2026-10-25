@@ -1,0 +1,57 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Neo4j/All changes/AuraDB Business Critical's maximum memory on GCP changed
+N
+Neo4jPackaging change · Limit increase · Sep 28 → Oct 5, 2026
+Neo4j boosts AuraDB Business Critical to 2TB memory per instance on GCP
+Verified Oct 5, 2026·Data & Analytics·Direction: up
+The changeAuraDB Business Critical's maximum memory on GCP — changed.
+Before · Sep 281944GB
+After · Oct 52TB per instance
+changed
+1 change·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of Neo4j's pricing page, Pulse recorded one change: AuraDB Business Critical's maximum memory on GCP increased from 1944GB to 2TB per instance (AWS & Azure max unchanged at 512GB). Pulse files it as a packaging change (limit increase) with an upward direction. The current page lists AuraDS Professional at $65, AuraDB Professional at $65, AuraDB Business Critical at $146 and Aura Graph Analytics at $0.4 per GB/hour.
+It lands 98 days after Neo4j's previous change, "Neo4j renames Bloom to Enterprise Studio across product line" (Jun 29, 2026). Before that Pulse recorded "Neo4j expands GCP max memory to 1944GB for enterprise cloud" (May 19, 2026). Neo4j has been tracked since 2026-04-29.
+In the same window Google Cloud and DataStax also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+GCP · LimitChanged
+1944GB→2TB per instance
+Plan
+Field
+Before
+After
+Change
+GCP
+Limit
+1944GB
+2TB per instance
+Changed
+Values as written on Neo4j's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Neo4j's pricing page (neo4j.com) from Sep 28, 2026 and Oct 5, 2026; the change is marked near the top of the page, where "1944GB" becomes "2TB per instance".
+Sep 28, 2026 · 1944GB
+Oct 5, 2026 · 2TB per instance
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Neo4j, pricing history
+Full history
+Oct 5, 2026improvedNeo4j boosts AuraDB Business Critical to 2TB memory per instance on GCP · this change
+Jun 29, 2026packagingNeo4j renames Bloom to Enterprise Studio across product line
+May 19, 2026improvedNeo4j expands GCP max memory to 1944GB for enterprise cloud
+Across Data & Analytics in the same window
+All Data & Analytics changes
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+DataStaxAug 10watsonx.data: ML/GenAI workflow swapped from Milvus to OpenRAG (agentic RAG)
+Google CloudSep 21Google Cloud Looker scraps Sept 30 deadline, extends free CA access indefinitely
+Questions about this change
+Did Neo4j raise prices in October 2026?
+No list-price increase was recorded between Sep 28, 2026 and Oct 5, 2026. The change Pulse detected was a packaging change: limit increase.
+What changed on Neo4j's pricing page between Sep 28, 2026 and Oct 5, 2026?
+GCP limit: 1944GB → 2TB per instance, changed. Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does Neo4j change its pricing?
+Pulse recorded 0 other pricing-page changes for Neo4j in the 90 days before this one; the previous change was "Neo4j renames Bloom to Enterprise Studio across product line" on Jun 29, 2026; Neo4j has been tracked since 2026-04-29.

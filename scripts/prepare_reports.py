@@ -3,12 +3,22 @@
 Each report comes with a guess at the matching registry company and the records we already have for
 that company and week, so the agent can map the company and avoid duplicates.
 
-Writes proposals/<run>.reports_input.json (committed for audit). Exit code 0 = there is work, 10 = nothing to do.
+The queue is split into parts of REPORTS_BATCH reports, at most REPORTS_PARTS per run, one agent call each
+(a backfill drains faster while each call stays small):
+  prepare_reports.py           writes proposals/<run>.reports_input.<n>.json; exit 0 = work, 10 = nothing to do
+  (run_daily.sh runs the agent on each part → proposals/<run>.reports.<n>.json)
+  prepare_reports.py --merge   joins the parts the agent answered into proposals/<run>.reports_input.json and
+                               proposals/<run>.reports.json (what apply_proposals.py reads), then removes the parts.
+A part the agent did not answer (usage limit, invalid JSON) is left out of both files, so its reports cost no
+attempt and simply wait for the next run (D46).
 """
 from __future__ import annotations
 
+import sys
+
 from apply_proposals import slugify
-from common import DESK, PROPOSALS, REGISTRY, REPORTS, REPORTS_BATCH, load_json, run_id, save_json
+from common import (DESK, PROPOSALS, REGISTRY, REPORTS, REPORTS_BATCH, REPORTS_PARTS, RUN, load_json, log,
+                    report_problem, run_id, save_json)
 
 NOTHING = 10
 
@@ -26,13 +36,57 @@ def guess_company(ps_slug: str, title: str, companies: dict) -> str | None:
     return None
 
 
-def main() -> int:
+def part_files(run: str) -> list[tuple[int, object, object]]:
+    """(n, input path, output path) of every part written for this run, in order."""
+    out = []
+    for f in sorted(PROPOSALS.glob(f"{run}.reports_input.*.json"), key=lambda f: int(f.name.split(".")[-2])):
+        n = int(f.name.split(".")[-2])
+        out.append((n, f, PROPOSALS / f"{run}.reports.{n}.json"))
+    return out
+
+
+def merge(run: str) -> int:
+    handed, items, missing = [], [], 0
+    for n, fin, fout in part_files(run):
+        part = load_json(fin, {}).get("reports", [])
+        try:
+            prop = load_json(fout)
+        except ValueError as e:
+            report_problem(f"{fout.name} is not valid JSON ({e}); its {len(part)} reports wait for the next run.", "merge")
+            prop = None
+        if isinstance(prop, dict) and prop.get("type") == "reports" and isinstance(prop.get("items"), list):
+            handed += part
+            items += prop["items"]
+        else:
+            missing += len(part)
+        fin.unlink()
+        if fout.exists():
+            fout.unlink()
+    if handed:
+        save_json(PROPOSALS / f"{run}.reports_input.json", {"run": run, "reports": handed})
+        save_json(PROPOSALS / f"{run}.reports.json", {"type": "reports", "run": run, "items": items})
+    if missing and not (RUN / f"agent_limited_{run}").exists():   # a usage limit has its own alert
+        report_problem(f"Agent wrote no decision for {missing} PricingSaaS reports; they wait for the next run.",
+                       "coverage")
+    log(f"reports: {len(handed)} handed and answered, {len(items)} decisions, {missing} waiting")
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    argv = sys.argv[1:] if argv is None else argv
+    run = run_id()
+    if "--merge" in argv:
+        return merge(run)
+    for _, fin, fout in part_files(run):     # a second run in the same hour starts clean (D47)
+        fin.unlink()
+        if fout.exists():
+            fout.unlink()
     reports = load_json(REPORTS, {"reports": []})
     todo = [r for r in reports["reports"] if r["status"] == "todo"]
     if not todo:
         return NOTHING
     todo.sort(key=lambda r: (r["week"], r["report_id"]), reverse=True)     # newest weeks first
-    batch = todo[:REPORTS_BATCH]
+    batch = todo[:REPORTS_BATCH * max(1, REPORTS_PARTS)]
     companies = load_json(REGISTRY)["companies"]
     desk = load_json(DESK)
     out = []
@@ -45,7 +99,10 @@ def main() -> int:
                     "title": r.get("title"), "registry_guess": guess,
                     "registry_name": companies[guess]["name"] if guess else None,
                     "existing_records": existing})
-    save_json(PROPOSALS / f"{run_id()}.reports_input.json", {"run": run_id(), "reports": out})
+    for n in range(0, len(out), REPORTS_BATCH):
+        save_json(PROPOSALS / f"{run}.reports_input.{n // REPORTS_BATCH}.json",
+                  {"run": run, "reports": out[n:n + REPORTS_BATCH]})
+    log(f"reports: {len(out)} of {len(todo)} waiting handed to the agent in {-(-len(out) // REPORTS_BATCH)} part(s)")
     save_json(REPORTS, reports)
     return 0
 

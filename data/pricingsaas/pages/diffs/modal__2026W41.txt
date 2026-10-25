@@ -1,0 +1,79 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Modal/All changes/Network Egress usage charge of $0.04/GiB added
+M
+ModalPackaging change · New add-on · Feature added · Feature change · Sep 28 → Oct 5, 2026
+Modal adds $0.04/GiB network egress fee, with up to 100 TiB free per plan
+Verified Oct 5, 2026·Cloud & DevOps·Direction: up
+The changeNetwork Egress usage charge of $0.04/GiB — added.
+Before · Sep 28Not listed
+After · Oct 5Network Egress usage charge of $0.04/GiB
+added
+3 changes·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of Modal's pricing page, Pulse recorded 3 changes: New Network Egress usage charge of $0.04/GiB added to resource costs, with included monthly egress per plan; Plans now include free monthly network egress: Starter 1 TiB, Team 10 TiB, Enterprise 100 TiB; Enterprise security bullet changed from 'SAML SSO' to 'Okta SSO' alongside audit logs and HIPAA. Pulse files it as a packaging change (new add-on, feature added, feature change) with an upward direction. The current page lists Team at $250, Compute resources at $1.1 NVIDIA A10G instance hour + $1.95 L40S GPU hour and Sandbox + Notebooks compute at $2.4 per 100 GiB-Hour + $14.19 per 100 core-hours.
+It lands 21 days after Modal's previous change, "Modal renames Enterprise SSO from Okta to standards-based SAML" (Sep 14, 2026). Before that Pulse recorded "Modal adds included token usage row, renames free credits to free compute" (Sep 12, 2026), "Modal swaps Okta SSO for SAML SSO in Enterprise audit logs bullet" (Sep 11, 2026) and "Modal cuts region surcharge floor to 1.15x, easing cross-region compute costs" (Sep 8, 2026). Modal has been tracked since 2023-11-14.
+In the same window Together AI and Lambda Labs also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · Add-onAdded
+BeforeNot listed
+AfterNetwork Egress usage charge of $0.04/GiB
+Starter, Team, Enterprise · FeatureAdded
+BeforeNo free monthly network egress
+Afterfree monthly network egress
+Enterprise · FeatureReworded
+SAML SSO→Okta SSO
+Plan
+Field
+Before
+After
+Change
+—
+Add-on
+Not listed
+Network Egress usage charge of $0.04/GiB
+Added
+Starter, Team, Enterprise
+Feature
+No free monthly network egress
+free monthly network egress
+Added
+Enterprise
+Feature
+SAML SSO
+Okta SSO
+Reworded
+Values as written on Modal's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Modal's pricing page (modal.com) from Sep 28, 2026 and Oct 5, 2026; the change is marked near the top of the page, where Network Egress usage charge of $0.04/GiB now appears.
+Sep 28, 2026 · Not listed
+Oct 5, 2026 · Network Egress usage charge of $0.04/GiB
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Modal, the last 90 days
+Full history
+Oct 5, 2026improvedModal adds $0.04/GiB network egress fee, with up to 100 TiB free per plan · this change
+Sep 14, 2026improvedModal renames Enterprise SSO from Okta to standards-based SAML
+Sep 12, 2026packagingModal adds included token usage row, renames free credits to free compute
+Sep 11, 2026improvedModal swaps Okta SSO for SAML SSO in Enterprise audit logs bullet
+Sep 8, 2026decreaseModal cuts region surcharge floor to 1.15x, easing cross-region compute costs
+Sep 3, 2026decreaseModal slashes region surcharge floor from 1.5x to 1.15x across all tiers
+Aug 10, 2026improvedModal: Added Environment-level budgets to Team and Enterprise plans
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Together AIOct 5Together AI adds Tev1 4B Experimental at $0.04 input with free output
+Lambda LabsJul 27Lambda Labs gates HGX B200 clusters behind sales, keeps $9.86–$8.87/hr rates
+Together AIOct 2Together AI adds Tev1 4B Experimental at $0.04 input with free output tokens
+Together AISep 25Together AI reveals NVIDIA HGX B300 pricing at $9.99/GPU/hr, $4.99 preemptible
+Together AISep 23Together AI cuts Qwen3.7-Max and Qwen3.8 Flash inference prices by 40%
+Questions about this change
+Did Modal raise prices in October 2026?
+No list-price increase was recorded between Sep 28, 2026 and Oct 5, 2026. The change Pulse detected was a packaging change: new add-on, feature added, feature change.
+What changed on Modal's pricing page between Sep 28, 2026 and Oct 5, 2026?
+Add-on: Not listed → Network Egress usage charge of $0.04/GiB, added; Starter, Team, Enterprise feature: No free monthly network egress → free monthly network egress, added; Enterprise feature: SAML SSO → Okta SSO, reworded. Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does Modal change its pricing?
+Pulse recorded 8 other pricing-page changes for Modal in the 90 days before this one; the previous change was "Modal renames Enterprise SSO from Okta to standards-based SAML" on Sep 14, 2026; Modal has been tracked since 2023-11-14.

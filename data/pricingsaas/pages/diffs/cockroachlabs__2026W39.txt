@@ -1,0 +1,63 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Cockroach Labs/All changes/Basic/Standard/Advanced → 2-edition 'Continuum' model
+C
+Cockroach LabsPackaging change · Package change · Metric change · Sep 14 → Sep 21, 2026
+Cockroach Labs kills free Basic in per-vCPU-hour Continuum overhaul
+Verified Sep 21, 2026·Data & Analytics·Direction: neutral
+The changeBasic/Standard/Advanced — replaced.
+Before · Sep 14Basic/Standard/Advanced
+After · Sep 212-edition 'Continuum' model
+replaced
+2 changes·2 captures·Sep 14, 2026 → Sep 21, 2026
+What happened
+Between the Sep 14, 2026 and Sep 21, 2026 captures of Cockroach Labs's pricing page, Pulse recorded 2 changes: CockroachDB replaced Basic/Standard/Advanced with a 2-edition 'Continuum' model (Standard, Mission Critical) billed per vCPU-hour. Free Basic removed; Advanced renamed Mission Critical, repriced; Compute/storage moved from fixed per-plan tier caps (up to 200 vCPUs, up to 3-10 TiB) to usage-based metering, and new explicit per-vCPU-hour pricing appeared for CDC, PCR, and Cluster Virtualization add. In detail: Compute/storage moved from fixed per-plan tier caps (up to 200 vCPUs, up to 3-10 TiB) to usage-based metering, and new explicit per-vCPU-hour pricing appeared for CDC, PCR, and Cluster Virtualization add-ons. Pulse files it as a packaging change (package change, metric change) with a neutral direction. The current page lists Standard at $0.09 per vCPU/hour, Mission Critical at $0.16 per vCPU/hour, Data Replication (PCR) at $0.02 per vCPU/hour, Data Synchronization (CDC) - Standard at $0.01 per vCPU/hour and Cluster Virtualization at $0.02 per vCPU/hour.
+This is the first pricing-page change Pulse has recorded for Cockroach Labs. Cockroach Labs has been tracked since 2026-05-21.
+In the same window Google Cloud, Microsoft, Elastic and MariaDB also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+“CockroachDB” is the name Cockroach Labs’s pricing page uses; Pulse files the change under Cockroach Labs, the company it tracks.
+Show more
+Standard, Mission Critical · PackagingReplaced
+BeforeBasic/Standard/Advanced
+After2-edition 'Continuum' model
+Cluster Virtualization · Pricing modelMetric change
+Compute/storage moved from fixed per-plan tier caps (up to 200 vCPUs, up to 3-10 TiB) to usage-based metering, and new explicit per-vCPU-hour pricing appeared for CDC, PCR, and Cluster Virtualization add-ons.
+Plan
+Field
+Before
+After
+Change
+Standard, Mission Critical
+Packaging
+Basic/Standard/Advanced
+2-edition 'Continuum' model
+Replaced
+Cluster Virtualization
+Pricing model
+—
+200
+Metric change
+Values as written on Cockroach Labs's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Cockroach Labs's pricing page (www.cockroachlabs.com) from Sep 14, 2026 and Sep 21, 2026; the change is marked near the top of the page, where "Basic/Standard/Advanced" becomes "2-edition 'Continuum' model".
+Sep 14, 2026 · Basic/Standard/Advanced
+Sep 21, 2026 · 2-edition 'Continuum' model
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for Cockroach Labs · Full history →
+Across Data & Analytics in the same window
+All Data & Analytics changes
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+MicrosoftSep 21Teams Premium now needs a Teams Enterprise license; Buy now removed
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+MariaDBAug 24MariaDB drops self-serve Community Server support, now Enterprise-only
+Questions about this change
+Did Cockroach Labs raise prices in September 2026?
+No list-price increase was recorded between Sep 14, 2026 and Sep 21, 2026. The change Pulse detected was a packaging change: package change, metric change.
+What changed on Cockroach Labs's pricing page between Sep 14, 2026 and Sep 21, 2026?
+Standard, Mission Critical packaging: Basic/Standard/Advanced → 2-edition 'Continuum' model, replaced; Compute/storage moved from fixed per-plan tier caps (up to 200 vCPUs, up to 3-10 TiB) to usage-based metering, and new explicit per-vCPU-hour pricing appeared for CDC, PCR, and Cluster Virtualization add-ons. Pulse compared the captures it took on Sep 14, 2026 and Sep 21, 2026; the before/after table above lists each item as written on the page.
+How often does Cockroach Labs change its pricing?
+Pulse recorded 0 other pricing-page changes for Cockroach Labs in the 90 days before this one; Cockroach Labs has been tracked since 2026-05-21.

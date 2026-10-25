@@ -1,0 +1,79 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Trunk/All changes/Rallelism controls and Slack channel/DM notifications flipped changed
+T
+TrunkPackaging change · Freemium change · Feature added · Feature removed · Sep 28 → Oct 5, 2026
+Trunk opens Merge Queue to Free plan, drops SOC 2 Type 2 from Free tier
+Verified Oct 5, 2026·Software Development & Testing·Direction: up
+The changerallelism controls and Slack channel/DM notifications flipped — changed.
+Before · Sep 28not included
+After · Oct 5included
+changed
+5 changes·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of Trunk's pricing page, Pulse recorded 5 changes: Code Quality section (CLI usage, VS Code usage, inline annotations on GitHub PRs) removed from the comparison table; it was included on Free, Team and Enterprise; Merge Queue now included on Free: GitHub integration & support, Multi-CI support, parallelism controls and Slack channel/DM notifications flipped from not included to included; SOC 2 Type 2 no longer included on Free; still included on. In detail: SOC 2 Type 2 no longer included on Free; still included on Team and Enterprise; New RBAC row in the Security section, included on Enterprise only; SAML row renamed Enterprise SSO (SAML, OIDC), adding OIDC support; Enterprise only. Pulse files it as a packaging change (freemium change, feature added, feature removed) with an upward direction. The current page lists Team at $18.
+This is the first pricing-page change Pulse has recorded for Trunk. Trunk has been tracked since 2026-07-05.
+In the same window Stripe also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · Free tierFreemium change
+SOC 2 Type 2 no longer included on Free; still included on Team and Enterprise.
+Enterprise · FeatureFeature added
+New RBAC row in the Security section, included on Enterprise only.
+Enterprise · FeatureFeature added
+SAML row renamed Enterprise SSO (SAML, OIDC), adding OIDC support; Enterprise only.
+Team, Enterprise · FeatureFeature removed
+Code Quality section (CLI usage, VS Code usage, inline annotations on GitHub PRs) removed from the comparison table; it was included on Free, Team and Enterprise.
+— · Free tierChanged
+not included→included
+Plan
+Field
+Before
+After
+Change
+—
+Free tier
+SOC 2 Type 2 no longer included on Free; still included on Team and Enterprise.
+Freemium change
+Enterprise
+Feature
+New RBAC row in the Security section, included on Enterprise only.
+Feature added
+Enterprise
+Feature
+SAML row renamed Enterprise SSO (SAML, OIDC), adding OIDC support; Enterprise only.
+Feature added
+Team, Enterprise
+Feature
+Code Quality section (CLI usage, VS Code usage, inline annotations on GitHub PRs) removed from the comparison table; it was included on Free, Team and Enterprise.
+Feature removed
+—
+Free tier
+not included
+included
+Changed
+Values as written on Trunk's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Trunk's pricing page (trunk.io) from Sep 28, 2026 and Oct 5, 2026; the change is marked around the middle of the page, where "not included" becomes "included".
+Sep 28, 2026 · not included
+Oct 5, 2026 · included
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for Trunk · Full history →
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+StripeOct 5Stripe adds card cashback to Treasury, launches $329 Reader T600
+StripeOct 1Stripe adds $329 Reader T600 to Terminal lineup, revamps Treasury perks
+StripeSep 28Stripe drops T600 reader, trims Terminal lineup to M2, S710, S700
+StripeSep 24Stripe drops T600 reader, trims lineup to M2, S710, and S700
+StripeAug 31Stripe: Metronome pricing restructured + new T600 reader ($329)
+Questions about this change
+Did Trunk raise prices in October 2026?
+No list-price increase was recorded between Sep 28, 2026 and Oct 5, 2026. The change Pulse detected was a packaging change: freemium change, feature added, feature removed.
+What changed on Trunk's pricing page between Sep 28, 2026 and Oct 5, 2026?
+SOC 2 Type 2 no longer included on Free; still included on Team and Enterprise; New RBAC row in the Security section, included on Enterprise only; SAML row renamed Enterprise SSO (SAML, OIDC), adding OIDC support; Enterprise only; Code Quality section (CLI usage, VS Code usage, inline annotations on GitHub PRs) removed from the comparison table; it was included on Free, Team and Enterprise; free tier: not included → included, changed. Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does Trunk change its pricing?
+Pulse recorded 0 other pricing-page changes for Trunk in the 90 days before this one; Trunk has been tracked since 2026-07-05.

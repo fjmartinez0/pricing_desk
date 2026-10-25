@@ -358,3 +358,4 @@ If a step fails, the user pastes the error and Claude helps fix it before going 
    - should trials and new priced AI add-ons count (§6)?
    - keep or drop the Sources tab?
    - check the Cursor / X Subscription terms against xAI's own announcement.
+| D48 | **Move explorer (/feed) read every run.** The page embeds every row of PricingSaaS's latest weekly batch (about 200–280, one per company) even though its table shows 50; rows leave the free view after 7 days. Each run reads the embedded rows, keeps the list in `data/pricingsaas/feed/<period>.json` and follows each row's weekly diff page into the normal report queue. A saved copy of the page can be imported with `pricingsaas_capture.py --feed-file` (used for week 43 on 25 Oct). Reports go to the agent in up to `REPORTS_PARTS` (3) calls of `REPORTS_BATCH` (40) per run; a part the agent doesn't answer costs no attempt. |

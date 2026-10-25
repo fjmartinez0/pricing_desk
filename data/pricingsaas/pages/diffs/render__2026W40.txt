@@ -1,0 +1,58 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Render/All changes/Render Workflows' maximum scale doubled changed
+R
+RenderPackaging change · Limit increase · Sep 21 → Sep 28, 2026
+Render: Workflows compute doubles to 8 CPU / 32 GB RAM
+Verified Sep 28, 2026·Software Development & Testing·Direction: up
+The changeRender Workflows' maximum scale doubled — changed.
+Before · Sep 214 CPU / 16 GB RAM
+After · Sep 288 CPU / 32 GB RAM
+changed
+1 change·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Render's pricing page, Pulse recorded one change: Render Workflows' maximum scale doubled from 4 CPU/16GB RAM to 8 CPU/32GB RAM, with a new $2.50/hour (8 CPU, 32GB RAM) tier added to the Workflows pricing table. In detail: Render Workflows' maximum scale doubled from 4 CPU / 16 GB RAM to 8 CPU / 32 GB RAM, with a new $2.50/hour (8 CPU, 32 GB RAM) compute tier added to the Workflows pricing table. Pulse files it as a packaging change (limit increase) with an upward direction. Pulse's latest capture (Oct 5, 2026) lists Pro at $25, Scale at $499, Postgres - Pro 4GB at $55, Postgres - Pro 16GB at $200 and Postgres - Pro 64GB at $800.
+It lands 86 days after Render's previous change, "Render ditches per-user pricing for flat fee, adds $100K startup credits" (Jul 4, 2026). Render has been tracked since 2024-10-01.
+In the same window Digitalocean, Railway, Google Cloud and Heroku also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Scale · LimitChanged
+4 CPU / 16 GB RAM→8 CPU / 32 GB RAM
+Plan
+Field
+Before
+After
+Change
+Scale
+Limit
+4 CPU / 16 GB RAM
+8 CPU / 32 GB RAM
+Changed
+Values as written on Render's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Render's pricing page (render.com) from Sep 21, 2026 and Sep 28, 2026; the change is marked around the middle of the page, where "4 CPU / 16 GB RAM" becomes "8 CPU / 32 GB RAM".
+Sep 21, 2026 · 4 CPU / 16 GB RAM
+Sep 28, 2026 · 8 CPU / 32 GB RAM
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Render, the last 90 days
+Full history
+Oct 5, 2026decreaseRender Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved
+Sep 28, 2026improvedRender: Workflows compute doubles to 8 CPU / 32 GB RAM · this change
+Jul 4, 2026packagingRender ditches per-user pricing for flat fee, adds $100K startup credits
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+DigitaloceanSep 28Digitalocean launches AI Harness Runtime and Action Gateway pricing tiers
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+HerokuJul 3Heroku: new Postgres Advanced tier added (cluster-based pricing)
+Questions about this change
+Did Render raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: limit increase.
+What changed on Render's pricing page between Sep 21, 2026 and Sep 28, 2026?
+Scale limit: 4 CPU / 16 GB RAM → 8 CPU / 32 GB RAM, changed. Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Render change its pricing?
+Pulse recorded 1 other pricing-page change for Render in the 90 days before this one; the previous change was "Render ditches per-user pricing for flat fee, adds $100K startup credits" on Jul 4, 2026; Render has been tracked since 2024-10-01.

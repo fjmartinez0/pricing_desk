@@ -1,0 +1,57 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/DragonflyDB/All changes/Enterprise renamed Self-Managed
+D
+DragonflyDBPackaging change · Plan renamed · Sep 14 → Sep 21, 2026
+DragonflyDB splits Enterprise into self-hosted tiers, adds Community support
+Verified Sep 21, 2026·Data & Analytics·Direction: neutral
+The changeEnterprise — renamed.
+Before · Sep 14Enterprise
+After · Sep 21Self-Managed
+renamed
+1 change·2 captures·Sep 14, 2026 → Sep 21, 2026
+What happened
+Between the Sep 14, 2026 and Sep 21, 2026 captures of DragonflyDB's pricing page, Pulse recorded one change: Enterprise renamed to Self-Managed, shifting from Dragonfly-hosted air-gapped infra to customer-run infra with LDAP/RBAC; added new Community Edition support offering for self-hosted users. Pulse files it as a packaging change (plan renamed) with a neutral direction. The current page lists Business at $2,000 and Flex at $8 per GB.
+It lands 35 days after DragonflyDB's previous change, "DragonflyDB: SSD Data Tiering add-on added to pricing calculator ($8.00/GB/mo)" (Aug 17, 2026). DragonflyDB has been tracked since 2026-07-15.
+In the same window Redis and Couchbase also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Self-Managed, Community Edition Support · PlanRenamed
+Enterprise→Self-Managed
+Plan
+Field
+Before
+After
+Change
+Self-Managed, Community Edition Support
+Plan
+Enterprise
+Self-Managed
+Renamed
+Values as written on DragonflyDB's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of DragonflyDB's pricing page (www.dragonflydb.io) from Sep 14, 2026 and Sep 21, 2026; the change is marked near the top of the page, where "Enterprise" becomes "Self-Managed".
+Sep 14, 2026 · Enterprise
+Sep 21, 2026 · Self-Managed
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+DragonflyDB, the last 90 days
+Full history
+Sep 21, 2026packagingDragonflyDB splits Enterprise into self-hosted tiers, adds Community support · this change
+Aug 17, 2026packagingDragonflyDB: SSD Data Tiering add-on added to pricing calculator ($8.00/GB/mo)
+Across Data & Analytics in the same window
+All Data & Analytics changes
+RedisSep 7Redis: Pro plan swaps auto-tiering for Data Integration (RDI)
+CouchbaseAug 11Couchbase: Capella AI Data Plane Enterprise price cut ($5.36→$0.86/hr per node)
+CouchbaseJun 30Couchbase rebrands Capella AI Services, adds Azure for Analytics
+RedisJun 29Redis adds auto-tiering to Pro, drops RDI from plan card
+Questions about this change
+Did DragonflyDB raise prices in September 2026?
+No list-price increase was recorded between Sep 14, 2026 and Sep 21, 2026. The change Pulse detected was a packaging change: plan renamed.
+What changed on DragonflyDB's pricing page between Sep 14, 2026 and Sep 21, 2026?
+Self-Managed, Community Edition Support plan: Enterprise → Self-Managed, renamed. Pulse compared the captures it took on Sep 14, 2026 and Sep 21, 2026; the before/after table above lists each item as written on the page.
+How often does DragonflyDB change its pricing?
+Pulse recorded 1 other pricing-page change for DragonflyDB in the 90 days before this one; the previous change was "DragonflyDB: SSD Data Tiering add-on added to pricing calculator ($8.00/GB/mo)" on Aug 17, 2026; DragonflyDB has been tracked since 2026-07-15.

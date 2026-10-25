@@ -1,0 +1,71 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Pulumi/All changes/Custom policy pack limits changed
+P
+PulumiPackaging change · Limit increase · Package change · Feature change · Sep 14 → Sep 21, 2026
+Pulumi renames all plan tiers, adds Support tiers up to $50K/yr Platinum
+Verified Sep 21, 2026·Cloud & DevOps·Direction: up
+The changecustom policy pack limits — changed.
+Before · Sep 1425 policies/1 pack
+After · Sep 2110 packs uncapped
+changed
+3 changes·2 captures·Sep 14, 2026 → Sep 21, 2026
+What happened
+Between the Sep 14, 2026 and Sep 21, 2026 captures of Pulumi's pricing page, Pulse recorded 3 changes: All four Pulumi plan tiers renamed (Individual->Free, Team->Essentials, Enterprise->Pro, Business Critical->Enterprise); new paid Support plan tier added (Standard $625/mo to Platinum $50,000/yr); Free plan dropped Pulumi Neo access but gained Pulumi Deployments and basic Pulumi ESC; Essentials replaced community support with SLO-backed ticket support; Enterprise gained BYOK for Neo; Essentials. In detail: Essentials plan removed its 10-user cap (now unlimited); custom policy pack limits changed from 25 policies/1 pack to 10 packs uncapped, and policy enforcement mode downgraded to Advisory only. Pulse files it as a packaging change (limit increase, package change, feature change) with an upward direction. Pulse's latest capture (Sep 28, 2026) lists Essentials at $40, Pro at $400, Standard Support at $625, Bronze Support at $1,250 and Silver Support at $2,916.67.
+It lands 96 days after Pulumi's previous change, "Pulumi Neo adds per-token pricing at $3/M after 5M free tier" (Jun 17, 2026). Pulumi has been tracked since 2026-05-02.
+In the same window Google Cloud and Hashicorp also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Essentials · LimitChanged
+25 policies/1 pack→10 packs uncapped
+Essentials, Enterprise, Pro · PackagingPackage change
+All four Pulumi plan tiers renamed (Individual->Free, Team->Essentials, Enterprise->Pro, Business Critical->Enterprise); new paid Support plan tier added (Standard $625/mo to Platinum $50,000/yr).
+Essentials, Enterprise · FeatureReplaced
+Beforecommunity support
+AfterSLO-backed ticket support
+Plan
+Field
+Before
+After
+Change
+Essentials
+Limit
+25 policies/1 pack
+10 packs uncapped
+Changed
+Essentials, Enterprise, Pro
+Packaging
+All four Pulumi plan tiers renamed (Individual->Free, Team->Essentials, Enterprise->Pro, Business Critical->Enterprise); new paid Support plan tier added (Standard $625/mo to Platinum $50,000/yr).
+Package change
+Essentials, Enterprise
+Feature
+community support
+SLO-backed ticket support
+Replaced
+Values as written on Pulumi's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Pulumi's pricing page (www.pulumi.com) from Sep 14, 2026 and Sep 21, 2026; the change is marked near the top of the page, where "25 policies/1 pack" becomes "10 packs uncapped".
+Sep 14, 2026 · 25 policies/1 pack
+Sep 21, 2026 · 10 packs uncapped
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Pulumi, pricing history
+Full history
+Sep 28, 2026packagingPulumi: Enterprise plan pricing revealed: 'Custom / Contact sales' replaced with self-serve $2,000/month base (2,000…
+Sep 21, 2026improvedPulumi renames all plan tiers, adds Support tiers up to $50K/yr Platinum · this change
+Jun 17, 2026packagingPulumi Neo adds per-token pricing at $3/M after 5M free tier
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+HashicorpSep 7HashiCorp Vault: Agentic IAM add-on introduced for Standard/Premium
+Google CloudSep 21Google Cloud Looker scraps Sept 30 deadline, extends free CA access indefinitely
+Questions about this change
+Did Pulumi raise prices in September 2026?
+No list-price increase was recorded between Sep 14, 2026 and Sep 21, 2026. The change Pulse detected was a packaging change: limit increase, package change, feature change.
+What changed on Pulumi's pricing page between Sep 14, 2026 and Sep 21, 2026?
+Essentials limit: 25 policies/1 pack → 10 packs uncapped, changed; All four Pulumi plan tiers renamed (Individual->Free, Team->Essentials, Enterprise->Pro, Business Critical->Enterprise); new paid Support plan tier added (Standard $625/mo to Platinum $50,000/yr); Essentials, Enterprise feature: community support → SLO-backed ticket support, replaced. Pulse compared the captures it took on Sep 14, 2026 and Sep 21, 2026; the before/after table above lists each item as written on the page.
+How often does Pulumi change its pricing?
+Pulse recorded 0 other pricing-page changes for Pulumi in the 90 days before this one; the previous change was "Pulumi Neo adds per-token pricing at $3/M after 5M free tier" on Jun 17, 2026; Pulumi has been tracked since 2026-05-02.

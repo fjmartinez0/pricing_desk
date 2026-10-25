@@ -1,0 +1,59 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Elastic/All changes/Package change
+E
+ElasticPackaging change · Package change · Sep 7 → Sep 14, 2026
+Elastic splits out new Elasticsearch Vector Database product tile
+Verified Sep 14, 2026·Cloud & DevOps·Direction: neutral
+The changeServerless packaging — package change.
+1 change·2 captures·Sep 7, 2026 → Sep 14, 2026
+What happened
+Between the Sep 7, 2026 and Sep 14, 2026 captures of Elastic's pricing page, Pulse recorded one change: New Elasticsearch Vector Database product tile added (own Serverless pricing link), split out of the general Elasticsearch tile, which is now described as a general-purpose search datastore. Elastic pricing page now shows 4 product tiles instead of 3. In detail: Elastic split a new 'Elasticsearch Vector Database' product tile (optimized for vectors, own Serverless pricing link) out of the general Elasticsearch tile, now described as 'general-purpose search datastore'. Pulse files it as a packaging change (package change) with a neutral direction. The current page lists Cloud Hosted - Standard at $99, Cloud Hosted - Gold at $114, Cloud Hosted - Platinum at $131, Cloud Hosted - Enterprise at $184 and Security Serverless - Essentials at $0.05 per GB egress + $0.09 per GB ingested.
+It lands 245 days after Elastic's previous change, "Elastic Introduces 99.95% Uptime SLA for Platinum and Enterprise Tiers in Comparison Table" (Jan 11, 2026). Before that Pulse recorded "Elastic Introduces Self-Managed Deployment Options Across Key Products, Enhancing Control and Customization for Users" (Q3 2025), "Elastic Transforms Pricing Structure to Solution-Based Model, Enhancing Clarity for Elasticsearch, Observability, and Security Deployments" (Q2 2025) and "Elastic Moves Hybrid Ranking to Enterprise Plan, Enhancing Search Features with AI Assistant and Semantic Boost" (Q4 2024). Elastic has been tracked since 2023-11-14.
+In the same window Datadog, Sumologic, Splunk, Logicmonitor and Dynatrace also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+“Elasticsearch” is the name Elastic’s pricing page uses; Pulse files the change under Elastic, the company it tracks.
+Show more
+Serverless · PackagingPackage change
+Elastic split a new 'Elasticsearch Vector Database' product tile (optimized for vectors, own Serverless pricing link) out of the general Elasticsearch tile, now described as 'general-purpose search datastore'.
+Plan
+Field
+Before
+After
+Change
+Serverless
+Packaging
+Elastic split a new 'Elasticsearch Vector Database' product tile (optimized for vectors, own Serverless pricing link) out of the general Elasticsearch tile, now described as 'general-purpose search datastore'.
+Package change
+Values as written on Elastic's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Elastic's pricing page (elastic.co) from Sep 7, 2026 and Sep 14, 2026; the change is marked near the top of the page.
+Sep 7, 2026
+Sep 14, 2026
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Elastic, pricing history
+Full history
+Sep 14, 2026packagingElastic splits out new Elasticsearch Vector Database product tile · this change
+Jan 11, 2026improvedElastic Introduces 99.95% Uptime SLA for Platinum and Enterprise Tiers in Comparison Table
+Q3 2025improvedElastic Introduces Self-Managed Deployment Options Across Key Products, Enhancing Control and Customization for Users
+Q2 2025packagingElastic Transforms Pricing Structure to Solution-Based Model, Enhancing Clarity for Elasticsearch, Observability, and Security Deployments
+Q4 2024improvedElastic Moves Hybrid Ranking to Enterprise Plan, Enhancing Search Features with AI Assistant and Semantic Boost
+Q1 2024improvedElastic Introduces AI Assistant for Generative AI in Enterprise Plan, Enhancing Observability Features
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+DatadogSep 7Datadog redefines "billable host" as full DB instance, not...
+SumologicAug 11Sumo Logic: New MCP Server AI integration added to Dojo AI
+SplunkJul 20Splunk: removed "Activity-based pricing" model
+LogicmonitorJul 6LogicMonitor: 4 new add-ons incl. Edwin AI Agents + LM Synthetics/RUM/Endpoint
+DynatraceJul 2Dynatrace: Log correlation democratized to Foundation & Discovery tier
+Questions about this change
+Did Elastic raise prices in September 2026?
+No list-price increase was recorded between Sep 7, 2026 and Sep 14, 2026. The change Pulse detected was a packaging change: package change.
+What changed on Elastic's pricing page between Sep 7, 2026 and Sep 14, 2026?
+Elastic split a new 'Elasticsearch Vector Database' product tile (optimized for vectors, own Serverless pricing link) out of the general Elasticsearch tile, now described as 'general-purpose search datastore'. Pulse compared the captures it took on Sep 7, 2026 and Sep 14, 2026; the before/after table above lists each item as written on the page.
+How often does Elastic change its pricing?
+Pulse recorded 0 other pricing-page changes for Elastic in the 90 days before this one; the previous change was "Elastic Introduces 99.95% Uptime SLA for Platinum and Enterprise Tiers in Comparison Table" on Jan 11, 2026; Elastic has been tracked since 2023-11-14.

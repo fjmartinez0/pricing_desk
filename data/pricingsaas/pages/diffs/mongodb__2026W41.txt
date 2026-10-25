@@ -1,0 +1,61 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/MongoDB/All changes/New plan
+M
+MongoDBPackaging change · New plan · Sep 28 → Oct 5, 2026
+MongoDB launches Atlas Infinite preview: 128TB shards at $0.09/hour
+Verified Oct 5, 2026·Cloud & DevOps·Direction: up
+The changeAtlas Infinite, Dedicated plan — new plan.
+Before · Sep 28Not listed
+After · Oct 5$0.09/hour
+1 change·2 captures·Sep 28, 2026 → Oct 5, 2026
+What happened
+Between the Sep 28, 2026 and Oct 5, 2026 captures of MongoDB's pricing page, Pulse recorded one change: New Atlas Infinite deployment option (public preview) added at $0.09/hour, up to 128TB per HA shard, 1M+ IOPS burst, M10+ dedicated clusters; Atlas section renamed Atlas Core. Pulse files it as a packaging change (new plan) with an upward direction. The current page lists Flex at $0.01 per hour, Dedicated at $0.08 per hour and Atlas Infinite at $0.09 per hour.
+It lands 193 days after MongoDB's previous change, "MongoDB restructures Atlas tiers with new entry-level pricing" (Mar 26, 2026). Before that Pulse recorded "MongoDB reframes plans and adds features" (Mar 17, 2026), "MongoDB launches Pricing Calculator and cost optimization tools for Atlas" (Week 10, 2026) and "MongoDB removes interactive cluster sizing tool from pricing page" (Week 7, 2026). MongoDB has been tracked since 2023-11-14.
+In the same window Google Cloud, Elastic, Redis and Couchbase also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Atlas Infinite, Dedicated · PlanNew plan
+Not listed→$0.09/hour
+Plan
+Field
+Before
+After
+Change
+Atlas Infinite, Dedicated
+Plan
+Not listed
+$0.09/hour
+New plan
+Values as written on MongoDB's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of MongoDB's pricing page (mongodb.com) from Sep 28, 2026 and Oct 5, 2026; the change is marked near the top of the page, where "Not listed" becomes "$0.09/hour".
+Sep 28, 2026 · Not listed
+Oct 5, 2026 · $0.09/hour
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+MongoDB, pricing history
+Full history
+Oct 5, 2026packagingMongoDB launches Atlas Infinite preview: 128TB shards at $0.09/hour · this change
+Mar 26, 2026packagingMongoDB restructures Atlas tiers with new entry-level pricing
+Mar 17, 2026improvedMongoDB reframes plans and adds features.
+Week 10, 2026improvedMongoDB launches Pricing Calculator and cost optimization tools for Atlas
+Week 7, 2026packagingMongoDB removes interactive cluster sizing tool from pricing page
+Q1 2024improvedMongoDB Introduces Atlas Stream Processing Service with Tiered Pricing: SP10 at $0.19/hr, SP30 at $0.39/hr, and SP50 at $1.56/hr
+Dec 2023packagingMongoDB Introduces Atlas Vector Search with 8 Pricing Tiers, Enhancing Dedicated Node Options for Users
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+RedisSep 7Redis: Pro plan swaps auto-tiering for Data Integration (RDI)
+CouchbaseAug 11Couchbase: Capella AI Data Plane Enterprise price cut ($5.36→$0.86/hr per node)
+Questions about this change
+Did MongoDB raise prices in October 2026?
+No list-price increase was recorded between Sep 28, 2026 and Oct 5, 2026. The change Pulse detected was a packaging change: new plan.
+What changed on MongoDB's pricing page between Sep 28, 2026 and Oct 5, 2026?
+Atlas Infinite, Dedicated plan: Not listed → $0.09/hour. Pulse compared the captures it took on Sep 28, 2026 and Oct 5, 2026; the before/after table above lists each item as written on the page.
+How often does MongoDB change its pricing?
+Pulse recorded 0 other pricing-page changes for MongoDB in the 90 days before this one; the previous change was "MongoDB restructures Atlas tiers with new entry-level pricing" on Mar 26, 2026; MongoDB has been tracked since 2023-11-14.

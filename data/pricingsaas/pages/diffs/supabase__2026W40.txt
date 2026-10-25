@@ -1,0 +1,62 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Supabase/All changes/Two new metered logging rows added
+S
+SupabasePackaging change · New add-on · Sep 21 → Sep 28, 2026
+Supabase adds metered Log Ingestion at $0.50/GB after 20 GB on Pro and Team
+Verified Sep 28, 2026·Cloud & DevOps·Direction: up
+The changeTwo new metered logging rows — added.
+Before · Sep 21No Two new metered logging rows
+After · Sep 28Two new metered logging rows
+added
+1 change·2 captures·Sep 21, 2026 → Sep 28, 2026
+What happened
+Between the Sep 21, 2026 and Sep 28, 2026 captures of Supabase's pricing page, Pulse recorded one change: Two new metered logging rows added: 'Log Ingestion' (Free: 1 GB included; Pro/Team: 20 GB included, then $0.50/GB) and 'Log Query' (100GB included, scales as ingestion usage x100), alongside existing Log Drain addon. Pulse files it as a packaging change (new add-on) with an upward direction. Pulse's latest capture (Oct 19, 2026) lists Pro at $25 and Team at $599.
+It lands 7 days after Supabase's previous change, "Supabase: Added OAuth 2.1 Server support across all plans" (Sep 21, 2026). Before that Pulse recorded "Supabase: Enterprise plan drops BYO Cloud support" (Aug 31, 2026), "Supabase swaps flat $39/pipeline fee for metered $0.053/pipeline/hour billing" (Jul 20, 2026) and "Supabase adds ISO 27001 certification to SOC2 on Team, Enterprise" (Jul 4, 2026). Supabase has been tracked since 2026-03-15.
+In the same window Vercel, Railway, Neon and PlanetScale also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Pro, Team · Add-onAdded
+BeforeNo Two new metered logging rows
+AfterTwo new metered logging rows
+Plan
+Field
+Before
+After
+Change
+Pro, Team
+Add-on
+No Two new metered logging rows
+Two new metered logging rows
+Added
+Values as written on Supabase's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Supabase's pricing page (supabase.com) from Sep 21, 2026 and Sep 28, 2026; the change is marked in the lower part of the page, where Two new metered logging rows now appears.
+Sep 21, 2026 · No Two new metered logging rows
+Sep 28, 2026 · Two new metered logging rows
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Supabase, the last 90 days
+Full history
+Oct 19, 2026packagingSupabase swaps Enterprise support manager for Technical Account Management
+Sep 28, 2026packagingSupabase adds metered Log Ingestion at $0.50/GB after 20 GB on Pro and Team · this change
+Sep 21, 2026improvedSupabase: Added OAuth 2.1 Server support across all plans
+Aug 31, 2026packagingSupabase: Enterprise plan drops BYO Cloud support
+Jul 20, 2026packagingSupabase swaps flat $39/pipeline fee for metered $0.053/pipeline/hour billing
+Jul 4, 2026improvedSupabase adds ISO 27001 certification to SOC2 on Team, Enterprise
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+VercelSep 28Vercel splits Speed Insights pricing, adds Tracing Spans beta observability
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+NeonAug 17Neon: spending limits replaced with alert-only notifications
+PlanetScaleJul 20PlanetScale hides storage overage rate, points users to calculator instead
+Questions about this change
+Did Supabase raise prices in September 2026?
+No list-price increase was recorded between Sep 21, 2026 and Sep 28, 2026. The change Pulse detected was a packaging change: new add-on.
+What changed on Supabase's pricing page between Sep 21, 2026 and Sep 28, 2026?
+Pro, Team add-on: No Two new metered logging rows → Two new metered logging rows, added. Pulse compared the captures it took on Sep 21, 2026 and Sep 28, 2026; the before/after table above lists each item as written on the page.
+How often does Supabase change its pricing?
+Pulse recorded 4 other pricing-page changes for Supabase in the 90 days before this one; the previous change was "Supabase: Added OAuth 2.1 Server support across all plans" on Sep 21, 2026; Supabase has been tracked since 2026-03-15.

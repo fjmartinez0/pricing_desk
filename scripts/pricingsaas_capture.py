@@ -7,6 +7,10 @@ Our own captures stay the primary source. PricingSaaS watches far more companies
 What one run does:
   1. Daily briefings: open https://pricingsaas.com/news in the browser and click "Load more" until the
      list ends (about 9 days back) or until it only shows pages we read on an earlier run.
+  1b. Move explorer (/feed): every change of the last 7 days, i.e. PricingSaaS's latest weekly batch
+     (about 200–280 rows). The page embeds all rows as data even though its table shows 50; we read the
+     data, keep the row list in data/pricingsaas/feed/<period>.json and follow each row's diff page.
+     A batch leaves the free view after 7 days, so it is read on every run.
   2. Weekly reviews: fetch the review of this week and last week (or the weeks given with --review).
   3. Fetch every new article and every new "diff" page (one company's before/after for one day or week),
      politely: robots.txt, our user agent, a pause between pages, at most PS_MAX_FETCHES per run.
@@ -18,6 +22,7 @@ What one run does:
 Usage:
   python3 scripts/pricingsaas_capture.py                          # normal run (run_daily.sh)
   python3 scripts/pricingsaas_capture.py --review 2026-W35 2026-W36 2026-W37 --max-fetches 400   # backfill
+  python3 scripts/pricingsaas_capture.py --feed-file saved.html --max-fetches 300   # import a saved /feed page
   python3 scripts/pricingsaas_capture.py --no-browser             # first page of briefings only
   python3 scripts/pricingsaas_capture.py --dry-run                # list what would be fetched
 """
@@ -26,13 +31,14 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html as htmllib
+import json
 import re
 import time
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-from common import (PS_BASE, PS_CUT_MARKERS, PS_DELAY_SEC, PS_DIR, PS_INDEX, PS_LOAD_MORE_MAX, PS_MAX_FETCHES,
-                    PS_NEWS_URL, PS_REVIEW_URL, REPORTS, ROOT, RUN, append_check, load_json, log, now, ps_period_week,
+from common import (PS_BASE, PS_CUT_MARKERS, PS_DELAY_SEC, PS_DIR, PS_FEED_URL, PS_INDEX, PS_LOAD_MORE_MAX,
+                    PS_MAX_FETCHES, PS_NEWS_URL, PS_REVIEW_URL, REPORTS, ROOT, RUN, append_check, load_json, log, now, ps_period_week,
                     report_problem, run_id, save_json, week_label, week_start)
 from fetch import Blocked, FetchError, fetch_html
 from normalize import html_to_text
@@ -71,6 +77,111 @@ def parse_links(html: str, base: str = PS_BASE) -> list[str]:
             seen.add(u)
             out.append(u)
     return out
+
+
+NEXT_PUSH_RX = re.compile(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', re.S)
+PERIOD_RX = re.compile(r"^\d{4}[WD]\d{1,3}$")
+SLUG_RX = re.compile(r"^[a-z0-9][a-z0-9.\-]*$")
+FEED_ROW_KEYS = ("at", "company", "slug", "period", "change", "detail", "move", "category", "url")
+
+
+def feed_rows(html: str) -> list[dict]:
+    """Rows of the move explorer, read from the data the page embeds (Next.js flight payload).
+
+    The table shows 50 rows; the payload holds every row of the last 7 days. Each row has a PricingSaaS
+    company slug and period, which name its diff page."""
+    text = ""
+    for chunk in NEXT_PUSH_RX.findall(html or ""):
+        try:
+            text += json.loads(f'"{chunk}"')
+        except ValueError:
+            continue
+    rows, seen, dec = [], set(), json.JSONDecoder()
+    for m in re.finditer(r'\{"time":', text):
+        try:
+            o, _ = dec.raw_decode(text, m.start())
+        except ValueError:
+            continue
+        slug, period = o.get("slug"), o.get("period")
+        if not (isinstance(slug, str) and SLUG_RX.match(slug) and isinstance(period, str) and PERIOD_RX.match(period)):
+            continue
+        key = (slug, period, o.get("detail"))
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append({k: o.get(k) for k in FEED_ROW_KEYS})
+    return rows
+
+
+TABLE_ROW_RX = re.compile(r'<tr\b[^>]*data-slot="table-row".*?</tr>', re.S)
+CELL_RX = re.compile(r"<td\b[^>]*>(.*?)</td>", re.S)
+ROW_DIFF_RX = re.compile(r"""href=["'](?:https?://(?:www\.)?pricingsaas\.com)?/companies/([a-z0-9][a-z0-9.\-]*)/diffs/(\d{4}[WD]\d{1,3})/?["']""")
+
+
+def _cell_text(cell: str) -> str:
+    return re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", " ", cell))).strip()
+
+
+def table_rows(html: str) -> list[dict]:
+    """Rows of the explorer's table markup. A page saved from the browser after scrolling (or from the
+    signed-in full history) has far more rows in its table than in its embedded data."""
+    rows = []
+    for tr in TABLE_ROW_RX.findall(html or ""):
+        m = ROW_DIFF_RX.search(tr)
+        cells = [_cell_text(c) for c in CELL_RX.findall(tr)]
+        if not m or len(cells) < 5:
+            continue
+        at = re.search(r"""<time[^>]*datetime=["']([^"']+)["']""", tr, re.I)
+        logo = re.search(r"""<img[^>]*\balt=["']([^"']+)["']""", CELL_RX.findall(tr)[1])
+        if logo:                                  # the logo box holds an initial letter: use the name in alt
+            cells[1] = htmllib.unescape(logo.group(1)).strip()
+        move = cells[4]
+        rows.append({"at": at.group(1) if at else None, "company": cells[1], "slug": m.group(1), "period": m.group(2),
+                     "change": re.sub(r"^●\s*", "", cells[2]), "detail": cells[3],
+                     "move": "" if move in ("—", "-") else move, "category": None, "url": None})
+    return rows
+
+
+def all_feed_rows(html: str) -> list[dict]:
+    """Embedded rows (they carry the category) plus table rows not among them: one row per company and period."""
+    rows = feed_rows(html)
+    have = {(r["slug"], r["period"]) for r in rows}
+    for r in table_rows(html):
+        if (r["slug"], r["period"]) not in have:
+            have.add((r["slug"], r["period"]))
+            rows.append(r)
+    return rows
+
+
+def feed_links(html: str) -> list[str]:
+    """Diff pages listed by a move-explorer page: the rows' data first, then any "View" links in the markup."""
+    out, seen = [], set()
+    for u in [f"{PS_BASE}/companies/{r['slug']}/diffs/{r['period']}" for r in feed_rows(html)] + parse_links(html):
+        u = canon(u)
+        c = classify(u)
+        if c and c[0] == "diff" and u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
+def save_feed_rows(rows: list[dict]) -> dict[str, int]:
+    """Keep the row list of each PricingSaaS period (data/pricingsaas/feed/<period>.json): the record of what
+    the free view listed, kept after the batch leaves it. One row per company and period; the first one kept wins."""
+    counts: dict[str, int] = {}
+    for period in sorted({r["period"] for r in rows}):
+        path = PS_DIR / "feed" / f"{period}.json"
+        data = load_json(path, {"period": period, "rows": []})
+        have = {r["slug"] for r in data["rows"]}
+        for r in rows:
+            if r["period"] == period and r["slug"] not in have:
+                data["rows"].append(r)
+                have.add(r["slug"])
+        data["rows"].sort(key=lambda r: (r["slug"], r.get("detail") or ""))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        save_json(path, data)
+        counts[period] = len(data["rows"])
+    return counts
 
 
 def meta(html: str, name: str) -> str | None:
@@ -169,11 +280,28 @@ def queue_report(reports: dict, diff_url: str, file: str, article_files: list[st
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--review", nargs="*", metavar="WEEK", help="weekly reviews to read, e.g. 2026-W35")
+    ap.add_argument("--feed-file", metavar="HTML", help="import a saved /feed page instead of reading the site's lists")
     ap.add_argument("--no-browser", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--max-fetches", type=int, default=PS_MAX_FETCHES, help="page budget for this run")
     args = ap.parse_args()
 
+    manual = bool(args.feed_file or args.review) and not args.dry_run
+    lock = RUN / "lock"                      # the same lock as run_daily.sh: a scheduled run waits its turn
+    if manual:
+        try:
+            lock.mkdir(parents=True)
+        except FileExistsError:
+            print("A run is active (.run/lock exists); try again when it has finished.")
+            return 1
+    try:
+        return _main(args)
+    finally:
+        if manual:
+            lock.rmdir()
+
+
+def _main(args) -> int:
     run, today, at = run_id(), now().date(), now().isoformat(timespec="seconds")
     index = load_json(PS_INDEX, {"pages": {}})
     pages = index["pages"]
@@ -185,8 +313,25 @@ def main() -> int:
         for u in urls:
             found.append((u, via))
 
+    def read_feed(html: str, via: str) -> None:
+        rows = all_feed_rows(html)
+        links = feed_links(html)
+        note(links, via)
+        if rows and args.dry_run:
+            log(f"  feed ({via}): {len(rows)} rows, {len(links)} diff pages (dry run: nothing saved)")
+        elif rows:
+            counts = save_feed_rows(rows)
+            log(f"  feed ({via}): {len(rows)} rows, {len(links)} diff pages; kept " +
+                ", ".join(f"{p}: {n} rows" for p, n in counts.items()))
+        else:
+            report_problem(f"PricingSaaS feed ({via}) had no readable rows; the page layout may have changed.",
+                           "pricingsaas")
+
+    if args.feed_file:
+        read_feed(Path(args.feed_file).expanduser().read_text(encoding="utf-8", errors="replace"), "feed file")
+
     # 1. daily briefings
-    if args.review is None:
+    if args.review is None and not args.feed_file:
         try:
             if args.no_browser:
                 note(parse_links(fetch_html(PS_NEWS_URL)), "news")
@@ -209,8 +354,21 @@ def main() -> int:
             except (FetchError, Blocked) as e2:
                 append_check("pricingsaas", PS_NEWS_URL, False, str(e2))
 
+    # 1b. move explorer: the latest weekly batch, all rows
+    if args.review is None and not args.feed_file:
+        try:
+            read_feed(fetch_html(PS_FEED_URL), "feed")
+            append_check("pricingsaas", PS_FEED_URL, True, "feed")
+        except Blocked:
+            append_check("pricingsaas", PS_FEED_URL, False, "robots.txt")
+            report_problem("pricingsaas.com robots.txt blocks /feed for our user agent; feed not read.", "pricingsaas")
+        except FetchError as e:
+            append_check("pricingsaas", PS_FEED_URL, False, str(e))
+            report_problem(f"PricingSaaS feed not read ({e}); its batch stays readable for 7 days.", "pricingsaas")
+        time.sleep(PS_DELAY_SEC)
+
     # 2. weekly reviews
-    weeks = args.review or [week_label(today - dt.timedelta(days=7)), week_label(today)]
+    weeks = [] if args.feed_file else args.review or [week_label(today - dt.timedelta(days=7)), week_label(today)]
     for w in weeks:
         url = review_url(w)
         try:
@@ -250,6 +408,10 @@ def main() -> int:
             html = fetch_html(u)
             append_check("pricingsaas", u, True, "")
             stats["fetched"] += 1
+            if stats["fetched"] % 50 == 0:
+                log(f"  pricingsaas: {stats['fetched']} pages fetched so far, budget left {budget}")
+                save_json(PS_INDEX, index)          # an interrupted import keeps what it fetched
+                save_json(REPORTS, reports)
             return html
         except (FetchError, Blocked) as e:
             pages[u]["status"] = "failed"
