@@ -2243,7 +2243,7 @@
   {
    "id": "anthropic-opus-2026w40",
    "week": "2026-W40",
-   "rank": 1,
+   "rank": 3,
    "co": "Anthropic",
    "plan": "Claude API · Opus 5.5",
    "group": "down",
@@ -2309,7 +2309,7 @@
   {
    "id": "dropbox-2026w40",
    "week": "2026-W40",
-   "rank": 2,
+   "rank": 4,
    "co": "Dropbox",
    "plan": "Standard and Advanced",
    "group": "pack",
@@ -2356,7 +2356,7 @@
   {
    "id": "airtable-2026w40",
    "week": "2026-W40",
-   "rank": 3,
+   "rank": 5,
    "co": "Airtable",
    "plan": "All plans",
    "group": "up",
@@ -2431,12 +2431,12 @@
    },
    "modelBefore": "Usage",
    "modelAfter": "Usage",
-   "rank": 4
+   "rank": 1
   },
   {
    "id": "cognition-2026w40",
    "week": "2026-W40",
-   "rank": 5,
+   "rank": 7,
    "co": "Cognition",
    "plan": "Team plan",
    "group": "up",
@@ -2473,7 +2473,7 @@
   {
    "id": "semrush-2026w40",
    "week": "2026-W40",
-   "rank": 6,
+   "rank": 8,
    "co": "Semrush",
    "plan": "New Free plan",
    "group": "down",
@@ -2521,7 +2521,7 @@
   {
    "id": "supabase-2026w40",
    "week": "2026-W40",
-   "rank": 7,
+   "rank": 9,
    "co": "Supabase",
    "plan": "Logging",
    "group": "up",
@@ -2563,7 +2563,7 @@
   {
    "id": "synthesia-2026w40",
    "week": "2026-W40",
-   "rank": 8,
+   "rank": 6,
    "co": "Synthesia",
    "plan": "Basic plan",
    "group": "up",
@@ -2604,7 +2604,7 @@
   {
    "id": "character-2026w40",
    "week": "2026-W40",
-   "rank": 9,
+   "rank": 10,
    "co": "Character.AI",
    "plan": "New Lite tier",
    "group": "pack",
@@ -2689,7 +2689,7 @@
    "ai": true,
    "planLevel": "all",
    "modelAfter": "Hybrid",
-   "rank": 10
+   "rank": 11
   },
   {
    "id": "aircall-2026w40",
@@ -2731,12 +2731,12 @@
    "ai": true,
    "planLevel": "all",
    "modelAfter": "Hybrid",
-   "rank": 11
+   "rank": 12
   },
   {
    "id": "vistasocial-2026w40",
    "week": "2026-W40",
-   "rank": 12,
+   "rank": 14,
    "co": "Vista Social",
    "plan": "Paid plans",
    "group": "up",
@@ -2799,7 +2799,7 @@
   {
    "id": "oneflow-2026w40",
    "week": "2026-W40",
-   "rank": 13,
+   "rank": 15,
    "co": "Oneflow",
    "plan": "AI features",
    "group": "up",
@@ -2836,7 +2836,7 @@
   {
    "id": "teamwork-2026w40",
    "week": "2026-W40",
-   "rank": 14,
+   "rank": 16,
    "co": "Teamwork.com",
    "plan": "AI credits",
    "group": "pack",
@@ -2873,7 +2873,7 @@
   {
    "id": "pika-2026w40",
    "week": "2026-W40",
-   "rank": 15,
+   "rank": 13,
    "co": "Pika",
    "plan": "Credit packs",
    "group": "up",
@@ -2943,7 +2943,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 16
+   "rank": 17
   },
   {
    "id": "expo-2026w40",
@@ -2965,7 +2965,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 17
+   "rank": 18
   },
   {
    "id": "tooljet-2026w40",
@@ -2987,7 +2987,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 18
+   "rank": 19
   },
   {
    "id": "kapwing-2026w40",
@@ -3009,7 +3009,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 19
+   "rank": 20
   },
   {
    "id": "invideo-2026w40",
@@ -3031,7 +3031,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 20
+   "rank": 21
   },
   {
    "id": "nativemsg-2026w40",
@@ -3053,7 +3053,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 21
+   "rank": 22
   },
   {
    "id": "respondent-2026w40",
@@ -3075,7 +3075,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 22
+   "rank": 23
   },
   {
    "id": "sparkpost-2026w40",
@@ -3097,7 +3097,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 23
+   "rank": 24
   },
   {
    "id": "kurrent-2026w40",
@@ -3119,7 +3119,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 24
+   "rank": 25
   },
   {
    "id": "crusoe-2026w40",
@@ -3141,7 +3141,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 25
+   "rank": 26
   },
   {
    "id": "easydmarc-2026w40",
@@ -3163,7 +3163,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 26
+   "rank": 27
   },
   {
    "id": "prowler-2026w40",
@@ -3185,7 +3185,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 27
+   "rank": 28
   },
   {
    "id": "sendcloud-2026w40",
@@ -3207,7 +3207,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 28
+   "rank": 29
   },
   {
    "id": "logikcull-2026w40",
@@ -3229,7 +3229,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 29
+   "rank": 30
   },
   {
    "id": "shopware-2026w40",
@@ -3251,7 +3251,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 30
+   "rank": 31
   },
   {
    "id": "expertinstitute-2026w40",
@@ -3273,7 +3273,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 31
+   "rank": 32
   },
   {
    "id": "hedra-2026w40",
@@ -3295,7 +3295,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 32
+   "rank": 33
   },
   {
    "id": "gloo-2026w40",
@@ -3317,7 +3317,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 33
+   "rank": 34
   },
   {
    "id": "katteb-2026w40",
@@ -3339,7 +3339,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 34
+   "rank": 35
   },
   {
    "id": "verbit-2026w40",
@@ -3361,7 +3361,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 35
+   "rank": 36
   },
   {
    "id": "lyzr-2026w40",
@@ -3383,7 +3383,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 36
+   "rank": 37
   },
   {
    "id": "circle-2026w40",
@@ -3405,7 +3405,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 37
+   "rank": 38
   },
   {
    "id": "kipwise-2026w40",
@@ -3427,7 +3427,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 38
+   "rank": 39
   },
   {
    "id": "koala-2026w40",
@@ -3449,7 +3449,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 39
+   "rank": 40
   },
   {
    "id": "zenzap-2026w40",
@@ -3471,7 +3471,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 40
+   "rank": 41
   },
   {
    "id": "regie-2026w40",
@@ -3493,7 +3493,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 41
+   "rank": 42
   },
   {
    "id": "storylane-2026w40",
@@ -3515,7 +3515,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 42
+   "rank": 43
   },
   {
    "id": "crystal-2026w40",
@@ -3537,7 +3537,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 43
+   "rank": 44
   },
   {
    "id": "woodpecker-2026w40",
@@ -3559,12 +3559,12 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 44
+   "rank": 45
   },
   {
    "id": "salesforce-2026w41",
    "week": "2026-W41",
-   "rank": 1,
+   "rank": 2,
    "co": "Salesforce",
    "plan": "Agentforce editions",
    "group": "pack",
@@ -3610,7 +3610,7 @@
   {
    "id": "n8n-2026w41",
    "week": "2026-W41",
-   "rank": 4,
+   "rank": 10,
    "co": "n8n",
    "plan": "Cloud Starter and Pro",
    "group": "up",
@@ -3667,7 +3667,7 @@
   {
    "id": "beehiiv-2026w41",
    "week": "2026-W41",
-   "rank": 7,
+   "rank": 13,
    "co": "beehiiv",
    "plan": "All plans",
    "group": "up",
@@ -3730,7 +3730,7 @@
   {
    "id": "langchain-2026w41",
    "week": "2026-W41",
-   "rank": 8,
+   "rank": 15,
    "co": "LangChain",
    "plan": "LangSmith compute",
    "group": "pack",
@@ -3784,7 +3784,7 @@
   {
    "id": "pagerduty-2026w41",
    "week": "2026-W41",
-   "rank": 9,
+   "rank": 11,
    "co": "PagerDuty",
    "plan": "Plus and AI Actions",
    "group": "pack",
@@ -3831,7 +3831,7 @@
   {
    "id": "kong-2026w41",
    "week": "2026-W41",
-   "rank": 10,
+   "rank": 16,
    "co": "Kong",
    "plan": "Konnect",
    "group": "pack",
@@ -3879,7 +3879,7 @@
   {
    "id": "pipedream-2026w41",
    "week": "2026-W41",
-   "rank": 11,
+   "rank": 17,
    "co": "Pipedream",
    "plan": "Advanced plan",
    "group": "pack",
@@ -3927,7 +3927,7 @@
   {
    "id": "render-2026w41",
    "week": "2026-W41",
-   "rank": 12,
+   "rank": 8,
    "co": "Render",
    "plan": "Workflows",
    "group": "up",
@@ -3973,7 +3973,7 @@
   {
    "id": "linktree-2026w41",
    "week": "2026-W41",
-   "rank": 13,
+   "rank": 18,
    "co": "Linktree",
    "plan": "Free plan",
    "group": "up",
@@ -4053,7 +4053,7 @@
    "planLevel": "top",
    "modelBefore": "Usage",
    "modelAfter": "Usage",
-   "rank": 14
+   "rank": 19
   },
   {
    "id": "moz-2026w41",
@@ -4105,7 +4105,7 @@
    },
    "modelBefore": "Flat",
    "modelAfter": "Flat",
-   "rank": 15
+   "rank": 4
   },
   {
    "id": "expressvpn-2026w41",
@@ -4147,12 +4147,12 @@
    },
    "modelBefore": "Flat",
    "modelAfter": "Flat",
-   "rank": 16
+   "rank": 14
   },
   {
    "id": "logzio-2026w41",
    "week": "2026-W41",
-   "rank": 19,
+   "rank": 20,
    "co": "Logz.io",
    "plan": "Infrastructure Monitoring",
    "group": "down",
@@ -4209,7 +4209,7 @@
   {
    "id": "syncfusion-2026w41",
    "week": "2026-W41",
-   "rank": 20,
+   "rank": 23,
    "co": "Syncfusion",
    "plan": "All SDKs",
    "group": "down",
@@ -4374,7 +4374,7 @@
    "planLevel": "enterprise",
    "magnitude": null,
    "detail": "line",
-   "rank": 23
+   "rank": 24
   },
   {
    "id": "lambdatest-2026w41",
@@ -4396,7 +4396,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 24
+   "rank": 25
   },
   {
    "id": "tooljet-2026w41",
@@ -4418,7 +4418,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 25
+   "rank": 26
   },
   {
    "id": "transifex-2026w41",
@@ -4440,7 +4440,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 26
+   "rank": 27
   },
   {
    "id": "artlist-2026w41",
@@ -4462,7 +4462,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 27
+   "rank": 28
   },
   {
    "id": "creativeforce-2026w41",
@@ -4484,7 +4484,7 @@
    "planLevel": "enterprise",
    "magnitude": null,
    "detail": "line",
-   "rank": 28
+   "rank": 29
   },
   {
    "id": "kwanzoo-2026w41",
@@ -4506,7 +4506,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 29
+   "rank": 30
   },
   {
    "id": "planable-2026w41",
@@ -4528,7 +4528,7 @@
    "planLevel": "enterprise",
    "magnitude": null,
    "detail": "line",
-   "rank": 30
+   "rank": 31
   },
   {
    "id": "spoki-2026w41",
@@ -4550,7 +4550,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 31
+   "rank": 32
   },
   {
    "id": "quantilope-2026w41",
@@ -4572,7 +4572,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 32
+   "rank": 33
   },
   {
    "id": "apptopia-2026w41",
@@ -4594,7 +4594,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 33
+   "rank": 34
   },
   {
    "id": "messari-2026w41",
@@ -4616,7 +4616,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 34
+   "rank": 35
   },
   {
    "id": "betterstack-2026w41",
@@ -4638,7 +4638,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 35
+   "rank": 36
   },
   {
    "id": "paays-2026w41",
@@ -4660,7 +4660,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 36
+   "rank": 37
   },
   {
    "id": "securityscorecard-2026w41",
@@ -4682,7 +4682,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 37
+   "rank": 38
   },
   {
    "id": "bizstim-2026w41",
@@ -4704,7 +4704,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 38
+   "rank": 39
   },
   {
    "id": "casefleet-2026w41",
@@ -4726,7 +4726,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 39
+   "rank": 40
   },
   {
    "id": "constructconnect-2026w41",
@@ -4748,7 +4748,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 40
+   "rank": 41
   },
   {
    "id": "hover-2026w41",
@@ -4770,7 +4770,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 41
+   "rank": 42
   },
   {
    "id": "jane-2026w41",
@@ -4792,7 +4792,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 42
+   "rank": 43
   },
   {
    "id": "jungleworks-2026w41",
@@ -4814,7 +4814,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 43
+   "rank": 44
   },
   {
    "id": "rewst-2026w41",
@@ -4836,7 +4836,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 44
+   "rank": 45
   },
   {
    "id": "shipday-2026w41",
@@ -4858,7 +4858,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 45
+   "rank": 46
   },
   {
    "id": "datarails-2026w41",
@@ -4880,7 +4880,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 46
+   "rank": 47
   },
   {
    "id": "ideogram-2026w41",
@@ -4902,7 +4902,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 47
+   "rank": 48
   },
   {
    "id": "mindsdb-2026w41",
@@ -4924,7 +4924,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 48
+   "rank": 49
   },
   {
    "id": "scite-2026w41",
@@ -4946,7 +4946,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 49
+   "rank": 50
   },
   {
    "id": "strawberry-2026w41",
@@ -4968,7 +4968,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 50
+   "rank": 51
   },
   {
    "id": "heidi-health-2026w41",
@@ -4990,7 +4990,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 51
+   "rank": 52
   },
   {
    "id": "lyzr-2026w41",
@@ -5012,7 +5012,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 52
+   "rank": 53
   },
   {
    "id": "meetalfred-2026w41",
@@ -5034,7 +5034,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 53
+   "rank": 54
   },
   {
    "id": "smartlead-2026w41",
@@ -5056,7 +5056,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 54
+   "rank": 55
   },
   {
    "id": "atlassian-2026w42",
@@ -7927,7 +7927,7 @@
    "ai": true,
    "planLevel": "all",
    "appliesTo": "all",
-   "rank": 2
+   "rank": 1
   },
   {
    "week": "2026-W41",
@@ -7980,7 +7980,7 @@
    "ai": false,
    "planLevel": "entry",
    "appliesTo": "new",
-   "rank": 3
+   "rank": 9
   },
   {
    "week": "2026-W41",
@@ -8043,7 +8043,7 @@
    "ai": true,
    "planLevel": "all",
    "appliesTo": "all",
-   "rank": 5
+   "rank": 6
   },
   {
    "week": "2026-W41",
@@ -8095,7 +8095,7 @@
    "ai": true,
    "planLevel": "free",
    "appliesTo": "all",
-   "rank": 6
+   "rank": 7
   },
   {
    "week": "2026-W41",
@@ -8158,7 +8158,7 @@
    "ai": false,
    "planLevel": "mid",
    "appliesTo": "new",
-   "rank": 17
+   "rank": 5
   },
   {
    "week": "2026-W41",
@@ -8205,7 +8205,7 @@
    "ai": true,
    "planLevel": "all",
    "appliesTo": "all",
-   "rank": 18
+   "rank": 12
   },
   {
    "week": "2026-W41",
@@ -8227,7 +8227,7 @@
    "detail": "line",
    "src": "PricingSaaS week 41 review",
    "url": "https://pricingsaas.com/news/article/luma-ai-doubles-video-to-video-credit-costs-on-seedance-adds-minimax-h3-max",
-   "rank": 55
+   "rank": 56
   },
   {
    "id": "shopify-2026w43",
@@ -9034,6 +9034,265 @@
     ],
     "source": [
      "https://pricingsaas.com/companies/file/diffs/2026W43"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "snyk-2026w40",
+   "week": "2026-W40",
+   "rank": 46,
+   "co": "Snyk",
+   "company": "snyk",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Ignite removed",
+   "short": "Ignite plan ($1,260 a year) removed; Enterprise moves from flat Contact Sales pricing to a credit-based subscription at 1 credit = $1.",
+   "pattern": "New billing units",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-21",
+   "seenLabel": "21–27 Sep",
+   "when": "21 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/snyk/diffs/2026W40",
+   "evidence": {
+    "report": "snyk:2026-W40",
+    "files": [
+     "data/pricingsaas/pages/diffs/snyk__2026W40.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/snyk/diffs/2026W40"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "framer-2026w40",
+   "week": "2026-W40",
+   "rank": 47,
+   "co": "Framer",
+   "company": "framer",
+   "tier": 3,
+   "group": "down",
+   "delta": "×10",
+   "short": "Advanced Hosting add-on static file upload limit raised from 50 to 500 files.",
+   "pattern": "Limits loosen",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-21",
+   "seenLabel": "21–27 Sep",
+   "when": "21 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/framer/diffs/2026W40",
+   "evidence": {
+    "report": "framer:2026-W40",
+    "files": [
+     "data/pricingsaas/pages/diffs/framer__2026W40.txt",
+     "data/pricingsaas/pages/articles/synthesia-renames-creator-to-pro-cuts-basic-s-free-credits-58-to-500-month.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/framer/diffs/2026W40"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "airtable-2026w41",
+   "week": "2026-W41",
+   "rank": 3,
+   "co": "Airtable",
+   "company": "airtable",
+   "tier": 1,
+   "group": "down",
+   "delta": "50 → 75–200",
+   "short": "Automations per base cap raised from a flat 50 to 75 on Free, 100 on Team, 150 on Business and 200 on Enterprise Scale.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-28",
+   "seenLabel": "28 Sep–4 Oct",
+   "when": "30 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/airtable/diffs/2026W41",
+   "evidence": {
+    "report": "airtable:2026-W41",
+    "files": [
+     "data/pricingsaas/pages/diffs/airtable__2026W41.txt",
+     "data/pricingsaas/pages/diffs/airtable__2026D273.txt",
+     "data/pricingsaas/pages/articles/airtable-reverses-its-own-automations-cap-two-days-after-imposing-it-tiering-75-200-by-plan.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/airtable/diffs/2026W41",
+     "https://pricingsaas.com/companies/airtable/diffs/2026D273"
+    ]
+   },
+   "reported": true,
+   "plan": "All plans",
+   "deltaSub": "automations per base, by plan",
+   "headline": "Airtable replaced its flat cap of 50 automations per base with a tiered cap: 75 on Free, 100 on Team, 150 on Business and 200 on Enterprise Scale.",
+   "rows": [
+    [
+     "Automations per base, Free",
+     "50",
+     "75"
+    ],
+    [
+     "Automations per base, Team",
+     "50",
+     "100"
+    ],
+    [
+     "Automations per base, Business",
+     "50",
+     "150"
+    ],
+    [
+     "Automations per base, Enterprise Scale",
+     "50",
+     "200"
+    ]
+   ],
+   "who": "All Airtable plans; paid plans gain the most headroom.",
+   "stated": null,
+   "read": "The tiered caps are looser than the flat 50 on every plan, and paying plans get a bigger allowance than Free. A cap that was only just introduced and then relaxed looks like a correction after the flat limit proved too tight for paying teams.",
+   "model": "Seat",
+   "modelBefore": "Seat",
+   "modelAfter": "Seat",
+   "appliesTo": "all",
+   "caveat": "The flat 50 cap was itself new: PricingSaaS shows it first on Sep 26 and again on Sep 28, so customers had it for only days. No pre-cap allowance is shown."
+  },
+  {
+   "id": "psychz-networks-2026w41",
+   "week": "2026-W41",
+   "rank": 57,
+   "co": "Psychz Networks",
+   "company": "psychz-networks",
+   "tier": 3,
+   "group": "pack",
+   "delta": "12 up, 6 down",
+   "short": "18 cMetal dedicated-server plans repriced, 12 up and 6 down (Dallas E3-1270 v3 $50 → $348, Ashburn E5-1650 v3 $164 → $79).",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-28",
+   "seenLabel": "28 Sep–4 Oct",
+   "when": "28 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/psychz/diffs/2026W41",
+   "evidence": {
+    "report": "psychz:2026-W41",
+    "files": [
+     "data/pricingsaas/pages/diffs/psychz__2026W41.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/psychz/diffs/2026W41"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "intercom-2026w40",
+   "week": "2026-W40",
+   "rank": 2,
+   "co": "Intercom",
+   "company": "intercom",
+   "tier": 1,
+   "group": "down",
+   "delta": "$29 / $19",
+   "short": "Essential seat price cut from $29 to $19 a month (−34%); Advanced ($85) and Expert ($132) unchanged.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": {
+    "low": -34,
+    "high": -34,
+    "basis": "list price"
+   },
+   "seen": "2026-09-21",
+   "seenLabel": "21–27 Sep",
+   "when": "28 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/intercom/diffs/2026D271",
+   "evidence": {
+    "report": "intercom:2026-W40",
+    "files": [
+     "data/pricingsaas/pages/diffs/intercom__2026D271.txt",
+     "data/pricingsaas/pages/articles/beehiiv-renames-its-plans-and-caps-pro-at-10-seats-down-from-unlimited.txt",
+     "data/pricingsaas/pages/articles/intercom-hikes-essential-seat-price-back-to-29-five-days-after-cutting-it-to-19.txt",
+     "data/pricingsaas/pages/articles/slack-puts-a-45-price-on-enterprise-ending-contact-sales.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/intercom/diffs/2026D271"
+    ]
+   },
+   "reported": true,
+   "plan": "Essential",
+   "deltaSub": "Essential seat, per month",
+   "headline": "Intercom’s pricing page showed the Essential seat at $19 a month instead of $29, while Advanced ($85) and Expert ($132) stayed the same.",
+   "rows": [
+    [
+     "Essential, per seat per month",
+     "$29",
+     "$19"
+    ]
+   ],
+   "who": "Essential plan seats; the page does not say whether existing customers get the lower price.",
+   "stated": null,
+   "read": "A 34% cut on the entry plan while the higher plans hold looks aimed at winning smaller teams, though the short life of the price points to experimentation.",
+   "model": "Seat",
+   "modelBefore": "Seat",
+   "modelAfter": "Seat",
+   "appliesTo": "unknown",
+   "caveat": "PricingSaaS later reported Essential back at $29 for most visitors on Oct 3, with some still seeing $19, which looks like a pricing test rather than a settled cut."
+  },
+  {
+   "id": "shipday-2026w40",
+   "week": "2026-W40",
+   "rank": 48,
+   "co": "Shipday",
+   "company": "shipday",
+   "tier": 3,
+   "group": "up",
+   "delta": "+40%",
+   "short": "Enterprise starting price up from $2,499 to $3,499 a month; other tiers unchanged.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-21",
+   "seenLabel": "21–27 Sep",
+   "when": "21 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/shipday/diffs/2026W40",
+   "evidence": {
+    "report": "shipday:2026-W40",
+    "files": [
+     "data/pricingsaas/pages/diffs/shipday__2026W40.txt",
+     "data/pricingsaas/pages/articles/fal-raises-serverless-h100-rate-to-2-49-hr-adds-gb200-gpu-doubles-minimax-video-pricing.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/shipday/diffs/2026W40"
     ]
    },
    "reported": true,
@@ -9913,7 +10172,7 @@
   },
   "framer": {
    "name": "Framer",
-   "tier": null,
+   "tier": 3,
    "category": "Marketing & Content",
    "aiNative": false,
    "ownership": "private",
@@ -11573,7 +11832,7 @@
   },
   "intercom": {
    "name": "Intercom",
-   "tier": 2,
+   "tier": 1,
    "category": "Sales & Customer Relationship Management (CRM)",
    "aiNative": false,
    "ownership": "private",
@@ -11745,6 +12004,26 @@
    "name": "ElevenLabs",
    "tier": null,
    "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "snyk": {
+   "name": "Snyk",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "psychz-networks": {
+   "name": "Psychz Networks",
+   "tier": 3,
+   "category": "Cloud & DevOps",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -12194,6 +12473,26 @@
    "co": "Bolt",
    "kind": "ended",
    "text": "Bolt Forge included free on Pro, extended to 18 Oct, has ended",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "docker-promo-2026w40",
+   "week": "2026-W40",
+   "company": "docker",
+   "co": "Docker",
+   "kind": "new",
+   "text": "$250 credit for Cloud Sandboxes offered in the pricing page banner",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "elevenlabs-promo-2026w41",
+   "week": "2026-W41",
+   "company": "elevenlabs",
+   "co": "ElevenLabs",
+   "kind": "new",
+   "text": "3x credits included on Creator and higher plans until 12 Oct (Eleven v4 launch)",
    "src": "PricingSaaS report",
    "reported": true
   }
