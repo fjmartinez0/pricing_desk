@@ -41,7 +41,9 @@ class Weeks(unittest.TestCase):
         self.assertIsNone(close_week.due_week("2026-W44", monday_am))
         self.assertEqual(close_week.due_week("2026-W44", monday_pm), "2026-W45")
         self.assertIsNone(close_week.due_week("2026-W45", monday_pm))          # already published
-        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 19, tzinfo=tz)))  # before W45
+        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 7, tzinfo=tz)))   # too early
+        self.assertEqual(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 19, tzinfo=tz)), "2026-W44")  # first auto
+        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 19, 19, tzinfo=tz)))  # W43: before W44
 
 
 class Text(unittest.TestCase):

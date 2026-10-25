@@ -117,7 +117,7 @@ the job-board notes, and the job-posting status words.
 | D26 | **The dashboard stays exactly as designed.** `site/template.html` is the page with its data block replaced by `__PD_DATA__`. At publish time GitHub Actions injects `data/desk.json`, so the built page is never committed. The page stays one self-contained file that also works offline (`build_site.py --out`). |
 | D27 | **Capture twice a day (07:00, 19:00).** A change needs 2 consecutive captures; a page that flips within one run 3 times is reported as a possible A/B price test (`unstable`). |
 | D28 | **Week attribution:** a change belongs to the week of the last capture that still showed the old page. **Week numbering keeps PricingSaaS's convention, one ahead of ISO** (week 42 = 5–11 Oct 2026), because existing data uses it. Note: the last days of December fall into next year's W01. |
-| D29 | **Edition:** closes the Monday–Sunday week on Monday at 19:00 (18 hours after the week ends, so Sunday changes are confirmed). If the agent fails, nothing is published and every following run retries. **The first automatic edition is week 45 (26 Oct–1 Nov), published Mon 2 Nov.** Weeks before W45 are hand-built (`FIRST_AUTO_EDITION`). |
+| D29 | **Edition:** closes the Monday–Sunday week on Monday at 19:00 (18 hours after the week ends, so Sunday changes are confirmed). If the agent fails, nothing is published and every following run retries. **The first automatic edition is week 44 (19–25 Oct), published Mon 26 Oct** (moved from W45 on 25 Oct so the default view stops showing week 42). Weeks before W44 are hand-built or PricingSaaS reports (`FIRST_AUTO_EDITION`). |
 | D30 | **Nothing is invented:** the rules in §5 are enforced in Python, not just asked of the agent. |
 | D31 | **Keep rule in code:** the agent assigns each change one `kind`; a fixed table in `common.py` keeps, drops or makes it a promo. |
 | D32 | **Append-only:** records are never deleted. Undecided changes stay in the backlog and are retried, then given up after 4 runs with an alert. Suggested URLs are verified by the first capture. |
@@ -345,7 +345,7 @@ If a step fails, the user pastes the error and Claude helps fix it before going 
    - Duolingo has no URL yet; ask the user for one or pause it.
 3. **Week 44 (19–25 Oct)** no longer needs building by hand: the briefings reach back about 9 days, so the
    hybrid reads week 44 automatically. Check on Mon 26 Oct that week 44 has records and a partial-week note.
-4. **First automatic edition: Mon 2 Nov, 19:00** (week 45). Check: every card's numbers match its source page;
+4. **First automatic edition: Mon 26 Oct, 19:00** (week 44; mostly PricingSaaS reports, our captures started 24 Oct). Check: every card's numbers match its source page;
    "They say" only with real quotes; reported records labeled; news links work. Tune `agent/*.md` if the
    writing needs it; tune rules only in `common.py`, with a test.
 5. **Weeks 45–48:** the hybrid now does most of the side-by-side automatically (corroborations and capture

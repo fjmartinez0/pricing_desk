@@ -24,7 +24,7 @@ import argparse
 import datetime as dt
 import re
 
-from common import (AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, BACKLOG_MAX_ATTEMPTS, APPLIES_TO, DESK, DROP_KINDS, GROUPS, KEEP_KINDS, MAGNITUDE_BASIS,
+from common import (AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, CAPTURES_STARTED, BACKLOG_MAX_ATTEMPTS, APPLIES_TO, DESK, DROP_KINDS, GROUPS, KEEP_KINDS, MAGNITUDE_BASIS,
                     MAX_ROWS, MODELS, PATTERNS, PLAN_LEVELS, PROMO_KIND, PROMO_KINDS, PROPOSALS, REACH, REGISTRY,
                     REPORT_MAX_ATTEMPTS, REPORT_WAIT_RUNS, REPORTS, REPORTS_PER_COMPANY_WEEK, ROOT, RUN, SEGMENTS,
                     SNAPSHOTS, SRC_CAPTURE, SRC_REPORTED, TIERS, WATCHLIST, append_check, change_id, claimed_numbers,
@@ -579,7 +579,9 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
     for w in desk["weeks"]:
         if w["week"] == week:
             w.update(coverage="tracked", source_week="Pricing Desk capture",
-                     note=(f"Captured from {active} tracked pricing pages, twice a day. "
+                     note=(f"Captured from {active} tracked pricing pages, twice a day"
+                           + (f" (our captures started on {CAPTURES_STARTED.day} {CAPTURES_STARTED:%b}, mid-week)"
+                              if week_start(week) < CAPTURES_STARTED else "") + ". "
                            f"We kept {st['total']} changes this week"
                      + (f", {reported} of them reported by PricingSaaS at companies we didn’t capture yet." if reported
                         else ".")))
