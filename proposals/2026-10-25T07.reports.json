@@ -1,0 +1,659 @@
+{
+ "type": "reports",
+ "run": "2026-10-25T07",
+ "items": [
+  {
+   "report_id": "cumul:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Luzmo",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.luzmo.com/pricing"],
+    "domains": ["luzmo.com"],
+    "source_url": "https://pricingsaas.com/companies/cumul/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_increase",
+   "why": "Luzmo’s USD all-in plan went from $1,995/month to $2,495/month (+25%) between the Sep 21 and Sep 28 captures, while the EUR price stayed at €1,995; the attached article file is about fal and was ignored.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+25%",
+    "short": "Luzmo’s USD all-in plan rose from $1,995/month to $2,495/month (+25%), while the EUR price held at €1,995.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "cognition:2026-W40",
+   "company": "cognition",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Team plan capped at 200 users instead of unlimited members; already recorded as cognition-2026w40.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "bugherd:2026-W40",
+   "company": "bugherd",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Mid-tier loses integrations, client collaboration and AI features while seats go from 5 to 10 and price from $83 to $67; already recorded as bugherd-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "beehiiv:2026-W40",
+   "company": "beehiiv",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "The NewsletterXP Course, included on Max and Enterprise only, was removed from the feature comparison table between the Sep 21 and Sep 28 captures.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Course removed",
+    "short": "The NewsletterXP Course row was removed from the feature comparison table; it had been included on the Max and Enterprise plans only.",
+    "pattern": "Unbundling",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1,
+    "plan": "Max, Enterprise",
+    "deltaSub": "perk on Max and Enterprise",
+    "headline": "beehiiv dropped the NewsletterXP Course from its Max and Enterprise plans.",
+    "rows": [
+     ["NewsletterXP Course, Max and Enterprise", "Included", "Removed"]
+    ],
+    "who": "Customers on the Max and Enterprise plans who used the course as part of their plan.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A bundled education perk is being taken out of the top plans, which fits a trend of trimming extras that cost the company to maintain. Small on its own.",
+    "caveat": "The change comes from a comparison-table row; it is not clear whether the course is still available elsewhere.",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W40",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "price_cut",
+   "why": "DeepSeek V4.1 Flash cache-input price cut 77% from $0.03 to $0.007 per 1M tokens; GLM-5.3 Fast was also added and six models retired, which are not priced changes to existing models.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−77%",
+    "short": "DeepSeek V4.1 Flash cache-input price cut from $0.03 to $0.007 per 1M tokens; input $0.30 and output $1.20 unchanged.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "airtable:2026-W40",
+   "company": "airtable",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "New cap of 50 automations per base on every plan (seen in the day and week pages); already recorded as airtable-2026w40.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "vapi:2026-W39",
+   "company": "vapi",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "Build and Scale replaced by four Success Package tiers (No Success Package $0, Core $29, Pro $999 minimum, Premier custom), with Zero Data Retention folded into Core and Pro; the concurrency cut is already recorded as vapi-2026w39, this record covers the plan restructure.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "New tiers",
+    "short": "Build and Scale were replaced by four Success Package tiers: No Success Package ($0), Core ($29/mo), Pro (10% of hosting fee, $999/mo min) and Premier (custom); Zero Data Retention, a $1,000/month add-on, now comes with Core and Pro.",
+    "pattern": "New tier",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3,
+    "plan": "Build, Scale",
+    "deltaSub": "plan structure",
+    "headline": "Vapi replaced its Build and Scale plans with four Success Package tiers, from $0 to custom, and made Zero Data Retention part of the paid tiers.",
+    "rows": [
+     ["Plan structure", "Build and Scale", "No Success Package, Core, Pro, Premier"],
+     ["Core, per month", "Not offered", "$29"],
+     ["Pro, per month", "Not offered", "$999 minimum"],
+     ["Zero Data Retention add-on, per month", "$1,000", "Included free with Core and Pro"],
+     ["Entry-level concurrent calls", "10", "4"]
+    ],
+    "who": "All Vapi customers; those on Build or Scale have to pick a Success Package.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Moving from two self-serve tiers to a ladder that starts free and charges a share of hosting spend at the top looks like a push to tie Vapi’s revenue to customers’ usage. Making a $1,000 add-on part of the paid tiers is a strong nudge to upgrade.",
+    "caveat": "PricingSaaS does not list the old Build and Scale prices, so only the new tiers are shown with prices.",
+    "model": "Usage → Hybrid",
+    "modelBefore": "Usage",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W39",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Qwen3.7-Max serverless inference up 25% ($2.00 → $2.50 input); already recorded as together-2026w39.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shopify:2026-W39",
+   "company": "shopify",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Shopify Plus payment-processing rates, previously described only as competitive, are now shown as numbers; prices shown for the first time.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "postman:2026-W39",
+   "company": null,
+   "new_company": {
+    "name": "Postman",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.postman.com/pricing/"],
+    "domains": ["postman.com"],
+    "source_url": "https://pricingsaas.com/companies/postman/diffs/2026W39",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_hidden",
+   "why": "The public $49/user Enterprise price was replaced by Contact sales and the Get Started and Buy with AWS options were removed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "gitlab:2026-W39",
+   "company": "gitlab",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Flex billing FAQ rewritten; commitment allocation wording narrowed from organizations or instances to Self-Managed instances, with no price or allowance numbers changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "vercel:2026-W38",
+   "company": "vercel",
+   "new_company": null,
+   "kind": "wording",
+   "why": "The only change on the page is the Pro card bullet changing from Faster builds to Flat Rate CDN; no prices or allowances are shown in the evidence, so it is treated as copy.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W38",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Qwen3.7-Max serverless inference rose 60% (input $1.25 → $2.00, output $3.75 → $6.00 per 1M tokens, cached $0.13 → $0.25); DeepSeek V4.1 Flash was also added.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "+60%",
+    "short": "Qwen3.7-Max serverless inference rose from $1.25 input / $3.75 output to $2.00 input / $6.00 output per 1M tokens; cached input went from $0.13 to $0.25.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2,
+    "plan": "Qwen3.7-Max serverless",
+    "deltaSub": "input and output, per 1M tokens",
+    "headline": "Together AI raised the price of Qwen3.7-Max serverless inference by 60%, and added DeepSeek V4.1 Flash to its catalog.",
+    "rows": [
+     ["Input, per 1M tokens", "$1.25", "$2.00"],
+     ["Output, per 1M tokens", "$3.75", "$6.00"],
+     ["Cached input, per 1M tokens", "$0.13", "$0.25"]
+    ],
+    "who": "Developers calling Qwen3.7-Max on Together’s serverless API.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Hosts are repricing popular open models upward when demand is high; the cached-input rate nearly doubled, which hits agent and long-context workloads hardest.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "all",
+    "magnitude": {"low": 60, "high": 60, "basis": "unit price"}
+   },
+   "promo": null
+  },
+  {
+   "report_id": "raycast:2026-W38",
+   "company": null,
+   "new_company": {
+    "name": "Raycast",
+    "category": "Collaboration & Productivity",
+    "segment": "Both",
+    "pricing_urls": ["https://www.raycast.com/pricing"],
+    "domains": ["raycast.com"],
+    "source_url": "https://pricingsaas.com/companies/raycast/diffs/2026W38",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "Pro split into Pro, Plus ($20/mo) and Max ($50/mo) with 500/3,000/7,500 AI credits, and the flat $8/month Advanced AI Add-on was removed.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "New tiers",
+    "short": "Pro was split into Pro, Plus ($20/mo) and Max ($50/mo) with 500/3,000/7,500 AI credits, and the flat $8/month Advanced AI Add-on was removed.",
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "deepseek:2026-W38",
+   "company": "deepseek",
+   "new_company": null,
+   "kind": "price_cut",
+   "why": "deepseek-v4-flash and the vision-exp model were merged into one deepseek-flash (V4.1) at lower cache-hit, cache-miss and output prices; the saved text gives no before/after numbers and says V4 Pro pricing is unchanged.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Lower rates",
+    "short": "deepseek-v4-flash and deepseek-v4-flash-vision-exp were merged into one deepseek-flash (V4.1) model at lower cache-hit, cache-miss and output prices; V4 Pro pricing is unchanged.",
+    "pattern": "Price cut",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "canva:2026-W38",
+   "company": "canva",
+   "new_company": null,
+   "kind": "price_cut",
+   "why": "Canva Pro fell 20% from US$180/year to US$144/year, and Free AI allowance was cut from up to 200 Standard or 20 Premium uses to up to 20; the existing canva-2026w38 record covers only the Premium tools relabel.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "−20%",
+    "short": "Canva Pro dropped from US$180/year to US$144/year, while the Free plan’s AI allowance was cut from up to 200 Standard AI uses or 20 Premium AI uses to up to 20 Standard or Premium AI uses.",
+    "pattern": "Price cut",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 3,
+    "plan": "Pro",
+    "deltaSub": "Pro, yearly",
+    "headline": "Canva cut the yearly price of Pro by 20% and, in the same update, sharply reduced the AI uses included for free.",
+    "rows": [
+     ["Pro, per year", "US$180", "US$144"],
+     ["Free plan, AI uses", "up to 200 Standard AI uses or 20 Premium AI uses", "up to 20 Standard or Premium AI uses"]
+    ],
+    "who": "Pro subscribers (price) and people on Canva Free (AI allowance).",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A cheaper Pro paired with a much smaller free AI allowance reads as a push to move free users to paid when they want AI features.",
+    "caveat": "Prices are shown in US dollars per year; the price cut covers one person on Pro.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -20, "high": -20, "basis": "list price"}
+   },
+   "promo": null
+  },
+  {
+   "report_id": "twilio:2026-W37",
+   "company": null,
+   "new_company": {
+    "name": "Twilio",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.twilio.com/en-us/video/pricing"],
+    "domains": ["twilio.com"],
+    "source_url": "https://pricingsaas.com/companies/twilio/diffs/2026W37",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "metering",
+   "why": "Twilio Video moved from $0.004 per participant per minute to 5,000 free hours, then $1 per active user hour or $150 per named user per month; this reverses the Aug 24 change in the other Twilio report, so the page may be flipping between models.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Minutes → user-hours",
+    "short": "Twilio Video moved from $0.004 per participant per minute to 5,000 free hours, then $1 per active user hour or $150 per named user per month.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "salesforce.small-business:2026-W37",
+   "company": "salesforce",
+   "new_company": null,
+   "kind": "free_plan",
+   "why": "Free Suite ($0/user/month) was removed from the Small Business CRM suites; only Starter Suite and Pro Suite remain.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Free plan removed",
+    "short": "Free Suite ($0/user/month) was removed from the Small Business CRM suites; only Starter Suite and Pro Suite remain.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 1,
+    "plan": "Free Suite",
+    "deltaSub": "Small Business suites",
+    "headline": "Salesforce dropped the free CRM suite from its Small Business lineup, leaving Starter Suite and Pro Suite.",
+    "rows": [
+     ["Free Suite, per user per month", "$0", "Removed"],
+     ["Suites on the page", "Free Suite, Starter Suite, Pro Suite", "Starter Suite, Pro Suite"]
+    ],
+    "who": "Small businesses looking at Salesforce’s entry CRM; people who would have started on the free suite.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Removing the free entry point makes a paid plan the cheapest way into Salesforce’s small-business CRM, a step away from the free-plan-as-funnel approach.",
+    "caveat": "PricingSaaS does not say what happens to existing Free Suite users.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "modal:2026-W37",
+   "company": null,
+   "new_company": {
+    "name": "Modal",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": ["https://modal.com/pricing"],
+    "domains": ["modal.com"],
+    "source_url": "https://pricingsaas.com/companies/modal/diffs/2026W37",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_cut",
+   "why": "Region selection surcharge floor lowered from 1.5x to 1.15x base compute prices on Starter, Team and Enterprise; the top of the range stays at 1.75x.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "1.5x → 1.15x",
+    "short": "Modal’s region selection surcharge dropped from 1.5-1.75x to 1.15-1.75x base compute prices on Starter, Team and Enterprise.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "datadog.database-monitoring:2026-W37",
+   "company": "datadog",
+   "new_company": null,
+   "kind": "wording",
+   "why": "An FAQ term was renamed from database host to billable host and re-defined as a database instance; no prices or allowances changed on the page.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "atlassian.jira:2026-W37",
+   "company": "atlassian",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Jira automation quota renamed from rule runs to automation steps with new caps: Free 100 → 150, Standard 1,700 flat → 400 per user, Premium 1,000 → 750 per user, Enterprise Unlimited → 1,000 per user.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Automation caps reset",
+    "short": "Jira’s automation quota was renamed from rule runs to automation steps: Free 100 → 150 per subscription per month, Standard 1,700 flat → 400 per user, Premium 1,000 → 750 per user, Enterprise Unlimited → 1,000 per user.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2,
+    "plan": "Free, Standard, Premium, Enterprise",
+    "deltaSub": "Jira automation quota",
+    "headline": "Atlassian renamed Jira’s automation quota from rule runs to automation steps and set new per-plan caps, including a first cap on Enterprise.",
+    "rows": [
+     ["Free, per subscription per month", "100", "150"],
+     ["Standard, per month", "1,700 flat", "400 per user"],
+     ["Premium, per month", "1,000", "750 per user"],
+     ["Enterprise, per month", "Unlimited", "1,000 per user"]
+    ],
+    "who": "Jira Cloud customers on all plans that use automation; teams with few users on Standard and heavy users on Enterprise are affected most.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Moving from flat pools to per-user caps and ending unlimited on Enterprise ties automation volume to seat count, which is likely to push heavy automation users toward higher spend.",
+    "caveat": "The saved text gives the old Premium value without a unit, so whether it was per user or per subscription is not stated.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "wisprflow:2026-W36",
+   "company": "wispr-flow",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "The hidden Contact us price on the Enterprise plan, renamed Growth/Enterprise, was replaced with a visible starting price of $18/user/mo (annual); prices shown for the first time.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "vercel:2026-W36",
+   "company": "vercel",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Vercel Connect renamed Token Requests: included quota cut from 5K to 500 requests/month and overage raised about 10x, plus a new Triggers meter.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "×10 overage rate",
+    "short": "Vercel Connect, renamed Token Requests, now includes 500 requests/month instead of 5K and charges $3.00 per 1,000 requests instead of $3 per 10K; a new Triggers meter adds 1,000 included, then $0.95 per 1,000.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "stripe:2026-W36",
+   "company": null,
+   "new_company": {
+    "name": "Stripe",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": ["https://stripe.com/pricing"],
+    "domains": ["stripe.com"],
+    "source_url": "https://pricingsaas.com/companies/stripe/diffs/2026W36",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "metering",
+   "why": "Metronome Startup plan moved from a $100,000 included billing allotment (10M events) to $0.04 per 1K ingest events plus 0.8% of billing volume; the T600 card reader is hardware and was left out.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Metered + 0.8%",
+    "short": "Metronome Startup plan moved from a $100,000 included billing allotment (10M usage events) to $0.04 per 1K ingest events plus 0.8% of billing volume.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "openai.api:2026-W36",
+   "company": "openai",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "Business split into a Standard seat ($20/mo annual, unchanged) and a new Premium seat ($100/mo annual, $125/mo monthly, 5x usage), and Business is capped at 200 employees.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "New $100 seat",
+    "short": "Business now has a Standard seat ($20/mo annual) and a new Premium seat ($100/mo annual, $125/mo monthly) with 5x usage, and is capped at 200 employees.",
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2,
+    "plan": "Business",
+    "deltaSub": "Premium seat, per month, annual",
+    "headline": "OpenAI split its Business plan into two seat types, adding a $100 Premium seat with 5x usage, and capped Business at 200 employees.",
+    "rows": [
+     ["Standard seat, per month (annual)", "$20", "$20"],
+     ["Premium seat, per month (annual)", "Not offered", "$100"],
+     ["Premium seat, per month (monthly)", "Not offered", "$125"],
+     ["Business employee cap", "No cap", "200 employees"]
+    ],
+    "who": "Business customers; companies above 200 employees can no longer use the plan.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A higher-priced seat for heavy users plus an employee cap pushes larger companies toward Enterprise and lets OpenAI charge power users more without raising the standard seat.",
+    "caveat": "The saved text calls this the OpenAI API Business plan; Standard seat prices are described as unchanged.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "cohere:2026-W36",
+   "company": "cohere",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Parse 5 document-parsing model added to Model Vault with Medium and XL tiers; a new model on the price list with no existing price changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "x:2026-W35",
+   "company": "xai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Grok Imagine image and video models were added to the price list and grok-4.5 dropped from the main table; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "warp:2026-W35",
+   "company": "warp",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The banner Claude Fable 5 and Opus 5 are 50% off for a limited time was removed; the new Warp Factories product line is a new offering and not recorded separately.",
+   "detail": "card",
+   "record": null,
+   "promo": {"kind": "ended", "text": "Claude Fable 5 and Opus 5 are 50% off for a limited time"}
+  },
+  {
+   "report_id": "twilio:2026-W35",
+   "company": null,
+   "new_company": {
+    "name": "Twilio",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": ["https://www.twilio.com/en-us/video/pricing"],
+    "domains": ["twilio.com"],
+    "source_url": "https://pricingsaas.com/companies/twilio/diffs/2026W35",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "metering",
+   "why": "Twilio Video dropped 5,000 free hours plus $1 per active user hour or $150 per named user per month for pay-as-you-go at $0.004 per participant per minute; reversed by the Sep 7 change in the other Twilio report.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "User-hours → minutes",
+    "short": "Twilio Video dropped the 5,000 free hours plus $1 per active user hour or $150 per named user per month for pay-as-you-go at $0.004 per participant per minute.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "mindsdb:2026-W35",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "MindsHub split Free/Pro into Cowork and a Unified Inference API and added a 5% platform fee on rate-card prices; Gemini 3.6 Flash rates were halved and Kimi K3 gained a cache-write fee.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+5% platform fee",
+    "short": "MindsHub split Free/Pro into Cowork and a Unified Inference API and added a 5% platform fee on rate-card prices; Gemini 3.6 Flash rates were halved and Kimi K3 gained a cache-write fee.",
+    "pattern": "AI costs pass through",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "deepseek:2026-W35",
+   "company": "deepseek",
+   "new_company": null,
+   "kind": "price_cut",
+   "why": "Peak-hour pricing now applies Monday to Friday only, so weekends are always billed at off-peak rates (half the peak price); the new deepseek-v4-flash-vision-exp model was priced like deepseek-v4-flash and is not recorded separately.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−50% on weekends",
+    "short": "Peak-hour pricing now applies Monday to Friday only, so weekends are billed at off-peak rates (deepseek-v4-flash: $0.22 instead of $0.44 per 1M cache-miss input tokens, $0.66 instead of $1.32 output).",
+    "pattern": "Price cut",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  }
+ ]
+}

@@ -1004,7 +1004,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "bugherd"
+   ]
   },
   "buildbetter": {
    "name": "BuildBetter",
@@ -1080,7 +1083,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 1,
-   "notes": "rejected https://www.canva.com/pricing/: page shows no prices"
+   "notes": "rejected https://www.canva.com/pricing/: page shows no prices",
+   "ps_slugs": [
+    "canva"
+   ]
   },
   "canvasapp": {
    "name": "Canvas",
@@ -1317,7 +1323,7 @@
     "clarify.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": null,
    "hq": null,
@@ -1372,7 +1378,7 @@
     "coderabbit.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": true,
    "ownership": "private",
    "hq": "US",
@@ -1398,7 +1404,7 @@
     "coderpad.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1437,7 +1443,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "cognition"
+   ]
   },
   "cohere": {
    "name": "Cohere",
@@ -1503,7 +1512,7 @@
     "commpeak.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1529,7 +1538,7 @@
     "constructconnect.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "US",
@@ -1555,7 +1564,7 @@
     "contabo.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1603,7 +1612,7 @@
     "convex.dev"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1673,7 +1682,7 @@
     "crusoe.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1699,7 +1708,7 @@
     "crystalknows.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -1776,7 +1785,7 @@
     "dash.app"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -1816,7 +1825,8 @@
    "notes": "",
    "ps_slugs": [
     "datadog.data-streams-monitoring",
-    "datadog.llm-observability"
+    "datadog.llm-observability",
+    "datadog.database-monitoring"
    ]
   },
   "datarails": {
@@ -1996,10 +2006,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.easydmarc.com/pricing"
+   ],
+   "domains": [
+    "easydmarc.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -2018,10 +2032,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.eccentex.com/pricing"
+   ],
+   "domains": [
+    "eccentex.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -2040,10 +2058,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.edgedelta.com/pricing"
+   ],
+   "domains": [
+    "edgedelta.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -2062,10 +2084,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.enpass.io/pricing/"
+   ],
+   "domains": [
+    "enpass.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "APAC",
@@ -2106,10 +2132,14 @@
    "category": "Data & Analytics",
    "segment": null,
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://explorium.ai/pricing/"
+   ],
+   "domains": [
+    "explorium.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -2128,10 +2158,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://expo.dev/pricing"
+   ],
+   "domains": [
+    "expo.dev"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": null,
    "hq": null,
@@ -2234,10 +2268,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://file.ai/pricing"
+   ],
+   "domains": [
+    "file.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": true,
    "ownership": null,
    "hq": null,
@@ -5017,7 +5055,8 @@
    "url_attempts": 0,
    "notes": "",
    "ps_slugs": [
-    "salesforce.agentforce"
+    "salesforce.agentforce",
+    "salesforce.small-business"
    ]
   },
   "scite": {
@@ -5941,7 +5980,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "vapi"
+   ]
   },
   "vartion": {
    "name": "Vartion",
@@ -6099,7 +6141,10 @@
    "source": "seed",
    "source_url": null,
    "url_attempts": 0,
-   "notes": ""
+   "notes": "",
+   "ps_slugs": [
+    "warp"
+   ]
   },
   "whalesync": {
    "name": "Whalesync",
@@ -6791,7 +6836,8 @@
    "url_attempts": 0,
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
-    "xai"
+    "xai",
+    "x"
    ]
   },
   "mercury": {
@@ -7185,7 +7231,7 @@
     "element451.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7214,7 +7260,7 @@
     "chameleon.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7236,14 +7282,12 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.airslate.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "airslate.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7253,8 +7297,8 @@
    "added": "2026-10-24",
    "source": "agent 2026-10-24T19",
    "source_url": "https://pricingsaas.com/companies/airslate/diffs/2026W42",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.airslate.com/pricing: page shows no prices",
    "ps_slugs": [
     "airslate"
    ]
@@ -7272,7 +7316,7 @@
     "airbyte.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7301,7 +7345,7 @@
     "wandb.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7323,14 +7367,12 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.psychz.net/dashboard/client/web/order/dedicated-server"
-   ],
+   "pricing_urls": [],
    "domains": [
     "psychz.net"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7340,8 +7382,8 @@
    "added": "2026-10-24",
    "source": "agent 2026-10-24T19",
    "source_url": "https://pricingsaas.com/companies/psychz/diffs/2026W41",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.psychz.net/dashboard/client/web/order/dedicated-server: page shows no prices",
    "ps_slugs": [
     "psychz"
    ]
@@ -7352,14 +7394,12 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.wiz.io/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "wiz.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7369,8 +7409,8 @@
    "added": "2026-10-24",
    "source": "agent 2026-10-24T19",
    "source_url": "https://pricingsaas.com/companies/wiz/diffs/2026W40",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.wiz.io/pricing: page shows no prices",
    "ps_slugs": [
     "wiz"
    ]
@@ -7388,7 +7428,7 @@
     "snyk.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -7402,6 +7442,180 @@
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
     "snyk"
+   ]
+  },
+  "luzmo": {
+   "name": "Luzmo",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.luzmo.com/pricing"
+   ],
+   "domains": [
+    "luzmo.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/cumul/diffs/2026W40",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "cumul"
+   ]
+  },
+  "postman": {
+   "name": "Postman",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.postman.com/pricing/"
+   ],
+   "domains": [
+    "postman.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/postman/diffs/2026W39",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "postman"
+   ]
+  },
+  "raycast": {
+   "name": "Raycast",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.raycast.com/pricing"
+   ],
+   "domains": [
+    "raycast.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/raycast/diffs/2026W38",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "raycast"
+   ]
+  },
+  "twilio": {
+   "name": "Twilio",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.twilio.com/en-us/video/pricing"
+   ],
+   "domains": [
+    "twilio.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/twilio/diffs/2026W37",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "twilio"
+   ]
+  },
+  "modal": {
+   "name": "Modal",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://modal.com/pricing"
+   ],
+   "domains": [
+    "modal.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/modal/diffs/2026W37",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "modal"
+   ]
+  },
+  "stripe": {
+   "name": "Stripe",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://stripe.com/pricing"
+   ],
+   "domains": [
+    "stripe.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-10-25",
+   "source": "agent 2026-10-25T07",
+   "source_url": "https://pricingsaas.com/companies/stripe/diffs/2026W36",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "stripe"
    ]
   }
  }

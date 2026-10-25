@@ -1,0 +1,550 @@
+{
+ "run": "2026-10-25T07",
+ "reports": [
+  {
+   "report_id": "cumul:2026-W40",
+   "week": "2026-W40",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/cumul/diffs/2026W40"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/cumul__2026W40.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fal-raises-serverless-h100-rate-to-2-49-hr-adds-gb200-gpu-doubles-minimax-video-pricing.txt"
+   ],
+   "title": "Luzmo hikes USD all-in plan 25% to $2,495/month, EUR price holds at €1,995 — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "cognition:2026-W40",
+   "week": "2026-W40",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/cognition/diffs/2026W40"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/cognition__2026W40.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/intercom-hikes-essential-seat-price-back-to-29-five-days-after-cutting-it-to-19.txt"
+   ],
+   "title": "Devin: Team plan capped from unlimited to 200 users — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "cognition",
+   "registry_name": "Cognition",
+   "existing_records": [
+    {
+     "id": "cognition-2026w40",
+     "short": "Team plan goes from unlimited members to up to 200 users.",
+     "src": "PricingSaaS week 40"
+    }
+   ]
+  },
+  {
+   "report_id": "bugherd:2026-W40",
+   "week": "2026-W40",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/bugherd/diffs/2026W40"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/bugherd__2026W40.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/beehiiv-renames-its-plans-and-caps-pro-at-10-seats-down-from-unlimited.txt",
+    "data/pricingsaas/pages/articles/slack-puts-a-45-price-on-enterprise-ending-contact-sales.txt"
+   ],
+   "title": "BugHerd guts mid-tier Premium features, doubles seats to 10, cuts price to $67 — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "bugherd",
+   "registry_name": "BugHerd",
+   "existing_records": [
+    {
+     "id": "bugherd-2026w40",
+     "short": "Mid-tier loses two-way Jira/Asana/ClickUp/Monday sync, client collaboration and AI features, moved to a new top Premium tier.",
+     "src": "PricingSaaS week 40"
+    }
+   ]
+  },
+  {
+   "report_id": "beehiiv:2026-W40",
+   "week": "2026-W40",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/beehiiv/diffs/2026W40"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/beehiiv__2026W40.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/beehiiv-renames-its-plans-and-caps-pro-at-10-seats-down-from-unlimited.txt"
+   ],
+   "title": "beehiiv drops NewsletterXP Course from Max, Enterprise plans — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "beehiiv",
+   "registry_name": "beehiiv",
+   "existing_records": []
+  },
+  {
+   "report_id": "baseten:2026-W40",
+   "week": "2026-W40",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026W40"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/baseten__2026W40.txt"
+   ],
+   "article_files": [],
+   "title": "Baseten adds GLM-5.3 Fast, retires 6 models, cuts DeepSeek V4.1 Flash cache price 77% — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "baseten",
+   "registry_name": "Baseten",
+   "existing_records": []
+  },
+  {
+   "report_id": "airtable:2026-W40",
+   "week": "2026-W40",
+   "change_date": "2026-09-26",
+   "urls": [
+    "https://pricingsaas.com/companies/airtable/diffs/2026W40",
+    "https://pricingsaas.com/companies/airtable/diffs/2026D269"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/airtable__2026W40.txt",
+    "data/pricingsaas/pages/diffs/airtable__2026D269.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/airtable-reverses-its-own-automations-cap-two-days-after-imposing-it-tiering-75-200-by-plan.txt"
+   ],
+   "title": "Airtable caps Automations at 50 per base across all plans — Sep 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "airtable",
+   "registry_name": "Airtable",
+   "existing_records": [
+    {
+     "id": "airtable-2026w40",
+     "short": "New cap of 50 automations per base on every plan.",
+     "src": "PricingSaaS week 40"
+    }
+   ]
+  },
+  {
+   "report_id": "vapi:2026-W39",
+   "week": "2026-W39",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vapi/diffs/2026W39"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vapi__2026W39.txt"
+   ],
+   "article_files": [],
+   "title": "Vapi scraps Build/Scale for four-tier Success Packages from $0 to custom — Sep 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "vapi",
+   "registry_name": "Vapi",
+   "existing_records": [
+    {
+     "id": "vapi-2026w39",
+     "short": "Included concurrent calls cut from 10 to 4; getting 10 back needs the $29 Core plan.",
+     "src": "PricingSaaS week 39"
+    }
+   ]
+  },
+  {
+   "report_id": "together:2026-W39",
+   "week": "2026-W39",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/together/diffs/2026W39"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/together__2026W39.txt"
+   ],
+   "article_files": [],
+   "title": "Together AI: Qwen3.7-Max inference price increased 25% ($2.00→$2.50) — Sep 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "together-ai",
+   "registry_name": "Together AI",
+   "existing_records": [
+    {
+     "id": "together-2026w39",
+     "short": "Qwen3.7-Max inference up 25%: $2.00 → $2.50 input, $6.00 → $7.50 output per million tokens.",
+     "src": "PricingSaaS week 39"
+    }
+   ]
+  },
+  {
+   "report_id": "shopify:2026-W39",
+   "week": "2026-W39",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/shopify/diffs/2026W39"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/shopify__2026W39.txt"
+   ],
+   "article_files": [],
+   "title": "Shopify: Plus payment processing rates now publicly disclosed — Sep 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "shopify",
+   "registry_name": "Shopify",
+   "existing_records": []
+  },
+  {
+   "report_id": "postman:2026-W39",
+   "week": "2026-W39",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/postman/diffs/2026W39"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/postman__2026W39.txt"
+   ],
+   "article_files": [],
+   "title": "Postman hides $49/user Enterprise price behind Contact Sales, drops AWS buy — Sep 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "gitlab:2026-W39",
+   "week": "2026-W39",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/gitlab/diffs/2026W39"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/gitlab__2026W39.txt"
+   ],
+   "article_files": [],
+   "title": "GitLab: Flex billing FAQ overhauled — new usage-cap self-service, terms narrowed — Sep 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "gitlab",
+   "registry_name": "GitLab",
+   "existing_records": []
+  },
+  {
+   "report_id": "vercel:2026-W38",
+   "week": "2026-W38",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026W38"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vercel__2026W38.txt"
+   ],
+   "article_files": [],
+   "title": "Vercel bundles Edge, Fast Data, Blob & Sandbox overages into flat CDN plan — Sep 14, 2026 · PricingSaaS Pulse",
+   "registry_guess": "vercel",
+   "registry_name": "Vercel",
+   "existing_records": []
+  },
+  {
+   "report_id": "together:2026-W38",
+   "week": "2026-W38",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/together/diffs/2026W38"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/together__2026W38.txt"
+   ],
+   "article_files": [],
+   "title": "Together AI: Qwen3.7-Max price hike + new DeepSeek V4.1 Flash model — Sep 14, 2026 · PricingSaaS Pulse",
+   "registry_guess": "together-ai",
+   "registry_name": "Together AI",
+   "existing_records": []
+  },
+  {
+   "report_id": "raycast:2026-W38",
+   "week": "2026-W38",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/raycast/diffs/2026W38"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/raycast__2026W38.txt"
+   ],
+   "article_files": [],
+   "title": "Raycast adds $50 Max plan, splits Pro into 3 AI-credit tiers, drops $8 add-on — Sep 14, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "deepseek:2026-W38",
+   "week": "2026-W38",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026W38"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/deepseek__2026W38.txt"
+   ],
+   "article_files": [],
+   "title": "DeepSeek merges v4-flash and vision-exp into cheaper Flash V4.1 — Sep 14, 2026 · PricingSaaS Pulse",
+   "registry_guess": "deepseek",
+   "registry_name": "DeepSeek",
+   "existing_records": []
+  },
+  {
+   "report_id": "canva:2026-W38",
+   "week": "2026-W38",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/canva/diffs/2026W38"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/canva__2026W38.txt"
+   ],
+   "article_files": [],
+   "title": "Canva cuts Pro to $144/year, slashes free AI uses from 200 to 20 — Sep 14, 2026 · PricingSaaS Pulse",
+   "registry_guess": "canva",
+   "registry_name": "Canva",
+   "existing_records": [
+    {
+     "id": "canva-2026w38",
+     "short": "Pro’s “Premium tools” relabelled “AI tools”, with a new fair-use footnote.",
+     "src": "PricingSaaS week 38"
+    }
+   ]
+  },
+  {
+   "report_id": "twilio:2026-W37",
+   "week": "2026-W37",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/twilio/diffs/2026W37"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/twilio__2026W37.txt"
+   ],
+   "article_files": [],
+   "title": "Twilio Video ditches per-minute billing for 5,000 free hours, then $1/user-hour — Sep 7, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "salesforce.small-business:2026-W37",
+   "week": "2026-W37",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/salesforce.small-business/diffs/2026W37"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/salesforce.small-business__2026W37.txt"
+   ],
+   "article_files": [],
+   "title": "Salesforce Small Business axes Free Suite plan, leaves only Starter and Pro — Sep 7, 2026 · PricingSaaS Pulse",
+   "registry_guess": "salesforce",
+   "registry_name": "Salesforce",
+   "existing_records": []
+  },
+  {
+   "report_id": "modal:2026-W37",
+   "week": "2026-W37",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/modal/diffs/2026W37"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/modal__2026W37.txt"
+   ],
+   "article_files": [],
+   "title": "Modal cuts region surcharge floor to 1.15x, easing cross-region compute costs — Sep 8, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "datadog.database-monitoring:2026-W37",
+   "week": "2026-W37",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/datadog.database-monitoring/diffs/2026W37"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/datadog.database-monitoring__2026W37.txt"
+   ],
+   "article_files": [],
+   "title": "Datadog redefines \"billable host\" as full DB instance, not... — Sep 7, 2026 · PricingSaaS Pulse",
+   "registry_guess": "datadog",
+   "registry_name": "Datadog",
+   "existing_records": []
+  },
+  {
+   "report_id": "atlassian.jira:2026-W37",
+   "week": "2026-W37",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/atlassian.jira/diffs/2026W37"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/atlassian.jira__2026W37.txt"
+   ],
+   "article_files": [],
+   "title": "Atlassian Jira revamps automation quotas: renames rule runs, tightens caps — Sep 7, 2026 · PricingSaaS Pulse",
+   "registry_guess": "atlassian",
+   "registry_name": "Atlassian",
+   "existing_records": []
+  },
+  {
+   "report_id": "wisprflow:2026-W36",
+   "week": "2026-W36",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/wisprflow/diffs/2026W36"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/wisprflow__2026W36.txt"
+   ],
+   "article_files": [],
+   "title": "Wispr Flow ends Enterprise's hidden pricing, unveils $18/user/mo Growth tier — Aug 31, 2026 · PricingSaaS Pulse",
+   "registry_guess": "wispr-flow",
+   "registry_name": "Wispr Flow",
+   "existing_records": []
+  },
+  {
+   "report_id": "vercel:2026-W36",
+   "week": "2026-W36",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026W36"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vercel__2026W36.txt"
+   ],
+   "article_files": [],
+   "title": "Vercel: Connect->Token Requests price hike + new Triggers metric — Aug 31, 2026 · PricingSaaS Pulse",
+   "registry_guess": "vercel",
+   "registry_name": "Vercel",
+   "existing_records": []
+  },
+  {
+   "report_id": "stripe:2026-W36",
+   "week": "2026-W36",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/stripe/diffs/2026W36"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/stripe__2026W36.txt"
+   ],
+   "article_files": [],
+   "title": "Stripe: Metronome pricing restructured + new T600 reader ($329) — Aug 31, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "openai.api:2026-W36",
+   "week": "2026-W36",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/openai.api/diffs/2026W36"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/openai.api__2026W36.txt"
+   ],
+   "article_files": [],
+   "title": "OpenAI API Business: new $100/mo Premium seat tier + 200-employee cap — Aug 31, 2026 · PricingSaaS Pulse",
+   "registry_guess": "openai",
+   "registry_name": "OpenAI",
+   "existing_records": []
+  },
+  {
+   "report_id": "cohere:2026-W36",
+   "week": "2026-W36",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/cohere/diffs/2026W36"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/cohere__2026W36.txt"
+   ],
+   "article_files": [],
+   "title": "Cohere adds Parse 5 doc-parsing model, Medium $4/hr and XL $7/hr tiers — Aug 31, 2026 · PricingSaaS Pulse",
+   "registry_guess": "cohere",
+   "registry_name": "Cohere",
+   "existing_records": []
+  },
+  {
+   "report_id": "x:2026-W35",
+   "week": "2026-W35",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/x/diffs/2026W35"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/x__2026W35.txt"
+   ],
+   "article_files": [],
+   "title": "X drops grok-4.5, adds Imagine image/video models and free Playground perk — Aug 24, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "warp:2026-W35",
+   "week": "2026-W35",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/warp/diffs/2026W35"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/warp__2026W35.txt"
+   ],
+   "article_files": [],
+   "title": "Warp launches Warp Factories with 5 tiers and $10K Early Access credit, drops Claude 50% off promo — Aug 24, 2026 · PricingSaaS Pulse",
+   "registry_guess": "warp",
+   "registry_name": "Warp",
+   "existing_records": []
+  },
+  {
+   "report_id": "twilio:2026-W35",
+   "week": "2026-W35",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/twilio/diffs/2026W35"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/twilio__2026W35.txt"
+   ],
+   "article_files": [],
+   "title": "Twilio ditches per-user Video pricing for pay-as-you-go at $0.004/min — Aug 24, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "mindsdb:2026-W35",
+   "week": "2026-W35",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026W35"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mindsdb__2026W35.txt"
+   ],
+   "article_files": [],
+   "title": "MindsDB splits Free/Pro into Cowork + Inference API, adds 5% platform fee — Aug 24, 2026 · PricingSaaS Pulse",
+   "registry_guess": "mindsdb",
+   "registry_name": "MindsDB",
+   "existing_records": []
+  },
+  {
+   "report_id": "deepseek:2026-W35",
+   "week": "2026-W35",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026W35"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/deepseek__2026W35.txt"
+   ],
+   "article_files": [],
+   "title": "DeepSeek adds vision model, exempts weekends from peak pricing — Aug 24, 2026 · PricingSaaS Pulse",
+   "registry_guess": "deepseek",
+   "registry_name": "DeepSeek",
+   "existing_records": []
+  }
+ ]
+}
