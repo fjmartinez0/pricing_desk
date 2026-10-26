@@ -1,0 +1,97 @@
+{
+ "type": "changes",
+ "run": "2026-10-26T07",
+ "items": [
+  {
+   "diff_id": "asana-2026-10-26T07",
+   "kind": "price_reveal",
+   "why": "The plan cards were rewritten with longer copy and the AI allowances (already in the comparison table) moved onto them; the only new number is a $5.99 per user on-demand price that appears in one of two page versions served in the same run.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "chargeflow-2026-10-26T07",
+   "kind": "noise",
+   "why": "The Prevent price changed from $0.1 to $0.10 per scanned transaction, which is a formatting difference with the same value.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "grammarly-2026-10-26T07",
+   "kind": "wording",
+   "why": "The Pro button text changed from “Get started for free” to “Try for $0.00”; no price or trial terms changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "intercom-2026-10-26T07",
+   "kind": "metering",
+   "why": "The pricing FAQ now says WhatsApp is charged per message sent instead of per conversation, a change of billing unit.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Conversation → message",
+    "short": "WhatsApp usage billing changes from per conversation to per message sent.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 2,
+    "plan": "WhatsApp usage charges",
+    "deltaSub": "WhatsApp billing unit",
+    "headline": "Intercom’s pricing FAQ now says WhatsApp is charged for each message sent, where it used to say each conversation.",
+    "rows": [
+     ["WhatsApp billing unit", "Charged per conversation (varies by volume/direction)", "Charged per message sent (varies by market/message type)"]
+    ],
+    "who": "Customers using WhatsApp on Intercom; the FAQ does not say whether existing customers move over or when.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Per-message billing makes cost scale with how chatty a thread is rather than with the number of threads. This looks like Intercom following the way WhatsApp itself now charges, but that is our inference.",
+    "caveat": "The page also showed two versions in this run; both carry the new WhatsApp wording, and no WhatsApp rates are published on the page.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "zoom-2026-10-26T07",
+   "kind": "limit_change",
+   "why": "The Basic (free) plan’s in-meeting questions allowance rose from 3 to 20 in the comparison table.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "3 → 20",
+    "short": "Zoom Basic’s in-meeting questions allowance rises from 3 to 20.",
+    "pattern": "Limits loosen",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 3,
+    "plan": "Basic (free)",
+    "deltaSub": "in-meeting AI questions, Basic",
+    "headline": "Zoom’s free Basic plan now allows 20 in-meeting questions instead of 3, while meeting summaries stay at 3.",
+    "rows": [
+      ["In meeting questions, Basic", "3", "20"],
+      ["Meeting summaries, Basic", "3", "3"]
+    ],
+    "who": "Users on the free Basic plan; paid plans already show Unlimited.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A bigger free allowance for the AI questions feature gives free users more of a taste of the paid AI tier. Summaries and AI note-taking were left at 3, so the paywall has moved only on one feature.",
+    "caveat": "The page showed two versions in this run, and both carry the new value. The page is displayed in CA$ for this visitor; no prices changed.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "all",
+    "magnitude": {"low": 567, "high": 567, "basis": "allowance"}
+   },
+   "promo": null
+  }
+ ]
+}

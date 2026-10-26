@@ -1,0 +1,141 @@
+=== https://sinch.com/voice/pricing/ ===
+﻿
+👋 Looking for Sinch Engage? You’re now on Sinch’s main site.
+Go back to Sinch Engage
+Exploring an alternative to your Lumen voice service? Learn how Sinch helps you migrate smoothly when you’re ready.
+Programmable Voice
+Voice API Pricing
+Our pay-as-you-go pricing for our Voice API and In-app Voice and Video SDKs offers the transparency you demand, the flexibility you require, and the competitiveness you need to excel in your communication efforts.
+Talk To An Expert
+Try For Free
+Country
+Currency
+USD
+Voice API Calling
+The pricing model is structured on a transparent, pay-as-you-go basis, with total costs calculated as the sum of all utilized call legs. A "call leg" is defined as a single connection, and a full call may be comprised of one or more legs. This structure provides the flexibility to combine various voice channels—including traditional phone lines (Public Switched Telephone Network (PSTN)), SIP interfaces, in-app calling, voice streams and voice relay. In addition to standard per-minute costs, a suite of features are available for enhancement and may be added to the Service as needed.
+All rates for making outbound calls are available here.
+Download Voice API pricing
+Numbers
+Get a local business number to connect with your customers.
+Learn more
+Setup Fee
+$0.00
+One time fee
+Monthly Fee
+$0.00
+per month
+Domestic calling
+Sinch provides domestic calling in 60+ countries. Calls made between numbers within the same country are considered domestic and will be charged at domestic rates. Calls made to other countries will be billed at international rates. Domestic calling is available via Sinch numbers, or numbers ported to Sinch.
+Learn more
+Receive calls
+$0.00
+Per minute
+Make calls (prices from)
+$0.01
+Per minute
+International calls
+Reach anyone, anywhere with our programmable Voice API. Make international calls to any destination across the globe.
+Learn more
+Make calls (prices from)
+$0.00
+Per minute
+In-app calls
+Enable voice and video in your web browser or mobile apps with our in-app calling SDKs.
+Learn more
+Make calls
+$0.00
+Per minute
+Receive calls
+$0.00
+Per minute
+SIP interface
+Programmatic routing of calls to/from external SIP infrastructure.
+Make calls
+$0.00
+Per minute
+Receive calls
+$0.00
+Per minute
+*Not building Voice API features? Our Elastic SIP Trunking service can connect your existing PBX or contact center to our global network. Elastic SIP Trunk is available in US and Canada.*
+Voice features
+Voice Relay Public Preview
+Make a call to/from a text based AI agent.
+Learn more
+Price
+$0.00
+Per minute
+Streams Public Preview
+Make a call to/from a websocket.
+Learn more
+Price
+$0.00
+Per minute
+AI text to speech Public Preview
+AI voices are priced per 100 characters. Standard voices are free of charge.
+Learn more
+Price
+$0.00
+Per 100 characters
+Answering Machine Detection
+Detect if a human or voicemail picks up the call or if a tone is detected after the voice mail message.
+Learn more
+Price
+$0.00
+Per call
+Recording
+Record your calls.
+Learn more
+Price
+$0.00
+Per minute
+Transcription
+Convert voice calls into written text.
+Learn more
+Price
+$0.00
+Per minute
+Voice IVR
+Interact with your IVR using verbal input.
+Learn more
+Price
+$0.00
+Voice input event
+Voice Relay, Streams and AI Text to speech are available in Voice API v2 only.
+Features included free of charge
+Text to speech
+TTS allows to convert written text into natural-sounding audio in a variety of languages and voices. Standard voices are free of charge.
+Learn more
+Conferences
+Connect people in a multiparty call or use conferences to combine all type of calls.
+Learn more
+IVR menus
+Dynamically build your IVRs, and to help answer and filter your calls without the need of a human agent.
+Learn more
+Number masking
+Mask phone numbers to anonymize voice calls, keeping personal numbers safe.
+Learn more
+Ready to start making calls? Sign up and get a free trial today.
+Try for free
+Frequently asked questions
+How do I buy numbers?
+You can buy a number from Sinch directly through our Build Dashboard. We are continuously expanding our number coverage within the dashboard. If you cannot find the specific number or country you need in the dashboard, please contact our sales team for assistance.
+Full number coverage available here: https://sinch.com/phone-numbers/features/numbers-coverage/
+How does pricing work?
+Here is an example demonstrating how the pricing is calculated for a specific call scenario. Please note that the per-minute rates used below are for illustrative purposes.
+Example: SIP Inbound to PSTN Outbound with Call Recording
+In this scenario, a call comes in via a SIP connection to the Sinch platform and is then connected to a number on the Public Switched Telephone Network (PSTN), and the entire call is recorded.
+SIP Inbound (receive call): $0.0025/minute
+PSTN Outbound (make call): $0.01/minute
+Call Recording: $0.002/minute
+Total $0.0145/minute
+For a 10-minute call, the total cost would be 10 minutes * $0.0145/minute = $0.145.
+What's the price for number masking?
+Number masking is not a priced feature in itself, but is priced on the included call legs and used Sinch number(s). During a PSTN-to-PSTN call, both parties see a Sinch virtual number as the caller ID, effectively masking their actual phone numbers.
+The example also includes the monthly cost of the phone number used for the inbound call.
+Phone number: $0.80 monthly and $0.80 setup fee
+PSTN Inbound (receive call): $0.008/minute
+PSTN Outbound (make call): $0.01/minute
+Total: $0.018/minute, $0.80 monthly and setup fee
+For a 10-minute call, the usage cost would be 10 minutes * $0.018/minute = $0.18. The total monthly cost would be $0.98 + $0.80 (one-time fee for the number), assuming this is the only call made during the month.
+Is SIP interface the same as Elastic SIP Trunking pricing?
+No, SIP interface is part of programmable voice and is only covering one call leg that is used to connect SIP infrastructure. It does not include the PSTN charges.

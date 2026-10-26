@@ -1,0 +1,68 @@
+{
+ "run": "2026-10-26T07",
+ "changes": [
+  {
+   "diff_id": "asana-2026-10-26T07",
+   "company": "asana",
+   "unstable": true,
+   "before_file": "data/snapshots/asana/2026-10-24T13.txt",
+   "after_file": "data/snapshots/asana/2026-10-26T07_a.txt",
+   "alt_file": "data/snapshots/asana/2026-10-26T07_b.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/asana-2026-10-26T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "chargeflow-2026-10-26T07",
+   "company": "chargeflow",
+   "unstable": false,
+   "before_file": "data/snapshots/chargeflow/2026-10-24T19.txt",
+   "after_file": "data/snapshots/chargeflow/2026-10-26T07.txt",
+   "last_old_at": "2026-10-25T07:00:04-04:00",
+   "first_new_at": "2026-10-25T19:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/chargeflow-2026-10-26T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "grammarly-2026-10-26T07",
+   "company": "grammarly",
+   "unstable": false,
+   "before_file": "data/snapshots/grammarly/2026-10-24T19.txt",
+   "after_file": "data/snapshots/grammarly/2026-10-26T07.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-25T19:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/grammarly-2026-10-26T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "intercom-2026-10-26T07",
+   "company": "intercom",
+   "unstable": true,
+   "before_file": "data/snapshots/intercom/2026-10-24T16.txt",
+   "after_file": "data/snapshots/intercom/2026-10-26T07_a.txt",
+   "alt_file": "data/snapshots/intercom/2026-10-26T07_b.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/intercom-2026-10-26T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "zoom-2026-10-26T07",
+   "company": "zoom",
+   "unstable": true,
+   "before_file": "data/snapshots/zoom/2026-10-24T13.txt",
+   "after_file": "data/snapshots/zoom/2026-10-26T07_a.txt",
+   "alt_file": "data/snapshots/zoom/2026-10-26T07_b.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/zoom-2026-10-26T07.diff",
+   "attempts": 0
+  }
+ ]
+}
