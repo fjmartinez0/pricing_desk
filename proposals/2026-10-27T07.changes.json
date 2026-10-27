@@ -1,0 +1,147 @@
+{
+ "type": "changes",
+ "run": "2026-10-27T07",
+ "items": [
+  {"diff_id": "aircall-2026-10-27T07", "kind": "wording", "why": "AI Voice Agents usage table and a pricing summary were added, but the per-minute rate, bundles and 50 included minutes were already on the page.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "anthropic-2026-10-27T07", "kind": "wording", "why": "A comparison-table row label was renamed from Extra usage to Usage credits with no change in values.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "applitools-2026-10-27T07", "kind": "noise", "why": "A webinar banner at the top of the page was removed; no pricing changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bird-2026-10-27T07", "kind": "wording", "why": "Marketing headline and call-to-action copy were reworded; no prices or allowances changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "datadog-2026-10-27T07",
+   "kind": "price_cut",
+   "why": "Reference credit consumption for Bits Investigate fell from ~6.5 to ~4 credits, and Kafka Console pricing now explicitly excludes Confluent Cloud.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "−38%",
+    "deltaSub": "Bits Investigate credits (reference)",
+    "short": "Bits Investigate autonomous investigation now averages ~4 credits instead of ~6.5.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1,
+    "plan": "Bits AI credits",
+    "headline": "Datadog lowered the average credit consumption listed for Bits Investigate from ~6.5 to ~4 credits and dropped Confluent Cloud from Kafka Console pricing.",
+    "rows": [
+     ["Bits Investigate, average credits", "~6.5 credits", "~4 credits"],
+     ["Kafka Console, covered platforms", "Self-hosted, Confluent Cloud, Amazon MSK provisioned", "Self-hosted and Amazon MSK provisioned"]
+    ],
+    "who": "Customers using Bits Investigate with AI credits; Confluent Cloud users are no longer billed for Kafka Console.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A lower credit count per investigation makes the same AI feature cheaper to run, which may signal falling model costs or a push to drive adoption. The Kafka Console wording moves Confluent Cloud outside the billed scope.",
+    "caveat": "The page says credit figures are averages for reference only and actual consumption varies with task complexity and context.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -38, "high": -38, "basis": "unit price"}
+   },
+   "promo": null
+  },
+  {"diff_id": "render-2026-10-27T07", "kind": "noise", "why": "Startup and migration credit banners moved higher on the page and a number gained a thousands separator (3000 → 3,000); no change in substance.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "scribe-2026-10-27T07",
+   "kind": "price_cut",
+   "why": "Pro Team seat prices shown fell from $29 / $23 to $17 / $13 per seat per month, reversing the increase recorded in week 42.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "−41% to −43%",
+    "deltaSub": "Pro Team seat price",
+    "short": "Pro Team seat prices shown went from $29 / $23 to $17 / $13 per seat per month.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2,
+    "plan": "Pro Team",
+    "headline": "Scribe cut the two Pro Team per-seat prices on its pricing page from $29 and $23 to $17 and $13 per month, still starting at 5 seats.",
+    "rows": [
+     ["Pro Team, per seat per month (first price)", "$29", "$17"],
+     ["Pro Team, per seat per month (second price)", "$23", "$13"],
+     ["Pro Team, minimum seats", "Starts at 5 seats", "Starts at 5 seats"]
+    ],
+    "who": "Pro Team customers and prospects; it is unclear whether existing subscribers move to the new price.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "This undoes much of the +77% rise seen two weeks earlier, so the earlier increase may have been tested and rolled back. The 5-seat minimum stays, which keeps small teams on Pro Personal.",
+    "caveat": "The page lists two prices without labelling them; they are most likely monthly and annual billing.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -43, "high": -41, "basis": "list price"}
+   },
+   "promo": null
+  },
+  {"diff_id": "sonarsource-2026-10-27T07", "kind": "wording", "why": "The Enterprise card was reformatted into an Includes list with a Needs additional subscription note; no price or allowance is stated.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "synthesia-2026-10-27T07",
+   "kind": "price_cut",
+   "why": "Starter monthly price fell from $29 to $19, yearly Starter from $18 to $14 and yearly Pro from $64 to $59 per month, with new first-month offers.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "−34%",
+    "deltaSub": "Starter, monthly billing",
+    "short": "Starter monthly price $29 → $19; yearly Starter $18 → $14 and yearly Pro $64 → $59 per month.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 3,
+    "plan": "Starter and Pro",
+    "headline": "Synthesia lowered Starter to $19 a month and yearly Starter and Pro to $14 and $59 a month, and added first-month offers of $9 and $49.",
+    "rows": [
+     ["Starter, monthly billing, per month", "$29", "$19"],
+     ["Starter, yearly billing, per month", "$18", "$14"],
+     ["Pro, yearly billing, per month", "$64", "$59"],
+     ["First month, Starter / Pro", "Not offered", "$9 / $49"]
+    ],
+    "who": "New buyers of Starter and Pro; Pro monthly stays at $89 after the first month.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Cheaper entry pricing plus a discounted first month points to a push for self-serve conversion against cheaper AI video rivals. The yearly framing also moved from Save up to 3 months to Save up to 4 months.",
+    "caveat": "Pro monthly price is unchanged at $89 after the $49 first month; first-month offers may be time-limited.",
+    "model": "Hybrid",
+    "modelBefore": "Hybrid",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -34, "high": 0, "basis": "list price"}
+   },
+   "promo": null
+  },
+  {"diff_id": "zapier-2026-10-27T07", "kind": "noise", "why": "The Professional card lost its description and feature list while price and plan structure stayed the same, which looks like a rendering change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "shopify-2026-10-27T07", "kind": "noise", "why": "Only the accurate-as-of date on the Balance earnings footnote differed between the two versions; no pricing changed.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "remote-2026-10-27T07",
+   "kind": "promo",
+   "why": "The Remote for Startups offer of 15% off for the first 12 months was removed from the page, and EOR $599 is now labelled for annual contracts.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "ended", "text": "Remote for Startups: 15% off Employer of Record and Contractor Management for the first 12 months removed from the page"}
+  },
+  {"diff_id": "vercel-2026-10-27T07", "kind": "wording", "why": "The Beta label was removed from Container Registry Image Storage; the 10 GB included and $0.10 per GB-month are unchanged.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "runway-2026-10-27T07",
+   "kind": "promo",
+   "why": "A 25% discount on Kling 4.0 generations until November 30 was added alongside the new model, App Studio and removal of Seedance 2.0 Fast.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "25% off Kling 4.0 generations until November 30"}
+  },
+  {"diff_id": "bolt-2026-10-27T07", "kind": "noise", "why": "Pro now shows $25 and Teams $30 billed monthly instead of $18 and $27 billed annually; the struck-through $300 and $360 yearly totals equal 12 times these monthly prices, so this is a billing-toggle display difference, not a price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "mercury-2026-10-27T07", "kind": "non_software", "why": "Treasury yield rate moved from 4.08% to 4.09%, an interest rate rather than software pricing.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "leadloft-2026-10-27T07", "kind": "wording", "why": "Plans were renamed (Unlimited → Starter, Scale AI → Growth) and feature lists rewritten with the same $99 and $299 prices; no clear allowance change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "elevenlabs-2026-10-27T07",
+   "kind": "promo",
+   "why": "Banners offering 30,000 credits for $1 were added at the top of the pricing page.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "30,000 credits for $1 on a first subscription"}
+  }
+ ]
+}

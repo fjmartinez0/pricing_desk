@@ -1,0 +1,74 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Vercel/All changes/Enterprise, Hobby, Pro limit cut 75%
+V
+VercelPackaging change · New add-on · Feature change · Limit decrease · Oct 23 → Oct 26, 2026
+Vercel slashes Firewall limits, adds metered Deployment Storage at $0.10/GB
+Verified Oct 26, 2026·Cloud & DevOps·Direction: up
+Covered on Pulse:Vercel slashes Firewall limits, adds metered Deployment Storage at $0.10/GB
+The changeEnterprise, Hobby, Pro limit — limit decrease.
+Before · Oct 231,000
+After · Oct 26250
+−75%
+3 changes·2 captures·Oct 23, 2026 → Oct 26, 2026
+What happened
+Between the Oct 23, 2026 and Oct 26, 2026 captures of Vercel's pricing page, Pulse recorded 3 changes: Vercel Firewall limits changed: Custom Firewall Rules (Enterprise 1,000->250), IP Blocking (Hobby 3->10, Pro 100->40, Enterprise 1,000->250), System Bypass Rules (Pro 25->10, Enterprise 100->75); New 'Deployment Storage' metered item added (10 GB/month included, $0.10 per GB-month overage, Custom for Enterprise); 'Vercel Daemons' now labeled 'Beta' (status change on existing compute feature). Pulse files it as a packaging change (new add-on, feature change, limit decrease) with an upward direction. The current page lists Pro at $20.
+It lands 6 days after Vercel's previous change, "Vercel: Vercel Drives storage launched at $0.05/GB-month, metered reads/writes" (Oct 20, 2026). Before that Pulse recorded "Vercel adds Daemons with usage-based Active CPU and Memory pricing" (Oct 19, 2026), "Vercel launches usage-based Daemons billing at $0.128/hr Active CPU" (Oct 16, 2026) and "Vercel adds OWASP Core Ruleset firewall to Pro Plus priority projects" (Oct 5, 2026). Vercel has been tracked since 2024-10-01.
+In the same window Render, Railway and Netlify also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Enterprise · Add-onNew add-on
+New 'Deployment Storage' metered item added (10 GB/month included, $0.10 per GB-month overage, Custom for Enterprise)
+— · FeatureFeature change
+'Vercel Daemons' now labeled 'Beta' (status change on existing compute feature)
+Enterprise, Hobby, Pro · Limit−75%
+1,000→250
+Plan
+Field
+Before
+After
+Change
+Enterprise
+Add-on
+New 'Deployment Storage' metered item added (10 GB/month included, $0.10 per GB-month overage, Custom for Enterprise)
+New add-on
+—
+Feature
+'Vercel Daemons' now labeled 'Beta' (status change on existing compute feature)
+Feature change
+Enterprise, Hobby, Pro
+Limit
+1,000
+250
+−75%
+Values as written on Vercel's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Vercel's pricing page (vercel.com) from Oct 23, 2026 and Oct 26, 2026; the change is marked around the middle of the page, where enterprise, hobby, pro limit reads 1,000 and then 250.
+Oct 23, 2026 · Enterprise, Hobby, Pro limit at 1,000
+Oct 26, 2026 · Enterprise, Hobby, Pro limit at 250
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Vercel, the last 90 days
+Full history
+Oct 26, 2026improvedVercel slashes Firewall limits, adds metered Deployment Storage at $0.10/GB · this change
+Oct 20, 2026improvedVercel: Vercel Drives storage launched at $0.05/GB-month, metered reads/writes
+Oct 19, 2026packagingVercel adds Daemons with usage-based Active CPU and Memory pricing
+Oct 16, 2026packagingVercel launches usage-based Daemons billing at $0.128/hr Active CPU
+Oct 5, 2026improvedVercel adds OWASP Core Ruleset firewall to Pro Plus priority projects
+Sep 28, 2026packagingVercel splits Speed Insights pricing, adds Tracing Spans beta observability
+Sep 25, 2026improvedVercel adds Tracing Spans metric, charges $0.50 per 1M span units on Pro
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+RenderOct 5Render Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+NetlifyAug 4Netlify: Enterprise price hidden + private-by-default deploys
+Questions about this change
+Did Vercel raise prices in October 2026?
+No list-price increase was recorded between Oct 23, 2026 and Oct 26, 2026. The change Pulse detected was a packaging change: new add-on, feature change, limit decrease.
+What changed on Vercel's pricing page between Oct 23, 2026 and Oct 26, 2026?
+New 'Deployment Storage' metered item added (10 GB/month included, $0.10 per GB-month overage, Custom for Enterprise); 'Vercel Daemons' now labeled 'Beta' (status change on existing compute feature); Enterprise, Hobby, Pro limit: 1,000 → 250 (−75%). Pulse compared the captures it took on Oct 23, 2026 and Oct 26, 2026; the before/after table above lists each item as written on the page.
+How often does Vercel change its pricing?
+Pulse recorded 14 other pricing-page changes for Vercel in the 90 days before this one; the previous change was "Vercel: Vercel Drives storage launched at $0.05/GB-month, metered reads/writes" on Oct 20, 2026; Vercel has been tracked since 2024-10-01.

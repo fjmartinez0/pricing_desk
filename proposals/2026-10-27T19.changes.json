@@ -1,0 +1,97 @@
+{
+ "type": "changes",
+ "run": "2026-10-27T19",
+ "items": [
+  {
+   "diff_id": "aihr-2026-10-27T19",
+   "kind": "promo",
+   "why": "AIHR added a limited-time 20% discount on Full Academy Access (annual and monthly) expiring 2026-10-30, with prices shown reduced.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "20% off Full Academy Access, expiring 2026-10-30"}
+  },
+  {
+   "diff_id": "file-2026-10-27T19",
+   "kind": "limit_change",
+   "why": "The ‘Unlimited entities’ line was removed from the Standard and Business plans and from the ‘Every plan includes’ list (now only ‘Unlimited users’).",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Unlimited removed",
+    "short": "‘Unlimited entities’ no longer appears on any plan; only ‘Unlimited users’ is still listed.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "intercom-2026-10-27T19",
+   "kind": "duplicate",
+   "why": "The WhatsApp per-conversation → per-message change is already recorded as intercom-2026w44; the rest is a page redesign (Fin priced as a separate line, relabelled add-ons, new cost estimator) with no price change.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "n8n-2026-10-27T19",
+   "kind": "price_hidden",
+   "why": "The FAQ sentence stating Business-plan overage pricing was removed and a vague ‘Overage fees: Capped / Custom’ comparison row added; no plan price changed, the rest is spelling and counter edits.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "notion-2026-10-27T19",
+   "kind": "wording",
+   "why": "Several ‘Unlimited’ labels were dropped or reworded (file uploads, page history, guests, charts, published pages) but the page gives no new numeric caps and the 5 GB per-file limit was already described, so no change can be confirmed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "replit-2026-10-27T19",
+   "kind": "plan_change",
+   "why": "The Pro card now shows a ladder of higher monthly price points ($215, $425, $825, $2,000) beside the $90 / $100 credits option.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "New tiers",
+    "short": "Pro now lists higher monthly options of $215, $425, $825 and $2,000 next to the $90 entry with $100 credits.",
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "top",
+    "reach": 2,
+    "plan": "Pro",
+    "deltaSub": "Pro monthly price options",
+    "headline": "Replit’s Pro plan card now shows a ladder of larger monthly price points, up to $2,000 / month, alongside the $90 / month option with $100 credits.",
+    "rows": [
+      ["Pro, monthly price options (billed annually)", "$90", "$90"],
+      ["Pro, higher monthly options", "Not offered", "$215, $425, $825, $2,000"]
+    ],
+    "who": "Pro customers who need more credits than the entry Pro option; the entry $90 price is unchanged.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Replit appears to be adding scalable credit tiers inside Pro, so heavy agent users can buy more capacity without going to Enterprise. This is our inference from the price ladder alone.",
+    "caveat": "The page shows the price points but not the credits or allowances attached to the higher options.",
+    "model": "Hybrid",
+    "modelBefore": "Hybrid",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "fireworks-ai-2026-10-27T19",
+   "kind": "noise",
+   "why": "Only the top announcement banner changed (conference → keynote livestream); no pricing change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

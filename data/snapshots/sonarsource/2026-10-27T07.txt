@@ -1,0 +1,105 @@
+=== https://www.sonarsource.com/plans-and-pricing/ ===
+PHP2Shell: check your images with container scanning. Learn how
+Plans and pricing
+Find the plan that fits your team
+Code quality, security, and AI code review on one platform. Start in minutes with a 14-day trial, no credit card. Free tier never expires.
+Most popular
+Team
+Under 50 developers · set up today, no sales call
+SonarQube
+Finds bugs, vulnerabilities, and security hotspots across 30+ languages on every pull request.
+Starts at
+$34
+monthly
+Includes:
+SonarQube Team plan
+SonarQube Advanced Security
+Start free SonarQube trial
+Gitar AI Code Review
+Reviews every pull request in full context, writes the fix, and iterates until CI passes. Unlimited public and private repos.
+$20
+/user/mo, billed annually
+Includes:
+Gitar AI Code Review, Core Plan
+Start free Gitar trial
+Enterprise
+Over 50 developers · one conversation, whole platform
+Includes:
+SonarQube Enterprise45+ languages, SSO and SCIM, portfolios, OWASP, MISRA reporting, zero data retention and BYOK with LLMs.
+Needs additional subscription
+SonarQube Advanced SecurityAdvanced SAST and SCA: CVEs, malicious packages, SBOM, license policy
+Gitar AI Code ReviewOutcome-based pricing per PR, not per seat, with unlimited iterations
+Sonar VortexContext before the agent writes, verification as it writes. Fewer tokens, fewer outages
+SonarQube Remediation AgentClears backlog at scale. Every fix verified before it reaches a developer
+SonarQube Hunter AgentHunts broken access control, business logic, and auth flaws at 90% precision
+Contact sales
+OSS maintainers
+Free forever
+Public, OSI-licensed repos get SonarQube for OSS and Gitar AI Code Review for OSS, with the same features as the paid Pro plan.
+OSS for SonarQube
+OSS for Gitar
+Developers
+Free forever
+SonarQube Team Plan, free for your private projects up to 50k LOC. No card, no expiry.
+Start for free
+Trusted by over 7M developers and 75% of the Fortune 100
+Works with your coding agents
+Claude Code, Cursor, Copilot, Windsurf, Gemini CLI. Same verification engine, wherever code gets written.
+SonarQube MCP Server
+Open source and free. Bring analysis into any MCP-capable agent.
+Learn more
+SonarQube for IDE
+Free extension. On-the-fly analysis and guidance as you type.
+Learn more
+SonarQube CLI
+Run analysis from any terminal, CI pipeline, or coding agent.
+Learn more
+FAQ
+Frequently asked questions
+How does pricing work for private projects?
+Subscribing to a paid plan on SonarQube allows you to create a private organization containing private projects.
+There are two paid plans available: Team and Enterprise. You pay upfront for a maximum number of private lines of code to be analyzed in your organization.
+SonarQube plan pricing starts at $34 monthly for analysis of up to 100k LOC. Other LOC increments are available.
+We also offer a free tier that allows you to explore SonarQube using your private projects up to a maximum of 50k LoC.
+Do you offer pricing for a self-hosted solution?
+Yes. If you prefer to manage your own infrastructure, SonarQube Server is our self-managed static analysis solution.
+It's available in three editions — Developer, Enterprise, and Data Center — each priced per instance, per year, based on your lines of code (LOC).
+View SonarQube Server plans and pricing →
+What payment options are available?
+For the Team plan, payment is completed online via credit card and will happen automatically every month. For all billing questions, use the Contact Us form.
+What is a Line of Code (LOC) on SonarQube?
+LOCs are computed by summing up the lines of code of each project analyzed in SonarQube. The LOCs used for a project are the ones found during the most recent analysis of this project.
+How are Lines of Code (LOCs) counted towards billing?
+Only LOCs from your private projects are counted toward your maximum number of LOCs.
+If your project contains branches, we only count the lines of code in your largest branch
+The count is not related to how frequently the source code is analyzed. If your private project has 6K LOCs and you analyze it 100 times in the month, this will be counted as 6K for the billing.
+If you are getting close to the threshold, you will be notified to either upgrade your plan or reduce the number of LOCs in your projects.
+Please note - in the future, we plan to introduce compute analysis measurements to enable admin monitoring of the volume of analyses made.
+When will I be invoiced?
+With SonarQube Team plan you will be invoiced once a month, the day of the month after your trial ends. For example if you start your free trial on January 1st, it will last until January 14th and you will be first billed on January 15th for your upcoming month, e.g. January 15th to February 15th.
+Which programming languages does SonarQube Cloud support?
+SonarQube currently supports the following languages and frameworks in the Team plan: Ansible, Azure Resource Manager, Azure Pipelines, C, C#, C++, CloudFormation, CSS, Dart, Docker, Flex, GitHub Actions, Go, Groovy, HTML, Jupyter Notebooks, Java, JavaScript, JSON, Kotlin, Kubernetes/Helm, Objective-C, PHP, PL/SQL, PostgreSQL, PowerShell, Python, R, Ruby, Rust, Scala, Shell, Swift, TSQL, Terraform, TypeScript, VB6, VB.NET, XML, and YAML. Additionally, the Enterprise Plan offers ABAP, Apex, COBOL, Gosu, JCL, MuleSoft DataWeave, PL/I, and RPG.
+Is support available for SonarQube?
+Yes.
+The SonarQube Enterprise plan includes commercial support (starting at 5M LOC).
+For the Team plan commercial support is available to purchase (contact sales).
+For the Free plan (as well as Enterprise and Team plans) the Sonar Community is a channel for you to ask questions and receive help from our community members.
+Can I try a private project on SonarQube for free?
+Yes. The free tier enables you to explore SonarQube with your private project up to a maximum size of 50k LoC. Sign up here
+Can I cancel my subscription?
+Of course! There's no commitment. You can delete your paid organization whenever you wish. Or simply downgrade to the free tier if you wish to keep on analyzing some public projects.
+Can I try the enterprise features?
+Yes. Please contact sales and request a trial of SonarQube Enterprise features to discover the value they will bring to your organization.
+How can I get SCA?
+SCA is available with the Advanced Security subscription available to Enterprise plan users. It offers vulnerability detection, license checks, and SBOM visibility. Head here to discover more.
+Is SonarQube Free?
+SonarQube provides several ways for developers and teams to get started free of charge. The SonarQube for IDE extension (SonarLint) is always free to install from leading IDE marketplaces, offering instant, real-time feedback on code issues—including bugs, vulnerabilities, and code smells—right inside your editor. For cloud-based workflows, SonarQube Cloud features a free tier designed for individuals and dev teams looking to trial its automated code review and security analysis capabilities. This free tier supports a wide range of programming languages and DevOps integrations, allowing users to experience core functionality at zero cost.
+In addition, SonarQube offers a Community Build, which is an open source edition suitable for developers and small teams. For organizations aiming to evaluate advanced features, both SonarQube Cloud and SonarQube Server offer free trials—so you can try the full capabilities of either managed SaaS or self-hosted solutions before making any commitment. These options ensure frictionless onboarding, whether you’re using the open Community Build or exploring the advanced paid tiers for scalable enterprise needs.
+How much does SonarQube cost?
+SonarQube's pricing structure is designed to be flexible, serving both individual developers and organizations. Starting with the free tier, developers can leverage SonarQube Cloud at no cost, which includes basic code review functionality and works seamlessly with major DevOps platforms. For teams and businesses requiring additional capabilities, integration options, and more robust support, there is a Team Plan available for SonarQube Cloud: prices start at $34 per month (previously listed at $65), and include a free 14-day trial so organizations can evaluate the product risk-free before committing.
+For mission-critical, scalable, and performance-driven environments, especially at the enterprise level, SonarQube offers a dedicated Enterprise Plan with annual pricing tailored to each organization’s needs (details are provided by contacting sales directly). Self-managed SonarQube Server deployments and advanced security features are likewise available through commercial plans. Overall, users can begin with a free option and upgrade to paid tiers as project needs grow, ensuring SonarQube remains accessible and scalable for a wide range of use cases.
+See what's in your code in under 10 minutes
+Connect a repo and get your first analysis today. No credit card required.
+Start free SonarQube trial
+Start free Gitar trial
+Contact sales

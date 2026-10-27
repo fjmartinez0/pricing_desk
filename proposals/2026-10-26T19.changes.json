@@ -1,0 +1,11 @@
+{"type": "changes", "run": "2026-10-26T19", "items": [
+{"diff_id": "file-2026-10-26T19", "kind": "price_increase", "why": "fileForensics entry price changed from $0.03 per file to $0.05 per run.", "detail": "line",
+ "record": {"group": "up", "delta": "+67%", "short": "fileForensics starting price rises from $0.03 per file to $0.05 per run.", "pattern": "Price increase", "seg": "B2B", "ai": true, "planLevel": "add-on", "reach": 1},
+ "promo": null},
+{"diff_id": "google-workspace-2026-10-26T19", "kind": "promo", "why": "Intro offer on the pricing page cut from up to 50% off to up to 30% off the first 3 months; the page showed two versions in one run, so this may be a test.", "detail": "card",
+ "record": null,
+ "promo": {"kind": "changed", "text": "Intro offer for new customers changed from up to 50% off to up to 30% off the first 3 months (seen as a possible test; page showed two versions)"}},
+{"diff_id": "slack-2026-10-26T19", "kind": "price_reveal", "why": "Enterprise+ now shows $45 per user per month paid annually instead of Contact sales; a price shown for the first time.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "supabase-2026-10-26T19", "kind": "noise", "why": "Only capitalisation of Contact us and a new FAQ question about AWS Marketplace; no pricing change.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "protopie-2026-10-26T19", "kind": "new_feature", "why": "Enterprise security listing split to add MFA and SCIM provisioning rows; no existing price or tier placement changed.", "detail": "line", "record": null, "promo": null}
+]}

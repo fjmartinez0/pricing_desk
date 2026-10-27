@@ -1,0 +1,60 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Roboflow/All changes/Feature added
+R
+RoboflowPackaging change · Feature added · Metric change · Oct 19 → Oct 26, 2026
+Roboflow renames Serverless Inference and adds per-hour video stream rates
+Verified Oct 26, 2026·AI & Machine Learning·Direction: up
+The changeCore, Enterprise feature — feature added.
+2 changes·2 captures·Oct 19, 2026 → Oct 26, 2026
+What happened
+Between the Oct 19, 2026 and Oct 26, 2026 captures of Roboflow's pricing page, Pulse recorded 2 changes: Serverless Model Inference renamed Roboflow Cloud Inference; per-image rates kept and new per-hour Stream credit rates added (e.g. RF-DETR 0.100 credits/hour, SAM 3 0.400); Cloud Streaming (run workflows on live video streams on Roboflow GPUs, billed per second) added to comparison table, included in Core and Enterprise. Pulse files it as a packaging change (feature added, metric change) with an upward direction. The current page lists Core at $39, Additional Prepaid Credits at $4 per prepaid credit, Additional On-Demand Credits at $6 per on-demand credit and Data Labeling Services at $0.05 per classification/keypoint annotation + $0.2 per polygon annotation.
+It lands 7 days after Roboflow's previous change, "Roboflow pulls SSO, RBAC and Review Mode from Core, adds concurrent training" (Oct 19, 2026). Before that Pulse recorded "Roboflow adds Agent: idea to deployed vision solution, automatically" (Sep 28, 2026) and "Roboflow drops Community Support/Forum from Public, Core plans" (Sep 7, 2026). Roboflow has been tracked since 2026-07-06.
+In the same window Microsoft, Google and Prodigy Education also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Core, Enterprise · FeatureFeature added
+Cloud Streaming (run workflows on live video streams on Roboflow GPUs, billed per second) added to comparison table, included in Core and Enterprise.
+— · Pricing modelMetric change
+Serverless Model Inference renamed Roboflow Cloud Inference; per-image rates kept and new per-hour Stream credit rates added (e.g. RF-DETR 0.100 credits/hour, SAM 3 0.400).
+Plan
+Field
+Before
+After
+Change
+Core, Enterprise
+Feature
+Cloud Streaming (run workflows on live video streams on Roboflow GPUs, billed per second) added to comparison table, included in Core and Enterprise.
+Feature added
+—
+Pricing model
+Serverless Model Inference renamed Roboflow Cloud Inference; per-image rates kept and new per-hour Stream credit rates added (e.g. RF-DETR 0.100 credits/hour, SAM 3 0.400).
+Metric change
+Values as written on Roboflow's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Roboflow's pricing page (roboflow.com) from Oct 19, 2026 and Oct 26, 2026; the change is marked around the middle of the page.
+Oct 19, 2026
+Oct 26, 2026
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Roboflow, the last 90 days
+Full history
+Oct 26, 2026packagingRoboflow renames Serverless Inference and adds per-hour video stream rates · this change
+Oct 19, 2026packagingRoboflow pulls SSO, RBAC and Review Mode from Core, adds concurrent training
+Sep 28, 2026improvedRoboflow adds Agent: idea to deployed vision solution, automatically
+Sep 7, 2026packagingRoboflow drops Community Support/Forum from Public, Core plans
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+MicrosoftOct 26Microsoft Teams Business adds Cowork and Autopilot AI, with usage-based billing
+GoogleOct 12Google Workspace swaps Gems for AI skills, rewords Gemini on Starter plan
+Prodigy EducationAug 24Prodigy Education launches Homeschool Companion dashboard, US-only pricing add-on
+Questions about this change
+Did Roboflow raise prices in October 2026?
+No list-price increase was recorded between Oct 19, 2026 and Oct 26, 2026. The change Pulse detected was a packaging change: feature added, metric change.
+What changed on Roboflow's pricing page between Oct 19, 2026 and Oct 26, 2026?
+Cloud Streaming (run workflows on live video streams on Roboflow GPUs, billed per second) added to comparison table, included in Core and Enterprise; Serverless Model Inference renamed Roboflow Cloud Inference; per-image rates kept and new per-hour Stream credit rates added (e.g. RF-DETR 0.100 credits/hour, SAM 3 0.400). Pulse compared the captures it took on Oct 19, 2026 and Oct 26, 2026; the before/after table above lists each item as written on the page.
+How often does Roboflow change its pricing?
+Pulse recorded 3 other pricing-page changes for Roboflow in the 90 days before this one; the previous change was "Roboflow pulls SSO, RBAC and Review Mode from Core, adds concurrent training" on Oct 19, 2026; Roboflow has been tracked since 2026-07-06.

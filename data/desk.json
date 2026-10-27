@@ -1,9 +1,10 @@
 {
- "current_week": "2026-W42",
- "today": "2026-10-26",
- "edition_date": "2026-10-19",
- "period": "1–19 Oct",
+ "current_week": "2026-W44",
+ "today": "2026-10-27",
+ "edition_date": "2026-10-27",
+ "period": "19–25 Oct",
  "week_order": [
+  "2026-W45",
   "2026-W44",
   "2026-W43",
   "2026-W42",
@@ -17,12 +18,18 @@
  ],
  "weeks": [
   {
+   "week": "2026-W45",
+   "label": "26 Oct–1 Nov",
+   "start": "2026-10-26",
+   "source_week": "Pricing Desk capture"
+  },
+  {
    "week": "2026-W44",
    "label": "19–25 Oct",
    "start": "2026-10-19",
-   "source_week": "PricingSaaS reports",
-   "coverage": "partial",
-   "note": "Our own captures didn’t cover all of this week (they started on 24 Oct 2026), so it shows mainly the changes PricingSaaS published in its daily briefings and weekly review. Totals are far below the whole market."
+   "source_week": "Pricing Desk capture",
+   "coverage": "tracked",
+   "note": "Captured from 171 tracked pricing pages, twice a day (our captures started on 24 Oct, mid-week). We kept 53 changes this week, 51 of them reported by PricingSaaS at companies we didn’t capture yet."
   },
   {
    "week": "2026-W43",
@@ -8486,7 +8493,7 @@
   {
    "id": "baseten-2026w44",
    "week": "2026-W44",
-   "rank": 8,
+   "rank": 48,
    "co": "Baseten",
    "company": "baseten",
    "tier": 3,
@@ -8523,7 +8530,7 @@
   {
    "id": "bolt-2026w44",
    "week": "2026-W44",
-   "rank": 5,
+   "rank": 20,
    "co": "Bolt",
    "company": "bolt",
    "tier": 3,
@@ -12437,7 +12444,7 @@
   {
    "id": "dropzone-ai-2026w44",
    "week": "2026-W44",
-   "rank": 6,
+   "rank": 21,
    "co": "Dropzone AI",
    "company": "dropzone-ai",
    "tier": 3,
@@ -12470,7 +12477,7 @@
   {
    "id": "day-2026w44",
    "week": "2026-W44",
-   "rank": 9,
+   "rank": 49,
    "co": "Day",
    "company": "day",
    "tier": 3,
@@ -12503,7 +12510,7 @@
   {
    "id": "cust-2026w44",
    "week": "2026-W44",
-   "rank": 7,
+   "rank": 22,
    "co": "Cust",
    "company": "cust",
    "tier": 3,
@@ -12536,7 +12543,7 @@
   {
    "id": "avalara-2026w44",
    "week": "2026-W44",
-   "rank": 4,
+   "rank": 8,
    "co": "Avalara",
    "company": "avalara",
    "tier": 3,
@@ -12561,6 +12568,1705 @@
     ],
     "source": [
      "https://pricingsaas.com/companies/avalara/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "file-2026w45",
+   "week": "2026-W45",
+   "rank": 3,
+   "co": "File",
+   "company": "file",
+   "tier": 3,
+   "group": "up",
+   "delta": "Unlimited removed",
+   "short": "‘Unlimited entities’ no longer appears on any plan; only ‘Unlimited users’ is still listed.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "27 Oct",
+   "src": "Pricing Desk capture",
+   "url": "https://file.ai/pricing",
+   "evidence": {
+    "before": "data/snapshots/file/2026-10-26T19.txt",
+    "after": "data/snapshots/file/2026-10-27T19.txt",
+    "diff": "file-2026-10-27T19"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "replit-2026w45",
+   "week": "2026-W45",
+   "rank": 1,
+   "co": "Replit",
+   "company": "replit",
+   "tier": 2,
+   "group": "pack",
+   "delta": "New tiers",
+   "short": "Pro now lists higher monthly options of $215, $425, $825 and $2,000 next to the $90 entry with $100 credits.",
+   "pattern": "New tier",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "top",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "27 Oct",
+   "src": "Pricing Desk capture",
+   "url": "https://replit.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/replit/2026-10-24T15.txt",
+    "after": "data/snapshots/replit/2026-10-27T19.txt",
+    "diff": "replit-2026-10-27T19"
+   },
+   "plan": "Pro",
+   "deltaSub": "Pro monthly price options",
+   "headline": "Replit’s Pro plan card now shows a ladder of larger monthly price points, up to $2,000 / month, alongside the $90 / month option with $100 credits.",
+   "rows": [
+    [
+     "Pro, monthly price options (billed annually)",
+     "$90",
+     "$90"
+    ],
+    [
+     "Pro, higher monthly options",
+     "Not offered",
+     "$215, $425, $825, $2,000"
+    ]
+   ],
+   "who": "Pro customers who need more credits than the entry Pro option; the entry $90 price is unchanged.",
+   "stated": null,
+   "read": "Replit appears to be adding scalable credit tiers inside Pro, so heavy agent users can buy more capacity without going to Enterprise. This is our inference from the price ladder alone.",
+   "model": "Hybrid",
+   "modelBefore": "Hybrid",
+   "modelAfter": "Hybrid",
+   "appliesTo": "unknown",
+   "caveat": "The page shows the price points but not the credits or allowances attached to the higher options."
+  },
+  {
+   "id": "trunk-2026w44",
+   "week": "2026-W44",
+   "rank": 23,
+   "co": "Trunk",
+   "company": "trunk",
+   "tier": 3,
+   "group": "pack",
+   "delta": "5M flat → 1M/committer",
+   "short": "Trunk’s Free plan test-span allowance changes from a flat 5M per month to 1M per committer, the unit paid plans already use.",
+   "pattern": "New billing units",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/trunk/diffs/2026W44",
+   "evidence": {
+    "report": "trunk:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/trunk__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/trunk/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "kipwise-2026w44",
+   "week": "2026-W44",
+   "rank": 24,
+   "co": "Kipwise",
+   "company": "kipwise",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Plans merged",
+   "short": "The Agent plan ($10/user/month) and the standalone Knowledge base plan (from $7/mo) merge into one Agent plan that includes the knowledge base, support desk and Tasks.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/kipwise/diffs/2026W44",
+   "evidence": {
+    "report": "kipwise:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/kipwise__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/kipwise/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "thinkific-2026w44",
+   "week": "2026-W44",
+   "rank": 9,
+   "co": "Thinkific",
+   "company": "thinkific",
+   "tier": 3,
+   "group": "up",
+   "delta": "+102%",
+   "short": "Thinkific dropped its $54/mo Basic entry plan, so entry is now $109/mo, and added an Expand tier at $499/mo.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/thinkific/diffs/2026W44",
+   "evidence": {
+    "report": "thinkific:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/thinkific__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/thinkific/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "pictory-2026w44",
+   "week": "2026-W44",
+   "rank": 10,
+   "co": "Pictory",
+   "company": "pictory",
+   "tier": 3,
+   "group": "up",
+   "delta": "−85%",
+   "short": "Pictory merges video minutes and AI credits into one credits metric; annual base video minutes fall from 2,400 to 360 on Starter (−85%) at unchanged list prices.",
+   "pattern": "Limits tighten",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pictory/diffs/2026W44",
+   "evidence": {
+    "report": "pictory:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/pictory__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pictory/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "linktree-2026w44",
+   "week": "2026-W44",
+   "rank": 4,
+   "co": "Linktree",
+   "company": "linktree",
+   "tier": 2,
+   "group": "up",
+   "delta": "+17%",
+   "short": "Starter rises from $6 to $7 and Pro from $12 to $14 a month on annual plans; Premium stays at $30.",
+   "pattern": "Price increase",
+   "seg": "B2C",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": {
+    "low": 17,
+    "high": 17,
+    "basis": "list price"
+   },
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/linktree/diffs/2026W44",
+   "evidence": {
+    "report": "linktree:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/linktree__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/linktree/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "plan": "Starter, Pro",
+   "deltaSub": "list price per month, annual billing",
+   "headline": "Linktree raised its two lower paid plans by about 17%: Starter to $7 and Pro to $14 a month on annual billing.",
+   "rows": [
+    [
+     "Starter, per month (annual billing)",
+     "$6",
+     "$7"
+    ],
+    [
+     "Pro, per month (annual billing)",
+     "$12",
+     "$14"
+    ],
+    [
+     "Starter, per month (monthly billing)",
+     "$8",
+     "$9"
+    ],
+    [
+     "Pro, per month (monthly billing)",
+     "$15",
+     "$17"
+    ]
+   ],
+   "who": "People buying or renewing Starter and Pro; Premium is unchanged. Whether current subscribers are repriced immediately is not shown.",
+   "stated": null,
+   "read": "Only the lower rungs of the ladder move, so the gap to Premium narrows. This follows Linktree taking selling off the Free plan earlier in October and looks like a push for more revenue per paying creator.",
+   "model": "Flat",
+   "modelBefore": "Flat",
+   "modelAfter": "Flat",
+   "appliesTo": "unknown",
+   "caveat": "Source is a weekly comparison of two captures (Oct 19 and Oct 26); the exact change day is not known."
+  },
+  {
+   "id": "letta-2026w44",
+   "week": "2026-W44",
+   "rank": 25,
+   "co": "Letta",
+   "company": "letta",
+   "tier": 3,
+   "group": "up",
+   "delta": "5 / 50 MiB caps",
+   "short": "Memory repository storage is now capped at 5 MiB on Free and 50 MiB on Pro; no limit was listed before.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/letta/diffs/2026W44",
+   "evidence": {
+    "report": "letta:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/letta__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/letta/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "leap-ai-2026w44",
+   "week": "2026-W44",
+   "rank": 26,
+   "co": "Leap AI",
+   "company": "leap-ai",
+   "tier": 3,
+   "group": "down",
+   "delta": "−48%",
+   "short": "Kling 3.0 (5s video) generation falls from $1.10 to $0.57 each, so a $10 balance buys 17 clips instead of 9.",
+   "pattern": "Price cut",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/leapai/diffs/2026W44",
+   "evidence": {
+    "report": "leapai:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/leapai__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/leapai/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "koala-2026w44",
+   "week": "2026-W44",
+   "rank": 11,
+   "co": "Koala",
+   "company": "koala",
+   "tier": 3,
+   "group": "down",
+   "delta": "New Free plan",
+   "short": "Adds a Free plan ($0, one-time 5,000 words/25 credits/1 brand), a $29/month extra brand slot add-on and a rollover bank of up to 3 months for unused credits.",
+   "pattern": "Free plans as funnels",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "free",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/koala/diffs/2026W44",
+   "evidence": {
+    "report": "koala:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/koala__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/koala/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "veed-2026w44",
+   "week": "2026-W44",
+   "rank": 12,
+   "co": "Veed",
+   "company": "veed",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Studio removed",
+   "short": "Veed dropped its Studio plan (3 paid tiers to 2), lowered annual prices (Creator $147 → $120, Pro $265 → $228) and cut Pro AI credits from 30,000 to 18,000 a month.",
+   "pattern": "Tier consolidation",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/veed/diffs/2026W44",
+   "evidence": {
+    "report": "veed:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/veed__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/veed/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "zenegy-2026w44",
+   "week": "2026-W44",
+   "rank": 27,
+   "co": "Zenegy",
+   "company": "zenegy",
+   "tier": 3,
+   "group": "pack",
+   "delta": "DKK 100 → DKK 249",
+   "short": "Zenegy Expense moves from a flat DKK 100/md (10 users included, plus a per-document fee) to seat tiers from DKK 249/md (1-5 users) up to DKK 2,499/md (201-500 users), with the per-document fee included.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/zenegy/diffs/2026W44",
+   "evidence": {
+    "report": "zenegy:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/zenegy__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/zenegy/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "se-ranking-2026w44",
+   "week": "2026-W44",
+   "rank": 50,
+   "co": "SE Ranking",
+   "company": "se-ranking",
+   "tier": 3,
+   "group": "up",
+   "delta": "Perplexity dropped",
+   "short": "SE Ranking’s AI Search add-on no longer tracks Perplexity, leaving AI Overviews, AI Mode and ChatGPT.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/seranking/diffs/2026W44",
+   "evidence": {
+    "report": "seranking:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/seranking__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/seranking/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "kontentino-2026w44",
+   "week": "2026-W44",
+   "rank": 28,
+   "co": "Kontentino",
+   "company": "kontentino",
+   "tier": 3,
+   "group": "down",
+   "delta": "Approvals to Starter",
+   "short": "Client/external approvals move from Standard into Starter, whose bullet now reads Internal and external/client approvals.",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/kontentino/diffs/2026W44",
+   "evidence": {
+    "report": "kontentino:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/kontentino__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/kontentino/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "optery-2026w44",
+   "week": "2026-W44",
+   "rank": 29,
+   "co": "Optery",
+   "company": "optery",
+   "tier": 3,
+   "group": "pack",
+   "delta": "375+ → 380+ sites",
+   "short": "Optery Core automated-removal coverage rises from 375+ to 380+ sites and Extended from 325+ to 330+, while Ultimate falls from 400+ to 395+; prices unchanged.",
+   "pattern": "Limits loosen",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/optery/diffs/2026W44",
+   "evidence": {
+    "report": "optery:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/optery__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/optery/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "trustpilot-2026w44",
+   "week": "2026-W44",
+   "rank": 30,
+   "co": "Trustpilot",
+   "company": "trustpilot",
+   "tier": 3,
+   "group": "up",
+   "delta": "−14%",
+   "short": "Trustpilot’s comparison table lists 19 marketing integrations on Plus, Premium and Enterprise, down from 22.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/trustpilot/diffs/2026W44",
+   "evidence": {
+    "report": "trustpilot:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/trustpilot__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/trustpilot/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "tripo-2026w44",
+   "week": "2026-W44",
+   "rank": 31,
+   "co": "Tripo",
+   "company": "tripo",
+   "tier": 3,
+   "group": "up",
+   "delta": "−3 free Pro Refine",
+   "short": "Tripo removed the '3 Free Pro Refine' benefit from the Max plan card and the comparison table.",
+   "pattern": "Limits tighten",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/tripo3d/diffs/2026W44",
+   "evidence": {
+    "report": "tripo3d:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/tripo3d__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/tripo3d/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "kanbanchi-2026w44",
+   "week": "2026-W44",
+   "rank": 32,
+   "co": "Kanbanchi",
+   "company": "kanbanchi",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Features reshuffled",
+   "short": "Cards from email moves from Premium+ into Essential, while Custom background is dropped from Essential.",
+   "pattern": "Bundling",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/kanbanchi/diffs/2026W44",
+   "evidence": {
+    "report": "kanbanchi:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/kanbanchi__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/kanbanchi/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "hive-2026w44",
+   "week": "2026-W44",
+   "rank": 33,
+   "co": "Hive",
+   "company": "hive",
+   "tier": 3,
+   "group": "down",
+   "delta": "−17% in / −27% out",
+   "short": "Hive cut DeepSeek-V4.1-Flash-1017 from $0.12 to $0.10 per 1M input tokens and from $0.48 to $0.35 per 1M output tokens.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/thehive/diffs/2026W44",
+   "evidence": {
+    "report": "thehive:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/thehive__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/thehive/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "tatsoft-2026w44",
+   "week": "2026-W44",
+   "rank": 34,
+   "co": "Tatsoft",
+   "company": "tatsoft",
+   "tier": 3,
+   "group": "down",
+   "delta": "Free in production",
+   "short": "Tatsoft’s Community Edition is now free for production use within its limits (1,000 tags/100 I/O); it previously needed a support and maintenance agreement.",
+   "pattern": "Free plans as funnels",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/tatsoft/diffs/2026W44",
+   "evidence": {
+    "report": "tatsoft:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/tatsoft__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/tatsoft/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "pika-2026w44",
+   "week": "2026-W44",
+   "rank": 35,
+   "co": "Pika",
+   "company": "pika",
+   "tier": 3,
+   "group": "down",
+   "delta": "+Commercial license",
+   "short": "Pika’s Starter plan now includes a commercial license, which was previously limited to Creator and above.",
+   "pattern": "Limits loosen",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pika/diffs/2026W44",
+   "evidence": {
+    "report": "pika:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/pika__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pika/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "oneup-2026w44",
+   "week": "2026-W44",
+   "rank": 51,
+   "co": "OneUp",
+   "company": "oneup",
+   "tier": 3,
+   "group": "up",
+   "delta": "+100%",
+   "short": "OneUp’s Enterprise plan starting price doubles from $1,000 to $2,000 a month.",
+   "pattern": "Price increase",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/oneupapp/diffs/2026W44",
+   "evidence": {
+    "report": "oneupapp:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/oneupapp__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/oneupapp/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "locationiq-2026w44",
+   "week": "2026-W44",
+   "rank": 36,
+   "co": "LocationIQ",
+   "company": "locationiq",
+   "tier": 3,
+   "group": "down",
+   "delta": "+100%",
+   "short": "Free plan access tokens rise from 1 to 2.",
+   "pattern": "Free plans as funnels",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/locationiq/diffs/2026W44",
+   "evidence": {
+    "report": "locationiq:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/locationiq__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/locationiq/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "preceden-2026w44",
+   "week": "2026-W44",
+   "rank": 37,
+   "co": "Preceden",
+   "company": "preceden",
+   "tier": 3,
+   "group": "down",
+   "delta": "AI timelines exempt",
+   "short": "Preceden’s Free plan now lets timelines made with Timeline Maker AI keep every generated event beyond the 10-event cap, plus up to 5 events of your own.",
+   "pattern": "Free plans as funnels",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/preceden/diffs/2026W44",
+   "evidence": {
+    "report": "preceden:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/preceden__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/preceden/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "next-cart-2026w44",
+   "week": "2026-W44",
+   "rank": 38,
+   "co": "Next-Cart",
+   "company": "next-cart",
+   "tier": 3,
+   "group": "up",
+   "delta": "Limits tighten",
+   "short": "Included-in-every-plan list now caps re-migration of recent data by the plan data limit and narrows 24/7 technical support to one-on-one help with connections and setup.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/nextcart/diffs/2026W44",
+   "evidence": {
+    "report": "nextcart:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/nextcart__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/nextcart/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "leadpages-2026w44",
+   "week": "2026-W44",
+   "rank": 39,
+   "co": "Leadpages",
+   "company": "leadpages",
+   "tier": 3,
+   "group": "up",
+   "delta": "$29 / $49",
+   "short": "The Pro plan ($29/mo, 25 pages, 1 domain, 12K AI credits) is removed, so the entry price becomes Business at $49/mo.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/leadpages/diffs/2026W44",
+   "evidence": {
+    "report": "leadpages:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/leadpages__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/leadpages/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "leonardo-ai-2026w44",
+   "week": "2026-W44",
+   "rank": 13,
+   "co": "Leonardo.ai",
+   "company": "leonardo-ai",
+   "tier": 3,
+   "group": "up",
+   "delta": "Free: Auto-only models",
+   "short": "Free plan model access drops to Auto only and the Free card Token Bank 150 row is removed, while paid plans list 80+ models.",
+   "pattern": "Free plans as funnels",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "free",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/leonardo/diffs/2026W44",
+   "evidence": {
+    "report": "leonardo:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/leonardo__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/leonardo/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "jungle-scout-2026w44",
+   "week": "2026-W44",
+   "rank": 52,
+   "co": "Jungle Scout",
+   "company": "jungle-scout",
+   "tier": 3,
+   "group": "down",
+   "delta": "20,000 → Unlimited",
+   "short": "Cobalt (Enterprise) segment size and limits change from 20,000 to Unlimited.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/junglescout/diffs/2026W44",
+   "evidence": {
+    "report": "junglescout:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/junglescout__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/junglescout/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "mem0-2026w45",
+   "week": "2026-W45",
+   "rank": 2,
+   "co": "Mem0",
+   "company": "mem0",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Starter/Pro gone",
+   "short": "Mem0 replaced Hobby, Starter ($19), Pro ($249) and Enterprise with Free and Custom plans; Free rises from 10,000 adds and 1,000 retrievals to 50,000 and 10,000 with an own LLM key.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "27 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/mem0/diffs/2026D300",
+   "evidence": {
+    "report": "mem0:2026-W45",
+    "files": [
+     "data/pricingsaas/pages/diffs/mem0__2026D300.txt",
+     "data/pricingsaas/pages/articles/mem0-drops-starter-and-pro-self-serve-pricing-for-free-and-custom-plans.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/mem0/diffs/2026D300"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "proposify-2026w44",
+   "week": "2026-W44",
+   "rank": 40,
+   "co": "Proposify",
+   "company": "proposify",
+   "tier": 3,
+   "group": "up",
+   "delta": "+11%",
+   "short": "Proposify Build rises from $35 to $39 per user per month (annual $420 to $468), and Grow and Scale move to per-user pricing at $65 and $107.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/proposify/diffs/2026W44",
+   "evidence": {
+    "report": "proposify:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/proposify__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/proposify/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "muchskills-2026w44",
+   "week": "2026-W44",
+   "rank": 41,
+   "co": "MuchSkills",
+   "company": "muchskills",
+   "tier": 3,
+   "group": "down",
+   "delta": "API, SCIM to Starter",
+   "short": "API access and SCIM are now marked as included on every plan, including Starter (before: no API on Starter, SCIM Enterprise-only).",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/muchskills/diffs/2026W44",
+   "evidence": {
+    "report": "muchskills:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/muchskills__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/muchskills/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "mailtrap-2026w44",
+   "week": "2026-W44",
+   "rank": 42,
+   "co": "Mailtrap",
+   "company": "mailtrap",
+   "tier": 3,
+   "group": "down",
+   "delta": "Add-on to Basic, Team",
+   "short": "The Device Previews add-on, available on request, widens from Business and Enterprise plans only to also include Basic and Team plans.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/mailtrap.emailsandbox/diffs/2026W44",
+   "evidence": {
+    "report": "mailtrap.emailsandbox:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/mailtrap.emailsandbox__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/mailtrap.emailsandbox/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "x-ways-2026w44",
+   "week": "2026-W44",
+   "rank": 43,
+   "co": "X-Ways",
+   "company": "x-ways",
+   "tier": 3,
+   "group": "up",
+   "delta": "+$1-$5",
+   "short": "X-Ways raised volume-tier license prices by $1-$5 across Forensics, WinHex, Investigator, CTR and Imager.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/xways/diffs/2026W44",
+   "evidence": {
+    "report": "xways:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/xways__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/xways/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "woodpecker-2026w44",
+   "week": "2026-W44",
+   "rank": 14,
+   "co": "Woodpecker",
+   "company": "woodpecker",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Slider → tiers",
+   "short": "Woodpecker replaced its contacted-prospects slider (from $35/mo) with fixed Email $39/mo, Multichannel $68/mo and LinkedIn $29/mo per account plans, plus a custom-priced Scale plan.",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/woodpecker/diffs/2026W44",
+   "evidence": {
+    "report": "woodpecker:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/woodpecker__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/woodpecker/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "visualping-2026w44",
+   "week": "2026-W44",
+   "rank": 44,
+   "co": "Visualping",
+   "company": "visualping",
+   "tier": 3,
+   "group": "down",
+   "delta": "Business → all plans",
+   "short": "Visualping now lists bulk creation and editing on all plans instead of as a Business-only feature.",
+   "pattern": "Limits loosen",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/visualping/diffs/2026W44",
+   "evidence": {
+    "report": "visualping:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/visualping__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/visualping/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "whereby-2026w44",
+   "week": "2026-W44",
+   "rank": 15,
+   "co": "Whereby",
+   "company": "whereby",
+   "tier": 3,
+   "group": "up",
+   "delta": "30 min / meeting",
+   "short": "Whereby’s free Explore plan now shows a 30 minute time limit per meeting in its plan card and a new comparison row; the page does not say what applied before.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/whereby.page1/diffs/2026W44",
+   "evidence": {
+    "report": "whereby.page1:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/whereby.page1__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/whereby.page1/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "wealthsimple-2026w44",
+   "week": "2026-W44",
+   "rank": 45,
+   "co": "Wealthsimple",
+   "company": "wealthsimple",
+   "tier": 3,
+   "group": "up",
+   "delta": "Cash back removed",
+   "short": "Wealthsimple’s plan comparison no longer lists mortgage cash back (Core up to $500, Premium $1,500, Generation $3,000); the page does not say whether the perk itself ended.",
+   "pattern": "Limits tighten",
+   "seg": "B2C",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/wealthsimple/diffs/2026W44",
+   "evidence": {
+    "report": "wealthsimple:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/wealthsimple__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/wealthsimple/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "substrate-2026w44",
+   "week": "2026-W44",
+   "rank": 16,
+   "co": "Substrate",
+   "company": "substrate",
+   "tier": 3,
+   "group": "up",
+   "delta": "128GB → 16GB (Pro)",
+   "short": "Zo Computer cut compute specs at unchanged prices: Pro 16 cores/128GB to 4 vCPUs/16GB, Basic 4 cores/32GB to 2 vCPUs/8GB, Ultra 64 cores/512GB to 8 vCPUs/32GB.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/substrate/diffs/2026W44",
+   "evidence": {
+    "report": "substrate:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/substrate__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/substrate/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "strawberry-2026w44",
+   "week": "2026-W44",
+   "rank": 46,
+   "co": "Strawberry Browser",
+   "company": "strawberry",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Free plan reshuffled",
+   "short": "Strawberry’s Free plan loses its Email support and Companions/skills/apps bullets and no longer mentions a daily usage limit on its monthly credit allowance.",
+   "pattern": "Free plans as funnels",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/strawberrybrowser/diffs/2026W44",
+   "evidence": {
+    "report": "strawberrybrowser:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/strawberrybrowser__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/strawberrybrowser/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "streamyard-2026w44",
+   "week": "2026-W44",
+   "rank": 17,
+   "co": "StreamYard",
+   "company": "streamyard",
+   "tier": 3,
+   "group": "pack",
+   "delta": "New $18.99 tier",
+   "short": "StreamYard added a paid Essential plan at $18.99/mo monthly ($14.99/mo yearly) with unlimited streaming, 2-destination multistream and 1080p; Core now builds on Essential.",
+   "pattern": "New tier",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/streamyard/diffs/2026W44",
+   "evidence": {
+    "report": "streamyard:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/streamyard__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/streamyard/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "revenuehero-2026w44",
+   "week": "2026-W44",
+   "rank": 7,
+   "co": "RevenueHero",
+   "company": "revenuehero",
+   "tier": 3,
+   "group": "up",
+   "delta": "+101%",
+   "short": "RevenueHero’s Advanced platform fee rises from $79 to $159 a month on yearly billing, and the Lite and standalone Outbound plans are removed.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 2,
+   "magnitude": {
+    "low": 101,
+    "high": 101,
+    "basis": "list price"
+   },
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/revenuehero/diffs/2026W44",
+   "evidence": {
+    "report": "revenuehero:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/revenuehero__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/revenuehero/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "plan": "Advanced (formerly Enterprise)",
+   "deltaSub": "platform fee, yearly billing",
+   "headline": "RevenueHero doubled the Advanced platform fee from $79 to $159 a month on yearly billing, dropped the Lite and Outbound Essentials plans, and moved SDR booking to a new $20 Handoff seat add-on.",
+   "rows": [
+    [
+     "Advanced platform fee, per month (yearly billing)",
+     "$79",
+     "$159"
+    ],
+    [
+     "Advanced platform fee, per month (monthly billing)",
+     "$99",
+     "$199"
+    ],
+    [
+     "Native enrichment add-on, per month (yearly billing)",
+     "$39",
+     "$79"
+    ],
+    [
+     "Lite plan, per user per month",
+     "$15",
+     "Removed"
+    ],
+    [
+     "Outbound Essentials, per user per month (yearly billing)",
+     "$20",
+     "Removed"
+    ]
+   ],
+   "who": "Customers on the Advanced (formerly Enterprise) plan, plus anyone on Lite or standalone Outbound Essentials, which are no longer offered. Whether existing customers are repriced is not stated.",
+   "stated": null,
+   "read": "A doubled platform fee alongside two plans being removed looks like a push toward a single, higher-priced Advanced tier, with SDR booking now sold separately as an add-on. Seat prices were left alone, so the increase is concentrated in the fixed fee.",
+   "model": "Hybrid",
+   "modelBefore": "Hybrid",
+   "modelAfter": "Hybrid",
+   "appliesTo": "unknown",
+   "caveat": "Seen only through PricingSaaS captures one week apart; we have not yet captured the company’s own page."
+  },
+  {
+   "id": "render-2026w44",
+   "week": "2026-W44",
+   "rank": 6,
+   "co": "Render",
+   "company": "render",
+   "tier": 2,
+   "group": "pack",
+   "delta": "×2",
+   "short": "Render Workflows raises max task compute from 4 CPU/16 GB to 8 CPU/32 GB, adds an 8c-32g tier at $2.50/hour and swaps concurrent-run limits for compute limits.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 1,
+   "magnitude": {
+    "low": 100,
+    "high": 100,
+    "basis": "allowance"
+   },
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/render/diffs/2026W44",
+   "evidence": {
+    "report": "render:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/render__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/render/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "plan": "Workflows",
+   "deltaSub": "max task compute (CPU / RAM)",
+   "headline": "Render doubled the maximum compute for a Workflows task to 8 CPU/32 GB, priced the new 8c-32g tier at $2.50/hour, and replaced concurrent-run limits with parallel compute limits.",
+   "rows": [
+    [
+     "Workflows max task compute",
+     "4 CPU/16 GB",
+     "8 CPU/32 GB"
+    ],
+    [
+     "8c-32g compute tier, per hour",
+     "Not offered",
+     "$2.50"
+    ],
+    [
+     "Workflows concurrency limit",
+     "20/50/100 concurrent task runs",
+     "10,000 CPU/40,000 GB RAM parallel compute"
+    ],
+    [
+     "Extra concurrency",
+     "$10/mo per 50",
+     "Removed"
+    ]
+   ],
+   "who": "Customers of Render Workflows; the compute-table change applies to all plans that can run Workflows.",
+   "stated": null,
+   "read": "Workflows is moving from a concurrency-based allowance to a compute-based one, which ties cost more closely to resources used. The larger task size and the end of the per-50 concurrency fee make this look like a loosening, though the exact effect on a given bill depends on usage.",
+   "model": "Hybrid → Usage",
+   "modelBefore": "Hybrid",
+   "modelAfter": "Usage",
+   "appliesTo": "all",
+   "caveat": "PricingSaaS history shows Workflows max compute going up and down over recent weeks, so this may not be settled."
+  },
+  {
+   "id": "picsart-2026w44",
+   "week": "2026-W44",
+   "rank": 18,
+   "co": "Picsart",
+   "company": "picsart",
+   "tier": 3,
+   "group": "up",
+   "delta": "−50%",
+   "short": "Picsart cuts Pro monthly credits from 500 to 250 (−50%) and Ultra from 2,500 to 1,500, with prices unchanged.",
+   "pattern": "Limits tighten",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/picsart/diffs/2026W44",
+   "evidence": {
+    "report": "picsart:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/picsart__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/picsart/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "nativemsg-2026w44",
+   "week": "2026-W44",
+   "rank": 19,
+   "co": "nativeMsg",
+   "company": "nativemsg",
+   "tier": 3,
+   "group": "pack",
+   "delta": "New tiers",
+   "short": "Subscriber tiers Starter $199, Growth $799 and Pro $2,999 are replaced by a free Build plan, Launch $349/mo and a Scale $1,500 commit, with usage billed per send and session.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/nativemsg/diffs/2026W44",
+   "evidence": {
+    "report": "nativemsg:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/nativemsg__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/nativemsg/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "moz-2026w44",
+   "week": "2026-W44",
+   "rank": 5,
+   "co": "Moz",
+   "company": "moz",
+   "tier": 2,
+   "group": "up",
+   "delta": "−25%",
+   "short": "Tracked AI models fall from 4 to 3 on Standard, Medium and Large; Perplexity is dropped.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/moz/diffs/2026W44",
+   "evidence": {
+    "report": "moz:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/moz__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/moz/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "plan": "Standard, Medium, Large",
+   "deltaSub": "AI models tracked per plan",
+   "headline": "Moz cut the number of AI models tracked on its Standard, Medium and Large plans from 4 to 3, removing Perplexity.",
+   "rows": [
+    [
+     "AI models tracked, Standard/Medium/Large",
+     "4",
+     "3"
+    ],
+    [
+     "Perplexity tracking",
+     "Included",
+     "Removed"
+    ]
+   ],
+   "who": "Customers on the Standard, Medium and Large plans; Starter is not named in the change.",
+   "stated": null,
+   "read": "A quarter of the AI-model allowance is gone while prices stay put, which reverses part of the September quota boost. Cutting Perplexity (the remaining models are GPT, Gemini and Google AI Mode) looks like cost control on AI visibility tracking.",
+   "model": "Flat",
+   "modelBefore": "Flat",
+   "modelAfter": "Flat",
+   "appliesTo": "unknown",
+   "caveat": "Source is a weekly comparison of two captures (Oct 19 and Oct 26); the exact change day is not known."
+  },
+  {
+   "id": "loadfocus-2026w44",
+   "week": "2026-W44",
+   "rank": 47,
+   "co": "LoadFocus",
+   "company": "loadfocus",
+   "tier": 3,
+   "group": "up",
+   "delta": "Parallel tests cut",
+   "short": "Parallel tests are cut: Essential 4 → 2, Pro 10 → 4, Enterprise 20 → 4; Essential monthly tests rise 40 → 50.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/loadfocus/diffs/2026W44",
+   "evidence": {
+    "report": "loadfocus:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/loadfocus__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/loadfocus/diffs/2026W44"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "liveagent-2026w44",
+   "week": "2026-W44",
+   "rank": 53,
+   "co": "LiveAgent",
+   "company": "liveagent",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$3,999/mo flat",
+   "short": "Enterprise moves from $69/$85 per agent to a $3,999/mo flat fee with 80 agents included and extra agents at $49 each.",
+   "pattern": "Billing terms",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-10-19",
+   "seenLabel": "19–25 Oct",
+   "when": "19 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/liveagent/diffs/2026W44",
+   "evidence": {
+    "report": "liveagent:2026-W44",
+    "files": [
+     "data/pricingsaas/pages/diffs/liveagent__2026W44.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/liveagent/diffs/2026W44"
     ]
    },
    "reported": true,
@@ -14310,7 +16016,7 @@
   },
   "picsart": {
    "name": "Picsart",
-   "tier": null,
+   "tier": 3,
    "category": "Marketing & Content",
    "aiNative": false,
    "ownership": "private",
@@ -16047,6 +17753,356 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "trunk": {
+   "name": "Trunk",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "thinkific": {
+   "name": "Thinkific",
+   "tier": 3,
+   "category": "Workforce Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "pictory": {
+   "name": "Pictory",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "nordvpn": {
+   "name": "NordVPN",
+   "tier": null,
+   "category": "Cybersecurity & Identity Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "letta": {
+   "name": "Letta",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "leap-ai": {
+   "name": "Leap AI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "veed": {
+   "name": "Veed",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "zenegy": {
+   "name": "Zenegy",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "se-ranking": {
+   "name": "SE Ranking",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "proconnect": {
+   "name": "ProConnect",
+   "tier": null,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "lumiq": {
+   "name": "LumiQ",
+   "tier": null,
+   "category": "Workforce Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "mindmanager": {
+   "name": "MindManager",
+   "tier": null,
+   "category": "Project Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "kontentino": {
+   "name": "Kontentino",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "trustpilot": {
+   "name": "Trustpilot",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "tripo": {
+   "name": "Tripo",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "kanbanchi": {
+   "name": "Kanbanchi",
+   "tier": 3,
+   "category": "Project Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "hive": {
+   "name": "Hive",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "tatsoft": {
+   "name": "Tatsoft",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "oneup": {
+   "name": "OneUp",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "locationiq": {
+   "name": "LocationIQ",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "preceden": {
+   "name": "Preceden",
+   "tier": 3,
+   "category": "Project Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "next-cart": {
+   "name": "Next-Cart",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "leadpages": {
+   "name": "Leadpages",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "leonardo-ai": {
+   "name": "Leonardo.ai",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "jungle-scout": {
+   "name": "Jungle Scout",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "mem0": {
+   "name": "Mem0",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "proposify": {
+   "name": "Proposify",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "muchskills": {
+   "name": "MuchSkills",
+   "tier": 3,
+   "category": "Workforce Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "mailtrap": {
+   "name": "Mailtrap",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "visualping": {
+   "name": "Visualping",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "wealthsimple": {
+   "name": "Wealthsimple",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "streamyard": {
+   "name": "StreamYard",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "revenuehero": {
+   "name": "RevenueHero",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "loadfocus": {
+   "name": "LoadFocus",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "liveagent": {
+   "name": "LiveAgent",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -16683,342 +18739,354 @@
    "text": "50% off Solo and Business plans for one week to celebrate a $10M Series A",
    "src": "PricingSaaS report",
    "reported": true
+  },
+  {
+   "id": "aihr-promo-2026w45",
+   "week": "2026-W45",
+   "company": "aihr",
+   "co": "AIHR",
+   "kind": "new",
+   "text": "20% off Full Academy Access, expiring 2026-10-30",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "nordvpn-promo-2026w44",
+   "week": "2026-W44",
+   "company": "nordvpn",
+   "co": "NordVPN",
+   "kind": "changed",
+   "text": "Black Friday 2-year deal deepened: Complete $4.49 → $3.99/mo (78% off), Prime $7.49 → $6.99/mo (71% off)",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "proconnect-promo-2026w44",
+   "week": "2026-W44",
+   "company": "proconnect",
+   "co": "ProConnect",
+   "kind": "new",
+   "text": "About 15% off per-return pricing: Individual $109.95 → $93.46, Business $129.95 → $110.46; end date not shown",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "lumiq-promo-2026w44",
+   "week": "2026-W44",
+   "company": "lumiq",
+   "co": "LumiQ",
+   "kind": "new",
+   "text": "10% off the first year on Lite, Pro and Team (code FALL202610) until Nov 28, 2026: Lite $299 → $270/yr, Pro $499 → $450/yr",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "mindmanager-promo-2026w44",
+   "week": "2026-W44",
+   "company": "mindmanager",
+   "co": "MindManager",
+   "kind": "ended",
+   "text": "Professional 28% annual discount ended: $129.00/year → $179.00/year",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "upstage-promo-2026w44",
+   "week": "2026-W44",
+   "company": "upstage",
+   "co": "Upstage",
+   "kind": "changed",
+   "text": "Solar Pro 4 launch promo cut from 70% to 50% off; Solar Mini 4 launch discount ended, back to list price",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "shopware-promo-2026w44",
+   "week": "2026-W44",
+   "company": "shopware",
+   "co": "Shopware",
+   "kind": "ended",
+   "text": "Shopware Payments ramp-up pricing for 12 months, limited time only, no longer shown in the top banner",
+   "src": "PricingSaaS report",
+   "reported": true
   }
  ],
  "news": [
   {
-   "id": "ai-monetization",
+   "id": "notion-credits",
    "lead": true,
-   "src": "Growth Unhinged",
-   "by": "Kyle Poyar",
-   "date": "7 Oct",
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "23 Oct",
    "topic": "AI pricing",
    "rel": true,
-   "title": "The AI monetization debate shifts again",
-   "url": "https://www.growthunhinged.com/p/usage-based-pricing-for-ai",
-   "gist": "AI is pulling software away from per-seat pricing toward usage and outcomes, but the model is far from settled. Poyar argues the hard part isn't picking a metric. It's making variable bills feel predictable, getting customers to ramp quickly, and paying sales on consumption instead of bookings. Examples range from OpenAI testing outcome-based deals with enterprises to Cognition funding up to $10M of usage until its AI proves value. Metronome's CEO pushes back: true outcome pricing only works for companies with huge contracts or near-monopoly power, so most should price on countable outputs with unified credits. His closing rule: change pricing for customers, not investors.",
+   "title": "Notion’s Confusing Credit Model",
+   "url": "https://newsletter.pricingsaas.com/p/notion-s-confusing-credit-model",
+   "gist": "Notion has gone through four AI pricing setups: a paid add-on, AI folded into paid plans, Custom Agents sold on credits, and now two separate credit balances on every Business and Enterprise seat. One balance covers work where Notion picks the model; the other covers work where the user picks the model, plus Custom Agents. The two balances reset monthly, can’t be pooled and don’t roll over, and a third, shared workspace balance can top up either one. Litterst argues Notion should absorb this complexity instead of passing it to customers, for example with one pool or a separate balance only for Custom Agents.",
    "nums": [
     [
-     "76% vs 49%",
-     "AI-native vs SaaS companies using variable or hybrid pricing"
+     "1,500",
+     "Standard credits per member a month (Notion picks the model)"
     ],
     [
-     "15%",
-     "think investors still prefer seat or flat pricing"
+     "500",
+     "Select credits per member a month (user picks the model, plus Custom Agents)"
     ],
     [
-     "$0.99",
-     "Fin's price per resolved support conversation"
+     "$10 per 1,000",
+     "price of credits when Custom Agents launched"
     ],
     [
-     "+8%",
-     "Gumloop's orchestration fee on top of at-cost tokens"
+     "$8",
+     "original monthly price of the Notion AI add-on, billed yearly"
     ],
     [
-     "+36%",
-     "Snowflake's net-new customers after adding consumption to sales comp"
+     "-47%",
+     "Dialpad Sell’s Premium cut, to $79 per user, from the issue’s weekly roundup"
     ]
    ],
-   "why": "A ready-made test for any AI pricing change: does it make bills more predictable (credits, caps, a platform fee with included usage) or just push cost risk onto the buyer? Atlassian's December AI allowance and Cursor's shared weekly pool in the Price Changes tab are live cases."
+   "why": "If a vendor splits AI usage into more than one wallet, ask which actions draw on each one and whether unused credits can move between them. Otherwise you can’t tell what a seat really includes. HubSpot moving Starter email sends onto shared Credits this week raises the same question."
   },
   {
-   "id": "upsell",
-   "src": "Growth Unhinged",
-   "by": "Kyle Poyar with ChartMogul",
-   "date": "30 Sep",
-   "topic": "Expansion",
-   "rel": true,
-   "title": "The 30-day upsell window",
-   "url": "https://www.growthunhinged.com/p/the-30-day-upsell-window",
-   "gist": "Using ChartMogul data on about 10.5 million purchases across 4,029 software companies, mostly self-serve plans under $100/month, Poyar shows customers are up to 10x more likely to upgrade in their first month than in months 4 to 11. Churned customers follow the same curve: they're most likely to come back right after cancelling. His point is that companies obsess over buying-intent timing before the sale, then ignore it afterward. He admits it's unclear how much of the SaaS vs AI-native gap comes from pricing models like unlimited seats.",
-   "nums": [
-    [
-     "0.83% → 0.19%",
-     "seat upgrade rate, month 1 vs month 4"
-    ],
-    [
-     "~40%",
-     "of first-year plan upgrades happen at the month-12 renewal"
-    ],
-    [
-     "5%+",
-     "of churned customers return within 3 months"
-    ],
-    [
-     "~10%",
-     "win-back rate for AI-native products"
-    ],
-    [
-     "2x",
-     "seat expansion in SaaS vs AI-native"
-    ]
-   ],
-   "why": "Month-one levers: early invite flows, multiplayer features, locked features shown in context, a trial of the next tier. It also explains why free plans keep shrinking to one user, as Playbook did this week."
-  },
-  {
-   "id": "pricingsaas-w42",
+   "id": "pricingsaas-w44",
+   "lead": false,
    "src": "PricingSaaS Pulse",
-   "by": "Week 42, 5–11 Oct",
-   "date": "Week 42",
+   "by": null,
+   "date": "Week 44",
    "topic": "Market data",
    "rel": true,
-   "title": "230 pricing changes in a week, and AI drives half of them",
-   "url": "https://pricingsaas.com/",
-   "gist": "PricingSaaS logged 230 pricing, packaging and monetization changes across 4,412 tracked pricing pages. Only 29 were straight price moves. The rest were repackaging, renamed AI features, new tiers, usage limits and promos. AI-related changes make up nearly half of all moves over the past 90 days, and credit-based pricing is the fastest-growing type. Free-tier AI limits are moving both ways, with more vendors expanding them than tightening.",
+   "title": "Baseten cuts Reflection Beam rates 69-72% in a 47-change week",
+   "url": "https://pricingsaas.com/news/week/2026W44",
+   "gist": "PricingSaaS’s weekly review calls 19–25 Oct the quietest week of the quarter, with fewer than a quarter of the usual number of moves. No price increases were logged, and packaging and product updates far outnumbered changes to the price itself. The biggest move was Baseten cutting its new Reflection Beam API rates four days after launch; HubSpot’s free email cut and Pictory’s merged credit pool also made the top list.",
    "nums": [
     [
-     "20 / 9",
-     "price increases vs cuts this week"
+     "47",
+     "pricing moves logged in the week"
     ],
     [
-     "49%",
-     "of 90-day moves are AI-related (1,694 moves)"
+     "227.6",
+     "eight-week average of moves per week"
     ],
     [
-     "21%",
-     "of AI moves are credit pricing, up 4 points"
+     "27",
+     "packaging shifts, against 13 product updates"
     ],
     [
-     "37 / 21",
-     "free-tier AI limits expanded vs tightened"
+     "7",
+     "straight pricing changes"
+    ],
+    [
+     "15.8",
+     "baseline for weekly price increases; this week had none"
     ]
    ],
-   "why": "Price-only tracking misses most of the action. Limits, minimums and tier swaps are where monetization actually shifts, which is why the Price Changes tab classifies change type, not just the price."
+   "why": "A quiet week makes it easier to see the mix: even when little happens, most moves change what a plan includes rather than its price. Read our own small sample this week in that light."
   },
   {
-   "id": "gtm",
-   "src": "Growth Unhinged",
-   "by": "Kyle Poyar",
-   "date": "14 Oct",
-   "topic": "GTM · adjacent",
+   "id": "agentdeals-oct",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "Oct 2026",
+   "topic": "Dev tools",
    "rel": true,
-   "title": "What's working in B2B GTM in 2026",
-   "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report",
-   "gist": "A survey of 300 software go-to-market leaders finds building product is no longer the bottleneck; distribution is. Founder-led sales lasts longer than expected, warm introductions and small events beat cold outreach, and AI SDRs have underdelivered. AI search has joined the proven channels. The report doesn't analyze pricing directly.",
+   "title": "Developer Tool Pricing Report, October 2026",
+   "url": "https://agentdeals.dev/reports/2026-10",
+   "gist": "AgentDeals’ monthly tally of developer-tool pricing moves, updated through 27 Oct, counts far more changes than in September, and almost every change with a clear direction went against buyers. Most of the negative moves trim free allowances: smaller sign-up credits at Browser Use, tighter free rate limits at Groq, and no more monthly inference credits for free Hugging Face accounts. Paid bills rise without list-price changes too: Modal now meters egress, Fly.io raised its memory rate, and OVHcloud bills storage and IPv4 as separate lines. Meta also resumed charging for WhatsApp service messages beyond a free monthly allowance.",
    "nums": [
     [
-     "39%",
-     "call AI search a core channel, up 11 points"
+     "25",
+     "pricing changes tracked in October through 27 Oct"
     ],
     [
-     "62%",
-     "say network and intros are core"
+     "12",
+     "of them negative for buyers, against 1 positive"
     ],
     [
-     "44%",
-     "of sub-$1M ARR companies rely on founder-led sales"
+     "$1",
+     "Browser Use’s one-time sign-up credit, down from $15"
     ],
     [
-     "35% / 31%",
-     "PLG for deals under $5k vs outbound for deals over $50k"
+     "$0.04",
+     "Modal’s new charge per GiB of egress beyond the included allowance"
+    ],
+    [
+     "1,000",
+     "free WhatsApp service messages per business phone number a month"
     ]
    ],
-   "why": "Price point decides the go-to-market motion you can afford: under $5k leans product-led, over $50k needs sales. The report also notes AI assistants now describe your pricing to buyers, so pricing pages need to be easy for machines to read."
+   "why": "The free tier you evaluated on may be gone at renewal, and costs creep in through new line items rather than higher list prices. Check egress, storage and per-message fees, not just the headline rate."
   },
   {
-   "id": "swag",
-   "src": "Growth Unhinged",
-   "date": "11 Oct",
-   "topic": "Brand",
-   "rel": false,
-   "title": "Swag got cool again",
-   "url": "https://www.growthunhinged.com/",
-   "gist": "How some companies turned branded merchandise into a status signal."
-  },
-  {
-   "id": "automate",
-   "src": "Growth Unhinged",
-   "date": "23 Sep",
-   "topic": "Sales",
-   "rel": false,
-   "title": "Is this the last place to automate?",
-   "url": "https://www.growthunhinged.com/",
-   "gist": "Sales prospecting frameworks from Sam McKenna."
+   "id": "agentdeals-w43",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "19–25 Oct",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Changes: October 19–25, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w43",
+   "gist": "AgentDeals’ weekly digest for our week is mostly about retired models: OpenAI ended access to a long list of older models, Google shut down several Gemini previews, and Together AI pulled two models from serverless inference. The two packaging changes that matter most are at Socket.dev, whose Free plan now covers a single developer seat instead of unlimited developers, and HiveMQ, which stopped new Serverless clusters and will retire that plan, free tier included, at year end. Mistral’s launch discount on Mistral Large 4 also ended.",
+   "nums": [
+    [
+     "9",
+     "events counted in the week’s digest"
+    ],
+    [
+     "1 dev seat",
+     "Socket.dev’s Free plan, which earlier read “Unlimited developers & repos”"
+    ],
+    [
+     "2026-12-31",
+     "date HiveMQ retires its Serverless plan, including the free tier"
+    ]
+   ],
+   "why": "Retired models and closed free tiers force migrations, and the replacement is usually priced differently. Budget for the move as well as the new rate."
   }
  ],
  "patterns": [
   {
-   "t": "AI gets a meter",
-   "p": "Seat prices still go up, but the new lever is a usage allowance for AI. Atlassian starts metering AI in December, Copilot bills usage beyond the allowance, and Surface Labs cut included actions instead of raising the price.",
+   "t": "Credits become the shared currency",
+   "p": "HubSpot no longer gives Starter its own email-send limit; sends now draw on the same Credits pool as other actions. Cust swapped cost ranges for a fixed credit cost per AI action and started charging credits for Teammates chats. Both changes come from PricingSaaS reports. More of what a plan includes is now stated in credits rather than in features or caps.",
    "ids": [
-    "atlassian-2026w42",
-    "github-2026w42",
-    "surface-2026w42"
+    "hubspot-2026w44",
+    "cust-2026w44"
    ]
   },
   {
-   "t": "Bundling as lock-in",
-   "p": "Owners are folding products together. xAI bundles Cursor with Grok and X Premium, and Figma adds Specs to existing seats. Bundles raise perceived value and make it harder to leave.",
+   "t": "Free plans move both ways",
+   "p": "HubSpot cut free marketing email sends from 2,000 to 300 a month, while Zoom raised free Basic’s in-meeting AI questions from 3 to 20 and Dropzone AI removed the investigations cap on its base plan. Vendors loosen limits where they want people to try an AI feature and tighten them where the free plan was giving away the core product. HubSpot and Dropzone AI come from PricingSaaS reports; Zoom is our own capture.",
    "ids": [
-    "cursor-2026w42",
-    "figma-2026w42"
+    "hubspot-2026w44",
+    "zoom-2026w44",
+    "dropzone-ai-2026w44"
    ]
   },
   {
-   "t": "Minimums cut both ways",
-   "p": "Atlassian (Bitbucket) and SugarCRM removed user minimums to let smaller teams in. Scribe added one to move upmarket. Same lever, opposite strategies.",
+   "t": "Prices published at a finer grain",
+   "p": "Avalara replaced a contact-sales bundle table with public prices per state, Intercom now bills WhatsApp per message instead of per conversation, and Day listed its new top plan at a price per agent. Each change ties the bill to a smaller, published unit, which is easier to compare but harder to forecast. Avalara and Day come from PricingSaaS reports; Intercom is our own capture.",
    "ids": [
-    "atlassian-2026w42",
-    "sugarcrm-2026w42",
-    "scribe-2026w42"
+    "avalara-2026w44",
+    "intercom-2026w44",
+    "day-2026w44"
    ]
   }
  ],
  "stats_analysis": [
   {
-   "t": "Leaders repackage, the middle raises prices",
-   "fig": "8 of 13",
-   "figNote": "market leaders restructured",
-   "p": "Only 2 of 13 market leaders raised list prices (Atlassian and Xero). Docker and Figma charge more through a lost allowance and a new meter; the other eight changed packaging: bundles, model access, billing terms, allowances. Notable companies went the other way, with 7 of 8 raising prices. Leaders can capture value through packaging without a headline increase; mid-sized companies reach for the price itself.",
+   "t": "More cuts than increases",
+   "fig": "3 vs 1",
+   "figNote": "changes that lower vs raise what buyers pay",
+   "p": "Baseten’s token-rate cut, Zoom’s larger free AI allowance and Dropzone AI’s uncapped investigations all favor buyers. The only increase was HubSpot’s free-plan email cut, which is a tighter limit, not a list-price rise. Apart from Zoom, all of these come from PricingSaaS reports.",
    "ids": [
-    "cursor-2026w42",
-    "github-2026w42",
-    "openai-2026w42",
-    "sugarcrm-2026w42",
-    "scribe-2026w42",
-    "matterport-2026w42",
-    "docker-2026w42",
-    "runpod-2026w42"
+    "baseten-2026w44",
+    "zoom-2026w44",
+    "dropzone-ai-2026w44",
+    "hubspot-2026w44"
    ]
   },
   {
-   "t": "Most increases aren’t just a new price",
-   "fig": "5 of 13",
-   "figNote": "pay-more changes were a plain price rise",
-   "p": "Only Xero, Padlet, Runpod, Moodle and LeaveWizard simply raised the price. The other eight came with, or worked entirely through, minimums, removed plans, smaller allowances or new meters. Telnyx raised the minimum spend, Surface Labs cut included actions, and Docker stopped listing its included build minutes, all without touching the price.",
+   "t": "Promotions are being pulled back",
+   "fig": "4",
+   "figNote": "promotion changes recorded this week",
+   "p": "Krea’s and Runway’s unlimited-generation offers ended, and Synthesia cut its Syren launch credits. The only new offer was Intercom’s $19 Essential seat for new customers, which looks like one arm of a price test. All four come from PricingSaaS reports.",
    "ids": [
-    "telnyx-2026w42",
-    "surface-2026w42",
-    "scribe-2026w42",
-    "matterport-2026w42",
-    "docker-2026w42"
-   ]
-  },
-  {
-   "t": "Price cuts are narrow, and come with strings",
-   "fig": "3",
-   "figNote": "price cuts out of 28 changes with full cards",
-   "p": "None of the cuts is broad. Anthropic cut Sonnet cache reads and launched a cheaper Haiku, Warp made its top tier cheaper while removing volume discounts, and Enpass’s cut may be promotional. Cuts are being used as targeted competitive moves, not general price relief.",
-   "ids": [
-    "anthropic-2026w42",
-    "warp-2026w42",
-    "enpass-2026w42"
-   ]
-  },
-  {
-   "t": "Seats still dominate, but shifts only go one way",
-   "fig": "3 of 3",
-   "figNote": "model shifts moved away from pure seats",
-   "p": "Seat pricing is still the most common model after the change (9 of 28 changes with full cards). But all three model shifts this edition moved away from pure seats: Atlassian and GitHub toward seats plus usage, Bambee toward flat tiers. Hybrid and usage together already cover 11 of 28.",
-   "ids": [
-    "atlassian-2026w42",
-    "github-2026w42",
-    "bambee-2026w42"
-   ]
-  },
-  {
-   "t": "About half the changes involve AI",
-   "fig": "13 of 28",
-   "figNote": "changes with full cards touch AI features, models or usage",
-   "p": "Model access, AI allowances, agent actions and GPU prices drive about half of what we tracked. That matches PricingSaaS’s market-wide figure of 49% of moves being AI-related, which suggests our sample isn’t skewed on this point.",
-   "ids": [
-    "atlassian-2026w42",
-    "cursor-2026w42",
-    "openai-2026w42",
-    "anthropic-2026w42",
-    "surface-2026w42",
-    "lyzr-2026w42",
-    "figma-agent-2026w42",
-    "runpod-2026w42"
-   ]
-  },
-  {
-   "t": "Consumers are barely touched, or we barely see them",
-   "fig": "1",
-   "figNote": "consumer-only change (Enpass)",
-   "p": "21 changes with full cards are B2B-only and 6 hit products sold to both. The only consumer-only change is a cut. Part of this is real (business software reprices more often), but part is our sources: PricingSaaS and AgentDeals mostly track B2B pages. Adding a consumer-focused source would help correct it.",
-   "ids": [
-    "enpass-2026w42",
-    "openai-2026w42",
-    "cursor-2026w42"
+    "intercom-2026w44"
    ]
   }
  ],
  "news_trends": [
   {
-   "t": "Pricing is moving from seats to usage, slowly",
-   "p": "Variable or hybrid pricing is already the norm for AI-native companies and close to half of classic SaaS. Credit-based pricing is the fastest-growing kind of AI price move. The unsolved problem in both stories is the same: keeping usage bills predictable.",
+   "t": "Credits spread, and get harder to read",
+   "p": "Notion now splits each seat’s AI usage into two credit balances, HubSpot moved Starter email sends onto shared Credits, and Cust gave each AI action a fixed credit price. Credits let vendors add new actions without new price lines, but buyers can’t easily translate them back into what they used to get.",
    "nums": [
     [
-     "76% vs 49%",
-     "AI-native vs SaaS companies on variable or hybrid pricing"
+     "1,500",
+     "Standard credits per Notion Business member a month"
     ],
     [
-     "21%",
-     "of AI moves are credit pricing, up 4 points"
+     "500",
+     "Select credits per Notion Business member a month"
     ]
    ],
    "news": [
-    "ai-monetization",
-    "pricingsaas-w42"
+    "notion-credits"
    ],
    "changes": [
-    "atlassian-2026w42",
-    "github-2026w42",
-    "surface-2026w42"
+    "hubspot-2026w44",
+    "cust-2026w44",
+    "atlassian-2026w42"
    ]
   },
   {
-   "t": "Most monetization happens away from the price tag",
-   "p": "Only about 1 in 8 tracked changes last week touched list price. The rest moved limits, tiers, minimums and AI packaging. The upsell research points the same way: the moments that decide revenue are the first month and the renewal, not the sticker price.",
+   "t": "Free tiers shrink at the edges",
+   "p": "Developer-tool vendors trimmed sign-up credits, free rate limits and free seats through October, and HubSpot cut its free email allowance this week. The counter-moves, such as Zoom’s and Dropzone AI’s, open up one specific feature rather than restoring a generous free plan.",
    "nums": [
     [
-     "29 of 230",
-     "changes in week 42 were straight price moves"
+     "12",
+     "negative changes in AgentDeals’ October report, against 1 positive"
     ],
     [
-     "~40%",
-     "of first-year plan upgrades happen at the month-12 renewal"
+     "1 dev seat",
+     "Socket.dev’s Free plan, down from unlimited developers"
     ]
    ],
    "news": [
-    "pricingsaas-w42",
-    "upsell"
+    "agentdeals-oct",
+    "agentdeals-w43"
    ],
    "changes": [
-    "playbook-2026w42",
-    "scribe-2026w42",
-    "sugarcrm-2026w42"
+    "hubspot-2026w44",
+    "zoom-2026w44",
+    "dropzone-ai-2026w44"
    ]
   },
   {
-   "t": "Price point decides how you sell",
-   "p": "Deals under about $5k lean on product-led growth, while deals over $50k still need a sales team. AI assistants now describe pricing to buyers, so a pricing page that machines can read is becoming a go-to-market issue too.",
+   "t": "Even a quiet week is mostly packaging",
+   "p": "In a week with no logged price increases, PricingSaaS still counted packaging shifts at almost four times straight price changes. The cost changes AgentDeals found mostly came as new line items, like egress or storage fees, rather than higher rates. The same goes for our own sample, where HubSpot cut an allowance and Bolt swapped features without changing a sticker price.",
    "nums": [
     [
-     "35% / 31%",
-     "PLG for deals under $5k vs outbound for deals over $50k"
+     "27",
+     "packaging shifts in PricingSaaS’s week 44 review"
     ],
     [
-     "39%",
-     "call AI search a core channel, up 11 points"
+     "7",
+     "straight pricing changes the same week"
     ]
    ],
    "news": [
-    "gtm"
+    "pricingsaas-w44",
+    "agentdeals-oct"
    ],
    "changes": [
-    "telnyx-2026w42",
-    "lyzr-2026w42"
+    "hubspot-2026w44",
+    "bolt-2026w44",
+    "docker-2026w42"
+   ]
+  },
+  {
+   "t": "Messaging moves to a per-message meter",
+   "p": "Meta resumed charging for WhatsApp service messages beyond a free monthly allowance, and Intercom’s FAQ now says WhatsApp is charged per message sent rather than per conversation. That Intercom is passing through Meta’s model is our inference; Intercom doesn’t say so.",
+   "nums": [
+    [
+     "1,000",
+     "free WhatsApp service messages per business phone number a month"
+    ]
+   ],
+   "news": [
+    "agentdeals-oct"
+   ],
+   "changes": [
+    "intercom-2026w44"
    ]
   }
  ],
  "market_context": {
-  "source": "PricingSaaS week 42",
-  "total": 230,
-  "increases": 20,
-  "cuts": 9,
-  "other": 201,
-  "note": "Of 230 changes tracked in one week, nearly 9 in 10 weren’t list-price moves. Nearly half of all moves in the last 90 days involve AI pricing."
+  "source": "Pricing Desk, 171 tracked pricing pages + PricingSaaS reports",
+  "total": 53,
+  "increases": 21,
+  "cuts": 15,
+  "other": 17,
+  "note": "Of 53 changes kept from 171 tracked pricing pages this week, 21 raised prices, 15 cut them and 17 restructured plans or limits."
  }
 }

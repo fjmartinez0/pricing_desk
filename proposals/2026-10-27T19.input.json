@@ -1,0 +1,89 @@
+{
+ "run": "2026-10-27T19",
+ "changes": [
+  {
+   "diff_id": "aihr-2026-10-27T19",
+   "company": "aihr",
+   "unstable": false,
+   "before_file": "data/snapshots/aihr/2026-10-24T16.txt",
+   "after_file": "data/snapshots/aihr/2026-10-27T19.txt",
+   "last_old_at": "2026-10-26T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/aihr-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "file-2026-10-27T19",
+   "company": "file",
+   "unstable": false,
+   "before_file": "data/snapshots/file/2026-10-26T19.txt",
+   "after_file": "data/snapshots/file/2026-10-27T19.txt",
+   "last_old_at": "2026-10-26T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/file-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "intercom-2026-10-27T19",
+   "company": "intercom",
+   "unstable": false,
+   "before_file": "data/snapshots/intercom/2026-10-24T16.txt",
+   "after_file": "data/snapshots/intercom/2026-10-27T19.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/intercom-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "n8n-2026-10-27T19",
+   "company": "n8n",
+   "unstable": false,
+   "before_file": "data/snapshots/n8n/2026-10-24T15.txt",
+   "after_file": "data/snapshots/n8n/2026-10-27T19.txt",
+   "last_old_at": "2026-10-25T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/n8n-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "notion-2026-10-27T19",
+   "company": "notion",
+   "unstable": false,
+   "before_file": "data/snapshots/notion/2026-10-24T13.txt",
+   "after_file": "data/snapshots/notion/2026-10-27T19.txt",
+   "last_old_at": "2026-10-26T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/notion-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "replit-2026-10-27T19",
+   "company": "replit",
+   "unstable": false,
+   "before_file": "data/snapshots/replit/2026-10-24T15.txt",
+   "after_file": "data/snapshots/replit/2026-10-27T19.txt",
+   "last_old_at": "2026-10-26T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/replit-2026-10-27T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "fireworks-ai-2026-10-27T19",
+   "company": "fireworks-ai",
+   "unstable": false,
+   "before_file": "data/snapshots/fireworks-ai/2026-10-24T19.txt",
+   "after_file": "data/snapshots/fireworks-ai/2026-10-27T19.txt",
+   "last_old_at": "2026-10-26T19:00:05-04:00",
+   "first_new_at": "2026-10-27T07:00:01-04:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/fireworks-ai-2026-10-27T19.diff",
+   "attempts": 0
+  }
+ ]
+}

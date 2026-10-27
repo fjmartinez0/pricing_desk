@@ -1,0 +1,66 @@
+{
+ "run": "2026-10-26T19",
+ "changes": [
+  {
+   "diff_id": "file-2026-10-26T19",
+   "company": "file",
+   "unstable": false,
+   "before_file": "data/snapshots/file/2026-10-25T19.txt",
+   "after_file": "data/snapshots/file/2026-10-26T19.txt",
+   "last_old_at": "2026-10-25T19:00:05-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/file-2026-10-26T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "google-workspace-2026-10-26T19",
+   "company": "google-workspace",
+   "unstable": true,
+   "before_file": "data/snapshots/google-workspace/2026-10-24T13.txt",
+   "after_file": "data/snapshots/google-workspace/2026-10-26T19_a.txt",
+   "alt_file": "data/snapshots/google-workspace/2026-10-26T19_b.txt",
+   "last_old_at": "2026-10-24T19:52:34-04:00",
+   "first_new_at": "2026-10-26T19:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/google-workspace-2026-10-26T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "slack-2026-10-26T19",
+   "company": "slack",
+   "unstable": false,
+   "before_file": "data/snapshots/slack/2026-10-24T13.txt",
+   "after_file": "data/snapshots/slack/2026-10-26T19.txt",
+   "last_old_at": "2026-10-24T19:00:02-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/slack-2026-10-26T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "supabase-2026-10-26T19",
+   "company": "supabase",
+   "unstable": false,
+   "before_file": "data/snapshots/supabase/2026-10-24T15.txt",
+   "after_file": "data/snapshots/supabase/2026-10-26T19.txt",
+   "last_old_at": "2026-10-25T19:00:05-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/supabase-2026-10-26T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "protopie-2026-10-26T19",
+   "company": "protopie",
+   "unstable": false,
+   "before_file": "data/snapshots/protopie/2026-10-24T19.txt",
+   "after_file": "data/snapshots/protopie/2026-10-26T19.txt",
+   "last_old_at": "2026-10-25T19:00:05-04:00",
+   "first_new_at": "2026-10-26T07:00:05-04:00",
+   "week": "2026-W44",
+   "diff_file": ".run/diffs/protopie-2026-10-26T19.diff",
+   "attempts": 0
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Exa/All changes/Search endpoint configurable latency range changed
+E
+ExaPackaging change · Plan renamed · Feature change · Plan removed · Oct 19 → Oct 26, 2026
+Exa drops Deep-Reasoning Search tier and renames Instant to Lite Search
+Verified Oct 26, 2026·AI & Machine Learning·Direction: down
+The changeSearch endpoint configurable latency range — changed.
+Before · Oct 19180ms-1s
+After · Oct 26450ms-1s
+changed
+3 changes·2 captures·Oct 19, 2026 → Oct 26, 2026
+What happened
+Between the Oct 19, 2026 and Oct 26, 2026 captures of Exa's pricing page, Pulse recorded 3 changes: With the Exa 3.0 launch, Exa removed the $15/1k Deep-Reasoning Search tier (Deep Search now a flat $12/1k), renamed Instant Search to Lite Search and Fast/Auto to Auto Search at unchanged prices, and raised the Search latency floor from 180ms to 450ms. In detail: Search tiers renamed: Instant Search → Lite Search ($4/1k unchanged) and Fast / Auto Search → Auto Search ($7/1k unchanged); Search endpoint configurable latency range changed from 180ms-1s to 450ms-1s; Deep-Reasoning Search tier ($15/1k requests) removed from endpoint pricing; Deep Search card now $12/1k requests (was $12–15/1k). Pulse files it as a packaging change (plan renamed, feature change, plan removed) with a downward direction. The current page lists Search at $7 per 1k requests, up to 10 results + $1 per 1k page AI summaries, Agent at $0.01 per search tool call + $0.1 per request (Medium effort), Contents at $1 per 1k pages, per content type + $1 per 1k page AI summaries, Deep Search at $12 per 1k requests, up to 10 results + $1 per 1k requests, additional result above 10 and Deep-Reasoning Search at $1 per 1k page AI summaries + $1 per 1k requests, additional result above 10.
+It lands 21 days after Exa's previous change, "Exa launches $4/1k Instant Search, cutting Search entry price from $7" (Oct 5, 2026). Before that Pulse recorded "Exa: Free plan first-month credits cut from $30 to $20" (Sep 28, 2026), "Exa boosts Starter agent concurrency 3→50 and doubles QPS limits" (Sep 7, 2026) and "Exa: Answer endpoint overage + AI-summary fees removed" (Aug 3, 2026). Exa has been tracked since 2024-11-17.
+In the same window You.com and Google also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Search · PlanPlan renamed
+Search tiers renamed: Instant Search → Lite Search ($4/1k unchanged) and Fast / Auto Search → Auto Search ($7/1k unchanged).
+Search · FeatureChanged
+180ms-1s→450ms-1s
+Deep-Reasoning Search, Deep Search · PlanPlan removed
+Deep-Reasoning Search tier ($15/1k requests) removed from endpoint pricing; Deep Search card now $12/1k requests (was $12–15/1k).
+Plan
+Field
+Before
+After
+Change
+Search
+Plan
+Search tiers renamed: Instant Search → Lite Search ($4/1k unchanged) and Fast / Auto Search → Auto Search ($7/1k unchanged).
+Plan renamed
+Search
+Feature
+180ms-1s
+450ms-1s
+Changed
+Deep-Reasoning Search, Deep Search
+Plan
+—
+$12
+Plan removed
+Values as written on Exa's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Exa's pricing page (exa.ai) from Oct 19, 2026 and Oct 26, 2026; the change is marked around the middle of the page, where "180ms-1s" becomes "450ms-1s".
+Oct 19, 2026 · 180ms-1s
+Oct 26, 2026 · 450ms-1s
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Exa, the last 90 days
+Full history
+Oct 26, 2026packagingExa drops Deep-Reasoning Search tier and renames Instant to Lite Search · this change
+Oct 5, 2026packagingExa launches $4/1k Instant Search, cutting Search entry price from $7
+Sep 28, 2026packagingExa: Free plan first-month credits cut from $30 to $20
+Sep 7, 2026improvedExa boosts Starter agent concurrency 3→50 and doubles QPS limits
+Aug 3, 2026decreaseExa: Answer endpoint overage + AI-summary fees removed
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+You.comOct 26You.com adds Inference Router API to run open-weight models via one endpoint
+GoogleOct 12Google Workspace swaps Gems for AI skills, rewords Gemini on Starter plan
+GoogleSep 7Google Workspace: promo discount cut from 50% to 30%/20% off
+You.comAug 4You.com: Web Search API now freemium (free 100/day + $5/1k after)
+Questions about this change
+Did Exa raise prices in October 2026?
+No list-price increase was recorded between Oct 19, 2026 and Oct 26, 2026. The change Pulse detected was a packaging change: plan renamed, feature change, plan removed.
+What changed on Exa's pricing page between Oct 19, 2026 and Oct 26, 2026?
+Search tiers renamed: Instant Search → Lite Search ($4/1k unchanged) and Fast / Auto Search → Auto Search ($7/1k unchanged); Search feature: 180ms-1s → 450ms-1s, changed; Deep-Reasoning Search tier ($15/1k requests) removed from endpoint pricing; Deep Search card now $12/1k requests (was $12–15/1k). Pulse compared the captures it took on Oct 19, 2026 and Oct 26, 2026; the before/after table above lists each item as written on the page.
+How often does Exa change its pricing?
+Pulse recorded 4 other pricing-page changes for Exa in the 90 days before this one; the previous change was "Exa launches $4/1k Instant Search, cutting Search entry price from $7" on Oct 5, 2026; Exa has been tracked since 2024-11-17.

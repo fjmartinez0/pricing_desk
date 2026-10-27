@@ -1,0 +1,544 @@
+=== https://www.koordinates.com/pricing ===
+Pricing
+Individual
+Team & Enterprise coming soonsoon
+API
+Agents
+Change to NZD pricing
+NZD pricing is available to New Zealand individuals and organisations
+only. Prices exclude GST.
+Change to normal pricing
+Free User
+For anyone finding, viewing, and exporting open data.
+$0 /mo
+No card required
+Sign up for user account
+– Single user
+Find, preview and export data
+Sign in to any site on the Koordinates platform
+Koordinates Public Data Catalog Info
+AI Pro User
+For individual professionals exploring geospatial data and making maps via AI chat.
+$15 /mo
+Single seat, charged monthly to your card
+AI credits and other additional fees
+Choose AI Pro User
+←
+Includes everything from Free User, plus
+KxAI Map Analyst Info
+MCP connection and MCP App
+Upload private or public data - 1GB vector, 6GB raster+point cloud
+Data packs
+Koordinates Public Data Catalog
+Included with AI Pro
+8,000 datasets controlled and curated by their publishers.
+Info
+NZ Data Index
+Labs
+Included with AI Pro during Labs phase
+An index of public New Zealand Esri REST services.
+Info
+US Data Index
+Labs
+Included with AI Pro during Labs phase
+An index of over 1 million layers from Esri services across America.
+Info
+Australia Data Index
+Labs
+Included with AI Pro during Labs phase
+An index of public Australian Esri REST services.
+Info
+Confirm
+Subscribe
+Included in AI Pro User
+Meet the KxAI Map Analyst.
+An analyst inside the map viewer. Ask questions of authoritative
+public data and your own, build maps by chat.
+About KxAI
+Team Cloud Plan
+For teams and small companies publishing and sharing data, or in the app development phase.
+$217 /mo
+$2,892 $2,604 per year
+Monthly
+Annual
+Save 10% yearly
+Choose Team Cloud Plan
+←
+Includes everything from Free User, plus
+KxAI Map Analyst 20,000 AI credits per seat, pooled. MCP seats available. Info
+2 paid seats, then $38 each
+4 GB vector, 50 GB raster+point cloud, 100 GB map product
+Branded public site
+Includes access to:
+US Data Index Indexed federal and state services View information
+NZ Data Index Indexed public NZ Esri REST services View information
+Australia Data Index Indexed public Australian Esri REST services View information
+Business Cloud Plan
+For growing companies needing stronger branding, higher included usage, and services at scale for production apps.
+$701 /mo
+$9,348 $8,412 per year
+Monthly
+Annual
+Save 10% yearly
+Choose Business Cloud Plan
+←
+Includes everything from Team Cloud Plan, plus
+5 paid seats, then $50 each
+20 GB vector, 800 GB raster+point cloud, 1 TB map product
+Custom domain
+Includes access to:
+US Data Index Indexed federal and state services View information
+NZ Data Index Indexed public NZ Esri REST services View information
+Australia Data Index Indexed public Australian Esri REST services View information
+Enterprise
+For large companies needing usage reporting, SSO, SLAs and enterprise-scale usage.
+POA
+Annual agreements, invoiced
+Annual
+Contact sales
+←
+Includes everything from Business Cloud Plan, plus
+20 paid seats, then $64 each
+50 GB vector, 2 TB raster+point cloud, 4 TB map product
+Entra ID and Okta, SLAs
+Credits by agreement
+Includes access to:
+Any combination Priced in your agreement Included
+NZ Government Sector
+For public sector agencies, councils, and other organisations procuring through the New Zealand Government Marketplace.
+Agreement
+Invoiced annually, with monthly overage fixups.
+Annual
+Talk to our public sector team
+Agency-wide seats
+Enterprise storage and usage levels
+Entra ID and Okta, SLAs
+Data residency and reporting
+Koordinates Public Data Catalog Info
+Includes access to:
+All NZ data packs Included in the agreement Included
+Work out your price
+For Team Cloud Plan and Business Cloud Plan. Subscription gets the annual
+discount; overage never does, so the two are shown separately.
+Seats
+KxAI seats
+MCP seats
+Vector storage 30 GB
+Raster+point cloud 400 GB
+Tile and WMTS requests 300,000
+Query API requests 60,000
+Team Cloud Plan-
+Business Cloud Plan-
+Services and APIs
+All plans
+Free User
+AI Pro User
+Team Cloud
+Business Cloud
+Enterprise
+What a published dataset exposes
+One layer answers a tile request, an OGC query, an Esri REST call and an AI tool call, under one set of keys.
+Tile services: XYZ
+Raster, imagery and grid tiles for any map library
+Keyed per token, so a domain-locked key can ship in a browser app. Metered as tile and WMTS requests.
+https://tiles-cdn.koordinates.com/services;key=YOUR_KEY\
+/tiles/v4/layer=124698/EPSG:3857/{z}/{x}/{y}.png
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+Query API
+Ask a layer what is at a point, or inside a shape
+JSON in, JSON out, with the layer's own attribute schema. This is what a property lookup or a hazard check calls.
+$ curl -H "Authorization: key YOUR_KEY" \
+"https://data.linz.govt.nz/services/query/v1/vector.json?layer=50804&x=174.7787&y=-41.2870"
+Example shape. Check the layer's Services tab for the exact
+endpoint.
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+OGC WMTS and Esri REST
+Standards endpoints for QGIS, ArcGIS and FME
+Publish a layer as a WMTS tile service or an Esri REST feature service. Each layer's Services tab carries its exact URL.
+https://data.linz.govt.nz/layer/50804-nz-property-titles/services/
+Team Cloud, Business Cloud, Enterprise
+OGC WFS and CS-W
+Feature streaming and catalogue discovery
+WFS returns features to desktop GIS and ETL tools. CS-W exposes a public site's catalogue for harvesting.
+https://data.linz.govt.nz/services;key=YOUR_KEY/wfs\
+?service=WFS&request=GetFeature&typeNames=layer-50804
+Example shape. Check the layer's Services tab for the exact
+endpoint.
+Business Cloud, Enterprise
+3D Tiles and point cloud
+3D Tiles now, COPC coming
+3D Tiles serves extruded and mesh data to Cesium and compatible viewers. Cloud Optimised Point Cloud streams LAZ by extent.
+https://data.linz.govt.nz/layer/d3VcCb5rKzNsNGk/\
+auckland-lidar-point-cloud-2024/
+Business Cloud, Enterprise
+Vector tiles
+Coming
+Mapbox Vector Tiles, PMTiles, MB Tiles, Esri Vector Tile Service
+Four vector tile formats off one layer, styled client-side with Mapbox Vector Styles. Not shipping yet on any plan.
+Team Cloud, Business Cloud, Enterprise
+MCP
+The same data as tools an AI assistant can call
+One endpoint per site. Find, query, geocode and map tools, governed by the same keys and access policies. Per KxAI or MCP seat on the team plans.
+https://data.linz.govt.nz/services/mcp
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+Platform API
+The account itself is an API: layers, sources, exports, keys, users and reporting.
+Layers and versions
+Create, style, publish, version
+The operations the web app performs, over REST: create a layer from a file or a connected source, apply a style, publish a version.
+# Publish a new version
+$ curl -X POST -H "Authorization: key YOUR_KEY" \
+https://data.linz.govt.nz/services/api/v1.x/layers/50804/versions/
+Example shape. Check the layer's Services tab for the exact
+endpoint.
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+Connected data sources
+Index where the data already lives
+AWS S3, Esri REST feature services, WFS and Postgres/PostGIS are indexed on a schedule rather than copied. CIFS/SMB by arrangement on Enterprise. Uploaded files work on any paid plan.
+Team Cloud, Business Cloud, Enterprise
+Exports
+Request a clip, a reprojection, a format
+Crop to an extent, pick any EPSG CRS, choose a format, then poll for the download. Export volume is metered.
+$ curl -X POST -H "Authorization: key YOUR_KEY" \
+-d '{"items":[{"item":".../layers/50804/"}],"crs":"EPSG:2193"}' \
+https://data.linz.govt.nz/services/api/v1.x/exports/
+Example shape. Check the layer's Services tab for the exact
+endpoint.
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+API keys and tokens
+Issue, scope and revoke
+Every request carries a key. Scoping controls (limit to group-owned or group-accessible data, domain-locking) are Team and above.
+AI Pro User, Team Cloud, Business Cloud, Enterprise
+Users and groups
+Invite, group, review, block
+Paid seats, groups, and viewer/export users, with per-group find, view, export and manage policies. Not part of the single-seat plans.
+Team Cloud, Business Cloud, Enterprise
+Sites and custom domain
+Your own branded site, on your own domain
+A branded site comes with Team and above. Serving it from your own domain, and running your APIs against that domain, is Business and above.
+Team Cloud, Business Cloud, Enterprise
+Usage reporting
+Who exported what, and how much was used
+Export history across the account, plus per-user history. Account-wide reporting is Business and above.
+Business Cloud, Enterprise
+Agents
+Agent
+For autonomous agents and software querying spatial data with no person in the loop.
+$49 /mo
+Per agent per month. Indicative only.
+Talk to us about agents
+←
+Includes everything from AI Pro User, plus
+Its own credentials, quota and audit trail
+MCP and REST access to every dataset the account can read
+Usage-based query pricing, billed to the account
+Included storage, access rates, and additional fees
+Free User
+AI Pro User Applies to data you upload, not the Koordinates Public Data Catalog or other customers' data.
+Team Cloud Plan
+Business Cloud Plan
+Enterprise
+AI credits
+AI credits a month
+–
+20,000 included
+20,000 per seat
+Top-up: 20,000 credits
+–
+$12
+Top-up: 52,500 credits
+–
+$29
+Top-up: 220,000 credits
+–
+$117
+Storage included and overage
+Vector and tabular storage
+–
+1 GB then $15.04 /GB a month
+4 GB then $10.97 /GB a month
+20 GB then $10.75 /GB a month
+50 GB then $10.54 /GB a month
+Raster+point cloud storage
+–
+6 GB then $0.12 /GB a month
+50 GB then $0.14 /GB a month
+800 GB then $0.13 /GB a month
+2 TB then $0.12 /GB a month
+Map product storage
+–
+100 GB then $0.085 /GB a month
+1 TB then $0.077 /GB a month
+4 TB then $0.068 /GB a month
+Exports
+–
+$0.00 /GB
+15 GB then $1.90 /GB
+100 GB then $1.86 /GB
+300 GB then $1.83 /GB
+Service requests included a month
+Query API requests
+–
+500
+10,000
+100,000
+1,000,000
+Tile services and WMTS requests
+–
+10,000
+20,000
+200,000
+2,000,000
+Esri REST queries
+–
+1,000
+10,000
+100,000
+WFS queries
+–
+10,000
+100,000
+Request overage, per 10,000 a month
+Query API requests
+–
+$1.72
+$1.69
+$1.66
+$1.62
+Tile services and WMTS requests
+–
+$1.54
+$1.51
+$1.48
+$1.45
+Esri REST queries
+–
+$8.53
+$8.36
+$8.20
+WFS queries
+–
+$8.36
+$8.20
+AI Pro User: Applies to data you upload, not the Koordinates Public Data Catalog or other customers' data.
+Compare plans
+Free User
+AI Pro User
+Team Cloud Plan
+Business Cloud Plan
+Enterprise
+AI features
+KxAI Map Analyst KxAI seat
+–
+Per seat
+MCP connection KxAI or MCP seat
+–
+Per seat
+MCP App KxAI or MCP seat. Requires a Claude or ChatGPT subscription
+–
+Per seat
+MCP map image tool KxAI or MCP seat
+–
+Per seat
+Portal
+Your own customisable, branded site
+–
+Public site supported
+–
+Custom domain for your site
+–
+Sandbox portal/site
+–
+Users and user management
+Included paid seats
+–
+2
+5
+20
+Additional paid seat pricing
+–
+$38
+$50
+$64
+Groups
+–
+5
+100
+Viewer and export users
+–
+Unlimited
+Invite user
+–
+Find user by API key
+–
+Review users
+–
+Block user from site and services
+–
+Authentication
+Built in user registration and access controls
+–
+Entra ID (formerly Azure AD)
+–
+Okta
+–
+End user functions (all seats)
+Find data
+Appraise metadata
+Preview data in a map viewer
+Export data
+API key and token controls
+Limit to group-owned data
+–
+Limit to group-accessible data
+–
+Domain-locked
+–
+Dataset and feature access controls
+Find permission
+View permission
+Export permission
+Manage permission
+–
+Group-based find, view, export and manage policies
+–
+Kart UI
+–
+Shared map viewer access levels
+–
+Group-based service access controls
+–
+Data types publishable
+Vector point
+–
+Vector line
+–
+Vector polygon
+–
+Table (aspatial or flat)
+–
+Raster
+–
+Grid
+–
+Point cloud (LAZ/LAS)
+–
+3D Tiles
+–
+Data import and update functions
+Automated CRS identification
+–
+Multi-tile imports
+–
+Auto-verify vector data
+–
+ISO/FGDC XML metadata import
+–
+Documents
+Document repository
+–
+Attachments to datasets
+–
+Publishable services
+Esri REST feature service
+–
+OGC WMTS
+–
+OGC WFS
+–
+Cloud Optimized Point Cloud (COPC)
+–
+Coming
+3D Tiles service
+–
+Vector tiles: Mapbox Vector Tiles
+–
+Coming
+Vector tiles: PM Tiles
+–
+Coming
+Vector tiles: Esri Vector Tile Service
+–
+Coming
+Vector tiles: MB Tiles
+–
+Coming
+CS-W (public site)
+–
+Data sources
+Uploaded ZIPs
+–
+AWS S3
+–
+Esri REST feature services
+–
+WFS
+–
+Postgres/PostGIS
+–
+CIFS/Windows SMB
+–
+By arrangement
+Map viewer
+Shared map viewers
+–
+5
+100
+3D mode
+Measuring tool
+Spatial query tool
+Contours generation Paid seats only
+–
+Data tables
+Satellite basemap
+–
+Custom basemaps
+–
+Add service: 3D Tiles
+–
+Coming
+Add service: Cloud Optimized Point Cloud (COPC)
+–
+Add service: WMTS single or multi-endpoint
+–
+Add service: PMTiles, MVT, tile.JSON
+–
+Coming
+Point cloud and LAZ visualisation
+–
+Data management
+Data Manager
+–
+Draft dataset releases
+–
+Raster and grid data: linear version control
+–
+Request access groups
+–
+Custom licences
+–
+Scheduled updates
+–
+10
+100
+Unlimited
+Custom categories and category tree
+–
+Reporting and oversight
+Export history report
+–
+Personal export history
+–
+Export data functions
+Crop all data to the map viewer extent
+Export entire layer Limited by export size
+Any EPSG CRS choice
+Crop layers
+Support
+Support channel
+Documentation only
+Helpdesk
+On monthly plans, overage is invoiced with the standard monthly invoice.
+On annual plans, overage is invoiced each month. The annual discount
+does not apply to overage.
+Branch

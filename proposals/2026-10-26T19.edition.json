@@ -1,0 +1,286 @@
+{
+ "type": "edition",
+ "run": "2026-10-26T19",
+ "week": "2026-W44",
+ "news": [
+  {
+   "id": "notion-credits",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "23 Oct",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "Notion’s Confusing Credit Model",
+   "url": "https://newsletter.pricingsaas.com/p/notion-s-confusing-credit-model",
+   "gist": "Notion has moved through four AI pricing setups: a paid add-on, AI folded into Business, Custom Agents sold on credits, and now two separate credit balances on every Business and Enterprise seat. One balance covers work where Notion chooses the model and the other covers work where the user picks the model, plus Custom Agents. Litterst argues this hands billing complexity to customers who aren’t billing engineers, and that one shared pool, or a separate balance only for Custom Agents, would be easier to follow. The issue’s weekly roundup also covers cuts at Dialpad Sell, a doubled Fal image-edit price and a ClickUp Core increase.",
+   "nums": [
+    ["1,500", "Standard credits per Business member a month (Notion picks the model)"],
+    ["500", "Select credits per Business member a month (user picks the model, plus Custom Agents)"],
+    ["$10 per 1,000", "price of credits when Custom Agents launched"],
+    ["$8", "original monthly price of the Notion AI add-on"],
+    ["-47%", "Dialpad Sell’s Premium cut, to $79 per user"]
+   ],
+   "why": "If your vendor splits AI usage into more than one wallet, ask which actions draw on each one and whether unused credits move between them. Otherwise you can’t tell what a seat really includes. HubSpot moving Starter email sends onto shared Credits this week raises the same question."
+  },
+  {
+   "id": "agentdeals-oct",
+   "src": "AgentDeals",
+   "by": null,
+   "date": "Oct 2026",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Report, October 2026",
+   "url": "https://agentdeals.dev/reports/2026-10",
+   "gist": "AgentDeals’ monthly tally of developer-tool pricing moves counts more changes for October than for September, and nearly all the ones with a direction made things worse for buyers. Most of the negative moves trim free allowances: smaller sign-up credits at Browser Use and Exa, tighter free rate limits at Groq, and no more monthly inference credits for free Hugging Face accounts. Paid bills also rise without list-price changes: Modal now meters egress, Fly.io raised its memory rate, and OVHcloud now bills storage and IPv4 as separate lines. Meta also resumed charging for WhatsApp service messages beyond a free monthly allowance.",
+   "nums": [
+    ["24", "pricing changes tracked in October"],
+    ["12", "of them negative for buyers, against 1 positive"],
+    ["$1", "Browser Use’s one-time sign-up credit, down from $15"],
+    ["$0.04", "Modal’s new charge per GiB of egress beyond the included allowance"],
+    ["1,000", "free WhatsApp service messages per business phone number a month"]
+   ],
+   "why": "The free tier you used for evaluation may not be there at renewal, and costs creep in through new line items rather than higher prices. Check egress, storage and per-message fees, not just the headline rate."
+  },
+  {
+   "id": "agentdeals-w43",
+   "src": "AgentDeals",
+   "by": null,
+   "date": "19–25 Oct",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Changes: October 19–25, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w43",
+   "gist": "AgentDeals’ weekly digest for our week is mostly about models being retired: OpenAI ended access to a long list of older models, Google shut down several Gemini previews, and Together AI dropped two models from serverless inference. The two packaging changes that matter most are at Socket.dev, whose Free plan now covers a single developer seat where it used to allow unlimited developers, and HiveMQ, which stopped new Serverless clusters and will retire that plan, free tier included, at year end. Mistral’s half-price launch discount on Mistral Large 4 also ended.",
+   "nums": [
+    ["9", "events in the week’s digest"],
+    ["6", "of them deprecations"],
+    ["1 dev seat", "Socket.dev’s Free plan, which earlier read “Unlimited developers & repos”"],
+    ["2026-12-31", "date HiveMQ retires its Serverless plan, including the free tier"]
+   ],
+   "why": "Retired models and closed free tiers force migrations, and the replacement is usually priced differently. Budget for the move as well as the new rate."
+  },
+  {
+   "id": "positioning-brain",
+   "src": "Growth Unhinged",
+   "by": "Melissa Kwan",
+   "date": "21 Oct",
+   "topic": "Positioning",
+   "rel": false,
+   "title": "How to build an AI brain for your positioning",
+   "url": "https://www.growthunhinged.com/p/ai-brain-for-your-positioning",
+   "gist": "A guest post on using an AI assistant loaded with customer quotes and competitor notes to rework a company’s messaging. It doesn’t discuss pricing."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Credits become the shared currency",
+   "p": "HubSpot no longer gives Starter its own email-send limit; sends now draw on the same Credits pool as other actions. Cust swapped price ranges for a fixed credit cost per AI action and started charging credits for Teammates chats. Both changes come from PricingSaaS reports, and they match Notion’s two-wallet setup in this week’s news: more of what a plan includes is being stated in credits rather than in features or caps.",
+   "ids": ["hubspot-2026w44", "cust-2026w44"]
+  },
+  {
+   "t": "Free plans move both ways",
+   "p": "HubSpot cut free marketing email sends from 2,000 to 300 a month, while Zoom raised free Basic’s in-meeting AI questions from 3 to 20 and Dropzone AI removed its investigations cap on the base plan. Vendors loosen limits where they want people to try AI features and tighten them where the free plan was giving away the core product.",
+   "ids": ["hubspot-2026w44", "zoom-2026w44", "dropzone-ai-2026w44"]
+  },
+  {
+   "t": "Smaller, more visible billing units",
+   "p": "Intercom now bills WhatsApp per message instead of per conversation, and Avalara replaced a contact-sales bundle table with public per-state prices. Baseten cut Reflection Beam’s per-token rates four days after launch. Each change makes the bill track a smaller unit, which is easier to compare but harder to forecast.",
+   "ids": ["intercom-2026w44", "avalara-2026w44", "baseten-2026w44"]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "A thin, partial week",
+   "fig": "9",
+   "figNote": "changes recorded for 19–25 Oct",
+   "p": "Our own captures only started on 24 Oct, so apart from Zoom and Intercom this week’s changes come from PricingSaaS reports. PricingSaaS also called it a quiet week. Treat the shares below as directional only.",
+   "ids": ["zoom-2026w44", "intercom-2026w44", "hubspot-2026w44", "baseten-2026w44"]
+  },
+  {
+   "t": "Packaging outweighs price",
+   "fig": "5 of 9",
+   "figNote": "changes reshaped plans rather than raising or cutting cost",
+   "p": "New tiers at Day and Avalara, fixed credit costs at Cust, a new WhatsApp billing unit at Intercom and Bolt’s feature swap on Pro all repackage the offer without a clear price direction. Most of these come from PricingSaaS reports, not our captures.",
+   "ids": ["day-2026w44", "avalara-2026w44", "cust-2026w44", "intercom-2026w44", "bolt-2026w44"]
+  },
+  {
+   "t": "More cuts than increases",
+   "fig": "3 vs 1",
+   "figNote": "changes that lower vs raise what buyers pay",
+   "p": "Baseten’s token-rate cut, Zoom’s larger free AI allowance and Dropzone AI’s uncapped investigations all favor buyers. The only increase was HubSpot’s free-plan email cut, which is a limit tightening, not a list-price rise. Apart from Zoom, all of these come from PricingSaaS reports.",
+   "ids": ["baseten-2026w44", "zoom-2026w44", "dropzone-ai-2026w44", "hubspot-2026w44"]
+  },
+  {
+   "t": "AI is in most changes",
+   "fig": "6 of 9",
+   "figNote": "changes touch AI features, models or usage",
+   "p": "Model prices (Baseten), AI features moving between plans (Bolt, Day), AI allowances (Zoom, Dropzone AI) and credits per AI action (Cust) make up most of the week. Among market leaders, only Zoom’s change involves AI; HubSpot and Intercom moved email and messaging limits.",
+   "ids": ["baseten-2026w44", "bolt-2026w44", "day-2026w44", "zoom-2026w44", "dropzone-ai-2026w44", "cust-2026w44"]
+  },
+  {
+   "t": "Leaders split three ways",
+   "fig": "3 of 9",
+   "figNote": "changes from market leaders, one each: up, down and packaging",
+   "p": "HubSpot tightened its free plan, Zoom loosened its free plan and Intercom changed a billing unit. There’s no common direction among the leaders this week; each one moved a different lever.",
+   "ids": ["hubspot-2026w44", "zoom-2026w44", "intercom-2026w44"]
+  },
+  {
+   "t": "Free plans are where the action is",
+   "fig": "2",
+   "figNote": "changes aimed at a free plan",
+   "p": "Both free-plan changes came from market leaders and went in opposite directions: HubSpot cut free email sends and Zoom raised free AI questions. All changes this week were B2B-only or sold to both businesses and consumers; none was consumer-only.",
+   "ids": ["hubspot-2026w44", "zoom-2026w44"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Credits spread, and get harder to read",
+   "p": "Notion now splits each seat’s AI usage into two credit balances, HubSpot moved Starter email sends onto shared Credits, and Cust gave each AI action a fixed credit price. Credits let vendors add new actions without new price lines, but buyers can’t easily translate them back into what they used to get.",
+   "nums": [
+    ["1,500", "Standard credits per Notion Business member a month"],
+    ["500", "Select credits per Notion Business member a month"]
+   ],
+   "news": ["notion-credits"],
+   "changes": ["hubspot-2026w44", "cust-2026w44", "atlassian-2026w42"]
+  },
+  {
+   "t": "Free tiers shrink at the edges",
+   "p": "Developer-tool vendors trimmed sign-up credits, free rate limits and free seats through October, and HubSpot cut its free email allowance this week. The counter-moves, such as Zoom’s and Neon’s, target trying out a specific feature rather than restoring a generous free plan.",
+   "nums": [
+    ["12", "negative changes in AgentDeals’ October report, against 1 positive"],
+    ["1 dev seat", "Socket.dev’s Free plan, down from unlimited developers"]
+   ],
+   "news": ["agentdeals-oct", "agentdeals-w43"],
+   "changes": ["hubspot-2026w44", "zoom-2026w44", "dropzone-ai-2026w44"]
+  },
+  {
+   "t": "Messaging moves to a per-message meter",
+   "p": "Meta resumed charging for WhatsApp service messages beyond a free monthly allowance, and Intercom’s FAQ now says WhatsApp is charged per message sent rather than per conversation. That Intercom is passing through Meta’s model is our inference; Intercom doesn’t say so.",
+   "nums": [
+    ["1,000", "free WhatsApp service messages per business phone number a month"]
+   ],
+   "news": ["agentdeals-oct"],
+   "changes": ["intercom-2026w44"]
+  },
+  {
+   "t": "Model churn is a hidden price change",
+   "p": "Most of the month’s neutral changes were model and product retirements at OpenAI, Google, NVIDIA and Together AI. Each one moves users to a replacement at a different rate, while providers such as Baseten reprice new models within days of launch.",
+   "nums": [
+    ["6", "deprecations among the 9 events in AgentDeals’ 19–25 Oct digest"]
+   ],
+   "news": ["agentdeals-w43", "agentdeals-oct"],
+   "changes": ["baseten-2026w44"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Thinkific",
+   "category": "Workforce Management",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.thinkific.com/pricing/"],
+   "domains": ["thinkific.com"],
+   "source_url": "https://pricingsaas.com/companies/thinkific/diffs/2026W44",
+   "why": "Dropped the $54/mo Basic plan, so the entry price is now $109/mo (Start); added a $499/mo Expand tier."
+  },
+  {
+   "name": "Pictory",
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "pricing_urls": ["https://pictory.ai/pricing"],
+   "domains": ["pictory.ai"],
+   "source_url": "https://pricingsaas.com/companies/pictory/diffs/2026W44",
+   "why": "Merged video minutes and AI credits into one credit metric; list prices held but base video minutes fell sharply (Starter 2,400 → 360 min/yr)."
+  },
+  {
+   "name": "Arcade",
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.arcade.software/pricing"],
+   "domains": ["arcade.software"],
+   "source_url": "https://pricingsaas.com/companies/arcade/diffs/2026W44",
+   "why": "Renamed Growth to Pro and replaced per-seat pricing with credit tiers from $49/mo (annual) for 1,000 credits; free credits went from 200 a month to 250 one-time."
+  },
+  {
+   "name": "Pulumi",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.pulumi.com/pricing/"],
+   "domains": ["pulumi.com"],
+   "source_url": "https://pricingsaas.com/companies/pulumi/diffs/2026W44",
+   "why": "Hid the Silver ($35,000/yr) and Gold ($50,000/yr) support plan prices behind Contact sales."
+  },
+  {
+   "name": "Coupa",
+   "category": "Business Operations",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["coupa.com", "supplier.coupa.com"],
+   "source_url": "https://pricingsaas.com/companies/coupa/diffs/2026W44",
+   "why": "Advanced plan’s AI invoice automation capped at 2,000 uploads, down from unlimited. The supplier pricing page returned 403 to us, so no URL is confirmed."
+  },
+  {
+   "name": "Akiflow",
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "pricing_urls": ["https://akiflow.com/pricing"],
+   "domains": ["akiflow.com"],
+   "source_url": "https://pricingsaas.com/companies/akiflow/diffs/2026W44",
+   "why": "Removed the Believer 2-year ($14.90/mo) and 5-year ($699) commitment options, leaving only standard Pro pricing."
+  },
+  {
+   "name": "Socket",
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "pricing_urls": ["https://socket.dev/pricing"],
+   "domains": ["socket.dev"],
+   "source_url": "https://agentdeals.dev/digest/2026-w43",
+   "why": "Free plan now covers 1 dev seat; the page read “Unlimited developers & repos” on 10 Oct."
+  },
+  {
+   "name": "HiveMQ",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.hivemq.com/pricing/"],
+   "domains": ["hivemq.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w43",
+   "why": "Stopped new Serverless clusters and retires the Serverless plan (Free and Pay As You Go) on 2026-12-31."
+  },
+  {
+   "name": "Fly.io",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": ["https://docs.fly.io/about/pricing"],
+   "domains": ["fly.io", "docs.fly.io"],
+   "source_url": "https://agentdeals.dev/reports/2026-10",
+   "why": "Raised Machines memory to $6.00 per GB a month from about $5 in October, lifting small-machine prices."
+  },
+  {
+   "name": "Groq",
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["groq.com"],
+   "source_url": "https://agentdeals.dev/reports/2026-10",
+   "why": "Cut free-tier limits on gpt-oss-safeguard-20b from 30 to 3 requests a minute without an announcement (October)."
+  },
+  {
+   "name": "Browser Use",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": ["https://browser-use.com/pricing"],
+   "domains": ["browser-use.com"],
+   "source_url": "https://agentdeals.dev/reports/2026-10",
+   "why": "One-time sign-up credit cut from $15 to $1 (by 4 Oct)."
+  },
+  {
+   "name": "Mockoon",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": ["https://mockoon.com/pricing/"],
+   "domains": ["mockoon.com"],
+   "source_url": "https://agentdeals.dev/reports/2026-10",
+   "why": "Replaced hosted Mockoon Cloud plans with self-hosted Mockoon Pro at €10 per license a month (minimum 5 licenses)."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 26, 2026
+T
+Together
+PACKAGING CHANGE
+Together drops four serverless inference models six days after adding NVIDIA B200
+Together removed four models from its serverless inference pricing page: Gemma 4 31B, DeepSeek V4 Flash 0731, Llama 3.3 70B and MiniMax M2.7.
+See before and after
+Enlarge
+Together’s pricing page · Change Detected Oct 26, 2026
+WHY IT MATTERS
+For buyers routing inference workloads, Together's growing churn means pinned model availability can't be assumed — endpoints disappear roughly as often as plans change, so contracts or pipelines referencing a model by name carry real deprecation risk. Watch whether the dropped capacity (Gemma 4 31B, DeepSeek V4 Flash 0731, Llama 3.3 70B, MiniMax M2.7) resurfaces as newer variants, and whether other inference providers start pruning older checkpoints at a similar clip rather than just adding to their catalogs.
+BY THE NUMBERS
+19 pricing/catalog changes in the last 90 days, about one every 8 days
+Sixth model-catalog removal since tracking began; previous was Sep 11, 2026 (LFM2.5-8B-A1B)
+Comes 6 days after Together added NVIDIA B200 post-training at $11/GPU/hr on Oct 20, 2026
+Feature removals are rare: just 3.7% of 2,028 tracked pricing changes in the last 180 days
+THEIR RATIONALE
+Together hasn't stated a rationale for dropping these four models, but the timing points to catalog churn rather than retrenchment: this sits inside a run of 19 pricing and catalog changes in the last 90 days — about one every 8 days — and follows closely on new serverless additions like the NVIDIA B200 post-training option, Reflection Beam and the Tev1 4B Experimental model. The likely read is routine pruning of older or lower-demand models to make room on the catalog, consistent with Together's recurring pattern of model removals, most recently on Sep 11, 2026 (LFM2.5-8B-A1B) and Jun 29, 2026 (GLM-5).
+TRACK RECORD·39 changes since Dec 29, 2025·39 in the last 12 months·a change every ~8 days·previous change Oct 20, 2026 (6 days ago)
+THE SIGNAL
+The sharper read: feature removals like this are uncommon across the index — only 76 of the 2,028 pricing changes tracked in the last 180 days (3.7%) involved dropping a feature or model, spread across 74 companies, with Beehiiv and Supermetrics the only ones to do it twice. For Together, this is already its sixth such removal, more than almost anyone else in the pattern, which fits a company iterating on its model catalog faster than the market resets prices — a sign that in the inference-pricing race, speed of catalog turnover is becoming as much a competitive lever as the per-token rate itself.
+FEATURE REMOVALS·74 companies in the last 6 months·3.7% of 2,028 tracked changes·6× on Together's page·Beehiiv most often (2)
+IN CONTEXT
+Together has pruned its serverless model catalog six times since tracking began, most recently removing LFM2.5-8B-A1B on Sep 11, 2026 and, before that, GLM-5 on Jun 29, 2026. This cut lands just six days after Together added NVIDIA B200 post-training at $11/GPU/hr, part of a cadence of roughly one pricing change every 8 days over the past year. Across the index, that kind of removal stays rare — Flatlogic and Krea made similar cuts in the past week, among just 76 removal-type changes out of 2,028 tracked in the last six months. For Together, dropping older models looks less like retrenchment and more like routine upkeep to keep the catalog current with its steady stream of new releases.
+Questions about this change?
+The Pulse Agent has this change, Together's pricing history and its peers loaded — and answers from verified data.
+Why it mattersTogether's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from TogetherAll pricing news
+R
+Replit
+Replit adds SCIM, audit logs to Enterprise, drops static outbound IPs
+X
+Xai
+Xai retires SuperGrok, rebuilds Grok pricing around Cursor and usage multiples
+f
+fal
+fal adds FLUX 3 Max video model at $0.085/sec

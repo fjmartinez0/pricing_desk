@@ -1,0 +1,45 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+PRICING BRIEFINGDaily · Oct 26, 2026
+V
+Vercel
+PACKAGING CHANGE
+Vercel slashes Firewall limits, adds metered Deployment Storage at $0.10/GB
+Vercel cut Web Application Firewall limits across tiers: Custom Firewall Rules on Enterprise fell from 1,000 to 250; IP Blocking rose on Hobby (3 to 10) but fell on Pro (100 to 40) and Enterprise (1,000 to 250); System Bypass Rules fell on Pro (25 to 10) and Enterprise (100 to 75).
+See before and after
+Enlarge
+Vercel’s pricing page · Change Detected Oct 26, 2026
+WHY IT MATTERS
+Deployment Storage adds another metered primitive alongside sandboxes, Connect and Drives — all monetized within the same year of near-weekly pricing edits — so buyers should expect the metered surface area to keep expanding. Enterprise teams evaluating Vercel's security tier should budget for continued downward pressure on included limits rather than treat this cut as a one-off. Watch whether the 'Beta' relabel on Daemons becomes a template — bill first, backfill the disclaimer after — on whatever primitive Vercel meters next.
+BY THE NUMBERS
+Enterprise Custom Firewall Rules and IP Blocking caps both cut from 1,000 to 250
+Vercel's 24 real pricing changes in the past 12 months average one every 11 days
+Lands just 6 days after Vercel Drives storage launched at $0.05/GB-month on Oct 20
+Its 8th change touching credits and usage billing since Pulse Index started tracking
+THEIR RATIONALE
+Vercel hasn't framed this as a correction, and the page carries no sale or promo language — it reads as a straightforward capacity cleanup released alongside a new revenue line. Trimming Enterprise's highest-value security caps the same day a metered Deployment Storage add-on goes live suggests Vercel is tightening included entitlements on one side of the ledger while opening a new metered one on the other, consistent with its steady cadence of granular, usage-based repricing — 24 real changes in the last 12 months, about one every 11 days.
+TRACK RECORD·24 changes since Dec 29, 2025·24 in the last 12 months·a change every ~11 days·previous change Oct 20, 2026 (6 days ago)
+THE SIGNAL
+The sharper story isn't the raw caps — it's the order of operations on Daemons. Vercel turned on $0.128/hr Active CPU billing for Daemons, then applied a Beta label afterward, the reverse of the usual beta-then-GA-then-billing sequence other vendors follow when a feature graduates. That inversion matters more on a security-adjacent line than a feature flag: Enterprise customers who sized workflows around a 1,000-rule firewall and IP-blocking ceiling now have a quarter of the headroom, with no transition window called out on the page. Beta tagging is also a narrow pattern across the tracked index — only 2% of changes in the last 180 days use it — so reaching for it on an already-billed feature reads less like a maturity signal and more like a hedge.
+BETA LABELS·29 companies in the last 6 months·2% of 2,028 tracked changes·5× on Vercel's page·HubSpot most often (5)
+CREDITS & USAGE BILLING·175 companies in the last 6 months·12.1% of 2,028 tracked changes·8× on Vercel's page·Lumaai most often (5)
+IN CONTEXT
+Vercel has touched pricing roughly every 11 days over the past year, and this is its eighth move into credits-and-usage billing — coming six days after Vercel Drives storage launched at $0.05/GB-month, itself close on the heels of Daemons picking up $0.128/hr Active CPU billing on Oct 16. That same Daemons feature is now relabeled 'Beta,' inverting the usual order where a feature ships in beta and graduates once billing starts. The cuts land hardest on Enterprise, where Custom Firewall Rules and IP Blocking caps both drop from 1,000 to 250, and System Bypass Rules falls from 100 to 75. Beta labeling itself is rare across the index — only 2% of tracked changes in the last 180 days touch it — but Vercel is already tied with Figma and Notion as the pattern's second-most-frequent user, behind only HubSpot.
+Questions about this change?
+The Pulse Agent has this change, Vercel's pricing history and its peers loaded — and answers from verified data.
+Why it mattersVercel's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+KEEP EXPLORING
+All changes from VercelAll pricing news
+B
+Bolt
+Bolt Pro adds the newest AI models and MCPs, drops AI image editing
+X
+Xai
+Xai retires SuperGrok, rebuilds Grok pricing around Cursor and usage multiples
+S
+Synthesia
+Synthesia cuts Syren promo credits in half on Basic, by a quarter on Starter and Pro
