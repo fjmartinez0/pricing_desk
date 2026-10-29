@@ -1,0 +1,83 @@
+{
+ "type": "changes",
+ "run": "2026-10-28T19",
+ "items": [
+  {
+   "diff_id": "aihr-2026-10-28T19",
+   "kind": "new_feature",
+   "why": "Course catalog list on the page was refreshed with new AI courses and “New” badges moved; no price or plan change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "datadog-2026-10-28T19",
+   "kind": "free_plan",
+   "why": "The Infrastructure Free card (up to 5 hosts, 1-day retention) was replaced by a Basic host level that can be mixed with Pro or Enterprise hosts, and the free tier is now described in the FAQ as what you move to after the trial.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Free → Basic",
+    "short": "The Infrastructure Free card (up to 5 hosts, 1-day metric retention) became a Basic host level, with the free tier now described as the option after the trial ends.",
+    "pattern": "Free plans as funnels",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2,
+    "plan": "Infrastructure",
+    "deltaSub": "entry level of Infrastructure",
+    "headline": "Datadog removed the Infrastructure Free card from its pricing page and introduced a Basic host level, while the FAQ says that after the free trial you can move to a Free tier with up to five Basic hosts.",
+    "rows": [
+     ["Entry level of Infrastructure", "Free, up to 5 hosts", "Basic hosts"],
+     ["Metric retention at entry level", "1-day metric retention", "1-day metric retention on the Free tier"],
+     ["Container monitoring at entry level", "Not listed", "Not supported"],
+     ["Mixing with paid hosts", "Not listed", "Basic hosts can be mixed with Pro or Enterprise"]
+    ],
+    "who": "Teams using or evaluating the free Infrastructure tier, and paid customers who can now place noncritical hosts on Basic coverage.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The free tier is no longer a headline plan card but a post-trial landing spot, which pushes evaluators through a trial and positions Basic as a cheaper add-on level for paid accounts.",
+    "caveat": "The page is inconsistent: the Basic card lists 15-month metric retention and a “Contact sales for pricing” line that may belong to the DevSecOps column, while the FAQ says the Free tier has 1-day retention. Basic pricing is not clearly shown.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "grammarly-2026-10-28T19",
+   "kind": "wording",
+   "why": "Pro button text changed from “Try for $0.00” to “Get started for free”; no price or plan change.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "buildkite-2026-10-28T19",
+   "kind": "feature_move",
+   "why": "Hosted-agent cache volumes and internal container registry now show as included where they were previously absent for one plan, while the Workflows line shrank from test state management and auto-quarantine to flaky identification and labelling.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Features shift",
+    "short": "Cache volumes and internal container registry added to more hosted-agent plans, while Workflows now covers flaky identification and labelling instead of test state management and auto-quarantine.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "element451-2026-10-28T19",
+   "kind": "noise",
+   "why": "Only the customer-count claim changed from 350+ to 400+ institutions; no pricing change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

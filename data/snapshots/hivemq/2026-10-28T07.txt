@@ -1,0 +1,348 @@
+=== https://www.hivemq.com/pricing/ ===
+Skip to content
+Pricing
+HiveMQ pricing
+Self-ManagedYou run HiveMQ on your own infrastructure.
+Fully-ManagedHiveMQ runs and operates the platform for you.
+Lab
+For learning, evaluation, and small-scale testing on your own infrastructure.
+Free
+1 broker deployment
+Get started free
+No credit card required
+Lab scale
+Brokers
+1
+Connections
+25
+Messages / sec*
+25
+Support
+Community
+License valid for 30 days. Renew manually at no charge to continue.
+Ready for production capacity? See Launch
+Launch
+Best for early-stage deployments and low-risk production workloads on a single broker.
+$299/month
+1 broker deployment
+Buy Launch
+Self serve promotional offer with credit card
+Production scale
+Brokers
+1
+Connections
+10,000
+Messages / sec*
+500
+Support
+Community
+Need multiple brokers or sites? See Enterprise
+Run
+Best for steady-state production workloads needing higher throughput on a single broker.
+$499/month
+1 broker deployment
+Buy Run
+Self serve promotional offer with credit card
+Higher throughput
+Brokers
+1
+Connections
+10,000
+Messages / sec*
+1,000
+Support
+Silver
+Need multiple brokers or sites? See Enterprise
+Enterprise
+Built for high-growth, large-scale industrial deployments.
+Custom
+Multi-broker / multi-site
+Request a quote
+See a demo, run a POC, get started
+Complete HiveMQ Platform
+Brokers
+Multi-site
+Connections
+Custom
+Messages / sec*
+Custom
+Support
+Silver to Platinum
+Connect
+Contextualize
+Analyze
+Act
+* Throughput is based on a normalized message size of 5 KB.
+Every self-managed plan, free tier included
+Connect
+Included in your plan
+Production-ready MQTT platform
+TLS encryption, authentication & authorization
+All Enterprise Extensions
+In-Stream Data Governance
+Contextualize
+Add on anytime · free usage to start
+Available with any self-managed deployment
+Analyze
+Add on anytime · free usage to start
+Available with any self-managed deployment
+Act
+Public preview
+Agentic AI for Operations
+Starter
+From $0.34/hour+ $0.80/million messages
+Start 15-day trial
+15 day trial
+Production-ready MQTT connectivity, fully managed.
+Connect
+Managed MQTT connectivity
+10,000 connections
+1 MB/sec
+Production-ready MQTT connectivity with clustering and HA
+TLS encryption, authentication, authorization and advanced RBAC
+Data Streaming Extensions
+99.95% Uptime SLA · Support: Silver
+Enterprise
+Priced by capacity
+connections + throughput
+Request quote
+See a demo, run a POC, get started
+Built for high-growth, large-scale customers.
+Complete HiveMQ Platform
+ConnectCustom connection and throughput limitsProduction-ready MQTT connectivity, security and enterprise integrations
+ContextualizeNamespace management, discovery, transformation and KPI calculationIn-Stream Data Governance
+AnalyzeData Health
+ActAgentic AI for Operations, Public Preview
+Up to 99.99% uptime · Support: Silver, Gold, or Platinum
+Act is in public preview and is not exclusive to Enterprise. Contextualize and Analyze are not available on Starter.
+Looking for a free way to get started? Explore Lab, our free self-hosted package.
+View self-managed plans
+Compare features
+Platform features
+Starter
+Enterprise
+Data streaming
+Yes
+Distributed data intelligence
+No
+Yes
+Agentic AI for Operations
+No
+Public Preview
+Key features
+Starter
+Enterprise
+Number of connections
+10,000
+Custom Scale
+Throughput
+Max 1 MB/sec
+Custom Throughput
+Cloud infrastructure
+Dedicated MQTT Broker
+On-premise deployment
+No
+Yes
+Uptime SLA
+99.95%
+99.99%
+Support
+Starter
+Enterprise
+Support type
+Silver
+Silver, Gold or Platinum
+Priority 1 reaction time
+8 hours
+Configurable
+Consulting & professional services
+No
+Available
+Compliance
+Starter
+Enterprise
+SOC 2
+Yes
+ISO/IEC 27001
+Yes
+PII protection
+Yes
+Integrations
+Starter
+Enterprise
+Kafka
+Yes
+Amazon Kinesis
+Yes
+Data lake
+No
+Yes
+Google Pub/Sub
+No
+Yes
+MongoDB
+No
+Yes
+MySQL
+No
+Yes
+PostgreSQL
+No
+Yes
+Data Hub
+No
+Yes
+Snowflake
+No
+Yes
+Distributed tracing
+No
+Yes
+Bridge
+No
+Yes
+Protocols
+Starter
+Enterprise
+MQTT 3.1 and 3.1.1
+Yes
+MQTT 5
+Yes
+MQTT over TLS/SSL
+Yes
+MQTT over WebSockets
+Yes
+IPv4
+Yes
+IPv6
+Yes
+MQTT addons
+No
+Yes
+Security
+Starter
+Enterprise
+Basic MQTT credentials
+Yes
+Role based
+Yes
+Topic permissions granularity
+Yes
+Full RBAC support
+Yes
+Client certificate authentication
+Yes
+OAuth/JWT MQTT AuthN
+Yes
+Multiple authentication methods
+No
+Yes
+LDAP / Active Directory support
+No
+Yes
+Audit log
+No
+Yes
+Platform
+Starter
+Enterprise
+Custom domain name
+Yes
+Multi-AZ
+No
+Yes
+Regional hosting options
+EU / US Hosting
+Custom
+Choose your cloud
+Yes
+Private link
+No
+Yes
+Observability
+Starter
+Enterprise
+Control Center
+Yes
+Drill down views
+Yes
+Client event history
+No
+Yes
+Advanced observability
+No
+Yes
+Broker REST API
+Yes
+Additional users
+Yes
+User/role management
+Yes
+Prometheus metrics end point
+No
+Yes
+Broker event log access
+No
+Yes
+Data intelligence
+Starter
+Enterprise
+Unified Namespace creation & governance
+No
+Yes
+In-stream transformation & enrichment
+No
+Yes
+Agent-based execution & validation
+No
+Yes
+Semantic layer & query orchestration
+No
+Yes
+Federated, model-driven architecture
+No
+Yes
+“
+A big reason we chose HiveMQ is that we can run HiveMQ everywhere: AWS, Google, Azure, really on any cloud or on-premise. We can run HiveMQ on top of OpenShift or Kubernetes. There is no vendor lock-in with HiveMQ and we aren’t forced to send our data to a single vendor’s platform. The ability to run HiveMQ on-premise or on customer-provided infrastructure is also an important requirement. HiveMQ gives us this freedom.
+Bernd Vogt
+Software Architect, ZF
+Contact HiveMQ
+FAQs
+Can I buy HiveMQ online without talking to sales?
+Yes. You can buy HiveMQ Launch and Run online with transparent monthly pricing and direct online checkout. For larger deployments or custom commercial terms, contact HiveMQ for an Enterprise quote.
+How do Launch and Run compare with Self Managed Enterprise?
+HiveMQ Launch and Run plans are fixed packages with monthly fixed pricing, designed for fast deployment and simplified purchasing, and are for a single broker deployment. HiveMQ Self Managed Enterprise plan is designed for larger or more complex deployments that need custom sizing, more flexibility, or additional support options.
+How is pricing calculated for Self Managed deployments?
+HiveMQ Launch and Run plans are packaged into fixed monthly tiers so you can get started without custom sizing. Enterprise pricing is based on capacity, primarily concurrent connections and message throughput.This gives smaller teams a simple self-service path, while larger deployments can be priced based on their specific requirements.
+How does HiveMQ pricing compare to other MQTT brokers and industrial data platforms?
+HiveMQ pricing is based on capacity, primarily connections and message throughput, rather than fixed infrastructure-only limits. This approach aligns cost with actual usage and helps teams scale deployments without redesigning their architecture as demand grows.
+How do I size my deployment or choose the right plan?
+Sizing depends on concurrent connections and message throughput. If you are unsure, you can start with Launch or Run or contact HiveMQ for a tailored recommendation. Launch is a good fit for earlier or lower-throughput production workloads, while Run is better suited for steadier production workloads that need higher throughput and customer support.
+Can I get predictable pricing as I scale?
+Yes. HiveMQ Launch and Run plans provide fixed monthly pricing. Enterprise pricing is based on capacity and can be structured with defined commercial terms as your deployment grows. This gives you a predictable starting point today, with a clear path forward if your requirements expand over time.
+What pricing model fits my use case?
+HiveMQ Launch and Run plans are a good fit when you want a simple and predictable path to production. Whereas Self Managed Enterprise plan is suited for larger deployments or environments that require more flexibility in scaling and support.
+Can HiveMQ self-managed pricing be customized?
+HiveMQ Self-Managed Enterprise pricing can be tailored based on capacity and commercial requirements. Please contact us to discuss an Enterprise option.
+Is HiveMQ self-managed pricing plans a good fit for high volume MQTT workloads?
+Yes. HiveMQ is designed to handle high throughput and large numbers of concurrent connections in production environments. Pricing scales based on capacity, which allows you to plan for high volume workloads without changing pricing models as you grow.
+FAQs
+Which HiveMQ Cloud plan should I choose?
+HiveMQ Starter plan is suited for testing and small scale production workloads. HiveMQ fully-managed Enterprise plan is designed for business critical systems that require scale, customization, and defined support levels. For a free self-hosted option, explore Lab.
+How does HiveMQ Cloud pricing compare to other MQTT solutions?
+HiveMQ Cloud fully-managed MQTT platform offers multiple pricing models depending on your stage. The HiveMQ Cloud Starter plan scales with usage. The HiveMQ Cloud fully-managed Enterprise plan supports capacity based pricing for larger workloads.
+How is pricing calculated in HiveMQ Cloud?
+Pricing depends on the plan. HiveMQ Cloud Starter uses a usage based model with runtime and message volume. HiveMQ Enterprise is priced based on capacity and requires a custom quote.
+How does pricing scale as my usage grows?
+Scaling depends on the plan. HiveMQ Starter plan scales with runtime and message volume. HiveMQ Cloud fully-managed Enterprise plan scales based on capacity and deployment requirements.
+Can I get predictable or fixed pricing in the HiveMQ Cloud?
+The HiveMQ Cloud Starter uses a usage-based pricing model. The HiveMQ Cloud Enterprise uses custom pricing, which is better suited when you need more predictable commercial structure at scale.
+Which HiveMQ Cloud plans include the Broker REST API?
+The Broker REST API is available with Starter and Cloud Enterprise.
+What support levels are available for HiveMQ fully-managed plans?
+Support varies by plan. HiveMQ Cloud Starter includes Silver support with a 99.95 percent uptime SLA. HiveMQ Cloud Enterprise includes Silver, Gold, or Platinum support with higher uptime SLAs.
+Can pricing be customized for HiveMQ Cloud Enterprise use?
+Yes. Enterprise plans can be tailored based on capacity, scale, and commercial requirements.
+Which MQTT Cloud pricing model works best for high throughput use cases?
+For high throughput workloads, pricing models that scale with capacity tend to be more predictable than purely usage based models. In HiveMQ Cloud, Enterprise plans are designed for these scenarios, where consistent performance and predictable scaling are required.
+The most trusted HiveMQ Platform

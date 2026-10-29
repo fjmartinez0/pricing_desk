@@ -39,7 +39,7 @@ TZ = ZoneInfo("America/Toronto")
 
 # Edition: a week runs Monday–Sunday. It can be closed once this long has
 # passed after the week ends (Monday 00:00), so Sunday changes are confirmed.
-EDITION_READY_AFTER = dt.timedelta(hours=18)
+EDITION_READY_AFTER = dt.timedelta(hours=42)   # Tue 19:00: PricingSaaS posts its weekly batch on Monday (D49)
 # Weeks before this one were built by hand from PricingSaaS; never auto-close them.
 FIRST_AUTO_EDITION = "2026-W44"
 CAPTURES_STARTED = dt.date(2026, 10, 24)   # first day of our own pricing-page captures

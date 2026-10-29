@@ -168,7 +168,7 @@ This is the PricingSaaS convention that existing data uses. A change belongs to 
 capture that still showed the old page.
 
 ### 3.5 Edition timing (code, `close_week.due_week`)
-The previous week is due once 18 hours have passed after it ends (Monday 19:00 run). It must be later
+The previous week is due once 42 hours have passed after it ends (Tuesday 19:00 run, D49). It must be later
 than `current_week` and not earlier than `FIRST_AUTO_EDITION` (`2026-W45`). The edition is retried every
 run until it's accepted.
 

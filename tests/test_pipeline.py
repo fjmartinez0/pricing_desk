@@ -34,16 +34,18 @@ class Weeks(unittest.TestCase):
             self.assertEqual(common.week_start(w["week"]), start)
             self.assertEqual(common.week_range_label(w["week"]), w["label"])
 
-    def test_edition_due_monday_evening_only(self):
+    def test_edition_due_tuesday_evening_only(self):
         tz = common.TZ
-        monday_am = dt.datetime(2026, 11, 2, 7, tzinfo=tz)
         monday_pm = dt.datetime(2026, 11, 2, 19, tzinfo=tz)
-        self.assertIsNone(close_week.due_week("2026-W44", monday_am))
-        self.assertEqual(close_week.due_week("2026-W44", monday_pm), "2026-W45")
-        self.assertIsNone(close_week.due_week("2026-W45", monday_pm))          # already published
-        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 7, tzinfo=tz)))   # too early
-        self.assertEqual(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 19, tzinfo=tz)), "2026-W44")  # first auto
-        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 19, 19, tzinfo=tz)))  # W43: before W44
+        tuesday_am = dt.datetime(2026, 11, 3, 7, tzinfo=tz)
+        tuesday_pm = dt.datetime(2026, 11, 3, 19, tzinfo=tz)
+        self.assertIsNone(close_week.due_week("2026-W44", monday_pm))          # PricingSaaS batch still arriving
+        self.assertIsNone(close_week.due_week("2026-W44", tuesday_am))
+        self.assertEqual(close_week.due_week("2026-W44", tuesday_pm), "2026-W45")
+        self.assertIsNone(close_week.due_week("2026-W45", tuesday_pm))         # already published
+        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 19, tzinfo=tz)))  # too early
+        self.assertEqual(close_week.due_week("2026-W42", dt.datetime(2026, 10, 27, 19, tzinfo=tz)), "2026-W44")  # first auto
+        self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 20, 19, tzinfo=tz)))  # W43: before W44
 
 
 class Text(unittest.TestCase):
@@ -141,6 +143,12 @@ class Merge(unittest.TestCase):
         c = self.added(r)
         self.assertNotIn("detail", c)
         self.assertEqual((c["id"], c["tier"], c["week"], c["src"]), ("intercom-2026w45", 1, "2026-W45", common.SRC_CAPTURE))  # watchlist → tier 1 (D16)
+
+    def test_reapplied_proposal_adds_nothing(self):
+        self.merge(self.card())
+        n = len(self.desk["changes"])
+        r = self.merge(self.card())                       # --recover on a run that was partly applied
+        self.assertEqual((r["added"], len(self.desk["changes"])), ([], n))
 
     def test_invented_number_downgrades_card_to_line(self):
         r = self.merge(self.card(rows=[["Essential seat", "$29", "$17"]]))
@@ -390,10 +398,40 @@ class Reports(unittest.TestCase):
         self.assertTrue(c["url"].startswith("https://pricingsaas.com/"))
         self.assertNotIn("detail", c)
         self.assertEqual(self.registry["companies"]["atlassian"]["ps_slugs"], ["atlassian.bitbucket"])
-        w = next(x for x in self.desk["weeks"] if x["week"] == "2026-W44")
-        self.assertEqual(w["coverage"], "partial")             # week created by a report gets a note
+        self.assertIn("2026-W44", self.desk["week_order"])
+        d = {"week_order": [], "weeks": []}                        # a week first created by a report, before
+        desk_mod.ensure_week(d, "2026-W30", reported=True)        # automatic editions, gets a coverage note
+        self.assertEqual(d["weeks"][0]["coverage"], "partial")
         import validate
         self.assertEqual(validate.validate_desk(self.desk), [])
+
+    def test_own_record_in_same_week_does_not_break_the_merge(self):
+        own = dict(next(c for c in self.desk["changes"] if not c.get("reported")))
+        own.update(id="atlassian-2026w44-own", company="atlassian", week="2026-W44")
+        own.pop("reported", None)                         # our own captures carry no "reported" key
+        self.desk["changes"].append(own)
+        r = self.merge(self.item())                       # crashed with TypeError before 29 Oct
+        self.assertEqual(len(r["added"]), 1)
+
+    def test_failed_merge_puts_backlog_and_reports_back(self):
+        saved = (ap.BACKLOG, ap.merge)
+        ap.BACKLOG = self.tmp / "backlog.json"
+        common.save_json(ap.BACKLOG, {"changes": [{"diff_id": "x"}]})
+        before = (ap.BACKLOG.read_bytes(), ap.REPORTS.read_bytes())
+
+        def broken(run, recovering=False):
+            common.save_json(ap.BACKLOG, {"changes": []})
+            common.save_json(ap.REPORTS, {"reports": []})
+            raise TypeError("boom")
+        ap.merge = broken
+        argv, sys.argv = sys.argv, ["apply_proposals.py", "--run", "2026-10-28T07"]
+        try:
+            with self.assertRaises(TypeError):
+                ap.main()
+            self.assertEqual((ap.BACKLOG.read_bytes(), ap.REPORTS.read_bytes()), before)
+        finally:
+            sys.argv = argv
+            ap.BACKLOG, ap.merge = saved
 
     def test_number_not_in_report_is_held_back(self):
         r = self.merge(self.item(record={"rows": [["Premium", "$7.25", "$9"]], "short": "Premium rises to $9."}))

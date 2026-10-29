@@ -1,0 +1,18 @@
+{"type": "changes", "run": "2026-10-28T07", "items": [
+{"diff_id": "anthropic-2026-10-28T07", "kind": "noise", "why": "Straight apostrophes replaced by curly ones in the docs text; no price or limit changed.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "applitools-2026-10-28T07", "kind": "noise", "why": "A Customer Success link was added to the footer navigation.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "bolster-2026-10-28T07", "kind": "limit_change", "why": "Enterprise user allowance changed from Unlimited users to 6+ users, and Premium from 3+ users to 5 users.", "detail": "line", "record": {"group": "up", "delta": "Unlimited → 6+ users", "short": "Enterprise users: Unlimited → 6+; Premium: 3+ users → 5 users.", "pattern": "Limits tighten", "seg": "B2B", "ai": false, "planLevel": "top", "reach": 1}, "promo": null},
+{"diff_id": "coderpad-2026-10-28T07", "kind": "noise", "why": "Top banner text for a webinar was swapped for a different webinar.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "cohere-2026-10-28T07", "kind": "noise", "why": "Featured blog post teaser rotated.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "expressvpn-2026-10-28T07", "kind": "wording", "why": "Teams promo block was reworded; the 5-license minimum is unchanged.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "flux-2026-10-28T07", "kind": "trial", "why": "Individual plan trial wording changed from 7 or 14 days to 7 days, plus navigation menu changes.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "framer-2026-10-28T07", "kind": "noise", "why": "Capitalisation change from MCP Server to MCP server.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "github-2026-10-28T07", "kind": "noise", "why": "Universe event banner text changed.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "moodle-2026-10-28T07", "kind": "noise", "why": "Euro, GBP, CAD and INR figures drifted by small amounts while AUD and USD prices stayed the same; currency rendering differences.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "supabase-2026-10-28T07", "kind": "noise", "why": "An AI tools label was added next to the Copy as Markdown links; no plan or price change.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "zapier-2026-10-28T07", "kind": "wording", "why": "Professional plan card gained a description and a key features list; price still starts at $19.99/month.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "vercel-2026-10-28T07", "kind": "noise", "why": "Straight apostrophe replaced by a curly one.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "heygen-2026-10-28T07", "kind": "feature_move", "why": "Proofreader seats for video translation line removed from the Enterprise feature list; other edits are button label text.", "detail": "line", "record": {"group": "up", "delta": "Feature removed", "short": "Enterprise no longer lists proofreader seats for video translation.", "pattern": "Unbundling", "seg": "Both", "ai": true, "planLevel": "enterprise", "reach": 1}, "promo": null},
+{"diff_id": "leadloft-2026-10-28T07", "kind": "noise", "why": "Trailing arrow removed from a trial button label.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "kinsta-2026-10-28T07", "kind": "noise", "why": "Rotating customer testimonials reordered and replaced.", "detail": "line", "record": null, "promo": null}
+]}

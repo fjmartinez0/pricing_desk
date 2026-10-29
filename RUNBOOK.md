@@ -9,7 +9,7 @@
 | Title | Meaning | What to do |
 |---|---|---|
 | `<Company> +20%` / `N market-leader price changes` | New changes from market leaders or watchlist companies | Tap to read |
-| `Edition 2026-Wnn published` | Monday 19:00 edition is live | Tap to read |
+| `Edition 2026-Wnn published` | Tuesday 19:00 edition is live (D49) | Tap to read |
 | `Pricing Desk: N problems` | Something needs attention; the list says which step | See below |
 | `Pricing Desk problem: Run … stopped at: …` | A step failed; nothing was published | Read the log; fix; `PD_LOG_TO_TERMINAL=1 bash scripts/run_daily.sh` |
 | `Pricing Desk: Mac mini silent` | No run in 36 hours (from GitHub) | Power, login, network; `launchctl print gui/$(id -u)/com.fmz.pricing_desk` |
@@ -50,3 +50,9 @@ Common problems:
 - **Preview the page:** `pdpy scripts/build_site.py --out preview.html && open preview.html`.
 - **Pause everything:** `launchctl bootout gui/$(id -u)/com.fmz.pricing_desk`; resume with `bash scripts/install_mac.sh`.
 - **Update the dashboard design:** edit `site/template.html` only; keep the single `__PD_DATA__` placeholder.
+
+## A run stopped at merge
+The merge leaves `data/backlog.json` and `data/reports.json` as they were, so the next run decides those items
+again. Once the cause is fixed, recover what the failed run had decided (its proposal files stay in `proposals/`):
+`pdpy scripts/apply_proposals.py --run 2026-10-28T07 --recover`, then `pdpy scripts/validate.py`, commit and push.
+Lines saying "unknown or already decided report_id" are expected: later runs decided those reports again.

@@ -253,12 +253,20 @@ def make_promo(item: dict, entry: dict, slug: str, desk: dict, allowed: set[str]
     return out
 
 
-def apply_changes(desk: dict, registry: dict, proposal: dict, inputs: dict, result: dict) -> None:
+def apply_changes(desk: dict, registry: dict, proposal: dict, inputs: dict, result: dict,
+                  recovering: bool = False) -> None:
     events = {e["diff_id"]: e for e in inputs.get("changes", [])}
     taken = {c["id"] for c in desk["changes"]}
+    applied = {(c.get("evidence") or {}).get("diff") for c in desk["changes"]}
+    promo_weeks = {(p.get("company"), p["week"]) for p in desk["promos"]}
     touched_weeks = set()
     for item in proposal.get("items", []):
         diff_id = item.get("diff_id")
+        if diff_id in applied:
+            continue                                  # already on the page (a re-applied proposal)
+        ev = events.get(diff_id) or {}
+        if recovering and item.get("kind") == PROMO_KIND and (ev.get("company"), ev.get("week")) in promo_weeks:
+            continue
         try:
             event = events.get(diff_id)
             if not event:
@@ -392,7 +400,7 @@ def record_report(desk: dict, registry: dict, r: dict, taken: set[str], result: 
     entry, week = registry["companies"][slug], r["week"]
     if any(c.get("company") == slug and c["week"] == week for c in desk["changes"]) and hand_built(desk, week):
         return "duplicate: the hand-built week already has this company"
-    if sum(c.get("company") == slug and c["week"] == week and c.get("reported") for c in desk["changes"]) \
+    if sum(1 for c in desk["changes"] if c.get("company") == slug and c["week"] == week and c.get("reported")) \
             >= REPORTS_PER_COMPANY_WEEK:
         return "dropped: too many reported records for this company and week"
     allowed = report_numbers(r)
@@ -634,8 +642,42 @@ def update_backlog(proposal, result: dict) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run", default=run_id())
+    ap.add_argument("--recover", action="store_true",
+                    help="re-apply only the changes and reports of an earlier run whose merge failed")
     args = ap.parse_args()
-    run = args.run
+    # backlog.json and reports.json are saved during the merge; desk.json only at the end. If the merge fails,
+    # put the first two back, so decided items are decided again next run instead of being lost.
+    before = {f: f.read_bytes() for f in (BACKLOG, REPORTS) if f.exists()}
+    try:
+        return merge(args.run, args.recover)
+    except BaseException:
+        for f, data in before.items():
+            f.write_bytes(data)
+        raise
+
+
+def recover(run: str) -> int:
+    """Changes and PricingSaaS decisions of an earlier run whose merge failed (proposal files kept on disk).
+    Changes already on the page and reports already decided are skipped; edition and registry are not re-applied."""
+    desk, registry = load_json(DESK), load_json(REGISTRY)
+    result = {"run": run, "added": [], "promos": [], "dropped": [], "rejected": [], "registry": [], "edition": None}
+    changes = load_proposal(run, "changes")
+    if changes is not None:
+        apply_changes(desk, registry, changes, load_json(PROPOSALS / f"{run}.input.json", {}), result, recovering=True)
+    reports = load_proposal(run, "reports")
+    if reports is not None:
+        handed = {r["report_id"] for r in load_json(PROPOSALS / f"{run}.reports_input.json", {}).get("reports", [])}
+        apply_reports(desk, registry, reports, result, handed)
+    save_json(DESK, desk)
+    save_json(REGISTRY, registry)
+    log(f"recover {run}: +{len(result['added'])} changes, +{len(result['promos'])} promos, "
+        f"{len(result['dropped'])} dropped, {len(result['rejected'])} rejected")
+    return 0
+
+
+def merge(run: str, recovering: bool = False) -> int:
+    if recovering:
+        return recover(run)
     desk, registry = load_json(DESK), load_json(REGISTRY)
     result = {"run": run, "added": [], "promos": [], "dropped": [], "rejected": [], "registry": [], "edition": None}
 
