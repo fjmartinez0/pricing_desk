@@ -2839,7 +2839,8 @@
     "review 2026-W44"
    ],
    "articles": [
-    "https://pricingsaas.com/news/article/synthesia-cuts-syren-promo-credits-in-half-on-basic-by-a-quarter-on-starter-and-pro"
+    "https://pricingsaas.com/news/article/synthesia-cuts-syren-promo-credits-in-half-on-basic-by-a-quarter-on-starter-and-pro",
+    "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro"
    ],
    "fetched_at": "2026-10-24T15:49:23-04:00",
    "file": "data/pricingsaas/pages/diffs/synthesia__2026D295.txt",
@@ -3009,7 +3010,8 @@
    "first_seen": "2026-10-24T15",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet"
+    "https://pricingsaas.com/news/article/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet",
+    "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1"
    ],
    "fetched_at": "2026-10-24T15:49:23-04:00",
    "file": "data/pricingsaas/pages/diffs/baseten__2026D295.txt",
@@ -3025,7 +3027,8 @@
    ],
    "articles": [
     "https://pricingsaas.com/news/article/baseten-lists-base-labs-elephant-1-and-mammoth-1-with-no-prices-yet",
-    "https://pricingsaas.com/news/article/baseten-cuts-reflection-beam-rates-up-to-72-four-days-after-launch"
+    "https://pricingsaas.com/news/article/baseten-cuts-reflection-beam-rates-up-to-72-four-days-after-launch",
+    "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1"
    ],
    "fetched_at": "2026-10-24T15:49:23-04:00",
    "file": "data/pricingsaas/pages/diffs/baseten__2026D294.txt",
@@ -20908,7 +20911,10 @@
    "fetched_at": "2026-10-26T19:10:54-04:00",
    "file": "data/pricingsaas/pages/diffs/arcade__2026W44.txt",
    "title": "Arcade: Growth renamed Pro, per-seat pricing swapped for credit tiers — Oct 26, 2026 · PricingSaaS Pulse",
-   "report_id": "arcade:2026-W44"
+   "report_id": "arcade:2026-W44",
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro"
+   ]
   },
   "https://pricingsaas.com/companies/articulate/diffs/2026W44": {
    "type": "diff",
@@ -21278,7 +21284,10 @@
    "fetched_at": "2026-10-26T19:10:54-04:00",
    "file": "data/pricingsaas/pages/diffs/synthesia__2026W44.txt",
    "title": "Synthesia Pricing: Free plan, from $14/mo | PricingSaaS",
-   "report_id": "synthesia:2026-W44#2"
+   "report_id": "synthesia:2026-W44#2",
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro"
+   ]
   },
   "https://pricingsaas.com/companies/together/diffs/2026D299": {
    "type": "diff",
@@ -22371,7 +22380,8 @@
    "first_seen": "2026-10-27T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/mindsdb-adds-kimi-k3-1-pro-and-relists-deepseek-v4-1-flash-at-its-post-hike-price"
+    "https://pricingsaas.com/news/article/mindsdb-adds-kimi-k3-1-pro-and-relists-deepseek-v4-1-flash-at-its-post-hike-price",
+    "https://pricingsaas.com/news/article/mindsdb-adds-gpt-6-1-terra-to-its-rate-card-at-1-input-5-output-per-million-tokens"
    ],
    "fetched_at": "2026-10-27T07:10:43-04:00",
    "file": "data/pricingsaas/pages/diffs/mindsdb__2026D300.txt",
@@ -23213,7 +23223,10 @@
    "fetched_at": "2026-10-27T19:10:39-04:00",
    "file": "data/pricingsaas/pages/diffs/scite__2026W44.txt",
    "title": "scite Pro adds team seats at $40 each, with Enterprise as next step — Oct 26, 2026 · PricingSaaS Pulse",
-   "report_id": "scite:2026-W44"
+   "report_id": "scite:2026-W44",
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro"
+   ]
   },
   "https://pricingsaas.com/companies/salesforce.marketing-cloud.account-engagement/diffs/2026W44": {
    "type": "diff",
@@ -24400,6 +24413,181 @@
    "file": "data/pricingsaas/pages/diffs/balena__2026W44.txt",
    "title": "Balena adds $49/user custom fleet roles across all paid plans — Oct 26, 2026 · PricingSaaS Pulse",
    "report_id": "balena:2026-W44"
+  },
+  "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro.txt",
+   "title": "Synthesia drops the Roleplay add-on, folds Syren video allowances into Starter and Pro",
+   "published": "2026-10-29T10:01:01.363931+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D302",
+    "https://pricingsaas.com/companies/synthesia/diffs/2026W44",
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D295",
+    "https://pricingsaas.com/companies/arcade/diffs/2026W44",
+    "https://pricingsaas.com/companies/scite/diffs/2026W44"
+   ]
+  },
+  "https://pricingsaas.com/news/article/github-bundles-copilot-and-agent-governance-into-enterprise-adds-three-security-add-on-cards": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/github-bundles-copilot-and-agent-governance-into-enterprise-adds-three-security-add-on-cards.txt",
+   "title": "GitHub bundles Copilot and Agent governance into Enterprise, adds three security add-on cards",
+   "published": "2026-10-29T08:58:48.053427+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/github/diffs/2026D302"
+   ]
+  },
+  "https://pricingsaas.com/news/article/postman-pulls-sdk-generation-from-the-team-plan-leaving-it-to-enterprise": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/postman-pulls-sdk-generation-from-the-team-plan-leaving-it-to-enterprise.txt",
+   "title": "Postman pulls SDK generation from the Team plan, leaving it to Enterprise",
+   "published": "2026-10-29T07:17:16.072809+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/postman/diffs/2026D302"
+   ]
+  },
+  "https://pricingsaas.com/news/article/figma-opens-specs-beta-to-all-seats-14-days-after-launching-it-on-paid-seats-only": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/figma-opens-specs-beta-to-all-seats-14-days-after-launching-it-on-paid-seats-only.txt",
+   "title": "Figma opens Specs beta to all seats, 14 days after launching it on paid seats only",
+   "published": "2026-10-29T07:09:30.461296+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/figma/diffs/2026D302"
+   ]
+  },
+  "https://pricingsaas.com/news/article/mindsdb-adds-gpt-6-1-terra-to-its-rate-card-at-1-input-5-output-per-million-tokens": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/mindsdb-adds-gpt-6-1-terra-to-its-rate-card-at-1-input-5-output-per-million-tokens.txt",
+   "title": "MindsDB adds GPT-6.1 Terra to its rate card at $1 input, $5 output per million tokens",
+   "published": "2026-10-29T07:06:31.008051+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D302",
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D300"
+   ]
+  },
+  "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/articles/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1.txt",
+   "title": "Baseten reveals $0.035 and $0.10 input prices for elephant-1 and mammoth-1",
+   "published": "2026-10-29T06:27:41.578707+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D302",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D295",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D294"
+   ]
+  },
+  "https://pricingsaas.com/companies/synthesia/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-drops-the-roleplay-add-on-folds-syren-video-allowances-into-starter-and-pro"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/synthesia__2026D302.txt",
+   "title": "Synthesia drops Roleplay add-on for new 'Syren' video allowance tiers — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "synthesia:2026-W45"
+  },
+  "https://pricingsaas.com/companies/github/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/github-bundles-copilot-and-agent-governance-into-enterprise-adds-three-security-add-on-cards"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/github__2026D302.txt",
+   "title": "GitHub supercharges Enterprise with bundled Copilot, Agent governance, and ne... — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "github:2026-W45"
+  },
+  "https://pricingsaas.com/companies/postman/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/postman-pulls-sdk-generation-from-the-team-plan-leaving-it-to-enterprise"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/postman__2026D302.txt",
+   "title": "Postman cuts SDK generation from Team plan, leaving it to Enterprise — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "postman:2026-W45"
+  },
+  "https://pricingsaas.com/companies/figma/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/figma-opens-specs-beta-to-all-seats-14-days-after-launching-it-on-paid-seats-only"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/figma__2026D302.txt",
+   "title": "Figma opens Specs beta to all seats, no longer limited to paid seats — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "figma:2026-W45"
+  },
+  "https://pricingsaas.com/companies/mindsdb/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mindsdb-adds-gpt-6-1-terra-to-its-rate-card-at-1-input-5-output-per-million-tokens"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/mindsdb__2026D302.txt",
+   "title": "MindsDB adds GPT-6.1 Terra pricing at $1 input, $5 output per 1M tokens — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "mindsdb:2026-W45#2"
+  },
+  "https://pricingsaas.com/companies/baseten/diffs/2026D302": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-29T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1"
+   ],
+   "fetched_at": "2026-10-29T07:14:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/baseten__2026D302.txt",
+   "title": "Baseten: Input pricing revealed for elephant-1 ($0.035) & mammoth-1 ($0.10) — Oct 29, 2026 · PricingSaaS Pulse",
+   "report_id": "baseten:2026-W45"
   }
  }
 }

@@ -1,0 +1,158 @@
+=== https://airbyte.com/pricing ===
+Airbyte Pricing
+Pricing plans that scale with you
+Start free for 14 days with 400 credits, about 100 GB of syncs. No credit card.
+Standard
+Best for your first few pipelines.
+Starts at
+$20
+/month
+5 credits included, about 1 GB of syncs.
+Start 14-day trial
+No credit card required
+Fully managed cloud hosting
+Syncs as often as every hour
+Pay only for the data you sync
+Standard support
+Plus, best value
+Best value after 10 GB
+Best for teams that need SSO and 15-minute syncs.
+Starts at
+$189
+/month
+Credit package
+40 credits · $189/mo
+100 credits · $449/mo
+250 credits · $999/mo
+500 credits · $1,799/mo
+1,000 credits · $3,199/mo
+2,000 credits · $4,999/mo
+Start 14-day trial
+No credit card required
+Everything in Standard
+SSO
+Syncs as often as every 15 minutes
+24h support SLA
+Up to 2 workspaces
+Pro
+Best for production volume and a flat annual price.
+Starts at
+Custom
+Get a capacity quote
+No credit card required
+Capacity pricing that stays flat when volume spikes
+SSO and role-based access
+Syncs as often as every 5 minutes
+Premium support, 12-hour critical response
+Dedicated Solutions Architect
+Enterprise Flex
+Best for data that can't leave your environment.
+Starts at
+Custom
+Your VPC, on-prem, or multi-region.
+Get a deployment quote
+No credit card required
+Everything in Pro
+Hybrid deployment
+Data stays inside your own boundary
+On-prem, multi-cloud, and multi-region
+Premium support, 12-hour critical response
+Dedicated Solutions Architect
+Compare all features
+Airbyte Core is free to self-host. The plans above include hosting, upgrades, and support.
+Try Airbyte Core
+You shouldn't pay more just because your data volume spikes
+For large organizations with higher data volumes, Airbyte provides enterprise plans that price on compute capacity. Scale your pipelines without scaling your bill.
+A better pricing model
+The Pro and Enterprise Flex plans use capacity-based pricing built on Data Workers, the dedicated compute units that power your pipelines.
+You scale by adding capacity, not by worrying about volume spikes. Costs stay predictable as your workloads grow.
+A note on volume-based pricing
+For smaller teams with predictable data volumes, pay-per-use still makes sense. That's what Standard and Plus are for.
+Pick the model that fits: fixed capacity on Pro and Enterprise Flex, or volume-based on Standard and Plus.
+plans & features
+Compare our plans
+Show features for
+Standard
+Plus
+Pro
+Enterprise Flex
+Standard
+Start 14-day trial
+Plus
+Start 14-day trial
+Pro
+Get a capacity quote
+Enterprise Flex
+Get a deployment quote
+Data Ingestion
+Connector Availability
+700+
+Change Data Capture (CDC)
+Schema Propagation
+Column Selection
+Custom mappings
+Field renaming only
+Max Sync Frequency
+1 hr
+15 min
+5 min
+Cron Scheduling
+Connector Builder
+Enterprise Connectors
+Add-on
+Extensible Access
+Airbyte API
+Terraform Provider
+PyAirbyte
+Integration with Airflow, Dagster, Prefect
+Data Governance
+In-Boundary Deployment
+Single Sign-On (SSO)
+Audit Logging
+Multitenancy (Multiple Users)
+Multiple Workspaces
+2
+Role-Based Access Control
+Field Hashing & Encryption
+Row Filtering
+Monitoring Integrations
+External Secret References
+Multiple Data Regions
+AWS PrivateLink
+Add on
+User groups & SCIM
+OpenTelemetry metrics
+Support & Reliability
+Community support (ask the Slack/Github communities)
+Portal support
+Support hours
+7am-7pm EST
+24/5
+First response SLA
+24 hours
+12hr (critical) / 24hr (general)
+Enterprise support (add-on)
+6hr (critical) / 12hr (general)
+FAQs
+Didn't find your answer? Please don't hesitate to reach out.
+What are credits?
+Airbyte credits are used to pay for Airbyte resources when you run a sync. Credits are used to unify pricing across multiple types of sources. Credit metering differs across source types, and for more details on this, please consult our documentation.
+When should I use Plus, and when should I use Standard?
+If you are consuming 40+ credits a month, Plus will typically be more affordable than Standard. It also comes with 15-min syncs, SSO, field renaming, and a 24 hr support SLA. If you value pay-as-you-go flexibility above all, Standard is the best play.
+What plans does Airbyte offer, and how do they differ?
+Airbyte offers Standard, Plus, Pro, and Enterprise Flex. Standard is fully managed volume-based cloud. Plus includes everything in Standard, plus SSO, field renaming, 15-minute syncs, 2 workspaces, and a 24-hour support SLA, billed through credit packages. Pro features capacity based pricing and enterprise features such as RBAC and multiple workspaces. Enterprise Flex adds in-boundary and hybrid deployment. Click here to scroll up to the comparison matrix.
+What is capacity-based pricing (Data Workers)?
+Airbyte’s Pro and Enterprise Flex plans are priced by Data Workers, a unit of capacity that powers your pipelines. There are multiple variables that we use to determine the cost of a Data Worker.
+Each Data Worker can run multiple syncs concurrently; typically ~3 at once.
+This model gives you predictable spend, guaranteed performance, and no charges based on data volume.
+How is capacity-based pricing different from usage or volume-based?
+Usage or volume-based pricing bills you by rows, GBs, or events. Costs grow as data grows and we know that not all data is equally valuable.
+Airbyte uses capacity-based pricing, so you can control spend up-front, avoid surprise bills and can scale only when needed, so your data can grow without inflating your bill.
+What is the Pro plan?
+Pro includes everything in Plus, with capacity-based pricing, premium support, and enhanced platform features like RBAC, row filtering, hashing & encryption, and support for multiple data regions. It’s built for production workloads that require reliability, control, and guaranteed performance.
+What is Enterprise Flex?
+Enterprise Flex is for enterprises that need sovereign data movement inside their own boundary, with deployment options including on-premises and multi-region, plus a hybrid model with an Airbyte managed control plane. It includes all Airbyte Pro features, including premium support.
+What do you recommend for a small team of 3-4 developers?
+We typically recommend starting with Standard (fully managed, volume-based) if you want zero infrastructure overhead and pay-as-you-go billing. If your monthly usage is 40+ credits, you should consider Plus as it is more cost effective. Plus also comes with SSO, 15-minute syncs, field renaming, or credit packages. You can always move to Pro or Enterprise Flex as you scale and your needs change.
+Can Airbyte provide a tailored quote?
+Yes. Just work with our team and we'll be happy to provide a tailored quote based on your needs. Click here to talk to sales

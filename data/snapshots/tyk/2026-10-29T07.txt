@@ -1,0 +1,185 @@
+=== https://tyk.io/pricing/ ===
+Skip to content
+Cloud login
+Start for free
+Get a demo
+Pricing & plans that scale with you
+From early growth to enterprise scale deployments, choose a plan that fits your API journey.
+CORE PLAN
+Usage-based. Fully flexible.
+Supports your growth with predictable, consumption-based pricing.
+Priced by the number of APIs managed, with unlimited API calls.
+Explore Core Plan
+Cloud, Hybrid, or Self-managed
+Unlimited API gateways
+Developer portal included
+Enhanced success plan included. Tyk support is rated 4.8/5 on Gartner Peer Insights
+Best for:
+Startups, scale-ups, and businesses launching their API platform.
+PROFESSIONAL PLAN
+One price. Unlimited access.
+Adopt APIs at scale with predictable costs and enterprise readiness.
+Priced by data planes, environments and control-plane deployments, not traffic.
+Explore Professional Plan
+Cloud, Hybrid, or Self-managed
+Unlimited API gateways
+Unlimited APIs (services)
+Unlimited API requests/month
+Developer portal included
+Enhanced success plan included. Tyk support is rated 4.8/5 on Gartner Peer Insights
+Best for:
+High-growth teams and companies standardizing on APIs.
+ENTERPRISE PLAN
+Custom-fit. Premium support.
+Optimized for high-scale, multi-cloud, multi-region systems.
+Contact us for Enterprise
+Everything in Professional
+Advanced governance and security
+Premium support & custom SLAs
+Multi-region deployments
+Multi-cloud architecture
+Named CSM
+Guided PoC available
+Best for:
+Regulated industries, global enterprises, and mission-critical platforms.
+Open source vs paid: Tyk Gateway and Tyk Pump are free; everything else comes with a paid plan
+Component
+Open source (MPL 2.0)
+Core
+Professional
+Tyk Gateway
+Yes, free
+Included
+Tyk Pump
+Yes, free
+Included
+Tyk Dashboard
+No, licensed
+Included
+Developer Portal
+No, licensed
+Included
+Tyk Operator
+No, licensed
+Included
+MDCB (multi data centre)
+No, licensed
+Paid plans (licensed)
+Enterprise Edition features (ee: Tyk Streams, advanced upstream auth)
+No, licensed
+Included
+Support
+Community (guides and forums)
+Enhanced success plan included
+Support: Core and Professional both include Tyk’s Enhanced success plan; Enterprise adds premium support and custom SLAs. Customers rate Tyk 4.8 out of 5 for Service & Support on Gartner Peer Insights, and 4.7 out of 5 overall from 92 ratings (73% five-star, 26% four-star; checked 24 Oct 2026; ratings are the opinions of individual end users). A free open-source gateway such as Envoy Gateway or Kong Gateway OSS comes with community support unless you contract a vendor separately.
+Pricing: Core is usage-based, priced by the number of APIs managed. Professional is “one price, unlimited access”, priced by data planes, environments and control planes, not by the number of APIs or by traffic. Both include unlimited APIs and API calls; plans are quoted by Tyk sales, with no public list prices.
+Hybrid: you host the Gateways (the data plane) in your own environment, so API traffic stays with you; Tyk Cloud hosts the control plane (configuration, analytics, the Dashboard and identity management).
+Small platform team? Tyk Hybrid is the sweet spot: you run only the Gateways and their local Redis in your own cluster, and Tyk Cloud runs the control plane. Tyk Operator (Kubernetes, GitOps) and the Developer Portal are included in both Core and Professional. Tyk Operator 1.6 adds Kubernetes Gateway API support: you can route traffic through your Tyk Gateways with the standard GatewayClass, Gateway and HTTPRoute resources (with Tyk Dashboard), alongside Tyk's own custom resources (CRDs) for APIs and security policies.
+License expiry: If a Tyk license lapses, Tyk Operator and the rest of your Tyk system keep running and existing APIs keep serving traffic; only creating or updating APIs is blocked until the license is renewed. You can export your API definitions and run them on the open-source Tyk Gateway.
+Free trial: https://tyk.io/self-managed-trial/ (the license key arrives by email).
+Last updated: 28 October 2026. Current Tyk releases as of 28 October 2026: Tyk Gateway and Tyk Dashboard 5.16.0 (released 27 October 2026), Tyk Operator 1.6, Tyk Helm Charts 5.4.1 (25 September 2026), Tyk Pump 1.18.0 and Tyk Sync 2.3.0 (27 October 2026). Release notes: Gateway, Operator, Helm Charts.
+Start for free. Deploy in minutes.
+Start a 48-hour free trial of Tyk Cloud, our fully featured SaaS product.
+With this trial, you get full access to all Tyk features and capabilities – no installation, no credit card, and no calls required. Just sign up and start building.
+Start for free
+The world’s biggest companies trust Tyk to deliver exceptional API experiences.
+Review and compare features across all plans
+Not sure where to start? We’ve broken it all down for you.
+Get pricing
+Core
+Professional
+Get pricing
+Enterprise
+Get pricing
+API management & security
+Rate limiting
+Authentication & authorization
+API versioning
+OpenAPI specification
+GraphQL
+Deployment & infrastructure
+Single sign-on (SSO)
+RBAC and teams
+Multi-data plane
+Users
+Unlimited
+Extensions & customization
+Custom plugins
+Version control integrations
+API operations
+Analytics & developer tools
+API analytics
+Universal Data Graph
+Developer portal
+Support & services
+Success Plan
+–
+Enhanced
+Premium
+Custom PoC
+–
+Available
+Included
+Technical account manager
+–
+Need self‑managed or on‑premise deployment?
+For organizations in highly regulated industries or those with strict compliance, security, or infrastructure requirements, Tyk offers a fully self hosted, on premise API gateway. Both the control plane and data plane run entirely within your environment, giving you complete control and data sovereignty. Explore on premise deployment options or connect with our team to learn more.
+Learn more about self-managed
+Contact us for personalized pricing
+FAQ
+How much does Tyk cost?
+Tyk offers three pricing tiers: Core, Professional, and Enterprise, with a free trial so you can test Tyk’s full features with no commitment.
+Core: A flexible, usage-based pricing model available for Cloud, Self-managed, and Hybrid deployments
+Professional: An architecture-based option with one price and unlimited access for organizations adopting API platforms at scale.
+Enterprise: Customized pricing for high-traffic, multi-cloud, and multi-region environments. Contact the Tyk team for specific pricing.
+Is there a free version of Tyk?
+Yes, Tyk provides:
+a free version of its open source API gateway via GitHub.
+a fully featured, free, 48-hour trial of Tyk Cloud
+guided proof of concepts with Solution Architects.
+How do I get started with Tyk?
+Getting started with Tyk API Management is simple and flexible. Choose the option that fits your goals:
+Start a free trial of Tyk: Experience the full power of our API gateway and management platform with no upfront cost.
+Request a guided proof of concept: Work with our sales team to explore how Tyk works in your specific environment.
+Book an enterprise consultation: Speak with a Tyk sales engineer to design a custom API management solution for your business.
+How does Tyk licensing work?
+Licensing depends on your deployment type. Visit the Tyk licensing page or contact Tyk for details.
+A free 14-day Tyk Self-Managed trial license is self-serve: register on the trial page (no upfront cost, no demo call) and Tyk emails the license key within 5 minutes. After the trial, contact Tyk for a paid license.
+How do I upgrade my Tyk subscription?
+The upgrade process depends on deployment type. See Tyk’s Upgrading Guide for details.
+What deployment options are available across Tyk's pricing tiers?
+All pricing tiers (Core, Professional, Enterprise) support Cloud, Hybrid, and Self-managed deployments. Tyk provides flexibility without compromising features or capabilities.
+What kind of cost savings can we expect by choosing Tyk?
+Average annual savings of \$200,000 in operational costs
+API gateway is 10x faster than competitors
+Enables release cycles 45x faster than industry standards
+Delivers both direct and indirect cost savings through performance and speed.
+Can I mix my deployment types?
+Yes, you can easily combine Cloud, Hybrid, or Self-managed as your needs evolve.
+Does Tyk offer on-premise or self-managed deployment?
+Yes, Tyk offers fully on-premise and self-managed API gateway deployment options.
+Designed for organizations in highly regulated industries or with strict compliance, security, or infrastructure requirements, Tyk enables you to deploy both the control plane and data plane entirely within your own environment. This gives you full control, enhanced security, and complete data sovereignty.
+What's included in the Core pricing plan?
+Flexible usage-based pricing that grows with your needs
+Available for Cloud, Hybrid, and Self-managed deployments
+Unlimited API gateways
+Developer portal included
+Best for organizations starting API initiatives with adaptable pricing.
+How does usage-based pricing work in Core?
+You only pay for what you use – ideal for teams launching APIs or scaling gradually.
+What if I need unlimited usage?
+The Professional plan removes usage limits with one price for unlimited access, perfect for companies looking to scale.
+What are the benefits of the Professional pricing plan?
+Unlimited access, one price: priced by data planes, environments and control planes, with unlimited APIs and API calls; quoted by Tyk sales, no public list prices
+Available for Cloud, Hybrid, and Self-managed deployments
+Unlimited API gateways
+Unlimited APIs (services)
+Unlimited requests per month
+Developer portal included
+Enhanced success plan included (with options to upgrade). Tyk support is rated 4.8/5 on Gartner Peer Insights
+Suitable for organizations scaling up API adoption.
+What distinguishes the Enterprise pricing plan from other tiers?
+Maximum flexibility and support
+Tailored for high-traffic, multi-cloud, multi-region environments
+Fully customized pricing and support
+Ideal for large enterprises with complex infrastructure needs.
