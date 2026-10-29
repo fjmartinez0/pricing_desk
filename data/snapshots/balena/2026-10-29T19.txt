@@ -1,0 +1,201 @@
+=== https://www.balena.io/pricing ===
+LoginSign Up
+PRICING
+Your first ten devices are
+always free
+Sign up for free
+Monthly Billing
+Yearly Billing
+Free
+$0/month
+Sign up
+10 devices
+x86-64 secure boot
+Community forum support
+Prototype
+$159/month
+Sign up
+Recommended for 10-49 devices
+1 User included
+Standard support
+Response time: best effort
+30 Devices included
+$3 / additional device / month
+Custom fleet roles
+Pilot
+$329/month
+Sign up
+Recommended for 50-999 devices
+3 Users included
+Priority support
+Response time: best effort
+60 Devices included
+$2 / additional device / month
+Custom fleet roles
+Credits available for volume discounts
+ARM64 secure boot
+Production
+$1,439/month
+Sign up
+Recommended for
+1k to 1M devices
+5 Users included
+Dedicated support
+Response time:
+60 minutes
+Custom fleet roles
+110 Devices included
+$2 / additional device / month
+Credits available for volume discounts
+Extended Support Release (ESR)
+Free
+$0/year
+Sign up
+10 devices
+x86-64 secure boot
+Community forum support
+Prototype
+$1,720/year
+You save $188
+Sign up
+Recommended for 10-49 devices
+1 User included
+Standard support
+Response time: best effort
+30 Devices included
+$36 / additional device / year
+Pilot
+$3,588/year
+You save $360
+Sign up
+Recommended for 50-999 devices
+3 Users included
+Priority support
+Response time: best effort
+60 Devices included
+$24 / additional device / year
+Credits available for volume discounts
+ARM64 secure boot
+Production
+$15,588/year
+You save $1,680
+Sign up
+Recommended for
+1k to 1M devices
+5 Users included
+Dedicated support
+Response time:
+60 minutes
+110 Devices included
+$24 / additional device / month
+Credits available for volume discounts
+Extended Support Release (ESR)
+Need something a little bit extra? Didn't see what you need above? Contact us.
+ADDITONAL ITEMS
+Need more?
+Additional Devices
+Paying dynamically for usage
+Pilot, Production, and Enterprise plans: $2 / device / month
+Prototype plan: $3 / device / month
+Paying with credits for volume discounts
+More information on how credits work
+Additional Users
+Observer: Read-only access to fleets and their devices.
+$0 / unlimited
+Operator: Full access to devices, e.g SSH, add/delete and app environment variables.
+$ 29 / user / month
+Developer: Operators access plus access to the app code, updates, releases, images and app application environment variables.
+$ 49 / user / month
+Custom: Custom roles with granular permissions for your fleets.
+$ 49 / user / month
+Admin: Full access to manage the organisation including members, fleets and devices.
+$ 49 / user / month
+Need a bespoke deployment of balenaCloud?
+balenaCloud Dedicated Instance provides customers with a fully managed, single-tenant environment tailored to meet unique requirements around data privacy, compliance, and scalability. Ideal for large IoT deployments, regulated industries, or scenarios demanding precise control. Let's discuss your specific needs and craft a deployment plan together.
+Contact Sales
+Custom Device Support
+Have you already deployed devices and would like to use balena? Or perhaps balena does not yet support your board?
+
+Brownfield migration
+Already have a fleet of devices deployed in the field?
+No worries - we can help you remotely migrate your devices to the balenaCloud platform.
+Contact us to learn more about our brownfield migration tools and services.
+Contact Us
+
+Support for custom devices
+If your device isn’t listed on our supported devices page, don’t worry—we are able to bring balenaOS compatibility to a wide range of Linux devices. Here’s how it works:
+‍
+1. You share your hardware specs and any vendor documentation you have.
+2. We pair you with an Integration Partner who evaluates the scope and provides a quote.
+3. You ship us your hardware, and the Partner develops a production-grade, balenaOS image.
+4. Balena handles ongoing testing, upgrades, and maintenance so your device stays secure, functional, and up-to-date.
+Interested in bringing your hardware to balenaCloud? Reach out and we’ll walk you through the process and pricing.
+Contact Us
+Don’t see a plan that works for you?
+Let's discuss your use case and craft a plan together.
+Contact Sales
+Faq
+Free Plan
+Can I try balena for free?
+Yes! Your personal balena account is free for your first 10 devices.
+What type of device is included in the free plan?
+The Free plan includes 10 microservices devices. You can have a maximum of 10 total devices shared across all the fleets you create. To learn more, please see balena.io/docs/learn/manage/fleet-types.
+I have ten devices on the free plan. Can I pay to add more devices without upgrading?
+To add more devices, you’ll need to upgrade to a paid plan. Prototype plans include 30 devices. Pilot plans include 60 devices and Production plans include 110 devices. You can add devices as your fleet grows, although credit-based discounts are only available for Pilot plans and higher.
+Are physical devices included in the plans?
+When we talk about included devices we are referring to the logical device instances that are managed by balenaCloud. Physical devices are not included with any of the subscriptions and must be acquired by you.
+Faq
+Devices
+How do I add more devices to my plan?
+If you're already on a paid plan and need to add more devices, you can simply provision them to your account, and we will automatically bill you for additional devices after subtracting any available Credits. Read more about Credits in the documentation.
+Can I add more devices to my Prototype plan?
+Yes, though additional devices on the Prototype plan are priced higher than additional devices on Pilot and Production plans, as the Prototype plan is meant to be a "starter" plan for the early stages of your project. At a certain point it will make economic sense for you to upgrade to a Pilot plan than to continue paying for additional devices on the Prototype plan.
+What happens if I go over the number of devices included in my paid plan?
+If you go over the number of devices included in your plan, we will automatically bill you for those additional devices or use any available credits, according to the additional per-device price assigned to your plan. See balena.io/pricing/#devices for more details.
+What about offline devices - do I have to pay for those too?
+Any devices registered to a balena account, whether online or offline, count as a device in your plan. As always, we understand that each use case is unique, so please let us know if you think your use case is an exception.
+Do you offer prepayment discounts on per-device pricing?
+Yes! To enable customers to drive down their device usage costs, balena has enabled a system known as credits. A credit is a pre-purchased unit that corresponds to the usage of one device exceeding plan allowance for one month. Any available credits would be used before a dynamic charge is initiated at the end of your monthly billing cycle. To see credit pricing at different volumes, check out the Credit Discount Calculator above. Credits expire 10 years after the date of purchase. If there is no activity for 2 years we may at our discretion cancel any outstanding credits and will provide 60 days notice to the customer of our intention to do so. Credit purchases are non-refundable and cannot be refunded due to project or plan cancellation. Credits are also non-transferrable between organizations. Read more about credits in the documentation
+I plan to passively manage my devices and don’t need all the per-device features. Do you offer a lightweight plan with lower per-device pricing?
+We recognize that “not all devices are created equal,” and for customers who may have a large volume of devices with relatively lightweight needs, we are happy to explore custom options. Please contact us at sales@balena.io to learn more.
+What happens when I deactivate a device?
+The device won't be counted towards your device total. We’ll charge a one-time deactivation fee, equivalent to the cost of a single undiscounted device-month (e.g. $2.00 for a microservices device on the Pilot or Production plan) and it will remain inactive until it comes back online.
+I already have brownfield devices deployed in the field. Can I still use balena?
+Yes! We've built tools to migrate brownfield devices from their existing stack to balena, and can adapt them to your specific use case. Contact sales@balena.io to learn more about options for brownfield migrations.
+Why do I need to pay recurring device support fees?
+Recurring fees cover the cost of regular updates and testing for your custom device type, to ensure your device can be updated to the latest version of Balena OS and is able to take advantage of all the future product improvements. The recurring costs also cover your device being part of our device tree, so we can take your device into consideration when planning new features and product improvements.
+Faq
+Team members
+How do I add more team members to my plan?
+If you're already on a paid plan and need to add more team members you can simply invite them to your account, and we will automatically bill you for additional members. Note that you need to be on an Pilot plan or above to add additional team members.
+Can I add more team members to my Free plan?
+Free plans include unlimited team members.
+If you need to upgrade to a Prototype, Pilot or Production plan, they include 1, 3 and 5 members, respectively, and the ability to add more as your team grows.
+Does a fleet owner count towards the team member count?
+Yes, the number of team members counted towards your plan member count also includes the owner of the fleet. So, for example, if you create a fleet as the Owner and invite two Developers to your new fleet, you'll have a total of three members.
+Faq
+Payment
+How will I be billed?
+By default, you will be billed via registered credit card at the beginning of a billing period according to the plan you have in place at that time. You will receive an invoice via email and can view past invoices on the billing interface in the dashboard.
+Do you offer discounts for annual prepayments?
+Yes! To enable customers to drive down their device usage costs, balena has enabled a system known as credits. A credit is a pre-purchased unit that corresponds to the usage of one device exceeding plan allowance for one month. Any available credits would be used before a dynamic charge is initiated at the end of your monthly billing cycle. To see credit pricing at different volumes, check out the Credit Discount Calculator above. Credits expire 10 years after the date of purchase. If there is no activity for 2 years we may at our discretion cancel any outstanding credits and will provide 60 days notice to the customer of our intention to do so. Credit purchases are non-refundable and cannot be refunded due to project or plan cancellation. Credits are also non-transferrable between organizations. Read more about credits in the documentation
+What if I downgrade my plan?
+You can request a downgrade at any time and the downgrade will take effect at the start of the next billing cycle. We request that you unregister any devices or team members required to comply with the limits on the new downgraded plan. For customers who are otherwise in good standing, we will not forcibly remove or in any way restrict the devices on your account without first sending multiple notification attempts.
+Do any of the plans require an annual commitment?
+Yes, Production and Enterprise plans typically require an annual commitment, but can be billed monthly or annually.
+Do you offer discounts for nonprofit and educational projects?
+Yes! Please contact us at sales@balena.io to learn more.
+Faq
+Support
+Do all team members in a plan with standard support have access to private support?
+For all non-observer roles, yes! And we’re working on adding tools for team members within the same organization to access all of their organization’s support interactions in one place.
+What response time do you guarantee with a service level agreement (SLA)?
+For SLA-level support, our guaranteed response times are as low as 60 minutes for high severity tickets. Please contact us at sales@balena.io to learn more.
+Create and manage massive fleets of small devices
+Loading ...
+Company
+TeamJobsContact
+Policies
+Terms of servicePrivacy StatementMaster AgreementSecurity
+Subscribe to our newsletter
+Copyright 2026 Balena | All Rights Reserved.
