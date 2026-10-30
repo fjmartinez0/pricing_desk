@@ -34,6 +34,8 @@ h1{font-family:var(--f-display);font-weight:700;font-size:clamp(28px,7vw,40px);l
 h2{font-family:var(--f-display);font-weight:600;font-size:20px;line-height:1.2;margin:0;text-wrap:balance}
 .proto{display:inline-flex;align-self:flex-start;margin-top:6px;font-size:12px;color:var(--muted);background:var(--wash);border:1px solid var(--line);padding:3px 10px;border-radius:99px}
 .proto.stale{color:var(--warn);background:var(--warn-soft);border-color:transparent}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.proto.fill{color:var(--accent);background:var(--accent-soft);border-color:transparent}
 
 .digest{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
 .stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
@@ -268,13 +270,18 @@ tr:last-child td{border-bottom:0}
 footer{margin-top:28px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
 footer a{color:var(--muted)}
 @media (max-width:440px){.delta{font-size:21px}}
+/* Wide screens: use the width. Cards go two per row; running text keeps its 65ch measure. */
+@media (min-width:1000px){
+  .wrap{max-width:1180px}
+  .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+}
 </style>
 
 <div class="wrap">
   <header>
     <span class="eyebrow" id="masthead-date">Weekly edition</span>
     <h1>SaaS Pricing Desk</h1>
-    <span class="proto" id="updated">Updated –</span>
+    <div class="pills"><span class="proto" id="updated">Updated –</span><span class="proto fill" id="backfill" hidden></span></div>
   </header>
 
   <section class="digest" aria-label="This edition">
@@ -512,7 +519,7 @@ function renderNews(){
   document.getElementById("hidden-count").textContent=only?`(${hidden} off-topic hidden)`:"";
   document.getElementById("news-list").innerHTML=items.map(n=>n.rel?`
    <article class="card${n.lead?" lead":""}" id="n-${n.id}">
-     <div class="meta">${n.lead?'<span class="tag">LEAD</span>':""}<span class="src">${esc(n.src)}</span><span>${esc(n.by)}</span><span>${esc(n.date)}</span><span class="tag">${esc(n.topic)}</span></div>
+     <div class="meta">${n.lead?'<span class="tag">LEAD</span>':""}<span class="src">${esc(n.src)}</span>${n.by?`<span>${esc(n.by)}</span>`:""}<span>${esc(n.date)}</span><span class="tag">${esc(n.topic)}</span></div>
      <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
      <div class="block"><span class="lbl">The gist</span><p>${esc(n.gist)}</p></div>
      <div class="block"><span class="lbl">Key numbers</span><ul class="nums">${n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul></div>
@@ -539,9 +546,23 @@ function renderUpdated(){
   el.title="Last automatic check of every tracked pricing page";
   if(hours>36){el.classList.add("stale");el.textContent+=` · no update for ${hours<48?Math.floor(hours)+" hours":Math.floor(hours/24)+" days"}`}
 }
+// Backfill progress (injected by build_site.py from data/reports.json and the PricingSaaS feed lists).
+const BF=DATA.backfill||{pending:{},listed:{}};
+const pendingIn=w=>(BF.pending||{})[w]||0;
+function weekNums(ws){const n=ws.map(w=>+wkNum(w)).sort((a,b)=>a-b);
+  if(n.length>2&&n[n.length-1]-n[0]===n.length-1)return n[0]+"–"+n[n.length-1];
+  return n.length>1?n.slice(0,-1).join(", ")+" and "+n[n.length-1]:String(n[0])}
+function renderBackfill(){
+  const el=document.getElementById("backfill"),ws=Object.keys(BF.pending||{}).filter(pendingIn);
+  if(!ws.length){el.hidden=true;return}
+  const n=ws.reduce((a,w)=>a+pendingIn(w),0);
+  el.hidden=false;
+  el.textContent=`Still filling week${ws.length>1?"s":""} ${weekNums(ws)} · ${n.toLocaleString("en-US")} PricingSaaS reports to check`;
+  el.title="Older weeks are completed from PricingSaaS's full list of changes, a batch every run (twice a day). Pick a week under Period to see it.";
+}
 function renderEditionStatic(){
   const d=new Date(DATA.edition_date+"T12:00:00");
-  renderUpdated();
+  renderUpdated();renderBackfill();
   document.getElementById("masthead-date").textContent="Weekly edition · "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"}).replace(",","");
   document.getElementById("d-stories").textContent=NEWS.filter(n=>n.rel).length;
   document.getElementById("d-changes").textContent=CHANGES.length;
@@ -668,15 +689,25 @@ function weekList(){
 }
 // One coverage box per view: hand-built (PricingSaaS) weeks say so, partial weeks say so, tracked weeks show their note if any.
 function weekNoteHTML(){
-  if(state.week===CUR)return "";
   const hand=w=>(w.source_week||"").startsWith("PricingSaaS week");
+  const filling=ws=>{const p=ws.filter(pendingIn);if(!p.length)return "";
+    const n=p.reduce((a,w)=>a+pendingIn(w),0);
+    return ` <b>Still filling.</b> ${n.toLocaleString("en-US")} PricingSaaS ${n===1?"report":"reports"} for week${p.length>1?"s":""} ${weekNums(p)} ${n===1?"is":"are"} waiting to be checked; a batch is checked every run, twice a day, so counts here will grow.`};
+  if(state.week===CUR)return filling([CUR]).trim();
   if(!multiWeek()){
     const w=DATA.weeks.find(x=>x.week===state.week);if(!w)return "";
-    const parts=[];if(hand(w))parts.push("Rebuilt by hand from the PricingSaaS feed, not from our own captures.");if(w.note)parts.push(w.note);
-    const rep=DATA.changes.filter(c=>c.week===w.week&&c.reported).length;
-    if(rep&&hand(w))parts.push(`${rep} ${rep===1?"change was":"changes were"} added later from PricingSaaS’s daily briefings and weekly review.`);
-    if(!parts.length)return "";
-    return `<b>${w.coverage==="partial"?"Partial week":hand(w)?"Backfill":"Coverage"}.</b> ${esc(parts.join(" "))}`;
+    const listed=(BF.listed||{})[w.week],parts=[];
+    if(hand(w)&&listed){
+      parts.push(`Started by hand from PricingSaaS’s free views, then completed from its full list of ${listed} changes for this week. Each one is checked against PricingSaaS’s own before/after page, and only real price, plan, limit and promotion changes are kept.`);
+    }else{
+      if(hand(w))parts.push("Rebuilt by hand from the PricingSaaS feed, not from our own captures.");
+      if(w.note)parts.push(w.note);
+      const rep=DATA.changes.filter(c=>c.week===w.week&&c.reported).length;
+      if(rep&&hand(w))parts.push(`${rep} ${rep===1?"change was":"changes were"} added later from PricingSaaS reports.`);
+    }
+    const fill=filling([w.week]);
+    if(!parts.length)return fill.trim();
+    return `<b>${w.coverage==="partial"?"Partial week":hand(w)?"Backfill":"Coverage"}.</b> ${esc(parts.join(" "))}${fill}`;
   }
   const scope=DATA.weeks.filter(w=>inScope(w.week)),hw=scope.filter(hand),pw=scope.filter(w=>w.coverage==="partial");
   const nums=ws=>{const n=ws.map(w=>+wkNum(w.week)).sort((a,b)=>a-b);
@@ -685,6 +716,7 @@ function weekNoteHTML(){
   const out=[];
   if(hw.length)out.push(`<b>Backfill.</b> Week${hw.length>1?"s":""} ${nums(hw)} ${hw.length>1?"were":"was"} rebuilt by hand from the PricingSaaS feed${hw.length<scope.length?"; later weeks come from our own captures":""}.`);
   if(pw.length)out.push(`<b>Partial ${pw.length===1?"week":"weeks"}:</b> week${pw.length>1?"s":""} ${nums(pw)} ${pw.length===1?"was":"were"} only partly captured, so counts for ${pw.length===1?"it":"them"} are low.`);
+  const fill=filling(scope.map(w=>w.week));if(fill)out.push(fill.trim());
   return out.join(" ");
 }
 function renderGroups(){

@@ -522,6 +522,7 @@ class Site(unittest.TestCase):
         self.assertNotIn("__PD_DATA__", html)
         self.assertIn('"current_week":', html)
         self.assertIn('"updated_at":', html)              # "Updated …" line comes from data/meta.json
+        self.assertIn('"backfill":{"pending":', html)     # "Still filling …" comes from reports.json
 
 
 if __name__ == "__main__":
