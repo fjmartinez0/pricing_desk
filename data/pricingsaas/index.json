@@ -21756,7 +21756,10 @@
    "fetched_at": "2026-10-27T07:10:43-04:00",
    "file": "data/pricingsaas/pages/diffs/locationiq__2026W44.txt",
    "title": "LocationIQ doubles free plan access tokens from 1 to 2 — Oct 26, 2026 · PricingSaaS Pulse",
-   "report_id": "locationiq:2026-W44"
+   "report_id": "locationiq:2026-W44",
+   "articles": [
+    "https://pricingsaas.com/news/article/canva-hides-free-plan-s-ai-quota-behind-vague-wording"
+   ]
   },
   "https://pricingsaas.com/companies/finix/diffs/2026W44": {
    "type": "diff",
@@ -21908,7 +21911,8 @@
    "title": "Leonardo.ai gives Free users Auto-only models while paid plans get 80+ — Oct 26, 2026 · PricingSaaS Pulse",
    "report_id": "leonardo:2026-W44",
    "articles": [
-    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales"
+    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales",
+    "https://pricingsaas.com/news/article/canva-hides-free-plan-s-ai-quota-behind-vague-wording"
    ]
   },
   "https://pricingsaas.com/companies/jobber.teams/diffs/2026W44": {
@@ -22019,7 +22023,8 @@
    "title": "Highlight cuts Pro to $35, replaces Lite with a Free plan and raises credit limits — Oct 26, 2026 · PricingSaaS Pulse",
    "report_id": "highlightai:2026-W44",
    "articles": [
-    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales"
+    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales",
+    "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan"
    ]
   },
   "https://pricingsaas.com/companies/heymarket/diffs/2026W44": {
@@ -24316,7 +24321,8 @@
    "first_seen": "2026-10-28T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales"
+    "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales",
+    "https://pricingsaas.com/news/article/canva-hides-free-plan-s-ai-quota-behind-vague-wording"
    ],
    "fetched_at": "2026-10-28T07:12:38-04:00",
    "file": "data/pricingsaas/pages/diffs/datadog__2026D301.txt",
@@ -24600,7 +24606,8 @@
    "first_seen": "2026-10-29T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1"
+    "https://pricingsaas.com/news/article/baseten-reveals-0-035-and-0-10-input-prices-for-elephant-1-and-mammoth-1",
+    "https://pricingsaas.com/news/article/baseten-adds-base-labs-joey-1-model-to-model-api-rate-table-at-0-01-input"
    ],
    "fetched_at": "2026-10-29T07:14:25-04:00",
    "file": "data/pricingsaas/pages/diffs/baseten__2026D302.txt",
@@ -24630,6 +24637,165 @@
    "file": "data/pricingsaas/pages/diffs/tray__2026W44.txt",
    "title": "Tray.ai lists a $50-a-month entry price with no per-user or connection fees — Oct 26, 2026 · PricingSaaS Pulse",
    "report_id": "tray:2026-W44"
+  },
+  "https://pricingsaas.com/news/article/gitlab-launches-orbit-add-on-a-context-graph-sold-as-query-packs": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/articles/gitlab-launches-orbit-add-on-a-context-graph-sold-as-query-packs.txt",
+   "title": "GitLab launches Orbit add-on, a context graph sold as query packs",
+   "published": "2026-10-30T07:12:22.673883+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/gitlab/diffs/2026D303"
+   ]
+  },
+  "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/articles/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan.txt",
+   "title": "OpenAI adds up to $500 a month in API credits to its Pro plan",
+   "published": "2026-10-30T07:04:01.79799+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/openai/diffs/2026D303",
+    "https://pricingsaas.com/companies/openai/diffs/2026D299",
+    "https://pricingsaas.com/companies/highlightai/diffs/2026W44"
+   ]
+  },
+  "https://pricingsaas.com/news/article/baseten-adds-base-labs-joey-1-model-to-model-api-rate-table-at-0-01-input": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/articles/baseten-adds-base-labs-joey-1-model-to-model-api-rate-table-at-0-01-input.txt",
+   "title": "Baseten adds Base Labs joey-1 model to Model API rate table at $0.01 input",
+   "published": "2026-10-30T07:02:52.449995+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D303",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D302"
+   ]
+  },
+  "https://pricingsaas.com/news/article/granola-adds-voice-typing-to-basic-business-and-enterprise-plans": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/articles/granola-adds-voice-typing-to-basic-business-and-enterprise-plans.txt",
+   "title": "Granola adds voice typing to Basic, Business and Enterprise plans",
+   "published": "2026-10-30T06:59:54.145005+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/granola/diffs/2026D303"
+   ]
+  },
+  "https://pricingsaas.com/news/article/canva-hides-free-plan-s-ai-quota-behind-vague-wording": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/articles/canva-hides-free-plan-s-ai-quota-behind-vague-wording.txt",
+   "title": "Canva drops the \"up to 20\" AI uses figure from its Free plan",
+   "published": "2026-10-30T06:29:22.151842+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/canva/diffs/2026D303",
+    "https://pricingsaas.com/companies/datadog/diffs/2026D301",
+    "https://pricingsaas.com/companies/leonardo/diffs/2026W44",
+    "https://pricingsaas.com/companies/locationiq/diffs/2026W44"
+   ]
+  },
+  "https://pricingsaas.com/companies/gitlab/diffs/2026D303": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/gitlab-launches-orbit-add-on-a-context-graph-sold-as-query-packs"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/gitlab__2026D303.txt",
+   "title": "GitLab launches Orbit add-on, a context graph sold as query packs — Oct 30, 2026 · PricingSaaS Pulse",
+   "report_id": "gitlab:2026-W45"
+  },
+  "https://pricingsaas.com/companies/openai/diffs/2026D303": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/openai__2026D303.txt",
+   "title": "OpenAI: Pro plan adds up to $500/month in API credits — Oct 30, 2026 · PricingSaaS Pulse",
+   "report_id": "openai:2026-W45"
+  },
+  "https://pricingsaas.com/companies/openai/diffs/2026D299": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/openai__2026D299.txt",
+   "title": "OpenAI rewrites Free, Go, Plus and Pro taglines in \"Best for\" format — Oct 26, 2026 · PricingSaaS Pulse",
+   "report_id": "openai:2026-W44"
+  },
+  "https://pricingsaas.com/companies/baseten/diffs/2026D303": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/baseten-adds-base-labs-joey-1-model-to-model-api-rate-table-at-0-01-input"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/baseten__2026D303.txt",
+   "title": "Baseten adds Base Labs joey-1 model to Model API rate table at $0.01 input — Oct 30, 2026 · PricingSaaS Pulse",
+   "report_id": "baseten:2026-W45#2"
+  },
+  "https://pricingsaas.com/companies/granola/diffs/2026D303": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/granola-adds-voice-typing-to-basic-business-and-enterprise-plans"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/granola__2026D303.txt",
+   "title": "Granola AI adds voice typing to Basic, Business and Enterprise plans — Oct 30, 2026 · PricingSaaS Pulse",
+   "report_id": "granola:2026-W45"
+  },
+  "https://pricingsaas.com/companies/canva/diffs/2026D303": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-30T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/canva-hides-free-plan-s-ai-quota-behind-vague-wording"
+   ],
+   "fetched_at": "2026-10-30T07:17:25-04:00",
+   "file": "data/pricingsaas/pages/diffs/canva__2026D303.txt",
+   "title": "Canva hides free plan's AI quota, swapping 20 uses for vague limited access — Oct 30, 2026 · PricingSaaS Pulse",
+   "report_id": "canva:2026-W45"
   }
  }
 }

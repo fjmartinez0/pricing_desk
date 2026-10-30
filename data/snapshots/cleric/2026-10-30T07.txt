@@ -1,0 +1,156 @@
+=== https://www.cleric.ai/pricing ===
+Book a demo
+Start free trial
+Start free trial Book a demo
+Resources
+Company
+Pricing
+Prevent incidents without watching the meter
+$1 to verify a production change, $5 to triage and address an alert.
+Start free trial
+1,000 evaluation credits after approval · No time limit
+Monthly
+Annual
+Team
+$700 / month
+1,400 credits / month
+Catch regressions after changes
+Investigate production issues
+Use Cleric in Slack, Microsoft Teams, or the web app
+All integrations, including MCP
+Operational memory and investigation history
+Custom agents and alert routing
+Email support
+Set up a free trial
+Recommended
+Pro
+$1,500 / month
+3,000 credits / month
+Everything in Team
+Scheduled agents and monitors
+Connect private resources through the Cleric Connector
+Okta and custom SAML/OIDC
+Organization audit log
+Email support
+Set up a free trial
+Scale
+$3,000 / month
+6,000 credits / month
+Everything in Pro
+Shared Slack channel with Cleric engineers
+Set up a free trial
+Enterprise
+Custom
+Annual billing only
+Everything in Scale
+Custom data retention and deployment region
+Negotiated DPA and vendor security reviews
+Named customer success manager
+Book a demo
+All plans include unlimited users, all integrations, MCP access, Google Workspace sign-in,
+operational memory, and investigation history.
+Enterprise pricing is negotiated.
+Prefer to buy through AWS? Annual Team, Pro, and Scale plans are also available on
+AWS Marketplace.
+Compare
+Plan details
+Features on
+Pro
+Switch plans
+Change plan to compare features
+Team
+Pro (Recommended)
+Scale
+Enterprise
+Team
+Pro
+Scale
+Enterprise
+Credits included
+1,400 / month
+3,000 / month
+6,000 / month
+Custom annual
+Credit price
+$0.50 each
+Negotiated
+Billing
+Monthly
+Annual
+Credit rollover
+1 month, up to 2×
+Annual pool
+Users, agents, and services
+Unlimited
+Change verification
+2 credits per change
+Issue investigation
+10 credits
+Chats
+1 credit / started min after the first 30 s
+Slack, Microsoft Teams, and web app
+Operational memory
+All integrations
+Connect your MCP servers
+Use Cleric through MCP
+Automatic alert investigation
+Custom agents and alert routing
+Scheduled agents and monitors
+Cleric Connector
+Investigation history
+Organization audit log
+Google Workspace sign-in
+Okta and custom SAML/OIDC
+Custom retention and region
+Order Form and MSA
+Invoice billing
+Negotiated DPA
+Vendor security reviews
+Support
+Email
+Shared Slack
+Named customer success manager
+Monthly credits roll over for one month, up to twice the monthly allocation. Annual plans use one annual pool.Cleric follows the change into production. If it causes a regression, Cleric detects it, investigates the cause, and proposes a fix while the change context is still fresh. Each release is split into changes, usually one per pull request. Each change costs 2 credits.An Issue can start from an alert, monitor, or failed deploy. Cleric finds the root cause, verifies it, and proposes a fix. Repeat alerts join the open Issue at no extra charge.Any other agent session, including custom agents. Free under 30 seconds, then one credit per started minute.Cleric stores service relationships, infrastructure patterns, team guidance, and prior results for use in later investigations.Connect an MCP server to let Cleric use its tools and data.Use Cleric from Claude Code, Cursor, and other MCP clients. Search Cleric’s knowledge or start an investigation.Send matching alerts from Slack or Microsoft Teams to Cleric automatically.Define agents with their own instructions and route matching alerts to them.Run an agent on a schedule and post the result to Slack.Run the Cleric Connector inside your network. It gives Cleric access to approved private endpoints.View organization-wide administrative and access events.Security questionnaires and vendor reviews.
+Credits
+Tokens are our problem
+$0.50 per credit on every plan.
+Check one production change for regressions 2 credits $1
+Investigate one production Issue 10 credits $5
+Chats 1 credit / started min $0.50 / min
+Chat requests under 30 seconds are free. After that, each started minute costs one credit.
+Idle time is not billed.
+Estimate your usage
+Frequently asked questions
+What is change verification?
+Each release is split into production changes, usually one per pull request. For up to 14 days after a change deploys, Cleric watches for regressions, and if one shows up you get the cause and a proposed fix while the change is still fresh. Each change costs 2 credits.
+Which changes does Cleric verify?
+By default, Cleric follows every change from release messages in Slack or Microsoft Teams. You can add filters if you only want it to verify certain repositories, services, or changes.
+What if a change looks fine and breaks later?
+Cleric monitors the change for up to 14 days and reports a regression if it detects one.
+What counts as an Issue?
+An Issue is a production problem Cleric investigates end to end. It can start from a page, scheduled monitor, or failed deploy. Repeat alerts join the open Issue at no extra charge. Each Issue costs 10 credits. Follow-up passes are included.
+What does Cleric do for free?
+Repeat alerts that join an open Issue, retries, and corrections or extra passes on the same Issue are free. A chat request under 30 seconds is free.
+What if Cleric gets it wrong?
+Corrections and additional passes on the same Issue do not use more credits.
+What happens if I run out of credits?
+Monthly credits roll over for one month, up to twice your monthly allocation. Annual plans use one annual pool. When credits run out, new work pauses until your next credit release, unless you buy more credits or turn on overage.
+Do you train on our data?
+No. We do not use customer data to train Cleric or its underlying models. See the security and privacy policy for how your data is handled and deleted.
+Where is my data hosted?
+You choose a US or EU hosting region during setup. See EU hosting and data processing for what runs where.
+How are Chats billed?
+A Chat is any other agent session that uses Cleric’s knowledge and integrations, including any custom agent invocations you define. A request under 30 seconds is free. After that, each started minute the agent runs costs one credit. Idle time is not billed.
+How does the product evaluation work?
+The evaluation includes 1,000 credits after approval and has no time limit. Connect Cleric to your code and production tools, then use the credits at your own pace until they run out.
+What does annual billing add?
+The credit price stays at $0.50. Your credits come as one pool for the year instead of monthly allocations. Enterprise adds an Order Form and MSA, invoice billing, a negotiated DPA, and vendor security reviews.
+What happens at the end of an annual plan?
+Annual plans run for 12 months and renew automatically. We remind you 30 days before renewal, and you can cancel any time before then.
+Can I buy through AWS Marketplace?
+Yes. Annual Team, Pro, and Scale plans are available on AWS Marketplace at the same prices, billed through your AWS account. For Enterprise or custom terms, contact us about a private offer.
+Used by engineering teams at
+Try it on your next deploy
+1,000 evaluation credits after approval, no time limit. Connect your repos and monitoring and see
+what Cleric catches.
+Start free trial
