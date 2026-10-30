@@ -1,0 +1,302 @@
+=== https://brandfetch.com/developers/pricing ===
+Pricing you can predict
+Free logos and search. Pay only for the brands you fetch.
+Free
+$0
+For trials and startups. No cost, no card, no hassle.
+Brand fetches
+100
+One-time
+Brand API
+Brand Context API
+Logo renders
+1M /mo
+Logo API
+Brand searches
+500K /mo
+Brand Search API
+Get started for free
+See usage guidelines
+Growth
+Yearly.
+Save 23%
+$99
+/ month
+Starter
+Plus
+Scale
+Max
+Brand fetches
+up to 2500 /mo
+Brand API
+Brand Context API
+Logo renders
+5M /mo
+Logo API
+Brand searches
+1M /mo
+Brand Search API
+Upgrade to Growth
+Read the docs
+Custom
+Let's talk
+Customizable plan for scale-ups and enterprises.
+Higher volume & limits
+Self-hosted assets
+Custom licensing terms
+Priority brand QA
+Enterprise SLAs
+Dedicated account manager
+Talk to sales
+Learn more
+Finance
+Turn merchants into brands
+Brand data for every financial interface. Access merchant
+logos and metadata for transaction feeds & financial UI.
+Boost merchant recognition
+Verify merchant authenticity
+Enrich financial transactions
+Access referential brand data
+Book a demo
+View use case
+Meta
+Public Company
+Meta builds technologies that help people connect, find communities and grow businesses.
+10,001+ employees
+Founded in 2004
+United States
+Social Media
+First-party data
+Global coverage
+Reliable & compliant
+Real-time updates
+Trusted by leading companies
+First-party data
+Global coverage
+Reliable & compliant
+Real-time updates
+Trusted by leading companies
+Powering the world's best companies.
+From next-gen startups to established enterprises.
+Discover customer stories
+Compare plans
+Free
+For prototyping and smaller projects
+Get started for free
+Growth
+For growing platforms with real usage
+Upgrade to Growth
+Custom
+For products operating at scale
+Talk to sales
+Products
+Brand fetches
+100 (one-time)
+2500 - 10,000 / month
+> 10,000
+Brand API
+1 credit / fetch
+Brand Context API
+1 credit / fetch
+Logo API
+1M / mo
+5 - 20M / mo
+> 20M
+Brand Search API
+500K / mo
+1 - 5M / mo
+> 5M
+Transaction API
+Custom dataset
+Delivery methods
+REST API
+Batch lookups
+Prepaid credits only
+up to 100 brands / fetch
+Custom
+Logo CDN
+MCP
+Webhooks
+GraphQL
+Data shares
+Billing & contract
+Overage
+—
+$0.10 / fetch
+Custom
+Payment method
+—
+By credit card
+By credit card or wire transfer
+Billing frequency
+—
+Monthly or Yearly
+Yearly
+Contract length
+Cancel anytime
+Annual or multi-year
+Custom legal terms
+Service & support
+Support-level
+Best effort
+Priority
+Dedicated account manager
+Enterprise SLAs
+Priority brand QA
+Free
+For prototyping and smaller projects
+Get started for free
+Products
+Brand fetches
+100 (one-time)
+Brand API
+1 credit / fetch
+Brand Context API
+1 credit / fetch
+Logo API
+1M / mo
+Brand Search API
+500K / mo
+Transaction API
+Custom dataset
+Delivery methods
+REST API
+Batch lookups
+Prepaid credits only
+Logo CDN
+MCP
+Webhooks
+GraphQL
+Data shares
+Billing & contract
+Overage
+—
+Payment method
+—
+Billing frequency
+—
+Contract length
+Custom legal terms
+Service & support
+Support-level
+Best effort
+Enterprise SLAs
+Priority brand QA
+Growth
+For growing platforms with real usage
+Upgrade to Growth
+Products
+Brand fetches
+2500 - 10,000 / month
+Brand API
+1 credit / fetch
+Brand Context API
+1 credit / fetch
+Logo API
+5 - 20M / mo
+Brand Search API
+1 - 5M / mo
+Transaction API
+Custom dataset
+Delivery methods
+REST API
+Batch lookups
+up to 100 brands / fetch
+Logo CDN
+MCP
+Webhooks
+GraphQL
+Data shares
+Billing & contract
+Overage
+$0.10 / fetch
+Payment method
+By credit card
+Billing frequency
+Monthly or Yearly
+Contract length
+Cancel anytime
+Custom legal terms
+Service & support
+Support-level
+Priority
+Enterprise SLAs
+Priority brand QA
+Custom
+For products operating at scale
+Talk to sales
+Products
+Brand fetches
+> 10,000
+Brand API
+1 credit / fetch
+Brand Context API
+1 credit / fetch
+Logo API
+> 20M
+Brand Search API
+> 5M
+Transaction API
+Custom dataset
+Delivery methods
+REST API
+Batch lookups
+Custom
+Logo CDN
+MCP
+Webhooks
+GraphQL
+Data shares
+Billing & contract
+Overage
+Custom
+Payment method
+By credit card or wire transfer
+Billing frequency
+Yearly
+Contract length
+Annual or multi-year
+Custom legal terms
+Service & support
+Support-level
+Dedicated account manager
+Enterprise SLAs
+Priority brand QA
+Frequently asked questions
+Your questions answered
+Contact sales
+Ask your AI
+How does pricing work?
+Usage is metered in brand fetches, one per call. $129/month (or $1188/yearly) includes 2,500 brand fetches per month shared across Brand API, Brand Context and Transaction API. Fetches reset monthly and do not roll over. Overage is $0.10 per fetch. Logo and Brand Search APIs have separate limits. Requests for brandfetch.com are free and do not count toward your quota. See pricing.
+What happens when I exceed my quota?
+Brand fetches over your monthly limit are billed at $0.10 each, up to an overage cap you set. You'll get usage alerts at 80% and 100%. Logo API and Brand Search API are soft-capped: going over triggers a notification, not a hard stop.
+Can I use your data commercially?
+Yes, for internal use cases like displaying a logo in your app. Sublicensing the data to your customers or including it in your own API responses requires a specific agreement. Contact sales if that's your use case.
+Can I try Brandfetch before I buy?
+Yes. The Free plan gives you 100 brand fetches, plus the Logo API up to 1M requests/mo and the Brand Search API up to 500K requests/mo, free. No credit card required. Enough to test most integrations end-to-end. You can also preview the data on our playground.
+How many brands do you cover?
+Over 50 million brands and growing, continuously refreshed from the open web. Our APIs also resolve in real time: any brand with a valid domain returns data, across every industry and region.
+Does Brandfetch obtain each brand's permission?
+No, but brands can claim and manage their profile directly on brandfetch.com, making us the only platform with first-party brand data. Beyond that, our data is aggregated from publicly available sources on the open web.
+When should I use Logo API vs Brand API?
+Use Logo API when you only need a logo, for example to embed a brand mark in your UI. It's optimized for that, served via a fast CDN, and runs on its own quota separate from credits.
+Use Brand API when you need the full brand record: logos, colors, fonts, firmographics, and more in a single call. Brand API responses can be cached for 30 days to reduce credit usage. Logo API images can be cached locally per our usage guidelines.
+What integrations do you offer?
+Brandfetch integrates with several platforms so you can use brand data without writing custom code:
+MCP for AI agents and assistants
+Zapier for automated workflows
+n8n for self-hosted automation
+Make.com for visual workflow building
+How often do you update your dataset?
+Brand data stays fresh through several mechanisms:
+API requests trigger a background recrawl if the brand hasn't been refreshed in 3 months, so the index stays current with usage
+Claimed brands are managed directly by their owners, always current
+Curated brands are managed by our QA team, who also track rebrands across the web
+Crowdsourced updates flow in continuously from users of our plugins and integrations
+Need a brand refreshed now? Submit a brand update request.
+What logo formats do you support?
+Logos are delivered in SVG when available, with PNG conversions for broader compatibility. If SVG isn't available, you get the highest-quality PNG we can find, with a transparent background. See our docs for more details.
+How do I request a brand update?
+Submit your request at brandfetch.com/update. Our QA team will update the brand with its latest information.
+Do you offer discounts for startups or nonprofits?
+Yes. Qualified startups and nonprofits get 40% off paid plans for the first 12 months. Reach out to sales to apply.

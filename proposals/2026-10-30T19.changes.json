@@ -1,0 +1,154 @@
+{
+ "type": "changes",
+ "run": "2026-10-30T19",
+ "items": [
+  {
+   "diff_id": "aihr-2026-10-30T19",
+   "kind": "promo",
+   "why": "The limited-time 20% discount on Full Academy Access expired on 2026-10-30 and prices returned to USD 1850 per year and USD 185 per month.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "ended", "text": "20% off Full Academy Access ended: USD 1480 → USD 1850 per year, USD 148 → USD 185 per month."}
+  },
+  {
+   "diff_id": "asana-2026-10-30T19",
+   "kind": "wording",
+   "why": "Unstable capture: plan-card feature copy was rewritten into shorter lines in both variants, and only one variant shows an unexplained $5.99 per user note on On Demand billing; no list price or allowance in the comparison table changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "browserbase-2026-10-30T19",
+   "kind": "new_feature",
+   "why": "Search pricing now lists Exa Fast at $7/1k and a new Exa Deep option at $12/1k; the existing $7/1k rate is unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "hedra-2026-10-30T19",
+   "kind": "price_increase",
+   "why": "Pay-as-you-go unit prices rose: video generation from 1.13¢ to 1.22¢ per second and isolation & cleanup from 10¢ to 12¢ per minute.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+8% / +20%",
+    "short": "Video generation from 1.13¢ → 1.22¢ per second and isolation & cleanup from 10¢ → 12¢ per minute.",
+    "pattern": "Price increase",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "slack-2026-10-30T19",
+   "kind": "support",
+   "why": "The support section was replaced by Standard, Premier and Signature Success Plans, a support and services restructure with no change to plan prices.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "buildkite-2026-10-30T19",
+   "kind": "feature_move",
+   "why": "Linux ARM64 hosted agents, previously available on request for Enterprise, are now listed on paid plans at the same rate as AMD64 (Windows hosted agents were also added).",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "ARM64 opened",
+    "short": "Linux ARM64 hosted agents move from on request for Enterprise customers to listed on paid plans, at the same rate as AMD64.",
+    "pattern": "Bundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "deepseek-2026-10-30T19",
+   "kind": "noise",
+   "why": "Only banner punctuation and a Copy Markdown widget changed; no pricing content changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "dropzone-ai-2026-10-30T19",
+   "kind": "wording",
+   "why": "The pricing page was fully redesigned and repositioned as Enterprise, MSSP and Federal packages, all still contact-sales with no prices shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "lyssna-2026-10-30T19",
+   "kind": "noise",
+   "why": "FAQ answers now render in the capture where only the questions appeared before; no pricing content changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "leadmagic-2026-10-30T19",
+   "kind": "limit_change",
+   "why": "Usage terms loosened: search results may now be stored and reused for client services, resale and embedded products, where before search was for own workflows only and not for serving clients or reselling data.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Resale allowed",
+    "short": "Search results may now be reused in client services, resale and embedded products, where the page previously barred serving results to clients or end users and reselling data.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "apploye-2026-10-30T19",
+   "kind": "promo",
+   "why": "A 40% off for 3 months offer was added to the Power plan and the Activity Insights add-on (a new Extended Data Retention add-on also appeared).",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "40% off Power for 3 months: $8 → $4.8 per user per month billed annually; Activity Insights $3 → $2.10 per user per month for the first 3 months."}
+  },
+  {
+   "diff_id": "tella-2026-10-30T19",
+   "kind": "trial",
+   "why": "FAQ now states the 7-day free trial includes 4,500 credits for the Tella Agent; only trial terms changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "plaud-ai-2026-10-30T19",
+   "kind": "non_software",
+   "why": "The Halloween sale on the NotePin device ended ($110.99 back to $159.00) and a compliance badge was removed; hardware pricing only.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "brandfetch-2026-10-30T19",
+   "kind": "free_plan",
+   "why": "The Free plan Logo API allowance rose from 500K to 1M requests per month; Brand Search stays at 500K.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×2",
+    "short": "Free plan Logo API allowance rises from 500K → 1M requests a month, with Brand Search staying at 500K.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2
+   },
+   "promo": null
+  }
+ ]
+}
