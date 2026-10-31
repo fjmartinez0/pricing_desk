@@ -1,0 +1,206 @@
+{
+ "type": "changes",
+ "run": "2026-10-31T07",
+ "items": [
+  {"diff_id": "allstacks-2026-10-31T07", "kind": "wording", "why": "FAQ copy rewritten to say Product Studio Starter is free with 250 credits a week and Standard and Pro are billed monthly; no price or plan change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "anthropic-2026-10-31T07",
+   "kind": "plan_change",
+   "why": "Max 5x and Max 20x merged into one Max plan from $100 and a new Ultra plan at $200 was added, with Fable and API credits changes.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "New tier",
+    "deltaSub": "Ultra plan at $200 a month",
+    "short": "Max 5x and Max 20x become one Max plan at $100, and a new Ultra plan at $200 offers 10x Pro weekly usage with no 5-hour limit.",
+    "headline": "Anthropic replaced the Max 5x and Max 20x options with a single Max plan at $100 a month (5x Pro usage) and added an Ultra plan at $200 a month with 10x Pro weekly usage and no 5-hour limit for verified accounts.",
+    "rows": [
+     ["Max, per month", "From $100", "$100"],
+     ["Ultra, per month", "Not offered", "$200"],
+     ["Max usage vs Pro", "5x or 20x", "5x"],
+     ["Max API credits per month", "$100 to $200", "$100"],
+     ["Ultra API credits per month", "Not offered", "$200"]
+    ],
+    "who": "Individual Max subscribers and anyone considering the top consumer plans; Free, Pro and Team plans are unchanged in price.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The 20x option is replaced by a separately named, separately priced Ultra tier with a different limit design (weekly only), which reads as a new top rung and a way to price heavy users by weekly capacity rather than a 5-hour window. How existing Max 20x subscribers are mapped is not shown.",
+    "caveat": "The page does not state what existing Max 20x subscribers pay or which plan they move to.",
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "top",
+    "reach": 2,
+    "plan": "Max and Ultra",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "bizstim-2026-10-31T07",
+   "kind": "feature_move",
+   "why": "SimpleTexting and EZ Texting SMS gateways are now limited to Enterprise plans in the USA and Canada; ClickSend stays on every plan.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Gateways → Enterprise",
+    "short": "SimpleTexting and EZ Texting SMS gateways are now only for Enterprise plans in the USA and Canada, while ClickSend is available on every plan.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {"diff_id": "bolster-2026-10-31T07", "kind": "wording", "why": "Affiliate partners teaser replaced by a Calculators banner; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "constructconnect-2026-10-31T07", "kind": "wording", "why": "Top banner copy changed from a Takeoff BOOST trial call to action to a generic AI tools link.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "expressvpn-2026-10-31T07", "kind": "noise", "why": "Unstable capture: both versions show the same 12-month prices, the page default switched from the 2-year plan view and ExpressAI rows were reordered; unclear whether a term was removed, so not recorded as a decided change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "flux-2026-10-31T07", "kind": "noise", "why": "Navigation menu gained a Changelog link only.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "linear-2026-10-31T07",
+   "kind": "feature_move",
+   "why": "Loops, previously listed from Basic up with Not included on Free, now shows as Included on the Free plan.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "Loops on Free",
+    "deltaSub": "Loops access, Free plan",
+    "short": "Loops moves from Not included to Included on the Free plan.",
+    "headline": "Linear now lists Loops, an agent workflow feature, as included on the Free plan, where it was previously shown as not included.",
+    "rows": [
+     ["Loops, Free plan", "Not included", "Included"]
+    ],
+    "who": "Free workspaces; paid plans already had Loops.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Opening an agent feature to the Free plan looks like a funnel move to get teams using agents earlier. This is an inference from the page layout.",
+    "caveat": "The feature table marks Loops with asterisks, so there may be usage conditions not visible in the page text.",
+    "pattern": "Free plans as funnels",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 2,
+    "plan": "Free",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "all",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "n8n-2026-10-31T07", "kind": "wording", "why": "Start-up Plan renamed Startup plan and a GitHub counter updated; the 50% discount is unchanged.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "salesforce-2026-10-31T07", "kind": "wording", "why": "FAQ entries explaining the Core, Advanced and Max editions were added and Flex Credits lost the per-year label; no price change shown.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "sonarsource-2026-10-31T07", "kind": "new_feature", "why": "Language support text expanded from 30+ to 35+ languages with a list; no price change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "sugarcrm-2026-10-31T07",
+   "kind": "feature_move",
+   "why": "Meeting preparation moved from the Premier+ feature list into the Advanced+ list on the Sugar Sell packages.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Meeting prep moves down",
+    "short": "Meeting preparation moves from Premier+ ($155) into Advanced+ ($98) in the Sugar Sell package lists.",
+    "pattern": "AI moves between tiers",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "synthesia-2026-10-31T07", "kind": "noise", "why": "Sign-up modal and mobile notice text removed from the page; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "runway-2026-10-31T07",
+   "kind": "promo",
+   "why": "Enterprise free usage promo extended from sign by 10/31 to sign by 12/31 and now reads up to 2 months.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "changed", "text": "Enterprises get up to 2 months of usage free if they sign by 12/31 (previously 2 months, sign by 10/31)"}
+  },
+  {"diff_id": "bolt-2026-10-31T07", "kind": "wording", "why": "Token FAQ answers rewritten and a billing question added; no price or allowance change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "modal-2026-10-31T07", "kind": "wording", "why": "FAQ added explaining how to estimate Sandbox costs from active resources; no price change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "stripe-2026-10-31T07",
+   "kind": "metering",
+   "why": "A new Dispute appealed fee of CA$15.00 per appeal was added to the disputes pricing.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+CA$15 / appeal",
+    "short": "Stripe adds a Dispute appealed fee of CA$15.00 per dispute appeal, non-refundable even if the appeal is won.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "sarvam-ai-2026-10-31T07",
+   "kind": "price_increase",
+   "why": "LLM API prices repriced: Gemma 4 and GLM 5.3 rose slightly while DeepSeek V4.1 Flash fell, with the old DeepSeek rate kept as a 1017 variant.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Mixed LLM repricing",
+    "short": "Gemma 4 output rises ₹90.00 → ₹91.50 and GLM 5.3 output ₹390.00 → ₹396.00 per 1M tokens, while DeepSeek V4.1 Flash output falls ₹105.00 → ₹59.40.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "day-2026-10-31T07", "kind": "new_feature", "why": "Agent plan feature lists rewritten around campaigns and contact identification; prices unchanged and which tier holds prospecting is not clear from the page.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "clerk-2026-10-31T07", "kind": "price_reveal", "why": "A 101 to 250 connections band at $48/mo each now appears where it was Contact us before.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "kinsta-2026-10-31T07", "kind": "noise", "why": "Rotating customer testimonials changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "se-ranking-2026-10-31T07",
+   "kind": "limit_change",
+   "why": "Growth API credits listed as 100K instead of 300k while Core now lists 25K API credits and MCP access; Growth also adds personalized onboarding.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "300k → 100K credits",
+    "short": "Growth API credits fall from 300k to 100K, while Core now includes 25K API credits and MCP access.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "pulumi-2026-10-31T07", "kind": "price_hidden", "why": "Enterprise changed from $2,000/month with 2,000 credits to Custom, contract pricing, contact sales.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "fly-io-2026-10-31T07",
+   "kind": "plan_change",
+   "why": "Fly Kubernetes at $75/month per cluster is no longer listed on the pricing page.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "FKS no longer listed",
+    "short": "Fly Kubernetes, previously $75/month per cluster plus compute and volumes, is no longer listed on the pricing page.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {"diff_id": "anydb-2026-10-31T07", "kind": "wording", "why": "Helpdesks menu item renamed Email & Whatsapp Helpdesks.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "aikido-security-2026-10-31T07", "kind": "noise", "why": "A Used by label appeared in the page layout.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "accelevents-2026-10-31T07", "kind": "support", "why": "Banner changed and support response time claims reworded to an average of 21 seconds.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "movylo-2026-10-31T07", "kind": "noise", "why": "Header login and start buttons changed; the $99/Month plan is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "composio-2026-10-31T07", "kind": "new_feature", "why": "Per-tool price descriptions reworded and new toolkits added (Semrush, SEOptimer, Surf, OpenRouter and others); no existing price changed.", "detail": "line", "record": null, "promo": null}
+ ]
+}

@@ -21327,7 +21327,8 @@
    "first_seen": "2026-10-26T19",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/runwayml-adds-ads-generation-and-publishing-to-standard-pro-and-max-plans"
+    "https://pricingsaas.com/news/article/runwayml-adds-ads-generation-and-publishing-to-standard-pro-and-max-plans",
+    "https://pricingsaas.com/news/article/runwayml-extends-its-enterprise-free-usage-promo-to-dec-31-but-caps-the-benefit-at-2-months"
    ],
    "fetched_at": "2026-10-26T19:10:54-04:00",
    "file": "data/pricingsaas/pages/diffs/runwayml__2026D299.txt",
@@ -22024,7 +22025,8 @@
    "report_id": "highlightai:2026-W44",
    "articles": [
     "https://pricingsaas.com/news/article/datadog-gates-its-free-infrastructure-plan-behind-contact-sales",
-    "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan"
+    "https://pricingsaas.com/news/article/openai-adds-up-to-500-a-month-in-api-credits-to-its-pro-plan",
+    "https://pricingsaas.com/news/article/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits"
    ]
   },
   "https://pricingsaas.com/companies/heymarket/diffs/2026W44": {
@@ -23060,7 +23062,10 @@
    "fetched_at": "2026-10-27T19:10:39-04:00",
    "file": "data/pricingsaas/pages/diffs/upstage__2026W44.txt",
    "title": "Upstage cuts Solar Pro 4 promo to 50% off; Solar Mini 4 discount ends — Oct 26, 2026 · PricingSaaS Pulse",
-   "report_id": "upstage:2026-W44"
+   "report_id": "upstage:2026-W44",
+   "articles": [
+    "https://pricingsaas.com/news/article/runwayml-extends-its-enterprise-free-usage-promo-to-dec-31-but-caps-the-benefit-at-2-months"
+   ]
   },
   "https://pricingsaas.com/companies/workable/diffs/2026W44": {
    "type": "diff",
@@ -24295,7 +24300,8 @@
    "first_seen": "2026-10-28T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/docker-brings-back-its-250-cloud-sandboxes-credit-banner-a-day-after-pulling-it"
+    "https://pricingsaas.com/news/article/docker-brings-back-its-250-cloud-sandboxes-credit-banner-a-day-after-pulling-it",
+    "https://pricingsaas.com/news/article/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits"
    ],
    "fetched_at": "2026-10-28T07:12:38-04:00",
    "file": "data/pricingsaas/pages/diffs/docker__2026D301.txt",
@@ -24725,7 +24731,8 @@
    "first_seen": "2026-10-30T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/gitlab-launches-orbit-add-on-a-context-graph-sold-as-query-packs"
+    "https://pricingsaas.com/news/article/gitlab-launches-orbit-add-on-a-context-graph-sold-as-query-packs",
+    "https://pricingsaas.com/news/article/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits"
    ],
    "fetched_at": "2026-10-30T07:17:25-04:00",
    "file": "data/pricingsaas/pages/diffs/gitlab__2026D303.txt",
@@ -24796,6 +24803,95 @@
    "file": "data/pricingsaas/pages/diffs/canva__2026D303.txt",
    "title": "Canva hides free plan's AI quota, swapping 20 uses for vague limited access — Oct 30, 2026 · PricingSaaS Pulse",
    "report_id": "canva:2026-W45"
+  },
+  "https://pricingsaas.com/news/article/runwayml-extends-its-enterprise-free-usage-promo-to-dec-31-but-caps-the-benefit-at-2-months": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/articles/runwayml-extends-its-enterprise-free-usage-promo-to-dec-31-but-caps-the-benefit-at-2-months.txt",
+   "title": "Runwayml extends its Enterprise free-usage promo to Dec 31, now offering up to 2 months",
+   "published": "2026-10-31T07:07:03.362734+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D304",
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D299",
+    "https://pricingsaas.com/companies/upstage/diffs/2026W44"
+   ]
+  },
+  "https://pricingsaas.com/news/article/anthropic-splits-max-into-max-100-and-ultra-200-dropping-the-20x-label": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/articles/anthropic-splits-max-into-max-100-and-ultra-200-dropping-the-20x-label.txt",
+   "title": "Anthropic splits Max into Max ($100) and Ultra ($200), dropping the 20x label",
+   "published": "2026-10-31T07:00:29.325085+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/anthropic/diffs/2026D304"
+   ]
+  },
+  "https://pricingsaas.com/news/article/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/articles/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits.txt",
+   "title": "GitLab prices a new Advanced Capacity add-on at $12,000 a year for higher API limits",
+   "published": "2026-10-31T06:31:56.937353+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/gitlab/diffs/2026D304",
+    "https://pricingsaas.com/companies/gitlab/diffs/2026D303",
+    "https://pricingsaas.com/companies/docker/diffs/2026D301",
+    "https://pricingsaas.com/companies/highlightai/diffs/2026W44"
+   ]
+  },
+  "https://pricingsaas.com/companies/runwayml/diffs/2026D304": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/runwayml-extends-its-enterprise-free-usage-promo-to-dec-31-but-caps-the-benefit-at-2-months"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/diffs/runwayml__2026D304.txt",
+   "title": "Runway extends Enterprise promo to 12/31, but caps free usage at 2 months — Oct 31, 2026 · PricingSaaS Pulse",
+   "report_id": "runwayml:2026-W45"
+  },
+  "https://pricingsaas.com/companies/anthropic/diffs/2026D304": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/anthropic-splits-max-into-max-100-and-ultra-200-dropping-the-20x-label"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/diffs/anthropic__2026D304.txt",
+   "title": "Anthropic splits Max into Max ($100) and Ultra ($200), replacing Max 20x — Oct 31, 2026 · PricingSaaS Pulse",
+   "report_id": "anthropic:2026-W45"
+  },
+  "https://pricingsaas.com/companies/gitlab/diffs/2026D304": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-10-31T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/gitlab-prices-a-new-advanced-capacity-add-on-at-12-000-a-year-for-higher-api-limits"
+   ],
+   "fetched_at": "2026-10-31T07:16:33-04:00",
+   "file": "data/pricingsaas/pages/diffs/gitlab__2026D304.txt",
+   "title": "GitLab: Advanced Capacity add-on priced at $12,000/year for higher API limits — Oct 31, 2026 · PricingSaaS Pulse",
+   "report_id": "gitlab:2026-W45#2"
   }
  }
 }

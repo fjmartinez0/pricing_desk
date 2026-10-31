@@ -1,0 +1,247 @@
+=== https://www.cartesia.ai/pricing ===
+Try Cartesia
+Products
+SonicText to speechInkSpeech to textManaged AgentsVoice agents
+VoicesListen to every voiceLanguagesSpeech in 44 languages
+Solutions
+Use cases
+Customer supportAppointment schedulingSDR and lead qualificationRecruiting and screeningCollections
+Industries
+Financial servicesHealthcareRetail and e-commerceTelecommunicationsTravel and hospitality
+Resources
+Explore
+BlogFree toolsCompareStartups
+Company
+AboutCareersResearchEvents
+Developers
+DocsIntegrationsCookbooksMCP server
+CustomersPricing
+Try Cartesia
+Sign inContact Sales
+Pricing for every stage.
+Start free, scale as you ship. Pay for the credits and agent minutes you use.
+Free
+$0
+/mo
+Start free
+20K credits / month
+$1 prepaid agents / month
+Text to Speech
+Speech to Text
+Pro
+$5
+/mo
+Select Pro
+100K credits / month
+$5 prepaid agents / month
+Everything in Free, plus
+Commercial use license
+Instant voice cloning
+Startup
+$49
+/mo
+Select Startup
+1.25M credits / month
+$49 prepaid agents / month
+Everything in Pro, plus
+Pro voice cloning
+Organizations
+Scale
+$299
+/mo
+Select Scale
+8M credits / month
+$299 prepaid agents / month
+Everything in Startup, plus
+Priority support
+High concurrency limits
+Enterprise
+Custom
+Contact us
+Custom credits & agent usage
+Volume pricing
+Everything in Scale, plus
+Custom concurrency limits
+DPAs and BAAs for compliance
+Shared Slack channel
+SSO
+Security questionnaires
+Calculate your costs based on your usage needs
+Pick the products you plan to use and the volume you expect — we'll recommend the plan that fits.
+1Select features and capabilities
+Text to Speech
+Speech to Text+
+Voice Agents+
+2Minutes of generated audio per month
+45 min
+050,000+
+Recommended plan
+Pro
+$5/mo
+Pause or cancel anytime
+133 Text to Speech minutes / month
+Choose Pro
+Compare plans in detail
+Feature-by-feature across Free, Pro, Startup, and Scale.
+Free
+$0/mo
+Start free
+Pro
+$5/mo
+Select Pro
+Startup
+$49/mo
+Select Startup
+Scale
+$299/mo
+Select Scale
+Enterprise
+Custom
+Contact us
+Text to Speech
+Sonic-3.6
+Minutes included monthly
+~27
+~133
+~1,667
+~10,667
+Custom
+Concurrent requests
+2
+3
+5
+15
+Custom
+Instant voice cloning
+Professional voice cloning
+2
+4
+Custom
+Localizing a voice
+225 credits per added voice accent
+Speech to Text
+Ink-2
+Hours included monthly
+~1h 51m
+~9h 16m
+~115h 44m
+~740h 44m
+Custom
+Concurrent requests
+8
+12
+20
+60
+Custom
+Voice Agents
+Managed Agents
+Cartesia-provisioned phone numbers
+1
+3
+5
+10
+Custom
+Concurrent calls
+8
+12
+20
+60
+Custom
+Call duration
+$0.03 per minute
+Custom
+Telephony
+$0.014 per minute when using a Cartesia-provided phone number
+LLM usage during calls
+Billed separately
+Evaluations
+Free of charge for a limited time only
+Free
+Pro
+Startup
+Scale
+Enterprise
+$5/mo
+Select Pro
+Text to Speech
+Sonic-3.6
+Minutes included monthly
+~133
+Concurrent requests
+3
+Instant voice cloning
+Professional voice cloning
+Localizing a voice
+225 credits per added voice accent
+Speech to Text
+Ink-2
+Hours included monthly
+~9h 16m
+Concurrent requests
+12
+Voice Agents
+Managed Agents
+Cartesia-provisioned phone numbers
+3
+Concurrent calls
+12
+Call duration
+$0.03 per minute
+Telephony
+$0.014 per minute when using a Cartesia-provided phone number
+LLM usage during calls
+Billed separately
+Evaluations
+Free of charge for a limited time only
+FAQs
+Do TTS, STT, and Agent concurrency limits affect each other?
+No. TTS, STT and voice agents each have their own concurrency pool, so you can run all three at once without one using another's capacity.
+How do model credits and voice agent rates work within each plan?
+Every plan includes two monthly allowances:
+Credits for the speech models, spent on TTS and STT at their rates.
+Prepaid dollars for voice agents, at no extra cost.
+For example, Scale costs $299/month and includes 8M credits plus $299 for voice agents. Free includes $1 for voice agents. Enterprise pricing is custom.
+How many voice agent minutes do I get per plan?
+At the standard $0.03/minute rate, each plan's prepaid agent dollars cover about:
+Free: 33 minutes
+Pro: 2 hours, 47 minutes
+Startup: 27 hours, 13 minutes
+Scale: 166 hours, 7 minutes
+These numbers do not include telephony or LLM usage.
+How many credits do I need?
+Sonic text-to-speech: 1 credit per character, about 750 to 800 credits per minute of audio.
+Ink speech-to-text: 3 credits per second of audio, or $0.39 per hour on the Scale plan.
+How many credits do I need for Pro Voice Cloning?
+Training a Professional Voice Clone is free. Speech from a clone costs 1 credit per character, unless your Enterprise plan says otherwise.
+How many Professional Voice Clones can I have?
+Slots come with your plan and are counted per organization:
+Startup: 2 slots
+Scale: 4 slots
+Enterprise: custom
+Free and Pro: none
+More answers are in the Pro Voice Cloning FAQ.
+What happens to my rollover credits if I change my pricing tier?
+You keep every credit you have paid for. Your rollover cap resets to 2x your new plan's monthly credits. Once your balance drops below it, credits roll over again up to the new cap.
+What happens if I upgrade to a higher subscription tier?
+The new tier's credits are added to your current balance right away. With rollover, you can hold up to 2x your monthly credits.
+What if I cancel or downgrade my tier in the middle of a payment period?
+You keep your credits until you use them. Your account stays on its current tier until the end of the billing period, then moves to the new one.
+When does my subscription renew?
+Every month on your purchase date. A plan bought on March 31 renews on April 30, May 31 and so on.
+What happens if I use more model credits than I have in my account?
+Paid plans can turn on overages and keep going past a zero balance, at a rate set by tier:
+Pro: $65 per 1M credits
+Startup: $45 per 1M credits
+Scale: $38 per 1M credits
+With overages off, new requests are blocked once your credits run out.
+What happens if I use more prepaid voice agent dollars than I have in my account?
+Calls keep running at your plan's voice agent rate.
+How and when are overages charged?
+Overage charges start once you go past what your plan includes.
+How are break tags counted in billing?
+Each break tag counts as 1 credit in the transcript of a TTS request.
+Is Cartesia SOC 2 Type II certified?
+Yes. Cartesia is SOC 2 Type II certified.
+Can I deploy the models on-premise or in a virtual private cloud?
+Yes. Talk to our sales team about your setup.
+Talk to Cartesia

@@ -1,0 +1,1992 @@
+{
+ "type": "reports",
+ "run": "2026-10-31T07",
+ "items": [
+  {
+   "report_id": "runwayml:2026-W45",
+   "company": "runway",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Enterprise promo changed from 2 months of usage free for deals signed by 10/31 to up to 2 months free for deals signed by 12/31.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Enterprise: up to 2 months of usage free if signed by 12/31 (was 2 months free, sign by 10/31)"
+   }
+  },
+  {
+   "report_id": "gitlab:2026-W45#2",
+   "company": "gitlab",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Advanced Capacity add-on (coming soon) at $12,000 per top-level group per year for higher API rate limits; no existing price changes.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "anthropic:2026-W45",
+   "company": "anthropic",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "Max (From $100, 5x or 20x Pro usage) split into Max at $100 and a separately named Ultra at $200 that replaces Max 20x, with 10x Pro usage per week.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "New tier: Ultra $200",
+    "deltaSub": "top tier split out, monthly",
+    "short": "Max is now $100 with 5x Pro usage, and Ultra at $200 replaces Max 20x with 10x Pro usage every week.",
+    "headline": "Anthropic split its Max plan into Max at $100 and a separately named Ultra at $200, replacing the Max 20x option.",
+    "rows": [
+     [
+      "Entry plan, monthly",
+      "From $100, 5x or 20x Pro usage",
+      "Max, $100, 5x Pro usage"
+     ],
+     [
+      "Top tier, monthly",
+      "$200",
+      "$200"
+     ],
+     [
+      "Top tier usage vs Pro, weekly",
+      "20x label",
+      "10x"
+     ],
+     [
+      "Max card promise",
+      "Higher output limits for all tasks",
+      "Not listed"
+     ]
+    ],
+    "who": "Max subscribers and anyone choosing between the $100 and $200 tiers; the saved text does not say how existing 20x subscribers are moved.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The prices and API credits carry over, but the top tier is now labelled 10x Pro usage per week instead of 20x, so the same $200 may buy less weekly usage. Having Ultra as its own named plan also lets Anthropic change the top tier without touching Max.",
+    "caveat": "The 20x label and the 10x weekly figure may not be measured the same way; the old plan's weekly limits are not shown in the saved text.",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": null,
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "top",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "3cx:2026-W41",
+   "company": null,
+   "new_company": {
+    "name": "3CX",
+    "category": "Collaboration & Productivity",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.3cx.com/ordering/pricing/"
+    ],
+    "domains": [
+     "3cx.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/3cx/diffs/2026W41",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Summer Promotions banner (50% off hosting, 30% off 3+ years, offer ended 30 September 2026) was removed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "Summer Promotions ended: 50% off hosting, 25% off upgrades, 30% off 3+ years, 20% off education (offer ran to 30 September 2026)"
+   }
+  },
+  {
+   "report_id": "zoom.events:2026-W40",
+   "company": "zoom",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Conference Room Connector (SIP/H.323) add-on at $49/month listed for Events; a new priced add-on, no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "zoho.subscriptions:2026-W40",
+   "company": "zoho",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Enterprise Edition gained guided selling support; the 1% cashback banner is a Zoho Payments offer for new users, not a discount on the plans.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "zoho.social:2026-W40",
+   "company": "zoho",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Channels per brand raised from 12 to 14 on Standard and Professional and from 14 to 16 on Premium; Bulk Messaging added to Premium.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "+17%",
+    "deltaSub": "channels per brand, Standard and Professional",
+    "short": "Channels per brand rise from 12 to 14 on Standard and Professional and from 14 to 16 on Premium, with Bulk Messaging added to Premium.",
+    "headline": "Zoho Social raised the number of social channels included per brand on its three lower plans, adding Snapchat and Arattai.",
+    "rows": [
+     [
+      "Standard and Professional, channels per brand",
+      "12",
+      "14"
+     ],
+     [
+      "Premium, channels per brand",
+      "14",
+      "16"
+     ],
+     [
+      "Premium, Bulk Messaging",
+      "Not offered",
+      "Bulk Messaging"
+     ]
+    ],
+    "who": "Customers on Standard, Professional and Premium; prices are not reported as changed.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "More channels at the same prices makes the lower plans easier to justify against Agency plans, and the two new platforms account for the extra room.",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": {
+     "low": 14,
+     "high": 17,
+     "basis": "allowance"
+    },
+    "pattern": "Limits loosen",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "zoho.sites:2026-W40",
+   "company": "zoho",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as zoho-2026w40 (AI credit allowances and form-submission caps per plan).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "zenzap:2026-W40",
+   "company": "zenzap",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as zenzap-2026w40 (AI agent features now from the $50 Individual tier).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "zenfolio:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Zenfolio",
+    "category": "Marketing & Content",
+    "segment": "Both",
+    "pricing_urls": [
+     "https://zenfolio.com/plans-pricing/"
+    ],
+    "domains": [
+     "zenfolio.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/zenfolio/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_reveal",
+   "why": "A new FAQ section shows selling fees (7% commerce fee, digital download fees, Stripe and PayPal processing) for the first time.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "zapier:2026-W40",
+   "company": "zapier",
+   "new_company": null,
+   "kind": "wording",
+   "why": "'Zap workflows' renamed 'Zaps' on plan cards; prices and limits unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "yodeck:2026-W40",
+   "company": "yodeck",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Enterprise plan gained a Content Flows feature; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "workstream:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Workstream",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.workstream.us/pricing"
+    ],
+    "domains": [
+     "workstream.us"
+    ],
+    "source_url": "https://pricingsaas.com/companies/workstream/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Hero offer changed from up to 8 months of payroll free to 65% off the first year of payroll.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Payroll switch offer: 65% off first year (was up to 8 months of payroll free)"
+   }
+  },
+  {
+   "report_id": "workstars:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Workstars",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.workstars.com/pricing"
+    ],
+    "domains": [
+     "workstars.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/workstars/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "Three tiers (Entry $2.00, Pro $4.00, Global $5.50 per user per month) replaced by one $3 per employee per month plan with all features.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "3 tiers → $3 flat",
+    "short": "Entry $2.00, Pro $4.00 and Global $5.50 per user per month are replaced by one $3 per employee per month plan with all features included.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "woodpecker:2026-W40",
+   "company": "woodpecker",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as woodpecker-2026w40 (free verification broadened to all emails).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "whalesync:2026-W40",
+   "company": "whalesync",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New connectors added to Starter and Plus and a Live Export connectors category; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "vultr:2026-W40",
+   "company": "vultr",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "NVIDIA A16 2-GPU Cloud GPU tier system RAM cut from 128GB to 120GB at an unchanged $0.942/hr.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "128GB → 120GB",
+    "short": "System RAM on the NVIDIA A16 2-GPU Cloud GPU tier drops from 128GB to 120GB while the price stays at $0.942/hr.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "vistasocial:2026-W40",
+   "company": "vista-social",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Price rises already recorded as vistasocial-2026w40 (Professional $79 → $99, Advanced $149 → $199, Scale $349 → $449).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "virtru:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Virtru",
+    "category": "Cybersecurity & Identity Management",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.virtru.com/data-security-platform/pricing-packages"
+    ],
+    "domains": [
+     "virtru.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/virtru/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Compliance plan encryption certification wording moved from FIPS 140-2 to FIPS 140-3 validated; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "viasat:2026-W40",
+   "company": "viasat",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Contract options now offer a 24-month minimum term instead of 12 months, next to month-to-month.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "12 → 24 months",
+    "short": "The minimum service term option moves from 12 months to 24 months, with month-to-month still offered.",
+    "pattern": "Minimums",
+    "seg": "B2C",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "verbit:2026-W40",
+   "company": "verbit",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Legal plan repackaging already recorded as verbit-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "verbit.pricingpackage:2026-W40",
+   "company": "verbit",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Same Legal plan change already recorded as verbit-2026w40 (unlimited hours and mobile app dropped).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "usebraintrust:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Braintrust",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.usebraintrust.com/pricing"
+    ],
+    "domains": [
+     "usebraintrust.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/usebraintrust/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Pricing page rebuilt to lead with AIR and its volume-based model; copy and layout only, no public price.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "upstage:2026-W40",
+   "company": "upstage",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Solar Mini 4 model added to the price list ($0.10 input, $0.40 output per 1M tokens, 50% launch discount to Oct 22); existing prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "upstage.api:2026-W40",
+   "company": "upstage",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Same Solar Mini 4 launch as the upstage:2026-W40 report.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "unleashedsoftware:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Unleashed Software",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.unleashedsoftware.com/en-us/pricing/"
+    ],
+    "domains": [
+     "unleashedsoftware.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/unleashedsoftware/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "support",
+   "why": "Support packages dropped the 2 Hour Response SLA and added account review, customer success access and consultancy time.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "ukko:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "UKKO.fi",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://ukko.fi/en/entrepreneur/pricing/"
+    ],
+    "domains": [
+     "ukko.fi"
+    ],
+    "source_url": "https://pricingsaas.com/companies/ukko/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New Ulkomaankauppa foreign-trade invoicing add-on at €10/month; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "udemy:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Udemy",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://business.udemy.com/plans/"
+    ],
+    "domains": [
+     "business.udemy.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/udemy/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Team Plan 30% first-year promo expired and the shown price went from $252.00 back to the full $360.00 per user per year.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "Team Plan 'Back to Business' 30% first-year promo ended: $252.00 → $360.00 per user per year"
+   }
+  },
+  {
+   "report_id": "turbotenant:2026-W40",
+   "company": "turbotenant",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Lower renter screening fee ($45) is now labelled for Pro landlords instead of upgraded landlords, and Essentials loses the Lower Screening Fees perk.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Pro-only screening fee",
+    "short": "The lower $45 renter screening fee moves from upgraded landlords to Pro landlords only, so Essentials no longer gets it.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "tryprofound:2026-W40",
+   "company": "profound",
+   "new_company": null,
+   "kind": "trial",
+   "why": "Trial plan allowance expanded from 10 prompts run once to 50 prompts run daily for 7 days and more platforms; a trial change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "trustpilot:2026-W40",
+   "company": "trustpilot",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "QR Code Review Collector and multi-domain rows added to the comparison table; Enterprise widgets 22 to 23 is a minor limit change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "trustpilot.business:2026-W40",
+   "company": "trustpilot",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Same change as the trustpilot:2026-W40 report.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "transifex:2026-W40",
+   "company": "transifex",
+   "new_company": null,
+   "kind": "trial",
+   "why": "Starter and Growth moved from a Contact Sales button to a self-serve free trial signup; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "topdesk:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "TOPdesk",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.topdesk.com/en/pricing/"
+    ],
+    "domains": [
+     "topdesk.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/topdesk/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "AI Triage feature added to the Excellent plan and AI capabilities itemised; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "tooljet:2026-W40",
+   "company": "tooljet",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "App limit increase already recorded as tooljet-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "thehive:2026-W40",
+   "company": "hive",
+   "new_company": null,
+   "kind": "promo",
+   "why": "DeepSeek-V4.1-Flash discounted rate cut 20% (input $0.15 → $0.12, output $0.60 → $0.48 per 1M tokens) while list price is unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "DeepSeek-V4.1-Flash discounted rate cut 20%: input $0.15 → $0.12, output $0.60 → $0.48 per 1M tokens (list $0.30 / $1.20)"
+   }
+  },
+  {
+   "report_id": "textus:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "TextUs",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/textus/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_increase",
+   "why": "WhatsApp Messaging add-on on the Pro plan (beta) rose from $29 to $49 per user.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+69%",
+    "short": "The WhatsApp Messaging add-on on Pro rises from $29 to $49 per user.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "templafy:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Templafy",
+    "category": "Collaboration & Productivity",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.templafy.com/home/pricing/"
+    ],
+    "domains": [
+     "templafy.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/templafy/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Team plan gained AI PowerPoint output editing and a Teams starter pack; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "teamwork:2026-W40",
+   "company": "teamwork",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as teamwork-2026w40 (AI credit billing pushed from September to November 2026).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "tavus:2026-W40",
+   "company": "tavus",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Maximum conversation duration on Growth and Business changed from 'Maximum' to a 60-minute cap; Enterprise changed to 'Custom'.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Maximum → 60 min",
+    "short": "The maximum conversation duration on Growth and Business goes from 'Maximum' to a 60-minute cap, and Enterprise goes from 'Maximum' to 'Custom'.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "surveymonkey:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "SurveyMonkey",
+    "category": "Data & Analytics",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/surveymonkey/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Team Advantage, Team Premier and Enterprise cards gained Best for taglines and rewritten descriptions; prices and features unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "surferseo:2026-W40",
+   "company": "surferseo",
+   "new_company": null,
+   "kind": "price_hidden",
+   "why": "Enterprise no longer shows its $999/month price and now says contact sales.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "supermetrics:2026-W40",
+   "company": "supermetrics",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Data API & MCP access, previously limited access on Starter (50,000 rows/month) and Growth (250,000 rows/month), is no longer offered on those plans; Enterprise keeps it.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "API & MCP removed",
+    "short": "Data API & MCP access dropped from Starter (was up to 50,000 rows/month) and Growth (was up to 250,000 rows/month); Enterprise keeps it.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "supabase:2026-W40",
+   "company": "supabase",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Metered log ingestion (20 GB included, then $0.50/GB) is already recorded as supabase-2026w40.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "stripe:2026-W40",
+   "company": "stripe",
+   "new_company": null,
+   "kind": "non_software",
+   "why": "Stripe Terminal card reader hardware (T600) removed from the readers lineup; devices, not software pricing.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "strikegraph:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Strike Graph",
+    "category": "Cybersecurity & Identity Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/strikegraph/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_hidden",
+   "why": "Certify plan price (starting at $10,000/yr) replaced with Inquire below; Scale and Enterprise prices stay visible.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "storylane:2026-W40",
+   "company": "storylane",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Feature moves (deal intelligence and offline demos to Growth, Media to Demo to Free) already recorded as storylane-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "storyblok:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Storyblok",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/storyblok/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Growth Plus card gained a value tagline; no functional or price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "stampli:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Stampli",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/stampli/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Branding of the full-automation matching capability changed from Cognitive AI to Billy in a comparison table; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "sparkpost:2026-W40",
+   "company": "sparkpost",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Balance/wallet rebuild with unit rates and the $24.95 dedicated IP add-on is already recorded as sparkpost-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "sosafe:2026-W40",
+   "company": "sosafe",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Plans now show a starting price of €625/month billed annually for 50 seats where they previously said Request pricing.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "smartsuite:2026-W40",
+   "company": "smartsuite",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Hosted MCP Server moved from coming soon to generally available; no price or tier change shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "smartlead:2026-W40",
+   "company": "smartlead",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Sitewide banner now offers 50% off the first month on any plan.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "50% off the first month on any plan (Base, Pro, Smart, Prime)"
+   }
+  },
+  {
+   "report_id": "smarterqueue:2026-W40",
+   "company": "smarterqueue",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "The three-tier lineup (Solo $24.99, Business $42.99, Agency $84.99) was replaced by two plans, Pro $21 and Team $42, with new post limits.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "3 → 2 plans",
+    "short": "Solo $24.99, Business $42.99 and Agency $84.99 replaced by Pro $21 and Team $42 a month, billed annually.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "skyvia:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Skyvia",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/skyvia/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Looker Studio Connector section relabeled Data Studio Connector in navigation; plan and price unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "skyvern:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Skyvern",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/skyvern/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New $10/month SMS number add-on listed on Pro; a new priced capability that changes no existing price.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "similarweb:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Similarweb",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/similarweb/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Ads Intel Suite feature list relabeled (Paid Search analysis, Display & Social ads), AI ads added and cross channel visibility dropped; no price or tier change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "signalhire:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "SignalHire",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/signalhire/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Advertised database size changed from 850M+ to 900M+ profiles; a marketing claim, not an allowance, at unchanged prices.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shutterstock:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Shutterstock",
+    "category": "Marketing & Content",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/shutterstock/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Billing toggle removed and plan prices now prefixed with From; no before/after price shown, so treated as a presentation change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shortcut:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Shortcut",
+    "category": "Project Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/shortcut/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Observers role added to the User Roles row for Team, Business and Enterprise; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shopware:2026-W40",
+   "company": "shopware",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Image editor removal from Intelligence+ is already recorded as shopware-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "shiprocket:2026-W40",
+   "company": "shiprocket",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The top-of-page FLAT500 banner (₹500 recharge for ₹1000 wallet credit, first recharge only) was removed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "FLAT500 wallet offer (₹500 recharge for ₹1000 wallet credit, first recharge only) banner removed from the pricing page"
+   }
+  },
+  {
+   "report_id": "shapr3d:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Shapr3D",
+    "category": "Collaboration & Productivity",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/shapr3d/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "A Compare Subscriptions table was added and one Studio marketing bullet (Vision Pro individual design) dropped; no price, limit or tier change shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "sendcloud:2026-W40",
+   "company": "sendcloud",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Removal of the free-plan overage rate (was €0.50 a label) is already recorded as sendcloud-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "semrush:2026-W40",
+   "company": "semrush",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "The new $0 Free plan is already recorded as semrush-2026w40.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "seamless:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Seamless.AI",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/seamless/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "The 1 Credit = Phone + Email clarification line was removed from the Pro plan with no replacement; no stated change to credit rules or prices.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "scite:2026-W40",
+   "company": "scite",
+   "new_company": null,
+   "kind": "promo",
+   "why": "A Fall sale banner (30% off, ends Sept 30, 2026) temporarily lowers Basic from $20 to $14 and Pro from $50 to $35 a month.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Fall sale: 30% off applied, Basic $20 → $14 and Pro $50 → $35 a month, ends 30 Sep 2026"
+   }
+  },
+  {
+   "report_id": "rollbar:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Rollbar",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/rollbar/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "A new Improve metrics on the account dashboard row was added to the compare matrix for Advanced and Enterprise; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "rocketlawyer:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Rocket Lawyer",
+    "category": "Business Operations",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/rocketlawyer/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_cut",
+   "why": "Trademark services add-on on Plus and Pro went from $400 and up to starting at $350.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "$400 → $350",
+    "short": "Trademark services add-on on Plus and Pro goes from $400 and up to starting at $350.",
+    "pattern": "Price cut",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "roboflow:2026-W40",
+   "company": "roboflow",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Roboflow Agent added to the all-plans feature list; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "respondent:2026-W40",
+   "company": "respondent",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Move from prepaid credit bundles to annual commitments is already recorded as respondent-2026w40.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "resemble:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Resemble AI",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/resemble/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New Agent Detection product priced at $1 per 1,000 sessions; a new capability that changes no existing price.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "render:2026-W40",
+   "company": "render",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Maximum Workflows compute doubled from 4 CPU / 16 GB RAM to 8 CPU / 32 GB RAM, with a new $2.50/hour top tier in the Workflows price table.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "×2",
+    "deltaSub": "max Workflows compute",
+    "plan": "Workflows",
+    "short": "Maximum Workflows compute doubles from 4 CPU / 16 GB RAM to 8 CPU / 32 GB RAM, with a new $2.50/hour tier.",
+    "headline": "Render doubled the largest compute size available to Workflows and added a $2.50/hour tier for it.",
+    "rows": [
+     [
+      "Max Workflows compute",
+      "4 CPU / 16 GB RAM",
+      "8 CPU / 32 GB RAM"
+     ],
+     [
+      "Top compute tier price",
+      "Not offered",
+      "$2.50/hour"
+     ]
+    ],
+    "who": "Customers running Workflows; the larger size is an option, existing sizes are not shown as repriced.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A bigger ceiling lets heavier jobs run on Workflows at a metered hourly rate, which looks like a push to keep larger background workloads on the platform.",
+    "caveat": "The source lists the limit under a Scale field; it is not clear from the saved text whether it applies only to the Scale plan.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2,
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": {
+     "low": 100,
+     "high": 100,
+     "basis": "allowance"
+    }
+   },
+   "promo": null
+  },
+  {
+   "report_id": "relativity:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Relativity",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/relativity/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "GPT Enterprise added to the list of AI assistants supported by the aiR MCP integration; no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "regie:2026-W40",
+   "company": "regie",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "A per-seat Team plan was added at $125/$150 a seat a month and Free now allows up to 10 people sharing one credit pool; the existing record only covers the dialer move.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Team $125 / $150",
+    "short": "New per-seat Team plan at $125 or $150 a seat a month; Free grows from a single user to up to 10 people sharing one credit pool.",
+    "pattern": "New tier",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "reflex:2026-W40",
+   "company": "reflex",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Pro hosted-app cap changed from a fixed 10 apps to Multiple, and Enterprise cloud choice narrowed from AWS/GCP/Azure/Databricks to Google Cloud only.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "10 apps → Multiple",
+    "short": "Pro hosted-app cap goes from 10 apps to Multiple; Enterprise cloud narrows from AWS/GCP/Azure/Databricks to Google Cloud only.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "readme:2026-W40",
+   "company": "readme",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Rebase & Resolve Conflicts and MCP Metrics added to the plan grid and Theme editor renamed Themes; no price or tier change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "radar:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Radar",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/radar/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "How pricing works summary rewritten to say plans are annual commitments and evaluation period became technical validation period; no price change shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "quicken:2026-W40",
+   "company": "quicken",
+   "new_company": null,
+   "kind": "promo",
+   "why": "First-year promotional offer deadline in the footnote extended from October 18, 2026 to October 24, 2026.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "First-year offer deadline extended from 18 Oct to 24 Oct 2026, 11:59 PT"
+   }
+  },
+  {
+   "report_id": "quartzy:2026-W40",
+   "company": "quartzy",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The New Subscriber Program no longer states its October 31, 2026 enrollment deadline; the $750/$3,000 Shop credit amounts are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "New Subscriber Program Shop credit ($750 / $3,000) no longer shows its 31 Oct 2026 enrollment deadline"
+   }
+  },
+  {
+   "report_id": "qualified:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Qualified",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/qualified/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "feature_move",
+   "why": "Ultimate swapped Multiple Production Instances for a Dedicated IP address and Enterprise dropped Custom Cookie & Data Retention Policies while gaining Agent handoff.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Feature swap",
+    "short": "Ultimate swaps Multiple Production Instances for a Dedicated IP address; Enterprise drops Custom Cookie & Data Retention Policies and gains Agent handoff.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pulumi:2026-W40",
+   "company": "pulumi",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Enterprise moved from Custom / Contact sales to a published $2,000/month base: a price shown for the first time.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "pubnub:2026-W40",
+   "company": "pubnub",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Serverless Functions bullets (5 test on Free, 30 on Starter) no longer listed in the plan features.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Feature removed",
+    "short": "Serverless Functions (5 test on Free, 30 on Starter) no longer appear in the plan feature lists.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "psychz:2026-W40",
+   "company": "psychz-networks",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Eight cMetal dedicated server plans rose $5 to $199 a month (e.g. $331 → $530) and one fell $234.00 → $219.00.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "up to +60%",
+    "short": "Eight cMetal plans rose $5–$199 a month (LA Dual Silver 4210 $331 → $530); one fell $234.00 → $219.00.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "prowler:2026-W40",
+   "company": "prowler",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as prowler-2026w40 (cloud-accounts pricing and new free trial tier).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "preppr:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Preppr",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/preppr/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_hidden",
+   "why": "Enterprise price (Starting at $20,000 annually, $6,000 per extra user) replaced by custom pricing.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "practicebetter:2026-W40",
+   "company": "practice-better",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Connector Hub add-on at $49/month for integrations; changes no existing price.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "powermyanalytics:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Power My Analytics",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/powermyanalytics/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Data Destinations line item added to every plan; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "postscript:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Postscript",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/postscript/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_reveal",
+   "why": "Postscript AI Plan price ($699/mo) shown for the first time; struck-through SMS comparisons and Enterprise support items also changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "postman:2026-W40",
+   "company": "postman",
+   "new_company": null,
+   "kind": "metering",
+   "why": "New Context Graph usage meter: API queries 1,000/mo free on Free and 5,000/mo on paid tiers, then $0.01 per query.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "$0.01 / query",
+    "short": "Context Graph API queries are now metered: 1,000/mo free on Free, 5,000/mo on Solo, Team and Enterprise, then $0.01 per query.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "podia:2026-W40",
+   "company": "podia",
+   "new_company": null,
+   "kind": "trial",
+   "why": "Free trial shortened from 30 to 14 days; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "plaky:2026-W40",
+   "company": "plaky",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Public board link row on Pro and Enterprise; no existing price or tier changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W40",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Top-up credits restricted to Pika Create on pika.art and blocked for API, MCP, iOS app and old.pika.art; the $25 pack removal is already recorded as pika-2026w40.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Create only",
+    "short": "Top-up credits now work only in Pika Create on pika.art, not with the API, MCP, iOS app or old.pika.art.",
+    "pattern": "Limits tighten",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "picsart:2026-W40",
+   "company": "picsart",
+   "new_company": null,
+   "kind": "metering",
+   "why": "Seedance 2.5 quota counted in seconds instead of videos (Pro ~83 videos → ~250 seconds, Ultra ~416 → ~1,250 seconds).",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Videos → seconds",
+    "short": "Seedance 2.5 quota now counted in seconds: Pro ~83 videos → ~250 seconds, Ultra ~416 videos → ~1,250 seconds.",
+    "pattern": "New billing units",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pickfu:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "PickFu",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/pickfu/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "limit_change",
+   "why": "Pay as you go audience targeting widened: traits 90+ → 100+ and countries 14 → 15.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "14 → 15 countries",
+    "short": "Pay as you go audience targeting widened: traits 90+ → 100+, countries 14 → 15.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "passbolt:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Passbolt",
+    "category": "Cybersecurity & Identity Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/passbolt/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Offline Mode (BETA) row added to the feature table; no price or tier changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "parabol:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Parabol",
+    "category": "Project Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/parabol/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Team Health expanded into a fuller module on Team and Enterprise; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "pandadoc:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "PandaDoc",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/pandadoc/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Comparison table gained AI search, extraction, Assistant, document digest and other rows; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "orderry:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Orderry",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/orderry/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Banner offering one month free to new signups before September 30.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "One month free for new signups before 30 Sep"
+   }
+  },
+  {
+   "report_id": "opensolr:2026-W40",
+   "company": "opensolr",
+   "new_company": null,
+   "kind": "support",
+   "why": "Medium and Large support wording changed from Priority Email & Helpdesk Support to Priority Email Support.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "openrouter:2026-W40",
+   "company": "openrouter",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Workload Identity Federation row added for Business and Enterprise; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "openart:2026-W40",
+   "company": "openart",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Top banner promo switched from the Wonder unlimited-video offer to 30% off all MiniMax H3 models for upgrades, ending Oct 4.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "30% off all MiniMax H3 models for upgrades until 4 Oct, replacing the Wonder unlimited-video offer"
+   }
+  },
+  {
+   "report_id": "onpipeline:2026-W40",
+   "company": "onpipeline",
+   "new_company": null,
+   "kind": "trial",
+   "why": "Free trial cut from 30 to 14 days; a new AI row (20, 45, 60 requests a month) was also added but is secondary.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "onna:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Onna",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/onna/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Dec 31 promotional pricing callout added alongside a restructure into Onna and Corporate Suite tiers with no prices shown.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Promotional pricing callout on the pricing page, valid until 31 Dec"
+   }
+  },
+  {
+   "report_id": "oneflow:2026-W40",
+   "company": "oneflow",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as oneflow-2026w40 (AI Review and Insights moved to a paid add-on).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "omniconvert:2026-W40",
+   "company": "omniconvert",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "AI A/B Testing added to Explore feature list; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "odoo:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Odoo",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/odoo/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "New priced Light User license at $8.90 added below the Custom plan; Agentic AI also added to Custom.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "New $8.90 license",
+    "short": "New Light User license at $8.90 added below the Custom plan; Agentic AI added to Custom.",
+    "pattern": "New tier",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "observablehq:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Observable",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/observablehq/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Team plan button changed from Coming soon to Get started; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "nylas:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Nylas",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/nylas/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Five Notetaker capability rows added to the comparison table; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "numeric:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Numeric",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/numeric/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_hidden",
+   "why": "Essentials $30/month/user price removed; page now shows demo-only modules without prices.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "nightfall:2026-W40",
+   "company": "nightfall-ai",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Plans renamed Foundation Edition and Premier Edition; tier structure and pricing model unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "nexla:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Nexla",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/nexla/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "limit_change",
+   "why": "Pro connector allowance shown as 1000+ Enterprise Connectors, up from 100+ Automated API Connectors.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×10",
+    "short": "Pro plan connectors listed as 1000+ Enterprise Connectors, up from 100+ Automated API Connectors.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "nativemsg:2026-W40",
+   "company": "nativemsg",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as nativemsg-2026w40 (new free-forever RCS plan).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "nacelle:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Nacelle",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/nacelle/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "$399/mo Standard and custom Enterprise plans replaced by Delta at $500/mo plus 20% of incremental revenue; 21-day free trial dropped.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "$399 → $500 + 20%",
+    "short": "Standard ($399/mo) and Enterprise plans replaced by Delta at $500/mo plus 20% of incremental revenue; the 21-day free trial is gone.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "mwtherapy:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "MWTherapy",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/mwtherapy/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Pricing cards now itemize plan features and disclose an unlimited AI scribe on AI Premium Plus; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "msg91:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "MSG91",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/msg91/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Hello BOT AI Chat rate card grew from 1 model to 100+ LLM models; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "moxtra:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Moxo",
+    "category": "Collaboration & Productivity",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/moxtra/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Scale plan no longer shows its flow and AI-credit caps, only Unlimited seats; the page disclosure changed, not a stated limit.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mobilexpense:2026-W40",
+   "company": null,
+   "new_company": {
+    "name": "Mobilexpense",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/mobilexpense/diffs/2026W40",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Compliance list updated: NIS2 and DORA added, TISAX dropped; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mobbin:2026-W40",
+   "company": "mobbin",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Finance add-on now covers 73+ apps; price unchanged at $399/mo.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mintlify:2026-W40",
+   "company": "mintlify",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "WebMCP support and Narration rows added to the comparison table, not included on Starter; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

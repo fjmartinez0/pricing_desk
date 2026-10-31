@@ -1,0 +1,402 @@
+=== https://n8n.io/pricing/ ===
+See llms.txt for all machine-readable content.
+Pricing
+All plans include unlimited users & workflows and every integration. Pricing is
+based on monthly workflow executions, regardless of complexity.
+Monthly
+Annually
+(Save 17%)
+Starter
+Build and run your first workflows and agents.
+20€/mo, billed annually
+2.5Kworkflow executionswith unlimited steps
+Start free trial
+No credit card required
+Hosted by n8n
+This plan includes:
+1 shared project
+5 concurrent executions
+Agents, MCP and AI nodes
+1,600 Assistant credits/month
+AI models without API keys
+Forum support
+Pro
+For solo builders and small teams running automations in production.
+50€/mo, billed annually
+10Kworkflow executionswith unlimited steps
+Start free trial
+No credit card required
+Hosted by n8n
+Everything in Starter plan, plus:
+3 shared projects
+Up to 50 concurrent executions
+7 days of insights
+Up to 9,600 Assistant credits/month
+Admin roles
+Metric-based evaluations
+Workflow history
+Business
+For companies with < 100 employees needing collaboration and scale.
+667€/mo, billed annually
+40Kworkflow executionswith unlimited steps
+Start free trial
+Self-hosted only
+Self-hosted Hosted by n8n?
+Everything in Pro plan, plus:
+6 shared projects
+SSO and LDAP
+30 days of insights
+Assistant (preview)
+Multiple environments
+Queue mode for scaling
+Version control using Git
+Forum support
+Enterprise
+For organizations with strict compliance and governance needs.
+Contact Sales
+Custom workflow executions
+Contact sales
+Hosted by n8n or Self-hosted
+Everything in Business plan, plus:
+Unlimited shared projects
+200+ concurrent executions
+365 days of insights
+External secret store integration
+End-user credentials (preview)
+Log streaming
+Extended data retention
+Dedicated support with SLA
+Assistant preview on request
+If it doesn’t run,
+you don’t pay
+Unlike other tools that charge per step or user, n8n lets you build freely and only pay when a workflow runs from start to finish.
+Get StartedTalk to sales
+Need something a bit different?
+Startup plan
+Under 20 employees? Check if you qualify for our Startup plan and get 50% off Business.
+Learn more
+Community Edition
+A standard, self-hosted version of n8n is available on GitHub.
+209,105Learn more
+Trusted by teams building smarter workflows.
+What’s included?
+Cloud
+Self-hosted
+Core features
+Starter
+Pro
+Enterprise
+Leading editor UI
+Included
+Assistant (preview)
+Included
+On request
+Assistant credits (preview)
+1,600/month
+Up to 9,600/month
+N/A
+All integrations (nodes)
+Included
+Workflow templates
+Included
+Data tables
+Included
+Workflow history - max days
+1
+5
+365+
+Agents
+Starter
+Pro
+Enterprise
+Agents (preview)
+Included
+AI Agent node and AI steps
+Included
+MCP Server Trigger
+Included
+MCP Client
+Included
+Instance-level MCP
+Included
+Human approval for tool calls
+Included
+Hosted and embedded chat
+Included
+Gateway credits
+Included
+Not included
+Test and monitor AI
+Starter
+Pro
+Enterprise
+Light evaluations
+Included
+Metric-based evaluations
+1 workflow
+Unlimited
+LangSmith tracing
+Available in self-hosted
+OpenTelemetry tracing (preview)
+Available in self-hosted
+Developer tools
+Starter
+Pro
+Enterprise
+Code steps in workflows (JS/Python)
+Included
+Custom API requests (HTTP, GraphQL, etc.)
+Included
+Import cURL commands
+Included
+Trigger from webhooks, queues
+Included
+Control n8n via API
+Included
+Control n8n via CLI
+Included
+Run bash scripts
+Available in self-hosted
+Custom nodes
+Available in self-hosted
+Global Variables
+Not included
+Included
+Control n8n via API - additional scope control
+Not included
+Included
+Environments and version control
+Starter
+Pro
+Enterprise
+Environments
+Not included
+Included
+Version control using Git
+Not included
+Included
+Instances included
+Not included
+2 (dev, prod)
+Workflow Diff
+Not included
+Included
+Executions and limits
+Starter
+Pro
+Enterprise
+Max active workflows
+Unlimited
+Automatic retries
+Included
+Max saved executions
+2.5k
+25k
+50k
+Saved-execution storage
+2.5 GB
+25 GB
+50 GB
+Max execution log retention
+7 days
+30 days
+Unlimited
+Concurrent executions
+5
+20 / 50
+200+
+Max execution duration
+5 min
+40 min
+Overage fees
+Capped
+Custom
+Security and credentials
+Starter
+Pro
+Enterprise
+AI usage controls
+Included
+Encrypted credential store
+Included
+Credential sharing
+Included
+SSO and LDAP
+Not included
+Included
+End-user credentials (preview)
+Not included
+Included
+External secret store integration
+Not included
+Included
+Execution data redaction
+Not included
+Included
+Enforce 2FA across the instance
+Not included
+Included
+Debugging
+Starter
+Pro
+Enterprise
+Execution logging
+Included
+Error workflows
+Included
+Debug in editor
+Included
+Search executions by the data they contain
+Not included
+Included
+Audit logging
+Not included
+Included
+Stream logs to external services (e.g. Datadog)
+Not included
+Included
+Collaboration
+Starter
+Pro
+Enterprise
+Users
+Unlimited
+Shared projects
+1
+3
+Unlimited
+Project admins
+Included
+Project editors
+Not included
+Included
+Instance admins
+Not included
+Included
+Project viewers
+Not included
+Included
+Custom roles
+Not included
+Included
+Enterprise Scaling
+Starter
+Pro
+Enterprise
+Queue mode (Multiple instances)
+Not included
+Included
+External storage in S3
+N/A
+Worker view
+Not included
+Included
+Multi-main
+Not included
+Coming soon
+Insights
+Starter
+Pro
+Enterprise
+Overview banner
+Included
+Table with workflow metrics and sorting feature
+Not included
+Included
+Dashboard with evolution over time
+Not included
+Included
+Filtering: date range
+Not included
+7-14 days
+24h to 365 days
+Granularity
+Not included
+Days
+Hourly, Daily, Weekly
+Support
+Starter
+Pro
+Enterprise
+Access to our friendly forum
+Included
+Email support
+Not included
+Included
+Dedicated support with SLA
+Not included
+Included
+Billing and contract
+Starter
+Pro
+Enterprise
+Pay by invoice
+Not included
+Included
+Sales assisted procurement
+Not included
+Included
+See your work working
+What’s included in the n8n free trial?
+When you start a free trial of n8n Cloud, you get:
+Pro-level features: Global Variables, Insights (including the dashboard and 14-day history), 5-day workflow history, advanced execution filters, unlimited evaluations, folders and Assistant
+Trial limits: 1,000 executions, 5 concurrent executions, a 180-second execution timeout, and 1 team project
+800 Assistant credits, plus 100 AI credits
+Not included: Admin Roles, the project Editor role, Named Versions, Workflow Diffs, and the n8n public API
+When you start a free trial on the Business plan, you’ll get full access to all Business features for 14 days.
+No credit card is required for the n8n Cloud trial. A credit card is only required for the Business plan free trial.
+What are executions (and why are they more powerful than on other products)?
+Executions are much more powerful than the ‘operations’ or ‘tasks’ that you’re billed on in other products.
+An execution is a single run of your entire workflow. It doesn’t matter how many steps are in the workflow or how much data it processes. It’s still a single execution.
+This makes your usage more predictable than other tools where you pay individually for every step or task. Plus n8n workflows you can do things in a single execution that would take 10,000 operations in other tools.
+How do Assistant credits work?
+Assistant (currently in preview) is included in all n8n Cloud plans except Enterprise. Each plan comes with a monthly allowance of Assistant credits: 1,600 on Starter and 4,000 or 9,600 on Pro, depending on your plan size.
+Free trials include 800 credits, which expire when the trial ends.
+Credits are consumed as you use Assistant. How much depends on the size and complexity of what you’re building. Your balance refreshes every month, and unused credits don’t roll over. You are able to purchase extra credits. These are consumed once your plan’s included credits run out.
+On self-hosted n8n, Assistant is available in preview. You bring your own key (BYOK), so no credit limits apply.
+More about Assistant and credits
+How can I assess how many production executions I need?
+If you're already using n8n, you can assess your weekly or monthly usage by reviewing your instance's execution logs.If you're not yet using n8n, you can estimate your usage by listing your main use cases and evaluating how often each one will run. Here are a few examples:
+Scheduled workflows: For workflows triggered on a regular schedule, count how many times the schedule runs in a month. For instance, a daily schedule would result in 30 or 31 executions per month, while one that runs every 5 minutes would result in about 8,600–8,900 executions monthly.
+Webhook-based workflows: Estimate how many times the event that triggers your webhook occurs per day. That number equals your daily executions.
+Chatbot use case: Estimate how many conversations the chatbot will handle each week, based on your user base and expected frequency of interaction. Then multiply that by the average number of messages per conversation. This gives you the total weekly executions for the chatbot.
+How will I see how many production executions I've used?
+You can review your production execution counts under your Insights Dashboard. Additionally, if you are a Business plan user you will receive a weekly email providing you with your production execution counts across all instances where you may have applied your Business plan license key. For annual Business plan subscribers, the n8n team will reach out to you when you are close to reaching 80% of your annual quota.
+How many executions does n8n keep, and for how long?
+We keep your most recent executions so you can inspect and debug them. Each plan has a limit on the number of saved executions, a limit on the total storage they use (in Cloud), and a retention window in days. We keep executions until you reach the first of those, then remove the oldest. Reaching a limit does not stop your workflows from running. It only changes how much history is retained.
+How does n8n monitor my usage on a self-hosted instance?
+To access Business or Enterprise features on your self-hosted instance, you receive a license key that must ping our license server daily to stay active. This ping includes data like the number of production executions, which helps us track usage. We also collect telemetry data by default, though you can choose to disable it. You can find more details on the data we collect here.
+Is the Business plan available on n8n Cloud?
+Not yet. The Business plan is currently only available for self-hosted n8n.
+If you’d like to use the Business plan hosted by n8n, join the waitlist and we’ll let you know when it’s available.
+Does the Business plan include support?
+The Business Plan is a self-serve option and dedicated support is supported only in our Enterprise plan.
+We encourage you to browse our community forum to find answers or post questions of your own.
+What is the difference between forum and dedicated support?
+Dedicated support means direct access to our in-house team, with guaranteed response times available through SLAs. It's built for teams who are running business-critical workflows and who need fast, reliable answers.
+Forum support is available through the n8n community, home to over 170,000 AI and automation enthusiasts, professionals, and community engineers ready to help and share solutions.
+What does 'collaborate on workflows' mean?
+It refers to the ability for multiple users to work together on automation workflows. This includes sharing workflows so others can edit, run, or review their executions, sharing credentials so teammates can use them in their own workflows, and managing access through role-based access control (RBAC) to ensure the right level of permissions for each user.
+What happens after I subscribe? How does the upgrade from Community to Business work?
+Once you subscribe to the Business plan and complete your payment, you'll receive your license key by email. You'll need to apply this key to your Community instance by following the steps outlined here. Keep in mind that n8n won't automatically cancel any of your existing subscriptions (like Starter, Pro, Startup, Enterprise, or other Business plans). If you want to cancel one of those, you'll need to do it yourself. If you're on an annual plan and want to switch to Business, reach out to our sales team.
+On how many instances can I apply my Business or Enterprise plan license key?
+You can use your license key on an unlimited number of instances. The combined usage from all instances where the license key is applied will count toward your quota.
+I subscribed to the Business or Enterprise plan. What happens when I hit my quota?
+If you exceed your quota, rest assured your workflows will continue running without interruption, but overage charges may apply if you do not upgrade to the next usage tier. When you are close to exceeding your quota, the sales team will reach out to discuss your usage.
+Can I cancel my Business plan subscription?
+Yes, if you're on a monthly commitment, you can cancel at any time. Your subscription will then end at the close of your current billing cycle. If you're on an annual commitment, the cancellation will take effect at the end of the annual term. n8n does not offer pro-rata refunds.
+Can I pay by wire transfer?
+Yes, we offer payment by invoice and wire transfer for the Annual Business plan and the Enterprise plan.If you prefer to pay for the Business plan annually by invoice or wire transfer, you can generate your contract directly through our self-service DocuSign form.
+Use this form for € payment
+Use this form for $ payment
+Once the contract is signed, your subscription will start and you’ll receive your license key.
+Is n8n secure? Where is my data stored?
+For hosted plans, data is stored within the EU, on servers located in Frankfurt, Germany. For self-hosted plans, it’s wherever you decide to host n8n.
+We take privacy and security extremely seriously. You can read more about our approach here.
+Do you have an affiliate program?
+Absolutely. Our affiliate program was designed to help you switch your audience and clients over to n8n. Learn more about our affiliate program here.
+Do you offer a discount for startups?
+We do, please refer to our Startup page for more information and retrieve a discount code.
+If I’m self-hosting, why would I pay based on execution usage?
+Our pricing is not tied to how much it cost us to run n8n but the value it brings to you and your organisation.
+Our Business and Enterprise plans offer features meant for companies that are driving measurable business outcomes with automation and AI. Most customers at this level see a clear return on investment, as automations save time, streamline operations, and even unlock new revenue streams.
