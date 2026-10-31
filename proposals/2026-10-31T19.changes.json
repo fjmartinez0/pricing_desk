@@ -1,0 +1,140 @@
+{
+ "type": "changes",
+ "run": "2026-10-31T19",
+ "items": [
+  {
+   "diff_id": "hubspot-2026-10-31T19",
+   "kind": "wording",
+   "why": "A single Content Agent (Beta) line disappeared from the agent list; no price, limit or tier change is visible.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "legalzoom-2026-10-31T19",
+   "kind": "feature_move",
+   "why": "Plans renamed Pro → Managed Service and Premium → Expert Service at unchanged upfront prices; attorney consultations moved out of the middle plan into the top plan, whose 30-day plan now renews at a higher price.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Attorney moved up",
+    "short": "Attorney consultations moved from the $249 plan to the $299 tier, whose 30-day plan now renews at $99/mo instead of $49/mo.",
+    "pattern": "Rename & reposition",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 3,
+    "plan": "Pro → Managed Service, Premium → Expert Service",
+    "deltaSub": "attorney access by plan",
+    "headline": "LegalZoom renamed its LLC plans and reshuffled them: the $249 plan now comes with a business advisor instead of attorney consultations, and the $299 plan adds a full team and tax filing with a higher renewal price.",
+    "rows": [
+     ["Pro → Managed Service, upfront", "$249", "$249"],
+     ["Premium → Expert Service, upfront", "$299", "$299"],
+     ["Top plan, 30-day plan auto-renews at", "$49/mo", "$99/mo"],
+     ["$249 plan, legal help", "Unlimited 30-minute attorney consultations", "Dedicated business advisors, not an attorney"],
+     ["$299 plan, taxes", "Not offered", "Annual tax filings prepped and filed for you"]
+    ],
+    "who": "New LLC formation buyers on the middle and top plans; the page does not say how existing subscribers are treated.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Upfront prices are held while attorney access, the costly part of the service, is reserved for the top plan. That pushes customers who want legal help toward the higher tier and its higher renewal price.",
+    "caveat": "The comparison snapshot is from 24 Oct. The phone number and some marketing copy also changed. State filing fees are extra on all plans.",
+    "model": "Hybrid",
+    "modelBefore": "Hybrid",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "wispr-flow-2026-10-31T19",
+   "kind": "limit_change",
+   "why": "Pro meetings allowance changed from Higher limits to Unlimited (subject to abuse limits), while the Free word limit no longer shows its 2,000/week figure.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Meetings unlimited",
+    "short": "Pro meetings go from Higher limits to Unlimited, and the Free word limit no longer shows 2,000/week.",
+    "pattern": "Limits loosen",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2,
+    "plan": "Flow Pro and Free",
+    "deltaSub": "Notetaker meetings, Pro",
+    "headline": "Wispr Flow now lists Notetaker meetings as unlimited on Pro and no longer states the 2,000 words a week cap on the Free plan.",
+    "rows": [
+     ["Pro, meetings", "Higher limits", "Unlimited*"],
+     ["Free, meetings", "Weekly limit", "Limited Notetaker"],
+     ["Free, word limit", "2,000/week on desktop", "Limited words per week"]
+    ],
+    "who": "Pro subscribers (looser meetings) and Free users (word cap no longer quantified).",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Removing the unlimited-meeting ceiling is a perk for paying users. Hiding the Free word number may signal the cap is being adjusted, so Free users may not know their allowance.",
+    "caveat": "Pro unlimited is marked as subject to abuse limits. The FAQ on the same page still mentions higher meeting limits, so the cap may not have changed. The Free cap may be unchanged and just no longer displayed.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "gitlab-2026-10-31T19",
+   "kind": "new_feature",
+   "why": "A coming-soon Advanced Capacity add-on ($12,000 per year) for higher GitLab.com rate limits was added; no existing price changes and it is not yet purchasable.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "leadmagic-2026-10-31T19",
+   "kind": "noise",
+   "why": "Only a footer call-to-action was added; the $99/mo entry price is not shown as changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "jobber-2026-10-31T19",
+   "kind": "promo",
+   "why": "The Save up to 40% new-customer offer ended on 30 Oct; list prices are unchanged and the page returns to standard annual savings.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "Save up to 40% new-customer offer on Core, Connect, Grow and Plus ended 30 Oct; page now shows save up to 25% with annual billing"
+   }
+  },
+  {
+   "diff_id": "on1-2026-10-31T19",
+   "kind": "promo",
+   "why": "The OCTSAVE discount code is in its last day and the October Bonus preset pack was removed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Code OCTSAVE applied, expires today; October Bonus 2027 Creative Pack of 100 Presets removed"
+   }
+  },
+  {
+   "diff_id": "builtwith-2026-10-31T19",
+   "kind": "noise",
+   "why": "Only CAD conversion figures, the technology count and an FAQ date example changed; USD prices are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "appian-2026-10-31T19",
+   "kind": "new_feature",
+   "why": "Agentic RPA and unlimited unauthenticated portal users were added to the feature table with no price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

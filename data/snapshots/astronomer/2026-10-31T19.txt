@@ -1,0 +1,124 @@
+=== https://www.astronomer.io/pricing/ ===
+Astronomer
+Pricing
+Flexible, usage-based pricing for teams of all sizes.
+Run Apache Airflow without the overhead. Astro's usage-based model means you only pay for the compute resources you actually use. Clusters, deployments, and workers scale with your workload.
+AstroFully-managed orchestration platform, powered by Apache Airflow.
+Private CloudRun Airflow-as-a-service in your environment.
+Monthly
+Annual
+Developer
+For teams building and testing pipelines.
+Deployments starting at $0.35/hr.
+Try for Free
+AI-powered Dag authoring & debugging
+Flexible, scale-to-zero compute
+Hibernating deployments
+API access
+Deployment rollbacks
+Compare this plan →
+Team
+For teams running production pipelines that require Airflow support & observability.
+Deployments starting at $0.42/hr.
+Try for Free
+Everything in Developer, plus:
+End-to-end observability & data quality
+Network isolation with Dedicated clusters
+High availability deployments
+Audit logging (7-day retention)
+24x5 support availability
+Compare this plan →
+Team
+For teams running production pipelines that require Airflow support & observability.
+Get a Quote
+AI-powered Dag authoring & debugging
+Flexible, scale-to-zero compute
+Hibernating deployments
+API access
+Deployment rollbacks
+End-to-end observability & data quality
+Network isolation with Dedicated clusters
+High availability deployments
+Audit logging (7-day retention)
+24x5 support availability
+Compare this plan →
+Business
+For teams running mission-critical pipelines that require 24x7 support.
+Get a Quote
+Everything in Team, plus:
+SSO enforcement
+CI/CD enforcement
+Audit logging (90-day retention)
+24x7 support availability (1 hour SLA)
+Compare this plan →
+Enterprise
+For teams managing Airflow at scale that require enterprise security & governance.
+Get a Quote
+Everything in Business, plus:
+Remote execution agents
+Custom RBAC
+SCIM provisioning
+IP access list
+Organization dashboards
+Compare this plan →
+Enterprise Business Critical
+For platform teams running Airflow where resiliency and rapid support response are essential.
+Get a Quote
+Everything in Enterprise, plus:
+Cross-region disaster recovery
+24x7 support availability (30 min SLA)
+Compare this plan →
+Astro Private Cloud
+Run Airflow-as-a-service in your environment.
+Manage deployments across multiple clusters and regions
+Air-gapped deployment support
+Enterprise SSO integration
+Deployment isolation
+Dynamic resources management
+In-place Airflow upgrades
+Houston API access
+Professional services installation assistance
+24/7 committer-led support
+Need help with migration, architecture, or ongoing optimization? We also offer service packages through Astronomer Professional Services. Learn more →
+How Astro pricing works
+Astro’s pricing model is usage-based. Deployments and Workers are billed separately on a metered basis, with additional costs for dedicated clusters, Astro Observe, and AI token usage.
+Cluster pricing
+Standard multi-tenant clusters are included on all plans at no cost. Dedicated single-tenant clusters are available starting at $2.40/hr for enhanced networking and security.
+Deployment pricing
+Each deployment includes the scheduler, webserver, and triggerer needed to run your pipelines. Deployments can be sized to fit your scheduling complexity and Dag volume. Deployments run continuously, with fixed hourly pricing based on size.
+Worker pricing
+Workers execute your individual Airflow tasks. Unlike other managed Airflow providers, workers on Astro automatically scale to zero when idle, so you never pay for unused capacity. Choose from 7 worker sizes to meet your task requirements (A5 to A160) starting at $0.13/hr.
+*Networking costs are passed through from the cloud provider.
+Observe pricing
+Astro Observe provides detailed cost and performance metrics, one-click root cause analysis, and complete lineage of your Airflow pipelines. Observe pricing is set as a percentage of your deployment and worker compute costs.
+ASTRO CLUSTER[STANDARD or DEDICATED]
+DEPLOYMENTSchedulerWebserverTriggerer
+Scales
+dynamically
+Worker A5
+DEPLOYMENTSchedulerWebserverTriggerer
+Scales
+dynamically
+Worker A10
+DEPLOYMENTSchedulerWebserverTriggerer
+Scales
+dynamically
+Worker A20
+Available on your preferred cloud marketplace.
+Purchase Astro directly through AWS, Azure, or GCP marketplaces and consolidate your cloud spending. Existing marketplace commitments and enterprise discount programs apply.
+AWS Marketplace
+Available with flexible pay-as-you-go or annual agreements.
+Try Free with AWS →
+Azure Marketplace
+Available with annual agreements.
+View in Marketplace →
+Google Cloud Marketplace
+Available with annual agreements.
+View in Marketplace →
+Snowflake Marketplace
+Integrate Astro with your Snowflake environment
+View in Marketplace →
+Not sure how Astro compares to other managed Airflow
+options?
+See the comparison →
+✖
