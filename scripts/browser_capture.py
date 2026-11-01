@@ -32,7 +32,16 @@ class BrowserSession:
                 self._start()
             page = self._context.new_page()
             try:
-                page.goto(url, wait_until="networkidle", timeout=timeout_ms)
+                try:
+                    page.goto(url, wait_until="networkidle", timeout=timeout_ms)
+                except Exception as e:
+                    # Some sites never go quiet (analytics, chat widgets, live updates). If the document itself
+                    # loaded, use what is on screen; capture.py still checks that it shows prices.
+                    if "Timeout" not in type(e).__name__:
+                        raise
+                    page.wait_for_load_state("domcontentloaded", timeout=15_000)
+                    page.wait_for_timeout(5000)
+                    return page.content()
                 page.wait_for_timeout(1500)  # late price widgets
                 return page.content()
             finally:
