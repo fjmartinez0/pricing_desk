@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import re
 import difflib
 import time
 
@@ -32,11 +33,15 @@ from normalize import html_to_text, looks_like_pricing
 
 
 # ---------------------------------------------------------------- fetching
+REFUSED_RX = re.compile(r"\bHTTP (401|403|429|503)\b")
+
+
 def fetch_company_text(entry: dict, browser_factory) -> tuple[str, bool]:
     """Fetch all pricing URLs of one company and return (combined text, switched_to_browser).
 
-    Static fetch first. If the static text shows no prices, try the browser once and,
-    if that shows prices, switch the company to browser mode for future runs.
+    Static fetch first. If the static text shows no prices, or the site refuses a plain request
+    (HTTP 401/403/429/503: bot protection), try the browser once and, if that shows prices, switch the
+    company to browser mode for future runs.
     """
     parts, switched = [], False
     for url in entry["pricing_urls"]:
@@ -46,7 +51,20 @@ def fetch_company_text(entry: dict, browser_factory) -> tuple[str, bool]:
         if entry.get("capture") == "browser":
             text = html_to_text(browser_factory().fetch_html(url), ignore)
         else:
-            text = html_to_text(fetch_html(url), ignore)
+            try:
+                text = html_to_text(fetch_html(url), ignore)
+            except FetchError as e:
+                if not REFUSED_RX.search(str(e)):
+                    raise
+                try:
+                    rendered = html_to_text(browser_factory().fetch_html(url), ignore)
+                except FetchError as e2:
+                    raise FetchError(f"{e}; browser also failed: {e2}") from e2
+                if not looks_like_pricing(rendered):
+                    raise FetchError(f"{e}; browser page shows no prices")
+                text, switched = rendered, True
+                parts.append(f"=== {url} ===\n{text}")
+                continue
             if not looks_like_pricing(text):
                 try:
                     rendered = html_to_text(browser_factory().fetch_html(url), ignore)

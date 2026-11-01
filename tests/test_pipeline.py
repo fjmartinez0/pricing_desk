@@ -48,6 +48,45 @@ class Weeks(unittest.TestCase):
         self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 20, 19, tzinfo=tz)))  # W43: before W44
 
 
+class BotProtection(unittest.TestCase):
+    """A site that refuses plain requests (HTTP 403) gets one browser try, then browser mode (OpenAI, 25 Oct)."""
+
+    class FakeBrowser:
+        def __init__(self, html=None, error=None):
+            self.html, self.error = html, error
+
+        def fetch_html(self, url):
+            if self.error:
+                raise capture.FetchError(self.error)
+            return self.html
+
+    def run_with(self, static_error, browser):
+        saved = capture.fetch_html
+
+        def refuse(url):
+            raise capture.FetchError(static_error)
+        capture.fetch_html = refuse
+        try:
+            return capture.fetch_company_text({"pricing_urls": ["https://example.com/pricing"]}, lambda: browser)
+        finally:
+            capture.fetch_html = saved
+
+    def test_403_switches_to_browser_when_it_shows_prices(self):
+        text, switched = self.run_with("HTTP 403", self.FakeBrowser((FIX / "intercom_after.html").read_text()))
+        self.assertTrue(switched)
+        self.assertIn("$19", text)
+
+    def test_403_with_failing_browser_is_still_a_failure(self):
+        with self.assertRaises(capture.FetchError) as cm:
+            self.run_with("HTTP 403", self.FakeBrowser(error="timeout"))
+        self.assertIn("browser also failed", str(cm.exception))
+
+    def test_404_does_not_try_the_browser(self):
+        with self.assertRaises(capture.FetchError) as cm:
+            self.run_with("HTTP 404", self.FakeBrowser(error="must not be called"))
+        self.assertEqual(str(cm.exception), "HTTP 404")              # a missing page is not bot protection
+
+
 class Text(unittest.TestCase):
     def test_normalize_drops_scripts_nav_footer(self):
         text = html_to_text((FIX / "intercom_before.html").read_text())

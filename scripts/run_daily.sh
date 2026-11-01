@@ -32,6 +32,8 @@ rm -f ".run/problems_$RUN.jsonl" ".run/agent_limited_$RUN"   # a 2nd run in the 
 
 fail() {
   echo "FAILED at: $1"
+  # send the problems already raised in this run (e.g. a company failing to load); step 9 won't run
+  [ -f .run/desk_before.json ] && python3 scripts/notify.py --before .run/desk_before.json || true
   python3 scripts/notify.py --problem "Run $RUN stopped at: $1. Details in $LOG on the Mac mini."
   exit 1
 }

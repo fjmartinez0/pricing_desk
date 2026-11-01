@@ -5710,3 +5710,5 @@
 {"at": "2026-10-31T19:16:15-04:00", "run": "2026-10-31T19", "kind": "pricingsaas", "target": "https://pricingsaas.com/feed", "ok": true, "detail": "feed"}
 {"at": "2026-10-31T19:16:17-04:00", "run": "2026-10-31T19", "kind": "pricingsaas", "target": "https://pricingsaas.com/news/week/2026W44", "ok": true, "detail": "review"}
 {"at": "2026-10-31T19:16:20-04:00", "run": "2026-10-31T19", "kind": "pricingsaas", "target": "https://pricingsaas.com/news/week/2026W45", "ok": false, "detail": "HTTP 404"}
+{"at": "2026-10-31T20:51:53-04:00", "run": "2026-10-31T20", "kind": "capture", "target": "openai", "ok": false, "detail": "browser: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://openai.com/api/pricing/\", waiting until \"networkidle\"\n"}
+{"at": "2026-10-31T20:57:28-04:00", "run": "2026-10-31T20", "kind": "capture", "target": "openai", "ok": false, "detail": "browser: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://openai.com/api/pricing/\", waiting until \"networkidle\"\n"}
