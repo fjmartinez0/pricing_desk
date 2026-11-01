@@ -1,0 +1,8 @@
+{"type": "changes", "run": "2026-11-01T07", "items": [
+{"diff_id": "moodle-2026-11-01T07", "kind": "noise", "why": "Only converted currency figures (GBP, EUR, CAD, INR) moved slightly; the AUD and USD list prices are unchanged.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "openai-2026-11-01T07", "kind": "new_feature", "why": "The page showed two versions in one run. The only substantive change is a new monthly API credits benefit on Pro (plus plan tagline rewording and a cookie banner); no existing price or limit changed.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "runpod-2026-11-01T07", "kind": "noise", "why": "Only the “Updated” date on the GPU pricing section changed; no prices in the diff.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "modal-2026-11-01T07", "kind": "noise", "why": "Only the Series D announcement banner was removed; no pricing change.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "lindy-2026-11-01T07", "kind": "plan_change", "why": "Team plan entry point changed from $49.99/mo for 5,000 credits to $29.99/mo for 3,000 credits, with 3,000 and 4,000 credit tiers added and the 7,000 credit tier removed.", "detail": "line", "record": {"group": "pack", "delta": "$29.99 / $49.99", "short": "Team plan entry point moves from $49.99/mo for 5,000 credits to $29.99/mo for 3,000 credits, with new 3,000 and 4,000 credit steps and the 7,000 step removed.", "pattern": "Minimums", "seg": "Both", "ai": true, "planLevel": "entry", "reach": 2}, "promo": null},
+{"diff_id": "kinsta-2026-11-01T07", "kind": "noise", "why": "Only the order and selection of customer testimonials changed.", "detail": "line", "record": null, "promo": null}
+]}
