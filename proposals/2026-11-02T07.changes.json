@@ -1,0 +1,11 @@
+{"type": "changes", "run": "2026-11-02T07", "items": [
+{"diff_id": "artlist-2026-11-02T07", "kind": "plan_change", "why": "AI Pro (CA$89, 120,000 credits) was replaced by AI Creator (CA$61, 80,000 credits); AI Core keeps 40,000 credits but adds unlimited generations on select models.", "detail": "line",
+ "record": {"group": "pack", "delta": "CA$89 / CA$61", "short": "Top self-serve plan AI Pro (CA$89, 120,000 credits) became AI Creator (CA$61, 80,000 credits).", "pattern": "Tier consolidation", "seg": "Both", "ai": true, "planLevel": "top", "reach": 2},
+ "promo": null},
+{"diff_id": "lawpath-2026-11-02T07", "kind": "promo", "why": "Black Friday offer added: Essentials $27 instead of $45 per month, bundle discount raised to 50%.", "detail": "line", "record": null,
+ "promo": {"kind": "new", "text": "Black Friday offer: Essentials $27/month (was $45) with an annual contract, Legal Advice $135, Legal Advice Plus $428; bundle discount raised to 50%"}},
+{"diff_id": "cointracker-2026-11-02T07", "kind": "noise", "why": "Added Regular/Plus toggle labels and a transaction selector, and trimmed feature descriptions; Plus prices ($99, $299, $999) were already listed and unchanged.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "cartesia-2026-11-02T07", "kind": "promo", "why": "Call duration price stays at $0.03 per minute but now shows a Previously $0.06 per minute marker, i.e. a discount label.", "detail": "line", "record": null,
+ "promo": {"kind": "new", "text": "Agent call duration shown at $0.03 per minute, previously $0.06 per minute"}},
+{"diff_id": "ahrefs-2026-11-02T07", "kind": "wording", "why": "Brand Radar AI marketing copy updated from 519 million+ to 525 million+ prompts; no price change.", "detail": "line", "record": null, "promo": null}
+]}

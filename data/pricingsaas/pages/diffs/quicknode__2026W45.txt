@@ -1,0 +1,70 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/QuickNode/All changes/Rate limits per plan added
+Q
+QuickNodePackaging change · Feature change · Add-on removed · Oct 26 → Nov 2, 2026
+QuickNode Platform API now lists rate limits by plan, from 20 to 250 RPS
+Verified Nov 2, 2026·Cloud & DevOps·Direction: down
+The changeRate limits per plan — added.
+Before · Oct 26No rate limits per plan
+After · Nov 2rate limits per plan
+added
+2 changes·2 captures·Oct 26, 2026 → Nov 2, 2026
+What happened
+Between the Oct 26, 2026 and Nov 2, 2026 captures of QuickNode's pricing page, Pulse recorded 2 changes: Platform API (formerly Admin API) now lists rate limits per plan: 20, 40, 60, 80 and 250 RPS; Solana gRPC Concurrent streams and Accounts per stream no longer show 'Paid add-on available' on lower plans; now '-'. Pulse files it as a packaging change (feature change, add-on removed) with a downward direction. The current page lists Build at $34, Accelerate at $212, Scale at $424 and Business at $849.
+It lands 7 days after QuickNode's previous change, "QuickNode: Activity Logs and Metrics API added to Enterprise plan" (Oct 26, 2026). Before that Pulse recorded "QuickNode adds security controls, 90-day retention and SQL Explorer" (Oct 19, 2026), "QuickNode: trace_transaction API credit rate up 20x (2 to 40/request)" (Aug 31, 2026) and "QuickNode cuts Build plan to $34/mo via 30% promo, saving $176/yr" (Aug 17, 2026). QuickNode has been tracked since 2026-05-04.
+In the same window Alchemy also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · FeatureAdded
+No rate limits per plan→rate limits per plan
+— · Add-onRemoved
+Before'Paid add-on available'
+AfterNo 'Paid add-on available'
+Plan
+Field
+Before
+After
+Change
+—
+Feature
+No rate limits per plan
+rate limits per plan
+Added
+—
+Add-on
+'Paid add-on available'
+No 'Paid add-on available'
+Removed
+Values as written on QuickNode's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of QuickNode's pricing page (www.quicknode.com) from Oct 26, 2026 and Nov 2, 2026; the change is marked around the middle of the page, where rate limits per plan now appears.
+Oct 26, 2026 · No rate limits per plan
+Nov 2, 2026 · rate limits per plan
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+QuickNode, the last 90 days
+Full history
+Nov 2, 2026packagingQuickNode Platform API now lists rate limits by plan, from 20 to 250 RPS · this change
+Oct 26, 2026improvedQuickNode: Activity Logs and Metrics API added to Enterprise plan
+Oct 19, 2026improvedQuickNode adds security controls, 90-day retention and SQL Explorer
+Aug 31, 2026packagingQuickNode: trace_transaction API credit rate up 20x (2 to 40/request)
+Aug 17, 2026decreaseQuickNode cuts Build plan to $34/mo via 30% promo, saving $176/yr
+Aug 5, 2026increaseQuickNode: Accelerate plan overage rate increased ($0.55→$0.56/1M)
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+AlchemySep 14Alchemy: Pay as You Go rate hiked to flat $0.525/1M CU
+AlchemyJul 2Alchemy: Solana gRPC price cut to $75/TB + Emergency button dropped
+AlchemyJun 8Alchemy cuts Solana gRPC add-on price to $75/TB
+AlchemyApr 27Alchemy Drops Emergency Button, Renames Support Roles Across Tiers
+AlchemyApr 8Alchemy cuts Enterprise webhook limit from Unlimited to 500
+Questions about this change
+Did QuickNode raise prices in November 2026?
+No list-price increase was recorded between Oct 26, 2026 and Nov 2, 2026. The change Pulse detected was a packaging change: feature change, add-on removed.
+What changed on QuickNode's pricing page between Oct 26, 2026 and Nov 2, 2026?
+Feature: No rate limits per plan → rate limits per plan, added; add-on: 'Paid add-on available' → No 'Paid add-on available', removed. Pulse compared the captures it took on Oct 26, 2026 and Nov 2, 2026; the before/after table above lists each item as written on the page.
+How often does QuickNode change its pricing?
+Pulse recorded 5 other pricing-page changes for QuickNode in the 90 days before this one; the previous change was "QuickNode: Activity Logs and Metrics API added to Enterprise plan" on Oct 26, 2026; QuickNode has been tracked since 2026-05-04.

@@ -1,0 +1,66 @@
+{
+ "run": "2026-11-02T07",
+ "changes": [
+  {
+   "diff_id": "artlist-2026-11-02T07",
+   "company": "artlist",
+   "unstable": true,
+   "before_file": "data/snapshots/artlist/2026-10-24T16.txt",
+   "after_file": "data/snapshots/artlist/2026-11-02T07_a.txt",
+   "alt_file": "data/snapshots/artlist/2026-11-02T07_b.txt",
+   "last_old_at": "2026-10-31T07:00:05-04:00",
+   "first_new_at": "2026-11-02T07:00:00-05:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/artlist-2026-11-02T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "lawpath-2026-11-02T07",
+   "company": "lawpath",
+   "unstable": false,
+   "before_file": "data/snapshots/lawpath/2026-10-29T19.txt",
+   "after_file": "data/snapshots/lawpath/2026-11-02T07.txt",
+   "last_old_at": "2026-11-01T07:00:04-05:00",
+   "first_new_at": "2026-11-01T19:00:04-05:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/lawpath-2026-11-02T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "cointracker-2026-11-02T07",
+   "company": "cointracker",
+   "unstable": false,
+   "before_file": "data/snapshots/cointracker/2026-10-31T07.txt",
+   "after_file": "data/snapshots/cointracker/2026-11-02T07.txt",
+   "last_old_at": "2026-11-01T07:00:04-05:00",
+   "first_new_at": "2026-11-01T19:00:04-05:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/cointracker-2026-11-02T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "cartesia-2026-11-02T07",
+   "company": "cartesia",
+   "unstable": false,
+   "before_file": "data/snapshots/cartesia/2026-10-31T07.txt",
+   "after_file": "data/snapshots/cartesia/2026-11-02T07.txt",
+   "last_old_at": "2026-11-01T07:00:04-05:00",
+   "first_new_at": "2026-11-01T19:00:04-05:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/cartesia-2026-11-02T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "ahrefs-2026-11-02T07",
+   "company": "ahrefs",
+   "unstable": false,
+   "before_file": "data/snapshots/ahrefs/2026-10-30T19.txt",
+   "after_file": "data/snapshots/ahrefs/2026-11-02T07.txt",
+   "last_old_at": "2026-11-01T07:00:04-05:00",
+   "first_new_at": "2026-11-01T19:00:04-05:00",
+   "week": "2026-W45",
+   "diff_file": ".run/diffs/ahrefs-2026-11-02T07.diff",
+   "attempts": 0
+  }
+ ]
+}
