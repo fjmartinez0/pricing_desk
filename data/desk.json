@@ -1,9 +1,10 @@
 {
  "current_week": "2026-W44",
- "today": "2026-11-02",
+ "today": "2026-11-03",
  "edition_date": "2026-10-27",
  "period": "19–25 Oct",
  "week_order": [
+  "2026-W46",
   "2026-W45",
   "2026-W44",
   "2026-W43",
@@ -17,6 +18,12 @@
   "2026-W35"
  ],
  "weeks": [
+  {
+   "week": "2026-W46",
+   "label": "2–8 Nov",
+   "start": "2026-11-02",
+   "source_week": "Pricing Desk capture"
+  },
   {
    "week": "2026-W45",
    "label": "26 Oct–1 Nov",
@@ -470,7 +477,7 @@
   {
    "id": "bitrise-2026w38",
    "week": "2026-W38",
-   "rank": 13,
+   "rank": 24,
    "co": "Bitrise",
    "group": "pack",
    "delta": "Pro from $30",
@@ -492,7 +499,7 @@
   {
    "id": "coderabbit-2026w38",
    "week": "2026-W38",
-   "rank": 14,
+   "rank": 25,
    "co": "CodeRabbit",
    "group": "pack",
    "delta": "2 → 1 add-on",
@@ -514,7 +521,7 @@
   {
    "id": "mintlify-2026w38",
    "week": "2026-W38",
-   "rank": 15,
+   "rank": 26,
    "co": "Mintlify",
    "group": "pack",
    "delta": "Credits shown",
@@ -536,7 +543,7 @@
   {
    "id": "unblocked-2026w38",
    "week": "2026-W38",
-   "rank": 16,
+   "rank": 27,
    "co": "Unblocked",
    "group": "up",
    "delta": "Entry $19 gone",
@@ -558,7 +565,7 @@
   {
    "id": "planswift-2026w38",
    "week": "2026-W38",
-   "rank": 17,
+   "rank": 28,
    "co": "PlanSwift",
    "group": "pack",
    "delta": "2 tiers",
@@ -580,7 +587,7 @@
   {
    "id": "tooljet-2026w38",
    "week": "2026-W38",
-   "rank": 18,
+   "rank": 29,
    "co": "ToolJet",
    "group": "pack",
    "delta": "+ Basic $23",
@@ -602,7 +609,7 @@
   {
    "id": "beautifulai-2026w38",
    "week": "2026-W38",
-   "rank": 19,
+   "rank": 30,
    "co": "Beautiful.ai",
    "group": "pack",
    "delta": "Flat, 3 users",
@@ -624,7 +631,7 @@
   {
    "id": "mailjet-2026w38",
    "week": "2026-W38",
-   "rank": 12,
+   "rank": 23,
    "co": "Mailjet",
    "group": "up",
    "delta": "+7–12%",
@@ -650,7 +657,7 @@
   {
    "id": "mailfloss-2026w38",
    "week": "2026-W38",
-   "rank": 20,
+   "rank": 31,
    "co": "mailfloss",
    "group": "down",
    "delta": "Free tier",
@@ -672,7 +679,7 @@
   {
    "id": "vyond-2026w38",
    "week": "2026-W38",
-   "rank": 21,
+   "rank": 32,
    "co": "Vyond",
    "group": "up",
    "delta": "Enterprise only",
@@ -694,7 +701,7 @@
   {
    "id": "spoki-2026w38",
    "week": "2026-W38",
-   "rank": 11,
+   "rank": 22,
    "co": "Spoki",
    "group": "up",
    "delta": "+15%",
@@ -720,7 +727,7 @@
   {
    "id": "surferseo-2026w38",
    "week": "2026-W38",
-   "rank": 8,
+   "rank": 19,
    "co": "Surfer",
    "group": "down",
    "delta": "−48%",
@@ -746,7 +753,7 @@
   {
    "id": "peec-2026w38",
    "week": "2026-W38",
-   "rank": 22,
+   "rank": 33,
    "co": "Peec AI",
    "group": "pack",
    "delta": "12 → 13 models",
@@ -768,7 +775,7 @@
   {
    "id": "freshpaint-2026w38",
    "week": "2026-W38",
-   "rank": 23,
+   "rank": 34,
    "co": "Freshpaint",
    "group": "up",
    "delta": "Surveys ↑ tier",
@@ -790,7 +797,7 @@
   {
    "id": "canvasapp-2026w38",
    "week": "2026-W38",
-   "rank": 24,
+   "rank": 35,
    "co": "Canvas",
    "group": "pack",
    "delta": "Tiers added",
@@ -812,7 +819,7 @@
   {
    "id": "supermetrics-2026w38",
    "week": "2026-W38",
-   "rank": 25,
+   "rank": 36,
    "co": "Supermetrics",
    "group": "up",
    "delta": "Features off cards",
@@ -834,7 +841,7 @@
   {
    "id": "bleemeo-2026w38",
    "week": "2026-W38",
-   "rank": 26,
+   "rank": 37,
    "co": "Bleemeo",
    "group": "up",
    "delta": "€0.50/GB",
@@ -856,7 +863,7 @@
   {
    "id": "hostinger-2026w38",
    "week": "2026-W38",
-   "rank": 27,
+   "rank": 38,
    "co": "Hostinger",
    "group": "pack",
    "delta": "Ecommerce ↓ tier",
@@ -878,7 +885,7 @@
   {
    "id": "boulevard-2026w38",
    "week": "2026-W38",
-   "rank": 7,
+   "rank": 18,
    "co": "Boulevard",
    "group": "pack",
    "delta": "Allowances ×2",
@@ -904,7 +911,7 @@
   {
    "id": "casemark-2026w38",
    "week": "2026-W38",
-   "rank": 9,
+   "rank": 20,
    "co": "CaseMark",
    "group": "pack",
    "delta": "+25% AI",
@@ -930,7 +937,7 @@
   {
    "id": "constructconnect-2026w38",
    "week": "2026-W38",
-   "rank": 28,
+   "rank": 39,
    "co": "ConstructConnect",
    "group": "pack",
    "delta": "Emails → Starter",
@@ -952,7 +959,7 @@
   {
    "id": "resdiary-2026w38",
    "week": "2026-W38",
-   "rank": 10,
+   "rank": 21,
    "co": "ResDiary",
    "group": "up",
    "delta": "1% → 1.2%",
@@ -978,7 +985,7 @@
   {
    "id": "phptravels-2026w38",
    "week": "2026-W38",
-   "rank": 29,
+   "rank": 40,
    "co": "PHPTRAVELS",
    "group": "up",
    "delta": "From $3,500",
@@ -1000,7 +1007,7 @@
   {
    "id": "practice-better-2026w38",
    "week": "2026-W38",
-   "rank": 30,
+   "rank": 41,
    "co": "Practice Better",
    "group": "up",
    "delta": "Tiers $10–40",
@@ -1634,7 +1641,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 32
+   "rank": 33
   },
   {
    "id": "bugherd-2026w39",
@@ -1656,7 +1663,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 33
+   "rank": 34
   },
   {
    "id": "applitools-2026w39",
@@ -1678,7 +1685,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 34
+   "rank": 35
   },
   {
    "id": "mailslurp-2026w39",
@@ -1700,7 +1707,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 35
+   "rank": 36
   },
   {
    "id": "commentsold-2026w39",
@@ -1722,7 +1729,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 36
+   "rank": 37
   },
   {
    "id": "loops-2026w39",
@@ -1744,7 +1751,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 37
+   "rank": 38
   },
   {
    "id": "veelapp-2026w39",
@@ -1766,7 +1773,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 38
+   "rank": 39
   },
   {
    "id": "peec-2026w39",
@@ -1788,7 +1795,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 39
+   "rank": 40
   },
   {
    "id": "sendible-2026w39",
@@ -1810,7 +1817,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 40
+   "rank": 41
   },
   {
    "id": "peel-2026w39",
@@ -1832,7 +1839,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 41
+   "rank": 42
   },
   {
    "id": "aptible-2026w39",
@@ -1854,7 +1861,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 42
+   "rank": 43
   },
   {
    "id": "convex-2026w39",
@@ -1876,7 +1883,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 43
+   "rank": 44
   },
   {
    "id": "addigy-2026w39",
@@ -1898,7 +1905,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 44
+   "rank": 45
   },
   {
    "id": "vartion-2026w39",
@@ -1920,7 +1927,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 45
+   "rank": 46
   },
   {
    "id": "drchrono-2026w39",
@@ -1942,7 +1949,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 46
+   "rank": 47
   },
   {
    "id": "eccentex-2026w39",
@@ -1964,7 +1971,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 47
+   "rank": 48
   },
   {
    "id": "upserve-2026w39",
@@ -1986,7 +1993,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 48
+   "rank": 49
   },
   {
    "id": "termscout-2026w39",
@@ -2008,7 +2015,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 49
+   "rank": 50
   },
   {
    "id": "buildbetter-2026w39",
@@ -2030,7 +2037,7 @@
    "planLevel": "top",
    "magnitude": null,
    "detail": "line",
-   "rank": 50
+   "rank": 51
   },
   {
    "id": "lumaai-2026w39",
@@ -2052,7 +2059,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 51
+   "rank": 52
   },
   {
    "id": "mindsdb-2026w39",
@@ -2074,7 +2081,7 @@
    "planLevel": "free",
    "magnitude": null,
    "detail": "line",
-   "rank": 52
+   "rank": 53
   },
   {
    "id": "substrate-2026w39",
@@ -2096,7 +2103,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 53
+   "rank": 54
   },
   {
    "id": "dragonboat-2026w39",
@@ -2118,7 +2125,7 @@
    "planLevel": "entry",
    "magnitude": null,
    "detail": "line",
-   "rank": 54
+   "rank": 55
   },
   {
    "id": "tempo-2026w39",
@@ -2140,7 +2147,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 55
+   "rank": 56
   },
   {
    "id": "mightynetworks-2026w39",
@@ -2162,7 +2169,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 56
+   "rank": 57
   },
   {
    "id": "homebase-2026w39",
@@ -2184,7 +2191,7 @@
    "planLevel": "add-on",
    "magnitude": null,
    "detail": "line",
-   "rank": 57
+   "rank": 58
   },
   {
    "id": "clarify-2026w39",
@@ -2206,7 +2213,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 58
+   "rank": 59
   },
   {
    "id": "bloomerang-2026w39",
@@ -2228,7 +2235,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 59
+   "rank": 60
   },
   {
    "id": "apollomail-2026w39",
@@ -2250,7 +2257,7 @@
    "planLevel": "mid",
    "magnitude": null,
    "detail": "line",
-   "rank": 60
+   "rank": 61
   },
   {
    "id": "plecto-2026w39",
@@ -2272,7 +2279,7 @@
    "planLevel": "all",
    "magnitude": null,
    "detail": "line",
-   "rank": 61
+   "rank": 62
   },
   {
    "id": "anthropic-opus-2026w40",
@@ -9751,7 +9758,7 @@
   {
    "id": "raycast-2026w38",
    "week": "2026-W38",
-   "rank": 31,
+   "rank": 42,
    "co": "Raycast",
    "company": "raycast",
    "tier": 3,
@@ -9784,7 +9791,7 @@
   {
    "id": "deepseek-2026w38",
    "week": "2026-W38",
-   "rank": 32,
+   "rank": 43,
    "co": "DeepSeek",
    "company": "deepseek",
    "tier": 3,
@@ -12576,7 +12583,7 @@
   {
    "id": "file-2026w45",
    "week": "2026-W45",
-   "rank": 50,
+   "rank": 51,
    "co": "File",
    "company": "file",
    "tier": 3,
@@ -12604,7 +12611,7 @@
   {
    "id": "replit-2026w45",
    "week": "2026-W45",
-   "rank": 12,
+   "rank": 13,
    "co": "Replit",
    "company": "replit",
    "tier": 2,
@@ -13548,7 +13555,7 @@
   {
    "id": "mem0-2026w45",
    "week": "2026-W45",
-   "rank": 17,
+   "rank": 18,
    "co": "Mem0",
    "company": "mem0",
    "tier": 3,
@@ -15715,7 +15722,7 @@
   {
    "id": "bolster-2026w45",
    "week": "2026-W45",
-   "rank": 110,
+   "rank": 113,
    "co": "Bolster",
    "company": "bolster",
    "tier": 3,
@@ -15743,7 +15750,7 @@
   {
    "id": "heygen-2026w45",
    "week": "2026-W45",
-   "rank": 111,
+   "rank": 114,
    "co": "HeyGen",
    "company": "heygen",
    "tier": 3,
@@ -16706,7 +16713,7 @@
   {
    "id": "buildkite-2026w45",
    "week": "2026-W45",
-   "rank": 51,
+   "rank": 52,
    "co": "Buildkite",
    "company": "buildkite",
    "tier": 3,
@@ -16926,7 +16933,7 @@
   {
    "id": "clarify-2026w45",
    "week": "2026-W45",
-   "rank": 52,
+   "rank": 53,
    "co": "Clarify",
    "company": "clarify",
    "tier": 3,
@@ -17055,7 +17062,7 @@
   {
    "id": "ovhcloud-2026w45",
    "week": "2026-W45",
-   "rank": 13,
+   "rank": 14,
    "co": "OVHcloud",
    "company": "ovhcloud",
    "tier": 2,
@@ -17100,7 +17107,7 @@
   {
    "id": "synthesia-2026w45",
    "week": "2026-W45",
-   "rank": 14,
+   "rank": 15,
    "co": "Synthesia",
    "company": "synthesia",
    "tier": 2,
@@ -17160,7 +17167,7 @@
   {
    "id": "raycast-2026w45",
    "week": "2026-W45",
-   "rank": 53,
+   "rank": 54,
    "co": "Raycast",
    "company": "raycast",
    "tier": 3,
@@ -17188,7 +17195,7 @@
   {
    "id": "clerk-2026w45",
    "week": "2026-W45",
-   "rank": 54,
+   "rank": 55,
    "co": "Clerk",
    "company": "clerk",
    "tier": 3,
@@ -17216,7 +17223,7 @@
   {
    "id": "leadmagic-2026w45",
    "week": "2026-W45",
-   "rank": 18,
+   "rank": 19,
    "co": "LeadMagic",
    "company": "leadmagic",
    "tier": 3,
@@ -18168,7 +18175,7 @@
   {
    "id": "postman-2026w45",
    "week": "2026-W45",
-   "rank": 112,
+   "rank": 115,
    "co": "Postman",
    "company": "postman",
    "tier": 3,
@@ -18196,7 +18203,7 @@
   {
    "id": "lawpath-2026w45",
    "week": "2026-W45",
-   "rank": 55,
+   "rank": 56,
    "co": "Lawpath",
    "company": "lawpath",
    "tier": 3,
@@ -19255,7 +19262,7 @@
   {
    "id": "flux-2026w45",
    "week": "2026-W45",
-   "rank": 19,
+   "rank": 20,
    "co": "Flux",
    "company": "flux",
    "tier": 3,
@@ -19283,7 +19290,7 @@
   {
    "id": "runpod-2026w45",
    "week": "2026-W45",
-   "rank": 11,
+   "rank": 12,
    "co": "Runpod",
    "company": "runpod",
    "tier": 2,
@@ -19352,7 +19359,7 @@
   {
    "id": "se-ranking-2026w45",
    "week": "2026-W45",
-   "rank": 56,
+   "rank": 57,
    "co": "SE Ranking",
    "company": "se-ranking",
    "tier": 3,
@@ -20073,7 +20080,7 @@
   {
    "id": "hedra-2026w45",
    "week": "2026-W45",
-   "rank": 57,
+   "rank": 58,
    "co": "Hedra",
    "company": "hedra",
    "tier": 3,
@@ -20101,7 +20108,7 @@
   {
    "id": "buildkite-2026w45-2",
    "week": "2026-W45",
-   "rank": 58,
+   "rank": 59,
    "co": "Buildkite",
    "company": "buildkite",
    "tier": 3,
@@ -20129,7 +20136,7 @@
   {
    "id": "leadmagic-2026w45-2",
    "week": "2026-W45",
-   "rank": 59,
+   "rank": 60,
    "co": "LeadMagic",
    "company": "leadmagic",
    "tier": 3,
@@ -20157,7 +20164,7 @@
   {
    "id": "brandfetch-2026w45",
    "week": "2026-W45",
-   "rank": 60,
+   "rank": 61,
    "co": "Brandfetch",
    "company": "brandfetch",
    "tier": 3,
@@ -20996,7 +21003,7 @@
   {
    "id": "bizstim-2026w45",
    "week": "2026-W45",
-   "rank": 113,
+   "rank": 116,
    "co": "BizStim",
    "company": "bizstim",
    "tier": 3,
@@ -21069,7 +21076,7 @@
   {
    "id": "sugarcrm-2026w45",
    "week": "2026-W45",
-   "rank": 16,
+   "rank": 17,
    "co": "SugarCRM",
    "company": "sugarcrm",
    "tier": 2,
@@ -21097,7 +21104,7 @@
   {
    "id": "stripe-2026w45",
    "week": "2026-W45",
-   "rank": 114,
+   "rank": 117,
    "co": "Stripe",
    "company": "stripe",
    "tier": 3,
@@ -21125,7 +21132,7 @@
   {
    "id": "sarvam-ai-2026w45",
    "week": "2026-W45",
-   "rank": 61,
+   "rank": 62,
    "co": "Sarvam AI",
    "company": "sarvam-ai",
    "tier": 3,
@@ -21153,7 +21160,7 @@
   {
    "id": "se-ranking-2026w45-2",
    "week": "2026-W45",
-   "rank": 62,
+   "rank": 63,
    "co": "SE Ranking",
    "company": "se-ranking",
    "tier": 3,
@@ -21181,7 +21188,7 @@
   {
    "id": "fly-io-2026w45",
    "week": "2026-W45",
-   "rank": 115,
+   "rank": 118,
    "co": "Fly.io",
    "company": "fly-io",
    "tier": 3,
@@ -21956,7 +21963,7 @@
   {
    "id": "wispr-flow-2026w45",
    "week": "2026-W45",
-   "rank": 15,
+   "rank": 16,
    "co": "Wispr Flow",
    "company": "wispr-flow",
    "tier": 2,
@@ -22961,7 +22968,7 @@
   {
    "id": "lindy-2026w45",
    "week": "2026-W45",
-   "rank": 63,
+   "rank": 64,
    "co": "Lindy",
    "company": "lindy",
    "tier": 3,
@@ -23381,7 +23388,7 @@
   {
    "id": "quickcode-2026w39",
    "week": "2026-W39",
-   "rank": 62,
+   "rank": 63,
    "co": "QuickCode",
    "company": "quickcode",
    "tier": 3,
@@ -23474,7 +23481,7 @@
   {
    "id": "reflex-2026w39",
    "week": "2026-W39",
-   "rank": 63,
+   "rank": 64,
    "co": "Reflex",
    "company": "reflex",
    "tier": 3,
@@ -23507,7 +23514,7 @@
   {
    "id": "pulumi-2026w39",
    "week": "2026-W39",
-   "rank": 64,
+   "rank": 65,
    "co": "Pulumi",
    "company": "pulumi",
    "tier": 3,
@@ -23540,7 +23547,7 @@
   {
    "id": "prophecy-2026w39",
    "week": "2026-W39",
-   "rank": 87,
+   "rank": 89,
    "co": "Prophecy",
    "company": "prophecy",
    "tier": 3,
@@ -23573,7 +23580,7 @@
   {
    "id": "penpot-2026w39",
    "week": "2026-W39",
-   "rank": 65,
+   "rank": 66,
    "co": "Penpot",
    "company": "penpot",
    "tier": 3,
@@ -23606,7 +23613,7 @@
   {
    "id": "oneflow-2026w39",
    "week": "2026-W39",
-   "rank": 66,
+   "rank": 67,
    "co": "Oneflow",
    "company": "oneflow",
    "tier": 3,
@@ -23639,7 +23646,7 @@
   {
    "id": "track3d-2026w39",
    "week": "2026-W39",
-   "rank": 67,
+   "rank": 68,
    "co": "Track3D",
    "company": "track3d",
    "tier": 3,
@@ -23705,7 +23712,7 @@
   {
    "id": "prezi-2026w39",
    "week": "2026-W39",
-   "rank": 68,
+   "rank": 69,
    "co": "Prezi",
    "company": "prezi",
    "tier": 3,
@@ -23738,7 +23745,7 @@
   {
    "id": "navattic-2026w39",
    "week": "2026-W39",
-   "rank": 69,
+   "rank": 70,
    "co": "Navattic",
    "company": "navattic",
    "tier": 3,
@@ -23771,7 +23778,7 @@
   {
    "id": "nifty-2026w39",
    "week": "2026-W39",
-   "rank": 70,
+   "rank": 71,
    "co": "Nifty",
    "company": "nifty",
    "tier": 3,
@@ -23804,7 +23811,7 @@
   {
    "id": "zen-planner-2026w39",
    "week": "2026-W39",
-   "rank": 71,
+   "rank": 72,
    "co": "Zen Planner",
    "company": "zen-planner",
    "tier": 3,
@@ -23837,7 +23844,7 @@
   {
    "id": "upguard-2026w39",
    "week": "2026-W39",
-   "rank": 72,
+   "rank": 73,
    "co": "UpGuard",
    "company": "upguard",
    "tier": 3,
@@ -23870,7 +23877,7 @@
   {
    "id": "prismic-2026w39",
    "week": "2026-W39",
-   "rank": 88,
+   "rank": 90,
    "co": "Prismic",
    "company": "prismic",
    "tier": 3,
@@ -23936,7 +23943,7 @@
   {
    "id": "playbook-2026w39",
    "week": "2026-W39",
-   "rank": 73,
+   "rank": 74,
    "co": "Playbook",
    "company": "playbook",
    "tier": 3,
@@ -23969,7 +23976,7 @@
   {
    "id": "moxo-2026w39",
    "week": "2026-W39",
-   "rank": 74,
+   "rank": 75,
    "co": "Moxo",
    "company": "moxo",
    "tier": 3,
@@ -24002,7 +24009,7 @@
   {
    "id": "dreamhost-2026w39",
    "week": "2026-W39",
-   "rank": 75,
+   "rank": 76,
    "co": "Dreamhost",
    "company": "dreamhost",
    "tier": 3,
@@ -24068,7 +24075,7 @@
   {
    "id": "gtmetrix-2026w39",
    "week": "2026-W39",
-   "rank": 76,
+   "rank": 77,
    "co": "GTmetrix",
    "company": "gtmetrix",
    "tier": 3,
@@ -24101,7 +24108,7 @@
   {
    "id": "frontcore-2026w39",
    "week": "2026-W39",
-   "rank": 89,
+   "rank": 91,
    "co": "FrontCore",
    "company": "frontcore",
    "tier": 3,
@@ -24222,7 +24229,7 @@
   {
    "id": "hostman-2026w39",
    "week": "2026-W39",
-   "rank": 90,
+   "rank": 92,
    "co": "Hostman",
    "company": "hostman",
    "tier": 3,
@@ -24255,7 +24262,7 @@
   {
    "id": "lumion-2026w39",
    "week": "2026-W39",
-   "rank": 91,
+   "rank": 93,
    "co": "Lumion",
    "company": "lumion",
    "tier": 3,
@@ -24288,7 +24295,7 @@
   {
    "id": "logo-com-2026w39",
    "week": "2026-W39",
-   "rank": 77,
+   "rank": 78,
    "co": "LOGO.com",
    "company": "logo-com",
    "tier": 3,
@@ -24321,7 +24328,7 @@
   {
    "id": "livedune-2026w39",
    "week": "2026-W39",
-   "rank": 92,
+   "rank": 94,
    "co": "LiveDune",
    "company": "livedune",
    "tier": 3,
@@ -24354,7 +24361,7 @@
   {
    "id": "less-accounting-2026w39",
    "week": "2026-W39",
-   "rank": 93,
+   "rank": 95,
    "co": "Less Accounting",
    "company": "less-accounting",
    "tier": 3,
@@ -24387,7 +24394,7 @@
   {
    "id": "katalon-2026w39",
    "week": "2026-W39",
-   "rank": 78,
+   "rank": 79,
    "co": "Katalon",
    "company": "katalon",
    "tier": 3,
@@ -24453,7 +24460,7 @@
   {
    "id": "stream-2026w39",
    "week": "2026-W39",
-   "rank": 79,
+   "rank": 80,
    "co": "Stream",
    "company": "stream",
    "tier": 3,
@@ -24519,7 +24526,7 @@
   {
    "id": "heygen-2026w39",
    "week": "2026-W39",
-   "rank": 80,
+   "rank": 81,
    "co": "HeyGen",
    "company": "heygen",
    "tier": 3,
@@ -24585,7 +24592,7 @@
   {
    "id": "digits-2026w39",
    "week": "2026-W39",
-   "rank": 81,
+   "rank": 82,
    "co": "Digits",
    "company": "digits",
    "tier": 3,
@@ -24618,7 +24625,7 @@
   {
    "id": "appfollow-2026w39",
    "week": "2026-W39",
-   "rank": 82,
+   "rank": 83,
    "co": "Appfollow",
    "company": "appfollow",
    "tier": 3,
@@ -24717,7 +24724,7 @@
   {
    "id": "deepseek-2026w39",
    "week": "2026-W39",
-   "rank": 83,
+   "rank": 84,
    "co": "DeepSeek",
    "company": "deepseek",
    "tier": 3,
@@ -24838,7 +24845,7 @@
   {
    "id": "discord-2026w39",
    "week": "2026-W39",
-   "rank": 84,
+   "rank": 85,
    "co": "Discord",
    "company": "discord",
    "tier": 3,
@@ -24871,7 +24878,7 @@
   {
    "id": "companycam-2026w39",
    "week": "2026-W39",
-   "rank": 85,
+   "rank": 86,
    "co": "CompanyCam",
    "company": "companycam",
    "tier": 3,
@@ -24970,7 +24977,7 @@
   {
    "id": "coderpad-2026w39",
    "week": "2026-W39",
-   "rank": 86,
+   "rank": 87,
    "co": "CoderPad",
    "company": "coderpad",
    "tier": 3,
@@ -25102,7 +25109,7 @@
   {
    "id": "artlist-2026w45",
    "week": "2026-W45",
-   "rank": 64,
+   "rank": 65,
    "co": "Artlist",
    "company": "artlist",
    "tier": 3,
@@ -25131,7 +25138,7 @@
   {
    "id": "spacelift-2026w45",
    "week": "2026-W45",
-   "rank": 65,
+   "rank": 66,
    "co": "Spacelift",
    "company": "spacelift",
    "tier": 3,
@@ -25164,7 +25171,7 @@
   {
    "id": "taskade-2026w45",
    "week": "2026-W45",
-   "rank": 66,
+   "rank": 67,
    "co": "Taskade",
    "company": "taskade",
    "tier": 3,
@@ -25197,7 +25204,7 @@
   {
    "id": "perdoo-2026w45",
    "week": "2026-W45",
-   "rank": 67,
+   "rank": 68,
    "co": "Perdoo",
    "company": "perdoo",
    "tier": 3,
@@ -25230,7 +25237,7 @@
   {
    "id": "yext-2026w45",
    "week": "2026-W45",
-   "rank": 68,
+   "rank": 69,
    "co": "Yext",
    "company": "yext",
    "tier": 3,
@@ -25263,7 +25270,7 @@
   {
    "id": "x-ways-2026w45",
    "week": "2026-W45",
-   "rank": 69,
+   "rank": 70,
    "co": "X-Ways",
    "company": "x-ways",
    "tier": 3,
@@ -25296,7 +25303,7 @@
   {
    "id": "youcanbookme-2026w45",
    "week": "2026-W45",
-   "rank": 20,
+   "rank": 21,
    "co": "YouCanBookMe",
    "company": "youcanbookme",
    "tier": 3,
@@ -25329,7 +25336,7 @@
   {
    "id": "warntracker-2026w45",
    "week": "2026-W45",
-   "rank": 21,
+   "rank": 22,
    "co": "WARNTracker",
    "company": "warntracker",
    "tier": 3,
@@ -25362,7 +25369,7 @@
   {
    "id": "vincere-2026w45",
    "week": "2026-W45",
-   "rank": 70,
+   "rank": 71,
    "co": "Vincere",
    "company": "vincere",
    "tier": 3,
@@ -25395,7 +25402,7 @@
   {
    "id": "veed-2026w45",
    "week": "2026-W45",
-   "rank": 22,
+   "rank": 23,
    "co": "Veed",
    "company": "veed",
    "tier": 3,
@@ -25428,7 +25435,7 @@
   {
    "id": "tyms-2026w45",
    "week": "2026-W45",
-   "rank": 71,
+   "rank": 72,
    "co": "Tyms",
    "company": "tyms",
    "tier": 3,
@@ -25461,7 +25468,7 @@
   {
    "id": "treatwell-2026w45",
    "week": "2026-W45",
-   "rank": 23,
+   "rank": 24,
    "co": "Treatwell",
    "company": "treatwell",
    "tier": 3,
@@ -25494,7 +25501,7 @@
   {
    "id": "trustpilot-2026w45",
    "week": "2026-W45",
-   "rank": 72,
+   "rank": 73,
    "co": "Trustpilot",
    "company": "trustpilot",
    "tier": 3,
@@ -25527,7 +25534,7 @@
   {
    "id": "thinkific-2026w45",
    "week": "2026-W45",
-   "rank": 73,
+   "rank": 74,
    "co": "Thinkific",
    "company": "thinkific",
    "tier": 3,
@@ -25560,7 +25567,7 @@
   {
    "id": "tidycal-2026w45",
    "week": "2026-W45",
-   "rank": 24,
+   "rank": 25,
    "co": "TidyCal",
    "company": "tidycal",
    "tier": 3,
@@ -25593,7 +25600,7 @@
   {
    "id": "tembo-2026w45",
    "week": "2026-W45",
-   "rank": 25,
+   "rank": 26,
    "co": "Tembo",
    "company": "tembo",
    "tier": 3,
@@ -25626,7 +25633,7 @@
   {
    "id": "tella-2026w45",
    "week": "2026-W45",
-   "rank": 26,
+   "rank": 27,
    "co": "Tella",
    "company": "tella",
    "tier": 3,
@@ -25659,7 +25666,7 @@
   {
    "id": "teachworks-2026w45",
    "week": "2026-W45",
-   "rank": 27,
+   "rank": 28,
    "co": "Teachworks",
    "company": "teachworks",
    "tier": 3,
@@ -25692,7 +25699,7 @@
   {
    "id": "strawberry-2026w45",
    "week": "2026-W45",
-   "rank": 28,
+   "rank": 29,
    "co": "Strawberry Browser",
    "company": "strawberry",
    "tier": 3,
@@ -25725,7 +25732,7 @@
   {
    "id": "proposal-biz-2026w45",
    "week": "2026-W45",
-   "rank": 74,
+   "rank": 75,
    "co": "Proposal.biz",
    "company": "proposal-biz",
    "tier": 3,
@@ -25758,7 +25765,7 @@
   {
    "id": "smartcat-2026w45",
    "week": "2026-W45",
-   "rank": 116,
+   "rank": 119,
    "co": "Smartcat",
    "company": "smartcat",
    "tier": 3,
@@ -25791,7 +25798,7 @@
   {
    "id": "skyvern-2026w45",
    "week": "2026-W45",
-   "rank": 75,
+   "rank": 76,
    "co": "Skyvern",
    "company": "skyvern",
    "tier": 3,
@@ -25824,7 +25831,7 @@
   {
    "id": "simplero-2026w45",
    "week": "2026-W45",
-   "rank": 29,
+   "rank": 30,
    "co": "Simplero",
    "company": "simplero",
    "tier": 3,
@@ -25857,7 +25864,7 @@
   {
    "id": "optery-2026w45",
    "week": "2026-W45",
-   "rank": 117,
+   "rank": 120,
    "co": "Optery",
    "company": "optery",
    "tier": 3,
@@ -25890,7 +25897,7 @@
   {
    "id": "renderforest-2026w45",
    "week": "2026-W45",
-   "rank": 76,
+   "rank": 77,
    "co": "Renderforest",
    "company": "renderforest",
    "tier": 3,
@@ -25923,7 +25930,7 @@
   {
    "id": "salad-2026w45",
    "week": "2026-W45",
-   "rank": 77,
+   "rank": 78,
    "co": "Salad",
    "company": "salad",
    "tier": 3,
@@ -25956,7 +25963,7 @@
   {
    "id": "seedance-2026w45",
    "week": "2026-W45",
-   "rank": 78,
+   "rank": 79,
    "co": "Seedance",
    "company": "seedance",
    "tier": 3,
@@ -25989,7 +25996,7 @@
   {
    "id": "sanity-2026w45",
    "week": "2026-W45",
-   "rank": 79,
+   "rank": 80,
    "co": "Sanity",
    "company": "sanity",
    "tier": 3,
@@ -26022,7 +26029,7 @@
   {
    "id": "saleshood-2026w45",
    "week": "2026-W45",
-   "rank": 80,
+   "rank": 81,
    "co": "SalesHood",
    "company": "saleshood",
    "tier": 3,
@@ -26055,7 +26062,7 @@
   {
    "id": "sailpoint-2026w45",
    "week": "2026-W45",
-   "rank": 81,
+   "rank": 82,
    "co": "SailPoint",
    "company": "sailpoint",
    "tier": 3,
@@ -26088,7 +26095,7 @@
   {
    "id": "ringcentral-2026w45",
    "week": "2026-W45",
-   "rank": 30,
+   "rank": 31,
    "co": "RingCentral",
    "company": "ringcentral",
    "tier": 3,
@@ -26121,7 +26128,7 @@
   {
    "id": "readme-2026w45",
    "week": "2026-W45",
-   "rank": 82,
+   "rank": 83,
    "co": "ReadMe",
    "company": "readme",
    "tier": 3,
@@ -26154,7 +26161,7 @@
   {
    "id": "range-2026w45",
    "week": "2026-W45",
-   "rank": 83,
+   "rank": 84,
    "co": "Range",
    "company": "range",
    "tier": 3,
@@ -26187,7 +26194,7 @@
   {
    "id": "pubnub-2026w45",
    "week": "2026-W45",
-   "rank": 84,
+   "rank": 85,
    "co": "PubNub",
    "company": "pubnub",
    "tier": 3,
@@ -26220,7 +26227,7 @@
   {
    "id": "proposify-2026w45",
    "week": "2026-W45",
-   "rank": 85,
+   "rank": 86,
    "co": "Proposify",
    "company": "proposify",
    "tier": 3,
@@ -26253,7 +26260,7 @@
   {
    "id": "proconnect-2026w45",
    "week": "2026-W45",
-   "rank": 118,
+   "rank": 121,
    "co": "ProConnect",
    "company": "proconnect",
    "tier": 3,
@@ -26286,7 +26293,7 @@
   {
    "id": "photoroom-2026w45",
    "week": "2026-W45",
-   "rank": 119,
+   "rank": 122,
    "co": "Photoroom",
    "company": "photoroom",
    "tier": 3,
@@ -26319,7 +26326,7 @@
   {
    "id": "payfacile-2026w45",
    "week": "2026-W45",
-   "rank": 31,
+   "rank": 32,
    "co": "PayFacile",
    "company": "payfacile",
    "tier": 3,
@@ -26352,7 +26359,7 @@
   {
    "id": "octaneai-2026w45",
    "week": "2026-W45",
-   "rank": 120,
+   "rank": 123,
    "co": "Octane AI",
    "company": "octaneai",
    "tier": 3,
@@ -26450,7 +26457,7 @@
   {
    "id": "kickofflabs-2026w45",
    "week": "2026-W45",
-   "rank": 86,
+   "rank": 87,
    "co": "KickoffLabs",
    "company": "kickofflabs",
    "tier": 3,
@@ -26478,7 +26485,7 @@
   {
    "id": "quriobot-2026w45",
    "week": "2026-W45",
-   "rank": 121,
+   "rank": 124,
    "co": "Quriobot",
    "company": "quriobot",
    "tier": 3,
@@ -26506,7 +26513,7 @@
   {
    "id": "guesty-2026w45",
    "week": "2026-W45",
-   "rank": 87,
+   "rank": 88,
    "co": "Guesty",
    "company": "guesty",
    "tier": 3,
@@ -26539,7 +26546,7 @@
   {
    "id": "gemelo-2026w45",
    "week": "2026-W45",
-   "rank": 32,
+   "rank": 33,
    "co": "Gemelo",
    "company": "gemelo",
    "tier": 3,
@@ -26572,7 +26579,7 @@
   {
    "id": "firstcomm-2026w45",
    "week": "2026-W45",
-   "rank": 88,
+   "rank": 89,
    "co": "FirstComm",
    "company": "firstcomm",
    "tier": 3,
@@ -26605,7 +26612,7 @@
   {
    "id": "mineralanswers-2026w45",
    "week": "2026-W45",
-   "rank": 33,
+   "rank": 34,
    "co": "MineralAnswers",
    "company": "mineralanswers",
    "tier": 3,
@@ -26638,7 +26645,7 @@
   {
    "id": "lunar-2026w45",
    "week": "2026-W45",
-   "rank": 89,
+   "rank": 90,
    "co": "Lunar",
    "company": "lunar",
    "tier": 3,
@@ -26671,7 +26678,7 @@
   {
    "id": "livance-2026w45",
    "week": "2026-W45",
-   "rank": 34,
+   "rank": 35,
    "co": "Livance",
    "company": "livance",
    "tier": 3,
@@ -26704,7 +26711,7 @@
   {
    "id": "logzio-2026w45",
    "week": "2026-W45",
-   "rank": 90,
+   "rank": 91,
    "co": "Logz.io",
    "company": "logzio",
    "tier": 3,
@@ -26737,7 +26744,7 @@
   {
    "id": "handsontable-2026w45",
    "week": "2026-W45",
-   "rank": 35,
+   "rank": 36,
    "co": "Handsontable",
    "company": "handsontable",
    "tier": 3,
@@ -26770,7 +26777,7 @@
   {
    "id": "lendingwise-2026w45",
    "week": "2026-W45",
-   "rank": 36,
+   "rank": 37,
    "co": "LendingWise",
    "company": "lendingwise",
    "tier": 3,
@@ -26803,7 +26810,7 @@
   {
    "id": "levitate-2026w45",
    "week": "2026-W45",
-   "rank": 37,
+   "rank": 38,
    "co": "Levitate",
    "company": "levitate",
    "tier": 3,
@@ -26836,7 +26843,7 @@
   {
    "id": "leap-ai-2026w45",
    "week": "2026-W45",
-   "rank": 91,
+   "rank": 92,
    "co": "Leap AI",
    "company": "leap-ai",
    "tier": 3,
@@ -26869,7 +26876,7 @@
   {
    "id": "forest-admin-2026w45",
    "week": "2026-W45",
-   "rank": 92,
+   "rank": 93,
    "co": "Forest Admin",
    "company": "forest-admin",
    "tier": 3,
@@ -26902,7 +26909,7 @@
   {
    "id": "learnworlds-2026w45",
    "week": "2026-W45",
-   "rank": 38,
+   "rank": 39,
    "co": "LearnWorlds",
    "company": "learnworlds",
    "tier": 3,
@@ -26935,7 +26942,7 @@
   {
    "id": "kurrent-2026w45",
    "week": "2026-W45",
-   "rank": 39,
+   "rank": 40,
    "co": "Kurrent",
    "company": "kurrent",
    "tier": 3,
@@ -26968,7 +26975,7 @@
   {
    "id": "launchnotes-2026w45",
    "week": "2026-W45",
-   "rank": 93,
+   "rank": 94,
    "co": "LaunchNotes",
    "company": "launchnotes",
    "tier": 3,
@@ -27001,7 +27008,7 @@
   {
    "id": "krea-2026w45",
    "week": "2026-W45",
-   "rank": 94,
+   "rank": 95,
    "co": "Krea",
    "company": "krea",
    "tier": 3,
@@ -27034,7 +27041,7 @@
   {
    "id": "kommunity-2026w45",
    "week": "2026-W45",
-   "rank": 95,
+   "rank": 96,
    "co": "Kommunity",
    "company": "kommunity",
    "tier": 3,
@@ -27067,7 +27074,7 @@
   {
    "id": "foreplay-2026w45",
    "week": "2026-W45",
-   "rank": 96,
+   "rank": 97,
    "co": "Foreplay",
    "company": "foreplay",
    "tier": 3,
@@ -27100,7 +27107,7 @@
   {
    "id": "konfhub-2026w45",
    "week": "2026-W45",
-   "rank": 40,
+   "rank": 41,
    "co": "KonfHub",
    "company": "konfhub",
    "tier": 3,
@@ -27133,7 +27140,7 @@
   {
    "id": "invideo-2026w45",
    "week": "2026-W45",
-   "rank": 97,
+   "rank": 98,
    "co": "InVideo",
    "company": "invideo",
    "tier": 3,
@@ -27166,7 +27173,7 @@
   {
    "id": "katteb-2026w45",
    "week": "2026-W45",
-   "rank": 41,
+   "rank": 42,
    "co": "Katteb",
    "company": "katteb",
    "tier": 3,
@@ -27199,7 +27206,7 @@
   {
    "id": "improvado-2026w45",
    "week": "2026-W45",
-   "rank": 98,
+   "rank": 99,
    "co": "Improvado",
    "company": "improvado",
    "tier": 3,
@@ -27232,7 +27239,7 @@
   {
    "id": "ifttt-2026w45",
    "week": "2026-W45",
-   "rank": 42,
+   "rank": 43,
    "co": "IFTTT",
    "company": "ifttt",
    "tier": 3,
@@ -27265,7 +27272,7 @@
   {
    "id": "hover-2026w45",
    "week": "2026-W45",
-   "rank": 43,
+   "rank": 44,
    "co": "Hover",
    "company": "hover",
    "tier": 3,
@@ -27298,7 +27305,7 @@
   {
    "id": "highlevel-2026w45",
    "week": "2026-W45",
-   "rank": 99,
+   "rank": 100,
    "co": "HighLevel",
    "company": "highlevel",
    "tier": 3,
@@ -27331,7 +27338,7 @@
   {
    "id": "geoptie-2026w45",
    "week": "2026-W45",
-   "rank": 100,
+   "rank": 101,
    "co": "Geoptie",
    "company": "geoptie",
    "tier": 3,
@@ -27364,7 +27371,7 @@
   {
    "id": "flux-2026w45-2",
    "week": "2026-W45",
-   "rank": 101,
+   "rank": 102,
    "co": "Flux",
    "company": "flux",
    "tier": 3,
@@ -27397,7 +27404,7 @@
   {
    "id": "foxpass-2026w45",
    "week": "2026-W45",
-   "rank": 122,
+   "rank": 125,
    "co": "Foxpass",
    "company": "foxpass",
    "tier": 3,
@@ -27430,7 +27437,7 @@
   {
    "id": "flutterflow-2026w45",
    "week": "2026-W45",
-   "rank": 44,
+   "rank": 45,
    "co": "FlutterFlow",
    "company": "flutterflow",
    "tier": 3,
@@ -27463,7 +27470,7 @@
   {
    "id": "farmbackup-2026w45",
    "week": "2026-W45",
-   "rank": 45,
+   "rank": 46,
    "co": "FarmBackup",
    "company": "farmbackup",
    "tier": 3,
@@ -27496,7 +27503,7 @@
   {
    "id": "eventcreate-2026w45",
    "week": "2026-W45",
-   "rank": 46,
+   "rank": 47,
    "co": "EventCreate",
    "company": "eventcreate",
    "tier": 3,
@@ -27529,7 +27536,7 @@
   {
    "id": "dropzone-ai-2026w45",
    "week": "2026-W45",
-   "rank": 102,
+   "rank": 103,
    "co": "Dropzone AI",
    "company": "dropzone-ai",
    "tier": 3,
@@ -27562,7 +27569,7 @@
   {
    "id": "docebo-2026w45",
    "week": "2026-W45",
-   "rank": 103,
+   "rank": 104,
    "co": "Docebo",
    "company": "docebo",
    "tier": 3,
@@ -27595,7 +27602,7 @@
   {
    "id": "coosto-2026w45",
    "week": "2026-W45",
-   "rank": 123,
+   "rank": 126,
    "co": "Coosto",
    "company": "coosto",
    "tier": 3,
@@ -27628,7 +27635,7 @@
   {
    "id": "couchbase-2026w45",
    "week": "2026-W45",
-   "rank": 124,
+   "rank": 127,
    "co": "Couchbase",
    "company": "couchbase",
    "tier": 3,
@@ -27661,7 +27668,7 @@
   {
    "id": "hostman-2026w45",
    "week": "2026-W45",
-   "rank": 125,
+   "rank": 128,
    "co": "Hostman",
    "company": "hostman",
    "tier": 3,
@@ -27694,7 +27701,7 @@
   {
    "id": "e2b-2026w45",
    "week": "2026-W45",
-   "rank": 126,
+   "rank": 129,
    "co": "E2B",
    "company": "e2b",
    "tier": 3,
@@ -27727,7 +27734,7 @@
   {
    "id": "drapcode-2026w45",
    "week": "2026-W45",
-   "rank": 47,
+   "rank": 48,
    "co": "DrapCode",
    "company": "drapcode",
    "tier": 3,
@@ -27760,7 +27767,7 @@
   {
    "id": "doit-2026w45",
    "week": "2026-W45",
-   "rank": 127,
+   "rank": 130,
    "co": "DoiT",
    "company": "doit",
    "tier": 3,
@@ -27793,7 +27800,7 @@
   {
    "id": "dnsimple-2026w45",
    "week": "2026-W45",
-   "rank": 104,
+   "rank": 105,
    "co": "DNSimple",
    "company": "dnsimple",
    "tier": 3,
@@ -27826,7 +27833,7 @@
   {
    "id": "celigo-2026w45",
    "week": "2026-W45",
-   "rank": 105,
+   "rank": 106,
    "co": "Celigo",
    "company": "celigo",
    "tier": 3,
@@ -27859,7 +27866,7 @@
   {
    "id": "craft-2026w45",
    "week": "2026-W45",
-   "rank": 106,
+   "rank": 107,
    "co": "Craft",
    "company": "craft",
    "tier": 3,
@@ -27892,7 +27899,7 @@
   {
    "id": "codility-2026w45",
    "week": "2026-W45",
-   "rank": 48,
+   "rank": 49,
    "co": "Codility",
    "company": "codility",
    "tier": 3,
@@ -27925,7 +27932,7 @@
   {
    "id": "chromatic-2026w45",
    "week": "2026-W45",
-   "rank": 128,
+   "rank": 131,
    "co": "Chromatic",
    "company": "chromatic",
    "tier": 3,
@@ -27958,7 +27965,7 @@
   {
    "id": "checkmark-2026w45",
    "week": "2026-W45",
-   "rank": 107,
+   "rank": 108,
    "co": "CheckMark",
    "company": "checkmark",
    "tier": 3,
@@ -27991,7 +27998,7 @@
   {
    "id": "bonusly-2026w45",
    "week": "2026-W45",
-   "rank": 108,
+   "rank": 109,
    "co": "Bonusly",
    "company": "bonusly",
    "tier": 3,
@@ -28024,7 +28031,7 @@
   {
    "id": "cartesia-2026w45",
    "week": "2026-W45",
-   "rank": 49,
+   "rank": 50,
    "co": "Cartesia",
    "company": "cartesia",
    "tier": 3,
@@ -28057,7 +28064,7 @@
   {
    "id": "taxslayer-2026w45",
    "week": "2026-W45",
-   "rank": 109,
+   "rank": 110,
    "co": "TaxSlayer",
    "company": "taxslayer",
    "tier": 3,
@@ -28082,6 +28089,1495 @@
     ],
     "source": [
      "https://pricingsaas.com/companies/taxslayer/diffs/2026W45"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "aircall-2026w45",
+   "week": "2026-W45",
+   "rank": 11,
+   "co": "Aircall",
+   "company": "aircall",
+   "tier": 2,
+   "group": "down",
+   "delta": "−41%",
+   "short": "AI Voice Agents pay-as-you-go drops from $0.49/min to $0.29/min, and the bundles become 1,000 minutes for $250, 3,500 for $805 and 10,000 for $1,900.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "add-on",
+   "reach": 2,
+   "magnitude": {
+    "low": -41,
+    "high": -41,
+    "basis": "unit price"
+   },
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "2 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://aircall.io/pricing/",
+   "evidence": {
+    "before": "data/snapshots/aircall/2026-10-29T07.txt",
+    "after": "data/snapshots/aircall/2026-11-03T07.txt",
+    "diff": "aircall-2026-11-03T07"
+   },
+   "plan": "AI Voice Agents (extra minutes)",
+   "deltaSub": "pay-as-you-go, per minute",
+   "headline": "Aircall cut its pay-as-you-go rate for extra AI Voice Agent minutes from $0.49 to $0.29 per minute and replaced the 500 and 2,500 minute bundles with 1,000, 3,500 and 10,000 minute bundles.",
+   "rows": [
+    [
+     "Pay as you go, per minute",
+     "$0.49/min",
+     "$0.29/min"
+    ],
+    [
+     "Entry bundle",
+     "500 minutes, $175/month",
+     "1,000 minutes, $250/month"
+    ],
+    [
+     "Mid bundle",
+     "2,500 minutes, $725/month",
+     "3,500 minutes, $805/month"
+    ],
+    [
+     "Large bundle",
+     "10,000+ minutes, From $1,900/month",
+     "10,000 minutes, $1,900/month"
+    ]
+   ],
+   "who": "Aircall customers who buy AI Voice Agents minutes beyond the 50 included minutes on Essentials and Professional.",
+   "stated": null,
+   "read": "The pay-as-you-go rate now matches the old 2,500 minute bundle rate, so small users no longer need a commitment to get a low per-minute price. The bundle ladder is reset around a 1,000 minute entry point, which looks aimed at driving AI Voice Agents adoption.",
+   "model": "Usage",
+   "modelBefore": "Usage",
+   "modelAfter": "Usage",
+   "appliesTo": "all",
+   "caveat": "The old and new bundles do not line up one for one, so the effective per-minute price at some volumes may go up (for example 500 minutes cost $175 before and the smallest bundle is now 1,000 minutes for $250)."
+  },
+  {
+   "id": "constructconnect-2026w46",
+   "week": "2026-W46",
+   "rank": 1,
+   "co": "ConstructConnect",
+   "company": "constructconnect",
+   "tier": 3,
+   "group": "up",
+   "delta": "+12%",
+   "short": "Professional takeoff plan goes from $183 to $205 per seat per month, and from $2,200 to $2,450 per seat per year.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "2 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.constructconnect.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/constructconnect/2026-10-31T07.txt",
+    "after": "data/snapshots/constructconnect/2026-11-03T07.txt",
+    "diff": "constructconnect-2026-11-03T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "crusoe-2026w46",
+   "week": "2026-W46",
+   "rank": 2,
+   "co": "Crusoe",
+   "company": "crusoe",
+   "tier": 3,
+   "group": "up",
+   "delta": "+6% to +25%",
+   "short": "From Dec 1, 2026 self-serve deployment GPU rates rise: B200 $9.65 → $10.20, H200 $6.00 → $7.50, H100 $5.50 → $6.30, MI355X $7.70 → $8.20 per GPU-hr.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "2 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.crusoe.ai/cloud/pricing",
+   "evidence": {
+    "before": "data/snapshots/crusoe/2026-10-25T07.txt",
+    "after": "data/snapshots/crusoe/2026-11-03T07.txt",
+    "diff": "crusoe-2026-11-03T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "arcade-2026w46",
+   "week": "2026-W46",
+   "rank": 3,
+   "co": "Arcade",
+   "company": "arcade",
+   "tier": 3,
+   "group": "down",
+   "delta": "−20%",
+   "short": "Each AI edit on the top-quality model costs 60 credits, down from 75.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "2 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.arcade.software/pricing",
+   "evidence": {
+    "before": "data/snapshots/arcade/2026-10-30T07.txt",
+    "after": "data/snapshots/arcade/2026-11-03T07.txt",
+    "diff": "arcade-2026-11-03T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "breezy-hr-2026w46",
+   "week": "2026-W46",
+   "rank": 4,
+   "co": "Breezy HR",
+   "company": "breezy-hr",
+   "tier": 3,
+   "group": "up",
+   "delta": "Free plan removed",
+   "short": "The free-forever Bootstrap plan with one active position is no longer shown; Startup at $157/mo is now the entry plan.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "2 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://breezy.hr/pricing",
+   "evidence": {
+    "before": "data/snapshots/breezy-hr/2026-10-29T19.txt",
+    "after": "data/snapshots/breezy-hr/2026-11-03T07.txt",
+    "diff": "breezy-hr-2026-11-03T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "acdsee-2026w39",
+   "week": "2026-W39",
+   "rank": 32,
+   "co": "ACDSee",
+   "company": "acdsee",
+   "tier": 3,
+   "group": "up",
+   "delta": "+17% to +20%",
+   "short": "Photo Studio 2027 list prices rise after the presale: Ultimate $149.95 → $179.99, Professional $99.95 → $119.99, Home $59.95 → $69.99, and the bundled AI credit and storage bonuses are dropped.",
+   "pattern": "Price increase",
+   "seg": "B2C",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-14",
+   "seenLabel": "14–20 Sep",
+   "when": "14 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/acdsee/diffs/2026W39",
+   "evidence": {
+    "report": "acdsee:2026-W39",
+    "files": [
+     "data/pricingsaas/pages/diffs/acdsee__2026W39.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/acdsee/diffs/2026W39"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "ahrefs-2026w39",
+   "week": "2026-W39",
+   "rank": 88,
+   "co": "Ahrefs",
+   "company": "ahrefs",
+   "tier": 3,
+   "group": "down",
+   "delta": "×2",
+   "short": "Connect API units per month double: Lite 100,000 → 200,000, Standard 400,000 → 800,000, Advanced 1M → 2M, while Enterprise’s 2M cap becomes Custom.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-14",
+   "seenLabel": "14–20 Sep",
+   "when": "14 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/ahrefs/diffs/2026W39",
+   "evidence": {
+    "report": "ahrefs:2026-W39",
+    "files": [
+     "data/pricingsaas/pages/diffs/ahrefs__2026W39.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/ahrefs/diffs/2026W39"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "maropost-2026w38",
+   "week": "2026-W38",
+   "rank": 8,
+   "co": "Maropost",
+   "company": "maropost",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$199 → 4 GMV tiers",
+   "short": "Commerce Cloud’s single ‘Starting at $199/month’ price replaced by four GMV-based tiers: Build $29, Essentials $160, Professional $632, Enterprise $1,600 a month.",
+   "pattern": "New tier",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/maropost/diffs/2026W38",
+   "evidence": {
+    "report": "maropost:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/maropost__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/maropost/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "prophecy-2026w38",
+   "week": "2026-W38",
+   "rank": 44,
+   "co": "Prophecy",
+   "company": "prophecy",
+   "tier": 3,
+   "group": "down",
+   "delta": "5 / month",
+   "short": "Alteryx workflow import, previously blank on Professional, now listed there capped at 5 imports a month.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/prophecy/diffs/2026W38",
+   "evidence": {
+    "report": "prophecy:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/prophecy__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/prophecy/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "pleo-2026w38",
+   "week": "2026-W38",
+   "rank": 58,
+   "co": "Pleo",
+   "company": "pleo",
+   "tier": 3,
+   "group": "up",
+   "delta": "−60%",
+   "short": "Top-tier credit limit cut from £250,000 to £100,000; vendor card allowances on the two upgraded tiers cut from 25 to 15 and from 100 to 50.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pleo/diffs/2026W38",
+   "evidence": {
+    "report": "pleo:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/pleo__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pleo/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "skuvault-2026w38",
+   "week": "2026-W38",
+   "rank": 45,
+   "co": "SkuVault",
+   "company": "skuvault",
+   "tier": 3,
+   "group": "up",
+   "delta": "North America only",
+   "short": "Quality control, 3PL inventory management, product substitution and serialization on SkuVault Core are now labeled North America only.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/skuvault/diffs/2026W38",
+   "evidence": {
+    "report": "skuvault:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/skuvault__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/skuvault/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "messari-2026w38",
+   "week": "2026-W38",
+   "rank": 59,
+   "co": "Messari",
+   "company": "messari",
+   "tier": 3,
+   "group": "down",
+   "delta": "−10%",
+   "short": "Enterprise Individual plan $5,000 → $4,500 a year.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/messari/diffs/2026W38",
+   "evidence": {
+    "report": "messari:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/messari__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/messari/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "veelapp-2026w38",
+   "week": "2026-W38",
+   "rank": 9,
+   "co": "Veelapp",
+   "company": "veelapp",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$500 / $999",
+   "short": "Plans restructured: Starter becomes free (was $150/mo), a Launchpad tier arrives at $499/mo, Pro rises from $500 to $999/mo, extra-seat overage falls from $100 to $25/mo and a usage-credit meter is added.",
+   "pattern": "Price increase",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/veelapp/diffs/2026W38",
+   "evidence": {
+    "report": "veelapp:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/veelapp__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/veelapp/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "siminsights-2026w38",
+   "week": "2026-W38",
+   "rank": 46,
+   "co": "SimInsights",
+   "company": "siminsights",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Merged into 5 tiers",
+   "short": "Teacher, Individual & Homeschools and Classroom options merged into a single 5-tier K12 ladder; a $2,000/yr extra-site add-on appeared on Education Premium.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/siminsights/diffs/2026W38",
+   "evidence": {
+    "report": "siminsights:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/siminsights__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/siminsights/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "schematic-2026w38",
+   "week": "2026-W38",
+   "rank": 47,
+   "co": "Schematic",
+   "company": "schematic",
+   "tier": 3,
+   "group": "up",
+   "delta": "Unlimited → 15",
+   "short": "Growth custom plans and overrides went from unlimited to a cap of 15 custom plans and 20 overrides; Enterprise copy now advertises removing the caps.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/schematichq/diffs/2026W38",
+   "evidence": {
+    "report": "schematichq:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/schematichq__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/schematichq/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "shiftnex-2026w38",
+   "week": "2026-W38",
+   "rank": 10,
+   "co": "ShiftNex",
+   "company": "shiftnex",
+   "tier": 3,
+   "group": "pack",
+   "delta": "4 tiers → 3 models",
+   "short": "4 plan tiers replaced by 3 models (ShiftNex AI at $499 a month, Network, Premium); the Network fee went from 10% to 15% and the 14-day free trial was removed.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/shiftnex/diffs/2026W38",
+   "evidence": {
+    "report": "shiftnex:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/shiftnex__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/shiftnex/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "simplero-2026w38",
+   "week": "2026-W38",
+   "rank": 11,
+   "co": "Simplero",
+   "company": "simplero",
+   "tier": 3,
+   "group": "up",
+   "delta": "2 → 1 sites",
+   "short": "Starter plan allowance cut from 2 sites/communities to 1 site/community.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/simplero/diffs/2026W38",
+   "evidence": {
+    "report": "simplero:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/simplero__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/simplero/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "shorthand-2026w38",
+   "week": "2026-W38",
+   "rank": 60,
+   "co": "Shorthand",
+   "company": "shorthand",
+   "tier": 3,
+   "group": "pack",
+   "delta": "20 hrs → Tailored",
+   "short": "Enterprise included dev and design services changed from a fixed 20 hours to an unspecified Tailored amount.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/shorthand/diffs/2026W38",
+   "evidence": {
+    "report": "shorthand:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/shorthand__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/shorthand/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "regpack-2026w38",
+   "week": "2026-W38",
+   "rank": 48,
+   "co": "Regpack",
+   "company": "regpack",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Features swapped",
+   "short": "Mid-Market and Plus feature lists swapped: training sessions, consultant caps, blog access, financial reports, migration assistance and email quotas removed, AI reporting, program insights and attendance tracking added.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/regpack/diffs/2026W38",
+   "evidence": {
+    "report": "regpack:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/regpack__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/regpack/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "quickbooks-2026w38",
+   "week": "2026-W38",
+   "rank": 49,
+   "co": "QuickBooks",
+   "company": "quickbooks",
+   "tier": 3,
+   "group": "up",
+   "delta": "+8% to +12%",
+   "short": "Workforce Payroll + Essentials $125 → $135 a month and Workforce Premium + Plus $203 → $228 a month.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/quickbooks.payroll/diffs/2026W38",
+   "evidence": {
+    "report": "quickbooks.payroll:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/quickbooks.payroll__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/quickbooks.payroll/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "rocket-lawyer-2026w38",
+   "week": "2026-W38",
+   "rank": 61,
+   "co": "Rocket Lawyer",
+   "company": "rocket-lawyer",
+   "tier": 3,
+   "group": "up",
+   "delta": "+14%",
+   "short": "Trademark services add-on for Plus and Pro members went from $350 and up to $400 and up.",
+   "pattern": "Price increase",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/rocketlawyer/diffs/2026W38",
+   "evidence": {
+    "report": "rocketlawyer:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/rocketlawyer__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/rocketlawyer/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "lytho-2026w38",
+   "week": "2026-W38",
+   "rank": 62,
+   "co": "Lytho",
+   "company": "lytho",
+   "tier": 3,
+   "group": "down",
+   "delta": "100 → Unlimited",
+   "short": "Enterprise Core Users (Creators and Managers) cap 100 → Unlimited; Standard stays at 10 and Professional at 25.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/lytho/diffs/2026W38",
+   "evidence": {
+    "report": "lytho:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/lytho__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/lytho/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "looka-2026w38",
+   "week": "2026-W38",
+   "rank": 12,
+   "co": "Looka",
+   "company": "looka",
+   "tier": 3,
+   "group": "up",
+   "delta": "+75%",
+   "short": "One-time logo packages: Basic $20 → $35 (+75%) and Premium $65 → $72; Brand Kit subscriptions unchanged.",
+   "pattern": "Price increase",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/looka/diffs/2026W38",
+   "evidence": {
+    "report": "looka:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/looka__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/looka/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "langfuse-2026w38",
+   "week": "2026-W38",
+   "rank": 50,
+   "co": "Langfuse",
+   "company": "langfuse",
+   "tier": 3,
+   "group": "up",
+   "delta": "Caps added",
+   "short": "Langfuse Assistant usage is now tiered by plan: Low on Hobby, Medium on Core, High on Pro and Enterprise, where no cap was stated before.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/langfuse/diffs/2026W38",
+   "evidence": {
+    "report": "langfuse:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/langfuse__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/langfuse/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "userway-2026w38",
+   "week": "2026-W38",
+   "rank": 51,
+   "co": "UserWay",
+   "company": "userway",
+   "tier": 3,
+   "group": "pack",
+   "delta": "New priced tiers",
+   "short": "A single contact-us option is replaced by two self-serve plans: Pro Plus at $1,190/year and Ultimate at $2,490/year.",
+   "pattern": "New tier",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/userway/diffs/2026W38",
+   "evidence": {
+    "report": "userway:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/userway__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/userway/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "syncfusion-2026w38",
+   "week": "2026-W38",
+   "rank": 52,
+   "co": "Syncfusion",
+   "company": "syncfusion",
+   "tier": 3,
+   "group": "down",
+   "delta": "All 7 SDKs",
+   "short": "UI Component Suite now bundles all 7 standalone UI SDKs, previously only Grid, Chart and File Manager, at the same $1,199 per developer per year.",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/syncfusion/diffs/2026W38",
+   "evidence": {
+    "report": "syncfusion:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/syncfusion__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/syncfusion/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "zoho-2026w38",
+   "week": "2026-W38",
+   "rank": 7,
+   "co": "Zoho",
+   "company": "zoho",
+   "tier": 2,
+   "group": "pack",
+   "delta": "Features swapped",
+   "short": "Zoho Expense Standard drops Multi-level approval and Split expenses and gains an Expense Intelligence/Zia AI suite; Premium Support stays at $490/year.",
+   "pattern": "AI moves between tiers",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/zoho.expense/diffs/2026W38",
+   "evidence": {
+    "report": "zoho.expense:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/zoho.expense__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/zoho.expense/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "plan": "Zoho Expense Standard",
+   "deltaSub": "Standard plan features",
+   "headline": "Zoho Expense Standard lost Multi-level approval and Split expenses and gained an AI suite, with no list price change.",
+   "rows": [
+    [
+     "Standard: Multi-level approval and Split expenses",
+     "Included",
+     "Removed"
+    ],
+    [
+     "Standard: Expense Intelligence / Zia AI suite",
+     "Not listed",
+     "Included"
+    ],
+    [
+     "Premium Support add-on, per year",
+     "45 days onboarding assistance, $490",
+     "Dedicated relationship manager support, $490"
+    ]
+   ],
+   "who": "Customers on the Standard plan who relied on multi-level approval or split expenses; the Premium Support add-on buyers.",
+   "stated": null,
+   "read": "Taking approval workflow features out of Standard while adding AI looks like a push toward higher plans for approval-heavy teams. This is our inference; the page gives no reason.",
+   "model": "Seat",
+   "modelBefore": "Seat",
+   "modelAfter": "Seat",
+   "appliesTo": "unknown"
+  },
+  {
+   "id": "voc-ai-2026w38",
+   "week": "2026-W38",
+   "rank": 53,
+   "co": "VOC AI",
+   "company": "voc-ai",
+   "tier": 3,
+   "group": "up",
+   "delta": "+31%",
+   "short": "API Basic rises from $29/month to $38/month, and Basic and Pro now state exact credit quotas (35,000 and 105,000 credits/month).",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/vocai/diffs/2026W38",
+   "evidence": {
+    "report": "vocai:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/vocai__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/vocai/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "tembo-2026w38",
+   "week": "2026-W38",
+   "rank": 54,
+   "co": "Tembo",
+   "company": "tembo",
+   "tier": 3,
+   "group": "up",
+   "delta": "3 → 1 users",
+   "short": "Free plan workspace seats cut from up to 3 users to just 1 user.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/tembo/diffs/2026W38",
+   "evidence": {
+    "report": "tembo:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/tembo__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/tembo/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "ordant-2026w38",
+   "week": "2026-W38",
+   "rank": 63,
+   "co": "Ordant",
+   "company": "ordant",
+   "tier": 3,
+   "group": "down",
+   "delta": "Custom → unlimited",
+   "short": "Enterprise Number of Users went from Custom to unlimited in the plan comparison table.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/ordant/diffs/2026W38",
+   "evidence": {
+    "report": "ordant:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/ordant__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/ordant/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "moxo-2026w38",
+   "week": "2026-W38",
+   "rank": 55,
+   "co": "Moxo",
+   "company": "moxo",
+   "tier": 3,
+   "group": "up",
+   "delta": "−60%",
+   "short": "Team included flows 250 → 100 a year and Scale 1,000 → 500; AI allowance moves from 25,000 / 100,000 credits to $100 / $500 of AI a year.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/moxtra/diffs/2026W38",
+   "evidence": {
+    "report": "moxtra:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/moxtra__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/moxtra/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "openrouter-2026w38",
+   "week": "2026-W38",
+   "rank": 64,
+   "co": "OpenRouter",
+   "company": "openrouter",
+   "tier": 3,
+   "group": "pack",
+   "delta": "New tier",
+   "short": "New Business tier between Pay-as-you-go and Enterprise: 8% platform fee, 1,000 workspaces versus 5 on Free and Pay-as-you-go, signed DPA on request.",
+   "pattern": "New tier",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/openrouter/diffs/2026W38",
+   "evidence": {
+    "report": "openrouter:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/openrouter__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/openrouter/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "ocoya-2026w38",
+   "week": "2026-W38",
+   "rank": 13,
+   "co": "Ocoya",
+   "company": "ocoya",
+   "tier": 3,
+   "group": "up",
+   "delta": "+93%",
+   "short": "Entry price $15 → $29 a month as the four-tier Workspaces lineup (Diamond was $159) becomes Starter $29, Team $79 and Agency $199.",
+   "pattern": "Tier consolidation",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/ocoya/diffs/2026W38",
+   "evidence": {
+    "report": "ocoya:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/ocoya__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/ocoya/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "not-diamond-2026w38",
+   "week": "2026-W38",
+   "rank": 14,
+   "co": "Not Diamond",
+   "company": "not-diamond",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$0.05 / M tokens",
+   "short": "Pay-as-you-go moves from $10 per 10K recommendations and $20 per optimization to a flat $0.05 per million tokens routed.",
+   "pattern": "New billing units",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/notdiamond/diffs/2026W38",
+   "evidence": {
+    "report": "notdiamond:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/notdiamond__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/notdiamond/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "mux-2026w38",
+   "week": "2026-W38",
+   "rank": 65,
+   "co": "Mux",
+   "company": "mux",
+   "tier": 3,
+   "group": "up",
+   "delta": "×10",
+   "short": "Live captions overage rate $0.0024 → $0.024 a minute once the monthly free allowance is used.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/mux/diffs/2026W38",
+   "evidence": {
+    "report": "mux:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/mux__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/mux/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "marpipe-2026w38",
+   "week": "2026-W38",
+   "rank": 56,
+   "co": "Marpipe",
+   "company": "marpipe",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Feed tier split",
+   "short": "Feed Management becomes its own Free / White Glove tier ($0 vs $0.80 per SKU) and Enterprise ‘starting at $999/mo’ becomes a flat $999/mo.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/marpipe/diffs/2026W38",
+   "evidence": {
+    "report": "marpipe:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/marpipe__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/marpipe/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "lorikeet-2026w38",
+   "week": "2026-W38",
+   "rank": 15,
+   "co": "Lorikeet",
+   "company": "lorikeet",
+   "tier": 3,
+   "group": "up",
+   "delta": "+40%",
+   "short": "Start $1,500 → $2,100 and Scale $4,000 → $5,100 a month as credit bundles give way to per-resolution pricing.",
+   "pattern": "Price increase",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/lorikeetcx/diffs/2026W38",
+   "evidence": {
+    "report": "lorikeetcx:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/lorikeetcx__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/lorikeetcx/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "lightfield-2026w38",
+   "week": "2026-W38",
+   "rank": 16,
+   "co": "Lightfield",
+   "company": "lightfield",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Usage → seats",
+   "short": "Usage-based pricing replaced by seat plans from $89 to $1,999 a month; Starter capped at 3 seats and the unlimited-seats promise dropped.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/lightfield/diffs/2026W38",
+   "evidence": {
+    "report": "lightfield:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/lightfield__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/lightfield/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "livedune-2026w38",
+   "week": "2026-W38",
+   "rank": 66,
+   "co": "LiveDune",
+   "company": "livedune",
+   "tier": 3,
+   "group": "down",
+   "delta": "−18%",
+   "short": "Agency plan $275 → $225 a month; Blogger and Corporate unchanged.",
+   "pattern": "Price cut",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/livedune/diffs/2026W38",
+   "evidence": {
+    "report": "livedune:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/livedune__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/livedune/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "kahoot-2026w38",
+   "week": "2026-W38",
+   "rank": 67,
+   "co": "Kahoot!",
+   "company": "kahoot",
+   "tier": 3,
+   "group": "down",
+   "delta": "5,000 flat",
+   "short": "Pro Ultra participant cap now shown as a flat 5,000, without the onboarding requirement for going above the 2,000 base.",
+   "pattern": "Limits loosen",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "top",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/kahoot/diffs/2026W38",
+   "evidence": {
+    "report": "kahoot:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/kahoot__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/kahoot/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "katteb-2026w38",
+   "week": "2026-W38",
+   "rank": 17,
+   "co": "Katteb",
+   "company": "katteb",
+   "tier": 3,
+   "group": "pack",
+   "delta": "New tier set",
+   "short": "Free $0, Test Pro $29 and Agency $99 replaced by Lite $19, Plus $99 and Pro $199 a month, now on model-usage credits.",
+   "pattern": "Rename & reposition",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/katteb/diffs/2026W38",
+   "evidence": {
+    "report": "katteb:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/katteb__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/katteb/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "kapwing-2026w38",
+   "week": "2026-W38",
+   "rank": 57,
+   "co": "Kapwing",
+   "company": "kapwing",
+   "tier": 3,
+   "group": "up",
+   "delta": "−80%",
+   "short": "Free plan credit minutes cut: auto-subtitling 50 → 10, auto-translating 25 → 5, text-to-speech 3 → 1, clean audio 25 → 5.",
+   "pattern": "Limits tighten",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-09-07",
+   "seenLabel": "7–13 Sep",
+   "when": "7 Sep",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/kapwing/diffs/2026W38",
+   "evidence": {
+    "report": "kapwing:2026-W38",
+    "files": [
+     "data/pricingsaas/pages/diffs/kapwing__2026W38.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/kapwing/diffs/2026W38"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "benchmark-email-2026w45",
+   "week": "2026-W45",
+   "rank": 111,
+   "co": "Benchmark Email",
+   "company": "benchmark-email",
+   "tier": 3,
+   "group": "pack",
+   "delta": "2,500 / 1,000",
+   "short": "Free plan send cap is cut from 2,500 to 1,000 emails per month, while Pro gains a 500-contact entry tier at $12/mo ($10/mo billed annually) below the old $19/mo ($16/mo annual) start.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "26 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/benchmarkemail/diffs/2026W45",
+   "evidence": {
+    "report": "benchmarkemail:2026-W45",
+    "files": [
+     "data/pricingsaas/pages/diffs/benchmarkemail__2026W45.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/benchmarkemail/diffs/2026W45"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "nightwatch-2026w45",
+   "week": "2026-W45",
+   "rank": 112,
+   "co": "Nightwatch",
+   "company": "nightwatch",
+   "tier": 3,
+   "group": "up",
+   "delta": "Claude → Enterprise",
+   "short": "Claude tracking is removed from Starter, Professional and Agency and is now Enterprise-only, and Enterprise AI credits go from unlimited to Custom.",
+   "pattern": "AI moves between tiers",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-10-26",
+   "seenLabel": "26 Oct–1 Nov",
+   "when": "26 Oct",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/ranktrackr/diffs/2026W45",
+   "evidence": {
+    "report": "ranktrackr:2026-W45",
+    "files": [
+     "data/pricingsaas/pages/diffs/ranktrackr__2026W45.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/ranktrackr/diffs/2026W45"
     ]
    },
    "reported": true,
@@ -29201,7 +30697,7 @@
   },
   "kahoot": {
    "name": "Kahoot!",
-   "tier": null,
+   "tier": 3,
    "category": "Collaboration & Productivity",
    "aiNative": false,
    "ownership": "private",
@@ -31031,7 +32527,7 @@
   },
   "siminsights": {
    "name": "SimInsights",
-   "tier": null,
+   "tier": 3,
    "category": "Workforce Management",
    "aiNative": null,
    "ownership": null,
@@ -34978,6 +36474,276 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "siteground": {
+   "name": "SiteGround",
+   "tier": null,
+   "category": "Cloud & DevOps",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "acdsee": {
+   "name": "ACDSee",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "ahrefs": {
+   "name": "Ahrefs",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "maropost": {
+   "name": "Maropost",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "pleo": {
+   "name": "Pleo",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "skuvault": {
+   "name": "SkuVault",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "schematic": {
+   "name": "Schematic",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "shiftnex": {
+   "name": "ShiftNex",
+   "tier": 3,
+   "category": "Workforce Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "shorthand": {
+   "name": "Shorthand",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "regpack": {
+   "name": "Regpack",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "quickbooks": {
+   "name": "QuickBooks",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "lytho": {
+   "name": "Lytho",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "looka": {
+   "name": "Looka",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "langfuse": {
+   "name": "Langfuse",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "userway": {
+   "name": "UserWay",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "voices": {
+   "name": "Voices",
+   "tier": null,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "voc-ai": {
+   "name": "VOC AI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "ordant": {
+   "name": "Ordant",
+   "tier": 3,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "patriot-software": {
+   "name": "Patriot Software",
+   "tier": null,
+   "category": "Finance & Accounting",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "ocoya": {
+   "name": "Ocoya",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "not-diamond": {
+   "name": "Not Diamond",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "mux": {
+   "name": "Mux",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "marpipe": {
+   "name": "Marpipe",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "lorikeet": {
+   "name": "Lorikeet",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "lightfield": {
+   "name": "Lightfield",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "benchmark-email": {
+   "name": "Benchmark Email",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "nightwatch": {
+   "name": "Nightwatch",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -37038,6 +38804,112 @@
    "co": "DataCamp",
    "kind": "ended",
    "text": "Special Price promo on Premium and Teams ended: $14/mo back to $28/mo",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "xero-promo-2026w46",
+   "week": "2026-W46",
+   "company": "xero",
+   "co": "Xero",
+   "kind": "changed",
+   "text": "New US customers: 80% off the first 3 months (was 90% off the first 6 months, offer ended Nov 2 2026); Early $5.40, Growing $11.80, Established $19.40 per month during the offer",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "sarvam-ai-promo-2026w46",
+   "week": "2026-W46",
+   "company": "sarvam-ai",
+   "co": "Sarvam AI",
+   "kind": "new",
+   "text": "Bulbul V4 Flash: 50% off until 12 Nov. List rate now ₹2.00 per 1,000 characters on pay as you go (was ₹1.00), discounted back to ₹1.00; Pro ₹1.85 → ₹0.925, Growth ₹1.70 → ₹0.85, Business ₹1.70 → ₹0.80",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "siteground-promo-2026w45",
+   "week": "2026-W45",
+   "company": "siteground",
+   "co": "SiteGround",
+   "kind": "changed",
+   "text": "Early Black Friday deal: 88% off hosting, from $1.99/mo (was save up to 83%, from $2.99/mo); renewals unchanged",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "on1-promo-2026w46",
+   "week": "2026-W46",
+   "company": "on1",
+   "co": "ON1",
+   "kind": "ended",
+   "text": "Pre-order bundle ended: Photo RAW $79.99 for 2026 + 2027 is now $99.99 for 2027 only; Photo RAW MAX $129.99 is now $149.99",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "upstage-promo-2026w38",
+   "week": "2026-W38",
+   "company": "upstage",
+   "co": "Upstage",
+   "kind": "changed",
+   "text": "Solar Pro 4 launch promotion steps down from 90% off to 70% off, raising input from $0.03 to $0.09 per 1M tokens",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "voices-promo-2026w38",
+   "week": "2026-W38",
+   "company": "voices",
+   "co": "Voices",
+   "kind": "new",
+   "text": "$150 off Premium with the FALL SAVINGS promo, valid before 9/27",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "patriot-software-promo-2026w38",
+   "week": "2026-W38",
+   "company": "patriot-software",
+   "co": "Patriot Software",
+   "kind": "changed",
+   "text": "50% off promo shortened from 6 months to 3 months on accounting and payroll",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "kajabi-promo-2026w38",
+   "week": "2026-W38",
+   "company": "kajabi",
+   "co": "Kajabi",
+   "kind": "new",
+   "text": "$1,678 of free launch support for sign-ups before September 15",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "kodekloud-promo-2026w38-2",
+   "week": "2026-W38",
+   "company": "kodekloud",
+   "co": "KodeKloud",
+   "kind": "changed",
+   "text": "Annual plans: save up to 50% (was up to 21%) in the Skill-tember sale",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "bark-promo-2026w45-2",
+   "week": "2026-W45",
+   "company": "bark",
+   "co": "Bark",
+   "kind": "new",
+   "text": "$30 off the Bark Phone or Watch with code JOY30, limited time",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "apploye-promo-2026w45-2",
+   "week": "2026-W45",
+   "company": "apploye",
+   "co": "Apploye",
+   "kind": "changed",
+   "text": "40% off Power for the first 3 months, shown as $4.80/user/mo instead of $8 on annual billing, until 19 Nov",
    "src": "PricingSaaS report",
    "reported": true
   }
