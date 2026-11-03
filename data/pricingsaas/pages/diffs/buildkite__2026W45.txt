@@ -1,0 +1,67 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Buildkite/All changes/Windows hosted agents added
+B
+BuildkitePackaging change · New add-on · Feature added · Oct 26 → Nov 2, 2026
+Buildkite adds Windows hosted agents at $0.008 per vCPU minute
+Verified Nov 2, 2026·Software Development & Testing·Direction: up
+The changeWindows hosted agents — added.
+Before · Oct 26No Windows hosted agents
+After · Nov 2Windows hosted agents
+added
+2 changes·2 captures·Oct 26, 2026 → Nov 2, 2026
+What happened
+Between the Oct 26, 2026 and Nov 2, 2026 captures of Buildkite's pricing page, Pulse recorded 2 changes: Windows hosted agents added at $0.008 per vCPU minute (Small/Medium/Large); Linux ARM64 now available on every shape at the same rate as AMD64 instead of on request for Enterprise; Pro plan now includes Windows and Linux ARM64 agents (4,000 Linux AMD64 vCPU minutes); Enterprise hosted agents bullet drops private container registry and Linux ARM64 mention. Pulse files it as a packaging change (new add-on, feature added) with an upward direction. The current page lists Pro Plan at $30.
+It lands 14 days after Buildkite's previous change, "Buildkite Pro now lists overage rates for storage and downloads" (Oct 19, 2026). Before that Pulse recorded "Buildkite: Personal→Free rename, Free/Pro plans gain explicit usage caps" (Aug 24, 2026) and "Buildkite: Model Providers LLM proxy pricing removed" (Aug 10, 2026). Buildkite has been tracked since 2023-11-14.
+In the same window GitHub, GitLab, CircleCI and Google Cloud also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · Add-onAdded
+No Windows hosted agents→Windows hosted agents
+Pro Plan · FeatureRemoved
+Beforeprivate container registry and Linux ARM64 mention
+AfterNot listed
+Plan
+Field
+Before
+After
+Change
+—
+Add-on
+No Windows hosted agents
+Windows hosted agents
+Added
+Pro Plan
+Feature
+private container registry and Linux ARM64 mention
+Not listed
+Removed
+Values as written on Buildkite's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Buildkite's pricing page (buildkite.com) from Oct 26, 2026 and Nov 2, 2026; the change is marked in the lower part of the page, where Windows hosted agents now appears.
+Oct 26, 2026 · No Windows hosted agents
+Nov 2, 2026 · Windows hosted agents
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Buildkite, the last 90 days
+Full history
+Nov 2, 2026packagingBuildkite adds Windows hosted agents at $0.008 per vCPU minute · this change
+Oct 19, 2026packagingBuildkite Pro now lists overage rates for storage and downloads
+Aug 24, 2026packagingBuildkite: Personal→Free rename, Free/Pro plans gain explicit usage caps
+Aug 10, 2026packagingBuildkite: Model Providers LLM proxy pricing removed
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+GitHubNov 2GitHub unbundles Code Security and Secret Protection as standalone add-ons
+GitLabNov 2GitLab launches Orbit add-on with pay-per-query packs for Premium, Ultimate
+CircleCIOct 19CircleCI adds Smarter Testing to all plans with free test-atom quotas
+Google CloudSep 21Looker: Conversational Analytics grace period extended indefinitely
+Questions about this change
+Did Buildkite raise prices in November 2026?
+No list-price increase was recorded between Oct 26, 2026 and Nov 2, 2026. The change Pulse detected was a packaging change: new add-on, feature added.
+What changed on Buildkite's pricing page between Oct 26, 2026 and Nov 2, 2026?
+Add-on: No Windows hosted agents → Windows hosted agents, added; Pro Plan feature: private container registry and Linux ARM64 mention → Not listed, removed. Pulse compared the captures it took on Oct 26, 2026 and Nov 2, 2026; the before/after table above lists each item as written on the page.
+How often does Buildkite change its pricing?
+Pulse recorded 3 other pricing-page changes for Buildkite in the 90 days before this one; the previous change was "Buildkite Pro now lists overage rates for storage and downloads" on Oct 19, 2026; Buildkite has been tracked since 2023-11-14.

@@ -1,0 +1,71 @@
+{
+ "type": "changes",
+ "run": "2026-11-02T19",
+ "items": [
+  {"diff_id": "alldata-2026-11-02T19", "kind": "wording", "why": "A “/Month” label was added next to the $0.00 Estimator price; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "explorium-2026-11-02T19", "kind": "promo", "why": "The Halloween “up to 25% off every plan” countdown banner was removed after its Nov 1 end date.", "detail": "line", "record": null, "promo": {"kind": "ended", "text": "Up to 25% off every plan, until Nov 1st"}},
+  {"diff_id": "legalzoom-2026-11-02T19", "kind": "plan_change", "why": "LLC packages were rebuilt: Managed Service and Expert Service became Pro and Premium at the same $249 and $299, with different bundled services and a lower renewal price on the top plan.", "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Repackaged",
+    "short": "Managed Service $249 and Expert Service $299 became Pro $249 and Premium $299, with the top plan’s renewal going from $99/mo to $49/mo.",
+    "pattern": "Unbundling",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3,
+    "plan": "LLC formation packages",
+    "deltaSub": "list prices unchanged, contents changed",
+    "headline": "LegalZoom renamed its two paid LLC packages and changed what is inside them while keeping the $249 and $299 prices.",
+    "rows": [
+     ["Mid package, state fees extra", "Managed Service, $249", "Pro, $249"],
+     ["Top package, state fees extra", "Expert Service, $299", "Premium, $299"],
+     ["Top package renewal after the included 30 days", "$99/mo", "$49/mo"],
+     ["Annual tax filing prepared for you", "Included", "Not offered"],
+     ["Legal forms and eSignature access", "30 days", "1 year"]
+    ],
+    "who": "New LLC buyers choosing a paid package; the Basic package is still $0 plus state filing fees.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Prices hold while the top package drops done-for-you tax prep and gains attorney consultations, bookkeeping tools and a cheaper renewal. This reads as a repositioning from an accountant bundle to an attorney-led one.",
+    "caveat": "Premium also adds a 6-month bookkeeping subscription that renews at $9.99/mo; we did not weigh that against the lost tax prep.",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "new",
+    "magnitude": null
+   }, "promo": null},
+  {"diff_id": "linear-2026-11-02T19", "kind": "noise", "why": "Only the customer count in the social-proof line changed (40,000 → 50,000).", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "sugarcrm-2026-11-02T19", "kind": "wording", "why": "Marketing tagline reworded; no pricing content changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "kickofflabs-2026-11-02T19", "kind": "limit_change", "why": "Overage rules rewritten: Hobby, Premium and Business now move up a plan only once 5% over the limit, and annual extra leads fall from $8 to $7 per 1,000; a Kiosk mode feature was also added.", "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "$8 / $7",
+    "short": "Extra leads on annual billing go from $8 to $7 per 1,000, and plans now auto-upgrade only after going 5% over the monthly limit.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   }, "promo": null},
+  {"diff_id": "cake-equity-2026-11-02T19", "kind": "wording", "why": "“Free basic migration” was renamed “Free migration”; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "simplepractice-2026-11-02T19", "kind": "new_feature", "why": "The “COMING SOON” label was removed from Insurance Navigator, so the add-on launched; its price ($1.79/claim after 30 free days) is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "puzzle-2026-11-02T19", "kind": "wording", "why": "Yearly toggle copy changed from “2 months free” to “12 months for the price of 10”; same discount.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "prismic-2026-11-02T19", "kind": "wording", "why": "Pricing page headline and intro reworded to say plans haven’t changed; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "quriobot-2026-11-02T19", "kind": "price_increase", "why": "Agency plan “from” price moved from $559 to $560 per month.", "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+0.2%",
+    "short": "Agency plan starting price goes from $559/month to $560/month.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1
+   }, "promo": null},
+  {"diff_id": "builtwith-2026-11-02T19", "kind": "noise", "why": "Technology counter and a date in the FAQ example updated automatically.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "benchmark-email-2026-11-02T19", "kind": "new_feature", "why": "Brand Kit was added to the form-builder feature list and reordered in the email list; no price or tier change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "zenfolio-2026-11-02T19", "kind": "promo", "why": "The earlier “up to 50% off annual plans” offer ended Oct 31 and was replaced by a Cyber November sale: 60% off the first year of Professional or Advanced annual plans until Nov 25.", "detail": "line", "record": null, "promo": {"kind": "changed", "text": "Cyber November: 60% off first year of Professional or Advanced annual plans, until 25 Nov (previously up to 50% off until 31 Oct)"}},
+  {"diff_id": "unleashed-software-2026-11-02T19", "kind": "promo", "why": "A Black Friday offer was added: 90% off the first 3 months of Core and Pro monthly, and reduced annual prices, for new customers subscribing by 30 Nov.", "detail": "line", "record": null, "promo": {"kind": "new", "text": "90% off first 3 months of Core and Pro for new customers, subscribe by 30 Nov"}}
+ ]
+}
