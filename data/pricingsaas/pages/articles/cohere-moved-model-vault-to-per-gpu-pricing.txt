@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+C
+Cohere
+PACKAGING CHANGE
+Cohere moves Model Vault to per-GPU pricing at $3 to $12.50 an hour
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 4, 2026
+Cohere replaced Model Vault's per-instance pricing with per-GPU hourly rates.
+See before and after
+Enlarge
+Cohere’s pricing page · Change detected Nov 4, 2026
+MODEL VAULT·first seen Mar 30, 2026
+What changed
+Cohere retired Model Vault's per-instance Performance Tier pricing, where Embed, Rerank and Parse plans were billed at $3 to $7 an hour per instance, for a per-GPU rate card. The new table prices by GPU type, from L4 24GB to GB200 192GB, at $3.00 to $12.50 an hour on demand, per Cohere's pricing page on Nov 4, 2026. A promotional column runs through March 31, 2027, from $1.00 an hour for the L4 to $10.00 for the GB200. Reserved capacity and monthly or annual commits are priced through sales.
+It's Cohere's fourth pricing change in the last 90 days, per Pulse, and its first full pricing-page restructure since Dec 15, 2025, when it recast the page around enterprise custom pricing instead of per-token costs.
+Why it matters
+Model Vault buyers now pay for GPU hours rather than a model-specific instance size, so cost depends on which chip a workload runs on. The L4 is the cheapest option at $3.00 an hour on demand or $1.00 on the promotional rate. Teams comparing inference costs should model both rates, since the promotional column ends March 31, 2027. Watch whether Cohere extends it or lets it end on that date.
+In context
+Cohere has restructured its pricing page twice before: on Dec 15, 2025 it moved from per-token pricing to an enterprise custom-pricing model [[cohere/2025Q3]], and in mid-2024 it regrouped a Free/Production split into product categories [[cohere/2024Q2]]. This is Cohere's fourth pricing move in the last 90 days and comes nine days after its last change, when Pulse logged a Model Vault Rerank rate cut from $5.00 to $4.00 an hour as part of an active A/B test [[cohere/2026W44]]. That is much faster than its average gap of about 66 days. Across the market, 325 pricing changes at 275 companies involved a pricing restructure in the last 180 days, 12.1% of 2,686 tracked changes.
+Common questions
+Does the new pricing apply to customers already on the old Performance Tier plans?
+The change is a full table swap, not a partial rollout, so the safest assumption is the per-GPU rate card now applies account-wide — confirm directly with Cohere whether any existing per-instance commitments are grandfathered.
+How do we estimate our monthly spend under the new per-GPU rates?
+Multiply the hourly rate for each GPU tier you use by your expected monthly GPU-hours, separately for the on-demand and promotional columns — Cohere's pricing page breaks out both for every GPU type as of Nov 4, 2026, so the sizing math runs per GPU tier rather than per seat.
+Should we expect more Cohere pricing changes soon?
+Cohere has made four pricing changes in the last 90 days, per Pulse, well above its 66-day average gap between changes — a cadence that suggests Model Vault pricing could keep moving, so it's worth checking back before locking in multi-month compute budgets.
+Sources
+Pulse: Cohere pricing changes, Nov 4, 2026pricingsaas.com/companies/cohere/diffs/2026D308
+Cohere pricing pagecohere.com/pricing
+Questions about this change?
+The Pulse Agent has this change, Cohere's pricing history and its peers loaded — and answers from verified data.
+Why it mattersCohere's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from CohereAll pricing news
+K
+Krea
+Krea ends 14-day unlimited Krea 3 Fast promo for annual Pro and Max buyers
+L
+Lumaai
+Lumaai adds Kling 4.0 and Kling 4.0 Omni to its API model-pricing table
+S
+Synthesia
+Synthesia adds Syren video allowances to Starter and Pro; Roleplay add-on off the page in a test

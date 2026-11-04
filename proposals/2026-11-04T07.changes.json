@@ -1,0 +1,159 @@
+{
+ "type": "changes",
+ "run": "2026-11-04T07",
+ "items": [
+  {"diff_id": "1password-2026-11-04T07", "kind": "noise", "why": "A line of customer logos was added to the page; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bolster-2026-11-04T07", "kind": "noise", "why": "Only a call-to-action link target changed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "cohere-2026-11-04T07",
+   "kind": "metering",
+   "why": "Model Vault pricing moved from a per-instance rate by model and performance tier to a per-GPU hourly rate by GPU type, with a promotional rate through March 31 ‘27.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Per instance → per GPU",
+    "short": "Model Vault moves from per-instance hourly rates ($3.00–$7.00) to per-GPU hourly rates ($3.00–$12.50).",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 2,
+    "plan": "Model Vault",
+    "deltaSub": "billing unit, hourly",
+    "headline": "Cohere replaced Model Vault’s per-instance pricing (by model and performance tier) with a rate card per GPU type and replica count, and added a lower promotional hourly price through March 31 ‘27.",
+    "rows": [
+     ["Billing unit", "Per instance (model + tier)", "Per GPU, per hour"],
+     ["Entry hourly rate", "$3.00 per instance", "$3.00 per GPU (L4 24GB)"],
+     ["Top hourly rate", "$7.00 per instance (Parse 5 XL)", "$12.50 per GPU (GB200 192GB)"],
+     ["Promotional hourly rate, L4 24GB", "Not offered", "$1.00"]
+    ],
+    "who": "Customers buying dedicated Model Vault capacity; the bill now depends on the GPUs a model runs on and the number of replicas.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Pricing now follows the underlying hardware, which makes Cohere’s hosted models comparable with open-weight hosting and passes GPU cost changes straight through. Totals for a given workload can no longer be compared directly with the old per-instance rates.",
+    "caveat": "The old and new units are not directly comparable, so no overall percentage change is given. Promotional prices apply through March 31 ‘27 and reserved capacity is quoted by sales.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "convex-2026-11-04T07", "kind": "noise", "why": "Duplicated label text was cleaned up and a skip link added; plans, limits and prices are unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "crusoe-2026-11-04T07", "kind": "price_reveal", "why": "Two GPU rows that previously showed no price now show an hourly rate ($8.50 and $13.80 per GPU-hr).", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "datadog-2026-11-04T07", "kind": "wording", "why": "AI Guard buttons changed from Request access to Start Free Trial and a menu item moved; prices are unchanged.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "pagerduty-2026-11-04T07",
+   "kind": "limit_change",
+   "why": "PD Reliability Platform included allowances were reset: Essential events fall from 40,000 to 25,000 and Starter seats from 10 to 5, while Ultimate AI actions rise from 100,000 to 160,000; platform fees are unchanged.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Mixed",
+    "short": "Platform fees are unchanged, but included allowances moved: Essential events 40,000 → 25,000, Ultimate AI actions 100,000 → 160,000.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3,
+    "plan": "PD Reliability Platform",
+    "deltaSub": "included allowances by plan",
+    "headline": "PagerDuty kept the $2,800 and $12,000 yearly platform fees but changed what each plan includes: fewer events on Essential and Ultimate, fewer seats on Starter, and more AI actions and seats on higher plans.",
+    "rows": [
+     ["Starter, included seats", "10", "5"],
+     ["Essential, included seats", "20", "25"],
+     ["Essential, included events", "40,000", "25,000"],
+     ["Ultimate, included events", "2,000,000", "1,500,000"],
+     ["Ultimate, included AI actions", "100,000", "160,000"]
+    ],
+    "who": "New buyers of the PD Reliability Platform plans. The page notes that plans bought before November 3, 2026 may have different entitlements.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The allowances behind the flat fee are being rebalanced: capacity moves from events toward seats and AI actions, which pushes buyers toward credit packs for event-heavy use. The limited-time AI action offer suggests PagerDuty wants to speed up AI adoption.",
+    "caveat": "Events are now called Signal Intelligence Events. A limited-time bonus of 5 seats on Starter and free additional AI actions on Essential, Plus and Ultimate for the first year apply when signing by Jan 15, 2027.",
+    "model": "Hybrid",
+    "modelBefore": "Hybrid",
+    "modelAfter": "Hybrid",
+    "appliesTo": "new",
+    "magnitude": {"low": -37.5, "high": 60, "basis": "allowance"}
+   },
+   "promo": null
+  },
+  {"diff_id": "render-2026-11-04T07", "kind": "new_feature", "why": "Render added a Sandboxes product in beta with new usage pricing; no existing price changed.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "sonarsource-2026-11-04T07", "kind": "wording", "why": "A label now says Advanced Security is included in the trial; no price or plan change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bolt-2026-11-04T07", "kind": "wording", "why": "The pricing page was reorganised and the comparison table dropped; plan prices and token allowances are unchanged.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "baseten-2026-11-04T07",
+   "kind": "plan_change",
+   "why": "The Basic, Pro and Enterprise plan cards were replaced by Pay as you go and Production scale paths; listed usage rates are unchanged.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Plans merged",
+    "short": "Basic, Pro and Enterprise plan cards are replaced by Pay as you go and a contact-us Production scale path; rates are unchanged.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "fireworks-ai-2026-11-04T07", "kind": "new_feature", "why": "Page redesigned around a new Nexus product with Pro and Team plans; existing serverless, training and GPU rates are unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "postman-2026-11-04T07", "kind": "duplicate", "why": "SDK auto-distribution removal is already recorded as postman-2026w45; the static IP egress listings are an added feature.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "sambanova-2026-11-04T07", "kind": "wording", "why": "DeepSeek-V3.1 and DeepSeek-V3.2 rows were removed from the model list; no price changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "pulumi-2026-11-04T07",
+   "kind": "metering",
+   "why": "Agent worker time is now billed as workflow minutes whether or not a customer brings its own model key; Enterprise rates were also replaced by Contact sales.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "New meter",
+    "short": "Agent worker time is now billed as workflow minutes, with or without a bring-your-own model key; Enterprise rates now say Contact sales.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "proposify-2026-11-04T07", "kind": "price_reveal", "why": "The plan card now shows the monthly-billed price of $49 per user, which was not shown before; the $39 annual price is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "breezy-hr-2026-11-04T07", "kind": "wording", "why": "One feature blurb was rewritten; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "holvi-2026-11-04T07", "kind": "noise", "why": "A stray Search label was removed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "on1-2026-11-04T07", "kind": "wording", "why": "Hero copy was rewritten; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "tyk-2026-11-04T07", "kind": "noise", "why": "Header navigation links were repeated in the page text; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "composio-2026-11-04T07",
+   "kind": "price_increase",
+   "why": "Composio-managed apps move from a flat $0.0005 per call to per-app rates of $0.01, $0.002 or $0.0005 per call after 20K free, for signups on or after November 3, 2026.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Up to ×20",
+    "short": "Composio-managed app tool calls past 20K free move from a flat $0.0005 to $0.01 for apps such as Salesforce and $0.002 for apps such as Gmail.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "airwallex-2026-11-04T07", "kind": "non_software", "why": "Indicative Yield returns on USD funds moved by 0.01 percentage points (for example 3.49% → 3.50%); these are interest rates, not plan prices.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "appian-2026-11-04T07", "kind": "noise", "why": "Site navigation menu text was added to the captured page; the pricing content is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "anrok-2026-11-04T07", "kind": "wording", "why": "Header button and closing tagline copy changed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "ahrefs-2026-11-04T07", "kind": "noise", "why": "A database size claim updated from 525 million+ to 531 million+ prompts; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bark-2026-11-04T07", "kind": "non_software", "why": "Device payment changed from monthly instalments over 24 months to a one-time purchase price ($360, $600, $288); service plan prices are unchanged.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "campaign-monitor-2026-11-04T07",
+   "kind": "promo",
+   "why": "A banner now offers 20% off Essentials annual plans for new customers until January 3, 2027, replacing the Marketing Studio banner.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Save 20% on Essentials annual plans, new customers only, redeem by 11:59 p.m. PST on January 3, 2027"}
+  }
+ ]
+}

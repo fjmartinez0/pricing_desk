@@ -59784,7 +59784,7 @@
    "article_files": [],
    "title": "Zoho Books Free plan expands Receipt Autoscans to cover documents as well — Nov 2, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-02T07",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "zoho",
@@ -59824,7 +59824,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "added zoho-2026w45",
    "decided_run": "2026-11-02T07"
   },
   {
@@ -65860,7 +65860,7 @@
    "first_seen_run": "2026-11-02T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "clickup",
    "decision": {
     "kind": "plan_change",
@@ -67216,7 +67216,7 @@
    "first_seen_run": "2026-11-02T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "atlassian",
    "decision": {
     "kind": "price_increase",
@@ -67503,7 +67503,7 @@
    ],
    "title": "Baseten scraps Basic/Pro/Enterprise tiers, adds Sandboxes usage pricing — Nov 3, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-03T07",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 2,
    "company": "baseten",
@@ -67523,7 +67523,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "corroborates baseten-2026w46",
    "decided_run": "2026-11-03T07"
   },
   {
@@ -67555,6 +67555,177 @@
    },
    "outcome": "dropped (price_reveal)",
    "decided_run": "2026-11-03T07"
+  },
+  {
+   "report_id": "pika:2026-W46",
+   "ps_slug": "pika",
+   "week": "2026-W46",
+   "change_date": "2026-11-04",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D308"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D308.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-added-daily-free-generations-and-expanded-its-credits-table.txt"
+   ],
+   "title": "Pika adds daily free H3 Flex generations plus 14-model credits table — Nov 4, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-04T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pika",
+   "decision": {
+    "kind": "promo",
+    "why": "Creator and Fancy plans got a limited-time perk of free daily Pika H3 Flex generations; the credits table growth is only new models.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Creator and Fancy plans include free Pika H3 Flex generations every day, as a limited-time perk"
+    }
+   },
+   "outcome": "promo pika-promo-2026w46",
+   "decided_run": "2026-11-04T07"
+  },
+  {
+   "report_id": "synthesia:2026-W46",
+   "ps_slug": "synthesia",
+   "week": "2026-W46",
+   "change_date": "2026-11-03",
+   "urls": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D307"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/synthesia__2026D307.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-added-daily-free-generations-and-expanded-its-credits-table.txt"
+   ],
+   "title": "Synthesia drops its interactive credit calculator from the pricing page — Nov 3, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-04T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "synthesia",
+   "decision": {
+    "kind": "wording",
+    "why": "An interactive credit calculator widget was removed from the pricing page; no price, limit or plan changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-04T07"
+  },
+  {
+   "report_id": "postman:2026-W46",
+   "ps_slug": "postman",
+   "week": "2026-W46",
+   "change_date": "2026-11-04",
+   "urls": [
+    "https://pricingsaas.com/companies/postman/diffs/2026D308"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/postman__2026D308.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/postman-cut-sdk-auto-distribution-from-enterprise.txt"
+   ],
+   "title": "Postman cuts SDK auto-distribution from Enterprise, adds Static IP egress perk — Nov 4, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-04T07",
+   "status": "decided",
+   "attempts": 0,
+   "waits": 1,
+   "company": "postman",
+   "decision": {
+    "kind": "feature_move",
+    "why": "SDK auto-distribution is no longer listed on the Enterprise plan (a Static IP egress row was also added, which is only a new feature).",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "Feature removed",
+     "short": "Enterprise no longer lists SDK auto-distribution, and the page names no replacement.",
+     "pattern": "Unbundling",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "enterprise",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": null,
+   "decided_run": "2026-11-04T07"
+  },
+  {
+   "report_id": "cohere:2026-W46",
+   "ps_slug": "cohere",
+   "week": "2026-W46",
+   "change_date": "2026-11-04",
+   "urls": [
+    "https://pricingsaas.com/companies/cohere/diffs/2026D308"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/cohere__2026D308.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/cohere-moved-model-vault-to-per-gpu-pricing.txt"
+   ],
+   "title": "Cohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200 — Nov 4, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-04T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "cohere",
+   "decision": {
+    "kind": "metering",
+    "why": "Model Vault moved from per-instance Performance Tier plans to per-GPU hourly rates, with a promo column through Mar 2027.",
+    "detail": "card",
+    "record": {
+     "group": "pack",
+     "delta": "Per-GPU billing",
+     "short": "Model Vault moves from per-instance plans at $3-$7/hr to per-GPU rates of $3.00-$12.50/hr on demand.",
+     "pattern": "New billing units",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "add-on",
+     "reach": 2,
+     "plan": "Model Vault",
+     "deltaSub": "Model Vault billing unit, hourly",
+     "headline": "Cohere replaced Model Vault’s per-instance Performance Tier plans with a per-GPU rate card running from L4 to GB200, with promo rates through Mar 2027.",
+     "rows": [
+      [
+       "Billing unit",
+       "Per instance (Performance Tier)",
+       "Per GPU (L4 to GB200)"
+      ],
+      [
+       "Hourly rate, on demand",
+       "$3-$7/hr",
+       "$3.00-$12.50/hr"
+      ],
+      [
+       "Promo hourly rate to Mar 2027",
+       "Not offered",
+       "$1.00-$10.00/hr"
+      ]
+     ],
+     "who": "Model Vault customers, who now pay by GPU type rather than by model-specific instance; whether existing commitments are grandfathered is not shown.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "Cost now depends on which chip a workload runs on rather than on the model, so buyers have to size spend by GPU hours. The low promo rates look designed to ease the move, and they end in Mar 2027.",
+     "caveat": "The previous Model Vault change on this page was tagged as part of an A/B test, so this restructure may also still move.",
+     "model": "Usage",
+     "modelBefore": "Usage",
+     "modelAfter": "Usage",
+     "appliesTo": "unknown",
+     "magnitude": null
+    },
+    "promo": null
+   },
+   "outcome": "corroborates cohere-2026w46",
+   "decided_run": "2026-11-04T07"
   }
  ]
 }

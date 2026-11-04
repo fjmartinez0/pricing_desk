@@ -1,0 +1,97 @@
+{
+ "type": "reports",
+ "run": "2026-11-04T07",
+ "items": [
+  {
+   "report_id": "synthesia:2026-W46",
+   "company": "synthesia",
+   "new_company": null,
+   "kind": "wording",
+   "why": "An interactive credit calculator widget was removed from the pricing page; no price, limit or plan changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "postman:2026-W46",
+   "company": "postman",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "SDK auto-distribution is no longer listed on the Enterprise plan (a Static IP egress row was also added, which is only a new feature).",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Feature removed",
+    "short": "Enterprise no longer lists SDK auto-distribution, and the page names no replacement.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "enterprise",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W46",
+   "company": "pika",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Creator and Fancy plans got a limited-time perk of free daily Pika H3 Flex generations; the credits table growth is only new models.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Creator and Fancy plans include free Pika H3 Flex generations every day, as a limited-time perk"
+   }
+  },
+  {
+   "report_id": "cohere:2026-W46",
+   "company": "cohere",
+   "new_company": null,
+   "kind": "metering",
+   "why": "Model Vault moved from per-instance Performance Tier plans to per-GPU hourly rates, with a promo column through Mar 2027.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Per-GPU billing",
+    "short": "Model Vault moves from per-instance plans at $3-$7/hr to per-GPU rates of $3.00-$12.50/hr on demand.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 2,
+    "plan": "Model Vault",
+    "deltaSub": "Model Vault billing unit, hourly",
+    "headline": "Cohere replaced Model Vault’s per-instance Performance Tier plans with a per-GPU rate card running from L4 to GB200, with promo rates through Mar 2027.",
+    "rows": [
+     [
+      "Billing unit",
+      "Per instance (Performance Tier)",
+      "Per GPU (L4 to GB200)"
+     ],
+     [
+      "Hourly rate, on demand",
+      "$3-$7/hr",
+      "$3.00-$12.50/hr"
+     ],
+     [
+      "Promo hourly rate to Mar 2027",
+      "Not offered",
+      "$1.00-$10.00/hr"
+     ]
+    ],
+    "who": "Model Vault customers, who now pay by GPU type rather than by model-specific instance; whether existing commitments are grandfathered is not shown.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Cost now depends on which chip a workload runs on rather than on the model, so buyers have to size spend by GPU hours. The low promo rates look designed to ease the move, and they end in Mar 2027.",
+    "caveat": "The previous Model Vault change on this page was tagged as part of an A/B test, so this restructure may also still move.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  }
+ ]
+}

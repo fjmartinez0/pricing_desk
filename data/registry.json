@@ -23698,12 +23698,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.airops.com/pricing"
+   ],
    "domains": [
     "airops.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -25646,10 +25648,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.getcanopy.com/pricing"
+   ],
+   "domains": [
+    "getcanopy.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -31304,7 +31310,7 @@
     "beebole.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -31362,7 +31368,7 @@
     "acdsee.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32459,7 +32465,7 @@
     "hix.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32488,7 +32494,7 @@
     "heyorca.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32617,7 +32623,7 @@
     "fillhq.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32689,14 +32695,12 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.elastic.co/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "elastic.co"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32706,8 +32710,8 @@
    "added": "2026-11-03",
    "source": "agent 2026-11-03T19",
    "source_url": "https://pricingsaas.com/companies/elastic/diffs/2026W38",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.elastic.co/pricing: page shows no prices",
    "ps_slugs": [
     "elastic"
    ]
@@ -32743,14 +32747,12 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.cyberfortress.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "cyberfortress.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32760,8 +32762,8 @@
    "added": "2026-11-03",
    "source": "agent 2026-11-03T19",
    "source_url": "https://pricingsaas.com/companies/cyberfortress/diffs/2026W38",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.cyberfortress.com/pricing: page shows no prices",
    "ps_slugs": [
     "cyberfortress"
    ]
@@ -32772,14 +32774,12 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://goconsensus.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "goconsensus.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32789,8 +32789,8 @@
    "added": "2026-11-03",
    "source": "agent 2026-11-03T19",
    "source_url": "https://pricingsaas.com/companies/consensus/diffs/2026W38",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://goconsensus.com/pricing: page shows no prices",
    "ps_slugs": [
     "consensus"
    ]
@@ -32883,7 +32883,7 @@
     "betatesting.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32937,7 +32937,7 @@
     "ollama.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32963,7 +32963,7 @@
     "ocr.space"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,

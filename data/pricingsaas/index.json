@@ -25925,7 +25925,10 @@
    "fetched_at": "2026-11-02T07:26:07-05:00",
    "file": "data/pricingsaas/pages/diffs/seedance__2026W45.txt",
    "title": "Seedance doubles free starter credits, now 3 video clips instead of 1 — Nov 2, 2026 · PricingSaaS Pulse",
-   "report_id": "seedance:2026-W45"
+   "report_id": "seedance:2026-W45",
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table"
+   ]
   },
   "https://pricingsaas.com/companies/scribe/diffs/2026W45": {
    "type": "diff",
@@ -28097,6 +28100,105 @@
    "file": "data/pricingsaas/pages/diffs/slack__2026D307.txt",
    "title": "Slack reveals Enterprise+ pricing at $45 per user/month, billed annually — Nov 3, 2026 · PricingSaaS Pulse",
    "report_id": "slack:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-added-daily-free-generations-and-expanded-its-credits-table.txt",
+   "title": "Pika added daily free generations and expanded its credits table",
+   "published": "2026-11-04T09:11:36.788008+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D308",
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D307",
+    "https://pricingsaas.com/companies/seedance/diffs/2026W45"
+   ]
+  },
+  "https://pricingsaas.com/news/article/postman-cut-sdk-auto-distribution-from-enterprise": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/articles/postman-cut-sdk-auto-distribution-from-enterprise.txt",
+   "title": "Postman drops SDK auto-distribution from its Enterprise plan card",
+   "published": "2026-11-04T08:03:45.454106+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/postman/diffs/2026D308"
+   ]
+  },
+  "https://pricingsaas.com/news/article/cohere-moved-model-vault-to-per-gpu-pricing": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/articles/cohere-moved-model-vault-to-per-gpu-pricing.txt",
+   "title": "Cohere moves Model Vault to per-GPU pricing at $3 to $12.50 an hour",
+   "published": "2026-11-04T06:30:35.223517+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/cohere/diffs/2026D308"
+   ]
+  },
+  "https://pricingsaas.com/companies/pika/diffs/2026D308": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/diffs/pika__2026D308.txt",
+   "title": "Pika adds daily free H3 Flex generations plus 14-model credits table — Nov 4, 2026 · PricingSaaS Pulse",
+   "report_id": "pika:2026-W46"
+  },
+  "https://pricingsaas.com/companies/synthesia/diffs/2026D307": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/diffs/synthesia__2026D307.txt",
+   "title": "Synthesia drops its interactive credit calculator from the pricing page — Nov 3, 2026 · PricingSaaS Pulse",
+   "report_id": "synthesia:2026-W46"
+  },
+  "https://pricingsaas.com/companies/postman/diffs/2026D308": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/postman-cut-sdk-auto-distribution-from-enterprise"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/diffs/postman__2026D308.txt",
+   "title": "Postman cuts SDK auto-distribution from Enterprise, adds Static IP egress perk — Nov 4, 2026 · PricingSaaS Pulse",
+   "report_id": "postman:2026-W46"
+  },
+  "https://pricingsaas.com/companies/cohere/diffs/2026D308": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-04T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/cohere-moved-model-vault-to-per-gpu-pricing"
+   ],
+   "fetched_at": "2026-11-04T07:31:07-05:00",
+   "file": "data/pricingsaas/pages/diffs/cohere__2026D308.txt",
+   "title": "Cohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200 — Nov 4, 2026 · PricingSaaS Pulse",
+   "report_id": "cohere:2026-W46"
   }
  }
 }
