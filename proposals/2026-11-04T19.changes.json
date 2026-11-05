@@ -1,0 +1,79 @@
+{
+ "type": "changes",
+ "run": "2026-11-04T19",
+ "items": [
+  {"diff_id": "anthropic-2026-11-04T19", "kind": "wording", "why": "Only the order of platform names in cloud-partner pricing sentences changed; no prices moved.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "asana-2026-11-04T19",
+   "kind": "metering",
+   "why": "The pay-as-you-go AI option now lists a $5.99 per user, per month seat charge next to the $0.60 per AI request rate; the page also showed two versions in one run (AI Meetings and Tables rollout), but the $5.99 line is in both.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "$5.99 / user",
+    "short": "Asana’s on-demand AI billing now shows a $5.99 per user, per month charge on top of $0.60 per AI request.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2,
+    "plan": "AI on-demand (pay as you go)",
+    "deltaSub": "on-demand seat charge, per user per month, billed annually",
+    "headline": "Asana’s pay-as-you-go AI billing now lists a $5.99 per user, per month seat charge, billed annually, in addition to $0.60 per AI request.",
+    "rows": [
+      ["On-demand seat charge, per user per month", "Not shown", "$5.99"],
+      ["On-demand, per AI request", "$0.60", "$0.60"]
+    ],
+    "who": "Teams on Starter, Advanced, Enterprise and Enterprise+ that use on-demand billing for AI requests instead of prepaid packs.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A per-seat fee on top of per-request pricing turns the on-demand option into a hybrid meter. It may nudge teams toward prepaid packs at $0.50 per request.",
+    "caveat": "The page showed two versions in one run; they differ in the AI Meetings and Tables feature rollout, while the $5.99 line appears in both. The page does not say whether the charge applies to existing customers or is only newly disclosed.",
+    "model": "Usage → Hybrid",
+    "modelBefore": "Usage",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "commpeak-2026-11-04T19", "kind": "noise", "why": "A line of page copy for AI agents was added; no pricing changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "contabo-2026-11-04T19",
+   "kind": "price_increase",
+   "why": "A one-time setup fee now applies to new Cloud VPS 4 orders on monthly contracts; longer contracts are exempt.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Setup fee",
+    "short": "Cloud VPS 4 on monthly contracts now carries a one-time setup fee; longer contracts have none.",
+    "pattern": "Billing terms",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "moodle-2026-11-04T19", "kind": "noise", "why": "Small shifts in non-AUD currency renderings (GBP, USD, EUR, CAD, INR); the AUD prices are unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "slack-2026-11-04T19", "kind": "wording", "why": "The “New” badge was removed from Slackbot; no price or tier change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "xero-2026-11-04T19", "kind": "wording", "why": "Feature bullets added to plan lists and a promo phrase reworded; no price or limit change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "deepseek-2026-11-04T19", "kind": "wording", "why": "A note about Search and Fetch billing starting was removed after the start date passed; the $0.75 rate is unchanged.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "protopie-2026-11-04T19",
+   "kind": "promo",
+   "why": "A Black Friday banner offering 40% off the Pro Yearly plan with code PRO40 was added.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: 40% off the Pro Yearly Plan with code PRO40"}
+  },
+  {"diff_id": "clueso-2026-11-04T19", "kind": "new_feature", "why": "Interactive video and SCORM features were added, and AI credit allowances and AI chat editing were listed more explicitly; no existing price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "apploye-2026-11-04T19", "kind": "new_feature", "why": "The comparison table was reformatted and an Auto-discard idle time row was added; no price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "quriobot-2026-11-04T19", "kind": "noise", "why": "Plan prices moved by $1 to $3 (95 → 96, 160 → 161, 558 → 561), in line with the earlier 560 → 558 move; this looks like a rendering or exchange-rate wobble. A data-retention sentence was also added.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "builtwith-2026-11-04T19", "kind": "noise", "why": "Technology count and a date in a FAQ example changed; no pricing changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "datacamp-2026-11-04T19", "kind": "noise", "why": "A stray “1” was appended at the bottom of one page version; no pricing content changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "avoma-2026-11-04T19", "kind": "noise", "why": "A $24 figure shown above the $29 and $39 Organization prices disappeared; the list prices did not change and the page does not say what the $24 was.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "dnsimple-2026-11-04T19", "kind": "wording", "why": "A link line to DNS record limits and overage fees was added to a FAQ answer; no price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "not-diamond-2026-11-04T19", "kind": "wording", "why": "Call-to-action copy changed; no pricing changed.", "detail": "line", "record": null, "promo": null}
+ ]
+}

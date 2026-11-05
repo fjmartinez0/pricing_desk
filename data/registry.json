@@ -23705,7 +23705,7 @@
     "airops.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -25655,7 +25655,7 @@
     "getcanopy.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -26330,10 +26330,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.captions.ai/pricing"
+   ],
+   "domains": [
+    "captions.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -28458,10 +28462,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.casepeer.com/pricing"
+   ],
+   "domains": [
+    "casepeer.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
