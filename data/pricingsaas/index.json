@@ -24792,7 +24792,8 @@
    "found_via": [],
    "articles": [
     "https://pricingsaas.com/news/article/granola-adds-voice-typing-to-basic-business-and-enterprise-plans",
-    "https://pricingsaas.com/news/article/xai-s-super-plan-adds-1080p-video-creation-and-faster-replies"
+    "https://pricingsaas.com/news/article/xai-s-super-plan-adds-1080p-video-creation-and-faster-replies",
+    "https://pricingsaas.com/news/article/granola-mdm-intune-wrapping-removal-is-one-arm-of-a-live-a-b-test"
    ],
    "fetched_at": "2026-10-30T07:17:25-04:00",
    "file": "data/pricingsaas/pages/diffs/granola__2026D303.txt",
@@ -26013,7 +26014,10 @@
    "fetched_at": "2026-11-02T07:26:07-05:00",
    "file": "data/pricingsaas/pages/diffs/runwayml__2026W45.txt",
    "title": "Runway launches Kling 4.0 at 25% off and adds App Studio to paid plans — Nov 2, 2026 · PricingSaaS Pulse",
-   "report_id": "runwayml:2026-W45#2"
+   "report_id": "runwayml:2026-W45#2",
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount"
+   ]
   },
   "https://pricingsaas.com/companies/nylas/diffs/2026W45": {
    "type": "diff",
@@ -26244,7 +26248,10 @@
    "fetched_at": "2026-11-02T07:26:07-05:00",
    "file": "data/pricingsaas/pages/diffs/procountor__2026W45.txt",
    "title": "Procountor ends 0 EUR promo as Light-Unlimited prices hit full rates — Nov 2, 2026 · PricingSaaS Pulse",
-   "report_id": "procountor:2026-W45"
+   "report_id": "procountor:2026-W45",
+   "articles": [
+    "https://pricingsaas.com/news/article/deepseek-ended-free-search-and-fetch-calls-via-claude-code"
+   ]
   },
   "https://pricingsaas.com/companies/proconnect/diffs/2026W45": {
    "type": "diff",
@@ -26340,7 +26347,10 @@
    "fetched_at": "2026-11-02T07:26:07-05:00",
    "file": "data/pricingsaas/pages/diffs/pingidentity__2026W45.txt",
    "title": "Ping Identity drops PingOne prices and free trial for custom quotes — Nov 2, 2026 · PricingSaaS Pulse",
-   "report_id": "pingidentity:2026-W45"
+   "report_id": "pingidentity:2026-W45",
+   "articles": [
+    "https://pricingsaas.com/news/article/mercury-added-a-free-trial-to-plus-plan-signups"
+   ]
   },
   "https://pricingsaas.com/companies/optinmonster/diffs/2026W45": {
    "type": "diff",
@@ -27643,7 +27653,10 @@
    "fetched_at": "2026-11-02T19:30:02-05:00",
    "file": "data/pricingsaas/pages/diffs/distribute__2026W45.txt",
    "title": "Distribute halves Pro free trial from 14 to 7 days, card billed after trial — Nov 2, 2026 · PricingSaaS Pulse",
-   "report_id": "distribute:2026-W45"
+   "report_id": "distribute:2026-W45",
+   "articles": [
+    "https://pricingsaas.com/news/article/mercury-added-a-free-trial-to-plus-plan-signups"
+   ]
   },
   "https://pricingsaas.com/companies/dnsimple/diffs/2026W45": {
    "type": "diff",
@@ -28081,7 +28094,8 @@
    "first_seen": "2026-11-03T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/baseten-scraps-basic-pro-enterprise-tiers-for-pay-as-you-go-and-production-scale-plans"
+    "https://pricingsaas.com/news/article/baseten-scraps-basic-pro-enterprise-tiers-for-pay-as-you-go-and-production-scale-plans",
+    "https://pricingsaas.com/news/article/baseten-added-kimi-k3-1-pro-to-its-model-apis-table"
    ],
    "fetched_at": "2026-11-03T07:29:17-05:00",
    "file": "data/pricingsaas/pages/diffs/baseten__2026D307.txt",
@@ -28180,7 +28194,8 @@
    "first_seen": "2026-11-04T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/postman-cut-sdk-auto-distribution-from-enterprise"
+    "https://pricingsaas.com/news/article/postman-cut-sdk-auto-distribution-from-enterprise",
+    "https://pricingsaas.com/news/article/granola-mdm-intune-wrapping-removal-is-one-arm-of-a-live-a-b-test"
    ],
    "fetched_at": "2026-11-04T07:31:07-05:00",
    "file": "data/pricingsaas/pages/diffs/postman__2026D308.txt",
@@ -28199,6 +28214,293 @@
    "file": "data/pricingsaas/pages/diffs/cohere__2026D308.txt",
    "title": "Cohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200 — Nov 4, 2026 · PricingSaaS Pulse",
    "report_id": "cohere:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/baseten-added-kimi-k3-1-pro-to-its-model-apis-table": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/baseten-added-kimi-k3-1-pro-to-its-model-apis-table.txt",
+   "title": "Baseten added Kimi K3.1 Pro to its Model APIs table",
+   "published": "2026-11-05T07:09:56.046935+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D309",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D307"
+   ]
+  },
+  "https://pricingsaas.com/news/article/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount.txt",
+   "title": "Openart swapped its Kling promo banner for a GPT Image discount",
+   "published": "2026-11-05T07:01:03.69962+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/openart/diffs/2026D309",
+    "https://pricingsaas.com/companies/runwayml/diffs/2026W45"
+   ]
+  },
+  "https://pricingsaas.com/news/article/together-added-kimi-k3-1-pro-and-ripple-65b-preview-to-its-model-catalog": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/together-added-kimi-k3-1-pro-and-ripple-65b-preview-to-its-model-catalog.txt",
+   "title": "Together added Kimi K3.1 Pro and Ripple-65B Preview to its model catalog",
+   "published": "2026-11-05T06:43:01.323876+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/together/diffs/2026D309"
+   ]
+  },
+  "https://pricingsaas.com/news/article/captions-renamed-its-enterprise-plan-to-tesseract-for-business": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/captions-renamed-its-enterprise-plan-to-tesseract-for-business.txt",
+   "title": "Captions renamed its Enterprise plan to Tesseract for business",
+   "published": "2026-11-05T06:38:09.731413+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/captions/diffs/2026D309"
+   ]
+  },
+  "https://pricingsaas.com/news/article/snowflake-swapped-snowpark-callouts-for-ai-agents-and-compliance-claims": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/snowflake-swapped-snowpark-callouts-for-ai-agents-and-compliance-claims.txt",
+   "title": "Snowflake swapped Snowpark callouts for AI agents and compliance claims",
+   "published": "2026-11-05T06:35:47.878451+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/snowflake/diffs/2026D309"
+   ]
+  },
+  "https://pricingsaas.com/news/article/mintlify-renamed-its-automations-feature-to-autopilot": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/mintlify-renamed-its-automations-feature-to-autopilot.txt",
+   "title": "Mintlify renamed its Automations feature to Autopilot",
+   "published": "2026-11-05T06:34:10.407374+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/mintlify/diffs/2026D309"
+   ]
+  },
+  "https://pricingsaas.com/news/article/deepseek-ended-free-search-and-fetch-calls-via-claude-code": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/deepseek-ended-free-search-and-fetch-calls-via-claude-code.txt",
+   "title": "DeepSeek ended free Search and Fetch calls via Claude Code",
+   "published": "2026-11-05T06:33:54.478771+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026D309",
+    "https://pricingsaas.com/companies/doordash/diffs/2026W45",
+    "https://pricingsaas.com/companies/procountor/diffs/2026W45"
+   ]
+  },
+  "https://pricingsaas.com/news/article/granola-mdm-intune-wrapping-removal-is-one-arm-of-a-live-a-b-test": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/granola-mdm-intune-wrapping-removal-is-one-arm-of-a-live-a-b-test.txt",
+   "title": "Granola's MDM/Intune wrapping removal is one arm of a live A/B test",
+   "published": "2026-11-05T06:32:06.365956+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/granola/diffs/2026D309",
+    "https://pricingsaas.com/companies/granola/diffs/2026D303",
+    "https://pricingsaas.com/companies/postman/diffs/2026D308"
+   ]
+  },
+  "https://pricingsaas.com/news/article/mercury-added-a-free-trial-to-plus-plan-signups": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/articles/mercury-added-a-free-trial-to-plus-plan-signups.txt",
+   "title": "Mercury added a free trial to Plus plan signups",
+   "published": "2026-11-05T06:31:35.245318+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/mercury/diffs/2026D309",
+    "https://pricingsaas.com/companies/distribute/diffs/2026W45",
+    "https://pricingsaas.com/companies/arcsite/diffs/2026W45",
+    "https://pricingsaas.com/companies/pingidentity/diffs/2026W45"
+   ]
+  },
+  "https://pricingsaas.com/companies/baseten/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/baseten-added-kimi-k3-1-pro-to-its-model-apis-table"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/baseten__2026D309.txt",
+   "title": "Baseten adds Kimi K3.1 Pro, DeepSeek V4.1 Flash and joey-1 at $0.01/1M tokens — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "baseten:2026-W46#2"
+  },
+  "https://pricingsaas.com/companies/openart/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/openart__2026D309.txt",
+   "title": "OpenArt adds 30% off GPT Image 2.6 promo for Wonder and Pro until Nov 17 — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "openart:2026-W46"
+  },
+  "https://pricingsaas.com/companies/together/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/together-added-kimi-k3-1-pro-and-ripple-65b-preview-to-its-model-catalog"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/together__2026D309.txt",
+   "title": "Together AI adds Kimi K3.1 Pro at $2/$10 per 1M tokens, plus Ripple-65B Preview — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "together:2026-W46"
+  },
+  "https://pricingsaas.com/companies/captions/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/captions-renamed-its-enterprise-plan-to-tesseract-for-business"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/captions__2026D309.txt",
+   "title": "Captions: Enterprise plan renamed to Tesseract for business, drops perks list — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "captions:2026-W46"
+  },
+  "https://pricingsaas.com/companies/snowflake/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/snowflake-swapped-snowpark-callouts-for-ai-agents-and-compliance-claims"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/snowflake__2026D309.txt",
+   "title": "Snowflake swaps Snowpark plan callouts for AI agents, AI search and FedRAMP — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "snowflake:2026-W46"
+  },
+  "https://pricingsaas.com/companies/mintlify/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mintlify-renamed-its-automations-feature-to-autopilot"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/mintlify__2026D309.txt",
+   "title": "Mintlify renames Automations to Autopilot, adds Enterprise-only Automations — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "mintlify:2026-W46"
+  },
+  "https://pricingsaas.com/companies/deepseek/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/deepseek-ended-free-search-and-fetch-calls-via-claude-code"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/deepseek__2026D309.txt",
+   "title": "DeepSeek ends free Search/Fetch calls via Claude Code, now $0.75/1K requests — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "deepseek:2026-W46"
+  },
+  "https://pricingsaas.com/companies/doordash/diffs/2026W45": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/deepseek-ended-free-search-and-fetch-calls-via-claude-code"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/doordash__2026W45.txt",
+   "title": "DoorDash Premier drops 35% off Commerce Platform Pro perk, renames guarantee — Nov 2, 2026 · PricingSaaS Pulse",
+   "report_id": "doordash:2026-W45"
+  },
+  "https://pricingsaas.com/companies/granola/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/granola-mdm-intune-wrapping-removal-is-one-arm-of-a-live-a-b-test"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/granola__2026D309.txt",
+   "title": "Granola AI drops MDM/Intune iOS app wrapping from Enterprise plan listing — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "granola:2026-W46"
+  },
+  "https://pricingsaas.com/companies/mercury/diffs/2026D309": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mercury-added-a-free-trial-to-plus-plan-signups"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/mercury__2026D309.txt",
+   "title": "Mercury Plus now offers 30-day free trial before billing begins — Nov 5, 2026 · PricingSaaS Pulse",
+   "report_id": "mercury:2026-W46"
+  },
+  "https://pricingsaas.com/companies/arcsite/diffs/2026W45": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-05T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mercury-added-a-free-trial-to-plus-plan-signups"
+   ],
+   "fetched_at": "2026-11-05T07:33:49-05:00",
+   "file": "data/pricingsaas/pages/diffs/arcsite__2026W45.txt",
+   "title": "ArcSite swaps Draw Pro free trial for Book Demo, prices hold at $34.99 — Nov 2, 2026 · PricingSaaS Pulse",
+   "report_id": "arcsite:2026-W45"
   }
  }
 }

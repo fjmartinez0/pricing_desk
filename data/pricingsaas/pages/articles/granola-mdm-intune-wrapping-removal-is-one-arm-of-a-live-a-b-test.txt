@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+G
+Granola
+A/B TEST
+Granola's MDM/Intune wrapping removal is one arm of a live A/B test
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 5, 2026
+Granola removed its iOS mobile-device-management app wrapping from the Enterprise plan listing.
+See before and after
+Enlarge
+Granola’s pricing page · Change detected Nov 5, 2026
+What changed
+"MDM/Intune app wrapping (iOS)" disappeared from the Trust & Control section of Granola's plan-comparison table. The row previously showed it included only on the Enterprise plan, with a dash under Basic and Business; the entire row is now gone, so the feature is no longer listed as included or excluded for any plan.
+Pulse links this removal to an active A/B test on Granola's features comparison table that has run since Oct 30, 2026 (first seen alongside the voice-typing add), so the missing MDM/Intune row may be one arm of an experiment rather than a settled packaging cut.
+Why it matters
+For an IT buyer evaluating meeting-notetaker tools, MDM/Intune app wrapping for iOS is a device-management box to check before Legal or Security signs off — it lets admins wrap and manage the Granola app under a corporate mobile-device policy. Seeing it drop from the comparison table removes a specific compliance claim from Granola's pitch to regulated or BYOD-heavy enterprises, even though the rest of the Trust & Control row (SSO, SCIM, HIPAA, audit API) is untouched.
+Because Pulse tags this as one arm of a live A/B test, treat the removal as provisional until the experiment settles: a prospect who screenshots today's page may see the row return on another visit. Watch whether Granola keeps MDM/Intune wrapping off the table in both arms, moves it to a docs or security addendum, or restores it once the test concludes.
+In context
+Granola's pricing page has been tracked since Sep 21, 2026: 21 saved comparisons have produced three real changes, about one every 19 days. Its previous move, per Pulse's tracked history, was adding voice typing to Basic, Business and Enterprise plans on Oct 30, 2026 — six days before this one — and Pulse now tags both that add and this MDM/Intune removal as arms of the same active A/B test on the features comparison table. Pulse tracked 129 feature-removal changes across 118 companies in the last 180 days, 4.8% of the 2,691 pricing changes it tracked in that window — Postman, Shopify and Lunar each cut rows from their own comparison tables in the same week. The open question for Trust & Control is whether the MDM/Intune row stays gone once the test concludes, or flips back.
+Common questions
+Does this affect current Enterprise customers who rely on MDM/Intune wrapping?
+Pulse's pack shows only that the Trust & Control row disappeared from the comparison table, with no deprecation notice or changelog entry alongside it, so a customer relying on it should confirm directly with Granola's support or account team rather than assume the capability itself is gone.
+Is this an isolated change or the start of a broader trim to Trust & Control?
+Pulse's pack shows only this one row disappearing from today's comparison; SSO, SCIM, HIPAA and the audit API are untouched in the same table, and nothing in the record points to a wider sweep yet, so the next few pricing-page snapshots will show whether more compliance rows follow.
+What should a product leader check before reading this as a real deprecation?
+Check the product docs or changelog for an actual deprecation notice before treating a dropped comparison-table row as proof the capability is gone — pricing pages can get trimmed for clarity before, after, or independent of a real product change.
+Sources
+Pulse: Granola pricing changes, Nov 5, 2026pricingsaas.com/companies/granola/diffs/2026D309
+Granola pricing pagegranola.ai/pricing
+Questions about this change?
+The Pulse Agent has this change, Granola's pricing history and its peers loaded — and answers from verified data.
+Why it mattersGranola's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from GranolaAll pricing news
+D
+Docker
+Docker brings back its $250 Cloud Sandboxes credit banner, a day after pulling it
+D
+DeepSeek
+DeepSeek ended free Search and Fetch calls via Claude Code
+A
+Anthropic
+Anthropic split Max into separate Max and Ultra plans

@@ -1,0 +1,62 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+D
+DeepSeek
+DISCOUNT ENDED
+DeepSeek ended free Search and Fetch calls via Claude Code
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 5, 2026
+DeepSeek started billing Search and Fetch calls made via Claude Code and Codex.
+See before and after
+Enlarge
+DeepSeek’s pricing page · Change detected Nov 5, 2026
+What changed
+DeepSeek removed a note from its pricing page that had exempted Search and Fetch API calls made through DeepSeek Harness, Claude Code or Codex from billing. Per DeepSeek's pricing page, those calls were free of charge until 00:00 Beijing time on Nov 1, 2026; the table above the note lists Search and Fetch at $0.75 per 1,000 successful requests on DeepSeek's pricing page as of Nov 5, 2026, the same rate both APIs have carried since they launched. The note has been replaced with a line pointing readers to DeepSeek's Search & Fetch guide.
+Pulse tracked DeepSeek launching these same Search and Fetch APIs at $0.75 per 1,000 requests on Oct 17, 2026, 19 days before this one. The per-request rate itself has not moved; what changed is that the temporary carve-out for agent-routed traffic has lapsed on the schedule DeepSeek's pricing page set when it first listed the exemption.
+Why it matters
+For product leaders building on model APIs, this is a reminder that a ‘free while agent coding takes off’ launch usually has an expiration date attached from day one — DeepSeek's pricing page named Nov 1, 2026 as the cutoff when it first listed the exemption, not an afterthought added later. If your own usage-based pricing carves out a channel (an agent, an SDK, a partner integration) to drive adoption, write the sunset date into the terms the way DeepSeek did, rather than leaving it open-ended and creating a harder billing conversation down the line.
+For a team heavy on Claude Code or Codex against DeepSeek's models, the practical effect is that Search and Fetch calls routed through those tools now cost $0.75 per 1,000 requests, per DeepSeek's pricing page as of Nov 5, 2026, the same as any other channel — worth checking agent configs for retry loops or redundant search calls now that the usage carries a real per-request cost. Watch whether other model providers that offered similar agent-specific waivers to court the Claude Code / Codex ecosystem start winding them down on the same kind of fixed schedule.
+In context
+This is the first discount-removal change Pulse has recorded for DeepSeek since it started tracking the company on Jul 27, 2026, on a page that otherwise moves fast: 9 real pricing changes in the last 365 days, 8 in the last 90, roughly one every 12 days on average. The previous move, on Oct 17, 2026, launched these same Search and Fetch APIs at $0.75 per 1,000 requests, per Pulse's tracked history, with the grace period this change lets lapse launched Search and Fetch. Letting a temporary discount expire is familiar elsewhere too: Pulse tracked 79 such changes across 68 companies in the last 180 days (2.9% of the 2,689 pricing changes it saw), including Doordash dropping a Commerce Platform Pro perk and Procountor ending a free introductory rate. The sharper read: DeepSeek is treating agent-routed traffic as billable usage from the date it first promised, not a standing loss leader for developer mindshare — worth watching whether other providers unwind similar waivers on as fixed a clock.
+Common questions
+Does this change DeepSeek's base model token pricing?
+No — model token pricing sits in a separate table on the same page and this diff didn't touch it. If your team also runs chat or completion traffic through Claude Code, check that table on its own; Search/Fetch and token usage are billed and tracked independently.
+What would this cost a team using Claude Code against DeepSeek?
+Multiply your monthly Search and Fetch call volume by the $0.75-per-1,000-request rate on DeepSeek's pricing page as of Nov 5, 2026 to estimate the new cost — there's no separate, lower agent-traffic rate any more.
+Did the free period only cover agent traffic?
+Yes. To confirm your own exposure, check whether your requests route through DeepSeek Harness, Claude Code or Codex — only those paths were ever exempt; everything else was already billed at $0.75 per 1,000 requests on DeepSeek's pricing page as of Nov 5, 2026.
+What people are saying
+@chlovelynX
+“破防了
+DeepSeek 的 Search / Fetch 从 11 月 1 日 0 点（北京时间）开始按次收费
+每 1000 次成功请求 0.75 美元
+之前在 Claude Code、Codex 里通过 DeepSeek 调搜索，都是免费的
+白嫖时代，我们为此表示哀悼💔
+不过一次还不到 0.1 美分，你心疼吗？”
+View original
+@teddyaisiX
+“DeepSeek’s free Search and Fetch calls through server-side tools in DeepSeek Harness, Claude Code, and Codex have ended for DeepSeek API users. Each endpoint costs $0.75 per 1,000 calls.
+Worth checking the tool-call budget separately from tokens if your agent does a lot of browsing.”
+View original
+Sources
+Pulse: DeepSeek pricing changes, Nov 5, 2026pricingsaas.com/companies/deepseek/diffs/2026D309
+DeepSeek pricing pageapi-docs.deepseek.com/quick_start/pricing
+Questions about this change?
+The Pulse Agent has this change, DeepSeek's pricing history and its peers loaded — and answers from verified data.
+Why it mattersDeepSeek's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from DeepSeekAll pricing news
+M
+Modal
+Modal drops Notebooks from its Sandbox pricing section and product footer
+A
+Anthropic
+Anthropic split Max into separate Max and Ultra plans
+D
+Datadog
+Datadog replaces its $0 Infrastructure Free card with a Basic tier priced via Contact sales

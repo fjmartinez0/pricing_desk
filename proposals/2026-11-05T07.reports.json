@@ -1,0 +1,155 @@
+{
+ "type": "reports",
+ "run": "2026-11-05T07",
+ "items": [
+  {
+   "report_id": "together:2026-W46",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Two models (Kimi K3.1 Pro, Ripple-65B Preview) were added to the serverless catalog; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "snowflake:2026-W46",
+   "company": null,
+   "new_company": {
+    "name": "Snowflake",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/snowflake/diffs/2026D309",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Feature callouts on the Standard, Enterprise and Business Critical cards were rewritten; credit prices are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "openart:2026-W46",
+   "company": "openart",
+   "new_company": null,
+   "kind": "wording",
+   "why": "A limited-time 30% off GPT Image 2.6 offer for Wonder and Pro was added, so it is recorded as a promo and not a price change.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "30% off GPT Image 2.6 generations on Wonder and Pro until Nov 17"
+   }
+  },
+  {
+   "report_id": "mintlify:2026-W46",
+   "company": "mintlify",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Automations was renamed Autopilot and an Enterprise-only Automations feature was added; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mercury:2026-W46",
+   "company": "mercury",
+   "new_company": null,
+   "kind": "trial",
+   "why": "The Plus signup button changed from Open account to Start 30-day free trial; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "granola:2026-W46",
+   "company": "granola",
+   "new_company": null,
+   "kind": "wording",
+   "why": "The MDM/Intune iOS wrapping row disappeared from the comparison table; it is one arm of a live A/B test on that table and no deprecation is shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "deepseek:2026-W46",
+   "company": "deepseek",
+   "new_company": null,
+   "kind": "wording",
+   "why": "The note that Search/Fetch calls via DeepSeek Harness, Claude Code or Codex were free until Nov 1 was removed, so the already-announced $0.75 per 1,000 requests applies; recorded as an ended promo.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "Free Search/Fetch API calls via DeepSeek Harness, Claude Code or Codex ended; $0.75 per 1,000 requests now applies"
+   }
+  },
+  {
+   "report_id": "captions:2026-W46",
+   "company": "captions",
+   "new_company": null,
+   "kind": "wording",
+   "why": "The Enterprise plan was renamed Tesseract for business and its perks list removed; there is no price or allowance change on the page.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W46#2",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Kimi K3.1 Pro, DeepSeek V4.1 Flash and joey-1 were added to the Model APIs table; the existing record covers the plan card change, which is a different change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "doordash:2026-W45",
+   "company": null,
+   "new_company": {
+    "name": "DoorDash",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/doordash/diffs/2026W45",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "feature_move",
+   "why": "The Premier plan no longer includes the 35% off Commerce Platform Pro Package perk; commission rates are unchanged.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Perk removed",
+    "short": "Premier no longer includes the 35% off Commerce Platform Pro Package perk; commission rates are unchanged.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "arcsite:2026-W45",
+   "company": null,
+   "new_company": {
+    "name": "ArcSite",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/arcsite/diffs/2026W45",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "trial",
+   "why": "The Draw Pro self-serve 14-day trial button was replaced by Book Demo; prices are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

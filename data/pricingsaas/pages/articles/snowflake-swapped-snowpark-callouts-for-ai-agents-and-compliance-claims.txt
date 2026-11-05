@@ -1,0 +1,50 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+S
+Snowflake
+PACKAGING CHANGE
+Snowflake swapped Snowpark callouts for AI agents and compliance claims
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 5, 2026
+Snowflake rewrote its plan callouts to tout AI agents and compliance instead of Snowpark.
+See before and after
+Enlarge
+Snowflake’s pricing page · Change detected Nov 5, 2026
+What changed
+Snowflake rewrote the feature callouts on its Standard, Enterprise and Business Critical pricing tiers. The earlier copy highlighted Snowpark, multi-cluster compute and Tri-Secret Secure encryption; the new copy drops those and instead promotes AI agents (Snowflake’s CoWork and CoCo features), AI search, and compliance coverage for HIPAA, PCI DSS and FedRAMP.
+Pulse detected the change on Nov 5, 2026. It comes 87 days after Snowflake’s previous pricing-page change, which Pulse tracked on Aug 10, 2026, when the company hid its default pricing behind a platform and region selector.
+Why it matters
+This is a positioning change, not a packaging change — Snowflake didn’t touch prices, tiers or limits, only the language selling them. But what a vendor chooses to lead with on its pricing page signals where it thinks the budget conversation is moving: swapping Snowpark and multi-cluster compute (infrastructure capability) for AI agents and AI search (outcome-oriented capability) lines up with a broader shift from seat- and compute-based pricing toward AI-native framing across SaaS.
+For a product leader, the lesson isn’t the specific features — it’s the move itself: if your own pricing page still leads with infrastructure or technical specs, a rewrite toward what the AI features do for the buyer may land better with the same plans and the same price points, no repricing required. Pulse found feature-callout rewrites like this in 299 of the 2,691 pricing changes it tracked across 250 companies in the last 180 days — 11.1% of all changes — so the pattern is common but not yet dominant.
+Watch whether Snowflake follows the copy change with an actual pricing or packaging move for its AI agent features in the next few months — a rewritten callout is often the precursor to a priced tier.
+In context
+Snowflake has made 4 real pricing changes (5 events) since Pulse began tracking it on Jan 1, 2024, most recently on Aug 10, 2026, when it hid default pricing behind a platform and region selector [[snowflake/2026W33]]. This is the first of those changes to touch feature callouts rather than price or trial terms — the two before it were an Apr 27, 2026 removal of free-trial messaging [[snowflake/2026W18]] and a 2024 storage price cut [[snowflake/2024Q2]]. Pulse tracked 299 feature-callout rewrites across 250 companies in the last 180 days, led by HubSpot [[hubspot]] and Perplexity [[perplexity]] with six each and Modal [[modal]] with four, so Snowflake is following a well-worn pattern, not setting one. The sharper read: trading Snowpark and multi-cluster compute for AI agents and AI search is Snowflake narrating its platform as an AI product, not a data warehouse — the same reframing Figma [[figma]] and OpenAI [[openai]] have made in their own plan copy — and it costs nothing in price or limits to test that story before committing to a priced tier.
+Common questions
+Does this change what a Snowflake customer actually pays?
+Not on its own — but a feature-callout rewrite like this is often how a vendor previews what it will package or gate next, so it is worth checking this page again in a few months to see whether the AI agent features move behind a paywall or usage meter.
+Should we rewrite our own pricing page to lead with AI rather than infrastructure?
+Only if your AI features are far enough along to carry the claim — Pulse’s data shows this kind of callout rewrite is already common (11.1% of changes in the last 180 days), so it reads as catching up, not standing out.
+Does Snowflake say why it made the swap?
+No — the pricing page carries no rationale copy for the change, so there’s no quote to cite; the earlier move it made, hiding default pricing behind a region selector on Aug 10, 2026, also shipped without an explanation.
+Sources
+Pulse: Snowflake pricing changes, Nov 5, 2026pricingsaas.com/companies/snowflake/diffs/2026D309
+Snowflake pricing pagesnowflake.com/en/pricing-options
+Questions about this change?
+The Pulse Agent has this change, Snowflake's pricing history and its peers loaded — and answers from verified data.
+Why it mattersSnowflake's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from SnowflakeAll pricing news
+D
+DeepSeek
+DeepSeek ended free Search and Fetch calls via Claude Code
+H
+HubSpot
+HubSpot cuts Free plan email sends from 2,000 to 300, shifts Starter onto shared Credits
+M
+Mercury
+Mercury added a free trial to Plus plan signups

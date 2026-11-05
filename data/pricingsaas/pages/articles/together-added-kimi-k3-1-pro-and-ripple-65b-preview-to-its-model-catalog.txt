@@ -1,0 +1,48 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PACKAGING CHANGE
+Together added Kimi K3.1 Pro and Ripple-65B Preview to its model catalog
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 5, 2026
+Together added two new models to its serverless inference catalog.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 5, 2026
+What changed
+Together added two new models to its serverless inference catalog. Kimi K3.1 Pro lists at $2.00 per 1M input tokens and $10.00 per 1M output tokens, with cached input at $0.20 per 1M tokens, per the pricing page Pulse saved on Nov 5, 2026. Ripple-65B Preview lists at $0.20 per 1M input tokens and $0.60 per 1M output tokens, with cached input at $0.02 per 1M tokens, per the same pricing page Pulse saved on Nov 5, 2026.
+Why it matters
+For a team evaluating inference providers, a broad and frequently refreshed catalog is itself the product: Together is competing on breadth and update speed, not on a single flagship price. Kimi K3.1 Pro lands as a premium-tier model well above the catalog's cheapest options, while the update's second new model adds a cheaper small-model alternative, giving teams more price points to benchmark against whatever they currently run without switching providers.
+Watch whether Together keeps adding premium-tier models at this pace: if the cadence holds, choosing a model, not choosing a provider, becomes the real pricing decision for teams building on inference APIs.
+In context
+Pulse tracked 40 real pricing changes from Together since Dec 29, 2025, averaging one every 8 days, with NVIDIA B200 and Reflection Beam both added earlier in October. Adding models is Together's single most common move: Pulse has logged 13 features added events among the 58 recorded for the company since Dec 29, 2025, more often than the two cached-token price changes made on Kimi K3 in October (Oct 6, Oct 14). Pulse tracked 325 credits-and-usage pricing changes across 224 companies in the last 180 days, the busiest pattern across the companies it tracks, so two new metered-token models fits a market still adding usage-priced entries rather than trimming them. Together is competing on catalog breadth and update speed more than on any single model's price, carrying a premium-tier addition like Kimi K3.1 Pro alongside a cheaper small-model counterpart rather than racing only to the bottom.
+Common questions
+What should we check before switching workloads to Kimi K3.1 Pro?
+Compare it against the models already in your stack on cost per completed task, not just the per-token rate — a pricier model can still win out if it needs fewer retries or shorter prompts to hit the same quality bar.
+Is this a one-off or part of a pattern?
+Part of a pattern — see In context for how often Together refreshes its model catalog and how that compares with its price-change cadence.
+How does Kimi K3.1 Pro differ from the Kimi K3 already in Together's catalog?
+Kimi K3's standard rate is $3.00 in / $15.00 out per 1M tokens with $0.30 cached, per Together's pricing page on Oct 14, 2026 — noticeably pricier than the new Pro variant, which Together is positioning as the cheaper option in the Kimi line rather than a straight upgrade.
+Sources
+Pulse: Together pricing changes, Nov 5, 2026pricingsaas.com/companies/together/diffs/2026D309
+Together pricing pagetogether.ai/pricing
+Questions about this change?
+The Pulse Agent has this change, Together's pricing history and its peers loaded — and answers from verified data.
+Why it mattersTogether's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from TogetherAll pricing news
+H
+HubSpot
+HubSpot cuts Free plan email sends from 2,000 to 300, shifts Starter onto shared Credits
+G
+Granola
+Granola's MDM/Intune wrapping removal is one arm of a live A/B test
+S
+Synthesia
+Synthesia adds Syren video allowances to Starter and Pro; Roleplay add-on off the page in a test

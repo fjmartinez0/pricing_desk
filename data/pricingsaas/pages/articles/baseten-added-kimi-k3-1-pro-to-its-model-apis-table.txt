@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+B
+Baseten
+PACKAGING CHANGE
+Baseten added Kimi K3.1 Pro to its Model APIs table
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 5, 2026
+Baseten expanded its Model APIs pricing table with Kimi K3.1 Pro and more.
+See before and after
+Enlarge
+Baseten’s pricing page · Change detected Nov 5, 2026
+What changed
+Baseten's Model APIs rate table now lists joey-1 at $0.01 per 1M input tokens, back after Pulse tracked Baseten pulling it on Nov 3, 2026 during its Basic/Pro/Enterprise tier overhaul. It also added a faster DeepSeek V4.1 Flash 1017 variant priced at $0.60 input and $2.40 output per 1M tokens — double the $0.30 and $1.20 rates Baseten set for the original 1017 model on Oct 18, 2026, per Baseten's pricing page. Kimi K3.1 Pro joins the table at $2.00 input, $0.20 cached input and $10.00 output per 1M tokens — each cheaper than the existing Kimi K3 row's $3.00, $0.30 and $15.00 rates, according to the pricing page Pulse saved on Nov 5, 2026.
+Why it matters
+Pulse has tracked a new or repriced Baseten model roughly every 9 days since it began tracking the company on Jul 20, 2026, so three new rows in one diff fits the company's normal pace rather than a one-time catalog dump. The sharper signal is that Kimi K3.1 Pro undercuts the older Kimi K3 on every metric — input, cached input and output — despite the "Pro" name, a sign that newer model variants are landing cheaper than their predecessors as hosting costs fall.
+For a team choosing a model host on price, that compression is worth tracking: today's best rate on a card can move fast, the way joey-1 did when Pulse tracked Baseten cutting it on Nov 3, 2026, only to return just afterward. Watch whether Baseten's next few model additions keep landing below their predecessors' prices, or whether this round was a one-off response to competitive pressure on cheap, small models.
+In context
+Baseten's own history with usage-based model pricing includes nine changes to this pattern; Pulse tracked the most recent as the Nov 3, 2026 tier overhaul that replaced its Basic/Pro/Enterprise plans with pay-as-you-go and production-scale tiers. Market-wide, Pulse counted 325 pricing changes tied to credits and usage billing across 224 companies in the last 180 days — 12.1% of the 2,691 changes it tracked in that window. Pika touched this pattern most often in that window, followed by Synthesia, Strawberrybrowser, Invideo, Magnific and Lumaai. The sharper read: Baseten isn't just adding models, it's repricing its catalog as it goes, with Kimi K3.1 Pro undercutting the older Kimi K3 on every rate despite its "Pro" name.
+Common questions
+What should we check before switching to Kimi K3.1 Pro?
+Confirm it's generally available and not a limited preview rate — Pulse's record only shows the published per-token price, not usage limits, context window, or whether the lower rate is temporary.
+Does Baseten's Dedicated Inference or Training pricing change too?
+Not in this diff — it only touched the Model APIs token-pricing table; Pulse's record doesn't show whether Dedicated Inference or Training rates moved in the same update.
+Sources
+Pulse: Baseten pricing changes, Nov 5, 2026pricingsaas.com/companies/baseten/diffs/2026D309
+Baseten pricing pagebaseten.co/pricing
+Questions about this change?
+The Pulse Agent has this change, Baseten's pricing history and its peers loaded — and answers from verified data.
+Why it mattersBaseten's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from BasetenAll pricing news
+R
+Runway
+Runway adds Ads generation and publishing to Standard, Pro and Max plans
+M
+Mintlify
+Mintlify renamed its Automations feature to Autopilot
+M
+MindsDB
+MindsDB adds GPT-6.1 Terra to its rate card at $1 input, $5 output per million tokens
