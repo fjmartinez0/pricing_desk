@@ -42,6 +42,9 @@ TZ = ZoneInfo("America/Toronto")
 EDITION_READY_AFTER = dt.timedelta(hours=42)   # Tue 19:00: PricingSaaS posts its weekly batch on Monday (D49)
 # Weeks before this one were built by hand from PricingSaaS; never auto-close them.
 FIRST_AUTO_EDITION = "2026-W44"
+# Market leaders whose moves reach the most buyers: their changes rank 1.5x within tier 1 (D54). Edit freely.
+HEADLINE_COMPANIES = {"openai", "anthropic", "microsoft-365", "google-workspace", "salesforce", "adobe",
+                      "shopify", "atlassian", "github"}
 CAPTURES_STARTED = dt.date(2026, 10, 24)   # first day of our own pricing-page captures
 
 # ---------------------------------------------------------------- capture rules

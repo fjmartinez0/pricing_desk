@@ -30,7 +30,7 @@ from common import (AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, CAPTURES_STARTED, BA
                     SNAPSHOTS, SRC_CAPTURE, SRC_REPORTED, TIERS, WATCHLIST, append_check, change_id, claimed_numbers,
                     domain_of, is_http_url, load_json, log, now, numbers_in, report_problem, run_id, same_site,
                     save_json, short_date, week_range_label, week_start)
-from desk import ensure_week, rerank, stats_numbers, sync_company, week_stats
+from desk import ensure_week, rerank, rerank_all, stats_numbers, sync_company, week_stats
 
 PROSE_FIELDS = ["short", "headline", "who", "read", "caveat", "stated", "plan", "deltaSub"]
 MAX_LEN = {"short": 240, "headline": 220, "who": 240, "read": 600, "caveat": 300, "stated": 400,
@@ -668,6 +668,7 @@ def recover(run: str) -> int:
     if reports is not None:
         handed = {r["report_id"] for r in load_json(PROPOSALS / f"{run}.reports_input.json", {}).get("reports", [])}
         apply_reports(desk, registry, reports, result, handed)
+    rerank_all(desk)
     save_json(DESK, desk)
     save_json(REGISTRY, registry)
     log(f"recover {run}: +{len(result['added'])} changes, +{len(result['promos'])} promos, "
@@ -699,6 +700,7 @@ def merge(run: str, recovering: bool = False) -> int:
             report_problem(f"Edition not published: {e}. It will be retried on the next run.", "edition")
 
     desk["today"] = now().date().isoformat()
+    rerank_all(desk)                          # every week, so rank and score follow the current rule (D54)
     save_json(DESK, desk)
     save_json(REGISTRY, registry)
     save_json(RUN / f"merge_{run}.json", result)

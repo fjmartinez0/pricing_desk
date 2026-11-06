@@ -49,6 +49,31 @@ class Weeks(unittest.TestCase):
         self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 20, 19, tzinfo=tz)))  # W43: before W44
 
 
+class Ranking(unittest.TestCase):
+    """D54: tier first, then importance; comparable across weeks."""
+
+    def rec(self, cid, company, week, pct, plan="all", basis="list price", tier=1, **kw):
+        return dict(id=cid, company=company, week=week, tier=tier, planLevel=plan,
+                    magnitude={"low": pct, "high": pct, "basis": basis}, **kw)
+
+    def test_order_within_a_week(self):
+        import desk as dm
+        d = {"changes": [self.rec("small", "intercom", "2026-W44", 53, plan="entry"),
+                         self.rec("big", "anthropic", "2026-W44", -50),
+                         self.rec("t2", "scribe", "2026-W44", 77, tier=2),
+                         self.rec("line", "docker", "2026-W44", 100, basis="allowance", detail="line")]}
+        dm.rerank(d, "2026-W44")
+        self.assertEqual([c["id"] for c in sorted(d["changes"], key=lambda c: c["rank"])],
+                         ["big", "small", "line", "t2"])     # headline first; a one-line record counts half; tier 2 last
+
+    def test_scores_compare_across_weeks(self):
+        import desk as dm
+        d = {"changes": [self.rec("a", "zoom", "2026-W42", 0, basis=None), self.rec("b", "zoom", "2026-W43", 40)]}
+        dm.rerank_all(d)
+        self.assertGreater(d["changes"][1]["score"], d["changes"][0]["score"])
+        self.assertEqual({c["rank"] for c in d["changes"]}, {1})   # each is first in its own week
+
+
 @unittest.skipUnless(importlib.util.find_spec("playwright"), "Playwright not installed")
 class PageCheck(unittest.TestCase):
     """The built page draws without JavaScript errors, whatever tab, period or category (D53)."""

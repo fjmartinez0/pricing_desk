@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from collections import Counter
 
-from common import FIRST_AUTO_EDITION, TIERS, week_key, week_range_label, week_start
+from common import FIRST_AUTO_EDITION, HEADLINE_COMPANIES, TIERS, week_key, week_range_label, week_start
 
 COMPANY_FIELDS = ["name", "tier", "category", "aiNative", "ownership", "hq", "funding", "employees"]
 
@@ -37,14 +37,35 @@ def _magnitude_size(c: dict) -> float:
     return max(abs(m.get("low") or 0), abs(m.get("high") or 0))
 
 
+PLAN_REACH = {"all": 3, "free": 3, "entry": 2, "mid": 2, "top": 1, "enterprise": 1, "add-on": 1}
+
+
+def importance(c: dict) -> float:
+    """How much a change matters to buyers, within its tier (D54):
+    company weight (HEADLINE_COMPANIES 1.5) × who it hits (reach 1–3, or from the plan level)
+    × size (10 + % change, capped at 100; 15 when no % is given) × 1.5 for a list or unit price move.
+    A one-line record counts half. Comparable across weeks, so a month view ranks on it too."""
+    reach = c.get("reach") or PLAN_REACH.get(c.get("planLevel"), 2)
+    size = min(_magnitude_size(c), 100) or 15
+    basis = (c.get("magnitude") or {}).get("basis")
+    return ((1.5 if c.get("company") in HEADLINE_COMPANIES else 1.0) * reach * (10 + size)
+            * (1.5 if basis in ("list price", "unit price") else 1.0) * (0.5 if c.get("detail") == "line" else 1.0))
+
+
 def rerank(desk: dict, week: str) -> None:
-    """D9 + §4: full cards first (tier 1, 2, 3), then one-line records.
-    Within a tier: reach (most customers first), then magnitude. Ties keep their old order."""
+    """D9 + D54: tier first (1, 2, 3), then importance(); full cards before one-line records only as part of
+    importance. Ties keep their old order. Stores rank (within the week) and score (across weeks)."""
     rows = [c for c in desk["changes"] if c["week"] == week]
-    rows.sort(key=lambda c: (c.get("detail") == "line", c.get("tier") or 3, -(c.get("reach") or 2),
-                             -_magnitude_size(c), c.get("rank") or 999))
+    for c in rows:
+        c["score"] = round(importance(c), 1)
+    rows.sort(key=lambda c: (c.get("tier") or 3, -c["score"], c.get("rank") or 999))
     for i, c in enumerate(rows, 1):
         c["rank"] = i
+
+
+def rerank_all(desk: dict) -> None:
+    for w in {c["week"] for c in desk["changes"]}:
+        rerank(desk, w)
 
 
 def sync_company(desk: dict, registry: dict, slug: str) -> None:

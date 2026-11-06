@@ -535,7 +535,7 @@ function renderNews(){
 function weekLabel(){return state.week===CUR?DATA.period:state.week==="ALL"?RANGE:state.week.startsWith("M:")?monthName(state.week.slice(2)):"week "+wkNum(state.week)+", "+WEEKS[state.week]}
 function relevantForWeek(){
   const wo=k=>WEEK_ORDER.indexOf(k);
-  return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||((a[0].rank??99)-(b[0].rank??99))||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
+  return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||((b[0].score??0)-(a[0].score??0))||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
 }
 // "Updated …": time of the last pipeline run, in the reader's time zone; flagged when the pipeline looks stalled.
 function renderUpdated(){
