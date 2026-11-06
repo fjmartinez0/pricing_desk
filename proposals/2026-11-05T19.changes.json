@@ -1,0 +1,132 @@
+{
+ "type": "changes",
+ "run": "2026-11-05T19",
+ "items": [
+  {"diff_id": "flux-2026-11-05T19", "kind": "new_feature", "why": "An Enclosure design product was added to the navigation with no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "grammarly-2026-11-05T19", "kind": "wording", "why": "The Pro button copy changed from Get started for free to Try for $0.00 with no price change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "linear-2026-11-05T19", "kind": "wording", "why": "A feature row was renamed from Coding sessions to Cloud coding agent, still Included.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "padlet-2026-11-05T19", "kind": "new_feature", "why": "A note that additional Classroom seats can be purchased was added, with no price shown or changed.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "render-2026-11-05T19",
+   "kind": "limit_change",
+   "why": "The Sandboxes beta runtime cap of up to 30 days on Pro and above was replaced with Can run indefinitely.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "30 days → no cap",
+    "short": "Render Sandboxes runtime goes from up to 30 days on Pro and above to Can run indefinitely.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 1,
+    "plan": "Sandboxes (beta), Pro and above",
+    "deltaSub": "sandbox maximum runtime",
+    "headline": "Render removed the 30-day runtime limit on Sandboxes, its beta isolated environments for agents, and now says they can run indefinitely.",
+    "rows": [
+     ["Sandbox runtime, Pro and above", "Up to 30 days", "Can run indefinitely"]
+    ],
+    "who": "Users of the Sandboxes beta on Pro and above.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Render is promoting Sandboxes for agent workloads with a new banner, and lifting the runtime cap fits that push. Billing stays usage-based on CPU, so longer runs mean more spend rather than a price change.",
+    "caveat": "The compute table on the same page still lists a 24 hours maximum session length for some plans, so the page is not fully consistent. The product is in beta.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "all",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "together-ai-2026-11-05T19", "kind": "new_feature", "why": "Two new models (Kimi K3.1 Pro, Ripple-65B Preview) were added to the price list with no change to existing prices.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "wispr-flow-2026-11-05T19",
+   "kind": "limit_change",
+   "why": "The Pro plan Notetaker history changed from Longer to Unlimited.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "History unlimited",
+    "short": "Flow Pro Notetaker history goes from Longer Notetaker history to Unlimited Notetaker history.",
+    "pattern": "Limits loosen",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2,
+    "plan": "Flow Pro",
+    "deltaSub": "Notetaker history, Pro",
+    "headline": "Wispr Flow now lists Notetaker history as unlimited on its paid plan, where it previously said longer.",
+    "rows": [
+     ["Pro, Notetaker history", "Longer Notetaker history", "Unlimited Notetaker history"]
+    ],
+    "who": "Paying Flow Pro subscribers; the wording appears in both plan listings on the page.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Following last week’s move to unlimited meetings on Pro, this is another loosening of Notetaker limits, which looks like a push to make the paid tier more attractive against Free.",
+    "caveat": "The earlier wording gave no number, so the size of the increase is unknown.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "all",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "protopie-2026-11-05T19", "kind": "noise", "why": "A webinar banner was added at the top of the page.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "lindy-2026-11-05T19",
+   "kind": "price_increase",
+   "why": "The Team plan entry point moved from $29.99 for 3,000 credits back to $49.99 for 5,000 credits, reversing last week’s change.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+67%",
+    "short": "Team plan entry point moves from $29.99/mo for 3,000 credits to $49.99/mo for 5,000 credits, and the 3,000 and 4,000 credit steps are removed.",
+    "pattern": "Minimums",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2,
+    "magnitude": {"low": 67, "high": 67, "basis": "minimum"}
+   },
+   "promo": null
+  },
+  {"diff_id": "buzzybooth-2026-11-05T19", "kind": "wording", "why": "The text billed annually was dropped after the $199/mo. price while the 12 months commitment and price stayed the same.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "siteground-2026-11-05T19", "kind": "wording", "why": "Spelling changed from British to American English and a stray character was fixed.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "simplepractice-2026-11-05T19", "kind": "noise", "why": "Only a customer-count claim line was removed; no pricing content changed in either captured version.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "codesignal-2026-11-05T19", "kind": "noise", "why": "An expired event banner was removed.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "aikido-security-2026-11-05T19",
+   "kind": "limit_change",
+   "why": "The Basic plan now lists 25 credits / month included for advanced AI features.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "+25 credits / mo",
+    "short": "Basic plan now lists 25 credits / month included for AI Pentesting, Deep PR Reviews and AI Code Analysis.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2,
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "quriobot-2026-11-05T19", "kind": "noise", "why": "Three prices each moved by $1 ($96 → $95, $161 → $160, $561 → $560), which looks like currency rounding rather than a decided change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "plaud-ai-2026-11-05T19", "kind": "wording", "why": "The compliance list was reordered and ISO 27701 was dropped from the list, with no price or plan change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "omniconvert-2026-11-05T19", "kind": "noise", "why": "Only the G2 review count changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "composio-2026-11-05T19",
+   "kind": "promo",
+   "why": "A limited-time offer was added that makes Browser Use runs free, which previously charged max_cost_usd per accepted task.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Limited-time offer: Browser Use runs are free (max_cost_usd is required)"}
+  },
+  {"diff_id": "anrok-2026-11-05T19", "kind": "wording", "why": "The header call to action changed from Switch to Anrok to Book a demo.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "announcekit-2026-11-05T19", "kind": "new_feature", "why": "The overage copy now says the widget stops working only if overage is turned off; the $25 per 5,000 MAU price is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "doit-2026-11-05T19", "kind": "noise", "why": "A duplicated mobile menu call to action was removed.", "detail": "line", "record": null, "promo": null}
+ ]
+}

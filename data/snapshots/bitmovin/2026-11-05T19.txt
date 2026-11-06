@@ -1,0 +1,320 @@
+=== https://bitmovin.com/encoding-service/vod-encoding-pricing ===
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behaviour or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Always active
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+Cookie Policy
+Bitmovin Privacy Policy
+{title}
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behaviour or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional
+Always active
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics
+The technical storage or access that is used exclusively for statistical purposes.
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+Manage options
+Manage services
+Manage {vendor_count} vendors
+Read more about these purposes
+Accept
+Deny
+View preferences
+Save preferences
+View preferences
+{title}
+Pricing Options for VOD Encoding
+Two flexible pricing options: Managed Cloud or Cloud Connect
+Fair pricing based on the complexity of your encoding.
+✓ 2k free minutes / month included
+✓ $0.02 / additional minute
+Managed Cloud pricing
+Cloud Connect pricing
+Option one
+Managed Cloud pricing
+Start your encodings in any cloud region and let Bitmovin manage all infrastructure and scalability.
+Flexible pricing options, valid for any framerate (120fps+), on our Professional Tier; from PAYG up to multi-year contracts, starting from…
+H.264/AVC
+Resolution
+2-Pass
+3-Pass
+SD
+$0.025
+$0.040
+HD
+$0.050
+$0.080
+4K
+$0.100
+$0.160
+H.265/HEVC
+Resolution
+2-Pass
+3-Pass
+SD
+$0.050
+$0.080
+HD
+$0.100
+$0.160
+4K
+$0.200
+$0.320
+VP8
+Resolution
+2-Pass
+3-Pass
+SD
+$0.025
+$0.040
+HD
+$0.050
+$0.080
+4K
+$0.100
+$0.160
+VP9
+Resolution
+2-Pass
+3-Pass
+SD
+$0.050
+$0.080
+HD
+$0.100
+$0.160
+4K
+$0.200
+$0.320
+AV1
+Resolution
+2-Pass
+3-Pass
+SD
+$0.250
+$0.400
+HD
+$0.500
+$0.800
+4K
+$1.000
+$1.600
+Add-Ons
+per minute
+Audio
+$0.005
+Dolby Digital
+$0.020
+Dolby Atmos
+$0.080
+Competitive Comparisons
+Example 1
+Competitor
+The cost for a 10 minute 45 second source file with 60fps using the HEVC codec to an HD output with 2-Pass setting would be $5.12.
+Output:
+HEVC, HD, 2-Pass = $0.476 per min
+(10.75 x $0.476 = $5.12)
+Bitmovin
+The cost for a 10 minute 45 second source file with 60fps using the HEVC codec to an HD output with 2-Pass setting would be $1.06.
+Output:
+HEVC, HD, 2-Pass = $0.100 per min
+(10.75 x $0.100 = $1.06)
+Example 2
+Competitor
+The cost for a 30 second source file with 30fps using the AVC codec to 2 SD and 1 HD output with 2-Pass setting would be $0.05
+Output:
+AVC, SD, 2-Pass = $0.0238 per min
+AVC, HD, 2-Pass = $0.0476 per min
+(0.5 x $0.0238 + 0.5 x $0.0238 + 0.5 * $0.0476 = $0.0476)
+Bitmovin
+The cost for a 30 second source file with 30fps using the AVC codec to 2 SD and 1 HD output with 2-Pass setting would be $0.05
+Output:
+AVC, SD, 2-Pass = $0.025 per min
+AVC, HD, 2-Pass = $0.050 per min
+(0.5 x $0.025 + 0.5 x $0.025 + 0.5 * $0.050 = $0.050)
+Example 3
+Competitor
+The cost for a 2 hour source file with 120fps using the AV1 codec to 2 SD and 4 HD outputs with 1-Pass setting would be $2,350.08
+Output:
+AV1, SD, 1-Pass = $1.9584 per min
+AV1, HD, 1-Pass = $3.9168 per min
+(120 x $1.9584 + 120 x $1.9584+ 120 * $3.9168 + 120 * $3.9168 + 120 * $3.9168 + 120 * $3.9168 = $2,350.08)
+Bitmovin
+The cost for a 2 hour source file with 120fps using the AV1 codec to 2 SD and 4 HD outputs with 3-Pass setting would be $480
+Output:
+AV1, SD, 3-Pass = $0.400 per min
+AV1, HD, 3-Pass = $0.800 per min
+(120 x $0.4 + 120 x $0.4 + 120 * $0.8 + 120 * $0.8 + 120 * $0.8 + 120 * $0.8 = $480)
+Option two
+Cloud Connect pricing
+With Cloud Connect, Bitmovin dynamically scales worker nodes in your cloud environment on AWS, Azure or GCP. Combined with buying via the respective cloud marketplace you can shift up to 75% of the service price to your EDP on AWS, Azure or GCP. The general pricing works the same as in the tables for Managed Cloud. The difference is in the more beneficial cost structure which is shown in the example below.
+Pricing example
+Assuming you are a medium-sized media company paying $100k for managed Encoding Services. With Bitmovin Cloud Connect + Marketplace you can reduce that cost to $75k. You can then shift $50k of that to your cloud bill. Only $25k remain as Bitmovin service costs.
+$100k
+Current costs for
+Managed Encoding
+Services
+$75k
+Costs with Bitmovin
+Cloud Connect +
+Marketplace
+$25k
+Savings with Bitmovin
+Cloud Connect + Marketplace
+Buying options:
+Start saving
+CDN, Egress and Storage Savings
+Bitmovin is often able to save 20% to 50% of your CDN, egress and storage.
+To showcase how much we can save you, we calculated 3 examples of typical media companies at different sizes.
+$50M CDN example
+Competitor
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+75,300,000,000
+2
+0.87890625
+66,181,640,625
+0.00075
+CDN: $49,636,230
+661,816,406
+0.05000
+Egress: $33,090,820
+Total: $82,727,051
+Bitmovin
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+75,300,000,000
+1.6
+0.703125
+52,945,312,500
+0.00075
+CDN: $39,708,984
+529,453,125
+0.05000
+Egress: $26,472,656
+Total: $66,181,641
+Savings: -$16,545,410
+$10M CDN example
+Competitor
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+7,530,000,000
+2
+0.87890625
+6,618,164,063
+0.00150
+CDN: $9,927,246
+66,181,641
+0.10000
+Egress: $6,618,164
+Total: $16,545,410
+Bitmovin
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+7,530,000,000
+1.6
+0.703125
+5,294,531,250
+0.00150
+CDN: $7,941,797
+52,945,313
+0.10000
+Egress: $5,294,531
+Total: $13,236,328
+Savings: -$3,309,082
+$1M CDN example
+Competitor
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+301,200,000
+2
+0.87890625
+264,726,563
+0.00375
+CDN: $992,725
+2,647,266
+0.15000
+Egress: $397,090
+Total: $1,389,814
+Bitmovin
+Streaming hours
+AVG mbps
+GB/h
+Streaming GB
+Price per GB
+301,200,000
+1.6
+0.703125
+211,781,250
+0.00375
+CDN: $794,180
+2,117,813
+0.15000
+Egress: $317,672
+Total: $1,111,852
+Savings: -$277,963
+Frequently asked questions
+What is Cloud Connect?
+When using Cloud Connect, Bitmovin dynamically scales worker nodes in your cloud environment on AWS, Azure or GCP.
+How does Encoding pricing work?
+Pricing is based on a simple fee per minute of video in each output, with rates that depend on the used features.
+Does the resolution impact pricing?
+Yes, the output resolution is different depending on the size, as the computational effort increases with larger frame sizes. While one SD content minute (defined as frame height up to 719) equals 1 output minute, an HD content minute (defined as frame height between 720 and 1080) equals 2 output minutes, an 4k UHD content minute (defined as frame height between 1081 and 2160) equals 4 output minutes and an 8k UHD content minute (defined as frame height between 2161 and 4320) equals 120 output minutes. For frame sizes larger than 8k UHD custom pricing applies – please get in contact with our team via sales@bitmovin.com. The resolution of the input video does not impact pricing.
+Does the codec impact pricing?
+Yes, different codecs are priced differently as they differ in terms of computational effort.
+Codecs are mapped as factors for the per-minute prices. You can find the full list of video codec factors in the Encoding Minute Calculation Methodology point 3.2.1. An example would be HEVC with a factor of 2x. So, an HEVC SD content minute equals 2 output minutes, an HD content minute equals 4 output minute and so forth.
+Similar to video codecs, audio codecs are priced based on the computation effort and the list of different factors can be seen in the Encoding Minute Calculation Methodology point 3.2.3.
+Do you calculate more output minutes, when using 2-Pass or 3-Pass encoding?
+Yes, due to the nature of multi-pass encoding, more resources are needed to perform the additional passes. Factors, similar to codec factors, are used to reflect that in the pricing. For 2-Pass a factor of 1.25 and for 3-Pass a factor of 2.0 is applied. Please note, that the 2-Pass Encoding Mode is enabled by default.
+Do I get charged for faulty or cancelled encoding jobs?
+Bitmovin does not charge for errors caused by the Bitmovin Encoder or Platform. Any encoding job which results in an error caused by circumstances, not within the responsibility of Bitmovin, including but not limited to, corrupted input files, non-accessible output destinations, or misconfiguration, will be charged for the applicable number of billable minutes of output prior to the error.
+In the event that an encoding job is canceled prior to the job’s completion, the applicable number of billable minutes of output prior to such cancellation will be charged.
+Is there a minimum duration for encoding jobs?
+We calculate billing in 10-second increments. So, the minimum duration for billing is 10 seconds. An output with a duration of fewer than 10 seconds will be charged for 10 seconds.
+For a comprehensive and detailed overview of all factors within the pricing methodology please visit https://bitmovin.com/_emcm/. We are of course happy to help to calculate your use-case. In order to do so, please get in contact with our team via sales@bitmovin.com.
+Ready to get started?
+Access your free account today by signing up for a trial
+Get started free
+Manage consent
+Close this module
+QoE, Playback and Observability chapter ebook
+See why 53% of video teams need 12 hours or longer to find a root cause, why most build on open-source or native players, and how MCP connectors and AI assistants became a new way to reach observability data.
+View the ebook
+No thanks, I’m not interested!

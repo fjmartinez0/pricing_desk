@@ -28163,7 +28163,7 @@
   {
    "id": "constructconnect-2026w46",
    "week": "2026-W46",
-   "rank": 4,
+   "rank": 6,
    "co": "ConstructConnect",
    "company": "constructconnect",
    "tier": 3,
@@ -28191,7 +28191,7 @@
   {
    "id": "crusoe-2026w46",
    "week": "2026-W46",
-   "rank": 5,
+   "rank": 7,
    "co": "Crusoe",
    "company": "crusoe",
    "tier": 3,
@@ -28219,7 +28219,7 @@
   {
    "id": "arcade-2026w46",
    "week": "2026-W46",
-   "rank": 6,
+   "rank": 8,
    "co": "Arcade",
    "company": "arcade",
    "tier": 3,
@@ -28247,7 +28247,7 @@
   {
    "id": "breezy-hr-2026w46",
    "week": "2026-W46",
-   "rank": 7,
+   "rank": 9,
    "co": "Breezy HR",
    "company": "breezy-hr",
    "tier": 3,
@@ -29588,7 +29588,7 @@
   {
    "id": "bitrise-2026w46",
    "week": "2026-W46",
-   "rank": 11,
+   "rank": 15,
    "co": "Bitrise",
    "company": "bitrise",
    "tier": 3,
@@ -29616,7 +29616,7 @@
   {
    "id": "quriobot-2026w46",
    "week": "2026-W46",
-   "rank": 12,
+   "rank": 16,
    "co": "Quriobot",
    "company": "quriobot",
    "tier": 3,
@@ -30502,7 +30502,7 @@
   {
    "id": "baseten-2026w46",
    "week": "2026-W46",
-   "rank": 8,
+   "rank": 10,
    "co": "Baseten",
    "company": "baseten",
    "tier": 3,
@@ -30530,7 +30530,7 @@
   {
    "id": "pulumi-2026w46",
    "week": "2026-W46",
-   "rank": 9,
+   "rank": 11,
    "co": "Pulumi",
    "company": "pulumi",
    "tier": 3,
@@ -30636,7 +30636,7 @@
   {
    "id": "contabo-2026w46",
    "week": "2026-W46",
-   "rank": 10,
+   "rank": 12,
    "co": "Contabo",
    "company": "contabo",
    "tier": 3,
@@ -30724,7 +30724,7 @@
   {
    "id": "aircall-2026w46",
    "week": "2026-W46",
-   "rank": 3,
+   "rank": 4,
    "co": "Aircall",
    "company": "aircall",
    "tier": 2,
@@ -30773,7 +30773,7 @@
   {
    "id": "gorilladesk-2026w46",
    "week": "2026-W46",
-   "rank": 13,
+   "rank": 17,
    "co": "GorillaDesk",
    "company": "gorilladesk",
    "tier": 3,
@@ -30801,7 +30801,7 @@
   {
    "id": "day-2026w46",
    "week": "2026-W46",
-   "rank": 14,
+   "rank": 18,
    "co": "Day",
    "company": "day",
    "tier": 3,
@@ -30829,7 +30829,7 @@
   {
    "id": "lightfield-2026w46",
    "week": "2026-W46",
-   "rank": 15,
+   "rank": 19,
    "co": "Lightfield",
    "company": "lightfield",
    "tier": 3,
@@ -30940,6 +30940,152 @@
     ]
    },
    "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "render-2026w46",
+   "week": "2026-W46",
+   "rank": 5,
+   "co": "Render",
+   "company": "render",
+   "tier": 2,
+   "group": "down",
+   "delta": "30 days → no cap",
+   "short": "Render Sandboxes runtime goes from up to 30 days on Pro and above to Can run indefinitely.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "4 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://render.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/render/2026-11-04T07.txt",
+    "after": "data/snapshots/render/2026-11-05T19.txt",
+    "diff": "render-2026-11-05T19"
+   },
+   "plan": "Sandboxes (beta), Pro and above",
+   "deltaSub": "sandbox maximum runtime",
+   "headline": "Render removed the 30-day runtime limit on Sandboxes, its beta isolated environments for agents, and now says they can run indefinitely.",
+   "rows": [
+    [
+     "Sandbox runtime, Pro and above",
+     "Up to 30 days",
+     "Can run indefinitely"
+    ]
+   ],
+   "who": "Users of the Sandboxes beta on Pro and above.",
+   "stated": null,
+   "read": "Render is promoting Sandboxes for agent workloads with a new banner, and lifting the runtime cap fits that push. Billing stays usage-based on CPU, so longer runs mean more spend rather than a price change.",
+   "model": "Usage",
+   "modelBefore": "Usage",
+   "modelAfter": "Usage",
+   "appliesTo": "all",
+   "caveat": "The compute table on the same page still lists a 24 hours maximum session length for some plans, so the page is not fully consistent. The product is in beta."
+  },
+  {
+   "id": "wispr-flow-2026w46",
+   "week": "2026-W46",
+   "rank": 3,
+   "co": "Wispr Flow",
+   "company": "wispr-flow",
+   "tier": 2,
+   "group": "down",
+   "delta": "History unlimited",
+   "short": "Flow Pro Notetaker history goes from Longer Notetaker history to Unlimited Notetaker history.",
+   "pattern": "Limits loosen",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://wisprflow.ai/pricing",
+   "evidence": {
+    "before": "data/snapshots/wispr-flow/2026-10-31T19.txt",
+    "after": "data/snapshots/wispr-flow/2026-11-05T19.txt",
+    "diff": "wispr-flow-2026-11-05T19"
+   },
+   "plan": "Flow Pro",
+   "deltaSub": "Notetaker history, Pro",
+   "headline": "Wispr Flow now lists Notetaker history as unlimited on its paid plan, where it previously said longer.",
+   "rows": [
+    [
+     "Pro, Notetaker history",
+     "Longer Notetaker history",
+     "Unlimited Notetaker history"
+    ]
+   ],
+   "who": "Paying Flow Pro subscribers; the wording appears in both plan listings on the page.",
+   "stated": null,
+   "read": "Following last week’s move to unlimited meetings on Pro, this is another loosening of Notetaker limits, which looks like a push to make the paid tier more attractive against Free.",
+   "model": "Seat",
+   "modelBefore": "Seat",
+   "modelAfter": "Seat",
+   "appliesTo": "all",
+   "caveat": "The earlier wording gave no number, so the size of the increase is unknown."
+  },
+  {
+   "id": "lindy-2026w46",
+   "week": "2026-W46",
+   "rank": 13,
+   "co": "Lindy",
+   "company": "lindy",
+   "tier": 3,
+   "group": "up",
+   "delta": "+67%",
+   "short": "Team plan entry point moves from $29.99/mo for 3,000 credits to $49.99/mo for 5,000 credits, and the 3,000 and 4,000 credit steps are removed.",
+   "pattern": "Minimums",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.lindy.ai/pricing",
+   "evidence": {
+    "before": "data/snapshots/lindy/2026-11-01T07.txt",
+    "after": "data/snapshots/lindy/2026-11-05T19.txt",
+    "diff": "lindy-2026-11-05T19"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "aikido-security-2026w46",
+   "week": "2026-W46",
+   "rank": 14,
+   "co": "Aikido Security",
+   "company": "aikido-security",
+   "tier": 3,
+   "group": "down",
+   "delta": "+25 credits / mo",
+   "short": "Basic plan now lists 25 credits / month included for AI Pentesting, Deep PR Reviews and AI Code Analysis.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.aikido.dev/pricing",
+   "evidence": {
+    "before": "data/snapshots/aikido-security/2026-11-03T07.txt",
+    "after": "data/snapshots/aikido-security/2026-11-05T19.txt",
+    "diff": "aikido-security-2026-11-05T19"
+   },
    "detail": "line"
   }
  ],
@@ -40594,6 +40740,15 @@
    "co": "Maropost",
    "kind": "new",
    "text": "Black Friday: 30% off the first year on an annual contract or the first 3 months on monthly billing, plus free onboarding",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "composio-promo-2026w46",
+   "week": "2026-W46",
+   "company": "composio",
+   "co": "Composio",
+   "kind": "new",
+   "text": "Limited-time offer: Browser Use runs are free (max_cost_usd is required)",
    "src": "Pricing Desk capture"
   }
  ],

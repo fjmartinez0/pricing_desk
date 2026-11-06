@@ -23391,8 +23391,8 @@
    "domains": [
     "bitmovin.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -33038,10 +33038,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.arcsite.com/pricing"
+   ],
+   "domains": [
+    "arcsite.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
