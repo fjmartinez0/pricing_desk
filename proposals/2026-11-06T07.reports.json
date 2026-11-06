@@ -1,0 +1,54 @@
+{
+ "type": "reports",
+ "run": "2026-11-06T07",
+ "items": [
+  {
+   "report_id": "vercel:2026-W46",
+   "company": "vercel",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Observability trace retention raised on every plan (Hobby 1 hour → 3 days, Pro 1 day → 14 days, Enterprise 3 → 14 days), possibly one arm of an A/B test.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×14 (Pro)",
+    "short": "Trace retention rises on Pro from 1 day → 14 days, Hobby from 1 hour → 3 days and Enterprise from 3 days → 14 days; possibly one arm of an A/B test, so it may not stick.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W46#2",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Monthly credit allotments cut on Starter (900 → 600) and Creator (3,150 → 2,600) with list prices unchanged.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "−33% credits",
+    "short": "Starter monthly credits fall from 900 → 600 and Creator from 3,150 → 2,600, at unchanged $10 and $35 prices.",
+    "pattern": "Limits tighten",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W46#3",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "A new Volumes persistent-storage line at $0.16/GB/month was added to the Sandboxes rate card without changing any existing price; it is a different change from the existing tier-replacement record.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "current_week": "2026-W45",
- "today": "2026-11-05",
+ "today": "2026-11-06",
  "edition_date": "2026-11-03",
  "period": "26 Oct–1 Nov",
  "week_order": [
@@ -28163,7 +28163,7 @@
   {
    "id": "constructconnect-2026w46",
    "week": "2026-W46",
-   "rank": 6,
+   "rank": 8,
    "co": "ConstructConnect",
    "company": "constructconnect",
    "tier": 3,
@@ -28191,7 +28191,7 @@
   {
    "id": "crusoe-2026w46",
    "week": "2026-W46",
-   "rank": 7,
+   "rank": 9,
    "co": "Crusoe",
    "company": "crusoe",
    "tier": 3,
@@ -28219,7 +28219,7 @@
   {
    "id": "arcade-2026w46",
    "week": "2026-W46",
-   "rank": 8,
+   "rank": 10,
    "co": "Arcade",
    "company": "arcade",
    "tier": 3,
@@ -28247,7 +28247,7 @@
   {
    "id": "breezy-hr-2026w46",
    "week": "2026-W46",
-   "rank": 9,
+   "rank": 11,
    "co": "Breezy HR",
    "company": "breezy-hr",
    "tier": 3,
@@ -29588,7 +29588,7 @@
   {
    "id": "bitrise-2026w46",
    "week": "2026-W46",
-   "rank": 15,
+   "rank": 20,
    "co": "Bitrise",
    "company": "bitrise",
    "tier": 3,
@@ -29616,7 +29616,7 @@
   {
    "id": "quriobot-2026w46",
    "week": "2026-W46",
-   "rank": 16,
+   "rank": 21,
    "co": "Quriobot",
    "company": "quriobot",
    "tier": 3,
@@ -30502,7 +30502,7 @@
   {
    "id": "baseten-2026w46",
    "week": "2026-W46",
-   "rank": 10,
+   "rank": 12,
    "co": "Baseten",
    "company": "baseten",
    "tier": 3,
@@ -30530,7 +30530,7 @@
   {
    "id": "pulumi-2026w46",
    "week": "2026-W46",
-   "rank": 11,
+   "rank": 13,
    "co": "Pulumi",
    "company": "pulumi",
    "tier": 3,
@@ -30636,7 +30636,7 @@
   {
    "id": "contabo-2026w46",
    "week": "2026-W46",
-   "rank": 12,
+   "rank": 14,
    "co": "Contabo",
    "company": "contabo",
    "tier": 3,
@@ -30773,7 +30773,7 @@
   {
    "id": "gorilladesk-2026w46",
    "week": "2026-W46",
-   "rank": 17,
+   "rank": 22,
    "co": "GorillaDesk",
    "company": "gorilladesk",
    "tier": 3,
@@ -30801,7 +30801,7 @@
   {
    "id": "day-2026w46",
    "week": "2026-W46",
-   "rank": 18,
+   "rank": 23,
    "co": "Day",
    "company": "day",
    "tier": 3,
@@ -30829,7 +30829,7 @@
   {
    "id": "lightfield-2026w46",
    "week": "2026-W46",
-   "rank": 19,
+   "rank": 24,
    "co": "Lightfield",
    "company": "lightfield",
    "tier": 3,
@@ -31035,7 +31035,7 @@
   {
    "id": "lindy-2026w46",
    "week": "2026-W46",
-   "rank": 13,
+   "rank": 15,
    "co": "Lindy",
    "company": "lindy",
    "tier": 3,
@@ -31063,7 +31063,7 @@
   {
    "id": "aikido-security-2026w46",
    "week": "2026-W46",
-   "rank": 14,
+   "rank": 16,
    "co": "Aikido Security",
    "company": "aikido-security",
    "tier": 3,
@@ -31086,6 +31086,186 @@
     "after": "data/snapshots/aikido-security/2026-11-05T19.txt",
     "diff": "aikido-security-2026-11-05T19"
    },
+   "detail": "line"
+  },
+  {
+   "id": "bitrise-2026w46-2",
+   "week": "2026-W46",
+   "rank": 17,
+   "co": "Bitrise",
+   "company": "bitrise",
+   "tier": 3,
+   "group": "down",
+   "delta": "2 → 4 vCPU Linux",
+   "short": "Linux machine size on the paid tiers rises from 2 vCPU / 8GB to up to 4 vCPU / 16GB, and from 4 vCPU / 16GB to up to 8 vCPU / 32GB, at unchanged prices.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://bitrise.io/pricing",
+   "evidence": {
+    "before": "data/snapshots/bitrise/2026-11-03T19.txt",
+    "after": "data/snapshots/bitrise/2026-11-06T07.txt",
+    "diff": "bitrise-2026-11-06T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "vercel-2026w46",
+   "week": "2026-W46",
+   "rank": 18,
+   "co": "Vercel",
+   "company": "vercel",
+   "tier": 3,
+   "group": "down",
+   "delta": "1 day → 14 days",
+   "short": "Trace retention rises from 1 hour, 1 day and 3 days of traces to 3 days and 14 days of traces, with no price change.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://vercel.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/vercel/2026-10-30T07.txt",
+    "after": "data/snapshots/vercel/2026-11-06T07.txt",
+    "diff": "vercel-2026-11-06T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "koordinates-2026w46",
+   "week": "2026-W46",
+   "rank": 6,
+   "co": "Koordinates",
+   "company": "koordinates",
+   "tier": 3,
+   "group": "pack",
+   "delta": "$217 / $85.50",
+   "short": "Team Cloud Plan is restructured from $217 /mo with 2 paid seats and 4 GB vector storage to $85.50 /mo with 1 paid seat, 3 KxAI Seats and 3 GB vector storage.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.koordinates.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/koordinates/2026-11-03T19.txt",
+    "after": "data/snapshots/koordinates/2026-11-06T07.txt",
+    "diff": "koordinates-2026-11-06T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "circleci-2026w46",
+   "week": "2026-W46",
+   "rank": 19,
+   "co": "CircleCI",
+   "company": "circleci",
+   "tier": 3,
+   "group": "down",
+   "delta": "Test analytics free",
+   "short": "Test analytics moves from billed by test atoms evaluated to free on every plan, and dynamic parallelism is added to the billed Smarter Testing features.",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "5 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://circleci.com/pricing/",
+   "evidence": {
+    "before": "data/snapshots/circleci/2026-10-28T07.txt",
+    "after": "data/snapshots/circleci/2026-11-06T07.txt",
+    "diff": "circleci-2026-11-06T07"
+   },
+   "detail": "line"
+  },
+  {
+   "id": "postman-2026w46",
+   "week": "2026-W46",
+   "rank": 25,
+   "co": "Postman",
+   "company": "postman",
+   "tier": 3,
+   "group": "up",
+   "delta": "Feature removed",
+   "short": "Enterprise no longer lists SDK auto-distribution, and the page names no replacement.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "enterprise",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "4 Nov",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/postman/diffs/2026D308",
+   "evidence": {
+    "report": "postman:2026-W46",
+    "files": [
+     "data/pricingsaas/pages/diffs/postman__2026D308.txt",
+     "data/pricingsaas/pages/articles/postman-cut-sdk-auto-distribution-from-enterprise.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/postman/diffs/2026D308"
+    ]
+   },
+   "reported": true,
+   "detail": "line"
+  },
+  {
+   "id": "pika-2026w46",
+   "week": "2026-W46",
+   "rank": 7,
+   "co": "Pika",
+   "company": "pika",
+   "tier": 3,
+   "group": "up",
+   "delta": "−33% credits",
+   "short": "Starter monthly credits fall from 900 → 600 and Creator from 3,150 → 2,600, at unchanged $10 and $35 prices.",
+   "pattern": "Limits tighten",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-11-02",
+   "seenLabel": "2–8 Nov",
+   "when": "6 Nov",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pika/diffs/2026D310",
+   "evidence": {
+    "report": "pika:2026-W46#2",
+    "files": [
+     "data/pricingsaas/pages/diffs/pika__2026D310.txt",
+     "data/pricingsaas/pages/articles/pika-cut-monthly-credit-caps-on-starter-and-creator.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pika/diffs/2026D310"
+    ]
+   },
+   "reported": true,
    "detail": "line"
   }
  ],
@@ -38429,6 +38609,16 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "koordinates": {
+   "name": "Koordinates",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -40749,6 +40939,15 @@
    "co": "Composio",
    "kind": "new",
    "text": "Limited-time offer: Browser Use runs are free (max_cost_usd is required)",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "on1-promo-2026w46-2",
+   "week": "2026-W46",
+   "company": "on1",
+   "co": "ON1",
+   "kind": "new",
+   "text": "Photo RAW MAX yearly subscription shown at $79.99/year, down from $89.99",
    "src": "Pricing Desk capture"
   }
  ],

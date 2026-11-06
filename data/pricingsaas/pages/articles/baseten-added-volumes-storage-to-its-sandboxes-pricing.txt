@@ -1,0 +1,51 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+B
+Baseten
+PACKAGING CHANGE
+Baseten added Volumes storage to its Sandboxes pricing
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 6, 2026
+Baseten added Volumes storage to Sandboxes, priced at $0.16 per GB per month.
+See before and after
+Enlarge
+Baseten’s pricing page · Change detected Nov 6, 2026
+VOLUMES·first seen Nov 6, 2026
+What changed
+Baseten added a new "Volumes" line item to the Sandboxes Runtime Pricing rate card, priced at $0.16 per GB per month, per Baseten's pricing page as of Nov 6, 2026. Volumes adds persistent storage to Sandboxes, the usage-based compute product Baseten introduced on Nov 3, 2026, when it scrapped its Basic, Pro and Enterprise tiers.
+The addition comes one day after Baseten's last pricing move, when it expanded its Model API rate table with new models, according to Pulse's record. Pulse has tracked 13 Baseten pricing changes since it began following the company on Jul 20, 2026, including 11 in the last 90 days — an average of one every 9 days.
+Why it matters
+For a product leader watching usage-based pricing, Baseten's move shows how fast a new rate card gets filled in once it exists. Having replaced its flat Basic, Pro and Enterprise tiers with Sandboxes usage pricing on Nov 3, 2026, Baseten is already adding a standalone metered line item for storage rather than folding it into compute pricing — a sign the company intends Sandboxes pricing to be granular by design, not a stopgap.
+$0.16 per GB per month, per Baseten's pricing page as of Nov 6, 2026, is a small number on its own, but it sets a reference point for any team pricing persistent storage alongside compute: workloads that hold state on Sandboxes now show a separate storage line instead of storage bundled into compute minutes. That split makes a usage-based bill easier to read line by line, but harder to predict as a single number.
+Watch whether Baseten keeps adding standalone metered line items to Sandboxes at this pace — Pulse counted 11 Baseten pricing changes in the last 90 days — or settles into a steadier cadence now that the new rate card is in place.
+In context
+Baseten's pricing page has barely slowed down this month, per Pulse's tracked record: a Sandboxes usage-pricing overhaul on Nov 3, 2026 replaced its old tiers, and a Volumes storage line follows on Nov 6, 2026. That cadence puts Baseten itself atop Pulse's count of new-add-on changes in the last 180 days, ahead of Vercel, Gusto and GitLab, which each added metered line items of their own in the same window. The sharper read: Baseten is treating its brand-new usage-based rate card the way a mature SaaS pricing page gets treated — one line item at a time — rather than batching storage into a future repricing. For a team evaluating Sandboxes, that means the bill is still being assembled in public, and today's $0.16-per-GB-month storage line, priced on Baseten's pricing page as of Nov 6, 2026, is unlikely to be the last addition.
+Common questions
+What would persistent storage cost for a typical Sandboxes workload?
+Multiply $0.16 by the gigabytes of persistent storage your Sandboxes workload keeps mounted each month, per Baseten's pricing page as of Nov 6, 2026 — that's the full extra cost; compute is billed separately under the usage pricing Baseten introduced on Nov 3, 2026.
+Is this part of a broader pattern, or a one-off?
+It fits a market-wide pattern: Pulse counted 150 new-add-on changes across 123 companies in the last 180 days, about 5.6% of the 2,701 pricing changes tracked in that span, and Baseten was the single most frequent name in that count.
+Does this mean Baseten's usage pricing is now significantly more expensive?
+Not necessarily: the record shows the price of the new Volumes line, not how much persistent storage a typical Sandboxes workload actually uses, so the real cost impact per account isn't visible from the pricing page alone.
+Sources
+Pulse: Baseten pricing changes, Nov 6, 2026pricingsaas.com/companies/baseten/diffs/2026D310
+Baseten pricing pagebaseten.co/pricing
+Questions about this change?
+The Pulse Agent has this change, Baseten's pricing history and its peers loaded — and answers from verified data.
+Why it mattersBaseten's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from BasetenAll pricing news
+B
+Baseten
+Baseten added Kimi K3.1 Pro to its Model APIs table
+X
+Xai
+xAI's Super plan adds 1080p video creation and faster replies
+F
+Figma
+Figma opens Specs beta to all seats, 14 days after launching it on paid seats only

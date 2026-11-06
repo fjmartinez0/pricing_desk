@@ -1,0 +1,65 @@
+{
+ "run": "2026-11-06T07",
+ "reports": [
+  {
+   "report_id": "vercel:2026-W46",
+   "week": "2026-W46",
+   "change_date": "2026-11-06",
+   "urls": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026D310"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vercel__2026D310.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/vercel-trace-retention-extension-is-one-arm-of-a-live-a-b-test.txt"
+   ],
+   "title": "Vercel boosts Pro trace retention 14x to 14 days, Hobby to 3 days — Nov 6, 2026 · PricingSaaS Pulse",
+   "registry_guess": "vercel",
+   "registry_name": "Vercel",
+   "existing_records": []
+  },
+  {
+   "report_id": "pika:2026-W46#2",
+   "week": "2026-W46",
+   "change_date": "2026-11-06",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D310"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D310.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-cut-monthly-credit-caps-on-starter-and-creator.txt"
+   ],
+   "title": "Pika quietly slashes Starter and Creator monthly credit caps by 33–17% — Nov 6, 2026 · PricingSaaS Pulse",
+   "registry_guess": "pika",
+   "registry_name": "Pika",
+   "existing_records": []
+  },
+  {
+   "report_id": "baseten:2026-W46#3",
+   "week": "2026-W46",
+   "change_date": "2026-11-06",
+   "urls": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D310"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/baseten__2026D310.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-added-volumes-storage-to-its-sandboxes-pricing.txt"
+   ],
+   "title": "Baseten adds $0.16/GB/month Volumes storage to Sandboxes pricing — Nov 6, 2026 · PricingSaaS Pulse",
+   "registry_guess": "baseten",
+   "registry_name": "Baseten",
+   "existing_records": [
+    {
+     "id": "baseten-2026w46",
+     "short": "Basic, Pro and Enterprise plan cards are replaced by Pay as you go and a contact-us Production scale path; rates are unchanged.",
+     "src": "Pricing Desk capture"
+    }
+   ]
+  }
+ ]
+}

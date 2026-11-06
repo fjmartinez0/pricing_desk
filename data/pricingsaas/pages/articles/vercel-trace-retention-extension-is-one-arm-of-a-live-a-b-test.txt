@@ -1,0 +1,50 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+V
+Vercel
+A/B TEST
+Vercel's trace retention extension is one arm of a live A/B test
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 6, 2026
+Vercel extended how long it retains trace data.
+See before and after
+Enlarge
+Vercel’s pricing page · Change detected Nov 6, 2026
+TRACE RETENTION·first seen Nov 6, 2026
+What changed
+Vercel raised Observability's trace retention across every plan — Hobby from 1 hour to 3 days, Pro from 1 day to 14 days (a 14x increase) and Enterprise from 3 days to 14 days — according to the pricing page Pulse saved on Nov 6, 2026. The comparison-table row that carries this limit was also renamed, from Session Tracing to Trace Retention, in the same update.
+Pulse links this retention lift to an active A/B test on Vercel plan limits that has run since Oct 26, 2026 (first seen alongside Firewall rule-cap reductions on 2026D299), so the extended retention may be one arm of an experiment rather than a settled packaging change. The other arm Pulse has captured is reduced Firewall rule caps.
+Why it matters
+For product leaders shipping observability or logging features, this reads as a packaging move more than a price move — but only if it sticks: Vercel widened how far back customers can see trace history without touching the sticker price on any tier. A team debugging an incident that surfaces days later would have meaningfully more history on Pro, at no extra cost.
+Because Pulse tags this as one arm of a live A/B test (Firewall rule caps reduced vs trace retention extended), treat the retention numbers as provisional until the experiment settles: a prospect who screenshots today's page may see the older 1-hour / 1-day windows on another visit. Watch whether Vercel keeps the longer retention in both arms, pairs it with usage-based pricing on trace storage the way it already prices Drains Volume and Daemons, or rolls the table back once the test concludes.
+In context
+Pulse has tracked 26 real pricing changes from Vercel since Dec 29, 2025, averaging one every 11 days, and this lands 4 days after its Nov 2, 2026 move to add usage pricing for Beta CI and Observability monitors [[vercel/2026W45]]. Pulse now tags both the Oct 26, 2026 Firewall rule-cap reductions [[vercel/2026D299]] and this Nov 6, 2026 trace-retention lift as arms of the same active A/B test on plan limits. It has made one other limit increase in that time, lifting Pro's Concurrent Sandboxes cap from 2K to 10K on Aug 27, 2026 [[vercel/2026D239]]. It is a market-wide pattern too: Pulse tracked 179 limit-increase moves across 151 companies in the last 180 days, 6.6% of the 2,701 changes it tracked in that window. The open question: whether the longer Trace Retention windows stay once the test concludes, or flip back.
+Common questions
+Does Pulse's record show why Vercel made this change now?
+No — Vercel hasn't published a rationale Pulse can quote for this specific change, and nothing in its recent changes explains the choice of 14 days over a longer or shorter window; treat it as a product decision with no stated reasoning until Vercel says otherwise.
+If I monitor Vercel's pricing page myself, what should I watch for?
+Watch for silent label swaps, not just number changes: a text-match monitor keyed to the old row name would miss this update entirely, since the limit's row changed names in the same release, not just its value.
+Could Vercel start charging for retention beyond 14 days?
+Nothing in this change prices the extra days, but Vercel already meters related Observability add-ons by usage, according to Pulse's record: Deployment Storage at $0.10/GB since Oct 26, 2026 and Daemons at $0.128 per hour of Active CPU since Oct 16, 2026 — a metered extension here is worth watching for, not assuming.
+Sources
+Pulse: Vercel pricing changes, Nov 6, 2026pricingsaas.com/companies/vercel/diffs/2026D310
+Vercel pricing pagevercel.com/pricing
+Questions about this change?
+The Pulse Agent has this change, Vercel's pricing history and its peers loaded — and answers from verified data.
+Why it mattersVercel's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from VercelAll pricing news
+W
+Wisprflow
+Wispr Flow drops numeric Free plan limits, makes Pro meetings unlimited
+G
+GitHub
+GitHub bundles Copilot and Agent governance into Enterprise, adds three security add-on cards
+S
+Synthesia
+Synthesia cuts Syren promo credits in half on Basic, by a quarter on Starter and Pro

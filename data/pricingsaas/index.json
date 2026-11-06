@@ -28095,7 +28095,8 @@
    "found_via": [],
    "articles": [
     "https://pricingsaas.com/news/article/baseten-scraps-basic-pro-enterprise-tiers-for-pay-as-you-go-and-production-scale-plans",
-    "https://pricingsaas.com/news/article/baseten-added-kimi-k3-1-pro-to-its-model-apis-table"
+    "https://pricingsaas.com/news/article/baseten-added-kimi-k3-1-pro-to-its-model-apis-table",
+    "https://pricingsaas.com/news/article/baseten-added-volumes-storage-to-its-sandboxes-pricing"
    ],
    "fetched_at": "2026-11-03T07:29:17-05:00",
    "file": "data/pricingsaas/pages/diffs/baseten__2026D307.txt",
@@ -28168,7 +28169,8 @@
    "first_seen": "2026-11-04T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table"
+    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table",
+    "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator"
    ],
    "fetched_at": "2026-11-04T07:31:07-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D308.txt",
@@ -28181,7 +28183,8 @@
    "first_seen": "2026-11-04T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table"
+    "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table",
+    "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator"
    ],
    "fetched_at": "2026-11-04T07:31:07-05:00",
    "file": "data/pricingsaas/pages/diffs/synthesia__2026D307.txt",
@@ -28430,7 +28433,8 @@
    "first_seen": "2026-11-05T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/mintlify-renamed-its-automations-feature-to-autopilot"
+    "https://pricingsaas.com/news/article/mintlify-renamed-its-automations-feature-to-autopilot",
+    "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator"
    ],
    "fetched_at": "2026-11-05T07:33:49-05:00",
    "file": "data/pricingsaas/pages/diffs/mintlify__2026D309.txt",
@@ -28501,6 +28505,94 @@
    "file": "data/pricingsaas/pages/diffs/arcsite__2026W45.txt",
    "title": "ArcSite swaps Draw Pro free trial for Book Demo, prices hold at $34.99 — Nov 2, 2026 · PricingSaaS Pulse",
    "report_id": "arcsite:2026-W45"
+  },
+  "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-cut-monthly-credit-caps-on-starter-and-creator.txt",
+   "title": "Pika cut monthly credit caps on Starter and Creator",
+   "published": "2026-11-06T07:58:25.772535+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D310",
+    "https://pricingsaas.com/companies/pika/diffs/2026D308",
+    "https://pricingsaas.com/companies/mintlify/diffs/2026D309",
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D307"
+   ]
+  },
+  "https://pricingsaas.com/news/article/vercel-trace-retention-extension-is-one-arm-of-a-live-a-b-test": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/articles/vercel-trace-retention-extension-is-one-arm-of-a-live-a-b-test.txt",
+   "title": "Vercel's trace retention extension is one arm of a live A/B test",
+   "published": "2026-11-06T07:05:47.566137+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026D310"
+   ]
+  },
+  "https://pricingsaas.com/news/article/baseten-added-volumes-storage-to-its-sandboxes-pricing": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/articles/baseten-added-volumes-storage-to-its-sandboxes-pricing.txt",
+   "title": "Baseten added Volumes storage to its Sandboxes pricing",
+   "published": "2026-11-06T06:34:55.774389+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D310",
+    "https://pricingsaas.com/companies/baseten/diffs/2026D307"
+   ]
+  },
+  "https://pricingsaas.com/companies/pika/diffs/2026D310": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/diffs/pika__2026D310.txt",
+   "title": "Pika quietly slashes Starter and Creator monthly credit caps by 33–17% — Nov 6, 2026 · PricingSaaS Pulse",
+   "report_id": "pika:2026-W46#2"
+  },
+  "https://pricingsaas.com/companies/vercel/diffs/2026D310": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/vercel-trace-retention-extension-is-one-arm-of-a-live-a-b-test"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/diffs/vercel__2026D310.txt",
+   "title": "Vercel boosts Pro trace retention 14x to 14 days, Hobby to 3 days — Nov 6, 2026 · PricingSaaS Pulse",
+   "report_id": "vercel:2026-W46"
+  },
+  "https://pricingsaas.com/companies/baseten/diffs/2026D310": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-06T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/baseten-added-volumes-storage-to-its-sandboxes-pricing"
+   ],
+   "fetched_at": "2026-11-06T07:33:45-05:00",
+   "file": "data/pricingsaas/pages/diffs/baseten__2026D310.txt",
+   "title": "Baseten adds $0.16/GB/month Volumes storage to Sandboxes pricing — Nov 6, 2026 · PricingSaaS Pulse",
+   "report_id": "baseten:2026-W46#3"
   }
  }
 }

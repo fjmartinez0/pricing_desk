@@ -1,0 +1,125 @@
+{
+ "type": "changes",
+ "run": "2026-11-06T07",
+ "items": [
+  {"diff_id": "anthropic-2026-11-06T07", "kind": "wording", "why": "Retired Claude Haiku 3.5 rows were dropped from the docs pricing tables; no price changed on any listed model, and a web search error-billing sentence was reworded.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "bitrise-2026-11-06T07",
+   "kind": "limit_change",
+   "why": "Linux build machines on the paid tiers get bigger: 2 vCPU / 8GB becomes up to 4 vCPU / 16GB, and 4 vCPU / 16GB becomes up to 8 vCPU / 32GB, with no price change.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "2 → 4 vCPU Linux",
+    "short": "Linux machine size on the paid tiers rises from 2 vCPU / 8GB to up to 4 vCPU / 16GB, and from 4 vCPU / 16GB to up to 8 vCPU / 32GB, at unchanged prices.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "bolster-2026-11-06T07", "kind": "wording", "why": "Feature list was reorganised and relabelled (Lookbook, wallet, Pay subs and suppliers); no price or tier change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "clickup-2026-11-06T07", "kind": "wording", "why": "AI add-on renamed from AI Super Credits to AI Credits; the $10 per 10K credits price is unchanged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "cohere-2026-11-06T07", "kind": "noise", "why": "Navigation menu gained North Capabilities links; no pricing content changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "crystal-2026-11-06T07", "kind": "wording", "why": "Premium feature copy renamed (Goals to Future, Hidden Gems to Weekly Insights) with punctuation edits; the $49 a month price is unchanged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "langchain-2026-11-06T07", "kind": "noise", "why": "Event promotion banner added at the top of the page.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "semrush-2026-11-06T07", "kind": "noise", "why": "Testimonial quote punctuation and one FAQ answer on cancelling were added; no pricing change.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "vercel-2026-11-06T07",
+   "kind": "limit_change",
+   "why": "The tracing retention row was renamed from Session Tracing to Trace Retention and its windows rose from 1 hour, 1 day and 3 days to 3 days and 14 days.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "1 day → 14 days",
+    "short": "Trace retention rises from 1 hour, 1 day and 3 days of traces to 3 days and 14 days of traces, with no price change.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "baseten-2026-11-06T07", "kind": "new_feature", "why": "A new Volumes storage meter ($0.16 GB/month) and new model rows were added to the sandboxes and Model APIs pricing; no existing price changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "fireworks-ai-2026-11-06T07", "kind": "wording", "why": "The DeepSeek V4 Flash 0731 model row was removed from the model list; no price change on other models.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "chameleon-2026-11-06T07", "kind": "noise", "why": "Navigation menu items were rearranged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "weights-biases-2026-11-06T07", "kind": "noise", "why": "Footer links were relabelled.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "modal-2026-11-06T07", "kind": "noise", "why": "Navigation menu gained featured model endpoint links.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "stripe-2026-11-06T07", "kind": "noise", "why": "Typo fix in the Smart Disputes fee sentence; the 30% fee is unchanged.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "koordinates-2026-11-06T07",
+   "kind": "plan_change",
+   "why": "The Team Cloud Plan was replaced by a new Team Cloud Plan card at $85.50 /mo (was $217 /mo) with 1 paid seat and 3 KxAI Seats, 3 GB vector storage instead of 4 GB, and 50 shared map viewers instead of 5; the Business Cloud and Enterprise cards no longer appear in the plan cards.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "$217 / $85.50",
+    "short": "Team Cloud Plan is restructured from $217 /mo with 2 paid seats and 4 GB vector storage to $85.50 /mo with 1 paid seat, 3 KxAI Seats and 3 GB vector storage.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "circleci-2026-11-06T07",
+   "kind": "feature_move",
+   "why": "Test analytics moved from the list billed by test atoms evaluated to the list of features free on every plan, while dynamic parallelism joined the billed list.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Test analytics free",
+    "short": "Test analytics moves from billed by test atoms evaluated to free on every plan, and dynamic parallelism is added to the billed Smarter Testing features.",
+    "pattern": "Bundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "pictory-2026-11-06T07", "kind": "price_hidden", "why": "Per-model credit cost descriptions for video and image generation were removed from the page text; no plan price changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "browser-use-2026-11-06T07", "kind": "wording", "why": "The page was redesigned and condensed; browser, proxy, model and concurrency rates read the same as before.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "accelevents-2026-11-06T07", "kind": "noise", "why": "Top announcement banner text changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "huntress-2026-11-06T07", "kind": "noise", "why": "Form button label changed from Submit to Next.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "on1-2026-11-06T07",
+   "kind": "promo",
+   "why": "Photo RAW MAX yearly subscription is now shown at $79.99/year with $89.99 as the struck-through price, the same sale display used on the one-time purchase prices.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "new", "text": "Photo RAW MAX yearly subscription shown at $79.99/year, down from $89.99"}
+  },
+  {"diff_id": "mutiny-2026-11-06T07", "kind": "wording", "why": "Free plan tagline reworded and the Vertical Landing Page blueprint dropped from the template lists; no price or limit change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "contentsquare-2026-11-06T07", "kind": "wording", "why": "A Build a plan configurator was added to the Growth plan; the existing $49 / $39 entry price is unchanged and the configurator prices are first-time displays.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "cardboard-2026-11-06T07", "kind": "wording", "why": "Pro plan sync integration list now names GitHub Issues in place of Shortcut; most likely a copy change with no price or tier change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "airwallex-2026-11-06T07", "kind": "noise", "why": "Only the as-of date in the indicative rate footnote changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "ahrefs-2026-11-06T07", "kind": "noise", "why": "Brand Radar prompt database count updated from 531 million to 538 million; no price change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "astronomer-2026-11-06T07", "kind": "noise", "why": "Webinar banner added at the top of the page.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "avoma-2026-11-06T07", "kind": "noise", "why": "Product announcement banner added at the top of the page.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "aiven-2026-11-06T07", "kind": "wording", "why": "Product menu label renamed from Aiven DataHub to Aiven for DataHub.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "heyorca-2026-11-06T07",
+   "kind": "plan_change",
+   "why": "The Reporting and Social Listening add-ons were merged into one Reports & Listening add-on at $79/mo, and the FAQ now says there are two Basic add-ons instead of three.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Add-ons merged",
+    "short": "The Reporting and Social Listening add-ons for the Basic plan merge into one Reports & Listening add-on at $79/mo, leaving it and Social Inbox as the only add-ons; the page still shows Social Reports at $59 and Social Listening at $39 in the add-on cards.",
+    "pattern": "Bundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "add-on",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "ollama-2026-11-06T07", "kind": "new_feature", "why": "A new beam model row was added to the usage pricing table; no existing price changed.", "detail": null, "record": null, "promo": null}
+ ]
+}

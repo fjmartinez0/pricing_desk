@@ -2167,12 +2167,14 @@
    "category": "Collaboration & Productivity",
    "segment": "B2C",
    "watch": true,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.duolingo.com/super"
+   ],
    "domains": [
     "duolingo.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32911,10 +32913,14 @@
    "category": "Business Operations",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.alltrails.com/plus"
+   ],
+   "domains": [
+    "alltrails.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -33045,7 +33051,7 @@
     "arcsite.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
