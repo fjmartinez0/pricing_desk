@@ -56,3 +56,8 @@ The merge leaves `data/backlog.json` and `data/reports.json` as they were, so th
 again. Once the cause is fixed, recover what the failed run had decided (its proposal files stay in `proposals/`):
 `pdpy scripts/apply_proposals.py --run 2026-10-28T07 --recover`, then `pdpy scripts/validate.py`, commit and push.
 Lines saying "unknown or already decided report_id" are expected: later runs decided those reports again.
+
+## Alert: "The page has N JavaScript error(s)"
+`scripts/check_page.py` found a record or view the page can't draw; everything after it on the page stays empty.
+The data is published and safe. Run `pdpy scripts/check_page.py` to see which tab/period fails, and send the
+`page error:` lines with the record id to fix the template.

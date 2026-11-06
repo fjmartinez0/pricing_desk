@@ -19,11 +19,11 @@ from common import DESK, META, PS_DIR, REPORTS, ROOT, SITE, load_json, now, ps_p
 PLACEHOLDER = "__PD_DATA__"
 
 
-def render() -> str:
+def render(desk: dict | None = None) -> str:
     template = (SITE / "template.html").read_text(encoding="utf-8")
     if template.count(PLACEHOLDER) != 1:
         raise SystemExit("site/template.html must contain __PD_DATA__ exactly once")
-    desk = load_json(DESK)
+    desk = load_json(DESK) if desk is None else desk
     # "Last updated" on the page = the last pipeline run (data/meta.json), not stored in desk.json.
     desk["updated_at"] = (load_json(META, {}) or {}).get("last_run_at")
     desk["backfill"] = backfill_status()

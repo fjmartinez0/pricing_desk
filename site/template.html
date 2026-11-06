@@ -35,6 +35,9 @@ h2{font-family:var(--f-display);font-weight:600;font-size:20px;line-height:1.2;m
 .proto{display:inline-flex;align-self:flex-start;margin-top:6px;font-size:12px;color:var(--muted);background:var(--wash);border:1px solid var(--line);padding:3px 10px;border-radius:99px}
 .proto.stale{color:var(--warn);background:var(--warn-soft);border-color:transparent}
 .pills{display:flex;flex-wrap:wrap;gap:6px}
+[hidden]{display:none!important}
+.card.multi .sub{border-top:1px solid var(--line);margin-top:14px;padding-top:12px}
+.card.multi .sub h4{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 0 6px;font-size:14px;font-weight:600;color:var(--muted)}
 .proto.fill{color:var(--accent);background:var(--accent-soft);border-color:transparent}
 
 .digest{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
@@ -532,7 +535,7 @@ function renderNews(){
 function weekLabel(){return state.week===CUR?DATA.period:state.week==="ALL"?RANGE:state.week.startsWith("M:")?monthName(state.week.slice(2)):"week "+wkNum(state.week)+", "+WEEKS[state.week]}
 function relevantForWeek(){
   const wo=k=>WEEK_ORDER.indexOf(k);
-  return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
+  return weekList().filter(isMain).map((c,i)=>[c,i]).sort((a,b)=>multiWeek()?(a[0].tier-b[0].tier)||((a[0].rank??99)-(b[0].rank??99))||(wo(a[0].week)-wo(b[0].week))||(a[1]-b[1]):a[1]-b[1]).map(x=>x[0]);
 }
 // "Updated …": time of the last pipeline run, in the reader's time zone; flagged when the pipeline looks stalled.
 function renderUpdated(){
@@ -589,14 +592,14 @@ function renderCtx(){
     <p class="panel-sub">Counted from the ${L.length} changes we kept from the PricingSaaS feed (${L.filter(isMain).length} Relevant), of which ${ai} are AI monetization moves. PricingSaaS’s own weekly totals are only captured for the current edition.</p>`;
 }
 function renderFront(){
-  const top=state.week===CUR?CHANGES.slice(0,7):relevantForWeek().slice(0,7);
+  const top=byCompanyWeek(state.week===CUR?CHANGES:relevantForWeek()).slice(0,7);
   document.getElementById("front-lbl").textContent=`Front page · ${weekLabel()} · tap to read`;
-  document.getElementById("front").innerHTML=top.map((c,i)=>`
+  document.getElementById("front").innerHTML=top.map((g,i)=>{const c=g[0],more=g.length-1;return `
    <button class="fp" type="button" data-go="${c.id}">
      <span class="rk">${i+1}</span>
-     <span class="tx"><b>${esc(c.co)}</b><span>${esc(c.short)}</span></span>
+     <span class="tx"><b>${esc(c.co)}${multiWeek()?` <span class="muted">· week ${wkNum(c.week)}</span>`:""}</b><span>${esc(c.short)}${more?` <span class="muted">+ ${more} more ${more===1?"change":"changes"}</span>`:""}</span></span>
      <span class="dchip ${DC[c.group]}">${esc(c.delta)}</span>
-   </button>`).join("");
+   </button>`}).join("");
 }
 function renderPatterns(){
   const lbl=document.getElementById("pat-lbl");
@@ -634,24 +637,43 @@ function dateLine(c){
   return "";
 }
 function body(c){
-  return `<p class="headline">${esc(c.headline)}</p>${dateLine(c)}
-    <div class="ba" role="list" aria-label="Before and after">
-      ${c.rows.map(([k,b,a])=>(b.length+a.length>44)
+  const rows=c.rows||[];
+  return `<p class="headline">${esc(c.headline||c.short)}</p>${dateLine(c)}
+    ${rows.length?`<div class="ba" role="list" aria-label="Before and after">
+      ${rows.map(([k,b,a])=>(b.length+a.length>44)
         ?`<div class="ba-row long" role="listitem"><span class="k">${esc(k)}</span><span class="v"><span class="tag2">Before</span><span class="b">${esc(b)}</span><span class="tag2 now">After</span><span class="a">${esc(a)}</span></span></div>`
-        :`<div class="ba-row" role="listitem"><span class="k">${esc(k)}</span><span class="v"><span class="b" title="Before">${esc(b)}</span><span class="ar" aria-label="changed to">→</span><span class="a" title="After">${esc(a)}</span></span></div>`).join("")}</div>
-    <div class="who"><span class="lbl">Who it hits</span><span>${esc(c.who)}</span></div>
+        :`<div class="ba-row" role="listitem"><span class="k">${esc(k)}</span><span class="v"><span class="b" title="Before">${esc(b)}</span><span class="ar" aria-label="changed to">→</span><span class="a" title="After">${esc(a)}</span></span></div>`).join("")}</div>`:""}
+    ${c.who?`<div class="who"><span class="lbl">Who it hits</span><span>${esc(c.who)}</span></div>`:""}
     ${c.stated?`<div class="stated"><span class="lbl">They say</span><span>${esc(c.stated)}</span></div>`:""}
-    <div class="read"><span class="lbl">Why · our read</span><p>${esc(c.read)}</p>${c.caveat?`<span class="caveat">${esc(c.caveat)}</span>`:""}</div>
-    <div class="meta">${hasDates(c)?"":`<span>${esc(c.when)}</span>`}${c.stated?"":"<span>No reason given by the company</span>"}<span class="tag">${esc(c.pattern)}</span><span class="tag dim">${c.seg}</span><span class="tag dim">${esc(c.model)}</span></div>`;
+    ${c.read?`<div class="read"><span class="lbl">Why · our read</span><p>${esc(c.read)}</p>${c.caveat?`<span class="caveat">${esc(c.caveat)}</span>`:""}</div>`:""}
+    <div class="meta">${hasDates(c)||!c.when?"":`<span>${esc(c.when)}</span>`}${c.stated||!c.read?"":"<span>No reason given by the company</span>"}${c.pattern?`<span class="tag">${esc(c.pattern)}</span>`:""}${c.seg?`<span class="tag dim">${esc(c.seg)}</span>`:""}${c.model?`<span class="tag dim">${esc(c.model)}</span>`:""}</div>`;
 }
 // Relevance: a change shows in Main changes when c.main is true.
 // If c.main isn't set, market leaders and notable companies (tiers 1–2) count as main.
 const isMain=c=>c.main!==undefined?!!c.main:c.tier<=2;
+// One entry per company and week: a company's changes in the same week are shown together (D53).
+function byCompanyWeek(list){
+  const out=[],at={};
+  list.forEach(c=>{const k=(c.company||c.co)+"|"+c.week;
+    if(k in at)out[at[k]].push(c);else{at[k]=out.length;out.push([c])}});
+  return out;
+}
+const planOf=c=>[c.plan,TYPE[c.group]].filter(Boolean).join(" · ");
+function multiCard(gs,pre){
+  if(gs.length===1)return card(gs[0],pre);
+  const c=gs[0];
+  return `<article class="card multi" id="${pre}-${c.id}">
+    <div class="chg-top">
+      <h3>${esc(c.co)}<small>${gs.length} changes · ${c.week===CUR?"this edition":"week "+wkNum(c.week)}</small></h3>
+      <div class="delta ${CC[c.group]}">${esc(c.delta)}<small>${esc(c.deltaSub||"")}</small></div>
+    </div>${gs.map((x,i)=>`<section class="sub"${i?` id="${pre}-${x.id}"`:""}>
+      <h4><span>${esc(planOf(x))}</span><span class="dchip ${DC[x.group]}">${esc(x.delta)}</span></h4>${body(x)}</section>`).join("")}</article>`;
+}
 function card(c,pre){
   return `<article class="card" id="${pre}-${c.id}">
     <div class="chg-top">
-      <h3>${esc(c.co)}<small>${esc(c.plan)} · ${TYPE[c.group]}</small></h3>
-      <div class="delta ${CC[c.group]}">${esc(c.delta)}<small>${esc(c.deltaSub)}</small></div>
+      <h3>${esc(c.co)}<small>${esc(planOf(c))}</small></h3>
+      <div class="delta ${CC[c.group]}">${esc(c.delta)}<small>${esc(c.deltaSub||"")}</small></div>
     </div>${body(c)}</article>`;
 }
 function mini(c,pre){
@@ -668,9 +690,11 @@ function segChips(el){
 function groupsHTML(items,pre){
   return TIERS.map(([t,name,note])=>{
     const g=items.filter(c=>c.tier===t);if(!g.length)return"";
-    const fn=pre==="m"?c=>card(c,pre):c=>mini(c,pre);
+    if(pre==="m"){const cg=byCompanyWeek(g);
+      return `<div class="group-h"><h2>${name}</h2><span class="count">${cg.length<g.length?`${cg.length} companies · ${g.length} changes`:g.length}</span></div><p class="group-note">${note}</p>
+      <div class="list">${cg.map(x=>multiCard(x,pre)).join("")}</div>`}
     return `<div class="group-h"><h2>${name}</h2><span class="count">${g.length}</span></div><p class="group-note">${note}</p>
-      ${pre==="m"?`<div class="list">${g.map(fn).join("")}</div>`:`<div class="minis">${g.map(fn).join("")}</div>`}`}).join("")||'<div class="empty">No changes match these filters. Try “All” segments or all categories.</div>';
+      <div class="minis">${g.map(c=>mini(c,pre)).join("")}</div>`}).join("")||'<div class="empty">No changes match these filters. Try “All” segments or all categories.</div>';
 }
 function filterBars(){
   const months=[...new Set(WEEK_ORDER.map(monthOf))];
@@ -714,8 +738,12 @@ function weekNoteHTML(){
     if(n.length>2&&n[n.length-1]-n[0]===n.length-1)return n[0]+"–"+n[n.length-1];
     return n.length>1?n.slice(0,-1).join(", ")+" and "+n[n.length-1]:String(n[0])};
   const out=[];
-  if(hw.length)out.push(`<b>Backfill.</b> Week${hw.length>1?"s":""} ${nums(hw)} ${hw.length>1?"were":"was"} rebuilt by hand from the PricingSaaS feed${hw.length<scope.length?"; later weeks come from our own captures":""}.`);
-  if(pw.length)out.push(`<b>Partial ${pw.length===1?"week":"weeks"}:</b> week${pw.length>1?"s":""} ${nums(pw)} ${pw.length===1?"was":"were"} only partly captured, so counts for ${pw.length===1?"it":"them"} are low.`);
+  const ours=w=>w.coverage==="tracked"||w.source_week==="Pricing Desk capture",L=BF.listed||{};
+  const full=scope.filter(w=>L[w.week]&&!ours(w)),thin=scope.filter(w=>!L[w.week]&&!ours(w)),own=scope.filter(ours);
+  const nListed=full.reduce((a,w)=>a+L[w.week],0);
+  if(full.length)out.push(`<b>Backfill.</b> Week${full.length>1?"s":""} ${nums(full)} ${full.length>1?"come":"comes"} from PricingSaaS’s full list of the week’s changes (${nListed.toLocaleString("en-US")} listed), each checked against its before/after page.`);
+  if(thin.length)out.push(`<b>Partial ${thin.length===1?"week":"weeks"}:</b> week${thin.length>1?"s":""} ${nums(thin)} only ${thin.length===1?"has":"have"} the changes in PricingSaaS’s weekly review, so counts are low.`);
+  if(own.length&&own.length<scope.length)out.push(`Week${own.length>1?"s":""} ${nums(own)} also ${own.length>1?"include":"includes"} our own captures of each tracked pricing page, twice a day.`);
   const fill=filling(scope.map(w=>w.week));if(fill)out.push(fill.trim());
   return out.join(" ");
 }

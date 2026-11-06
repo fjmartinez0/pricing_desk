@@ -90,6 +90,7 @@ if ! python3 scripts/validate.py; then
   git stash push --include-untracked -m "failed validation $RUN" -- data proposals >/dev/null 2>&1
   fail "validate (changes stashed as 'failed validation $RUN'; nothing published)"
 fi
+python3 scripts/check_page.py || true      # a JavaScript error on the page → alert (D53); data still published
 
 step "8 commit"
 python3 scripts/stamp_meta.py

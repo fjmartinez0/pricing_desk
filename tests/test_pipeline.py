@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import importlib.util
 import json
 import os
 import shutil
@@ -46,6 +47,29 @@ class Weeks(unittest.TestCase):
         self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 26, 19, tzinfo=tz)))  # too early
         self.assertEqual(close_week.due_week("2026-W42", dt.datetime(2026, 10, 27, 19, tzinfo=tz)), "2026-W44")  # first auto
         self.assertIsNone(close_week.due_week("2026-W42", dt.datetime(2026, 10, 20, 19, tzinfo=tz)))  # W43: before W44
+
+
+@unittest.skipUnless(importlib.util.find_spec("playwright"), "Playwright not installed")
+class PageCheck(unittest.TestCase):
+    """The built page draws without JavaScript errors, whatever tab, period or category (D53)."""
+
+    def test_short_record_of_a_big_company_does_not_break_the_page(self):
+        import build_site
+        import check_page
+        desk = common.load_json(common.DESK)
+        week = desk["current_week"]
+        line = {"id": "zz-line-test", "week": week, "rank": 1, "co": "Zeta", "company": "zeta", "tier": 1,
+                "detail": "line", "group": "up", "delta": "+10%", "short": "Zeta raised Pro by 10%.",
+                "seg": "B2B", "pattern": "Price increase", "magnitude": 10, "ai": False, "planLevel": "mid",
+                "seen": "2026-10-26", "seenLabel": "26 Oct", "src": "Pricing Desk capture"}
+        twin = dict(line, id="zz-line-test-2", short="Zeta dropped its free plan.", group="pack", delta="Free gone")
+        desk["changes"] = [line, twin] + desk["changes"]          # SugarCRM, 3 Nov: no rows, tier 2
+        with tempfile.TemporaryDirectory() as tmp:
+            page = Path(tmp) / "page.html"
+            page.write_text(build_site.render(desk), encoding="utf-8")
+            self.assertEqual(check_page.check(page), [])
+            html = page.read_text()
+        self.assertIn("zz-line-test-2", html)
 
 
 class BotProtection(unittest.TestCase):
