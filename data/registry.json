@@ -30000,7 +30000,8 @@
    "url_attempts": 0,
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
-    "lunar.se"
+    "lunar.se",
+    "lunar"
    ]
   },
   "lobbytrack": {
@@ -33063,6 +33064,64 @@
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
     "arcsite"
+   ]
+  },
+  "otter-ai": {
+   "name": "Otter.ai",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://otter.ai/pricing"
+   ],
+   "domains": [
+    "otter.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-07",
+   "source": "agent 2026-11-07T07",
+   "source_url": "https://pricingsaas.com/companies/otter/diffs/2026D311",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "otter"
+   ]
+  },
+  "klaviyo": {
+   "name": "Klaviyo",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.klaviyo.com/pricing"
+   ],
+   "domains": [
+    "klaviyo.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-07",
+   "source": "agent 2026-11-07T07",
+   "source_url": "https://pricingsaas.com/companies/klaviyo/diffs/2026D311",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "klaviyo"
    ]
   }
  }

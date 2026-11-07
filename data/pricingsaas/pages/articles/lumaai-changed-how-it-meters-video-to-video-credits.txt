@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+L
+Lumaai
+PACKAGING CHANGE
+Lumaai changed how it meters Video-to-Video credits
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 7, 2026
+Lumaai began billing Video-to-Video credits by combined generated-plus-reference video length.
+See before and after
+Enlarge
+Lumaai’s pricing page · Change detected Nov 7, 2026
+What changed
+Lumaai changed how it meters Video-to-Video generation: credits are now billed per second of combined generated-plus-reference video instead of generated video alone, which roughly halves the displayed per-second rate for most models, per Lumaai's pricing page on Nov 7, 2026. Seedance 2.0 at 720p moves from about 64 to 32 credits/sec, Kling 4.0 Omni from about 98 to 47, and MiniMax H3 at 768p from 56 to 28, per Lumaai's pricing page on Nov 7, 2026.
+MiniMax H3 Max moved the other way: its 768p rate rose from about 73 to about 82 credits/sec and its 1080p rate from about 101 to about 110, while its 480p rate held at about 35, per Lumaai's pricing page on Nov 7, 2026. Flux 3 video rates were cut — Text/Image-to-Video fell from 60 to 50 credits/sec at HD and 102 to 80 at FHD, Video-to-Video fell from 144 to 70 at HD and 186 to 90 at FHD — and Lumaai added two new models, Kling 4.0 Flash (text/image-to-video, 32 credits/sec at 720p) and Kling 4.0 Flash Omni (text/image-to-video at 32 credits/sec, video-to-video at 21 credits/sec of combined generated-plus-reference video), per Lumaai's pricing page on Nov 7, 2026. Pulse links the MiniMax H3 Max increase and the Flux 3 cuts to a live A/B test on Lumaai's video credit rates, so those two moves may be one arm of an experiment rather than settled prices.
+Why it matters
+The real story for a product leader is the unit change, not the headline halving: a "credits per second" rate only means something once you know whether that second includes reference video, so treat this as a prompt to re-read the fine print on any usage-based competitor's pricing page before comparing it to your own — especially if you're building a usage-metered product and want customers to trust your own unit definitions.
+The MiniMax H3 Max increase stands out inside this relabeling: Lumaai's highest-tier video model now shows higher rates even as most of the table looks cheaper. Pulse ties that increase, and the Flux 3 cuts, to a live A/B test on Lumaai's video credit rates, so treat both as provisional until the test settles. Watch whether other video-generation vendors follow Lumaai into metering by combined generated-plus-reference length, which would make raw per-second comparisons across providers even less reliable.
+In context
+Pulse has tracked Lumaai since Jul 20, 2026 and counted 9 real pricing changes, 8 of them in the last 90 days — most recently adding Kling 4.0 API pricing on Oct 23, 2026 and, before that, doubling Seedance video-to-video credit costs on Oct 5, 2026. Pulse groups that Seedance doubling with a live A/B test on Lumaai's video credit rates, and ties today's MiniMax H3 Max increase and Flux 3 cuts to the same test — so read today's numbers with care: the metric itself changed, and some of the rate moves may be one arm of an experiment. Lumaai is also one of the most active companies in Pulse's credits-and-usage-billing lens, where 328 of 2,705 tracked changes (12.1%) touched credit or usage billing across the companies Pulse tracks over the last 180 days — Pika cut its own Starter and Creator credit caps on Nov 6, 2026. For a product leader comparing video-generation vendors, check what a credit or a second measures on each pricing page before comparing per-unit rates across providers or against a vendor's own price history.
+Common questions
+How do we compare this to another vendor's per-second price?
+Check whether the other vendor's "per second" already includes reference or conditioning video the way Lumaai's now does — if it only counts generated output, its rate isn't directly comparable to Lumaai's new one even when the digits look similar.
+Does our actual cost per video job change, or just the quoted rate?
+Not necessarily — because the billable unit grew to include reference video length, a job that uses reference footage can land close to its old cost even though the quoted per-second rate looks lower; model a real job's total credits rather than comparing headline rates.
+Should we expect MiniMax H3 Max's higher rate to spread to other models?
+Watch the next few updates rather than assume it: this update moved most rates down while pushing just one tier up, so a single increase inside a broader cut isn't yet a trend — recheck Lumaai's credit table after its next pricing-page change.
+Sources
+Pulse: Lumaai pricing changes, Nov 7, 2026pricingsaas.com/companies/lumaai/diffs/2026D311
+Lumaai pricing pagelumalabs.ai/pricing
+Questions about this change?
+The Pulse Agent has this change, Lumaai's pricing history and its peers loaded — and answers from verified data.
+Why it mattersLumaai's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from LumaaiAll pricing news
+S
+Snowflake
+Snowflake swapped Snowpark callouts for AI agents and compliance claims
+O
+OpenAI
+OpenAI adds up to $500 a month in API credits to its Pro plan
+S
+Slack
+Slack replaces its 24/7 support row with Success Plans, making Premier a paid add-on on Pro

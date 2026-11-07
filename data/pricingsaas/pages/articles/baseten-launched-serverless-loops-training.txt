@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+B
+Baseten
+PACKAGING CHANGE
+Baseten launched Serverless Loops training
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 7, 2026
+Baseten launched per-token pricing for its new Serverless Loops training product.
+See before and after
+Enlarge
+Baseten’s pricing page · Change detected Nov 7, 2026
+SERVERLESS LOOPS·first seen Nov 7, 2026
+What changed
+Baseten launched a new Serverless Loops training product with per-token pricing for GLM-5.3, GLM-5.3-Flash and Qwen3.6 35B-A3B across prefill, cached, sample and train rates, each carrying a 20% limited-time introductory discount, per the pricing page Pulse saved on Nov 7, 2026. Listed rates per 1M tokens are $3.02 prefill, $0.60 cached prefill, $9.72 sample and $11.66 train for GLM-5.3; $0.67, $0.13, $1.69 and $4.46 for GLM-5.3-Flash; and $0.36, $0.07, $1.07 and $1.71 for Qwen3.6 35B-A3B, per Baseten's pricing page on Nov 7, 2026. The product sits alongside Baseten's existing Model API and Sandboxes usage pricing as a new, separately billed line.
+Why it matters
+Serverless Loops puts Baseten in the business of selling model training by the token, not just inference — a new line alongside the Model API and Sandboxes usage pricing it already runs. For a product leader bundling AI capability into their own product, this is a signal that infrastructure providers are pricing fine-tuning and continued-training workloads the same way they price inference: usage-metered, per-model, with an introductory discount to pull in early volume.
+Watch how long the limited-time intro discount lasts — Baseten's page gives no end date — and whether Baseten extends per-token training pricing to more of its models; that would confirm this is a platform-wide pricing primitive, not a three-model launch.
+In context
+This is Baseten's second pricing-page change in as many days: on Nov 6, 2026, per Pulse's tracking, it added $0.16/GB/month Volumes storage to Sandboxes pricing, and the company has now made 14 real pricing changes since Pulse began tracking it on Jul 20, 2026 — about one every 8 days. Per-token model pricing is Baseten's default move: it added Kimi K3.1 Pro, DeepSeek V4.1 Flash and joey-1 to its Model APIs table on Nov 5, with joey-1 at $0.01 per 1M input tokens, and cut Reflection Beam rates up to 72% on Oct 21, per Pulse's tracking. Pulse tracked 327 of the 2,703 pricing changes recorded across 224 companies as credits-and-usage-billing moves in the last 180 days. The sharper read: Baseten is treating per-token pricing as its default packaging primitive for every new capability — training included — rather than folding new products into flat plan tiers the way Basic, Pro and Enterprise once did.
+Common questions
+How long does the 20% intro discount last?
+Baseten's listing calls it a limited-time discount without a stated end date — worth checking the live pricing page before you budget off the discounted rate.
+How does Serverless Loops training pricing compare with Baseten's existing Model API rates?
+Both are billed per token, but Serverless Loops adds a training-specific rate for sample and train tokens that standard Model API inference pricing doesn't carry — the new product extends Baseten's usage-based model rather than replacing it.
+Should we expect more per-token-priced products from Baseten?
+Treat this launch as a template to test rather than a guarantee: weigh the per-token rate against what equivalent work would cost on Baseten's existing Sandboxes compute pricing before committing a workload to it.
+Sources
+Pulse: Baseten pricing changes, Nov 7, 2026pricingsaas.com/companies/baseten/diffs/2026D311
+Baseten pricing pagebaseten.co/pricing
+Questions about this change?
+The Pulse Agent has this change, Baseten's pricing history and its peers loaded — and answers from verified data.
+Why it mattersBaseten's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from BasetenAll pricing news
+R
+Runway
+Runway extends its Enterprise free-usage promo to Dec 31, now offering up to 2 months
+F
+Figma
+Figma opens Specs beta to all seats, 14 days after launching it on paid seats only
+V
+Vercel
+Vercel's trace retention extension is one arm of a live A/B test

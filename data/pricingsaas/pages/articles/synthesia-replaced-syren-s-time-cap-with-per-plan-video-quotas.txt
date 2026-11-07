@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+S
+Synthesia
+PRICING METRIC
+Synthesia replaced Syren's time cap with per-plan video quotas
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 7, 2026
+Synthesia replaced Syren's per-video time cap with monthly video-count quotas.
+See before and after
+Enlarge
+Synthesia’s pricing page · Change detected Nov 7, 2026
+SYREN·first seen Oct 10, 2026
+What changed
+Synthesia changed how it limits video generation inside Syren, its AI video agent. Per Synthesia's pricing page as of Nov 7, 2026, the flat per-generation duration cap that applied to every plan — ‘Up to 3 minutes’ — is gone, replaced by a monthly video-count quota that differs by plan: 1 video on Basic, about 2 a month on Starter, about 7 a month on Pro, and a custom allowance on Enterprise. The row's label changed too, from ‘Video length’ to ‘Video generation.’ Separately, per that same Nov 7, 2026 pricing page update, Synthesia removed the explicit ‘3 a month’ cap on the Basic plan's AI Video Assets feature and simplified its description.
+Why it matters
+This is a metric change, not just a quota change: Synthesia now caps Syren by video count instead of by duration. A count cap is easier for buyers to budget against, but it doesn't scale with length — a team making short clips uses a full quota slot per clip, while a team making long videos gets more minutes out of each slot.
+If you meter an AI feature by output count rather than duration or compute, pick the metric before launch and hold it: Pulse tracked Syren's launch on Oct 10, 2026, and switching its cap metric this soon forces every customer to re-learn what their plan buys. Before treating this as settled, note that Pulse is tracking a live A/B test on Synthesia's plan cards in which one arm shows Syren video estimates of about 24 videos a year on Starter and 84 on Pro — the same quotas shown now — so watch whether the count-based quotas stay.
+In context
+Pulse tracked nine changes to Synthesia's pricing page in the last 90 days, and this is the first of them to swap the pricing metric itself, not just a number inside it. Recent changes include Syren's launch on Oct 10, 2026, a promo-credit cut on Oct 22, 2026, the Roleplay add-on removal on Oct 29, 2026, and the credit calculator removal on Nov 3, 2026 — four days before this one, per Pulse's record. Pulse links the Roleplay and calculator changes to A/B tests it is tracking on this page, and the Syren video estimates shown now match one arm of the plan-card test. Across the companies Pulse tracks, metric changes like this stayed rare in the last 180 days — 59 changes across 53 companies, 2.2% of the 2,705 tracked. The sharper read: a duration cap is forgiving when one render runs long; a count cap is exact — so the shift could land harder on teams that make many short videos than the headline suggests.
+Common questions
+How do we budget for Syren under the new quotas?
+Check your plan's new monthly video-count quota directly — Basic, Starter and Pro each carry a different cap now — and multiply it by how many Syren renders your team actually ships in a month, since a cap that used to scale with render length no longer does.
+Is this part of a broader shift to count-based AI usage limits?
+Not yet at scale — Pulse tracked pricing-metric changes like this at only 53 companies in the last 180 days, a small share of all pricing moves, and Synthesia had made none itself before this one, so treat it as Synthesia-specific for now rather than a market trend to copy immediately.
+Should we switch our own AI feature from a duration cap to a count cap?
+Only if count is actually what drives your underlying cost — Synthesia's swap only makes sense because video count tracks render cost closely, so confirm that correlation holds for your product, and lock the metric before launch so customers aren't re-learning it twice in a month like Synthesia's are now.
+Sources
+Pulse: Synthesia pricing changes, Nov 7, 2026pricingsaas.com/companies/synthesia/diffs/2026D311
+Synthesia pricing pagesynthesia.io/pricing
+Questions about this change?
+The Pulse Agent has this change, Synthesia's pricing history and its peers loaded — and answers from verified data.
+Why it mattersSynthesia's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from SynthesiaAll pricing news
+M
+Mem0
+Mem0 drops its $19 Starter and $249 Pro plans for Free and Custom
+X
+Xai
+xAI's Super plan adds 1080p video creation and faster replies
+P
+Pika
+Pika added daily free generations and expanded its credits table

@@ -1,0 +1,49 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PRICE INCREASE
+Together raised Qwen3.7-Max inference prices
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 7, 2026
+Together raised Qwen3.7-Max's per-token pricing 67%.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 7, 2026
+What changed
+Together raised Qwen3.7-Max serverless inference pricing 67% across the board, per the pricing page Pulse saved on Nov 7, 2026: input rose from $1.50 to $2.50, cached input from $0.30 to $0.50, and output from $4.50 to $7.50, all per million tokens.
+The same update removed four models from Together's Serverless Inference lineup, per the pricing page Pulse saved on Nov 7, 2026: Inkling, Cogito v2.1 671B, Llama 3 8B Instruct Lite, and Qwen3 235B A22B Instruct 2507 FP8 Throughput.
+Why it matters
+For a team already running production traffic on Qwen3.7-Max, this is a direct cost jump: a workload priced at $1.50 per million input tokens now costs $2.50, with cached and output rates moving by the same 67%, according to Together's pricing page, saved by Pulse on Nov 7, 2026. Product leaders pricing their own AI features on top of inference APIs should treat a vendor's per-token rate as a moving input, not a fixed cost — build in a buffer or a pass-through clause rather than quoting a margin that assumes today's rate holds.
+Dropping four models from the Serverless Inference lineup in the same update is as material as the price move for any team with one of them wired into a pipeline: a model disappearing from the catalog forces a migration on someone else's timeline, not yours. Watch whether Together keeps averaging a pricing change roughly every 7 days, the cadence Pulse tracked over the last year (41 changes) — if so, this fourth Qwen3.7-Max price move since Sep 11, 2026 is unlikely to be the last.
+In context
+According to Pulse's record, Together has raised or cut Qwen3.7-Max's price repeatedly since Sep 11, 2026 — a 60% hike, a 25% hike, a cut to $1.50 input and $4.50 output, and now this 67% rise — landing the rate back at the $2.50 input / $7.50 output level it held after the Sep 16 hike [[together/2026D259]]. That pace matches its broader cadence: Pulse recorded 41 Together pricing changes in the last 365 days, including the Kimi K3.1 Pro pricing it added on Nov 5, 2026, two days before this one [[together/2026D309]]. Across the companies Pulse tracks, price increases touched 84 changes at 72 companies in the last 180 days — 3.1% of all changes tracked — and Together accounts for 7 of them [[together]]. The sharper read for a product leader pricing inference-based features: Qwen3.7-Max's sticker rate has not held steady for more than a few weeks since September, so a per-token margin calculated today may not survive the next pricing page Together publishes.
+Common questions
+How do we size this for our own Qwen3.7-Max usage?
+Multiply the new input, cached and output per-1M-token rates given above by your expected monthly token volume for Qwen3.7-Max to size the increase for your own usage.
+How does Together's pace of price changes compare with other AI inference vendors?
+Pulse logged 328 pricing changes tied to credits and usage billing across 224 companies in the last 180 days — Together alone made 10 of them, a far faster pace than most peers in that pattern.
+Why did Together drop those four models, and what should we do if we use one?
+Together didn't say why; the brief and pricing page give no public reason for dropping the four models, so the practical move is to check your own call logs before assuming an automatic replacement exists in the remaining lineup.
+Sources
+Pulse: Together pricing changes, Nov 7, 2026pricingsaas.com/companies/together/diffs/2026D311
+Together pricing pagetogether.ai/pricing
+Questions about this change?
+The Pulse Agent has this change, Together's pricing history and its peers loaded — and answers from verified data.
+Why it mattersTogether's pricing historyWho else did this?Compare vs. peers
+Ask the agent
+Keep exploring
+All changes from TogetherAll pricing news
+M
+MindsDB
+MindsDB added a new Claude Haiku model to its rate card
+O
+OpenAI
+OpenAI adds up to $500 a month in API credits to its Pro plan
+B
+Baseten
+Baseten scraps Basic/Pro/Enterprise tiers for Pay as you go and Production scale plans

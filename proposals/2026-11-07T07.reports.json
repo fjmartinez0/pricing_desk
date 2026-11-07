@@ -1,0 +1,252 @@
+{
+ "type": "reports",
+ "run": "2026-11-07T07",
+ "items": [
+  {
+   "report_id": "wisprflow:2026-W46",
+   "company": "wispr-flow",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Notetaker moved inside the HIPAA/BAA compliance scope (only Scratchpad still excluded); no price, plan or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W46#2",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Qwen3.7-Max serverless inference rose 67% (input $1.50 → $2.50, cached $0.30 → $0.50, output $4.50 → $7.50 per 1M tokens) and four models left the serverless lineup.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "+67%",
+    "deltaSub": "Qwen3.7-Max, per 1M tokens",
+    "short": "Qwen3.7-Max serverless inference rises from $1.50 to $2.50 input and from $4.50 to $7.50 output per 1M tokens.",
+    "headline": "Together AI raised Qwen3.7-Max serverless inference prices by 67% on input, cached input and output, and removed four models from its serverless list.",
+    "rows": [
+     [
+      "Qwen3.7-Max input, per 1M tokens",
+      "$1.50",
+      "$2.50"
+     ],
+     [
+      "Qwen3.7-Max cached input, per 1M tokens",
+      "$0.30",
+      "$0.50"
+     ],
+     [
+      "Qwen3.7-Max output, per 1M tokens",
+      "$4.50",
+      "$7.50"
+     ]
+    ],
+    "who": "Anyone calling Qwen3.7-Max through Together serverless inference; users of the four removed models must migrate.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A per-token rate that has moved several times since September makes margins on inference-based features hard to hold. The model removals add a forced-migration cost for some teams.",
+    "caveat": "The structured field on the PricingSaaS page reads $4.50 → $2.50 (−44%), which contradicts its own text; we follow the text, which gives input, cached and output rates and a 67% rise. The removed models are Inkling, Cogito v2.1 671B, Llama 3 8B Instruct Lite and Qwen3 235B A22B Instruct 2507 FP8 Throughput.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2,
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "all",
+    "magnitude": {
+     "low": 67,
+     "high": 67,
+     "basis": "unit price"
+    }
+   },
+   "promo": null
+  },
+  {
+   "report_id": "synthesia:2026-W46#2",
+   "company": "synthesia",
+   "new_company": null,
+   "kind": "metering",
+   "why": "Syren video limit changed from a flat 'Up to 3 minutes' per generation to per-plan monthly video counts (1 Basic, ~2 Starter, ~7 Pro).",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Minutes → video count",
+    "deltaSub": "Syren AI video agent limit",
+    "short": "Syren is now capped by monthly video count (1 on Basic, about 2 on Starter, about 7 on Pro) instead of up to 3 minutes per generation.",
+    "headline": "Synthesia replaced the flat 3-minute cap on each Syren generation with a monthly video-count quota that differs by plan, and relabelled the row from Video length to Video generation.",
+    "rows": [
+     [
+      "Syren, Basic",
+      "Up to 3 minutes",
+      "1 video"
+     ],
+     [
+      "Syren, Starter",
+      "Up to 3 minutes",
+      "~2 videos per month"
+     ],
+     [
+      "Syren, Pro",
+      "Up to 3 minutes",
+      "~7 videos per month"
+     ],
+     [
+      "Syren, Enterprise",
+      "Up to 3 minutes",
+      "Custom"
+     ]
+    ],
+    "who": "Customers on Basic, Starter and Pro using the Syren AI video agent.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Capping by count rather than length is easier to budget but gives short clips no advantage. Syren launched only weeks ago, so the metric is still being settled.",
+    "caveat": "PricingSaaS reports a live A/B test on Synthesia's plan cards, and the quotas shown now match one arm of it, so this may not be final.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2,
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W46#3",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Nano Banana 2 image cost fell from 8 to 7 credits, so top-up packs yield more images at unchanged prices (a separate change from the earlier plan credit cut).",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "8 → 7 credits",
+    "short": "Nano Banana 2 now costs 7 credits per image instead of 8, so the $25 top-up pack yields 214 images instead of 187 at an unchanged price.",
+    "pattern": "Limits loosen",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "otter:2026-W46",
+   "company": null,
+   "new_company": {
+    "name": "Otter.ai",
+    "category": "Collaboration & Productivity",
+    "segment": "Both",
+    "pricing_urls": [
+     "https://otter.ai/pricing"
+    ],
+    "domains": [
+     "otter.ai"
+    ],
+    "source_url": "https://pricingsaas.com/companies/otter/diffs/2026D311",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "The per-tier Custom AI Meeting Templates usage row was removed from the comparison table; nothing shows the limits themselves changed, only that they are no longer listed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mindsdb:2026-W46",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Claude Haiku 5.5 added to the rate card at $0.10 input / $0.50 output per 1M tokens; Haiku 4.5 and other prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "lumaai:2026-W46",
+   "company": "lumaai",
+   "new_company": null,
+   "kind": "metering",
+   "why": "Video-to-Video is now billed per second of generated plus reference video with displayed rates halved; Flux 3 video rates cut, MiniMax H3 Max V2V raised, Kling 4.0 Flash models added.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "V2V rates −50%",
+    "short": "Video-to-Video is now billed per second of generated plus reference video, with Seedance 2.0 720p shown at 32 credits/sec instead of 64, while Flux 3 HD video falls from 60 to 50 and MiniMax H3 Max 768p V2V rises from 73 to 82.",
+    "pattern": "New billing units",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "krea:2026-W46",
+   "company": "krea",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Nano Banana 2.1 (1K) now costs about 25 units per image instead of 22, cutting per-plan image estimates about 11% at unchanged prices.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "−11% images",
+    "short": "Nano Banana 2.1 now costs about 25 units per image instead of 22, so plan estimates fall about 11% (Basic 225 → 200, Pro 900 → 803) at unchanged prices.",
+    "pattern": "Limits tighten",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "klaviyo:2026-W46",
+   "company": null,
+   "new_company": {
+    "name": "Klaviyo",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.klaviyo.com/pricing"
+    ],
+    "domains": [
+     "klaviyo.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/klaviyo/diffs/2026D311",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_reveal",
+   "why": "Email ($20/mo) and Marketing ($25/mo) paid plans are now shown with prices for the first time, with a limited first-month $1 offer.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W46#4",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Serverless Loops training product added with per-token rates and a 20% intro discount; no existing price changed (the tier restructure is already recorded).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "lunar:2026-W45",
+   "company": "lunar",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "The travel insurance and Invest ISK row removals in week 45 are already recorded as lunar-2026w45.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}
