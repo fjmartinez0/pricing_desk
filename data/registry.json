@@ -2167,14 +2167,12 @@
    "category": "Collaboration & Productivity",
    "segment": "B2C",
    "watch": true,
-   "pricing_urls": [
-    "https://www.duolingo.com/super"
-   ],
+   "pricing_urls": [],
    "domains": [
     "duolingo.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -2184,8 +2182,8 @@
    "added": "2026-10-20",
    "source": "seed",
    "source_url": null,
-   "url_attempts": 0,
-   "notes": ""
+   "url_attempts": 1,
+   "notes": "rejected https://www.duolingo.com/super: page shows no prices"
   },
   "easydmarc": {
    "name": "EasyDMARC",
