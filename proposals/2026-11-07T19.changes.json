@@ -1,0 +1,48 @@
+{"type": "changes", "run": "2026-11-07T19", "items": [
+{"diff_id": "alldata-2026-11-07T19", "kind": "wording", "why": "The ‘/Month’ label was dropped next to the $0.00 Estimator; the price is unchanged.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "google-workspace-2026-11-07T19", "kind": "noise", "why": "The 50% off for 3 months promo dates rolled forward by one day (Nov 20 → Nov 21); discounts and prices are unchanged.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "legalzoom-2026-11-07T19", "kind": "feature_move", "why": "Pro and Premium were renamed back to Managed Service and Expert Service; attorney consultations left the $249 plan and the $299 plan’s 30-day renewal went from $49/mo to $99/mo.", "detail": "card",
+ "record": {
+  "group": "pack",
+  "delta": "Attorney moved up",
+  "deltaSub": "$249 plan attorney access, 30-day plan renewal on $299 plan",
+  "short": "Attorney consultations leave the $249 plan and the $299 plan’s 30-day plan now renews at $99/mo instead of $49/mo.",
+  "headline": "LegalZoom renamed Pro and Premium to Managed Service and Expert Service, replaced attorney access on the $249 plan with business advisors, and raised the renewal on the $299 plan from $49/mo to $99/mo.",
+  "rows": [
+   ["Plan names ($249 / $299)", "Pro / Premium", "Managed Service / Expert Service"],
+   ["$249 plan, attorney consultations", "Unlimited 30-minute", "Not offered"],
+   ["$299 plan, 30-day plan renewal", "$49/mo", "$99/mo"],
+   ["Basic, state filing fees extra", "$0", "$0"]
+  ],
+  "who": "New LLC formation buyers on the $249 and $299 plans; list prices of $0, $249 and $299 plus state filing fees are unchanged.",
+  "stated": null,
+  "statedUrl": null,
+  "read": "This reverses the repackaging seen on 2 Nov. The attorney access that used to sit in the $249 plan is now reserved for the $299 plan, which also carries a higher renewal, so the same entry price buys less legal help.",
+  "caveat": "The page has moved back and forth between these two layouts; this may be a test or a rollout still in progress.",
+  "pattern": "Unbundling",
+  "seg": "Both",
+  "ai": false,
+  "planLevel": "all",
+  "reach": 3,
+  "model": "Flat",
+  "modelBefore": "Flat",
+  "modelAfter": "Flat",
+  "appliesTo": "new",
+  "magnitude": null
+ }, "promo": null},
+{"diff_id": "n8n-2026-11-07T19", "kind": "noise", "why": "Only a copy tweak (‘&’ to ‘and’) and a changed GitHub community counter.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "lindy-2026-11-07T19", "kind": "price_cut", "why": "Team entry moves from $49.99/mo for 5,000 credits to $29.99/mo for 3,000 credits, with 3,000 and 4,000 credit steps added and the 7,000 step removed.", "detail": "line",
+ "record": {
+  "group": "pack",
+  "delta": "$29.99 / $49.99",
+  "short": "Team plan entry point moves from $49.99/mo for 5,000 credits to $29.99/mo for 3,000 credits, with new 3,000 and 4,000 credit steps and the 7,000 step removed.",
+  "pattern": "Minimums",
+  "seg": "Both",
+  "ai": true,
+  "planLevel": "entry",
+  "reach": 2
+ }, "promo": null},
+{"diff_id": "builtwith-2026-11-07T19", "kind": "noise", "why": "Only the approximate CAD conversions, the technology count and an example date in the FAQ changed; USD prices are unchanged.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "brevo-2026-11-07T19", "kind": "noise", "why": "Page sections were reordered in the capture; plan names, features and prices are unchanged.", "detail": "card", "record": null, "promo": null},
+{"diff_id": "ab-tasty-2026-11-07T19", "kind": "noise", "why": "A demo-booking modal was added to the page; no pricing change.", "detail": "card", "record": null, "promo": null}
+]}
