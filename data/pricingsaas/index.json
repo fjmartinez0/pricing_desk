@@ -26873,7 +26873,8 @@
    "title": "Krea cuts LoRA training from its Free plan as paid prices hold steady — Nov 2, 2026 · PricingSaaS Pulse",
    "report_id": "krea:2026-W45",
    "articles": [
-    "https://pricingsaas.com/news/article/krea-raised-the-cost-of-nano-banana-generations"
+    "https://pricingsaas.com/news/article/krea-raised-the-cost-of-nano-banana-generations",
+    "https://pricingsaas.com/news/article/krea-nano-banana-2-1-unit-cost-increase-is-one-arm-of-a-live-a-b-test"
    ]
   },
   "https://pricingsaas.com/companies/kudobuzz/diffs/2026W45": {
@@ -28122,7 +28123,8 @@
    "first_seen": "2026-11-03T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/slack-s-45-enterprise-price-is-one-arm-of-a-live-a-b-test"
+    "https://pricingsaas.com/news/article/slack-s-45-enterprise-price-is-one-arm-of-a-live-a-b-test",
+    "https://pricingsaas.com/news/article/slack-ran-an-a-b-test-on-enterprise-pricing"
    ],
    "fetched_at": "2026-11-03T07:29:17-05:00",
    "file": "data/pricingsaas/pages/diffs/slack__2026D307.txt",
@@ -28184,7 +28186,8 @@
    "articles": [
     "https://pricingsaas.com/news/article/pika-added-daily-free-generations-and-expanded-its-credits-table",
     "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator",
-    "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table"
+    "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table",
+    "https://pricingsaas.com/news/article/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits"
    ],
    "fetched_at": "2026-11-04T07:31:07-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D308.txt",
@@ -28583,7 +28586,8 @@
     "https://pricingsaas.com/news/article/pika-cut-monthly-credit-caps-on-starter-and-creator",
     "https://pricingsaas.com/news/article/lumaai-changed-how-it-meters-video-to-video-credits",
     "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table",
-    "https://pricingsaas.com/news/article/mindsdb-added-a-new-claude-haiku-model-to-its-rate-card"
+    "https://pricingsaas.com/news/article/mindsdb-added-a-new-claude-haiku-model-to-its-rate-card",
+    "https://pricingsaas.com/news/article/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits"
    ],
    "fetched_at": "2026-11-06T07:33:45-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D310.txt",
@@ -28791,7 +28795,8 @@
    "first_seen": "2026-11-07T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/krea-raised-the-cost-of-nano-banana-generations"
+    "https://pricingsaas.com/news/article/krea-raised-the-cost-of-nano-banana-generations",
+    "https://pricingsaas.com/news/article/krea-nano-banana-2-1-unit-cost-increase-is-one-arm-of-a-live-a-b-test"
    ],
    "fetched_at": "2026-11-07T07:28:01-05:00",
    "file": "data/pricingsaas/pages/diffs/krea__2026D311.txt",
@@ -28817,7 +28822,8 @@
    "first_seen": "2026-11-07T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table"
+    "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table",
+    "https://pricingsaas.com/news/article/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits"
    ],
    "fetched_at": "2026-11-07T07:28:01-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D311.txt",
@@ -28927,6 +28933,68 @@
    "file": "data/pricingsaas/pages/diffs/wisprflow__2026D311.txt",
    "title": "Wispr Flow: Notetaker now covered under HIPAA/BAA compliance — Nov 7, 2026 · PricingSaaS Pulse",
    "report_id": "wisprflow:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/slack-ran-an-a-b-test-on-enterprise-pricing": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-08T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-08T07:28:10-05:00",
+   "file": "data/pricingsaas/pages/articles/slack-ran-an-a-b-test-on-enterprise-pricing.txt",
+   "title": "Slack ran an A/B test on Enterprise+ pricing",
+   "published": "2026-11-08T06:28:11.638614+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D312",
+    "https://pricingsaas.com/companies/slack/diffs/2026D307"
+   ]
+  },
+  "https://pricingsaas.com/news/article/krea-nano-banana-2-1-unit-cost-increase-is-one-arm-of-a-live-a-b-test": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-08T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-08T07:28:10-05:00",
+   "file": "data/pricingsaas/pages/articles/krea-nano-banana-2-1-unit-cost-increase-is-one-arm-of-a-live-a-b-test.txt",
+   "title": "Krea's Nano Banana 2.1 unit-cost increase is one arm of a live A/B test",
+   "published": "2026-11-07T10:08:20.904977+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D311",
+    "https://pricingsaas.com/companies/krea/diffs/2026W45"
+   ]
+  },
+  "https://pricingsaas.com/news/article/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-08T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-08T07:28:10-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits.txt",
+   "title": "Pika cut Nano Banana 2's image cost from 8 to 7 credits",
+   "published": "2026-11-07T07:59:07.821125+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D311",
+    "https://pricingsaas.com/companies/pika/diffs/2026D310",
+    "https://pricingsaas.com/companies/pika/diffs/2026D308"
+   ]
+  },
+  "https://pricingsaas.com/companies/slack/diffs/2026D312": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-08T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/slack-ran-an-a-b-test-on-enterprise-pricing"
+   ],
+   "fetched_at": "2026-11-08T07:28:10-05:00",
+   "file": "data/pricingsaas/pages/diffs/slack__2026D312.txt",
+   "title": "Slack hides Enterprise+ pricing, drops $45/user price for contact sales — Nov 8, 2026 · PricingSaaS Pulse",
+   "report_id": "slack:2026-W46#2"
   }
  }
 }

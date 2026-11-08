@@ -1,0 +1,217 @@
+=== https://cal.com/pricing ===
+Pricing
+Choose your Cal.com subscription
+Start scheduling for free, with no usage limits. For collaborative features, choose one of our premium plans that fits your company size.
+Talk to sales See feature breakdown
+Individuals
+Free
+Everything you could need for scheduling as an individual.
+Use for free
+*Free forever
+Free features:
+1 user
+Unlimited links & calendars
+Email & SMS notifications
+Integrate with 100+ apps
+Mobile App
+Browser Extension
+Accept Stripe & PayPal payments
+Two-way Salesforce & HubSpot sync
+1-click import Calendly events
+Teams
+Yearly
+$12per user/monthSave 25%
+For small teams & startups with combined scheduling needs.
+Try for free
+*14 day free trial
+Free plan features, plus:
+1 team, shared availability
+Round-robin scheduling
+Managed & collective links
+Recurring events
+Customizable email & SMS notifications
+Remove Cal.com branding
+Routing forms
+Booking analytics
+Custom APIs
+Organizations
+Yearly
+$28per user/monthSave 25%
+For larger teams looking for more control, privacy, and security.
+Try for free
+*14 day free trial
+Teams plan features, plus:
+Unlimited sub-teams
+Route by custom variables
+Company subdomain (yourcompany.cal.com)
+SAML SSO and SCIM
+SOC 2, HIPAA, ISO 27001 compliant
+Instant meetings
+Domain-wide-delegation
+Role-based permissions
+Additional APIs
+Enterprise
+Custom
+The most advanced scheduling for enterprise without limits.
+Talk to sales
+*Annual pricing
+Organizations plan features, plus:
+Dedicated onboarding and engineering support
+SLA & uptime guarantees
+HRIS & directory integrations
+Priority Slack & account support
+Dedicated database
+Trusted by fast-growing companies around the world
+Case study
+Feature breakdown
+Compare our Free and Teams plans to see why Cal.com is the better choice.
+Individuals
+Teams
+Organizations
+Enterprise
+Features
+Individuals
+Free forever
+Use for free
+Teams
+$12per month/user
+Try for free
+Organizations
+$28per month/user
+Try for free
+Enterprise
+Custom pricing
+Talk to sales
+Unlimited links
+Unlimited calendar connections
+Unlimited meetings
+Multiple duration options
+Set custom meeting locations
+Control your meeting availability
+Automatic timezone detection & conflict checking
+Meeting cancellation
+Meeting rescheduling
+Meeting reassignment
+Not included
+Advanced features
+Booking calendar & list view
+Change booking questions
+Requires confirmation
+Require host's email verification
+Private links
+Offer seats
+Hide organizer's email
+Custom reply-to email
+Optimized slots
+(Custom) workflows / booking notifications
+Webhooks
+Redirect on booking
+Not included
+Common schedule
+Not included
+Insights - analytics
+Not included
+Instant meetings
+Not included
+Basic routing
+Not included
+Attribute based routing
+Not included
+Member attributes
+Not included
+Restriction schedule
+Not included
+Make your organization private
+Not included
+Blocklist
+Not included
+Teams
+Round-robin scheduling
+Not included
+Round-robin groups
+Not included
+Fixed round-robin scheduling
+Not included
+Collective events
+Not included
+Managed events
+Not included
+Dynamic group links
+Not included
+Recurring events
+Not included
+Unlimited sub-teams
+Not included
+Set meeting limits
+Customization
+Data management & security
+Integrations
+Support & service
+Building scheduling into your own product?
+Marketplaces and platforms should use coss.com Scheduling, from the team behind Cal.com: hosts, availability, calendar sync and bookings inside your app, from one API key. The plans above are for using Cal.com itself, which you can build on with API v2.
+See the scheduling API
+coss.scheduling.bookings.create()
+const result = await coss.scheduling.bookings.create({
+event_type: eventTypeId,
+start: "2026-03-10T14:00:00Z",
+attendee: {
+uid: "customer_77",
+name: "Sam Lee",
+email: "[email protected]",
+time_zone: "America/New_York",
+},
+});
+if (result.error?.code === "slot_unavailable") {
+// Someone got there first: show the times again.
+}
+Trial lesson with Ana Reyes
+30 minutes, 10 minute buffer
+confirmed
+Ana Reyes's week: open times, times busy on a connected calendar, and bookings
+Time
+Mon 9
+Tue 10
+Wed 11
+Thu 12
+Fri 13
+09:00
+busy
+open
+booked
+open
+10:00
+open
+Sam
+open
+busy
+open
+11:00
+open
+busy
+open
+13:00
+booked
+open
+booked
+open
+14:00
+open
+busy
+open
+booked
+open
+15:00
+open
+busy
+open
+busy
+OpenBusy on calendarBooked
+confirmed09:41:02Calendar invitations to Sam and Ana
+scheduling.booking.confirmed09:41:02
+Scheduling for absolutely everyone.
+Free for individuals, no credit card, no usage limits.
+Connect a calendar, share a link, and let people book when it works for both of you.
+Get started for freeor talk to sales
+4.5Trustpilot
+4.8Product Hunt
+4.5G2

@@ -68477,7 +68477,7 @@
    "first_seen_run": "2026-11-07T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "synthesia",
    "decision": {
     "kind": "metering",
@@ -68621,6 +68621,29 @@
    },
    "outcome": "dropped (new_feature)",
    "decided_run": "2026-11-07T07"
+  },
+  {
+   "report_id": "slack:2026-W46#2",
+   "ps_slug": "slack",
+   "week": "2026-W46",
+   "change_date": "2026-11-08",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D312"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D312.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/slack-ran-an-a-b-test-on-enterprise-pricing.txt"
+   ],
+   "title": "Slack hides Enterprise+ pricing, drops $45/user price for contact sales — Nov 8, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-08T07",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
   }
  ]
 }

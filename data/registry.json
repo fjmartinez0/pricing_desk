@@ -7983,7 +7983,7 @@
     "airslate.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32915,14 +32915,12 @@
    "category": "Business Operations",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [
-    "https://www.alltrails.com/plus"
-   ],
+   "pricing_urls": [],
    "domains": [
     "alltrails.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -32932,8 +32930,8 @@
    "added": "2026-11-03",
    "source": "agent 2026-11-03T19",
    "source_url": "https://pricingsaas.com/companies/alltrails/diffs/2026W38",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.alltrails.com/plus: fetch failed 4 times: HTTP 403; browser page shows no prices",
    "ps_slugs": [
     "alltrails"
    ]
