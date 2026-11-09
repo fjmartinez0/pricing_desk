@@ -120,6 +120,127 @@
    "week": "2026-W46",
    "diff_file": ".run/diffs/patchstack-2026-11-08T07.diff",
    "attempts": 0
+  },
+  {
+   "diff_id": "aihr-2026-11-08T19",
+   "company": "aihr",
+   "unstable": false,
+   "before_file": "data/snapshots/aihr/2026-11-06T19.txt",
+   "after_file": "data/snapshots/aihr/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/aihr-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "alldata-2026-11-08T19",
+   "company": "alldata",
+   "unstable": false,
+   "before_file": "data/snapshots/alldata/2026-11-07T19.txt",
+   "after_file": "data/snapshots/alldata/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/alldata-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "constructconnect-2026-11-08T19",
+   "company": "constructconnect",
+   "unstable": false,
+   "before_file": "data/snapshots/constructconnect/2026-11-03T07.txt",
+   "after_file": "data/snapshots/constructconnect/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/constructconnect-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "google-workspace-2026-11-08T19",
+   "company": "google-workspace",
+   "unstable": false,
+   "before_file": "data/snapshots/google-workspace/2026-11-07T19.txt",
+   "after_file": "data/snapshots/google-workspace/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/google-workspace-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "render-2026-11-08T19",
+   "company": "render",
+   "unstable": true,
+   "before_file": "data/snapshots/render/2026-11-05T19.txt",
+   "after_file": "data/snapshots/render/2026-11-08T19_a.txt",
+   "alt_file": "data/snapshots/render/2026-11-08T19_b.txt",
+   "last_old_at": "2026-11-06T07:00:00-05:00",
+   "first_new_at": "2026-11-08T19:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/render-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "kickofflabs-2026-11-08T19",
+   "company": "kickofflabs",
+   "unstable": false,
+   "before_file": "data/snapshots/kickofflabs/2026-11-02T19.txt",
+   "after_file": "data/snapshots/kickofflabs/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/kickofflabs-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "builtwith-2026-11-08T19",
+   "company": "builtwith",
+   "unstable": false,
+   "before_file": "data/snapshots/builtwith/2026-11-07T19.txt",
+   "after_file": "data/snapshots/builtwith/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/builtwith-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "247hrm-2026-11-08T19",
+   "company": "247hrm",
+   "unstable": false,
+   "before_file": "data/snapshots/247hrm/2026-11-02T19.txt",
+   "after_file": "data/snapshots/247hrm/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T07:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/247hrm-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "brevo-2026-11-08T19",
+   "company": "brevo",
+   "unstable": false,
+   "before_file": "data/snapshots/brevo/2026-11-07T19.txt",
+   "after_file": "data/snapshots/brevo/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/brevo-2026-11-08T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "ab-tasty-2026-11-08T19",
+   "company": "ab-tasty",
+   "unstable": false,
+   "before_file": "data/snapshots/ab-tasty/2026-11-07T19.txt",
+   "after_file": "data/snapshots/ab-tasty/2026-11-08T19.txt",
+   "last_old_at": "2026-11-07T19:00:00-05:00",
+   "first_new_at": "2026-11-08T07:00:00-05:00",
+   "week": "2026-W46",
+   "diff_file": ".run/diffs/ab-tasty-2026-11-08T19.diff",
+   "attempts": 0
   }
  ]
 }
