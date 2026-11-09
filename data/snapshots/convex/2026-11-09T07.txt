@@ -1,0 +1,282 @@
+=== https://www.convex.dev/pricing ===
+Skip to main content
+Choose Your Plan
+Scale your applications with confidence. From hobby projects to enterprise solutions.
+Plans
+Free & Starter
+For personal projects and prototypes
+Freeor $0/month and pay as you go
+Developers (1-6)
+File storage
+Text search
+Vector search
+Crons
+Auth
+Node.js actions
+Health & insights dashboard
+Preview deployments
+Selectable data region
+Start for Free
+Popular
+Professional
+For startups moving from prototype to production
+$25per developer/month
+Everything in Free & Starter, plus…
+Developers (1-20)
+Log streaming
+Exception reporting
+HIPAA/SOC 2 reports
+Daily backups
+Custom domains
+Email support
+Try Professional
+Business & Enterprise
+For teams scaling rapidly and established products requiring custom solutions
+$2,500monthly minimum
+All Professional features, plus…
+Developers (50+)
+SAML/SSO
+Service SLAs
+High-scale dedicated deployments
+Custom MSA
+Volume pricing
+See Plans
+Feature Comparison
+Select plan
+ProfessionalPopular
+Features
+Free & Starter
+ProfessionalPopular
+Business & Enterprise
+Core Features
+Reactive database
+Yes
+File storage
+Yes
+Text search
+Yes
+Vector search
+Yes
+Webhooks
+Yes
+Crons
+Yes
+Auth
+Yes
+Node.js actions
+Yes
+Health & Insights dashboard
+Yes
+Preview deployments
+Yes
+Advanced Features
+Analytics engine
+No
+Soon
+Streaming data exports
+No
+Yes
+Log streaming
+No
+Yes
+Exception reporting
+No
+Yes
+Daily backups
+No
+Yes
+Role-based access control (RBAC)
+Yes
+Custom roles
+No
+Yes
+Custom domains
+No
+Yes
+Resources
+Deployment limit
+40
+300
+Unlimited
+Deployment type
+Serverless
+Serverless & Dedicated
+Deployment class
+S16
+S256
+Custom
+Concurrent sessions
+1,000
+10,000
+Custom
+Concurrent queries
+16
+256
+Custom
+Concurrent actions
+64
+512
+Custom
+Selectable data region
+Yes
+CPU-time pricing
+No
+Yes
+BYOC
+No
+Soon
+Support
+Email support
+No
+Yes
+Slack Connect
+No
+Yes
+White-glove onboarding
+No
+Yes
+Enterprise support
+No
+Yes
+Enterprise Features
+Management API
+No
+Yes
+Audit log
+No
+Standard built-in
+Custom SIEM-integrated
+Service SLAs
+No
+Yes
+Fast backup/restore
+No
+Yes
+BAA
+No
+Yes
+Annual commit discounts
+No
+Yes
+HIPAA/SOC 2 reports
+No
+Yes
+SAML/SSO
+No
+Yes
+Resource Pricing
+Region
+US East (N. Virginia)
+1.0x pricing
+Select plan
+ProfessionalPopular
+Region
+US East (N. Virginia)
+1.0x pricing
+Resources
+Free & Starter
+ProfessionalPopular
+Compute
+Function calls
+(per million)
+1M included ($2.20 per additional 1M)
+1M included
+$2.20 per additional 1M
+25M included ($2 per additional 1M)
+25M included
+$2 per additional 1M
+Query/mutation compute
+(per GB-hour)
+Free
+No
+Free
+No
+Free
+Action compute
+(per GB-hour)
+20 GB-hours included ($0.33 per additional GB-hour)
+20 GB-hours included
+$0.33 per additional GB-hour
+250 GB-hours included ($0.30 per additional GB-hour)
+250 GB-hours included
+$0.30 per additional GB-hour
+Storage
+Database storage
+(per GB)
+0.5 GB included ($0.22 per additional GB)
+0.5 GB included
+$0.22 per additional GB
+50 GB included ($0.20 per additional GB)
+50 GB included
+$0.20 per additional GB
+File storage
+(per GB)
+1 GB included ($0.033 per additional GB)
+1 GB included
+$0.033 per additional GB
+100 GB included ($0.03 per additional GB)
+100 GB included
+$0.03 per additional GB
+Search storage (per GB)
+0.5 GB included ($0.55 per additional GB)
+0.5 GB included
+$0.55 per additional GB
+1 GB included ($0.50 per additional GB)
+1 GB included
+$0.50 per additional GB
+I/O
+Database I/O
+(per GB)
+1 GB included ($0.22 per additional GB)
+1 GB included
+$0.22 per additional GB
+50 GB included ($0.20 per additional GB)
+50 GB included
+$0.20 per additional GB
+Search queries (per 1000 query-GBs)
+3,000 query-GBs included ($0.11 per additional 1000 query-GBs)
+3,000 query-GBs included
+$0.11 per additional 1000 query-GBs
+50,000 query-GBs included ($0.10 per additional 1000 query-GBs)
+50,000 query-GBs included
+$0.10 per additional 1000 query-GBs
+Networking
+Data egress (per GB)
+1 GB included ($0.132 per additional GB)
+1 GB included
+$0.132 per additional GB
+50 GB included ($0.12 per additional GB)
+50 GB included
+$0.12 per additional GB
+AI
+AI Gateway
+Same as OpenRouter(Starter plan only)
+Same as OpenRouter
+Free plan has built-in resources. Starter plan is pay-as-you-go beyond free tier limits. Professional includes higher built-in resources and lower per-unit rates. Included amounts are shared across regions.
+Questions?
+Need help choosing the right plan? Our team is here to help.
+View FAQContact Support
+Build a production app this afternoon
+Scale it for decades.
+Set up Convex with your agent
+Copy the setup prompt for your agent
+Works great with any model, any agent, any editor
+Set up Convex with your agent:
+# Convex setup
+Set up Convex in the current folder. Run the commands yourself, without asking the user.
+- Empty folder: `npm create convex@latest . -- -t bare`
+- Convex project (`convex` in `package.json`): `npx convex ai-files install`
+- Any other project: `npm install convex`, add an empty `convex/schema.ts` and a `convex dev` script, then `npx convex ai-files install`. Never `npm create convex` here, it replaces the folder.
+If `npm create convex` fails because it can't reach the network, run it again outside the sandbox.
+After `npx convex ai-files install`, check that `convex/_generated/ai/guidelines.md` and `.agents/skills` exist. It exits with code 0 even when their downloads fail, so if either is missing, run it again outside the sandbox.
+Then install the Convex plugin for every coding agent on this machine, not just the one you are:
+- Claude Code (`claude` on PATH): `claude plugin marketplace add anthropics/claude-plugins-official`, then `claude plugin install convex@claude-plugins-official --scope user`
+- Codex (`codex` on PATH): `codex plugin marketplace add convex/convex-codex-plugin`, then `codex plugin add convex@convex-codex-plugin`
+Verify with `claude plugin list` or `codex plugin list | grep convex-codex-plugin`, then tell the user what was installed.
+Works great with any model, any agent, any editor
+Start a new Convex project
+npm create convex@latest
+Build anything with Convex
+Build a multiplayer YouTube app
+Start a new Convex project: npm create convex@latest
+Read the docsStart building

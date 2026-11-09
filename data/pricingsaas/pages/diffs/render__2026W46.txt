@@ -1,0 +1,69 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Render/All changes/GB SSD storage included removed
+R
+RenderPackaging change · Feature added · Limit increase · Nov 2 → Nov 9, 2026
+Render Sandboxes now run indefinitely, Postgres adds connection pooling
+Verified Nov 9, 2026·Software Development & Testing·Direction: up
+The changeGB SSD storage included — removed.
+Before · Nov 21 GB SSD storage included
+After · Nov 9No GB SSD storage included
+removed
+2 changes·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of Render's pricing page, Pulse recorded 2 changes: Render Sandboxes (Beta) session limit lifted: 'Sandboxes can run up to 30 days on Pro and above' is now 'Can run indefinitely'; Hobby maximum session length 24 hours now No limit (Pro/Scale/Enterprise already No limit); Render Postgres feature list: Connection pooling added; 1 GB SSD storage included removed; Logical backup reworded to Logical exports for paid instances. Pulse files it as a packaging change (feature added, limit increase) with an upward direction. The current page lists Pro at $25, Scale at $499, Postgres - 64c-256g at $3,000, Postgres - 64c-512g at $6,000 and Postgres - 128c-1024g at $11,000.
+It lands 7 days after Render's previous change, "Render launches Sandboxes beta: $0.12/CPU-hour microVMs for agent workloads" (Nov 2, 2026). Before that Pulse recorded "Render: Workflows comparison rows changed from concurrent task runs (20/50/100, then $10/mo per 50) to parallel task…" (Oct 26, 2026), "Render Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved" (Oct 5, 2026) and "Render: Workflows compute doubles to 8 CPU / 32 GB RAM" (Sep 28, 2026). Render has been tracked since 2024-10-01.
+In the same window Google Cloud, Aws, Digitalocean and Railway also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+— · FeatureRemoved
+Before1 GB SSD storage included
+AfterNo GB SSD storage included
+Pro, Hobby, Scale · LimitReworded
+BeforeSandboxes can run up to 30 days on Pro and above
+AfterCan run indefinitely
+Plan
+Field
+Before
+After
+Change
+—
+Feature
+1 GB SSD storage included
+No GB SSD storage included
+Removed
+Pro, Hobby, Scale
+Limit
+Sandboxes can run up to 30 days on Pro and above
+Can run indefinitely
+Reworded
+Values as written on Render's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Render's pricing page (render.com) from Nov 2, 2026 and Nov 9, 2026; the change is marked near the top of the page, where the GB SSD storage included no longer appears.
+Nov 2, 2026 · 1 GB SSD storage included
+Nov 9, 2026 · No GB SSD storage included
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Render, the last 90 days
+Full history
+Nov 9, 2026packagingRender Sandboxes now run indefinitely, Postgres adds connection pooling · this change
+Nov 2, 2026improvedRender launches Sandboxes beta: $0.12/CPU-hour microVMs for agent workloads
+Oct 26, 2026packagingRender: Workflows comparison rows changed from concurrent task runs (20/50/100, then $10/mo per 50) to parallel task…
+Oct 5, 2026decreaseRender Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved
+Sep 28, 2026packagingRender: Workflows compute doubles to 8 CPU / 32 GB RAM
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+Google CloudNov 9Google Cloud Datastudio overhauls token allocation to per-user tiers, caps free…
+AwsNov 9Aws Mwaa adds per-second billing for Customer Managed Tasks in Serverless
+DigitaloceanSep 28Digitalocean launches AI Harness Runtime and Action Gateway pricing tiers
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+Questions about this change
+Did Render raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a packaging change: feature added, limit increase.
+What changed on Render's pricing page between Nov 2, 2026 and Nov 9, 2026?
+Feature: 1 GB SSD storage included → No GB SSD storage included, removed; Pro, Hobby, Scale limit: Sandboxes can run up to 30 days on Pro and above → Can run indefinitely, reworded. Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does Render change its pricing?
+Pulse recorded 4 other pricing-page changes for Render in the 90 days before this one; the previous change was "Render launches Sandboxes beta: $0.12/CPU-hour microVMs for agent workloads" on Nov 2, 2026; Render has been tracked since 2024-10-01.

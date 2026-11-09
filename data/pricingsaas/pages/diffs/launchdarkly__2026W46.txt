@@ -1,0 +1,77 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/LaunchDarkly/All changes/Release Autopilot added
+L
+LaunchDarklyPackaging change · Add-on removed · Feature added · Feature removed · Nov 2 → Nov 9, 2026
+LaunchDarkly launches Release Autopilot on every plan, retires Guardian add-on
+Verified Nov 9, 2026·Software Development & Testing·Direction: down
+The changeRelease Autopilot — added.
+Before · Nov 2No Release Autopilot
+After · Nov 9Release Autopilot
+added
+3 changes·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of LaunchDarkly's pricing page, Pulse recorded 3 changes: Release Autopilot launched: release automation (auto-release, release plans, auto-cleanup, release agent) and guarded releases with automatic rollback are now included on every plan — limited on Developer, free on Foundation until Feb 1, 2027, included on Enterprise. Enterprise card's 'Release Assistant' bullet replaced by the Autopilot release agent; Guardian paid Enterprise add-on (Release Moni. In detail: Guardian paid Enterprise add-on (Release Monitoring, Guardrail Metrics, Proactive Failure Notifications, Automatic Pause or Rollback, Advanced Observability, Exposure Insights) retired; guarded releases and rollback are folded into Release Autopilot on every plan; Enterprise config delivery latency SLA of <150ms removed from comparison table; only the <200ms SLO remains. Pulse files it as a packaging change (add-on removed, feature added, feature removed) with a downward direction. The current page lists Foundation at $10.
+It lands 90 days after LaunchDarkly's previous change, "LaunchDarkly turns Guardian from a plan card into a paid add-on and drops the plan selector" (Aug 10, 2026). Before that Pulse recorded "LaunchDarkly removes per-unit observability overage prices and the billing FAQ from the pricing compare table" (Jul 2, 2026), "LaunchDarkly: Pricing restructured around CodeControl/AgentControl split" (Jul 3, 2026) and "LaunchDarkly adds MCP Server support across all plans" (Jun 10, 2026). LaunchDarkly has been tracked since 2023-11-14.
+In the same window Amplitude and Optimizely also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Enterprise · Add-onAdd-on removed
+Guardian paid Enterprise add-on (Release Monitoring, Guardrail Metrics, Proactive Failure Notifications, Automatic Pause or Rollback, Advanced Observability, Exposure Insights) retired; guarded releases and rollback are folded into Release Autopilot on every plan.
+Developer, Foundation, Enterprise · FeatureAdded
+No Release Autopilot→Release Autopilot
+Enterprise · FeatureRemoved
+BeforeEnterprise config delivery latency SLA of <150ms
+AfterNot listed
+Plan
+Field
+Before
+After
+Change
+Enterprise
+Add-on
+Guardian paid Enterprise add-on (Release Monitoring, Guardrail Metrics, Proactive Failure Notifications, Automatic Pause or Rollback, Advanced Observability, Exposure Insights) retired; guarded releases and rollback are folded into Release Autopilot on every plan.
+Add-on removed
+Developer, Foundation, Enterprise
+Feature
+No Release Autopilot
+Release Autopilot
+Added
+Enterprise
+Feature
+Enterprise config delivery latency SLA of <150ms
+Not listed
+Removed
+Values as written on LaunchDarkly's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of LaunchDarkly's pricing page (launchdarkly.com) from Nov 2, 2026 and Nov 9, 2026; the change is marked near the top of the page, where Release Autopilot now appears.
+Nov 2, 2026 · No Release Autopilot
+Nov 9, 2026 · Release Autopilot
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+LaunchDarkly, pricing history
+Full history
+Nov 9, 2026packagingLaunchDarkly launches Release Autopilot on every plan, retires Guardian add-on · this change
+Aug 10, 2026packagingLaunchDarkly turns Guardian from a plan card into a paid add-on and drops the plan selector
+Jul 2, 2026packagingLaunchDarkly removes per-unit observability overage prices and the billing FAQ from the pricing compare table
+Jul 3, 2026packagingLaunchDarkly: Pricing restructured around CodeControl/AgentControl split
+Jun 10, 2026improvedLaunchDarkly adds MCP Server support across all plans
+May 13, 2026packagingLaunchDarkly refreshes Enterprise pricing with tailored usage messaging
+Apr 6, 2026packagingLaunchDarkly drops Release Assistant from Enterprise plan
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+AmplitudeSep 9Amplitude drops per-plan AI Visibility prompt quotas from pricing cards
+AmplitudeJul 13Amplitude: Growth/Enterprise shift to event-based pricing (was unlimited MTU)
+AmplitudeJul 6Amplitude ditches MTU pricing for event-based model, adds AI Agents to all tiers
+AmplitudeJul 2Amplitude: Starter events 10M->2M + new Zoning Insights/AI Assistant
+OptimizelyJul 1Optimizely renames Agentic Platform to Agent Platform on pricing page
+Questions about this change
+Did LaunchDarkly raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a packaging change: add-on removed, feature added, feature removed.
+What changed on LaunchDarkly's pricing page between Nov 2, 2026 and Nov 9, 2026?
+Guardian paid Enterprise add-on (Release Monitoring, Guardrail Metrics, Proactive Failure Notifications, Automatic Pause or Rollback, Advanced Observability, Exposure Insights) retired; guarded releases and rollback are folded into Release Autopilot on every plan; Developer, Foundation, Enterprise feature: No Release Autopilot → Release Autopilot, added; Enterprise feature: Enterprise config delivery latency SLA of <150ms → Not listed, removed. Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does LaunchDarkly change its pricing?
+Pulse recorded 0 other pricing-page changes for LaunchDarkly in the 90 days before this one; the previous change was "LaunchDarkly turns Guardian from a plan card into a paid add-on and drops the plan selector" on Aug 10, 2026; LaunchDarkly has been tracked since 2023-11-14.

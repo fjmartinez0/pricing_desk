@@ -1,0 +1,66 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Langfuse/All changes/IAM role authentication added
+L
+LangfuseProduct change · Feature added · Feature change · Nov 2 → Nov 9, 2026
+Langfuse adds AWS Marketplace yearly billing and 1h Enterprise SLO
+Verified Nov 9, 2026·AI & Machine Learning·Direction: up
+The changeIAM role authentication — added.
+Before · Nov 2No IAM role authentication
+After · Nov 9IAM role authentication
+added
+2 changes·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of Langfuse's pricing page, Pulse recorded 2 changes: Added IAM role authentication for Amazon S3 to the plan comparison; Response time SLO redefined as Severity 1 with Best effort on Hobby/Core/Pro and committed 1h 24/7 on Enterprise (was n/a, 48h, Custom); Contract duration for Core and Pro now Monthly or Yearly Commitment (was Monthly); Billing via AWS Marketplace now offered as Yearly Commitment on Core and Pro. Pulse files it as a product change (feature added, feature change) with an upward direction. The current page lists Core at $29, Pro at $199, Enterprise at $2,499 and Teams at $300.
+It lands 14 days after Langfuse's previous change, "Langfuse adds MCP and CLI rows to AI plan lineup beside Halo agent" (Oct 26, 2026). Before that Pulse recorded "Langfuse renames in-app agent from Assistant to Halo in Cloud plans" (Oct 19, 2026) and "Langfuse: AI Assistant usage now tiered by plan" (Sep 14, 2026). Langfuse has been tracked since 2024-11-17.
+In the same window Datadog, Sumologic, Dynatrace and Elastic also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Hobby, Core, Pro · FeatureAdded
+BeforeNo IAM role authentication
+AfterIAM role authentication
+Core, Pro · FeatureFeature change
+Contract duration for Core and Pro now Monthly or Yearly Commitment (was Monthly); Billing via AWS Marketplace now offered as Yearly Commitment on Core and Pro
+Plan
+Field
+Before
+After
+Change
+Hobby, Core, Pro
+Feature
+No IAM role authentication
+IAM role authentication
+Added
+Core, Pro
+Feature
+Contract duration for Core and Pro now Monthly or Yearly Commitment (was Monthly); Billing via AWS Marketplace now offered as Yearly Commitment on Core and Pro
+Feature change
+Values as written on Langfuse's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Langfuse's pricing page (langfuse.com) from Nov 2, 2026 and Nov 9, 2026; the change is marked around the middle of the page, where IAM role authentication now appears.
+Nov 2, 2026 · No IAM role authentication
+Nov 9, 2026 · IAM role authentication
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Langfuse, the last 90 days
+Full history
+Nov 9, 2026improvedLangfuse adds AWS Marketplace yearly billing and 1h Enterprise SLO · this change
+Oct 26, 2026improvedLangfuse adds MCP and CLI rows to AI plan lineup beside Halo agent
+Oct 19, 2026packagingLangfuse renames in-app agent from Assistant to Halo in Cloud plans
+Sep 14, 2026packagingLangfuse: AI Assistant usage now tiered by plan
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+DatadogNov 2Datadog drops Confluent Cloud from Kafka Console support
+SumologicOct 19Sumologic adds DojoAI Credits add-on for pooled monthly AI prompt capacity
+DynatraceOct 12Dynatrace launches Agentic Operations at $0.10 per AI unit, AI Exploration free
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+Questions about this change
+Did Langfuse raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a product change: feature added, feature change.
+What changed on Langfuse's pricing page between Nov 2, 2026 and Nov 9, 2026?
+Hobby, Core, Pro feature: No IAM role authentication → IAM role authentication, added; Contract duration for Core and Pro now Monthly or Yearly Commitment (was Monthly); Billing via AWS Marketplace now offered as Yearly Commitment on Core and Pro. Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does Langfuse change its pricing?
+Pulse recorded 3 other pricing-page changes for Langfuse in the 90 days before this one; the previous change was "Langfuse adds MCP and CLI rows to AI plan lineup beside Halo agent" on Oct 26, 2026; Langfuse has been tracked since 2024-11-17.
