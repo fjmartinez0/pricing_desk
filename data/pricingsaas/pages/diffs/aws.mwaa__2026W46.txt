@@ -1,0 +1,53 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Aws/All changes/Billing line added
+A
+AwsPackaging change · Metric change · Nov 2 → Nov 9, 2026
+Aws Mwaa adds per-second billing for Customer Managed Tasks in Serverless
+Verified Nov 9, 2026·Cloud & DevOps·Direction: neutral
+The changeBilling line — added.
+Before · Nov 2No billing line
+After · Nov 9billing line
+added
+1 change·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of Aws's pricing page, Pulse recorded one change: MWAA Serverless pricing adds a new billing line: hourly Customer Managed Tasks usage, billed per second with a 1-minute minimum, alongside AWS Managed Tasks. Pulse files it as a packaging change (metric change) with a neutral direction. The current page lists Large Environment at $0.99 per use, MWAA Serverless at $0.08 per use, Medium Environment at $0.74 per use, Micro Environment at $0.29 per use and XLarge Environment at $1.98 per use.
+This is the first pricing-page change Pulse has recorded for Aws. Aws has been tracked since 2023-11-14.
+In the same window Google Cloud, Vultr and Digitalocean also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+MWAA Serverless · Pricing modelAdded
+No billing line→billing line
+Plan
+Field
+Before
+After
+Change
+MWAA Serverless
+Pricing model
+No billing line
+billing line
+Added
+Values as written on Aws's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Aws's pricing page (amazon.com) from Nov 2, 2026 and Nov 9, 2026; the change is marked around the middle of the page, where billing line now appears.
+Nov 2, 2026 · No billing line
+Nov 9, 2026 · billing line
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for Aws · Full history →
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Google CloudNov 9Google Cloud Datastudio overhauls token allocation to per-user tiers, caps free…
+VultrOct 19Vultr drops 4x and 8x NVIDIA A16 GPU tiers, jumping from 2x straight to 16x
+DigitaloceanSep 28Digitalocean launches AI Harness Runtime and Action Gateway pricing tiers
+Questions about this change
+Did Aws raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a packaging change: metric change.
+What changed on Aws's pricing page between Nov 2, 2026 and Nov 9, 2026?
+MWAA Serverless pricing model: No billing line → billing line, added. Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does Aws change its pricing?
+Pulse recorded 0 other pricing-page changes for Aws in the 90 days before this one; Aws has been tracked since 2023-11-14.

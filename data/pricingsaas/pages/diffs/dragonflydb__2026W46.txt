@@ -1,0 +1,65 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/DragonflyDB/All changes/Community Edition support section removed
+D
+DragonflyDBPackaging change · Feature added · Package change · Nov 2 → Nov 9, 2026
+DragonflyDB renames Self-Managed to Enterprise, free up to 100 vCPUs
+Verified Nov 9, 2026·Data & Analytics·Direction: up
+The changeCommunity Edition support section — removed.
+Before · Nov 2Community Edition support section
+After · Nov 9Not listed
+removed
+2 changes·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of DragonflyDB's pricing page, Pulse recorded 2 changes: Self-Managed renamed Dragonfly Enterprise; price changed from contact-us to free up to 100 vCPUs with custom pricing beyond. Business CTA now Speak to sales instead of Start A Free POC; Enterprise gains Customized functionality and Advanced data tiering; Business SSO & MFA expanded to SSO/MFA/LDAP/RBAC; Community Edition support section removed. Pulse files it as a packaging change (feature added, package change) with an upward direction. The current page lists Business at $2,000 and Flex at $8 per GB.
+It lands 49 days after DragonflyDB's previous change, "DragonflyDB splits Enterprise into self-hosted tiers, adds Community support" (Sep 21, 2026). Before that Pulse recorded "DragonflyDB: SSD Data Tiering add-on added to pricing calculator ($8.00/GB/mo)" (Aug 17, 2026). DragonflyDB has been tracked since 2026-07-15.
+In the same window Couchbase, MongoDB and Redis also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Business · FeatureRemoved
+BeforeCommunity Edition support section
+AfterNot listed
+Self-Managed, Business · PackagingChanged
+contact-us→free up to 100 vCPUs
+Plan
+Field
+Before
+After
+Change
+Business
+Feature
+Community Edition support section
+Not listed
+Removed
+Self-Managed, Business
+Packaging
+contact-us
+free up to 100 vCPUs
+Changed
+Values as written on DragonflyDB's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of DragonflyDB's pricing page (www.dragonflydb.io) from Nov 2, 2026 and Nov 9, 2026; the change is marked around the middle of the page, where the Community Edition support section no longer appears.
+Nov 2, 2026 · Community Edition support section
+Nov 9, 2026 · Not listed
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+DragonflyDB, the last 90 days
+Full history
+Nov 9, 2026packagingDragonflyDB renames Self-Managed to Enterprise, free up to 100 vCPUs · this change
+Sep 21, 2026packagingDragonflyDB splits Enterprise into self-hosted tiers, adds Community support
+Aug 17, 2026packagingDragonflyDB: SSD Data Tiering add-on added to pricing calculator ($8.00/GB/mo)
+Across Data & Analytics in the same window
+All Data & Analytics changes
+CouchbaseOct 26Couchbase renames Capella Analytics to Operational Insights, pricing unchanged
+MongoDBOct 5MongoDB launches Atlas Infinite preview: 128TB shards at $0.09/hour
+RedisSep 7Redis: Pro plan swaps auto-tiering for Data Integration (RDI)
+Questions about this change
+Did DragonflyDB raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a packaging change: feature added, package change.
+What changed on DragonflyDB's pricing page between Nov 2, 2026 and Nov 9, 2026?
+Business feature: Community Edition support section → Not listed, removed; Self-Managed, Business packaging: contact-us → free up to 100 vCPUs, changed. Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does DragonflyDB change its pricing?
+Pulse recorded 2 other pricing-page changes for DragonflyDB in the 90 days before this one; the previous change was "DragonflyDB splits Enterprise into self-hosted tiers, adds Community support" on Sep 21, 2026; DragonflyDB has been tracked since 2026-07-15.

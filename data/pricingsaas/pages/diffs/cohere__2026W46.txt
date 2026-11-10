@@ -1,0 +1,59 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Cohere/All changes/Package change
+C
+CoherePackaging change · Package change · Nov 2 → Nov 9, 2026
+Cohere moves Model Vault to per-GPU pricing, A100 from $2.25/hr promo
+Verified Nov 9, 2026·AI & Machine Learning·Direction: neutral
+The changeModel Vault, Embed 5 Fast, Rerank 5 Fast packaging — package change.
+1 change·2 captures·Nov 2, 2026 → Nov 9, 2026
+What happened
+Between the Nov 2, 2026 and Nov 9, 2026 captures of Cohere's pricing page, Pulse recorded one change: Cohere restructured Model Vault dedicated-hosting pricing from a per-model table (Embed 5 Fast/Pro, Rerank 5 Fast/Pro, Parse 5 — $3-7/hr or $2,000-4,300/mo per instance) to a per-GPU-type table (L4, A100, MI300X, H100, H200, B200) with on-demand hourly price per GPU plus a promotional hourly rate through March 31 2027 (e.g. A100 40GB: $3.25 on-demand, $2.25 promo). Pulse files it as a packaging change (package change) with a neutral direction. The current page lists Embed 5 Fast at $0.08 Input tokens, Embed 5 Pro at $0.12 Input tokens, Parse 5 at $1.50 Pages, Command R7B at $0.15 Output tokens + $3.75 Input tokens (per 100M tokens) and Rerank 5 Fast at $0.02 Rerank 5 tokens (per 1M tokens).
+It lands 5 days after Cohere's previous change, "Cohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200" (Nov 4, 2026). Before that Pulse recorded "Cohere: Model Vault Rerank 4 Fast/Pro Medium renamed Rerank 5 and cut from $5.00/hr ($3,250/mo) to $4.00/hr…" (Oct 26, 2026), "Cohere cuts Model Vault Embed pricing 25% with new Embed 5 Fast and Pro tiers" (Oct 5, 2026) and "Cohere cuts Model Vault Small to $3/hr as Embed 5 replaces Embed 4" (Oct 1, 2026). Cohere has been tracked since 2024-12-01.
+In the same window Together AI, OpenAI, Metabase, Anthropic and Google also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Model Vault, Embed 5 Fast, Rerank 5 Fast · PackagingPackage change
+Cohere restructured Model Vault dedicated-hosting pricing from a per-model table (Embed 5 Fast/Pro, Rerank 5 Fast/Pro, Parse 5 — $3-7/hr or $2,000-4,300/mo per instance) to a per-GPU-type table (L4, A100, MI300X, H100, H200, B200) with on-demand hourly price per GPU plus a promotional hourly rate through March 31 2027 (e.g. A100 40GB: $3.25 on-demand, $2.25 promo).
+Plan
+Field
+Before
+After
+Change
+Model Vault, Embed 5 Fast, Rerank 5 Fast
+Packaging
+Cohere restructured Model Vault dedicated-hosting pricing from a per-model table (Embed 5 Fast/Pro, Rerank 5 Fast/Pro, Parse 5 — $3-7/hr or $2,000-4,300/mo per instance) to a per-GPU-type table (L4, A100, MI300X, H100, H200, B200) with on-demand hourly price per GPU plus a promotional hourly rate through March 31 2027 (e.g. A100 40GB: $3.25 on-demand, $2.25 promo).
+Package change
+Values as written on Cohere's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Cohere's pricing page (cohere.com) from Nov 2, 2026 and Nov 9, 2026; the change is marked around the middle of the page.
+Nov 2, 2026
+Nov 9, 2026
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Cohere, the last 90 days
+Full history
+Nov 9, 2026packagingCohere moves Model Vault to per-GPU pricing, A100 from $2.25/hr promo · this change
+Nov 4, 2026packagingCohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200
+Oct 26, 2026decreaseCohere: Model Vault Rerank 4 Fast/Pro Medium renamed Rerank 5 and cut from $5.00/hr ($3,250/mo) to $4.00/hr…
+Oct 5, 2026decreaseCohere cuts Model Vault Embed pricing 25% with new Embed 5 Fast and Pro tiers
+Oct 1, 2026decreaseCohere cuts Model Vault Small to $3/hr as Embed 5 replaces Embed 4
+Aug 31, 2026packagingCohere adds Parse 5 doc-parsing model, Medium $4/hr and XL $7/hr tiers
+Aug 28, 2026packagingCohere adds Parse 5 to Model Vault with Medium and XL tiered pricing
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+Together AINov 9Together AI hikes Qwen3.7-Max to $2.50/$7.50, cuts six models, adds Kimi K3.1 Pro
+OpenAINov 9OpenAI API firms up GPT-5.6 Sol discount deadline: Nov. 30, 2026
+MetabaseNov 9Metabase adds Data apps beta to Pro, brings 2FA to Starter plan
+AnthropicOct 31Anthropic splits Max into Max ($100) and Ultra ($200), replacing Max 20x
+GoogleOct 12Google Workspace swaps Gems for AI skills, rewords Gemini on Starter plan
+Questions about this change
+Did Cohere raise prices in November 2026?
+No list-price increase was recorded between Nov 2, 2026 and Nov 9, 2026. The change Pulse detected was a packaging change: package change.
+What changed on Cohere's pricing page between Nov 2, 2026 and Nov 9, 2026?
+Cohere restructured Model Vault dedicated-hosting pricing from a per-model table (Embed 5 Fast/Pro, Rerank 5 Fast/Pro, Parse 5 — $3-7/hr or $2,000-4,300/mo per instance) to a per-GPU-type table (L4, A100, MI300X, H100, H200, B200) with on-demand hourly price per GPU plus a promotional hourly rate through March 31 2027 (e.g. A100 40GB: $3.25 on-demand, $2.25 promo). Pulse compared the captures it took on Nov 2, 2026 and Nov 9, 2026; the before/after table above lists each item as written on the page.
+How often does Cohere change its pricing?
+Pulse recorded 6 other pricing-page changes for Cohere in the 90 days before this one; the previous change was "Cohere moves Model Vault to per-GPU pricing, $1-$12.50/hr from L4 to GB200" on Nov 4, 2026; Cohere has been tracked since 2024-12-01.
