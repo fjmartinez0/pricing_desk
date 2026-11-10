@@ -71241,7 +71241,9 @@
    "files": [
     "data/pricingsaas/pages/diffs/leadmagic__2026W46.txt"
    ],
-   "article_files": [],
+   "article_files": [
+    "data/pricingsaas/pages/articles/captions-listed-seat-counts-on-its-max-and-frontier-plans.txt"
+   ],
    "title": "LeadMagic doubles daily export limits and adds paid seats and top-ups — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T07",
    "status": "todo",
@@ -71892,7 +71894,9 @@
    "files": [
     "data/pricingsaas/pages/diffs/format__2026W46.txt"
    ],
-   "article_files": [],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openart-widened-its-pro-and-wonder-promo.txt"
+   ],
    "title": "Format swaps 50% annual promo for Cyber November 60% off, Pro now $9.35/mo — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
    "status": "todo",
@@ -72606,7 +72610,9 @@
    "files": [
     "data/pricingsaas/pages/diffs/hostinger__2026W46.txt"
    ],
-   "article_files": [],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openart-widened-its-pro-and-wonder-promo.txt"
+   ],
    "title": "Hostinger deepens Black Friday deal, Premium drops to $1.99/mo at 85% off — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
    "status": "todo",
@@ -73656,7 +73662,9 @@
    "files": [
     "data/pricingsaas/pages/diffs/basecamp__2026W46.txt"
    ],
-   "article_files": [],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa.txt"
+   ],
    "title": "Basecamp renames group chat feature to Chats & Pings, prices unchanged — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
    "status": "todo",
@@ -74121,6 +74129,75 @@
    "article_files": [],
    "title": "Xero cuts new-customer promo to 80% off for 3 months, doubling promo prices — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "fireflies:2026-W47",
+   "ps_slug": "fireflies",
+   "week": "2026-W47",
+   "change_date": "2026-11-10",
+   "urls": [
+    "https://pricingsaas.com/companies/fireflies/diffs/2026D314"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fireflies__2026D314.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa.txt"
+   ],
+   "title": "Fireflies.ai narrows HIPAA claim to Enterprise plans with a signed BAA — Nov 10, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-10T07",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "captions:2026-W47",
+   "ps_slug": "captions",
+   "week": "2026-W47",
+   "change_date": "2026-11-10",
+   "urls": [
+    "https://pricingsaas.com/companies/captions/diffs/2026D314"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/captions__2026D314.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/captions-listed-seat-counts-on-its-max-and-frontier-plans.txt"
+   ],
+   "title": "Captions lists seat counts on plans: Max gets 2, Frontier gets 3 — Nov 10, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-10T07",
+   "status": "todo",
+   "attempts": 0,
+   "waits": 0,
+   "company": null,
+   "decision": null,
+   "outcome": null
+  },
+  {
+   "report_id": "openart:2026-W47",
+   "ps_slug": "openart",
+   "week": "2026-W47",
+   "change_date": "2026-11-10",
+   "urls": [
+    "https://pricingsaas.com/companies/openart/diffs/2026D314"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/openart__2026D314.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openart-widened-its-pro-and-wonder-promo.txt"
+   ],
+   "title": "OpenArt widens promo to 50% off Kling 4.0, GPT Image 2.6 and Recraft V4.1 — Nov 10, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-10T07",
    "status": "todo",
    "attempts": 0,
    "waits": 0,

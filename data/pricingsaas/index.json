@@ -28409,7 +28409,8 @@
     "review 2026-W46"
    ],
    "articles": [
-    "https://pricingsaas.com/news/article/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount"
+    "https://pricingsaas.com/news/article/openart-swapped-its-kling-promo-banner-for-a-gpt-image-discount",
+    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo"
    ],
    "fetched_at": "2026-11-05T07:33:49-05:00",
    "file": "data/pricingsaas/pages/diffs/openart__2026D309.txt",
@@ -28437,7 +28438,8 @@
     "review 2026-W46"
    ],
    "articles": [
-    "https://pricingsaas.com/news/article/captions-renamed-its-enterprise-plan-to-tesseract-for-business"
+    "https://pricingsaas.com/news/article/captions-renamed-its-enterprise-plan-to-tesseract-for-business",
+    "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans"
    ],
    "fetched_at": "2026-11-05T07:33:49-05:00",
    "file": "data/pricingsaas/pages/diffs/captions__2026D309.txt",
@@ -30507,7 +30509,10 @@
    "fetched_at": "2026-11-09T07:30:10-05:00",
    "file": "data/pricingsaas/pages/diffs/leadmagic__2026W46.txt",
    "title": "LeadMagic doubles daily export limits and adds paid seats and top-ups — Nov 9, 2026 · PricingSaaS Pulse",
-   "report_id": "leadmagic:2026-W46"
+   "report_id": "leadmagic:2026-W46",
+   "articles": [
+    "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans"
+   ]
   },
   "https://pricingsaas.com/companies/kinsta/diffs/2026W46": {
    "type": "diff",
@@ -30880,7 +30885,10 @@
    "fetched_at": "2026-11-09T19:32:26-05:00",
    "file": "data/pricingsaas/pages/diffs/format__2026W46.txt",
    "title": "Format swaps 50% annual promo for Cyber November 60% off, Pro now $9.35/mo — Nov 9, 2026 · PricingSaaS Pulse",
-   "report_id": "format:2026-W46"
+   "report_id": "format:2026-W46",
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo"
+   ]
   },
   "https://pricingsaas.com/companies/holded/diffs/2026W46": {
    "type": "diff",
@@ -31290,7 +31298,10 @@
    "fetched_at": "2026-11-09T19:32:26-05:00",
    "file": "data/pricingsaas/pages/diffs/hostinger__2026W46.txt",
    "title": "Hostinger deepens Black Friday deal, Premium drops to $1.99/mo at 85% off — Nov 9, 2026 · PricingSaaS Pulse",
-   "report_id": "hostinger:2026-W46"
+   "report_id": "hostinger:2026-W46",
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo"
+   ]
   },
   "https://pricingsaas.com/companies/lambdalabs/diffs/2026W46": {
    "type": "diff",
@@ -31892,7 +31903,10 @@
    "fetched_at": "2026-11-09T19:32:26-05:00",
    "file": "data/pricingsaas/pages/diffs/basecamp__2026W46.txt",
    "title": "Basecamp renames group chat feature to Chats & Pings, prices unchanged — Nov 9, 2026 · PricingSaaS Pulse",
-   "report_id": "basecamp:2026-W46"
+   "report_id": "basecamp:2026-W46",
+   "articles": [
+    "https://pricingsaas.com/news/article/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa"
+   ]
   },
   "https://pricingsaas.com/companies/bark/diffs/2026W46": {
    "type": "diff",
@@ -32170,6 +32184,96 @@
    "file": "data/pricingsaas/pages/diffs/xero__2026W46.txt",
    "title": "Xero cuts new-customer promo to 80% off for 3 months, doubling promo prices — Nov 9, 2026 · PricingSaaS Pulse",
    "report_id": "xero:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/articles/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa.txt",
+   "title": "Fireflies narrowed its Enterprise HIPAA claim to require a BAA",
+   "published": "2026-11-10T07:01:16.065995+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/fireflies/diffs/2026D314",
+    "https://pricingsaas.com/companies/basecamp/diffs/2026W46"
+   ]
+  },
+  "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/articles/captions-listed-seat-counts-on-its-max-and-frontier-plans.txt",
+   "title": "Captions listed seat counts on its Max and Frontier plans",
+   "published": "2026-11-10T06:56:34.038799+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/captions/diffs/2026D314",
+    "https://pricingsaas.com/companies/captions/diffs/2026D309",
+    "https://pricingsaas.com/companies/leadmagic/diffs/2026W46"
+   ]
+  },
+  "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/articles/openart-widened-its-pro-and-wonder-promo.txt",
+   "title": "OpenArt widened its Pro and Wonder promo",
+   "published": "2026-11-10T06:45:28.396415+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/openart/diffs/2026D314",
+    "https://pricingsaas.com/companies/openart/diffs/2026D309",
+    "https://pricingsaas.com/companies/hostinger/diffs/2026W46",
+    "https://pricingsaas.com/companies/format/diffs/2026W46"
+   ]
+  },
+  "https://pricingsaas.com/companies/fireflies/diffs/2026D314": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/fireflies-narrowed-its-enterprise-hipaa-claim-to-require-a-baa"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/diffs/fireflies__2026D314.txt",
+   "title": "Fireflies.ai narrows HIPAA claim to Enterprise plans with a signed BAA — Nov 10, 2026 · PricingSaaS Pulse",
+   "report_id": "fireflies:2026-W47"
+  },
+  "https://pricingsaas.com/companies/captions/diffs/2026D314": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/diffs/captions__2026D314.txt",
+   "title": "Captions lists seat counts on plans: Max gets 2, Frontier gets 3 — Nov 10, 2026 · PricingSaaS Pulse",
+   "report_id": "captions:2026-W47"
+  },
+  "https://pricingsaas.com/companies/openart/diffs/2026D314": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-10T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo"
+   ],
+   "fetched_at": "2026-11-10T07:30:11-05:00",
+   "file": "data/pricingsaas/pages/diffs/openart__2026D314.txt",
+   "title": "OpenArt widens promo to 50% off Kling 4.0, GPT Image 2.6 and Recraft V4.1 — Nov 10, 2026 · PricingSaaS Pulse",
+   "report_id": "openart:2026-W47"
   }
  }
 }
