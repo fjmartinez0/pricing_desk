@@ -1,0 +1,15 @@
+{"type": "changes", "run": "2026-11-11T07", "items": [
+{"diff_id": "slack-2026-11-11T07", "kind": "limit_change", "why": "Slackbot, previously listed with generic plan limits, now shows a 15 messages per user each week cap on Business+ and is unlimited on Enterprise+.", "detail": "card",
+ "record": {"group": "up", "delta": "15 msgs / week", "short": "Slackbot on Business+ is now capped at 15 messages per user each week; Enterprise+ is unlimited.", "pattern": "AI gets a meter", "seg": "B2B", "ai": true, "planLevel": "mid", "reach": 3,
+  "plan": "Business+ and Enterprise+", "deltaSub": "Slackbot messages per user, weekly", "headline": "Slack put an explicit weekly message cap on Slackbot for Business+ users and marked Enterprise+ as unlimited, replacing the vague “plan limits apply” wording.",
+  "rows": [["Business+ Slackbot limit", "Plan limits apply", "15 messages per user each week"], ["Enterprise+ Slackbot limit", "Plan limits apply", "Unlimited for your whole team"]],
+  "who": "Business+ customers using Slackbot face a stated cap; Enterprise+ customers are unlimited. Pricing page does not say whether existing customers are affected differently.",
+  "stated": null, "statedUrl": null,
+  "read": "Slack is turning Slackbot into a metered AI feature and using the cap to separate Business+ from Enterprise+. Extra capacity is sold through sales, which suggests a future paid usage add-on.",
+  "caveat": "The page also lists a consumption-based usage limits row in the feature comparison; its exact terms are not shown. Company explanation not found.",
+  "model": "Seat → Hybrid", "modelBefore": "Seat", "modelAfter": "Hybrid", "appliesTo": "unknown", "magnitude": null},
+ "promo": null},
+{"diff_id": "readme-2026-11-11T07", "kind": "noise", "why": "Only the NEW badges next to existing features were removed; no price, plan or limit changed.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "airwallex-2026-11-11T07", "kind": "noise", "why": "Daily Yield rate drift (3.48% → 3.47% etc.), a rotating banner and a footnote date changed; a minor ERP integration bullet was dropped from the Enterprise list with no pricing impact.", "detail": "line", "record": null, "promo": null},
+{"diff_id": "ab-tasty-2026-11-11T07", "kind": "noise", "why": "Only a demo-booking popup block disappeared in one variant; no pricing content changed.", "detail": "line", "record": null, "promo": null}
+]}

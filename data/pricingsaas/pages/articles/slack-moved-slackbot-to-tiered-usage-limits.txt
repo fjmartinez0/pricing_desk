@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+S
+Slack
+PACKAGING CHANGE
+Slack moved Slackbot to tiered usage limits
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 11, 2026
+Slack moved Slackbot from a personal AI framing to tiered usage limits.
+See before and after
+Enlarge
+Slack’s pricing page · Change detected Nov 11, 2026
+What changed
+Slack rewrote the Slackbot row in its plan-comparison table, dropping the “personal AI agent” description it used before. Pulse detected the change on Nov 11, 2026, according to Slack's pricing page.
+The new row ties Slackbot access to plan tier: Free and Pro are listed as consumption based, Business+ shows a usage limit of 15 messages per user each week (per Slack's pricing page, Nov 11, 2026), and Enterprise+ stays unlimited.
+Why it matters
+Dropping the “personal AI agent” positioning while adding a quota signals Slack is treating Slackbot more like a metered utility than a blanket perk — a shift growth-stage SaaS and AI teams are increasingly testing to make AI features that would otherwise erode margins directly chargeable. A cap of 15 messages per user per week (per Slack's pricing page, Nov 11, 2026) is a thin allowance for a team that leans on AI chat for drafting or search, so in practice the limit functions as a Business+ ceiling that nudges heavy users toward Enterprise+ rather than a new line-item charge. For packaging teams watching the seat-to-usage shift, this is a case of using a usage cap as a tier differentiator instead of a price change: there's no new dollar figure here, just a lower ceiling in the middle tier. Watch whether Slack later attaches a price to messages above the cap, or whether the limit holds as a pure tier gate.
+In context
+Pulse has tracked 19 real pricing-page changes at Slack since it began following the company in Jun 2023, averaging a change every 60 days. This latest move landed just 3 days after the Enterprise+ price display flipped from $45 per user to contact sales on Nov 8, 2026 [[slack/2026D312]]. Pulse flags that price display as one arm of a live A/B test, first seen Oct 4, 2026 [[slack/2026D277]], so it is not a permanent price change. That test was about Enterprise+'s displayed price; this change pulls a different lever, gating how much Slackbot a team can use rather than what a seat costs. It follows Slack swapping always-on support for paid Success Plans on Oct 28, 2026 [[slack/2026D301]] and adding the paid Frontline teams add-on on Oct 20, 2026 [[slack/2026D293]] — both added paid extras, per Slack's own change history. Watch whether the 15-message weekly Business+ cap, which Slack's pricing page showed as of Nov 11, 2026, becomes the template it uses to push AI-heavy teams toward Enterprise+.
+Common questions
+What should a Business+ admin check before assuming the cap is a hard block?
+Slack's pricing page states the 15-message-per-user weekly limit but doesn't say whether messages stop working after the cap or simply throttle, as of Nov 11, 2026. Confirm directly with Slack support before budgeting around it, since the page itself is silent on overage behavior.
+Is this part of a broader pattern at Slack, or a one-off?
+Yes — Slack is moving much faster than usual: this Slackbot change comes just 3 days after its last Enterprise+ pricing move on Nov 8, 2026, against a typical 60-day gap between changes since Pulse began tracking it in Jun 2023, according to Pulse's record. What the record doesn't show is whether more AI-pricing changes are coming.
+Does the new Slackbot limit change what a Business+ team pays?
+Not directly — Slack didn't publish a new price with this change, only a usage ceiling on Slackbot for Business+ seats that Pulse detected on Nov 11, 2026. Check Slack's help docs for what happens if a team goes over the cap; the pricing page itself doesn't say.
+Sources
+Pulse: Slack pricing changes, Nov 11, 2026pricingsaas.com/companies/slack/diffs/2026D315
+Slack pricing pageslack.com/pricing
+Keep exploring
+All changes from SlackAll pricing news
+C
+Cohere
+Cohere moves Model Vault to per-GPU pricing at $3 to $12.50 an hour
+O
+Openart
+Openart swapped its Kling promo banner for a GPT Image discount
+S
+Synthesia
+Synthesia replaced Syren's time cap with per-plan video quotas

@@ -30413,7 +30413,10 @@
    "fetched_at": "2026-11-09T07:30:10-05:00",
    "file": "data/pricingsaas/pages/diffs/livekit__2026W46.txt",
    "title": "Livekit raises Enterprise inference concurrency cap to 600 from 50 — Nov 9, 2026 · PricingSaaS Pulse",
-   "report_id": "livekit:2026-W46"
+   "report_id": "livekit:2026-W46",
+   "articles": [
+    "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap"
+   ]
   },
   "https://pricingsaas.com/companies/liner/diffs/2026W46": {
    "type": "diff",
@@ -32268,12 +32271,281 @@
    "first_seen": "2026-11-10T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo"
+    "https://pricingsaas.com/news/article/openart-widened-its-pro-and-wonder-promo",
+    "https://pricingsaas.com/news/article/openart-added-seedream-to-its-pro-and-wonder-discount-promo"
    ],
    "fetched_at": "2026-11-10T07:30:11-05:00",
    "file": "data/pricingsaas/pages/diffs/openart__2026D314.txt",
    "title": "OpenArt widens promo to 50% off Kling 4.0, GPT Image 2.6 and Recraft V4.1 — Nov 10, 2026 · PricingSaaS Pulse",
    "report_id": "openart:2026-W47"
+  },
+  "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan.txt",
+   "title": "Attio replaced Enterprise's custom quote with a self-serve Ultra plan",
+   "published": "2026-11-11T08:21:03.892316+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D315"
+   ]
+  },
+  "https://pricingsaas.com/news/article/together-added-a-us-geo-pinned-premium-tier-for-serverless-models": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/together-added-a-us-geo-pinned-premium-tier-for-serverless-models.txt",
+   "title": "Together added a US geo-pinned premium tier for serverless models",
+   "published": "2026-11-11T08:13:30.702651+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/together/diffs/2026D315"
+   ]
+  },
+  "https://pricingsaas.com/news/article/datadog-launched-end-user-device-monitoring-as-an-add-on": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/datadog-launched-end-user-device-monitoring-as-an-add-on.txt",
+   "title": "Datadog launched End User Device Monitoring as an add-on",
+   "published": "2026-11-11T08:08:35.834475+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/datadog/diffs/2026D315"
+   ]
+  },
+  "https://pricingsaas.com/news/article/slack-moved-slackbot-to-tiered-usage-limits": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/slack-moved-slackbot-to-tiered-usage-limits.txt",
+   "title": "Slack moved Slackbot to tiered usage limits",
+   "published": "2026-11-11T08:02:13.052756+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D315"
+   ]
+  },
+  "https://pricingsaas.com/news/article/openart-added-seedream-to-its-pro-and-wonder-discount-promo": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/openart-added-seedream-to-its-pro-and-wonder-discount-promo.txt",
+   "title": "Openart added Seedream to its Pro and Wonder discount promo",
+   "published": "2026-11-11T07:02:21.834039+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/openart/diffs/2026D315",
+    "https://pricingsaas.com/companies/openart/diffs/2026D314"
+   ]
+  },
+  "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/cognition-cut-devin-s-teams-plan-user-cap.txt",
+   "title": "Cognition cut Devin's Teams plan user cap",
+   "published": "2026-11-11T06:38:08.229391+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/cognition/diffs/2026D315",
+    "https://pricingsaas.com/companies/cloudflare/diffs/2026W46",
+    "https://pricingsaas.com/companies/livekit/diffs/2026W46"
+   ]
+  },
+  "https://pricingsaas.com/news/article/anthropic-launched-claude-sheets-and-whiteboards": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/anthropic-launched-claude-sheets-and-whiteboards.txt",
+   "title": "Anthropic launched Claude Sheets and Whiteboards",
+   "published": "2026-11-11T06:33:12.166972+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/anthropic/diffs/2026D315"
+   ]
+  },
+  "https://pricingsaas.com/news/article/openai-reframed-its-plan-taglines-around-use-cases": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/articles/openai-reframed-its-plan-taglines-around-use-cases.txt",
+   "title": "OpenAI reframed its plan taglines around use cases",
+   "published": "2026-11-11T06:30:23.999192+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/openai/diffs/2026D315",
+    "https://pricingsaas.com/companies/openai/diffs/2026D311",
+    "https://pricingsaas.com/companies/openai/diffs/2026D312"
+   ]
+  },
+  "https://pricingsaas.com/companies/attio/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/attio__2026D315.txt",
+   "title": "Attio pricing history: free plan, from $40/mo | PricingSaaS",
+   "report_id": "attio:2026-W47"
+  },
+  "https://pricingsaas.com/companies/together/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/together-added-a-us-geo-pinned-premium-tier-for-serverless-models"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/together__2026D315.txt",
+   "title": "Together AI pricing history | PricingSaaS",
+   "report_id": "together:2026-W47"
+  },
+  "https://pricingsaas.com/companies/datadog/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/datadog-launched-end-user-device-monitoring-as-an-add-on"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/datadog__2026D315.txt",
+   "title": "Datadog pricing: free plan, from $15/host/mo | PricingSaaS",
+   "report_id": "datadog:2026-W47"
+  },
+  "https://pricingsaas.com/companies/slack/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/slack-moved-slackbot-to-tiered-usage-limits"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/slack__2026D315.txt",
+   "title": "Slack shifts Slackbot to usage limits, noting 15 messages per user weekly — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "slack:2026-W47"
+  },
+  "https://pricingsaas.com/companies/openart/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openart-added-seedream-to-its-pro-and-wonder-discount-promo"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/openart__2026D315.txt",
+   "title": "OpenArt extends up to 50% off promo to Seedream 5.5 on Pro, Wonder — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "openart:2026-W47#2"
+  },
+  "https://pricingsaas.com/companies/cognition/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/cognition__2026D315.txt",
+   "title": "Devin halves Team plan user cap to 100, adds ChatGPT plan support — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "cognition:2026-W47"
+  },
+  "https://pricingsaas.com/companies/cloudflare/diffs/2026W46": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/cloudflare__2026W46.txt",
+   "title": "Cloudflare pricing: free plan, from $7/user/mo | PricingSaaS",
+   "report_id": "cloudflare:2026-W46"
+  },
+  "https://pricingsaas.com/companies/anthropic/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/anthropic-launched-claude-sheets-and-whiteboards"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/anthropic__2026D315.txt",
+   "title": "Anthropic launches Claude Sheets and Whiteboards, rebrands Dashboards as Data — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "anthropic:2026-W47"
+  },
+  "https://pricingsaas.com/companies/openai/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openai-reframed-its-plan-taglines-around-use-cases"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/openai__2026D315.txt",
+   "title": "OpenAI reframes all four plan taglines with new Best for use-case pitches — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "openai:2026-W47"
+  },
+  "https://pricingsaas.com/companies/openai/diffs/2026D311": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openai-reframed-its-plan-taglines-around-use-cases"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/openai__2026D311.txt",
+   "title": "OpenAI refreshes Free, Go, Plus and Pro taglines with benefit-led copy — Nov 7, 2026 · PricingSaaS Pulse",
+   "report_id": "openai:2026-W46"
+  },
+  "https://pricingsaas.com/companies/openai/diffs/2026D312": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/openai-reframed-its-plan-taglines-around-use-cases"
+   ],
+   "fetched_at": "2026-11-11T07:31:04-05:00",
+   "file": "data/pricingsaas/pages/diffs/openai__2026D312.txt",
+   "title": "OpenAI: all four ChatGPT plan taglines rewritten to 'Best for...' framing — Nov 8, 2026 · PricingSaaS Pulse",
+   "report_id": "openai:2026-W46"
   }
  }
 }

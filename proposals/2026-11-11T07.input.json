@@ -1,0 +1,54 @@
+{
+ "run": "2026-11-11T07",
+ "changes": [
+  {
+   "diff_id": "slack-2026-11-11T07",
+   "company": "slack",
+   "unstable": false,
+   "before_file": "data/snapshots/slack/2026-11-09T07.txt",
+   "after_file": "data/snapshots/slack/2026-11-11T07.txt",
+   "last_old_at": "2026-11-09T07:00:00-05:00",
+   "first_new_at": "2026-11-10T19:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/slack-2026-11-11T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "readme-2026-11-11T07",
+   "company": "readme",
+   "unstable": false,
+   "before_file": "data/snapshots/readme/2026-10-30T07.txt",
+   "after_file": "data/snapshots/readme/2026-11-11T07.txt",
+   "last_old_at": "2026-11-10T19:00:00-05:00",
+   "first_new_at": "2026-11-10T19:38:43-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/readme-2026-11-11T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "airwallex-2026-11-11T07",
+   "company": "airwallex",
+   "unstable": false,
+   "before_file": "data/snapshots/airwallex/2026-11-10T07.txt",
+   "after_file": "data/snapshots/airwallex/2026-11-11T07.txt",
+   "last_old_at": "2026-11-10T07:00:05-05:00",
+   "first_new_at": "2026-11-10T19:38:43-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/airwallex-2026-11-11T07.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "ab-tasty-2026-11-11T07",
+   "company": "ab-tasty",
+   "unstable": true,
+   "before_file": "data/snapshots/ab-tasty/2026-11-08T19.txt",
+   "after_file": "data/snapshots/ab-tasty/2026-11-11T07_a.txt",
+   "alt_file": "data/snapshots/ab-tasty/2026-11-11T07_b.txt",
+   "last_old_at": "2026-11-10T07:00:05-05:00",
+   "first_new_at": "2026-11-11T07:00:03-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/ab-tasty-2026-11-11T07.diff",
+   "attempts": 0
+  }
+ ]
+}

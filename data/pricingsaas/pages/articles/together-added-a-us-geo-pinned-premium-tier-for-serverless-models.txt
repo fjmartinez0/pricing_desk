@@ -1,0 +1,45 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PACKAGING CHANGE
+Together added a US geo-pinned premium tier for serverless models
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 11, 2026
+Together added a premium, geo-pinned US tier priced about 25% higher for some serverless models.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 11, 2026
+What changed
+Pulse detected the change on Nov 11, 2026. Together added a new ‘US geo-pinned’ premium pricing tier carrying roughly a 25% surcharge for 7 serverless models, according to Together's pricing page as of Nov 11, 2026.
+The change also merged Together's GPU Cluster reserved-pricing structure: the 91-180-day and 181-day-plus tiers combined into a single live-availability 91-day-plus tier, per Together's pricing page as of Nov 11, 2026.
+Separately, Together raised the Tev1 4B Experimental input price from $0.04 to $0.042 per 1M tokens, according to Together's pricing page as of Nov 11, 2026.
+Why it matters
+The headline move is pricing data residency directly: Together is charging roughly 25% more to pin inference to US infrastructure for 7 serverless models, according to Together's pricing page as of Nov 11, 2026, which gives compliance-focused buyers a concrete number to budget against and gives packaging teams elsewhere a benchmark for what a location guarantee is worth on usage-priced infrastructure. Consolidating the GPU Cluster reserved-pricing tiers from 91-180/181-plus days into a single 91-plus-day tier, per Together's pricing page as of Nov 11, 2026, simplifies the reserved-capacity ladder, removing a now-defunct middle bracket. For a product leader, the broader signal is cadence: Pulse has tracked 42 real pricing-page changes at Together in the last 365 days, so this bundle of unrelated moves in a single diff is typical of how the company ships pricing updates, not an isolated event. Watch whether other inference providers start charging a premium for geographic pinning the way Together just did.
+In context
+Together is among Pulse's newest tracked companies, followed since Dec 29, 2025, and also among its most active: Pulse counts 42 real changes out of 53 pricing-page checks, averaging a change every 7 days, per Pulse's tracked history. This change lands just 4 days after Together raised Qwen3.7-Max inference prices 67% and dropped four serverless models on Nov 7, 2026, per Pulse's tracked history [[together/2026D311]]. That pace shows in market data too: Pulse tracked 4 price increases from Together in the last 180 days, tying Xways for the most of any company in that pattern, out of 91 price-increase changes across 77 companies in the window. Bundling a geo-pinned tier, a GPU-pricing simplification and a token-price nudge into a single diff fits Together's fast pace against the market's broader usage-billing pattern, where Pulse tracked 377 changes across 259 companies in the last 180 days, led by Pika with 8 [[pika]] and Lumaai with 7 [[lumaai]]. Watch whether the US geo-pinned premium becomes standard across Together's catalog the way its token-price tweaks already are.
+Common questions
+Which 7 models get the US geo-pinned option?
+Check Together's live pricing page for the exact roster — the item doesn't name all 7 by model name, only that each now carries a geo-pinned badge as of Nov 11, 2026, per Together's pricing page. Confirm the badge is on the model you use before assuming the surcharge applies.
+Does merging the GPU Cluster day tiers raise or lower reserved pricing for 91-180 day commitments?
+Together's pricing page doesn't say whether the new 91-day-plus rate, as shown on Nov 11, 2026, is higher or lower than the old 91-180-day bracket it replaced. If you're mid-commitment in that range, ask your Together account contact directly rather than assuming the merge was neutral.
+Does the geo-pinning surcharge also apply to GPU Cluster reserved pricing?
+The item only describes the geo-pinned surcharge applying to 7 serverless models; it doesn't mention the surcharge extending to Together's GPU Cluster reserved pricing, which merged its day-based tiers separately in this same update as of Nov 11, 2026. Confirm with Together directly if you need geo-pinning on reserved capacity too.
+Sources
+Pulse: Together pricing changes, Nov 11, 2026pricingsaas.com/companies/together/diffs/2026D315
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+P
+Pika
+Pika cut Nano Banana 2's image cost from 8 to 7 credits
+C
+Cognition
+Cognition cut Devin's Teams plan user cap
+V
+Vercel
+Vercel's trace retention extension is one arm of a live A/B test
