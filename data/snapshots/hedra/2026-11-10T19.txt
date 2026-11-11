@@ -1,0 +1,142 @@
+=== https://www.hedra.com/pricing ===
+Pricing
+Production inference
+Optimize and serve your own model on Hedra infrastructure.
+$0.001972
+B300 / GPU-second
+View GPU ratesDiscuss deployment
+Model training & GPU Sandboxes
+Research preview
+Run training, evaluation and your own model code on GPUs.
+$0.001972
+B300 / GPU-second
+View compute ratesDiscuss compute
+Model Factory
+Build or improve a model with our forward deployed researchers.
+Custom
+priced per engagement
+How pricing worksDiscuss your model
+GPU compute
+Per second
+Per hour
+GPU compute priced per GPU-second; training and GPU Sandboxes are research previews.
+GPU
+Dedicated inference
+Model training
+Research preview
+GPU Sandboxes
+Research preview
+NVIDIA B300
+$7.0992 / GPU-hour equivalent
+$0.001972
+per GPU-second
+$0.001972
+per GPU-second
+$0.001972
+per GPU-second
+NVIDIA B200
+$6.2496 / GPU-hour equivalent
+$0.001736
+per GPU-second
+$0.001736
+per GPU-second
+$0.001736
+per GPU-second
+NVIDIA RTX PRO 6000
+$3.0312 / GPU-hour equivalent
+$0.000842
+per GPU-second
+$0.000842
+per GPU-second
+$0.000842
+per GPU-second
+AMD Instinct MI355X
+From $2.95 / GPU-hour reference
+$0.00081944
+per GPU-second
+$0.00081944
+per GPU-second
+$0.00081944
+per GPU-second
+AMD Instinct MI455X
+Research preview
+Contact us
+for pricing
+Contact us
+for pricing
+Contact us
+for pricing
+Other GPU options? Contact us
+Reserved GPU capacity
+Example reserved configuration
+GPU
+NVIDIA B200
+Allocation
+8 GPUs · 30 days
+Placement
+Region confirmed with quote
+Workload & start
+Production serving · start by agreement
+Illustrative Modal baseline
+$0.001736 / GPU-second
+30-day GPU allocation: $35,997.70
+8 GPUs × 2,592,000 seconds each
+GPU-only estimate; resource inclusions confirmed in quote.
+Assumes a full 30-day allocation at Modal’s list rate, with no reservation discount. Capacity, start date and terms require a quote. Research is scoped separately.
+Discuss reserved capacity
+GPU cost estimator
+Product
+GPU
+GPU count
+Billable hours per GPU / month
+GPU cost = 4 GPUs × 100 billable hours × 3,600 seconds × $0.000842.
+Estimated monthly cost
+$1,212.48
+USD / month
+GPU compute · 400 GPU-hours
+$1,212.48
+Discuss this configuration
+GPU-only estimate. Included resources and billing terms are confirmed in your quote; research and negotiated reservations are scoped separately.
+Model Factory & Enterprise
+Model Factory
+Research and development, compute and production serving are itemized in your proposal.
+Your proposal
+Research & development
+Scoped engagement fee
+Training & experiments
+Metered compute
+Production serving
+Per GPU-second
+Discuss your model problemHow we work
+Enterprise
+Pricing reflects your configuration, deployment and commitment. Discuss volume, capacity and support with our team.
+Commercial terms
+Capacity commitment
+Agreed GPU count & term
+Committed compute rate
+Negotiated per GPU-second
+Support & service terms
+Defined in your agreement
+Talk to our teamWorking with Hedra
+Existing Model API customers
+Usage is charged at each model’s published rate from a prepaid USD API wallet. Model API usage has no subscription, seat fee or minimum. For image, video and audio jobs, the estimate endpoint returns a price estimate, creates no job and does not guarantee a completion time. A request your wallet can’t fund returns an insufficient-balance error; check the details and add funds before retrying.
+Model API ratesAPI documentationPlay pricing
+Billing FAQ
+How are production inference, model training and GPU Sandboxes priced?
+GPU compute is priced per GPU-second. Your quote confirms the supported hardware, rates, included resources and billing terms. Model training and GPU Sandboxes are research previews.
+Is dedicated inference the same as reserved GPU capacity?
+Dedicated inference describes how your model is served. A reservation is a commercial commitment for agreed GPU capacity and a term. Confirm the supported workload, allocation, start date and billing terms with our team.
+How is a Model Factory engagement priced?
+Model Factory combines a scoped research engagement with compute for experiments and production serving. Your proposal identifies the research scope and compute charges. Bring us the problem you need to solve; you don’t need a finished model or complete dataset to start.
+Can I buy compute without a research engagement?
+Yes. You can discuss production inference or compute directly, or scope research and model development through Model Factory. Model training and GPU Sandboxes remain research previews.
+Where can existing Model API customers find rates?
+View Model API rates for current model-specific prices and configurations. Existing Model API calls use a prepaid USD wallet, separate from Play subscriptions. These catalog prices do not apply to custom-model compute or research engagements.
+Do Play subscriptions and API usage share credits?
+No. Play subscription credits and the API wallet are separate. The REST API and CLI use the API wallet. MCP uses the billing mode selected in your MCP settings.
+Still have a billing question? Email support@hedra.com, or talk to our team about an engagement.
+Self-serve access and
+custom engagements.
+Talk to our teamStart building
+Hedra
+Get started
