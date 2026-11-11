@@ -28,7 +28,7 @@ if ! mkdir "$LOCK" 2>/dev/null; then
   else echo "another run is active; exiting"; exit 0; fi
 fi
 trap 'rm -rf "$LOCK"' EXIT
-rm -f ".run/problems_$RUN.jsonl" ".run/agent_limited_$RUN"   # a 2nd run in the same hour starts clean
+rm -f ".run/problems_$RUN.jsonl" ".run/agent_limited_$RUN" ".run/agent_auth_$RUN" .run/agent_error_"$RUN"_*   # a 2nd run in the same hour starts clean
 
 fail() {
   echo "FAILED at: $1"
@@ -39,7 +39,7 @@ fail() {
 }
 step() { echo "== $1"; }
 agent() {   # run one agent task unless this run already hit the Claude usage limit
-  if [ -f ".run/agent_limited_$RUN" ]; then echo "agent: skipped ($(basename "$1" .md)): usage limit"; return 0; fi
+  if [ -f ".run/agent_limited_$RUN" ]; then echo "agent: skipped ($(basename "$1" .md)): usage limit or login"; return 0; fi
   bash scripts/run_agent.sh "$@"
 }
 has() { python3 -c "import json,sys; d=json.load(open('$1')); sys.exit(0 if d.get('$2') else 1)" 2>/dev/null; }

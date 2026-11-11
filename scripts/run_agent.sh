@@ -33,17 +33,33 @@ claude -p "$PROMPT" \
   --max-turns "${CLAUDE_MAX_TURNS:-250}" --no-session-persistence \
   --output-format json > "$OUT_JSON" || echo "agent exited $? (tolerated; the merge step checks the proposal)"
 
-if python3 - "$OUT_JSON" <<'PY'
+# Classify a failed call: a usage limit or an expired login stops the remaining agent tasks of this run
+# (they would fail the same way); any other error is logged with Claude's own message (D55).
+kind="$(python3 - "$OUT_JSON" <<'PY'
 import json, re, sys
 try:
     d = json.load(open(sys.argv[1]))
 except Exception:
-    sys.exit(1)
+    print("error\tno JSON answer from claude (see the log above)"); sys.exit()
+if not d.get("is_error"):
+    sys.exit()
 text = str(d.get("result", "")) + " " + str(d.get("subtype", ""))
-limited = d.get("is_error") and re.search(r"usage limit|rate limit|limit reached|hit your limit|out of (extra )?usage", text, re.I)
-sys.exit(0 if limited else 1)
+if re.search(r"usage limit|rate limit|limit reached|hit your limit|out of (extra )?usage", text, re.I):
+    print("limit")
+elif re.search(r"authenticat|oauth|log ?in|api key|unauthori[sz]ed|credential", text, re.I):
+    print("auth\t" + " ".join(text.split())[:200])
+else:
+    print("error\t" + " ".join(text.split())[:200])
 PY
-then
-  echo "agent: usage limit reached; remaining agent tasks are skipped this run"
-  touch ".run/agent_limited_${PD_RUN_ID}"
-fi
+)"
+case "${kind%%$'\t'*}" in
+  limit)
+    echo "agent: usage limit reached; remaining agent tasks are skipped this run"
+    touch ".run/agent_limited_${PD_RUN_ID}" ;;
+  auth)
+    echo "agent: Claude login failed: ${kind#*$'\t'}"
+    touch ".run/agent_limited_${PD_RUN_ID}" ".run/agent_auth_${PD_RUN_ID}" ;;
+  error)
+    echo "agent: error: ${kind#*$'\t'}"
+    printf '%s\n' "${kind#*$'\t'}" > ".run/agent_error_${PD_RUN_ID}_${name}" ;;
+esac

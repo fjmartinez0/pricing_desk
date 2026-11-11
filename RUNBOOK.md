@@ -61,3 +61,9 @@ Lines saying "unknown or already decided report_id" are expected: later runs dec
 `scripts/check_page.py` found a record or view the page can't draw; everything after it on the page stays empty.
 The data is published and safe. Run `pdpy scripts/check_page.py` to see which tab/period fails, and send the
 `page error:` lines with the record id to fix the template.
+
+## Alert: "Claude login on the Mac mini has expired"
+In Terminal: `claude`, then `/login` (finish in the browser), then `/exit`. Check with
+`claude -p "say ok" --model sonnet`. Nothing is lost: queued changes and reports are decided on the next run;
+to catch up at once, `bash scripts/install_mac.sh --run-now` (outside 06:55–07:15 and 18:55–19:15).
+

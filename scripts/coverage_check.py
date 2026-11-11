@@ -19,6 +19,14 @@ def main() -> int:
     ap.add_argument("--run", default=run_id())
     run = ap.parse_args().run
 
+    if (RUN / f"agent_auth_{run}").exists():
+        report_problem("Claude login on the Mac mini has expired, so the agent did nothing this run. "
+                       "Fix: in Terminal run `claude`, then /login, then /exit. Nothing is lost; everything "
+                       "queued is decided on the next run.", "agent")
+        log("coverage check done (agent skipped: login expired)")
+        return 0
+    for f in sorted(RUN.glob(f"agent_error_{run}_*")):
+        report_problem(f"Agent task {f.name.split('_', 3)[-1]} failed: {f.read_text().strip()}", "agent")
     if (RUN / f"agent_limited_{run}").exists():
         report_problem("Claude usage limit reached: the agent tasks were skipped this run. Nothing is lost; "
                        "every queued change and report is retried on the next run.", "agent")
