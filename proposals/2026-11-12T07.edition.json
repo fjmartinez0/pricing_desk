@@ -1,0 +1,223 @@
+{
+ "type": "edition",
+ "run": "2026-11-12T07",
+ "week": "2026-W46",
+ "news": [
+  {
+   "id": "gbb-labs-api-credits",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "6 Nov",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "Why the Labs are Giving away API Credits",
+   "url": "https://newsletter.pricingsaas.com/p/why-the-labs-are-giving-away-api-credits",
+   "gist": "Flat AI subscriptions lose money on heavy users, so Anthropic and OpenAI added expiring monthly API credits to their higher tiers: the subscription brings the user in and the API grows what they spend.",
+   "points": [
+    "Raising prices risks losing light users and forcing usage pricing feels hostile, so bundled credits are pitched as a third route",
+    "The credits reset each billing cycle, don’t raise chat limits, and skip the cheapest plans such as Claude Pro and ChatGPT Plus",
+    "OpenAI reportedly halved the value of its $200 ChatGPT plan this fall, then reverted after pushback",
+    "Advice: keep the subscription, offer clear pay-as-you-go, size credits plan by plan and make buying more usage a one-click step"
+   ],
+   "nums": [
+    ["42%", "share of compute used by subscriptions, against 10% of revenue, in a rough SemiAnalysis estimate"],
+    ["92%", "estimated gross margin on API usage, against 50% on subscriptions"],
+    ["$500", "monthly cap on pooled credits for Anthropic Team and OpenAI Business plans"],
+    ["$39", "price of GitHub Copilot Pro+, which includes $39 in AI credits"],
+    ["324+", "pricing and packaging changes the newsletter observed that week"]
+   ],
+   "why": "Credits that expire every month are worth only what your team actually uses, so compare a cycle’s real consumption with the same usage on pay-as-you-go before upgrading for them."
+  },
+  {
+   "id": "gu-agents-messaging",
+   "lead": false,
+   "src": "Growth Unhinged",
+   "by": "Isabel Macdonald",
+   "date": "4 Nov",
+   "topic": "AI packaging",
+   "rel": false,
+   "title": "Your customers don’t just want an agent. They want agents.",
+   "url": "https://www.growthunhinged.com/p/ai-agent-messaging-study",
+   "gist": "An Irrational Labs experiment found that calling a product one AI agent didn’t lift buying interest, while presenting it as a team of agents did, even though buyers thought that version looked harder to use.",
+   "points": [
+    "Buyers saw the same page for real calendaring, social media and accounting tools, with only headers and feature labels changed",
+    "Stated willingness to pay ranked the team framing highest, but none of the gaps were statistically significant",
+    "The authors point to the unpacking effect: splitting a whole into named parts makes it seem worth more",
+    "They advise showing each job the product does and cutting filler features, not rebranding everything as agents"
+   ],
+   "nums": [
+    ["1,014", "US software buyers in the experiment"],
+    ["6.3 percentage points", "higher likelihood to want the product with the team framing than with the single-agent one"]
+   ],
+   "why": "When a vendor splits a product into several named agents or prices per agent, compare the jobs actually done rather than the number of agents listed."
+  },
+  {
+   "id": "agentdeals-w45",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "2–8 Nov",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Pricing Changes: November 2–8, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w45",
+   "gist": "A mixed developer-tools week: Ably moved to pricing by monthly active users and capped its Free package for the first time, while LogRocket brought back a free plan and Unkey lengthened log retention at no charge.",
+   "points": [
+    "Google is retiring Gemini 2.5 Pro and Flash on 1 Dec and will answer their requests with newer models, billed at those models’ rates",
+    "Cloudflare AI Search starts usage billing on 1 Dec, a month later than first planned",
+    "Together AI removed several serverless models and pointed users to replacements that carry their own rates",
+    "Screenshotlayer’s Free plan is now for non-commercial use only, with the same 100 snapshots a month"
+   ],
+   "nums": [
+    ["500", "monthly active users allowed on Ably’s Free package, which had no such cap before"],
+    ["1,000", "sessions a month on LogRocket’s returning Free plan"],
+    ["90 days", "Unkey Pro log and audit-log retention, up from 7 and 14 days"],
+    ["$0.75", "Cloudflare AI Search overage per million ingestion tokens"]
+   ],
+   "why": "Forced model migrations can change your bill without any action on your part, so check which deprecated models you call before 1 December."
+  },
+  {
+   "id": "agentdeals-nov",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "Nov 2026",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Report: November 2026",
+   "url": "https://agentdeals.dev/reports/2026-11",
+   "gist": "AgentDeals’ month-to-date tally for November, through the 12th, has more developer-tool changes in buyers’ favor than against them, a turn after an October that ran heavily against buyers.",
+   "points": [
+    "On the negative side, Cloudflare for Startups stopped covering Workers AI for new members, and Ably capped its Free package",
+    "Bitrise’s Hobby plan now allows unlimited team members and more build minutes, but requires card verification",
+    "Val Town is winding down: new sign-ups ended on 10 Nov and all its services end on 10 Jan 2027",
+    "Further changes are scheduled before month end, mostly model retirements at Google, OpenAI, Anthropic and Cloudflare"
+   ],
+   "nums": [
+    ["7", "developer-tool pricing changes logged from 1 to 12 November"],
+    ["3 vs 2", "positive vs negative changes so far this month"],
+    ["-14", "change in the count of negative moves against October"]
+   ],
+   "why": "One good fortnight doesn’t undo months of shrinking free tiers; check the scheduled model retirements and startup-credit terms before setting next year’s tooling budget."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Upstream AI rates went up",
+   "p": "GPU-hour and token prices rose at the infrastructure layer, and AI add-ons priced per use followed. Vendors that resell this compute may pass it on next. Lambda Labs, Front and Mentionlytics come from PricingSaaS reports.",
+   "points": [
+    {"id": "together-ai-2026w46", "text": "raised Qwen3.7-Max serverless rates from $1.50 input / $4.50 output to $2.50 / $7.50 per 1M tokens"},
+    {"id": "crusoe-2026w46", "text": "will raise self-serve GPU rates from Dec 1, with H200 going from $6.00 to $7.50 per GPU-hr"},
+    {"id": "lambda-labs-2026w46", "text": "raises on-demand H100 instances from $3.99 to $4.59 per GPU per hour from Nov 16"},
+    {"id": "front-2026w46", "text": "raised its Autopilot AI agent from $0.05 to $0.39 per conversation"},
+    {"id": "mentionlytics-2026w46", "text": "raised the AI Visibility add-on from $49 to $59 on Essential and from $559 to $699 on Enterprise"}
+   ]
+  },
+  {
+   "t": "Same price, fewer generations",
+   "p": "AI apps kept their plan prices but cut what a plan’s credits buy, which is a price rise that never shows on the price line. All six come from PricingSaaS reports, which flag Krea’s change as one arm of an A/B test.",
+   "points": [
+    {"id": "pika-2026w46", "text": "cut Starter monthly credits from 900 to 600 and Creator from 3,150 to 2,600 at unchanged $10 and $35 prices"},
+    {"id": "krea-2026w46", "text": "raised Nano Banana 2.1 from about 22 to 25 units per image, so the Basic estimate falls from 225 to 200 images"},
+    {"id": "veo3-ai-2026w46", "text": "cut monthly NanoBanana Pro image caps, Mini from 100 to 66 and Standard from 500 to 333, with prices unchanged"},
+    {"id": "snaptrude-2026w46", "text": "cut Max credits from 2,500 to 1,000 per seat a month while keeping Max at $100"},
+    {"id": "qodo-2026w46", "text": "shrank Pro Team credit packs from 2,500/5,000/20,000 to 2,000/4,000/16,000 credits at unchanged prices"},
+    {"id": "supermetrics-2026w46", "text": "stopped listing the 4,000 Starter and 12,000 Growth monthly Studio AI credit allowances on its plan cards"}
+   ]
+  },
+  {
+   "t": "Free plans shrink or disappear",
+   "p": "Several vendors dropped free plans outright or turned recurring free allowances into one-time grants, so a free start now leads to a paid plan sooner. All but Breezy HR come from PricingSaaS reports.",
+   "points": [
+    {"id": "breezy-hr-2026w46", "text": "stopped showing its free-forever Bootstrap plan, making Startup at $157/mo the entry plan"},
+    {"id": "hevo-2026w46", "text": "removed its Free plan and split pricing into usage-based Starter and Professional plus a fixed-price Enterprise"},
+    {"id": "smarte-2026w46", "text": "dropped its Free ($0, 10 credits) and Pro ($25/mo) plans, leaving one unlimited-user subscription at $15,000"},
+    {"id": "dovetail-2026w46", "text": "replaced Free and Enterprise with Dovetail One tiers, starting with Bronze at $4,800/yr plus credits at $0.15"},
+    {"id": "cargo-2026w46", "text": "turned 100 free credits a month into a one-time grant in the first month"},
+    {"id": "okzest-2026w46", "text": "cut the free allowance from 2,500 watermarked images a month to 500 images in total"},
+    {"id": "mightyforms-2026w46", "text": "halved free responses from 100 to 50 a month"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "More changes cost buyers more than saved them money",
+   "fig": "56 vs 34",
+   "figNote": "changes that cost buyers more vs less; the other 40 repackage",
+   "p": "List-price increases outnumbered cuts two to one, 22 against 11. The rises ran from Front’s per-conversation agent fee to Lightfield, Recharge and MailSlurp lifting mid and entry plans by half, while TaxSlayer, Cedreo and Fill made the deepest cuts. Most of these records come from PricingSaaS reports.",
+   "ids": ["front-2026w46", "lightfield-2026w46", "recharge-2026w46", "mailslurp-2026w46", "taxslayer-2026w46", "cedreo-2026w46", "fill-2026w46"]
+  },
+  {
+   "t": "Nearly half the week involved AI",
+   "fig": "57 of 130",
+   "figNote": "changes that touch AI features or AI pricing",
+   "p": "AI changes cover the whole range: token and per-conversation rates went up, image credits bought less, and quota systems gave way to credit wallets at Letta and FlutterFlow. LogicMonitor now includes AI credits with each Hybrid Unit while raising two of its three unit rates.",
+   "ids": ["together-ai-2026w46", "front-2026w46", "pika-2026w46", "letta-2026w46", "flutterflow-2026w46", "logicmonitor-2026w46"]
+  },
+  {
+   "t": "Limits moved both ways in equal measure",
+   "fig": "15 vs 15",
+   "figNote": "changes that loosen vs tighten a limit",
+   "p": "Looser limits clustered in developer infrastructure, such as Render’s uncapped sandboxes, Vercel’s longer trace retention and LeadMagic’s doubled exports. Tighter ones clustered in AI generation credits and free plans. Most loosened limits are our own captures, while almost all tightened ones come from PricingSaaS reports, so the balance partly reflects which pages each source watches.",
+   "ids": ["render-2026w46", "vercel-2026w46", "leadmagic-2026w46-2", "bitrise-2026w46-2", "pagerduty-2026w46", "snaptrude-2026w46", "okzest-2026w46"]
+  },
+  {
+   "t": "Vendors changed what they count",
+   "fig": "15 of 130",
+   "figNote": "changes that switch the unit a price is counted in",
+   "p": "TaxDome moved from seats to clients, Seam from devices to credit packs, Ably from usage to monthly active users and ApprovalMax from organization count to document volume. Cohere moved Model Vault to per-GPU rates and FunnelStory moved its agents to outcome-based billing. A unit switch can raise or lower a bill without any headline price change, so rerun your own volumes.",
+   "ids": ["taxdome-2026w46", "seam-2026w46", "ably-2026w46", "approvalmax-2026w46", "cohere-2026w46", "funnelstory-2026w46", "getprospect-2026w46"]
+  },
+  {
+   "t": "The top of the list is mostly repackaging",
+   "fig": "9 of 130",
+   "figNote": "changes rated relevant this week",
+   "p": "Four of the nine repackage: Salesforce moved Momentum out of Core, PagerDuty reshuffled what its flat fees include, Cohere changed Model Vault’s unit and Render dropped a sandbox limit. Three make things cheaper and two raise prices, Together AI’s token rates and Wispr Flow’s smaller educator discount. All nine are our own captures.",
+   "ids": ["salesforce-2026w46", "pagerduty-2026w46", "cohere-2026w46", "render-2026w46-2", "render-2026w46", "wispr-flow-2026w46", "aircall-2026w46", "together-ai-2026w46", "wispr-flow-2026w46-2"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Included credits become the default way to sell AI",
+   "p": "In three straight issues Good Better Best has moved from Notion’s split wallets to credit-design lessons from Gong, Miro and Databricks to the labs bundling API credits into subscriptions. Our records show the same shift: Letta and FlutterFlow swapped fixed AI quotas for credit allowances this week, after ClickUp and Anthropic rebuilt plans around included AI usage the week before.",
+   "nums": [
+    ["$500", "monthly cap on pooled API credits for Anthropic Team and OpenAI Business plans"],
+    ["21%", "share of AI pricing moves that were credit pricing in PricingSaaS’s week-42 count"]
+   ],
+   "news": ["gbb-labs-api-credits", "gbb-credit-lessons", "notion-credits", "pricingsaas-w42"],
+   "changes": ["letta-2026w46", "flutterflow-2026w46", "logicmonitor-2026w46", "clickup-2026w45", "anthropic-2026w45"]
+  },
+  {
+   "t": "Free developer tiers: steady erosion, then a mixed start to November",
+   "p": "AgentDeals logged almost only negative developer-tool moves through October, mostly shrinking free allowances, but its November tally so far tilts positive with LogRocket’s returning free plan and Unkey’s longer retention. Our sample has not turned yet: Hevo, Cargo and Breezy HR cut free access this week, most of it from PricingSaaS reports.",
+   "nums": [
+    ["14 vs 1", "negative vs positive developer-tool changes in October, in AgentDeals’ final count"],
+    ["3 vs 2", "positive vs negative changes in November through the 12th"]
+   ],
+   "news": ["agentdeals-nov", "agentdeals-w45", "agentdeals-oct-final", "agentdeals-oct", "agentdeals-w44"],
+   "changes": ["ably-2026w46", "hevo-2026w46", "cargo-2026w46", "breezy-hr-2026w46", "bitrise-2026w46-2"]
+  },
+  {
+   "t": "Model retirements reprice usage by default",
+   "p": "AgentDeals’ digests since mid-October keep listing retired models whose traffic is rerouted or cut off, and the replacement is billed at its own, often higher, rates. This week Together AI removed a Qwen model and named Qwen3.7-Max as its replacement, in the same week it raised Qwen3.7-Max rates by about two thirds.",
+   "nums": [
+    ["$2.50/$7.50", "Together AI’s Qwen3.7-Max input/output rates, the named replacement for a removed model"],
+    ["2026-12-31", "date HiveMQ retires its Serverless plan, free tier included"]
+   ],
+   "news": ["agentdeals-w45", "agentdeals-nov", "agentdeals-w43"],
+   "changes": ["together-ai-2026w46"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Screenshotlayer",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["screenshotlayer.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w45",
+   "why": "Its Free plan was limited to non-commercial use some time between 20 Aug and 7 Nov 2026, at the same 100 snapshots a month."
+  }
+ ]
+}

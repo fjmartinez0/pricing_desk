@@ -958,7 +958,7 @@
     "bloomerang.com",
     "bloomerang.co"
    ],
-   "capture": "static",
+   "capture": "browser",
    "status": "active",
    "aiNative": false,
    "ownership": null,
@@ -23261,7 +23261,7 @@
     "checkr.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35554,10 +35554,14 @@
    "category": "Project Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.bluebeam.com/pricing"
+   ],
+   "domains": [
+    "bluebeam.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35629,10 +35633,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.bigcommerce.com/pricing/"
+   ],
+   "domains": [
+    "bigcommerce.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35704,10 +35712,14 @@
    "category": "Finance & Accounting",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.anedot.com/pricing"
+   ],
+   "domains": [
+    "anedot.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35754,10 +35766,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.afi.ai/pricing"
+   ],
+   "domains": [
+    "afi.ai"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35772,6 +35788,30 @@
    "ps_slugs": [
     "afi"
    ]
+  },
+  "screenshotlayer": {
+   "name": "Screenshotlayer",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "screenshotlayer.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-12",
+   "source": "agent 2026-11-12T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w45",
+   "url_attempts": 0,
+   "notes": "Its Free plan was limited to non-commercial use some time between 20 Aug and 7 Nov 2026, at the same 100 snapshots a month."
   }
  }
 }

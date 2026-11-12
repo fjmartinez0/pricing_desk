@@ -32259,7 +32259,8 @@
    "first_seen": "2026-11-10T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans"
+    "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans",
+    "https://pricingsaas.com/news/article/langchain-renamed-langsmith-deployment-to-agent-server"
    ],
    "fetched_at": "2026-11-10T07:30:11-05:00",
    "file": "data/pricingsaas/pages/diffs/captions__2026D314.txt",
@@ -32489,7 +32490,8 @@
    "first_seen": "2026-11-11T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap"
+    "https://pricingsaas.com/news/article/cognition-cut-devin-s-teams-plan-user-cap",
+    "https://pricingsaas.com/news/article/langchain-renamed-langsmith-deployment-to-agent-server"
    ],
    "fetched_at": "2026-11-11T07:31:04-05:00",
    "file": "data/pricingsaas/pages/diffs/cloudflare__2026W46.txt",
@@ -32576,6 +32578,36 @@
    "file": "data/pricingsaas/pages/diffs/mindsdb__2026D315.txt",
    "title": "MindsDB lists Muse Ember 1.0 at $0.10 input / $0.50 output per 1M tokens — Nov 11, 2026 · PricingSaaS Pulse",
    "report_id": "mindsdb:2026-W47"
+  },
+  "https://pricingsaas.com/news/article/langchain-renamed-langsmith-deployment-to-agent-server": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-12T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-12T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/articles/langchain-renamed-langsmith-deployment-to-agent-server.txt",
+   "title": "LangChain renamed LangSmith Deployment to Agent Server",
+   "published": "2026-11-12T07:05:09.572742+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/langchain/diffs/2026D316",
+    "https://pricingsaas.com/companies/captions/diffs/2026D314",
+    "https://pricingsaas.com/companies/cloudflare/diffs/2026W46"
+   ]
+  },
+  "https://pricingsaas.com/companies/langchain/diffs/2026D316": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-12T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/langchain-renamed-langsmith-deployment-to-agent-server"
+   ],
+   "fetched_at": "2026-11-12T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/diffs/langchain__2026D316.txt",
+   "title": "LangChain renames LangSmith Deployment to Agent Server, pricing unchanged — Nov 12, 2026 · PricingSaaS Pulse",
+   "report_id": "langchain:2026-W47"
   }
  }
 }

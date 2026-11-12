@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+L
+LangChain
+POSITIONING
+LangChain renamed LangSmith Deployment to Agent Server
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 12, 2026
+LangChain renamed its LangSmith Deployment product to Agent Server.
+See before and after
+Enlarge
+LangChain’s pricing page · Change detected Nov 12, 2026
+AGENT SERVER·first seen Nov 12, 2026
+What changed
+LangChain renamed the 'Deployment' product to 'Agent Server' across LangSmith's pricing page; Pulse detected the change on Nov 12, 2026. The Plus plan's access bullet now reads 'Access to Agent Server, Engine, and more,' replacing 'Access to Deployment, Engine, and more,' and the same swap runs through LangSmith's usage-metered pricing row for the same product. Per LangSmith's pricing page as of Nov 12, 2026, the free Serverless (Small) instance allowance stays at 1 and none of the underlying rates moved — this is a naming change, not a pricing change.
+Why it matters
+For a product leader, a rename alone changes nothing about what a team pays — but LangChain's rename lands just 41 days after it merged LCU and LSU into one $1.00 Standard Unit on Oct 2, 2026, according to Pulse's record, and Pulse tracked 3 changes to LangChain's pricing page in the last 90 days. That cadence is the real signal: LangChain is actively reshaping how it talks about and meters agent infrastructure, even when a given change, like this one, doesn't touch price. Teams evaluating LangSmith for deployment should watch whether 'Agent Server' is a precursor to its own metered tier, the way 'Deployment' itself was restructured into size-based Serverless and Dedicated pricing in July 2026. Watch whether LangChain's next move touches the Agent Server rate itself, not just its name.
+In context
+Pulse has tracked 17 real pricing changes to LangChain's page since Jan 3, 2025, averaging one every 37 days, and counts this rename as one of 3 LangChain changes in the last 90 days — following the Oct 2, 2026 merge of LCU and LSU into one $1.00 Standard Unit. It also follows the July 2026 billing overhaul that first moved Deployment onto size-based Serverless and Dedicated metering — this rename just catches the name up to that restructuring. Credits-and-usage repositioning is common right now: Pulse tracked 377 such changes across 259 companies in the last 180 days, led by Pika and Lumaai, with peers like Captions and Cloudflare touching usage terms the same week. The sharper read: this specific move adds no cost and no capability — it's LangChain aligning its product name with the 'agent' framing the rest of its roadmap already uses, worth watching as a possible precursor to a metering change on Agent Server itself.
+Common questions
+Does this change what we'd pay?
+Nothing to recalculate — this is a label swap, not a rate change. If your team keeps runbooks, API docs or support macros that reference 'Deployment,' update them to 'Agent Server'; LangSmith's own pricing didn't move.
+Does our access or integration break because of the rename?
+No functional change either: the same access and endpoints sit behind the same Plus-plan line, just relabeled Agent Server — nothing on LangSmith's pricing page suggests an API or endpoint rename.
+What does the record not show?
+LangChain hasn't published its own reasoning for the rename — no blog post, changelog or announcement backs it up yet, so there's no confirmed rationale behind the 'Agent Server' name.
+Sources
+Pulse: LangChain pricing changes, Nov 12, 2026pricingsaas.com/companies/langchain/diffs/2026D316
+LangChain pricing pagelangchain.com/pricing-langsmith
+Keep exploring
+All changes from LangChainAll pricing news
+O
+OpenAI
+OpenAI reframed its plan taglines around use cases
+C
+Cohere
+Cohere moves Model Vault to per-GPU pricing at $3 to $12.50 an hour
+M
+Mercury
+Mercury added a free trial to Plus plan signups
