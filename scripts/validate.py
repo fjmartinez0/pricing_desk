@@ -100,9 +100,37 @@ def validate_desk(d: dict) -> list[str]:
     for n in d["news"]:
         if not is_http_url(n.get("url")):
             errs.append(f"news {n.get('id')}: url must be http(s)")
+    eds = d.get("editions") or {}
+    archive_ids = Counter(n.get("id") for ed in eds.values() for n in ed.get("news", []))
+    errs += [f"news id {i} used in {n} editions" for i, n in archive_ids.items() if n > 1]
     for t in d["news_trends"]:
-        if set(t.get("news", [])) - news_ids or set(t.get("changes", [])) - set(ids):
+        if set(t.get("news", [])) - news_ids - set(archive_ids) or set(t.get("changes", [])) - set(ids):
             errs.append(f"news_trends '{t.get('t')}' points to missing news or changes")
+    # Edition archive (D56): every stored edition is a known week and links only to existing records and stories.
+    for w, ed in eds.items():
+        if w not in order or ed.get("week") != w:
+            errs.append(f"edition {w}: unknown week")
+            continue
+        for n in ed.get("news", []):
+            if not is_http_url(n.get("url")):
+                errs.append(f"edition {w} news {n.get('id')}: url must be http(s)")
+            if n.get("points") is not None and not (isinstance(n["points"], list)
+                                                    and all(isinstance(x, str) for x in n["points"])):
+                errs.append(f"edition {w} news {n.get('id')}: points must be a list of text")
+        for section in ("patterns", "stats_analysis"):
+            for item in ed.get(section, []):
+                if set(item.get("ids", [])) - set(ids):
+                    errs.append(f"edition {w} {section} '{item.get('t')}' points to missing changes")
+                if ed.get("format", 1) >= 2 and section == "patterns":
+                    wk = {c["id"] for c in d["changes"] if c["week"] == w}
+                    pts = item.get("points") or []
+                    if not pts or any(x.get("id") not in wk for x in pts):
+                        errs.append(f"edition {w} pattern '{item.get('t')}': bullets must point to that week's changes")
+        for t in ed.get("news_trends", []):
+            if set(t.get("news", [])) - set(archive_ids) or set(t.get("changes", [])) - set(ids):
+                errs.append(f"edition {w} news_trends '{t.get('t')}' points to missing news or changes")
+    if eds and d["current_week"] in eds and [n["id"] for n in eds[d["current_week"]].get("news", [])] != [n["id"] for n in d["news"]]:
+        errs.append("current edition's news differ from editions[current_week]")
     return errs
 
 

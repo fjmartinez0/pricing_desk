@@ -57,6 +57,14 @@ again. Once the cause is fixed, recover what the failed run had decided (its pro
 `pdpy scripts/apply_proposals.py --run 2026-10-28T07 --recover`, then `pdpy scripts/validate.py`, commit and push.
 Lines saying "unknown or already decided report_id" are expected: later runs decided those reports again.
 
+## Edition archive and catch-up editions (D56)
+- Once, after installing D56: `pdpy scripts/restore_editions.py` (puts editions 42–46 back from git), then
+  `pdpy scripts/validate.py`, commit, push.
+- Runs with no edition due write one catch-up edition (log: "edition catch-up for 2026-Wnn"). A rejected one is
+  logged and tried once more; then **`Catch-up edition 2026-Wnn skipped after 2 tries: …`**, usually because too
+  few old stories were found. To retry, delete that week from `data/edition_backfill.json`. To rewrite a week
+  again, add it to `EDITION_BACKFILL` in `common.py`.
+
 ## Alert: "The page has N JavaScript error(s)"
 `scripts/check_page.py` found a record or view the page can't draw; everything after it on the page stays empty.
 The data is published and safe. Run `pdpy scripts/check_page.py` to see which tab/period fails, and send the

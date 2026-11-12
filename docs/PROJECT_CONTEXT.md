@@ -1,13 +1,13 @@
 # Pricing Desk: project context, decisions and next steps
 
-**Updated:** Sat 24 Oct 2026. **Supersedes** every earlier handoff (v1–v7).
+**Updated:** Wed 11 Nov 2026. **Supersedes** every earlier handoff (v1–v7).
 **Owner:** fmz. **Language:** English.
 
 > **Claude: read this first.**
 > This file, `BUILD_GUIDE.md` and `pricing_desk.zip` (the code) are everything the project needs.
 > 1. Read this file fully, then `BUILD_GUIDE.md`.
 > 2. Go to **§10 Next steps** and start with the first step that isn't marked done.
-> 3. Installation is done (§8). Use `pdpy` (python.org Python) for every project command, never `python3`.
+> 3. Installation is done (§9). Use `pdpy` (python.org Python) for every project command, never `python3`.
 > 4. Never weaken the rules in §5. They are what makes fully automatic publishing safe.
 
 ---
@@ -138,6 +138,22 @@ the job-board notes, and the job-posting status words.
 | D43 | **Page tweaks:** one coverage box per week view (`weekNoteHTML`), News newest first, masthead "Weekly edition", edition `period` = the week range. |
 | D44 | **Weekly edition stays** (Monday 19:00, captures twice a day). Decide on a daily "this week so far" panel after two weeks of data (around 8 Nov), based on how many Relevant changes arrive per day. |
 
+### Decisions of 24 Oct – 11 Nov 2026 (D45–D56)
+| # | Decision |
+|---|---|
+| D45 | **"Updated …" line** under the title: the last run time from `data/meta.json`, injected by `build_site.py` as `updated_at` (not stored in desk.json), shown in the reader's time zone, orange with "no update for …" after 36 hours. |
+| D46 | **Claude usage limits** (hit on 24 Oct after the backfill runs): classification tasks (changes, reports, registry) run on **Sonnet**, the weekly edition on **Opus** (`CLAUDE_MODEL_<TASK>` in config.env overrides). When Claude answers with a usage limit, the run skips the remaining agent tasks and sends one "usage limit, nothing lost" alert. Backlog changes and reports count an attempt only when the agent wrote a proposal and left them out, so a limit never makes the pipeline give items up. |
+| D47 | **Run ids are per hour** (`YYYY-MM-DDTHH`), so a manual run in the same hour as a scheduled one shares its id: it overwrites that run's proposal files (harmless) and used to re-send its problem alerts. Since 24 Oct a run clears `.run/problems_<run>.jsonl` and `.run/agent_limited_<run>` after taking the lock. |
+| D48 | **Move explorer (/feed) read every run.** The page embeds every row of PricingSaaS's latest weekly batch (about 200–280, one per company) even though its table shows 50; rows leave the free view after 7 days. Each run reads the embedded rows, keeps the list in `data/pricingsaas/feed/<period>.json` and follows each row's weekly diff page into the normal report queue. A saved copy of the page can be imported with `pricingsaas_capture.py --feed-file` (used for week 43 on 25 Oct). Reports go to the agent in up to `REPORTS_PARTS` (3) calls of `REPORTS_BATCH` (40) per run; a part the agent doesn't answer costs no attempt. |
+| D49 | **Edition moves to Tuesday 19:00** (`EDITION_READY_AFTER` 18 h → 42 h). PricingSaaS posts its weekly batch on Monday over several hours (week 44: from 06:00 Toronto), and the edition step reads the data before its own run merges new decisions. Tuesday 19:00 is the first run that sees the batch decided (two runs × 120 reports, newest week first). Amends D29. |
+| D50 | **Merge bug of 26–28 Oct fixed; merges are restorable.** The reported-records cap summed `None` when one of our own records (no `reported` key) shared a company and week with a PricingSaaS report, which first happened on 26 Oct; four runs (26T19, 27T07, 28T07, 28T19) stopped at merge. Because `update_backlog` had already saved, their decided page changes were lost from the backlog. Now a failed merge puts `backlog.json` and `reports.json` back, re-applied proposals skip what is already published, and `apply_proposals.py --run <id> --recover` re-applies an earlier run's changes and report decisions (not its edition or registry). |
+| D51 | **Backfill progress on the page; wider desktop layout.** `build_site.py` injects `backfill` (PricingSaaS reports still waiting per week, from `reports.json`, and how many changes PricingSaaS listed per week, from `data/pricingsaas/feed/`). The page shows a "Still filling weeks …" pill under the title while reports wait, and each week's note says how many remain; hand-built weeks completed from the full list get an accurate note instead of the stale "free 7-day view" text. From 1,000 px wide the page is 1,180 px (was 760) and change and news cards go two per row; running text keeps its 65ch measure. Missing news authors are no longer shown as "null". |
+| D52 | **Bot protection: browser fallback on refusal.** A static fetch answered with HTTP 401/403/429/503 now gets one browser try; if the browser page shows prices, the company switches to browser capture (OpenAI was refused from 25 Oct and paused on 31 Oct). The browser also accepts a page whose network never goes idle: after the 45 s wait it uses the loaded document (openai.com timed out on "networkidle"). A run that fails at a step now also sends the problems it had already raised (the "4 failed captures" alert for OpenAI was lost in the failed merges of 26 Oct). |
+| D53 | **Page crash of 3–6 Nov fixed; one entry per company and week; page check every run.** A short "line" record of a tier-1/2 company (SugarCRM, our own capture, week 45) was drawn as a full card, which needs before/after rows; the JavaScript error stopped the rest of the page from drawing (empty Statistics and Timeline, Period menu not redrawing). Cards now draw records with or without rows. Main Price Changes and the front page show one entry per company and week: a company with several changes that week gets one card with a section per change ("+ N more changes" on the front page). The multi-week coverage note says which weeks come from PricingSaaS's full list, which only from its weekly review, and which include our captures. `scripts/check_page.py` opens the built page in Chromium and goes through every tab, sub-view, period and category; any JavaScript error is a problem alert (step 7 of `run_daily.sh`, after validate; the data is still published). |
+| D54 | **Ranking by importance, the same across weeks.** Within a tier (market leaders, notable, others), changes are ordered by `desk.importance()`: company weight (1.5 for `HEADLINE_COMPANIES` in `common.py`: OpenAI, Anthropic, Microsoft 365, Google Workspace, Salesforce, Adobe, Shopify, Atlassian, GitHub) × who it hits (reach, or 3 for all/free plans, 2 entry/mid, 1 top/enterprise/add-on) × size (10 + % change, capped at 100; 15 when no %) × 1.5 for a list or unit price; one-line records count half. Stored as `score`; `rank` is the order within a week. A month or "all weeks" view ranks on `score` (before, it took each week’s #1, then each #2, so the month front page was one item per week, whatever its size). Every merge reranks every week. |
+| D55 | **Agent errors say what went wrong.** From 7 Nov 19:00 to 10 Nov the Claude Code login on the Mac had expired ("OAuth session expired and could not be refreshed"); every agent call failed on its first request, and the alerts only said "Agent wrote no decision". `run_agent.sh` now classifies a failed call: usage limit (as before), expired login (skips the run's remaining agent tasks and sends "Claude login on the Mac mini has expired… run `claude`, then /login"), or any other error (sent with Claude's own message). |
+| D56 | **Edition archive, catch-up editions, bulleted write-ups, 90-day Market Trends.** Every edition is kept in `desk.json` under `editions[<week>]` (the top-level `news`, `patterns`, `stats_analysis`, `news_trends` stay the current edition's copy); editions published before this were restored from git with `restore_editions.py` (42, 44, 45, 46). On the page, the Period selector is also on **News** (a past week shows its edition; a month or all weeks stacks the editions, newest first), and **Main → What connects them** shows a past week's own written patterns. **Market Trends** is written from the stories of the last 90 days (up to 13 earlier editions), and its Stats library shows this edition's numbers first, earlier ones folded. **Statistics** stays per edition (Models & patterns is already cumulative). Format 2 (`EDITION_FORMAT`): a story has a one-sentence `gist` plus 2–4 `points`; a pattern has a 1–2 sentence `p` plus `points` `[{id, text}]`, one per change, and the page prints the company and "via PricingSaaS". A pattern bullet may only quote numbers its record shows (merge); story bullets' numbers must be in the article (recheck). Runs with no edition due write one **catch-up edition** from `EDITION_BACKFILL` (46 rewrite, then 43, 41, 40, 39, 38, 45, 44); a catch-up for an earlier week is archived only and never moves `current_week`; one rejected twice is skipped with an alert. Story ids are unique across editions; a rewrite unlinks its replaced stories from other editions' trends. Wide screens: lead story spans the row (text left, numbers right), patterns and themes in two balanced columns, Stats library in two columns. |
+
 ---
 
 ## 4. Sources
@@ -224,7 +240,8 @@ removing free trials, Dynatrace's $0.10-per-AI-unit add-on.) Today they're dropp
 - `week_order`, `weeks[]`
 - `tiers`, `pattern_cats`, `categories`
 - `changes[]`, `companies{}`, `promos[]`
-- `news`, `patterns`, `stats_analysis`, `news_trends`, `market_context`
+- `news`, `patterns`, `stats_analysis`, `news_trends`, `market_context` (the current edition)
+- `editions{}`: every edition by week (D56)
 
 New fields on automated records (the page ignores them): `reach` (1–3), `statedUrl`, and `evidence`.
 
@@ -240,28 +257,35 @@ New fields on automated records (the page ignores them): `reach` (1–3), `state
 
 ---
 
-## 8. Current state (24 Oct 2026)
+## 8. Current state (11 Nov 2026)
 
-**Installed and running** on the Mac mini since Sat 24 Oct 2026, 13:18 (first run). Runs at 07:00 and 19:00.
-- Install issues met and fixed: the repo wasn't a git repo at first (step 5 redone); Playwright was installed
-  in Homebrew's Python, not python.org's (fixed; use `pdpy`); zsh doesn't treat `#` as a comment when typing.
-- First run: 13 of 19 watchlist pages captured (the other 6 needed Playwright, since fixed); 26 pricing URLs
-  accepted from the registry agent.
-- Page fixes applied (D43). Week 43 note rewritten.
-- 8 companies added by hand from PricingSaaS's week 43 review: Shopify (tier 1), Tailscale, Remote, Buildkite,
-  GorillaDesk, ApprovalMax (candidates), Precog, fileAI (needs_url).
-- Registry balance checked: 127 companies A–K, 136 L–Z. The A–K gap was only in week 43's hand-built records.
-- **Hybrid (D39–D42): built and tested, waiting to be applied** (`pricing_desk_hybrid.patch`), then backfill
-  weeks 35–43 from the weekly reviews.
+**Running on the Mac mini since 24 Oct 2026**, twice a day (07:00, 19:00 Toronto), hybrid since 25 Oct.
+- **Registry:** 1,345 companies (29 tier 1, 40 tier 2, 1,276 tier 3): 410 active, 927 `needs_url`
+  (mostly added from PricingSaaS reports), 1 candidate, 4 blocked, 2 paused (OpenAI: bot check, D52; Explorium:
+  pricing page 404 since 3 Nov), 1 dead (Adobe, watchlist, since 24 Oct). Duolingo still has no URL.
+- **PricingSaaS:** 2,412 reports, 2,405 done, 7 of week 46 waiting for our own capture (D41); `/feed` read every
+  run (D48). Weeks 38–43 have PricingSaaS's full list (imported 25 Oct from a signed-in save); weeks 35–37 only
+  the weekly review's handful. Nothing before week 35.
+- **Catch-up after the login outage (D55) is done:** the user's manual run of 10 Nov (`2026-11-10T19`, +60) and
+  the runs of 11 Nov (+44, +6) emptied the backlog and the report queue.
+- **Editions:** 44 (Tue 27 Oct), 45 (Tue 3 Nov) and 46 (written by the manual run of 10 Nov, which read week 46
+  before that run's merge: 35 of its now 130 changes, 8 of 9 Relevant). 46 is the first catch-up rewrite (D56).
+  Week 42's hand-written edition (1–19 Oct) is kept as is. Week 47's edition is due Tue 17 Nov 19:00.
+- **Repo size:** `data/` 44 MB (2,457 PricingSaaS diff pages).
 
 | Week | Dates | Changes | Relevant | Promos | Coverage |
 |---|---|---|---|---|---|
-| 43 | 12–18 Oct | 23 | 4 | 0 | Partial: free 7-day feed, companies A–K only; PricingSaaS counted 204 that week |
-| 42 | 5–11 Oct | 58 | 21 | 5 | Subset (AI-moves view), **current edition** |
-| 41 | 28 Sep–4 Oct | 55 | 18 | 10 | Subset + weekly review |
-| 40 | 21–27 Sep | 44 | 11 | 10 | Subset |
-| 39 | 14–20 Sep | 41 | 7 | 7 | Subset |
-| 38 | 7–13 Sep | 29 | 5 | 4 | Partial |
+| 47 | 9–15 Nov | 15 so far | 4 | 6 | Our captures + PricingSaaS, in progress |
+| 46 | 2–8 Nov | 130 | 9 | 49 | Our captures + PricingSaaS, **current edition** (to be rewritten, D56) |
+| 45 | 26 Oct–1 Nov | 136 | 20 | 52 | Our captures + PricingSaaS, edition Tue 3 Nov |
+| 44 | 19–25 Oct | 123 | 11 | 25 | Our captures (from 24 Oct) + PricingSaaS, edition Tue 27 Oct |
+| 43 | 12–18 Oct | 103 | 11 | 22 | Hand-built + PricingSaaS full list (263 rows) |
+| 42 | 5–11 Oct | 108 | 23 | 20 | Hand-built + full list (231), last hand-written edition |
+| 41 | 28 Sep–4 Oct | 107 | 21 | 34 | Hand-built + full list (280) |
+| 40 | 21–27 Sep | 107 | 16 | 35 | Hand-built + full list (277) |
+| 39 | 14–20 Sep | 95 | 10 | 24 | Hand-built + full list (223) |
+| 38 | 7–13 Sep | 88 | 8 | 17 | Hand-built + full list (176, may be cut where the user stopped scrolling) |
+| 35–37 | 17 Aug–6 Sep | 3–4 each | | | Weekly review only |
 
 ## 9. Install and first run (done 24 Oct 2026; kept for a reinstall)
 
@@ -333,36 +357,27 @@ If a step fails, the user pastes the error and Claude helps fix it before going 
 
 ## 10. Next steps, in order
 
-1. **Apply the hybrid** (`pricing_desk_hybrid.patch`) and **backfill weeks 35–43** from PricingSaaS's weekly
-   reviews: `pdpy scripts/pricingsaas_capture.py --review 2026-W35 … 2026-W43 --max-fetches 400`. The agent
-   then works through the queue at 40 reports per run (a few runs). *Not done.*
-2. **Watch the first days** (through about Wed 28 Oct):
-   - companies captured grow (`data/meta.json` → `tracked_active`, or the status counter in RUNBOOK.md);
-   - `data/reports.json`: reports move from `todo` to `done`; read the `outcome`s;
-   - problem alerts, especially "PricingSaaS reported … that our capture didn't record" (a capture miss to fix
-     with `scripts/add_company.py`: URL, `--browser`, ignore_patterns);
-   - spot-check 2–3 snapshots in `data/snapshots/` for cookie banners or rotating text.
-   - Duolingo has no URL yet; ask the user for one or pause it.
-3. **Week 44 (19–25 Oct)** no longer needs building by hand: the briefings reach back about 9 days, so the
-   hybrid reads week 44 automatically. Check on Mon 26 Oct that week 44 has records and a partial-week note.
-4. **First automatic edition: Tue 27 Oct, 19:00** (week 44; mostly PricingSaaS reports, our captures started 24 Oct). Check: every card's numbers match its source page;
-   "They say" only with real quotes; reported records labeled; news links work. Tune `agent/*.md` if the
-   writing needs it; tune rules only in `common.py`, with a test.
-5. **Weeks 45–48:** the hybrid now does most of the side-by-side automatically (corroborations and capture
-   misses). Each Monday, skim the reports' outcomes and fix capture misses.
-6. **Coverage by design:** draft a list of about 50 widely used software products across the 12 categories
-   that aren't in the registry; the user reviews it once; add the chosen ones. (Offered 24 Oct, pending.)
-7. **Decide on daily** (D44), around Sun 8 Nov: count Relevant changes per day; if most days have one, add a
-   "this week so far" panel to the front page.
-8. **Open questions to ask the user when relevant:**
-   - should trials and new priced AI add-ons count (§6)?
-   - keep or drop the Sources tab?
-   - check the Cursor / X Subscription terms against xAI's own announcement.
-| D48 | **Move explorer (/feed) read every run.** The page embeds every row of PricingSaaS's latest weekly batch (about 200–280, one per company) even though its table shows 50; rows leave the free view after 7 days. Each run reads the embedded rows, keeps the list in `data/pricingsaas/feed/<period>.json` and follows each row's weekly diff page into the normal report queue. A saved copy of the page can be imported with `pricingsaas_capture.py --feed-file` (used for week 43 on 25 Oct). Reports go to the agent in up to `REPORTS_PARTS` (3) calls of `REPORTS_BATCH` (40) per run; a part the agent doesn't answer costs no attempt. |
-| D49 | **Edition moves to Tuesday 19:00** (`EDITION_READY_AFTER` 18 h → 42 h). PricingSaaS posts its weekly batch on Monday over several hours (week 44: from 06:00 Toronto), and the edition step reads the data before its own run merges new decisions. Tuesday 19:00 is the first run that sees the batch decided (two runs × 120 reports, newest week first). Amends D29. |
-| D50 | **Merge bug of 26–28 Oct fixed; merges are restorable.** The reported-records cap summed `None` when one of our own records (no `reported` key) shared a company and week with a PricingSaaS report, which first happened on 26 Oct; four runs (26T19, 27T07, 28T07, 28T19) stopped at merge. Because `update_backlog` had already saved, their decided page changes were lost from the backlog. Now a failed merge puts `backlog.json` and `reports.json` back, re-applied proposals skip what is already published, and `apply_proposals.py --run <id> --recover` re-applies an earlier run's changes and report decisions (not its edition or registry). |
-| D51 | **Backfill progress on the page; wider desktop layout.** `build_site.py` injects `backfill` (PricingSaaS reports still waiting per week, from `reports.json`, and how many changes PricingSaaS listed per week, from `data/pricingsaas/feed/`). The page shows a "Still filling weeks …" pill under the title while reports wait, and each week's note says how many remain; hand-built weeks completed from the full list get an accurate note instead of the stale "free 7-day view" text. From 1,000 px wide the page is 1,180 px (was 760) and change and news cards go two per row; running text keeps its 65ch measure. Missing news authors are no longer shown as "null". |
-| D52 | **Bot protection: browser fallback on refusal.** A static fetch answered with HTTP 401/403/429/503 now gets one browser try; if the browser page shows prices, the company switches to browser capture (OpenAI was refused from 25 Oct and paused on 31 Oct). The browser also accepts a page whose network never goes idle: after the 45 s wait it uses the loaded document (openai.com timed out on "networkidle"). A run that fails at a step now also sends the problems it had already raised (the "4 failed captures" alert for OpenAI was lost in the failed merges of 26 Oct). |
-| D53 | **Page crash of 3–6 Nov fixed; one entry per company and week; page check every run.** A short "line" record of a tier-1/2 company (SugarCRM, our own capture, week 45) was drawn as a full card, which needs before/after rows; the JavaScript error stopped the rest of the page from drawing (empty Statistics and Timeline, Period menu not redrawing). Cards now draw records with or without rows. Main Price Changes and the front page show one entry per company and week: a company with several changes that week gets one card with a section per change ("+ N more changes" on the front page). The multi-week coverage note says which weeks come from PricingSaaS's full list, which only from its weekly review, and which include our captures. `scripts/check_page.py` opens the built page in Chromium and goes through every tab, sub-view, period and category; any JavaScript error is a problem alert (step 7 of `run_daily.sh`, after validate; the data is still published). |
-| D54 | **Ranking by importance, the same across weeks.** Within a tier (market leaders, notable, others), changes are ordered by `desk.importance()`: company weight (1.5 for `HEADLINE_COMPANIES` in `common.py`: OpenAI, Anthropic, Microsoft 365, Google Workspace, Salesforce, Adobe, Shopify, Atlassian, GitHub) × who it hits (reach, or 3 for all/free plans, 2 entry/mid, 1 top/enterprise/add-on) × size (10 + % change, capped at 100; 15 when no %) × 1.5 for a list or unit price; one-line records count half. Stored as `score`; `rank` is the order within a week. A month or "all weeks" view ranks on `score` (before, it took each week’s #1, then each #2, so the month front page was one item per week, whatever its size). Every merge reranks every week. |
-| D55 | **Agent errors say what went wrong.** From 7 Nov 19:00 to 10 Nov the Claude Code login on the Mac had expired ("OAuth session expired and could not be refreshed"); every agent call failed on its first request, and the alerts only said "Agent wrote no decision". `run_agent.sh` now classifies a failed call: usage limit (as before), expired login (skips the run's remaining agent tasks and sends "Claude login on the Mac mini has expired… run `claude`, then /login"), or any other error (sent with Claude's own message). |
+1. **Edition archive (D56).** After applying the patch: `pdpy scripts/restore_editions.py` once, then validate,
+   commit, push. Then watch the catch-up, one edition per run without an edition due (about four days):
+   week 46 rewritten in bullets first, then 43, 41, 40, 39, 38, 45, 44. Check each on the page (News with that
+   week picked; Main → What connects them). Old weeks may have fewer stories if the news feeds don't reach
+   back that far; an edition with fewer than 3 is rejected and, after 2 tries, skipped with an alert.
+2. **OpenAI:** paused; PricingSaaS covers it. The browser gets OpenAI's bot check ("Verification successful.
+   Waiting for openai.com…"). Don't try to get around the check. Also: ChatGPT plan amounts didn't appear in
+   the browser text ("/ month" with no number); look at that only if OpenAI is captured again.
+3. **Explorium:** its pricing URL returns 404 since 3 Nov; it's tier 3 and paused. Find the new URL or leave it.
+   **Adobe** (watchlist) is still `dead`: `pdpy scripts/add_company.py --slug adobe --url
+   https://www.adobe.com/creativecloud/plans.html --browser`. Duolingo still needs a URL.
+4. **Weeks 35–37 and earlier:** only reachable from the signed-in PricingSaaS explorer. If the user wants them,
+   they scroll further back, save the page ("Web Page, Complete") and run
+   `pricingsaas_capture.py --feed-file <file> --max-fetches <n>` (only new rows are fetched; check with
+   `--dry-run` first). The user accepted that this list comes from their signed-in account (D39 note).
+5. **Ranking (D54):** check with the user that `HEADLINE_COMPANIES` is right; tune weights from mis-ranked examples.
+6. **Watch:** "PricingSaaS reported … that our capture didn't record" alerts (capture misses: fix URL,
+   `--browser` or ignore_patterns), repo growth, and the page check alert (D53).
+7. **Ideas, not decided:** a cumulative Statistics → Analysis over several weeks (new stats code + agent task;
+   the archived per-week findings could feed it); hold a due edition while its week's backlog or reports are
+   still undecided (it bit once, after the D55 outage: built and tested on 10 Nov, not applied).
+8. **Older open items (from 24 Oct):** a curated list of about 50 widely used products to add; the daily
+   "this week so far" panel (D44); trials and priced AI add-ons in the keep rule; keep or drop the Sources tab;
+   alert before a watchlist company goes `dead`.

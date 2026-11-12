@@ -47585,5 +47585,1227 @@
   "cuts": 24,
   "other": 22,
   "note": "Of 83 changes kept from 380 tracked pricing pages this week, 37 raised prices, 24 cut them and 22 restructured plans or limits."
+ },
+ "editions": {
+  "2026-W42": {
+   "week": "2026-W42",
+   "edition_date": "2026-10-19",
+   "period": "1–19 Oct",
+   "format": 1,
+   "news": [
+    {
+     "id": "ai-monetization",
+     "lead": true,
+     "src": "Growth Unhinged",
+     "by": "Kyle Poyar",
+     "date": "7 Oct",
+     "topic": "AI pricing",
+     "rel": true,
+     "title": "The AI monetization debate shifts again",
+     "url": "https://www.growthunhinged.com/p/usage-based-pricing-for-ai",
+     "gist": "AI is pulling software away from per-seat pricing toward usage and outcomes, but the model is far from settled. Poyar argues the hard part isn't picking a metric. It's making variable bills feel predictable, getting customers to ramp quickly, and paying sales on consumption instead of bookings. Examples range from OpenAI testing outcome-based deals with enterprises to Cognition funding up to $10M of usage until its AI proves value. Metronome's CEO pushes back: true outcome pricing only works for companies with huge contracts or near-monopoly power, so most should price on countable outputs with unified credits. His closing rule: change pricing for customers, not investors.",
+     "nums": [
+      [
+       "76% vs 49%",
+       "AI-native vs SaaS companies using variable or hybrid pricing"
+      ],
+      [
+       "15%",
+       "think investors still prefer seat or flat pricing"
+      ],
+      [
+       "$0.99",
+       "Fin's price per resolved support conversation"
+      ],
+      [
+       "+8%",
+       "Gumloop's orchestration fee on top of at-cost tokens"
+      ],
+      [
+       "+36%",
+       "Snowflake's net-new customers after adding consumption to sales comp"
+      ]
+     ],
+     "why": "A ready-made test for any AI pricing change: does it make bills more predictable (credits, caps, a platform fee with included usage) or just push cost risk onto the buyer? Atlassian's December AI allowance and Cursor's shared weekly pool in the Price Changes tab are live cases."
+    },
+    {
+     "id": "upsell",
+     "src": "Growth Unhinged",
+     "by": "Kyle Poyar with ChartMogul",
+     "date": "30 Sep",
+     "topic": "Expansion",
+     "rel": true,
+     "title": "The 30-day upsell window",
+     "url": "https://www.growthunhinged.com/p/the-30-day-upsell-window",
+     "gist": "Using ChartMogul data on about 10.5 million purchases across 4,029 software companies, mostly self-serve plans under $100/month, Poyar shows customers are up to 10x more likely to upgrade in their first month than in months 4 to 11. Churned customers follow the same curve: they're most likely to come back right after cancelling. His point is that companies obsess over buying-intent timing before the sale, then ignore it afterward. He admits it's unclear how much of the SaaS vs AI-native gap comes from pricing models like unlimited seats.",
+     "nums": [
+      [
+       "0.83% → 0.19%",
+       "seat upgrade rate, month 1 vs month 4"
+      ],
+      [
+       "~40%",
+       "of first-year plan upgrades happen at the month-12 renewal"
+      ],
+      [
+       "5%+",
+       "of churned customers return within 3 months"
+      ],
+      [
+       "~10%",
+       "win-back rate for AI-native products"
+      ],
+      [
+       "2x",
+       "seat expansion in SaaS vs AI-native"
+      ]
+     ],
+     "why": "Month-one levers: early invite flows, multiplayer features, locked features shown in context, a trial of the next tier. It also explains why free plans keep shrinking to one user, as Playbook did this week."
+    },
+    {
+     "id": "pricingsaas-w42",
+     "src": "PricingSaaS Pulse",
+     "by": "Week 42, 5–11 Oct",
+     "date": "Week 42",
+     "topic": "Market data",
+     "rel": true,
+     "title": "230 pricing changes in a week, and AI drives half of them",
+     "url": "https://pricingsaas.com/",
+     "gist": "PricingSaaS logged 230 pricing, packaging and monetization changes across 4,412 tracked pricing pages. Only 29 were straight price moves. The rest were repackaging, renamed AI features, new tiers, usage limits and promos. AI-related changes make up nearly half of all moves over the past 90 days, and credit-based pricing is the fastest-growing type. Free-tier AI limits are moving both ways, with more vendors expanding them than tightening.",
+     "nums": [
+      [
+       "20 / 9",
+       "price increases vs cuts this week"
+      ],
+      [
+       "49%",
+       "of 90-day moves are AI-related (1,694 moves)"
+      ],
+      [
+       "21%",
+       "of AI moves are credit pricing, up 4 points"
+      ],
+      [
+       "37 / 21",
+       "free-tier AI limits expanded vs tightened"
+      ]
+     ],
+     "why": "Price-only tracking misses most of the action. Limits, minimums and tier swaps are where monetization actually shifts, which is why the Price Changes tab classifies change type, not just the price."
+    },
+    {
+     "id": "gtm",
+     "src": "Growth Unhinged",
+     "by": "Kyle Poyar",
+     "date": "14 Oct",
+     "topic": "GTM · adjacent",
+     "rel": true,
+     "title": "What's working in B2B GTM in 2026",
+     "url": "https://www.growthunhinged.com/p/2026-state-of-b2b-gtm-report",
+     "gist": "A survey of 300 software go-to-market leaders finds building product is no longer the bottleneck; distribution is. Founder-led sales lasts longer than expected, warm introductions and small events beat cold outreach, and AI SDRs have underdelivered. AI search has joined the proven channels. The report doesn't analyze pricing directly.",
+     "nums": [
+      [
+       "39%",
+       "call AI search a core channel, up 11 points"
+      ],
+      [
+       "62%",
+       "say network and intros are core"
+      ],
+      [
+       "44%",
+       "of sub-$1M ARR companies rely on founder-led sales"
+      ],
+      [
+       "35% / 31%",
+       "PLG for deals under $5k vs outbound for deals over $50k"
+      ]
+     ],
+     "why": "Price point decides the go-to-market motion you can afford: under $5k leans product-led, over $50k needs sales. The report also notes AI assistants now describe your pricing to buyers, so pricing pages need to be easy for machines to read."
+    },
+    {
+     "id": "swag",
+     "src": "Growth Unhinged",
+     "date": "11 Oct",
+     "topic": "Brand",
+     "rel": false,
+     "title": "Swag got cool again",
+     "url": "https://www.growthunhinged.com/",
+     "gist": "How some companies turned branded merchandise into a status signal."
+    },
+    {
+     "id": "automate",
+     "src": "Growth Unhinged",
+     "date": "23 Sep",
+     "topic": "Sales",
+     "rel": false,
+     "title": "Is this the last place to automate?",
+     "url": "https://www.growthunhinged.com/",
+     "gist": "Sales prospecting frameworks from Sam McKenna."
+    }
+   ],
+   "patterns": [
+    {
+     "t": "AI gets a meter",
+     "p": "Seat prices still go up, but the new lever is a usage allowance for AI. Atlassian starts metering AI in December, Copilot bills usage beyond the allowance, and Surface Labs cut included actions instead of raising the price.",
+     "ids": [
+      "atlassian-2026w42",
+      "github-2026w42",
+      "surface-2026w42"
+     ]
+    },
+    {
+     "t": "Bundling as lock-in",
+     "p": "Owners are folding products together. xAI bundles Cursor with Grok and X Premium, and Figma adds Specs to existing seats. Bundles raise perceived value and make it harder to leave.",
+     "ids": [
+      "cursor-2026w42",
+      "figma-2026w42"
+     ]
+    },
+    {
+     "t": "Minimums cut both ways",
+     "p": "Atlassian (Bitbucket) and SugarCRM removed user minimums to let smaller teams in. Scribe added one to move upmarket. Same lever, opposite strategies.",
+     "ids": [
+      "atlassian-2026w42",
+      "sugarcrm-2026w42",
+      "scribe-2026w42"
+     ]
+    }
+   ],
+   "stats_analysis": [
+    {
+     "t": "Leaders repackage, the middle raises prices",
+     "fig": "8 of 13",
+     "figNote": "market leaders restructured",
+     "p": "Only 2 of 13 market leaders raised list prices (Atlassian and Xero). Docker and Figma charge more through a lost allowance and a new meter; the other eight changed packaging: bundles, model access, billing terms, allowances. Notable companies went the other way, with 7 of 8 raising prices. Leaders can capture value through packaging without a headline increase; mid-sized companies reach for the price itself.",
+     "ids": [
+      "cursor-2026w42",
+      "github-2026w42",
+      "openai-2026w42",
+      "sugarcrm-2026w42",
+      "scribe-2026w42",
+      "matterport-2026w42",
+      "docker-2026w42",
+      "runpod-2026w42"
+     ]
+    },
+    {
+     "t": "Most increases aren’t just a new price",
+     "fig": "5 of 13",
+     "figNote": "pay-more changes were a plain price rise",
+     "p": "Only Xero, Padlet, Runpod, Moodle and LeaveWizard simply raised the price. The other eight came with, or worked entirely through, minimums, removed plans, smaller allowances or new meters. Telnyx raised the minimum spend, Surface Labs cut included actions, and Docker stopped listing its included build minutes, all without touching the price.",
+     "ids": [
+      "telnyx-2026w42",
+      "surface-2026w42",
+      "scribe-2026w42",
+      "matterport-2026w42",
+      "docker-2026w42"
+     ]
+    },
+    {
+     "t": "Price cuts are narrow, and come with strings",
+     "fig": "3",
+     "figNote": "price cuts out of 28 changes with full cards",
+     "p": "None of the cuts is broad. Anthropic cut Sonnet cache reads and launched a cheaper Haiku, Warp made its top tier cheaper while removing volume discounts, and Enpass’s cut may be promotional. Cuts are being used as targeted competitive moves, not general price relief.",
+     "ids": [
+      "anthropic-2026w42",
+      "warp-2026w42",
+      "enpass-2026w42"
+     ]
+    },
+    {
+     "t": "Seats still dominate, but shifts only go one way",
+     "fig": "3 of 3",
+     "figNote": "model shifts moved away from pure seats",
+     "p": "Seat pricing is still the most common model after the change (9 of 28 changes with full cards). But all three model shifts this edition moved away from pure seats: Atlassian and GitHub toward seats plus usage, Bambee toward flat tiers. Hybrid and usage together already cover 11 of 28.",
+     "ids": [
+      "atlassian-2026w42",
+      "github-2026w42",
+      "bambee-2026w42"
+     ]
+    },
+    {
+     "t": "About half the changes involve AI",
+     "fig": "13 of 28",
+     "figNote": "changes with full cards touch AI features, models or usage",
+     "p": "Model access, AI allowances, agent actions and GPU prices drive about half of what we tracked. That matches PricingSaaS’s market-wide figure of 49% of moves being AI-related, which suggests our sample isn’t skewed on this point.",
+     "ids": [
+      "atlassian-2026w42",
+      "cursor-2026w42",
+      "openai-2026w42",
+      "anthropic-2026w42",
+      "surface-2026w42",
+      "lyzr-2026w42",
+      "figma-agent-2026w42",
+      "runpod-2026w42"
+     ]
+    },
+    {
+     "t": "Consumers are barely touched, or we barely see them",
+     "fig": "1",
+     "figNote": "consumer-only change (Enpass)",
+     "p": "21 changes with full cards are B2B-only and 6 hit products sold to both. The only consumer-only change is a cut. Part of this is real (business software reprices more often), but part is our sources: PricingSaaS and AgentDeals mostly track B2B pages. Adding a consumer-focused source would help correct it.",
+     "ids": [
+      "enpass-2026w42",
+      "openai-2026w42",
+      "cursor-2026w42"
+     ]
+    }
+   ],
+   "news_trends": [
+    {
+     "t": "Pricing is moving from seats to usage, slowly",
+     "p": "Variable or hybrid pricing is already the norm for AI-native companies and close to half of classic SaaS. Credit-based pricing is the fastest-growing kind of AI price move. The unsolved problem in both stories is the same: keeping usage bills predictable.",
+     "nums": [
+      [
+       "76% vs 49%",
+       "AI-native vs SaaS companies on variable or hybrid pricing"
+      ],
+      [
+       "21%",
+       "of AI moves are credit pricing, up 4 points"
+      ]
+     ],
+     "news": [
+      "ai-monetization",
+      "pricingsaas-w42"
+     ],
+     "changes": [
+      "atlassian-2026w42",
+      "github-2026w42",
+      "surface-2026w42"
+     ]
+    },
+    {
+     "t": "Most monetization happens away from the price tag",
+     "p": "Only about 1 in 8 tracked changes last week touched list price. The rest moved limits, tiers, minimums and AI packaging. The upsell research points the same way: the moments that decide revenue are the first month and the renewal, not the sticker price.",
+     "nums": [
+      [
+       "29 of 230",
+       "changes in week 42 were straight price moves"
+      ],
+      [
+       "~40%",
+       "of first-year plan upgrades happen at the month-12 renewal"
+      ]
+     ],
+     "news": [
+      "pricingsaas-w42",
+      "upsell"
+     ],
+     "changes": [
+      "playbook-2026w42",
+      "scribe-2026w42",
+      "sugarcrm-2026w42"
+     ]
+    },
+    {
+     "t": "Price point decides how you sell",
+     "p": "Deals under about $5k lean on product-led growth, while deals over $50k still need a sales team. AI assistants now describe pricing to buyers, so a pricing page that machines can read is becoming a go-to-market issue too.",
+     "nums": [
+      [
+       "35% / 31%",
+       "PLG for deals under $5k vs outbound for deals over $50k"
+      ],
+      [
+       "39%",
+       "call AI search a core channel, up 11 points"
+      ]
+     ],
+     "news": [
+      "gtm"
+     ],
+     "changes": [
+      "telnyx-2026w42",
+      "lyzr-2026w42"
+     ]
+    }
+   ]
+  },
+  "2026-W44": {
+   "week": "2026-W44",
+   "edition_date": "2026-10-27",
+   "period": "19–25 Oct",
+   "format": 1,
+   "news": [
+    {
+     "id": "notion-credits",
+     "lead": true,
+     "src": "PricingSaaS newsletter (Good Better Best)",
+     "by": "Rob Litterst",
+     "date": "23 Oct",
+     "topic": "AI pricing",
+     "rel": true,
+     "title": "Notion’s Confusing Credit Model",
+     "url": "https://newsletter.pricingsaas.com/p/notion-s-confusing-credit-model",
+     "gist": "Notion has gone through four AI pricing setups: a paid add-on, AI folded into paid plans, Custom Agents sold on credits, and now two separate credit balances on every Business and Enterprise seat. One balance covers work where Notion picks the model; the other covers work where the user picks the model, plus Custom Agents. The two balances reset monthly, can’t be pooled and don’t roll over, and a third, shared workspace balance can top up either one. Litterst argues Notion should absorb this complexity instead of passing it to customers, for example with one pool or a separate balance only for Custom Agents.",
+     "nums": [
+      [
+       "1,500",
+       "Standard credits per member a month (Notion picks the model)"
+      ],
+      [
+       "500",
+       "Select credits per member a month (user picks the model, plus Custom Agents)"
+      ],
+      [
+       "$10 per 1,000",
+       "price of credits when Custom Agents launched"
+      ],
+      [
+       "$8",
+       "original monthly price of the Notion AI add-on, billed yearly"
+      ],
+      [
+       "-47%",
+       "Dialpad Sell’s Premium cut, to $79 per user, from the issue’s weekly roundup"
+      ]
+     ],
+     "why": "If a vendor splits AI usage into more than one wallet, ask which actions draw on each one and whether unused credits can move between them. Otherwise you can’t tell what a seat really includes. HubSpot moving Starter email sends onto shared Credits this week raises the same question."
+    },
+    {
+     "id": "pricingsaas-w44",
+     "lead": false,
+     "src": "PricingSaaS Pulse",
+     "by": null,
+     "date": "Week 44",
+     "topic": "Market data",
+     "rel": true,
+     "title": "Baseten cuts Reflection Beam rates 69-72% in a 47-change week",
+     "url": "https://pricingsaas.com/news/week/2026W44",
+     "gist": "PricingSaaS’s weekly review calls 19–25 Oct the quietest week of the quarter, with fewer than a quarter of the usual number of moves. No price increases were logged, and packaging and product updates far outnumbered changes to the price itself. The biggest move was Baseten cutting its new Reflection Beam API rates four days after launch; HubSpot’s free email cut and Pictory’s merged credit pool also made the top list.",
+     "nums": [
+      [
+       "47",
+       "pricing moves logged in the week"
+      ],
+      [
+       "227.6",
+       "eight-week average of moves per week"
+      ],
+      [
+       "27",
+       "packaging shifts, against 13 product updates"
+      ],
+      [
+       "7",
+       "straight pricing changes"
+      ],
+      [
+       "15.8",
+       "baseline for weekly price increases; this week had none"
+      ]
+     ],
+     "why": "A quiet week makes it easier to see the mix: even when little happens, most moves change what a plan includes rather than its price. Read our own small sample this week in that light."
+    },
+    {
+     "id": "agentdeals-oct",
+     "lead": false,
+     "src": "AgentDeals",
+     "by": null,
+     "date": "Oct 2026",
+     "topic": "Dev tools",
+     "rel": true,
+     "title": "Developer Tool Pricing Report, October 2026",
+     "url": "https://agentdeals.dev/reports/2026-10",
+     "gist": "AgentDeals’ monthly tally of developer-tool pricing moves, updated through 27 Oct, counts far more changes than in September, and almost every change with a clear direction went against buyers. Most of the negative moves trim free allowances: smaller sign-up credits at Browser Use, tighter free rate limits at Groq, and no more monthly inference credits for free Hugging Face accounts. Paid bills rise without list-price changes too: Modal now meters egress, Fly.io raised its memory rate, and OVHcloud bills storage and IPv4 as separate lines. Meta also resumed charging for WhatsApp service messages beyond a free monthly allowance.",
+     "nums": [
+      [
+       "25",
+       "pricing changes tracked in October through 27 Oct"
+      ],
+      [
+       "12",
+       "of them negative for buyers, against 1 positive"
+      ],
+      [
+       "$1",
+       "Browser Use’s one-time sign-up credit, down from $15"
+      ],
+      [
+       "$0.04",
+       "Modal’s new charge per GiB of egress beyond the included allowance"
+      ],
+      [
+       "1,000",
+       "free WhatsApp service messages per business phone number a month"
+      ]
+     ],
+     "why": "The free tier you evaluated on may be gone at renewal, and costs creep in through new line items rather than higher list prices. Check egress, storage and per-message fees, not just the headline rate."
+    },
+    {
+     "id": "agentdeals-w43",
+     "lead": false,
+     "src": "AgentDeals",
+     "by": null,
+     "date": "19–25 Oct",
+     "topic": "Dev tools",
+     "rel": true,
+     "title": "Developer Tool Pricing Changes: October 19–25, 2026",
+     "url": "https://agentdeals.dev/digest/2026-w43",
+     "gist": "AgentDeals’ weekly digest for our week is mostly about retired models: OpenAI ended access to a long list of older models, Google shut down several Gemini previews, and Together AI pulled two models from serverless inference. The two packaging changes that matter most are at Socket.dev, whose Free plan now covers a single developer seat instead of unlimited developers, and HiveMQ, which stopped new Serverless clusters and will retire that plan, free tier included, at year end. Mistral’s launch discount on Mistral Large 4 also ended.",
+     "nums": [
+      [
+       "9",
+       "events counted in the week’s digest"
+      ],
+      [
+       "1 dev seat",
+       "Socket.dev’s Free plan, which earlier read “Unlimited developers & repos”"
+      ],
+      [
+       "2026-12-31",
+       "date HiveMQ retires its Serverless plan, including the free tier"
+      ]
+     ],
+     "why": "Retired models and closed free tiers force migrations, and the replacement is usually priced differently. Budget for the move as well as the new rate."
+    }
+   ],
+   "patterns": [
+    {
+     "t": "Credits become the shared currency",
+     "p": "HubSpot no longer gives Starter its own email-send limit; sends now draw on the same Credits pool as other actions. Cust swapped cost ranges for a fixed credit cost per AI action and started charging credits for Teammates chats. Both changes come from PricingSaaS reports. More of what a plan includes is now stated in credits rather than in features or caps.",
+     "ids": [
+      "hubspot-2026w44",
+      "cust-2026w44"
+     ]
+    },
+    {
+     "t": "Free plans move both ways",
+     "p": "HubSpot cut free marketing email sends from 2,000 to 300 a month, while Zoom raised free Basic’s in-meeting AI questions from 3 to 20 and Dropzone AI removed the investigations cap on its base plan. Vendors loosen limits where they want people to try an AI feature and tighten them where the free plan was giving away the core product. HubSpot and Dropzone AI come from PricingSaaS reports; Zoom is our own capture.",
+     "ids": [
+      "hubspot-2026w44",
+      "zoom-2026w44",
+      "dropzone-ai-2026w44"
+     ]
+    },
+    {
+     "t": "Prices published at a finer grain",
+     "p": "Avalara replaced a contact-sales bundle table with public prices per state, Intercom now bills WhatsApp per message instead of per conversation, and Day listed its new top plan at a price per agent. Each change ties the bill to a smaller, published unit, which is easier to compare but harder to forecast. Avalara and Day come from PricingSaaS reports; Intercom is our own capture.",
+     "ids": [
+      "avalara-2026w44",
+      "intercom-2026w44",
+      "day-2026w44"
+     ]
+    }
+   ],
+   "stats_analysis": [
+    {
+     "t": "More cuts than increases",
+     "fig": "3 vs 1",
+     "figNote": "changes that lower vs raise what buyers pay",
+     "p": "Baseten’s token-rate cut, Zoom’s larger free AI allowance and Dropzone AI’s uncapped investigations all favor buyers. The only increase was HubSpot’s free-plan email cut, which is a tighter limit, not a list-price rise. Apart from Zoom, all of these come from PricingSaaS reports.",
+     "ids": [
+      "baseten-2026w44",
+      "zoom-2026w44",
+      "dropzone-ai-2026w44",
+      "hubspot-2026w44"
+     ]
+    },
+    {
+     "t": "Promotions are being pulled back",
+     "fig": "4",
+     "figNote": "promotion changes recorded this week",
+     "p": "Krea’s and Runway’s unlimited-generation offers ended, and Synthesia cut its Syren launch credits. The only new offer was Intercom’s $19 Essential seat for new customers, which looks like one arm of a price test. All four come from PricingSaaS reports.",
+     "ids": [
+      "intercom-2026w44"
+     ]
+    }
+   ],
+   "news_trends": [
+    {
+     "t": "Credits spread, and get harder to read",
+     "p": "Notion now splits each seat’s AI usage into two credit balances, HubSpot moved Starter email sends onto shared Credits, and Cust gave each AI action a fixed credit price. Credits let vendors add new actions without new price lines, but buyers can’t easily translate them back into what they used to get.",
+     "nums": [
+      [
+       "1,500",
+       "Standard credits per Notion Business member a month"
+      ],
+      [
+       "500",
+       "Select credits per Notion Business member a month"
+      ]
+     ],
+     "news": [
+      "notion-credits"
+     ],
+     "changes": [
+      "hubspot-2026w44",
+      "cust-2026w44",
+      "atlassian-2026w42"
+     ]
+    },
+    {
+     "t": "Free tiers shrink at the edges",
+     "p": "Developer-tool vendors trimmed sign-up credits, free rate limits and free seats through October, and HubSpot cut its free email allowance this week. The counter-moves, such as Zoom’s and Dropzone AI’s, open up one specific feature rather than restoring a generous free plan.",
+     "nums": [
+      [
+       "12",
+       "negative changes in AgentDeals’ October report, against 1 positive"
+      ],
+      [
+       "1 dev seat",
+       "Socket.dev’s Free plan, down from unlimited developers"
+      ]
+     ],
+     "news": [
+      "agentdeals-oct",
+      "agentdeals-w43"
+     ],
+     "changes": [
+      "hubspot-2026w44",
+      "zoom-2026w44",
+      "dropzone-ai-2026w44"
+     ]
+    },
+    {
+     "t": "Even a quiet week is mostly packaging",
+     "p": "In a week with no logged price increases, PricingSaaS still counted packaging shifts at almost four times straight price changes. The cost changes AgentDeals found mostly came as new line items, like egress or storage fees, rather than higher rates. The same goes for our own sample, where HubSpot cut an allowance and Bolt swapped features without changing a sticker price.",
+     "nums": [
+      [
+       "27",
+       "packaging shifts in PricingSaaS’s week 44 review"
+      ],
+      [
+       "7",
+       "straight pricing changes the same week"
+      ]
+     ],
+     "news": [
+      "pricingsaas-w44",
+      "agentdeals-oct"
+     ],
+     "changes": [
+      "hubspot-2026w44",
+      "bolt-2026w44",
+      "docker-2026w42"
+     ]
+    },
+    {
+     "t": "Messaging moves to a per-message meter",
+     "p": "Meta resumed charging for WhatsApp service messages beyond a free monthly allowance, and Intercom’s FAQ now says WhatsApp is charged per message sent rather than per conversation. That Intercom is passing through Meta’s model is our inference; Intercom doesn’t say so.",
+     "nums": [
+      [
+       "1,000",
+       "free WhatsApp service messages per business phone number a month"
+      ]
+     ],
+     "news": [
+      "agentdeals-oct"
+     ],
+     "changes": [
+      "intercom-2026w44"
+     ]
+    }
+   ]
+  },
+  "2026-W45": {
+   "week": "2026-W45",
+   "edition_date": "2026-11-03",
+   "period": "26 Oct–1 Nov",
+   "format": 1,
+   "news": [
+    {
+     "id": "gbb-credit-lessons",
+     "lead": true,
+     "src": "PricingSaaS newsletter (Good Better Best)",
+     "by": "Rob Litterst",
+     "date": "30 Oct",
+     "topic": "AI pricing",
+     "rel": true,
+     "title": "10 Lessons on AI Credits from Gong, Miro, and Databricks",
+     "url": "https://newsletter.pricingsaas.com/p/10-lessons-on-ai-credits-from-gong-miro-and-databricks",
+     "gist": "A roundtable recap with the pricing leads at Gong, Miro and Databricks on how to run a credit model. Their advice: tie a credit to a unit customers already know (Gong uses about one credit per analyzed call), keep light AI features off the meter, keep one shared pool instead of several, and ship admin spending controls on day one. They also suggest launching with conservative credit costs per action and lowering them later, so every later change works in the customer’s favor. The issue’s roundup adds moves at Leadpages, Exa, Koala and ActiveCampaign.",
+     "nums": [
+      [
+       "310+",
+       "pricing and packaging changes PricingSaaS observed that week"
+      ],
+      [
+       "0.3",
+       "example credit cost an action could drop to after launching at 0.5"
+      ],
+      [
+       "30 minutes",
+       "daily meeting Gong’s operations team still holds, months after its credit launch"
+      ],
+      [
+       "500",
+       "AI credits ActiveCampaign now includes on every plan"
+      ],
+      [
+       "$12/1k",
+       "Exa’s Deep Search price after it removed the $15/1k Deep-Reasoning tier"
+      ]
+     ],
+     "why": "If a vendor’s credit costs are set to fall over time, ask how often they’re reviewed and whether lower rates apply to credits you’ve already bought. Also check whether there’s one pool or several, and what admin caps exist before the first bill."
+    },
+    {
+     "id": "pricingsaas-w45",
+     "lead": false,
+     "src": "PricingSaaS Pulse",
+     "by": null,
+     "date": "Week 45",
+     "topic": "Market data",
+     "rel": true,
+     "title": "Anthropic splits Max into Max at $100 and Ultra at $200 a month in a 44-promo week",
+     "url": "https://pricingsaas.com/news/week/2026W45",
+     "gist": "PricingSaaS’s review of 26 Oct–1 Nov describes a busy week, well above its recent average, driven mostly by promotions and plan contractions. Anthropic’s new Ultra plan heads the list. Other notable moves are InVideo’s Max seat price jumping after an annual discount ended, Scribe’s Pro Team seat cut, Logz.io’s cheaper tracing, and Cartesia halving its voice-agent rate while billing LLM usage separately. Its biggest-hike card for Range reads +595%, but the underlying Range diff shows $5,950 to $6,950 a year, which is +17%.",
+     "nums": [
+      [
+       "317",
+       "pricing and packaging changes across 308 companies"
+      ],
+      [
+       "248.4",
+       "eight-week average of changes per week"
+      ],
+      [
+       "44",
+       "promo and discount changes, against an average of 24.9"
+      ],
+      [
+       "69",
+       "contractions, against a baseline of 42"
+      ],
+      [
+       "43%",
+       "Scribe’s cut to its Pro Team seat, from $23 to $13 a month"
+      ]
+     ],
+     "why": "Contractions and promotions both ran well above normal, so this is a week where renewal terms may quietly differ from what was signed. Check that discounted rates are locked in before the offers expire."
+    },
+    {
+     "id": "agentdeals-w44",
+     "lead": false,
+     "src": "AgentDeals",
+     "by": null,
+     "date": "26 Oct–1 Nov",
+     "topic": "Dev tools",
+     "rel": true,
+     "title": "Developer Tool Pricing Changes: October 26–November 1, 2026",
+     "url": "https://agentdeals.dev/digest/2026-w44",
+     "gist": "AgentDeals’ digest for our week is mostly about free usage disappearing. Mem0 stopped selling its paid self-serve plans and now covers model calls on Free only for the first 30 days, after which users must bring their own LLM key. Ollama replaced its free cloud plan with a $0 pay-as-you-go plan billed per token, and OCR.Space cut free Engine 3 conversions. DeepSeek also began charging for server-side Search and Fetch calls that used to be free, while Ona Cloud and Apiary shut down.",
+     "nums": [
+      [
+       "7",
+       "events in the week: 3 pricing changes and 4 deadlines"
+      ],
+      [
+       "$19/month",
+       "Mem0’s Starter plan, no longer sold to new accounts"
+      ],
+      [
+       "1,000",
+       "free Engine 3 conversions a month at OCR.Space, down from 2,500"
+      ],
+      [
+       "$0.75 per 1,000",
+       "DeepSeek’s new charge for successful Search and Fetch requests"
+      ]
+     ],
+     "why": "Free AI usage is increasingly a time-limited trial or a bring-your-own-key arrangement. Check what happens to a free account after day 30, and plan for a shutdown or a forced migration."
+    },
+    {
+     "id": "agentdeals-oct-final",
+     "lead": false,
+     "src": "AgentDeals",
+     "by": null,
+     "date": "Oct 2026",
+     "topic": "Dev tools",
+     "rel": true,
+     "title": "Developer Tool Pricing Report, October 2026",
+     "url": "https://agentdeals.dev/reports/2026-10",
+     "gist": "AgentDeals has closed its October tally, adding the last days of the month to the report we covered last week. The final count shows more changes than in September and an even more lopsided split against buyers, with only one positive move all month. Late additions include Apiary’s end of life, which takes its only open plan with it, and Mem0’s shift to Free and Custom plans.",
+     "nums": [
+      [
+       "27",
+       "developer-tool pricing changes tracked in October"
+      ],
+      [
+       "14",
+       "of them negative for buyers, against 1 positive"
+      ],
+      [
+       "+11",
+       "more changes than the previous month"
+      ]
+     ],
+     "why": "A full month with fourteen negative moves to one positive is a steady trend, not a blip. Assume free and low-cost developer tiers will tighten when you plan next year’s tooling budget."
+    }
+   ],
+   "patterns": [
+    {
+     "t": "Cheaper AI actions, but more meters",
+     "p": "Datadog’s Bits Investigate now averages about 4 credits per investigation instead of 6.5, and Aircall cut AI Voice Agents from $0.49 to $0.29 a minute. Cartesia halved its voice-agent rate but now bills LLM usage during calls separately. Raw compute went the other way, with Runpod raising serverless GPU rates by up to 25%. Cartesia comes from a PricingSaaS report; the others are our own captures.",
+     "ids": [
+      "datadog-2026w45",
+      "aircall-2026w45",
+      "cartesia-2026w45",
+      "runpod-2026w45"
+     ]
+    },
+    {
+     "t": "Features fold into seats people already pay for",
+     "p": "Figma made its Specs beta available on all seats, GitHub Enterprise now lists Copilot access at an unchanged $21 a user, Linear added Loops to its Free plan, and SugarCRM moved meeting preparation down from Premier to Advanced. Each move adds value without a new line item, which makes it harder for competitors to undercut on price. All four are our own captures; the counter-example is Shopify dropping its free Academy courses perk, from a PricingSaaS report.",
+     "ids": [
+      "figma-2026w45",
+      "github-2026w45",
+      "linear-2026w45",
+      "sugarcrm-2026w45",
+      "shopify-2026w45"
+     ]
+    },
+    {
+     "t": "Taller ladders at the top",
+     "p": "Anthropic merged Max 5x and 20x into one $100 Max plan and added Ultra at $200, and Replit’s Pro card now offers monthly options up to $2,000 beside the $90 entry. Lindy took the other route, lowering its Team entry point to $29.99 and adding smaller credit steps. Vendors are adding more price points so heavy users can spend more without moving to an enterprise contract. All three are our own captures.",
+     "ids": [
+      "anthropic-2026w45",
+      "replit-2026w45",
+      "lindy-2026w45"
+     ]
+    }
+   ],
+   "stats_analysis": [
+    {
+     "t": "At the top, more cuts than increases",
+     "fig": "7 vs 3",
+     "figNote": "relevant changes that lower vs raise what buyers pay",
+     "p": "Of the week’s most relevant changes, Datadog, Aircall and Scribe cut prices, while Figma, GitHub, Linear and SugarCRM gave more for the same seat. The three increases were Runpod’s GPU rates, OVHcloud making IPv4 a paid option, and Shopify dropping a perk. Only Shopify comes from a PricingSaaS report.",
+     "ids": [
+      "datadog-2026w45",
+      "aircall-2026w45",
+      "scribe-2026w45",
+      "figma-2026w45",
+      "github-2026w45",
+      "linear-2026w45",
+      "sugarcrm-2026w45",
+      "runpod-2026w45",
+      "ovhcloud-2026w45",
+      "shopify-2026w45"
+     ]
+    },
+    {
+     "t": "Across the full sample, the balance flips",
+     "fig": "61 vs 30",
+     "figNote": "changes that raise vs lower what buyers pay",
+     "p": "Over the whole week, increases outnumber cuts by about two to one. Most of the increases are smaller vendors from PricingSaaS reports, such as Katteb, LearnWorlds, EventCreate and InVideo, so the big names cutting prices don’t describe the wider market.",
+     "ids": [
+      "katteb-2026w45",
+      "learnworlds-2026w45",
+      "eventcreate-2026w45",
+      "invideo-2026w45",
+      "kurrent-2026w45"
+     ]
+    },
+    {
+     "t": "Tighter limits nearly match list-price rises",
+     "fig": "19 vs 21",
+     "figNote": "changes that tighten a limit vs raise a list price",
+     "p": "SE Ranking cut daily AI prompts to 25 on Core and Growth, Renderforest halved fast-export caps, and Sanity cut Scheduled Functions on Free and Growth, all without changing prices. A tighter limit raises the cost per unit of use just as surely as a higher sticker price. SE Ranking is our own capture; Renderforest and Sanity come from PricingSaaS reports.",
+     "ids": [
+      "se-ranking-2026w45",
+      "renderforest-2026w45",
+      "sanity-2026w45",
+      "readme-2026w45",
+      "proposal-biz-2026w45"
+     ]
+    },
+    {
+     "t": "Free plans are a frequent target",
+     "fig": "14",
+     "figNote": "changes aimed at free plans",
+     "p": "Skyvern and Bonusly removed their free plans, and Datadog now describes its free infrastructure tier as what remains after the trial. Others went the other way: Linear added Loops to Free, and Brandfetch doubled its free Logo API allowance. Skyvern and Bonusly come from PricingSaaS reports; Datadog, Linear and Brandfetch are our own captures.",
+     "ids": [
+      "skyvern-2026w45",
+      "bonusly-2026w45",
+      "datadog-2026w45-2",
+      "linear-2026w45",
+      "brandfetch-2026w45"
+     ]
+    },
+    {
+     "t": "AI is in almost a third of changes",
+     "fig": "40 of 131",
+     "figNote": "changes that involve an AI feature or AI usage",
+     "p": "AI changes run in both directions: Anthropic added a pricier top plan, Datadog and Aircall cut AI unit prices, and Nightwatch and Perdoo moved AI features to higher tiers. Nightwatch and Perdoo come from PricingSaaS reports.",
+     "ids": [
+      "anthropic-2026w45",
+      "datadog-2026w45",
+      "aircall-2026w45",
+      "nightwatch-2026w45",
+      "perdoo-2026w45"
+     ]
+    }
+   ],
+   "news_trends": [
+    {
+     "t": "Credit costs that fall over time",
+     "p": "The Gong, Miro and Databricks panel recommends launching credit costs high and lowering them later. Datadog did exactly that this week, cutting the average credit cost of a Bits Investigate run. The panel’s other advice, one pool and no stranded balances, contrasts with Notion’s two-wallet setup from last week.",
+     "nums": [
+      [
+       "0.3",
+       "credits an action might drop to after launching at 0.5"
+      ],
+      [
+       "310+",
+       "changes PricingSaaS observed in the week of the panel"
+      ]
+     ],
+     "news": [
+      "gbb-credit-lessons"
+     ],
+     "changes": [
+      "datadog-2026w45",
+      "hubspot-2026w44",
+      "cust-2026w44"
+     ]
+    },
+    {
+     "t": "Free AI usage becomes a trial or bring-your-own-key",
+     "p": "Mem0 now pays for model calls on Free only for 30 days, Ollama swapped its free cloud plan for pay-as-you-go, and OCR.Space cut free Engine 3 conversions. In our own sample, Skyvern replaced its free plan with a 14-day trial and Datadog now frames its free tier as what remains after the trial.",
+     "nums": [
+      [
+       "14",
+       "negative changes in AgentDeals’ October report, against 1 positive"
+      ],
+      [
+       "1,000",
+       "free OCR.Space Engine 3 conversions a month, down from 2,500"
+      ]
+     ],
+     "news": [
+      "agentdeals-w44",
+      "agentdeals-oct-final"
+     ],
+     "changes": [
+      "mem0-2026w45",
+      "skyvern-2026w45",
+      "datadog-2026w45-2",
+      "hubspot-2026w44"
+     ]
+    },
+    {
+     "t": "A promo-heavy week, so check the base price",
+     "p": "PricingSaaS counted promotions at nearly twice their usual weekly level, and our own records show offers both ending and starting. InVideo’s listed Max price jumped once a 50% annual discount ended. When you assess a rise, separate a discount ending from a real list-price change.",
+     "nums": [
+      [
+       "44",
+       "promo and discount changes in PricingSaaS’s week 45 review"
+      ],
+      [
+       "24.9",
+       "eight-week average of promo changes"
+      ]
+     ],
+     "news": [
+      "pricingsaas-w45"
+     ],
+     "changes": [
+      "invideo-2026w45",
+      "lawpath-2026w45"
+     ]
+    },
+    {
+     "t": "Top AI plans get a new ceiling",
+     "p": "PricingSaaS led its week with Anthropic’s Ultra plan, which takes the $200 slot, adds 10x Pro usage a week and drops the 5-hour session limit for verified accounts. Replit’s Pro ladder reaching $2,000 a month points the same way: power users now get more price points before an enterprise contract.",
+     "nums": [
+      [
+       "$200",
+       "monthly price of Anthropic’s new Ultra plan"
+      ],
+      [
+       "10x",
+       "Pro usage a week included in Ultra"
+      ]
+     ],
+     "news": [
+      "pricingsaas-w45"
+     ],
+     "changes": [
+      "anthropic-2026w45",
+      "replit-2026w45"
+     ]
+    }
+   ]
+  },
+  "2026-W46": {
+   "week": "2026-W46",
+   "edition_date": "2026-11-10",
+   "period": "2–8 Nov",
+   "format": 1,
+   "news": [
+    {
+     "id": "gbb-labs-api-credits",
+     "lead": true,
+     "src": "PricingSaaS newsletter (Good Better Best)",
+     "by": "Rob Litterst",
+     "date": "6 Nov",
+     "topic": "AI pricing",
+     "rel": true,
+     "title": "Why the Labs are Giving away API Credits",
+     "url": "https://newsletter.pricingsaas.com/p/why-the-labs-are-giving-away-api-credits",
+     "gist": "Flat AI subscriptions lose money on heavy users, and both obvious fixes, cutting limits or forcing a switch to usage pricing, tend to anger customers. Anthropic in early October and OpenAI in late October chose a third route: higher-tier subscribers now get free monthly API credits that expire each cycle and don’t raise chat limits, while the cheapest plans get none. The author reads this as using the subscription to acquire users and the API to expand spend, and notes that SaaS vendors such as GitHub, HubSpot and Notion already bundle AI credits this way. The issue closes with advice to keep the subscription, offer clear pay-as-you-go, size credits per plan, and make extra usage easy to buy.",
+     "nums": [
+      [
+       "42%",
+       "share of compute that Claude subscriptions use, for 10% of revenue, in a SemiAnalysis estimate"
+      ],
+      [
+       "92%",
+       "estimated gross margin on API usage, against 50% on subscriptions"
+      ],
+      [
+       "$500",
+       "monthly cap on pooled credits for Anthropic Team and OpenAI Business plans"
+      ],
+      [
+       "$39",
+       "price of GitHub Copilot Pro+, which includes $39 in AI credits"
+      ],
+      [
+       "324+",
+       "pricing and packaging changes PricingSaaS observed that week"
+      ]
+     ],
+     "why": "Included credits that expire monthly are only worth what you actually use. Before upgrading for the credits, check what your team would really consume in a cycle and what the same usage costs on plain pay-as-you-go."
+    },
+    {
+     "id": "pricingsaas-w46",
+     "lead": false,
+     "src": "PricingSaaS Pulse",
+     "by": null,
+     "date": "Week 46",
+     "topic": "Market data",
+     "rel": true,
+     "title": "Front’s Autopilot agent jumps 680% to $0.39 a chat as the market leans on quiet cuts and a promo surge",
+     "url": "https://pricingsaas.com/news/week/2026W46",
+     "gist": "PricingSaaS’s review of 2–8 Nov counts a week about a third busier than its recent average, driven by promotions and contractions rather than list-price rises. The biggest move was Front raising its Autopilot AI agent from 5 cents to 39 cents per conversation. AI infrastructure was the busiest area, with Luma AI, Together AI, Qodo, MindsDB, Krea and Pika all reworking per-credit or per-token rates. The review also flags live A/B tests at Slack, Krea, Granola and Vercel, so some of the week’s reveals and cuts may not last.",
+     "nums": [
+      [
+       "347",
+       "changes across 339 companies"
+      ],
+      [
+       "680%",
+       "rise in Front’s Autopilot price, from $0.05 to $0.39 per conversation"
+      ],
+      [
+       "68",
+       "promotions, 2.5x the usual level"
+      ],
+      [
+       "89",
+       "contractions, 1.9x the usual level"
+      ],
+      [
+       "$0.015",
+       "Qodo’s new Pro Team rate per credit, up from $0.012"
+      ]
+     ],
+     "why": "Per-conversation and per-credit AI rates can multiply without any change to the plan price. If you buy an AI agent by usage, ask for the unit rate in writing and how much notice you get before it changes."
+    },
+    {
+     "id": "agentdeals-w45",
+     "lead": false,
+     "src": "AgentDeals",
+     "by": null,
+     "date": "2–8 Nov",
+     "topic": "Dev tools",
+     "rel": true,
+     "title": "Developer Tool Pricing Changes: November 2–8, 2026",
+     "url": "https://agentdeals.dev/digest/2026-w45",
+     "gist": "A quieter developer-tools week than the last one, and a more mixed one. Ably moved to pricing by monthly active users and put a cap on its Free package for the first time, while LogRocket brought back a free-forever plan and Unkey lengthened log retention on Free and Pro. Looking ahead, Cloudflare AI Search starts usage billing on 1 December after pushing the date back a month, and Google is retiring Gemini 2.5 models and routing their requests to newer ones at the newer models’ rates.",
+     "nums": [
+      [
+       "500",
+       "monthly active users allowed on Ably’s Free package, which had no such cap before"
+      ],
+      [
+       "1,000",
+       "sessions a month on LogRocket’s returning Free plan"
+      ],
+      [
+       "90 days",
+       "Unkey Pro log and audit-log retention, up from 7 and 14 days"
+      ],
+      [
+       "$0.75",
+       "Cloudflare AI Search charge per million ingestion tokens once billing starts"
+      ]
+     ],
+     "why": "Forced model migrations can change your bill even if you do nothing, because requests get billed at the replacement model’s rates. Check which deprecated models you call before 1 December."
+    },
+    {
+     "id": "gu-agents-messaging",
+     "lead": false,
+     "src": "Growth Unhinged",
+     "by": "Isabel Macdonald",
+     "date": "4 Nov",
+     "topic": "AI packaging",
+     "rel": false,
+     "title": "Your customers don’t just want an agent. They want agents.",
+     "url": "https://www.growthunhinged.com/p/ai-agent-messaging-study",
+     "gist": "Irrational Labs showed US software buyers the same AI product page with three framings: no agent, one agent, or a team of agents. Calling the product a single agent did not raise buying interest, while the team framing drew the most interest and beat the single-agent version by a statistically significant margin. Stated willingness to pay was highest for the team framing, but the gaps were not significant, and buyers rated the team version harder to use. The authors suggest making each job the product does visible, rather than simply rebranding it as agents.",
+     "nums": [
+      [
+       "1,014",
+       "US software buyers in the experiment"
+      ],
+      [
+       "6.3 percentage points",
+       "higher likelihood to buy for a team of agents than for a single agent"
+      ]
+     ],
+     "why": "Splitting a product into several named agents can make it feel bigger without adding much. When a vendor prices per agent, compare the jobs actually done, not the number of agents listed."
+    }
+   ],
+   "patterns": [
+    {
+     "t": "AI unit rates reset in both directions",
+     "p": "Together AI raised Qwen3.7-Max tokens by about two thirds, Crusoe announced GPU-hour rises from 1 December, and Cohere moved Model Vault to per-GPU pricing. Others cut: Arcade’s top-model edit fell from 75 to 60 credits, Sarvam AI lowered dubbing rates, and Pika’s Nano Banana 2 image dropped from 8 to 7 credits, while Krea’s Nano Banana 2.1 image went from about 22 to 25 units and Luma AI rebuilt video-to-video billing. Pika, Krea and Luma AI come from PricingSaaS reports, which flag Krea’s change as one arm of an A/B test; the rest are our own captures.",
+     "ids": [
+      "together-ai-2026w46",
+      "crusoe-2026w46",
+      "cohere-2026w46",
+      "arcade-2026w46",
+      "sarvam-ai-2026w46",
+      "pika-2026w46-2",
+      "krea-2026w46",
+      "lumaai-2026w46"
+     ]
+    },
+    {
+     "t": "Same fee, different allowance",
+     "p": "PagerDuty kept its platform fees but cut Essential events from 40,000 to 25,000 while raising Ultimate AI actions from 100,000 to 160,000, and AB Tasty cut Enterprise form reports from 50 to 20. In the other direction, Vercel lengthened trace retention, Bitrise doubled Linux machine sizes and Render lifted its 30-day sandbox cap, all at unchanged prices. Pika cutting Starter credits from 900 to 600 comes from a PricingSaaS report; the others are our own captures, though PricingSaaS flags Vercel’s change as a possible A/B test.",
+     "ids": [
+      "pagerduty-2026w46",
+      "ab-tasty-2026w46",
+      "pika-2026w46",
+      "vercel-2026w46",
+      "bitrise-2026w46-2",
+      "render-2026w46"
+     ]
+    },
+    {
+     "t": "Getting in costs more",
+     "p": "Breezy HR stopped showing its free Bootstrap plan, so Startup at $157 a month is now the entry point, and Lindy’s Team plan now starts at $49.99 instead of $29.99, reversing last week’s smaller steps. Lightfield raised Growth from $1,999 to $2,999 a month, Day now sells its $800 Super agent annually through sales only, and Contabo added a setup fee to monthly Cloud VPS 4 contracts. All five are our own captures.",
+     "ids": [
+      "breezy-hr-2026w46",
+      "lindy-2026w46",
+      "lightfield-2026w46",
+      "day-2026w46",
+      "contabo-2026w46"
+     ]
+    }
+   ],
+   "stats_analysis": [
+    {
+     "t": "The top of the list is mostly restructuring",
+     "fig": "3 of 8",
+     "figNote": "relevant changes that repackage rather than move a price",
+     "p": "Salesforce moved Momentum out of the Core bundle, PagerDuty reshuffled what its flat fees include, and Cohere changed Model Vault’s billing unit. Of the rest, three made things cheaper, including Render and Wispr Flow loosening limits and Aircall’s one-dollar trim, and two raised prices: Together AI’s token rates and Wispr Flow’s smaller educator discount. All eight are our own captures.",
+     "ids": [
+      "salesforce-2026w46",
+      "pagerduty-2026w46",
+      "cohere-2026w46",
+      "render-2026w46",
+      "wispr-flow-2026w46",
+      "aircall-2026w46",
+      "together-ai-2026w46",
+      "wispr-flow-2026w46-2"
+     ]
+    },
+    {
+     "t": "Limits loosened more often than they tightened",
+     "fig": "7 vs 4",
+     "figNote": "changes that loosen vs tighten a limit",
+     "p": "Render, Wispr Flow, Vercel, Aikido Security and Bitrise gave more for the same price, while PagerDuty, AB Tasty and Pika gave less. Last week tighter limits nearly matched list-price rises; this week the balance tipped toward buyers. Pika’s two changes, one each way, come from PricingSaaS reports.",
+     "ids": [
+      "render-2026w46",
+      "wispr-flow-2026w46",
+      "vercel-2026w46",
+      "aikido-security-2026w46",
+      "bitrise-2026w46-2",
+      "pagerduty-2026w46",
+      "ab-tasty-2026w46",
+      "pika-2026w46"
+     ]
+    }
+   ],
+   "news_trends": [
+    {
+     "t": "Bundled usage as a bridge to metering",
+     "p": "Good Better Best argues that the labs added expiring API credits to subscriptions to move heavy users toward usage pricing without raising prices. PagerDuty did something similar this week, adding AI actions inside an unchanged flat fee, after ClickUp and Anthropic restructured plans around included AI usage last week.",
+     "nums": [
+      [
+       "$500",
+       "monthly cap on pooled credits for Anthropic Team and OpenAI Business"
+      ],
+      [
+       "92%",
+       "estimated API gross margin, against 50% for subscriptions"
+      ]
+     ],
+     "news": [
+      "gbb-labs-api-credits"
+     ],
+     "changes": [
+      "pagerduty-2026w46",
+      "clickup-2026w45",
+      "anthropic-2026w45",
+      "salesforce-2026w46"
+     ]
+    },
+    {
+     "t": "Per-unit AI rates are the busiest part of the market",
+     "p": "PricingSaaS names AI infrastructure as the week’s most active area and leads with Front’s per-conversation agent price rising nearly eightfold. Our own captures show the same churn: Together AI and Crusoe raised rates while Arcade and Sarvam AI cut them. The Luma AI, Krea and Pika records come from PricingSaaS reports.",
+     "nums": [
+      [
+       "680%",
+       "rise in Front’s Autopilot price per conversation"
+      ],
+      [
+       "$0.015",
+       "Qodo’s new per-credit rate, up from $0.012"
+      ]
+     ],
+     "news": [
+      "pricingsaas-w46"
+     ],
+     "changes": [
+      "together-ai-2026w46",
+      "crusoe-2026w46",
+      "arcade-2026w46",
+      "sarvam-ai-2026w46",
+      "lumaai-2026w46",
+      "krea-2026w46",
+      "pika-2026w46-2"
+     ]
+    },
+    {
+     "t": "Free tiers return, but with fences",
+     "p": "AgentDeals logged LogRocket bringing back a free plan and Unkey lengthening free log retention, but Ably capped its Free package by active users for the first time. Our sample is similarly mixed: Vercel lengthened trace retention and Aikido Security added credits to Basic, while Breezy HR dropped its free plan, and last week Mem0 limited free model calls to 30 days.",
+     "nums": [
+      [
+       "500",
+       "monthly active users now allowed on Ably’s Free package"
+      ],
+      [
+       "1,000",
+       "free LogRocket sessions a month"
+      ]
+     ],
+     "news": [
+      "agentdeals-w45"
+     ],
+     "changes": [
+      "vercel-2026w46",
+      "aikido-security-2026w46",
+      "breezy-hr-2026w46",
+      "mem0-2026w45"
+     ]
+    }
+   ]
+  }
  }
 }

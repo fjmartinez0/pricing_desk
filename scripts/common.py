@@ -32,6 +32,7 @@ RUN = ROOT / ".run"                       # per-run scratch files (gitignored)
 LOGS = ROOT / "logs"
 PS_DIR = DATA / "pricingsaas"             # PricingSaaS pages we read (hybrid, D39): evidence for reported records
 PS_INDEX = PS_DIR / "index.json"           # every PricingSaaS URL seen, with its status
+EDITION_BACKFILL_STATE = DATA / "edition_backfill.json"   # rejected catch-up attempts per week (D56)
 REPORTS = DATA / "reports.json"            # PricingSaaS diff pages waiting for a decision or for our own capture
 
 # ---------------------------------------------------------------- time
@@ -42,6 +43,13 @@ TZ = ZoneInfo("America/Toronto")
 EDITION_READY_AFTER = dt.timedelta(hours=42)   # Tue 19:00: PricingSaaS posts its weekly batch on Monday (D49)
 # Weeks before this one were built by hand from PricingSaaS; never auto-close them.
 FIRST_AUTO_EDITION = "2026-W44"
+# Edition archive (D56). Every edition is kept in desk.json under editions[<week>]; the page shows it when that
+# week is picked. Format 2 = bulleted news and patterns. Runs with no edition due write one edition from this list
+# (first week whose stored edition is missing or older than EDITION_FORMAT), newest decisions first.
+EDITION_FORMAT = 2
+EDITION_BACKFILL = ["2026-W46", "2026-W43", "2026-W41", "2026-W40", "2026-W39", "2026-W38", "2026-W45", "2026-W44"]
+EDITION_BACKFILL_TRIES = 2       # rejected catch-up editions per week before it is skipped with an alert
+NEWS_WINDOW_WEEKS = 13           # Market Trends reads the stories of the last 90 days (13 earlier editions at most)
 # Market leaders whose moves reach the most buyers: their changes rank 1.5x within tier 1 (D54). Edit freely.
 HEADLINE_COMPANIES = {"openai", "anthropic", "microsoft-365", "google-workspace", "salesforce", "adobe",
                       "shopify", "atlassian", "github"}

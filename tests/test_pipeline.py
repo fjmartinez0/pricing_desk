@@ -601,6 +601,96 @@ class Reports(unittest.TestCase):
         self.assertEqual(len(r["dropped"]), 1)
 
 
+class EditionArchive(unittest.TestCase):
+    """D56: every edition kept by week; catch-up editions; bulleted news and patterns."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self._run, self._state = ap.RUN, ap.EDITION_BACKFILL_STATE
+        ap.RUN, ap.EDITION_BACKFILL_STATE = self.tmp, self.tmp / "edition_backfill.json"
+        self.desk = common.load_json(common.DESK)
+        self.desk.setdefault("editions", {})
+        self.registry = {"companies": {}}
+
+    def tearDown(self):
+        ap.RUN, ap.EDITION_BACKFILL_STATE = self._run, self._state
+        shutil.rmtree(self.tmp)
+
+    def due(self, week, mode):
+        common.save_json(self.tmp / f"edition_due_{common.run_id()}.json", {"week": week, "mode": mode})
+
+    def story(self, sid, **over):
+        n = {"id": sid, "lead": False, "src": "Growth Unhinged", "by": None, "date": "7 Oct", "topic": "AI pricing",
+             "rel": True, "title": "A story", "url": f"https://example.com/{sid}", "gist": "One sentence.",
+             "points": ["First fact", "Second fact"], "nums": [], "why": "It matters."}
+        n.update(over)
+        return n
+
+    def proposal(self, week, stories, **over):
+        recs = [c for c in self.desk["changes"] if c["week"] == week][:3]
+        prop = {"type": "edition", "week": week, "news": stories,
+                "patterns": [{"t": "A link", "p": "They move together.",
+                              "points": [{"id": c["id"], "text": "changed: " + c["short"]} for c in recs]}],
+                "stats_analysis": [{"t": "Count", "fig": "", "figNote": "", "p": "x", "ids": []}],
+                "news_trends": [], "missed": []}
+        prop.update(over)
+        return prop
+
+    def test_backfill_order_skips_done_tried_and_future(self):
+        d = {"current_week": "2026-W46", "changes": [{"week": w} for w in common.EDITION_BACKFILL],
+             "editions": {"2026-W46": {"format": common.EDITION_FORMAT}}}
+        self.assertEqual(close_week.backfill_week(d, {}), "2026-W43")
+        self.assertEqual(close_week.backfill_week(d, {"2026-W43": common.EDITION_BACKFILL_TRIES}), "2026-W41")
+        d["current_week"] = "2026-W40"
+        self.assertEqual(close_week.backfill_week(d, {"2026-W43": 9, "2026-W41": 9}), "2026-W40")
+
+    def test_catch_up_edition_is_archived_and_page_keeps_current(self):
+        cur, before = self.desk["current_week"], [n["id"] for n in self.desk["news"]]
+        self.due("2026-W43", "backfill")
+        result = {"rejected": [], "registry": []}
+        ap.apply_edition(self.desk, self.registry, self.proposal("2026-W43", [self.story(f"s-{i}") for i in range(3)]), result)
+        ed = self.desk["editions"]["2026-W43"]
+        self.assertEqual((ed["format"], len(ed["news"]), ed["news"][0]["points"]), (2, 3, ["First fact", "Second fact"]))
+        self.assertEqual((self.desk["current_week"], [n["id"] for n in self.desk["news"]]), (cur, before))
+        self.assertIn(cur, self.desk["editions"])             # the current edition was archived before anything else
+
+    def test_pattern_bullet_with_invented_number_is_dropped(self):
+        week = "2026-W43"
+        recs = [c for c in self.desk["changes"] if c["week"] == week][:3]
+        pat = {"t": "A link", "p": "They move together.",
+               "points": [{"id": recs[0]["id"], "text": "now costs $1,234,567"}]
+               + [{"id": c["id"], "text": "changed: " + c["short"]} for c in recs[1:]]}
+        result = {"rejected": []}
+        got = ap.clean_pattern(pat, {c["id"] for c in recs}, {c["id"]: c for c in recs}, result)
+        self.assertEqual(got["ids"], [c["id"] for c in recs[1:]])
+        self.assertIn("1234567", result["rejected"][0]["why"])
+        pat["points"] = pat["points"][:2]                       # one bullet left: not a pattern any more
+        self.assertIsNone(ap.clean_pattern(pat, {c["id"] for c in recs}, {c["id"]: c for c in recs}, {"rejected": []}))
+
+    def test_story_ids_unique_and_replaced_stories_unlinked(self):
+        self.desk["editions"]["2026-W41"] = {"week": "2026-W41", "format": 1, "news": [self.story("old-a")],
+                                             "patterns": [], "stats_analysis": [], "news_trends": []}
+        self.desk["editions"]["2026-W43"] = {"week": "2026-W43", "format": 1, "news": [self.story("w43-x")],
+                                             "patterns": [], "stats_analysis": [], "news_trends": []}
+        self.desk["editions"]["2026-W44"] = {"week": "2026-W44", "format": 1, "news": [], "patterns": [],
+                                             "stats_analysis": [], "news_trends": [{"t": "T", "p": "p", "nums": [],
+                                                                                    "news": ["w43-x"], "changes": []}]}
+        self.due("2026-W43", "backfill")
+        trend = {"t": "T", "p": "p", "nums": [], "news": ["old-a", "new-b"], "changes": []}
+        prop = self.proposal("2026-W43", [self.story("old-a"), self.story("new-b"), self.story("new-c")],
+                             news_trends=[trend])
+        ap.apply_edition(self.desk, self.registry, prop, {"rejected": [], "registry": []})
+        ed = self.desk["editions"]["2026-W43"]
+        self.assertEqual([n["id"] for n in ed["news"]], ["old-a-w43", "new-b", "new-c"])   # id taken by W41
+        self.assertEqual(ed["news_trends"][0]["news"], ["old-a-w43", "new-b"])
+        self.assertEqual(self.desk["editions"]["2026-W44"]["news_trends"][0]["news"], [])  # w43-x was replaced
+
+    def test_rejected_catch_up_counts_tries_then_alerts(self):
+        due = {"week": "2026-W39", "mode": "backfill"}
+        for _ in range(common.EDITION_BACKFILL_TRIES):
+            ap.edition_rejected(due, "too thin")
+        self.assertEqual(common.load_json(ap.EDITION_BACKFILL_STATE), {"2026-W39": common.EDITION_BACKFILL_TRIES})
+
 class Site(unittest.TestCase):
     def test_template_and_data(self):
         import build_site

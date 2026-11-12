@@ -273,10 +273,33 @@ tr:last-child td{border-bottom:0}
 footer{margin-top:28px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
 footer a{color:var(--muted)}
 @media (max-width:440px){.delta{font-size:21px}}
+/* Bullets in news cards and pattern write-ups (D56) */
+.pts{margin:4px 0 0;padding-left:1.15em;display:flex;flex-direction:column;gap:5px;font-size:14px;max-width:65ch}
+.card .pts{font-size:15px}
+.pts li{padding-left:2px}
+.pts li::marker{color:var(--muted)}
+.pts .co{font:inherit;font-weight:600;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.pts .co:hover{text-decoration:underline}
+.pts .via{font-size:12px;color:var(--muted);white-space:nowrap}
+.ed-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:10px 0 0;font-family:var(--f-display);font-size:18px;font-weight:600}
+.ed-head:first-child{margin-top:0}
+.ed-head small{font:400 13px var(--f-body);color:var(--muted)}
+.empty-note{font-size:14px;color:var(--muted);margin:4px 0}
+.older{margin-top:14px}
+.older summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--accent);margin-bottom:10px}
+.lead-main,.lead-side{display:flex;flex-direction:column;gap:10px;min-width:0}
 /* Wide screens: use the width. Cards go two per row; running text keeps its 65ch measure. */
 @media (min-width:1000px){
   .wrap{max-width:1180px}
   .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+  .list .ed-head,.list .empty-note{grid-column:1/-1}
+  /* The lead story spans the row: what it says on the left, its numbers and why it matters on the right. */
+  .list .card.lead{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:10px 36px;align-items:start}
+  /* Balanced columns, so a short write-up doesn't leave a hole next to a long one. */
+  .pats{display:block;columns:2;column-gap:44px}
+  .pats>.pat{break-inside:avoid;margin-bottom:24px}
+  .pats>.pat:last-child{margin-bottom:0}
+  .statlib{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 44px}
 }
 </style>
 
@@ -303,6 +326,7 @@ footer a{color:var(--muted)}
   </nav>
 
   <section id="p-news" role="tabpanel" aria-labelledby="t-news">
+    <div class="filterbar" id="filters-news"></div>
     <label class="toggle"><input type="checkbox" id="only-pricing" checked> Pricing-relevant only <span id="hidden-count"></span></label>
     <div class="list" id="news-list"></div>
   </section>
@@ -441,8 +465,9 @@ footer a{color:var(--muted)}
       </div>
       <div class="panel">
         <h2>Stats library</h2>
-        <p class="panel-sub">Every key number from the pricing-relevant stories, with where it came from.</p>
+        <p class="panel-sub">Every key number from the pricing-relevant stories of the last 90 days, with where it came from: this edition first, earlier editions below.</p>
         <ul class="nums statlib" id="tn-stats"></ul>
+        <div id="tn-stats-old"></div>
       </div>
     </div>
   </section>
@@ -481,6 +506,12 @@ const DATA=JSON.parse(document.getElementById("pd-data").textContent);
 const CUR=DATA.current_week, TODAY=DATA.today, WEEK_ORDER=DATA.week_order; // newest first
 const WEEKS=Object.fromEntries(DATA.weeks.map(w=>[w.week,w.label]));
 const NEWS=DATA.news, PATTERNS=DATA.patterns, NEWS_TRENDS=DATA.news_trends, STATS_ANALYSIS=DATA.stats_analysis;
+// Edition archive (D56): every edition by week; the current one is the top-level text.
+const EDITIONS=Object.assign({},DATA.editions||{});
+EDITIONS[CUR]=Object.assign({},EDITIONS[CUR]||{},{week:CUR,period:DATA.period,edition_date:DATA.edition_date,news:NEWS,patterns:PATTERNS,news_trends:NEWS_TRENDS,stats_analysis:STATS_ANALYSIS});
+const wkKey=w=>{const[y,n]=w.split("-W").map(Number);return y*52+n};
+const ED_WEEKS=Object.keys(EDITIONS).sort((a,b)=>wkKey(b)-wkKey(a));   // newest first
+const ALL_NEWS=ED_WEEKS.flatMap(w=>EDITIONS[w].news.map(n=>Object.assign({},n,{_wk:w})));
 const TIERS=DATA.tiers.map(t=>[t.tier,t.name,t.note]);
 const PATTERN_CATS=DATA.pattern_cats.map(c=>[c.name,c.patterns.map(p=>[p.name,p.definition])]);
 const CHANGES=DATA.changes.filter(c=>c.week===CUR).sort((a,b)=>a.rank-b.rank);
@@ -515,21 +546,38 @@ function newsTime(n){
   if(m){const w=DATA.weeks.find(x=>wkNum(x.week)===String(+m[1]));if(w)return +new Date(w.start+"T12:00:00")+6*864e5}
   return -1e15;
 }
-function renderNews(){
-  const only=document.getElementById("only-pricing").checked;
-  const hidden=NEWS.filter(n=>!n.rel).length;
-  const items=(only?NEWS.filter(n=>n.rel):NEWS.slice()).map((n,i)=>[n,i]).sort((a,b)=>(newsTime(b[0])-newsTime(a[0]))||(a[1]-b[1])).map(x=>x[0]);
-  document.getElementById("hidden-count").textContent=only?`(${hidden} off-topic hidden)`:"";
-  document.getElementById("news-list").innerHTML=items.map(n=>n.rel?`
+function newsCard(n){
+  const pts=Array.isArray(n.points)&&n.points.length?`<ul class="pts">${n.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+  if(!n.rel)return `
+   <article class="card" id="n-${n.id}"><div class="meta"><span class="src">${esc(n.src)}</span><span>${esc(n.date)}</span><span class="tag dim">${esc(n.topic)}</span><span class="tag dim">OFF-TOPIC</span></div>
+     <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3><p class="brief">${esc(n.gist)}</p></article>`;
+  return `
    <article class="card${n.lead?" lead":""}" id="n-${n.id}">
+    <div class="lead-main">
      <div class="meta">${n.lead?'<span class="tag">LEAD</span>':""}<span class="src">${esc(n.src)}</span>${n.by?`<span>${esc(n.by)}</span>`:""}<span>${esc(n.date)}</span><span class="tag">${esc(n.topic)}</span></div>
      <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
-     <div class="block"><span class="lbl">The gist</span><p>${esc(n.gist)}</p></div>
-     <div class="block"><span class="lbl">Key numbers</span><ul class="nums">${n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul></div>
+     <div class="block"><span class="lbl">The gist</span><p>${esc(n.gist)}</p>${pts}</div>
+    </div>
+    <div class="lead-side">
+     ${n.nums.length?`<div class="block"><span class="lbl">Key numbers</span><ul class="nums">${n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul></div>`:""}
      <div class="why block"><span class="lbl">Why it matters</span><p>${esc(n.why)}</p></div>
-   </article>`:`
-   <article class="card" id="n-${n.id}"><div class="meta"><span class="src">${esc(n.src)}</span><span>${esc(n.date)}</span><span class="tag dim">${esc(n.topic)}</span><span class="tag dim">OFF-TOPIC</span></div>
-     <h3><a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></h3><p class="brief">${esc(n.gist)}</p></article>`).join("");
+    </div>
+   </article>`;
+}
+// Editions shown on the News tab for the picked period, newest first.
+const newsWeeks=()=>state.week===CUR?[CUR]:ED_WEEKS.filter(w=>inScope(w));
+function renderNews(){
+  const only=document.getElementById("only-pricing").checked;
+  const weeks=newsWeeks(),many=weeks.length>1;let hidden=0,html="";
+  weeks.forEach(w=>{
+    const L=EDITIONS[w].news;hidden+=L.filter(n=>!n.rel).length;
+    const items=(only?L.filter(n=>n.rel):L.slice()).map((n,i)=>[n,i]).sort((a,b)=>(b[0].lead-a[0].lead)||(newsTime(b[0])-newsTime(a[0]))||(a[1]-b[1])).map(x=>x[0]);
+    if(many||w!==CUR)html+=`<h2 class="ed-head">Edition · week ${wkNum(w)}<small>${esc(EDITIONS[w].period||WEEKS[w]||"")}${w===CUR?" · current":""}</small></h2>`;
+    html+=items.map(newsCard).join("");
+  });
+  if(!weeks.length)html=`<p class="empty-note">No edition was written for ${esc(weekLabel())}. Editions exist for weeks ${ED_WEEKS.slice().reverse().map(wkNum).join(", ")}.</p>`;
+  document.getElementById("hidden-count").textContent=only&&hidden?`(${hidden} off-topic hidden)`:"";
+  document.getElementById("news-list").innerHTML=html;
 }
 
 function weekLabel(){return state.week===CUR?DATA.period:state.week==="ALL"?RANGE:state.week.startsWith("M:")?monthName(state.week.slice(2)):"week "+wkNum(state.week)+", "+WEEKS[state.week]}
@@ -601,24 +649,31 @@ function renderFront(){
      <span class="dchip ${DC[c.group]}">${esc(c.delta)}</span>
    </button>`}).join("");
 }
+function patHTML(p){
+  if(Array.isArray(p.points)&&p.points.length)return `
+   <div class="pat"><strong>${esc(p.t)}</strong><p>${esc(p.p)}</p>
+     <ul class="pts">${p.points.filter(x=>byId[x.id]).map(x=>{const c=byId[x.id];return `<li><button class="co" type="button" data-go="${c.id}">${esc(c.co)}</button> ${esc(x.text)}${c.reported?' <span class="via">· via PricingSaaS</span>':""}</li>`}).join("")}</ul></div>`;
+  return `
+   <div class="pat"><strong>${esc(p.t)}</strong><p>${esc(p.p)}</p>
+     <div class="jump">${(p.ids||[]).filter(id=>byId[id]).map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)} ↓</button>`).join("")}</div></div>`;
+}
 function renderPatterns(){
   const lbl=document.getElementById("pat-lbl");
-  if(state.week!==CUR){
-    // Past weeks: group that week's Relevant changes by their (fixed-list) pattern; show patterns shared by 2+ changes.
-    lbl.textContent=`What connects them · ${weekLabel()}`;
-    const g={};relevantForWeek().forEach(c=>(g[c.pattern]=g[c.pattern]||[]).push(c));
-    const DEF=Object.fromEntries(PATTERN_CATS.flatMap(([,ps])=>ps));
-    const shared=Object.entries(g).filter(([,l])=>l.length>1).sort((a,b)=>b[1].length-a[1].length);
-    document.getElementById("patterns").innerHTML=shared.length?shared.map(([t,l])=>`
-     <div class="pat"><strong>${esc(t)} · ${l.length} changes</strong><p>${esc(DEF[t]||"")} <span class="muted">(${esc(PATTERN_CAT[t]||"")})</span></p>
-     <div class="jump">${l.map(c=>`<button class="jumpbtn" type="button" data-go="${c.id}">${esc(c.co)} ↓</button>`).join("")}</div></div>`).join("")
-     :'<p class="panel-sub">No pattern is shared by two or more Relevant changes this week.</p>';
+  const ed=!multiWeek()&&EDITIONS[state.week];
+  if(ed&&ed.patterns&&ed.patterns.length){            // this week's edition wrote them
+    lbl.textContent=state.week===CUR?"What connects them":`What connects them · ${weekLabel()}`;
+    document.getElementById("patterns").innerHTML=ed.patterns.map(patHTML).join("");
     return;
   }
-  lbl.textContent="What connects them";
-  document.getElementById("patterns").innerHTML=PATTERNS.map(p=>`
-   <div class="pat"><strong>${esc(p.t)}</strong><p>${esc(p.p)}</p>
-     <div class="jump">${p.ids.map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)} ↓</button>`).join("")}</div></div>`).join("");
+  // No edition text for this period: group its Relevant changes by their (fixed-list) pattern, shared by 2+ changes.
+  lbl.textContent=`What connects them · ${weekLabel()}`;
+  const g={};relevantForWeek().forEach(c=>(g[c.pattern]=g[c.pattern]||[]).push(c));
+  const DEF=Object.fromEntries(PATTERN_CATS.flatMap(([,ps])=>ps));
+  const shared=Object.entries(g).filter(([,l])=>l.length>1).sort((a,b)=>b[1].length-a[1].length);
+  document.getElementById("patterns").innerHTML=shared.length?shared.map(([t,l])=>`
+   <div class="pat"><strong>${esc(t)} · ${l.length} changes</strong><p>${esc(DEF[t]||"")} <span class="muted">(${esc(PATTERN_CAT[t]||"")})</span></p>
+   <div class="jump">${l.map(c=>`<button class="jumpbtn" type="button" data-go="${c.id}">${esc(c.co)} ↓</button>`).join("")}</div></div>`).join("")
+   :'<p class="panel-sub">No pattern is shared by two or more Relevant changes this week.</p>';
 }
 // ---------- Dates ----------
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -705,6 +760,7 @@ function filterBars(){
   ["filters-main","filters-all"].forEach(id=>{
     document.getElementById(id).innerHTML=`<label>Period<select data-f="week">${per}</select></label><label>Software category<select data-f="cat">${cat}</select></label>`;
   });
+  document.getElementById("filters-news").innerHTML=`<label>Period<select data-f="week">${per}</select></label>`;
 }
 document.addEventListener("change",e=>{const t=e.target.closest("select[data-f]");if(!t)return;state[t.dataset.f]=t.value;renderGroups()});
 function weekList(){
@@ -753,7 +809,7 @@ function renderGroups(){
   const main=wl.filter(isMain), rest=wl.length-main.length;
   document.getElementById("groups-main").innerHTML=groupsHTML(main,"m");
   renderFront();renderPatterns();renderCtx();
-  renderPromos();
+  renderPromos();renderNews();
   document.getElementById("groups-all").innerHTML=groupsHTML(wl,"a");
   const noteHTML=weekNoteHTML();
   ["pilot-note","pilot-note-main"].forEach(id=>{const el=document.getElementById(id);el.hidden=!noteHTML;el.innerHTML=noteHTML});
@@ -780,7 +836,9 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-go]");if(t
 
 // ---------- Market Trends ----------
 const GROUPS=[["up","You pay more","var(--up)"],["down","You pay less","var(--down)"],["pack","Restructured","var(--pack)"]];
-const newsById=Object.fromEntries(NEWS.map(n=>[n.id,n]));
+const newsById=Object.fromEntries(ALL_NEWS.map(n=>[n.id,n]));
+// Market Trends reads the current edition's stories and those of the 13 editions before it (about 90 days).
+const TREND_NEWS=ALL_NEWS.filter(n=>{const g=wkKey(CUR)-wkKey(n._wk);return g>=0&&g<=13});
 const countBy=(arr,f)=>arr.reduce((m,x)=>{const k=f(x);m[k]=(m[k]||0)+1;return m},{});
 function stack(list){ // stacked bar of up/down/pack
   const c=countBy(list,x=>x.group),n=list.length||1;
@@ -796,13 +854,16 @@ function barRow(name,n,max){
 }
 function renderTrends(){
   renderKeyNumbers();renderModels();
-  const rel=NEWS.filter(n=>n.rel),srcs=new Set(rel.map(n=>n.src));
-  document.getElementById("tn-intro").textContent=`Drawn from ${rel.length} pricing-relevant ${rel.length===1?"story":"stories"} from ${srcs.size} ${srcs.size===1?"source":"sources"}. In the build this view covers every story from the last 90 days, so the themes firm up as stories accumulate.`;
+  const rel=TREND_NEWS.filter(n=>n.rel),srcs=new Set(rel.map(n=>n.src)),wks=[...new Set(rel.map(n=>n._wk))];
+  document.getElementById("tn-intro").textContent=`Drawn from ${rel.length} pricing-relevant ${rel.length===1?"story":"stories"} from ${srcs.size} ${srcs.size===1?"source":"sources"} in the last 90 days (${wks.length===1?"edition of week "+wkNum(wks[0]):"editions of weeks "+wks.slice().reverse().map(wkNum).join(", ")}). Themes are this edition’s read across all of them.`;
   document.getElementById("tn-themes").innerHTML=NEWS_TRENDS.map(th=>`<div class="pat"><strong>${esc(th.t)}</strong><p>${esc(th.p)}</p>
      <ul class="nums theme-nums">${th.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}</span></li>`).join("")}</ul>
      <span class="lbl">Stories</span><div class="jump">${th.news.filter(id=>newsById[id]).map(id=>`<button class="jumpbtn" type="button" data-gonews="${id}">${esc(newsById[id].title)}</button>`).join("")}</div>
      <span class="lbl">Seen in price changes</span><div class="jump">${th.changes.filter(id=>byId[id]).map(id=>`<button class="jumpbtn" type="button" data-go="${id}">${esc(byId[id].co)}</button>`).join("")}</div></div>`).join("");
-  document.getElementById("tn-stats").innerHTML=rel.flatMap(n=>n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}<small>${esc(n.src)} · ${esc(n.date)}</small></span></li>`)).join("");
+  const statLi=n=>n.nums.map(([k,v])=>`<li><b>${esc(k)}</b><span>${esc(v)}<small>${esc(n.src)} · ${esc(n.date)}${n._wk!==CUR&&!/^week/i.test(n.date)?` · week ${wkNum(n._wk)}`:""}</small></span></li>`).join("");
+  const now=rel.filter(n=>n._wk===CUR),old=rel.filter(n=>n._wk!==CUR),oldN=old.reduce((a,n)=>a+n.nums.length,0);
+  document.getElementById("tn-stats").innerHTML=now.map(statLi).join("");
+  document.getElementById("tn-stats-old").innerHTML=oldN?`<details class="older"><summary>Earlier editions · ${oldN} numbers from ${old.length} ${old.length===1?"story":"stories"}</summary><ul class="nums statlib">${old.map(statLi).join("")}</ul></details>`:"";
 }
 // ---------- Statistics ----------
 const ALLC=()=>CHANGES.concat(HISTORY);
@@ -898,6 +959,8 @@ function setSub(v){
 }
 document.querySelectorAll("#p-stats .tr-switch .chip").forEach(b=>b.onclick=()=>setSub(b.dataset.sub));
 function goNews(id){
+  const wk=newsById[id]._wk;
+  if(!newsWeeks().includes(wk)){state.week=wk;renderGroups()}
   const cb=document.getElementById("only-pricing");
   if(!newsById[id].rel&&cb.checked){cb.checked=false;renderNews()}
   showTab("news");const el=document.getElementById("n-"+id);if(!el)return;

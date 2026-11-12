@@ -6,7 +6,8 @@ from __future__ import annotations
 
 from collections import Counter
 
-from common import FIRST_AUTO_EDITION, HEADLINE_COMPANIES, TIERS, week_key, week_range_label, week_start
+from common import (FIRST_AUTO_EDITION, HEADLINE_COMPANIES, NEWS_WINDOW_WEEKS, TIERS, week_key, week_range_label,
+                    week_start)
 
 COMPANY_FIELDS = ["name", "tier", "category", "aiNative", "ownership", "hq", "funding", "employees"]
 
@@ -30,6 +31,28 @@ def ensure_week(desk: dict, week: str, reported: bool = False) -> None:
             w.update(source_week="PricingSaaS reports", coverage="partial", note=REPORTED_WEEK_NOTE)
         desk["weeks"].append(w)
         desk["weeks"].sort(key=lambda w: week_key(w["week"]), reverse=True)
+
+
+EDITION_TEXT = ("news", "patterns", "stats_analysis", "news_trends")
+
+
+def news_window(desk: dict, week: str) -> list[dict]:
+    """Stories of the editions before `week`, at most NEWS_WINDOW_WEEKS back, newest first, each tagged with
+    its edition's week. Market Trends is written from these plus the week's own stories (D56)."""
+    y, n = week_key(week)
+    out = []
+    for w, ed in sorted((desk.get("editions") or {}).items(), key=lambda kv: week_key(kv[0]), reverse=True):
+        wy, wn = week_key(w)
+        gap = (y - wy) * 52 + (n - wn)
+        if 0 < gap <= NEWS_WINDOW_WEEKS:
+            out += [dict(nw, week=w) for nw in ed.get("news", [])]
+    return out
+
+
+def show_edition(desk: dict, week: str) -> None:
+    """Copy a stored edition's text to the top level, where the page reads the current edition."""
+    ed = desk["editions"][week]
+    desk.update({k: ed.get(k, []) for k in EDITION_TEXT})
 
 
 def _magnitude_size(c: dict) -> float:

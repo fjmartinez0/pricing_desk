@@ -24,13 +24,14 @@ import argparse
 import datetime as dt
 import re
 
-from common import (AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, CAPTURES_STARTED, BACKLOG_MAX_ATTEMPTS, APPLIES_TO, DESK, DROP_KINDS, GROUPS, KEEP_KINDS, MAGNITUDE_BASIS,
+from common import (EDITION_BACKFILL_STATE, EDITION_BACKFILL_TRIES, EDITION_FORMAT, week_key,
+                    AGGREGATOR_DOMAINS, ALL_KINDS, BACKLOG, CAPTURES_STARTED, BACKLOG_MAX_ATTEMPTS, APPLIES_TO, DESK, DROP_KINDS, GROUPS, KEEP_KINDS, MAGNITUDE_BASIS,
                     MAX_ROWS, MODELS, PATTERNS, PLAN_LEVELS, PROMO_KIND, PROMO_KINDS, PROPOSALS, REACH, REGISTRY,
                     REPORT_MAX_ATTEMPTS, REPORT_WAIT_RUNS, REPORTS, REPORTS_PER_COMPANY_WEEK, ROOT, RUN, SEGMENTS,
                     SNAPSHOTS, SRC_CAPTURE, SRC_REPORTED, TIERS, WATCHLIST, append_check, change_id, claimed_numbers,
                     domain_of, is_http_url, load_json, log, now, numbers_in, report_problem, run_id, same_site,
                     save_json, short_date, week_range_label, week_start)
-from desk import ensure_week, rerank, rerank_all, stats_numbers, sync_company, week_stats
+from desk import EDITION_TEXT, ensure_week, news_window, rerank, rerank_all, show_edition, stats_numbers, sync_company, week_stats
 
 PROSE_FIELDS = ["short", "headline", "who", "read", "caveat", "stated", "plan", "deltaSub"]
 MAX_LEN = {"short": 240, "headline": 220, "who": 240, "read": 600, "caveat": 300, "stated": 400,
@@ -514,35 +515,102 @@ def apply_reports(desk: dict, registry: dict, proposal, result: dict, handed: se
 
 
 # ---------------------------------------------------------------- edition
+NEWS_POINTS_MAX, PATTERN_POINTS_MAX = 4, 8
+POINT_LEN, LEDE_LEN, NARRATIVE_LEN = 220, 400, 360
+
+
 def _nums_ok(nums) -> bool:
     return isinstance(nums, list) and all(isinstance(n, list) and len(n) == 2 and all(isinstance(x, str) for x in n)
                                           for n in nums)
+
+
+def _plain(v, limit: int) -> bool:
+    """Visible text: a non-empty string, no links, within the length limit."""
+    return isinstance(v, str) and bool(v.strip()) and "http" not in v and "www." not in v and len(v) <= limit
+
+
+def record_numbers(c: dict) -> set[str]:
+    """Numbers a published record shows: what a pattern bullet about it may quote."""
+    parts = [str(c.get(k) or "") for k in ("delta", "deltaSub", "short", "headline", "plan", "who", "read", "when")]
+    parts += [" ".join(map(str, r)) for r in c.get("rows") or []]
+    return numbers_in(" ".join(parts))
+
+
+def clean_news(n: dict, result: dict) -> dict | None:
+    n = {k: tidy(v) if isinstance(v, str) and k != "url" else v for k, v in n.items()}
+    points = n.get("points")
+    ok = (isinstance(n.get("id"), str) and re.fullmatch(r"[a-z0-9-]{3,60}", n["id"]) is not None
+          and all(isinstance(n.get(k), str) and n[k] for k in ("src", "date", "topic", "title", "gist", "why"))
+          and is_http_url(n.get("url")) and domain_of(n["url"]) not in {"g2.com", "capterra.com"}
+          and isinstance(n.get("lead"), bool) and isinstance(n.get("rel"), bool) and _nums_ok(n.get("nums", []))
+          and (points is None or (isinstance(points, list) and len(points) <= NEWS_POINTS_MAX
+                                   and all(_plain(x, POINT_LEN) for x in points)))
+          and (points is None or len(n["gist"]) <= LEDE_LEN))
+    if not ok:
+        result["rejected"].append({"edition": f"news {n.get('id')}", "why": "malformed"})
+        return None
+    if points is not None:
+        n["points"] = [tidy(x) for x in points]
+    return n
+
+
+def clean_pattern(p: dict, week_ids: set[str], by_id: dict, result: dict) -> dict | None:
+    """Format 2: a short narrative `p` plus bullets [{id, text}], one per change; a bullet may only quote numbers
+    its record shows (else it is dropped). Format 1: `p` and `ids` only."""
+    if not (isinstance(p.get("t"), str) and isinstance(p.get("p"), str)):
+        return None
+    if "points" not in p:
+        return p if p.get("ids") and set(p["ids"]) <= week_ids else None
+    if not (_plain(p["p"], NARRATIVE_LEN) and isinstance(p["points"], list)):
+        return None
+    points = []
+    for x in p["points"][:PATTERN_POINTS_MAX]:
+        if not (isinstance(x, dict) and x.get("id") in week_ids and _plain(x.get("text"), POINT_LEN)):
+            continue
+        bad = untraceable(x["text"], record_numbers(by_id[x["id"]]))
+        if bad:
+            result["rejected"].append({"edition": f"pattern {p['t']} · {x['id']}", "why": f"numbers not on the record: {sorted(bad)}"})
+            continue
+        points.append({"id": x["id"], "text": tidy(x["text"])})
+    if len(points) < 2:
+        return None
+    return {"t": p["t"], "p": p["p"], "points": points, "ids": [x["id"] for x in points]}
+
+
+def other_news_ids(desk: dict, week: str) -> set[str]:
+    return {n["id"] for w, ed in (desk.get("editions") or {}).items() if w != week for n in ed.get("news", [])}
 
 
 def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> None:
     due = load_json(RUN / f"edition_due_{run_id()}.json")
     if not due or proposal.get("week") != due["week"]:
         raise Rejected(f"edition week {proposal.get('week')!r} is not the week due")
-    week = due["week"]
+    week, mode = due["week"], due.get("mode", "due")
+    cur = desk["current_week"]
+    if cur not in desk.setdefault("editions", {}) and desk.get("news"):   # an edition written before the archive
+        desk["editions"][cur] = {"week": cur, "edition_date": desk.get("edition_date"), "period": desk.get("period"),
+                                 "format": 1, **{k: desk.get(k, []) for k in EDITION_TEXT}}
     week_ids = {c["id"] for c in desk["changes"] if c["week"] == week}
-    all_ids = {c["id"] for c in desk["changes"]}
+    by_id = {c["id"]: c for c in desk["changes"]}
     allowed_figs = stats_numbers(week_stats(desk, week))
 
-    news, seen_ids = [], set()
-    for n in proposal.get("news", []):
-        n = {k: tidy(v) if isinstance(v, str) and k != "url" else v for k, v in n.items()}
-        ok = (isinstance(n.get("id"), str) and re.fullmatch(r"[a-z0-9-]{3,60}", n["id"]) and n["id"] not in seen_ids
-              and all(isinstance(n.get(k), str) and n[k] for k in ("src", "date", "topic", "title", "gist", "why"))
-              and is_http_url(n.get("url")) and domain_of(n["url"]) not in {"g2.com", "capterra.com"}
-              and isinstance(n.get("lead"), bool) and isinstance(n.get("rel"), bool) and _nums_ok(n.get("nums", [])))
-        if ok:
-            seen_ids.add(n["id"])
-            news.append(n)
-        else:
-            result["rejected"].append({"edition": f"news {n.get('id')}", "why": "malformed"})
-    patterns = [p for p in proposal.get("patterns", [])
-                if isinstance(p.get("t"), str) and isinstance(p.get("p"), str) and p.get("ids")
-                and set(p["ids"]) <= week_ids]
+    # Story ids are unique across the archive (Market Trends links to earlier editions' stories).
+    taken = other_news_ids(desk, week)
+    news, seen_ids, renamed = [], set(), {}
+    for raw in proposal.get("news", []):
+        n = clean_news(raw, result)
+        if n is None:
+            continue
+        nid = n["id"]
+        if nid in taken or nid in seen_ids:
+            n["id"] = f"{nid}-w{week.split('-W')[1]}"
+            if n["id"] in taken or n["id"] in seen_ids:
+                result["rejected"].append({"edition": f"news {nid}", "why": "id already used"})
+                continue
+            renamed[nid] = n["id"]
+        seen_ids.add(n["id"])
+        news.append(n)
+    patterns = [q for q in (clean_pattern(p, week_ids, by_id, result) for p in proposal.get("patterns", [])) if q]
     stats = []
     for s in proposal.get("stats_analysis", []):
         if not (isinstance(s.get("t"), str) and isinstance(s.get("p"), str) and isinstance(s.get("fig"), str)
@@ -553,9 +621,13 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
             result["rejected"].append({"edition": f"stat {s['t']}", "why": f"figure not in week stats: {bad}"})
             continue
         stats.append(s)
-    trends = [t for t in proposal.get("news_trends", [])
-              if isinstance(t.get("t"), str) and isinstance(t.get("p"), str) and _nums_ok(t.get("nums", []))
-              and set(t.get("news") or []) <= seen_ids and set(t.get("changes") or []) <= all_ids]
+    window = {n["id"] for n in news_window(desk, week)}
+    trends = []
+    for t in proposal.get("news_trends", []):
+        t["news"] = [renamed.get(i, i) for i in t.get("news") or []]
+        if (isinstance(t.get("t"), str) and isinstance(t.get("p"), str) and _nums_ok(t.get("nums", []))
+                and set(t["news"]) <= seen_ids | window and set(t.get("changes") or []) <= set(by_id)):
+            trends.append(t)
 
     total = len(week_ids)
     if len(news) < 3 or (total >= 3 and (not patterns or not stats)):
@@ -565,14 +637,29 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
         for k in ("t", "p", "figNote", "fig"):
             if isinstance(p.get(k), str):
                 p[k] = tidy(p[k])
+    today = now().date()
+    replaced = {n["id"] for n in (desk["editions"].get(week) or {}).get("news", [])} - seen_ids
+    for other in [ed for w, ed in desk["editions"].items() if w != week] + [desk]:   # links to replaced stories
+        for t in other.get("news_trends", []):
+            t["news"] = [i for i in t.get("news", []) if i not in replaced]
+    desk.setdefault("editions", {})[week] = {
+        "week": week, "edition_date": today.isoformat(), "period": week_range_label(week), "format": EDITION_FORMAT,
+        "news": news, "patterns": patterns, "stats_analysis": stats, "news_trends": trends}
+    for m in proposal.get("missed", []):          # companies the news or PricingSaaS mentioned that we don't track
+        if isinstance(m, dict) and m.get("name"):
+            apply_registry(desk, registry, {"new_companies": [m]}, result)
+    result["edition"] = week
+    result["edition_mode"] = mode
+    result["news_added"] = [n["id"] for n in news]
+    if week_key(week) < week_key(desk["current_week"]):
+        return                                     # a catch-up edition for an earlier week: archived only
+
     st = week_stats(desk, week)
     active = sum(e["status"] == "active" for e in registry["companies"].values())
     reported = sum(1 for c in desk["changes"] if c["week"] == week and c.get("reported"))
-    today = now().date()
     desk.update({
         "current_week": week, "edition_date": today.isoformat(), "today": today.isoformat(),
         "period": week_range_label(week),
-        "news": news, "patterns": patterns, "stats_analysis": stats, "news_trends": trends,
         "market_context": {
             "source": f"Pricing Desk, {active} tracked pricing pages" + (" + PricingSaaS reports" if reported else ""),
             "total": st["total"],
@@ -583,6 +670,7 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
                      f"and {st['by_group'].get('pack', 0)} restructured plans or limits."),
         },
     })
+    show_edition(desk, week)
     ensure_week(desk, week)
     for w in desk["weeks"]:
         if w["week"] == week:
@@ -593,11 +681,22 @@ def apply_edition(desk: dict, registry: dict, proposal: dict, result: dict) -> N
                            f"We kept {st['total']} changes this week"
                      + (f", {reported} of them reported by PricingSaaS at companies we didn’t capture yet." if reported
                         else ".")))
-    for m in proposal.get("missed", []):          # companies the news or PricingSaaS mentioned that we don't track
-        if isinstance(m, dict) and m.get("name"):
-            apply_registry(desk, registry, {"new_companies": [m]}, result)
-    result["edition"] = week
-    result["news_added"] = [n["id"] for n in news]
+
+
+def edition_rejected(week_due: dict | None, reason: str) -> None:
+    """A due edition is retried every run. A catch-up edition gets EDITION_BACKFILL_TRIES, then is skipped."""
+    if not week_due or week_due.get("mode") != "backfill":
+        report_problem(f"Edition not published: {reason}. It will be retried on the next run.", "edition")
+        return
+    week = week_due["week"]
+    tries = load_json(EDITION_BACKFILL_STATE, {}) or {}
+    tries[week] = tries.get(week, 0) + 1
+    save_json(EDITION_BACKFILL_STATE, tries)
+    if tries[week] >= EDITION_BACKFILL_TRIES:
+        report_problem(f"Catch-up edition {week} skipped after {tries[week]} tries: {reason}. Its records stay; "
+                       f"delete {week} from {EDITION_BACKFILL_STATE.name} to try again.", "edition")
+    else:
+        log(f"catch-up edition {week} rejected ({reason}); tried again on the next run")
 
 
 # ---------------------------------------------------------------- main
@@ -697,7 +796,7 @@ def merge(run: str, recovering: bool = False) -> int:
         try:
             apply_edition(desk, registry, edition, result)
         except Rejected as e:
-            report_problem(f"Edition not published: {e}. It will be retried on the next run.", "edition")
+            edition_rejected(load_json(RUN / f"edition_due_{run}.json"), str(e))
 
     desk["today"] = now().date().isoformat()
     rerank_all(desk)                          # every week, so rank and score follow the current rule (D54)

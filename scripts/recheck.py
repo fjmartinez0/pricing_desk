@@ -2,7 +2,7 @@
 
   * "They say": the quoted words must appear on statedUrl (the company's own site).
     If not, the quote is removed; the card stays.
-  * Edition news: each article must load, and every number in its "Key numbers"
+  * Edition news: each article must load, and every number in its "Key numbers" and bullets
     must appear in the article. Numbers that don't are removed; an article that
     doesn't load is removed.
 Every check is appended to data/checks.jsonl.
@@ -58,9 +58,13 @@ def check_stated(desk: dict, added: list[str]) -> int:
     return changed
 
 
-def check_news(desk: dict, news_ids: list[str]) -> int:
+def check_news(desk: dict, week: str, news_ids: list[str]) -> int:
+    """Check the new edition's stories (stored under editions[week]); the page's copy follows if it is current."""
+    ed = (desk.get("editions") or {}).get(week)
+    if not ed:
+        return 0
     changed, keep = 0, []
-    for n in desk.get("news", []):
+    for n in ed.get("news", []):
         if n["id"] not in news_ids:
             keep.append(n)
             continue
@@ -76,11 +80,19 @@ def check_news(desk: dict, news_ids: list[str]) -> int:
         if len(good) != len(n.get("nums", [])):
             changed += 1
         n["nums"] = good
+        if n.get("points"):                        # story bullets: their numbers must be in the article too (D56)
+            pts = [x for x in n["points"] if not (claimed_numbers(x) - on_page)]
+            append_check("news-points", n["url"], len(pts) == len(n["points"]),
+                         f"{len(pts)}/{len(n['points'])} bullets with numbers found")
+            changed += len(pts) != len(n["points"])
+            n["points"] = pts
         keep.append(n)
-    removed = {n["id"] for n in desk.get("news", [])} - {n["id"] for n in keep}
-    desk["news"] = keep
-    for t in desk.get("news_trends", []):
+    removed = {n["id"] for n in ed.get("news", [])} - {n["id"] for n in keep}
+    ed["news"] = keep
+    for t in ed.get("news_trends", []):
         t["news"] = [i for i in t.get("news", []) if i not in removed]
+    if week == desk.get("current_week"):
+        desk["news"], desk["news_trends"] = ed["news"], ed["news_trends"]
     return changed
 
 
@@ -95,7 +107,7 @@ def main() -> int:
     desk = load_json(DESK)
     changed = check_stated(desk, merge.get("added", []))
     if merge.get("edition"):
-        changed += check_news(desk, merge.get("news_added", []))
+        changed += check_news(desk, merge["edition"], merge.get("news_added", []))
     if _browser:
         _browser.close()
     if changed:

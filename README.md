@@ -19,7 +19,7 @@ and in GitHub Actions) stop anything broken from going live.
 ```
 launchd → scripts/run_daily.sh
   1 pull, snapshot desk.json        6 recheck.py      quotes and news numbers checked online
-  2 capture.py   pricing pages      7 validate.py     integrity rules (abort + alert)
+  2 capture.py   pricing pages      7 validate.py     integrity rules (abort + alert); check_page.py (alert only)
   2b pricingsaas_capture.py  PricingSaaS briefings, move explorer (/feed), weekly reviews → data/reports.json
   3 Claude       changes / reports / registry / edition (writes proposals/ only)
   4 coverage_check.py (quiet alerts) 8 stamp, commit, push → GitHub Actions validates and deploys
@@ -47,6 +47,9 @@ python3 scripts/capture.py --company slack --dry-run     # see what we capture f
 python3 scripts/add_company.py --name "Loom" --url https://www.loom.com/pricing --category "Collaboration & Productivity"
 python3 scripts/build_site.py --out preview.html         # open the page offline
 python3 scripts/validate.py                              # integrity check
+python3 scripts/check_page.py                            # click through the built page, report JavaScript errors
+python3 scripts/restore_editions.py --dry-run            # editions in git history that the archive lacks
+python3 scripts/pricingsaas_capture.py --feed-file saved.html --dry-run   # preview importing a saved PricingSaaS explorer page
 python3 scripts/notify.py --test                         # test the iPhone notification
 PD_LOG_TO_TERMINAL=1 bash scripts/run_daily.sh           # a full run in the terminal
 ```

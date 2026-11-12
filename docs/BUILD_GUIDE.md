@@ -51,14 +51,23 @@ says what to do next.
   pack `#7A4CC2`.
 - **Dark theme:** background `#0E1320`, ink `#E8ECF4`, accent `#8BA3FF`, up `#FF8A80`, down `#6FD9A2`,
   pack `#C3A3F5`. The theme follows `prefers-color-scheme`.
-- **Layout:** one column, max width 760px, phone first.
+- **Layout:** phone first, one column up to 1,000 px wide; from 1,000 px the page is 1,180 px, change and news
+  cards go two per row, the lead story spans the row (text left, numbers right), patterns and themes sit in two
+  balanced columns, and running text keeps a 65ch measure (D51, D56).
 - **Tabs:** News (`#t-news`), Main Price Changes (`#t-main`: Ranked and Timeline), All Price Changes
   (`#t-all`: Changes and Promotions), Statistics (`#t-stats`: Analysis, Models & patterns), Market Trends
   from News (`#t-newstrends`), Sources (`#t-src`).
 - **Week selector:** current edition, all weeks, a month, or a single week. Any view other than the
   current edition shows one `.pilot` box built by `weekNoteHTML()`: backfill origin, partial coverage
   and the week's `note`.
-- **News order:** newest first by `date` ("7 Oct" or "Week 42"), via `newsTime()`.
+- **News order:** lead first, then newest first by `date` ("7 Oct" or "Week 42"), via `newsTime()`. The News tab
+  has the Period selector too (D56): a week shows its edition from `editions`, a month or all weeks stacks the
+  editions with an "Edition · week N" heading, a week without an edition says so.
+- **Edition text (D56):** format-2 stories show the one-sentence gist then `points` as bullets; format-2 patterns
+  show the narrative then one bullet per change (company button + text + "via PricingSaaS" when reported).
+  Format 1 (older editions) keeps paragraphs and chips. Main → What connects them uses the picked week's edition
+  if it has one, otherwise groups that period's Relevant changes by pattern. Market Trends uses `TREND_NEWS`
+  (the current edition and 13 before it); story links jump to the story's edition.
 - **Cards (D6):** headline delta chip → one-line summary → Before/After table → Who it hits → They say
   (only if stated) → Why · our read.
 - **Relevant changes:** `isMain = c.main ?? tier <= 2`. The front page shows the first 7 changes of the
@@ -119,6 +128,7 @@ every per-run file.
 | `stats_analysis[]` | `{t, fig, figNote, p, ids[]}`, fig numbers from code stats | edition |
 | `news_trends[]` | `{t, p, nums, news[], changes[]}` | edition |
 | `market_context` | `{source, total, increases, cuts, other, note}` | code |
+| `editions{}` | `week → {week, edition_date, period, format, news, patterns, stats_analysis, news_trends}`; the current one equals the top-level text. Format 2: news `{…, gist (1 sentence), points[]}`, patterns `{t, p, points [{id, text}], ids}` (D56) | edition merge; `restore_editions.py` for editions before 11 Nov |
 
 ### 3.2 Change records
 **One-line record:**
@@ -159,8 +169,9 @@ in the validator: `url` may be null and rows may number up to 8. Automated recor
 `src: "Pricing Desk capture"`.
 
 ### 3.3 Ranking (code, `desk.rerank`)
-Full cards before one-line records. Then tier 1 → 3, then `reach` (high first), then the size of
-`magnitude`, with previous order as the tie-break. This runs for every week that receives a record.
+Tier 1 → 3, then `score` = `desk.importance()` (high first; D54: company weight × who it hits × size × basis,
+one-line records count half), with previous order as the tie-break. `rank` is the order within a week; month and
+"all weeks" views order by `score`. Every merge reranks every week (`rerank_all`).
 
 ### 3.4 Weeks (code, `common.week_label`)
 Label = ISO week of (date + 7 days), so weeks run Monday–Sunday and are numbered one ahead of ISO.
@@ -169,8 +180,11 @@ capture that still showed the old page.
 
 ### 3.5 Edition timing (code, `close_week.due_week`)
 The previous week is due once 42 hours have passed after it ends (Tuesday 19:00 run, D49). It must be later
-than `current_week` and not earlier than `FIRST_AUTO_EDITION` (`2026-W45`). The edition is retried every
-run until it's accepted.
+than `current_week` and not earlier than `FIRST_AUTO_EDITION` (`2026-W44`). The edition is retried every
+run until it's accepted. A run with no edition due writes one catch-up edition (D56): the first week in
+`EDITION_BACKFILL` whose stored edition is missing or older than `EDITION_FORMAT`, unless it was rejected
+`EDITION_BACKFILL_TRIES` times (`data/edition_backfill.json`). A catch-up for an earlier week is only archived;
+one for the current week also replaces the page's edition.
 
 ### 3.6 Registry (`data/registry.json` → `companies.<slug>`)
 Fields:
@@ -196,22 +210,24 @@ Status flow:
 | `common.py` | — | — | Paths, time zone, **all rules and thresholds**, enums, keep-rule table, watchlist, week helpers, JSON I/O, checks log, problem queue, number extraction |
 | `normalize.py` | — | — | HTML → stable text (drops script/style/nav/footer, volatile lines); `looks_like_pricing`; `comparable` for quote matching |
 | `fetch.py` | — | — | Static fetch with robots.txt, gzip, identifiable user agent; raises `Blocked` / `FetchError` |
-| `browser_capture.py` | — | — | The only Playwright module: one Chromium per run, `networkidle` + 1.5 s |
+| `browser_capture.py` | — | — | The only Playwright module: one Chromium per run, `networkidle` + 1.5 s; a page that never goes idle is used after the timeout (D52) |
 | `seed_registry.py` | setup | desk.json → registry.json | Idempotent; adds missing companies + watchlist URLs |
 | `capture.py` | 2 | registry, capture_state → snapshots, backlog, `proposals/<run>.input.json`, `.run/diffs/` | State machine (§4.2) |
-| `pricingsaas_capture.py` | 2b | PricingSaaS /news (browser, "Load more"), weekly reviews, articles, diff pages → `data/pricingsaas/`, `data/reports.json` | `--review WEEK…` backfill, `--max-fetches`, `--no-browser`, `--dry-run`; never fails the run |
-| `prepare_reports.py` | 3 | reports.json → `proposals/<run>.reports_input.json` | Exit 10 = nothing to do; adds registry guess and existing records |
+| `pricingsaas_capture.py` | 2b | PricingSaaS /news (browser, "Load more"), weekly reviews, articles, diff pages → `data/pricingsaas/`, `data/reports.json` | Also reads `/feed` (every row of the latest weekly batch → `data/pricingsaas/feed/<period>.json`, D48). `--review WEEK…` backfill, `--feed-file saved.html` import (takes the run lock), `--max-fetches`, `--no-browser`, `--dry-run`; never fails the run |
+| `prepare_reports.py` | 3 | reports.json → `proposals/<run>.reports_input.<n>.json` (up to `REPORTS_PARTS` parts of `REPORTS_BATCH`) | Exit 10 = nothing to do; adds registry guess and existing records; `--merge` joins the answered parts into `<run>.reports_input.json` / `<run>.reports.json` (D48) |
 | `prepare_registry.py` | 3 | registry → `.run/registry_todo_<run>.json` | Exit 10 = nothing to do |
-| `close_week.py` | 3 | desk → `.run/edition_due_<run>.json`, `.run/week_stats_<run>.json` | Exit 10 = not due; `--force-week` for tests |
+| `close_week.py` | 3 | desk → `.run/edition_due_<run>.json` (`week`, `mode` due/backfill), `.run/week_stats_<run>.json`, `.run/news_window_<run>.json` | Exit 10 = nothing to write; else the due edition or one catch-up (D56); `--force-week` for tests |
 | `run_agent.sh` | 3 | prompt template → proposal | Fills `{{TODAY}} {{WEEKDAY}} {{RUN}} {{INPUT_FILE}} {{OUTPUT_FILE}} {{WEEK}} {{WEEK_LABEL}} {{STATS_FILE}}`; agent may write only `./proposals/**` |
 | `coverage_check.py` | 4 | run files → problems | Never blocks |
-| `apply_proposals.py` | 5 | proposals → desk, registry, backlog, reports, `.run/merge_<run>.json` | **The rules** (PROJECT_CONTEXT §5, incl. rule 11: `apply_reports`) |
-| `desk.py` | 5 | — | `ensure_week`, `rerank`, `sync_company`, `week_stats`, `stats_numbers` |
-| `recheck.py` | 6 | merge result → desk, checks.jsonl | Quotes and news numbers online |
+| `apply_proposals.py` | 5 | proposals → desk, registry, backlog, reports, `.run/merge_<run>.json` | **The rules** (PROJECT_CONTEXT §5, incl. rule 11: `apply_reports`); a failed merge restores backlog and reports; `--run <id> --recover` re-applies a failed run (D50) |
+| `desk.py` | 5 | — | `ensure_week`, `importance` + `rerank`/`rerank_all` (rank within a week, score across weeks, D54), `sync_company`, `week_stats`, `stats_numbers` |
+| `recheck.py` | 6 | merge result → desk, checks.jsonl | Quotes, news key numbers and story bullets online (on `editions[week]`, current copy kept in step) |
+| `restore_editions.py` | once | git history → `desk.editions` | Editions published before the archive (D56); idempotent, `--dry-run` |
 | `validate.py` | 7 + CI | desk, registry | Integrity; exit 1 lists problems |
+| `check_page.py` | 7 | built page | Chromium clicks every tab, sub-view, period and category; a JavaScript error → problem alert, never blocks (D53) |
 | `stamp_meta.py` | 8 | → meta.json | Last run time for the watchdog |
 | `notify.py` | 9 | desk before/after, problems → ntfy | `--test`, `--problem "…"` |
-| `build_site.py` | CI | template + desk → `_site/` | `--out preview.html` |
+| `build_site.py` | CI | template + desk → `_site/` | `--out preview.html`; injects `updated_at` (meta.json) and `backfill` (reports.json, PricingSaaS feed lists) |
 | `add_company.py` | manual | registry | Add or fix companies, force browser, change status |
 | `run_daily.sh` | all | — | Lock file, steps, stash on failed validation, commit and push, failure alerts |
 | `install_mac.sh` | setup | plist → `~/Library/LaunchAgents` | `--run-now` kicks a run |
@@ -221,7 +237,7 @@ The exact formats are in the prompts. These are the shapes the merge expects:
 - **changes:** `{"type": "changes", "items": [{"diff_id", "kind", "why", "detail": "card"|"line", "record": {…}, "promo": {kind, text}|null}]}`
 - **registry:** `{"type": "registry", "urls": [{"slug", "pricing_urls", "domains"}], "new_companies": [{"name", "category", "segment", "pricing_urls", "domains", "source_url", "why"}]}`
 - **reports:** `{"type": "reports", "items": [{"report_id", "company"|null, "new_company"|null, "kind", "why", "detail", "record", "promo"}]}`
-- **edition:** `{"type": "edition", "week", "news", "patterns", "stats_analysis", "news_trends", "missed": [new-company shape]}`
+- **edition:** `{"type": "edition", "week", "news", "patterns", "stats_analysis", "news_trends", "missed": [new-company shape]}`; news items carry `points[]`, patterns `points [{id, text}]` (D56)
 
 A proposal file that's missing or isn't valid JSON is reported and ignored. The backlog keeps the
 changes for the next run.
@@ -252,8 +268,9 @@ What a capture does:
 - `REGISTRY_BATCH` 30
 - `MIN_CAPTURE_OK_RATIO` 0.9
 - `BACKLOG_MAX_ATTEMPTS` 4
-- `EDITION_READY_AFTER` 18 h
-- `FIRST_AUTO_EDITION` 2026-W45
+- `EDITION_READY_AFTER` 42 h
+- `FIRST_AUTO_EDITION` 2026-W44
+- `EDITION_FORMAT` 2, `EDITION_BACKFILL` (8 weeks), `EDITION_BACKFILL_TRIES` 2, `NEWS_WINDOW_WEEKS` 13
 - `DELAY_BETWEEN_COMPANIES_SEC` 2
 - PricingSaaS: `PS_LOAD_MORE_MAX` 40, `PS_MAX_FETCHES` 150, `PS_DELAY_SEC` 2, `REPORTS_BATCH` 40, `REPORTS_PARTS` 3 (env `PD_REPORTS_PARTS`),
   `REPORT_MAX_ATTEMPTS` 4, `REPORT_WAIT_RUNS` 4, `REPORTS_PER_COMPANY_WEEK` 3, `PS_CUT_MARKERS`
