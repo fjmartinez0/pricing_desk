@@ -28868,7 +28868,8 @@
    "first_seen": "2026-11-07T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/mindsdb-added-a-new-claude-haiku-model-to-its-rate-card"
+    "https://pricingsaas.com/news/article/mindsdb-added-a-new-claude-haiku-model-to-its-rate-card",
+    "https://pricingsaas.com/news/article/mindsdb-added-muse-ember-to-its-model-rate-card"
    ],
    "fetched_at": "2026-11-07T07:28:01-05:00",
    "file": "data/pricingsaas/pages/diffs/mindsdb__2026D311.txt",
@@ -32546,6 +32547,35 @@
    "file": "data/pricingsaas/pages/diffs/openai__2026D312.txt",
    "title": "OpenAI: all four ChatGPT plan taglines rewritten to 'Best for...' framing — Nov 8, 2026 · PricingSaaS Pulse",
    "report_id": "openai:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/mindsdb-added-muse-ember-to-its-model-rate-card": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-11T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-11T19:36:53-05:00",
+   "file": "data/pricingsaas/pages/articles/mindsdb-added-muse-ember-to-its-model-rate-card.txt",
+   "title": "MindsDB added Muse Ember to its model rate card",
+   "published": "2026-11-11T16:07:21.128354+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D315",
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D311"
+   ]
+  },
+  "https://pricingsaas.com/companies/mindsdb/diffs/2026D315": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-11T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mindsdb-added-muse-ember-to-its-model-rate-card"
+   ],
+   "fetched_at": "2026-11-11T19:36:53-05:00",
+   "file": "data/pricingsaas/pages/diffs/mindsdb__2026D315.txt",
+   "title": "MindsDB lists Muse Ember 1.0 at $0.10 input / $0.50 output per 1M tokens — Nov 11, 2026 · PricingSaaS Pulse",
+   "report_id": "mindsdb:2026-W47"
   }
  }
 }

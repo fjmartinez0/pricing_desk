@@ -1,0 +1,103 @@
+{
+ "type": "changes",
+ "run": "2026-11-11T19",
+ "items": [
+  {"diff_id": "aihr-2026-11-11T19", "kind": "noise", "why": "Course catalogue entry swapped and review/rating counters ticked up; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "asana-2026-11-11T19", "kind": "price_reveal", "why": "A $5.99 per user per month figure appeared in the on-demand (pay as you go) AI text for the first time; unclear what it bills, so not treated as a change to an existing price.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "expressvpn-2026-11-11T19",
+   "kind": "price_cut",
+   "why": "Two-year Advanced and Express Pro first-28-month totals dropped (USD$126 → USD$117.32, USD$210 → USD$201.32); Basic moved by a few cents.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "−7% Advanced",
+    "deltaSub": "Advanced, 2-year plan, first 28 months",
+    "short": "Advanced 2-year plan first 28 months USD$126 → USD$117.32; Express Pro USD$210 → USD$201.32.",
+    "headline": "ExpressVPN lowered the promotional first-28-month price of its Advanced and Express Pro 2-year plans, with Basic barely changed.",
+    "rows": [
+     ["Basic, first 28 months", "USD$84", "USD$83.72"],
+     ["Advanced, first 28 months", "USD$126", "USD$117.32"],
+     ["Express Pro, first 28 months", "USD$210", "USD$201.32"],
+     ["Advanced, badge", "Save 73%", "Save 75%"]
+    ],
+    "who": "New customers buying the 2-year plans; the renewal prices shown (USD$99.95, USD$119.95, USD$199.95 annually) are unchanged.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Looks like a deeper promotional discount on the two upper tiers, steering buyers away from Basic. Likely a seasonal promotion rather than a list-price reset, though that is an inference.",
+    "caveat": "Per-month display moved from fractions (e.g. USD$4½) to decimals (USD$4.19); promotional first-term prices only.",
+    "pattern": "Price cut",
+    "seg": "B2C",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 3,
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "new",
+    "magnitude": {"low": -7, "high": 0, "basis": "list price"}
+   },
+   "promo": null
+  },
+  {"diff_id": "google-workspace-2026-11-11T19", "kind": "noise", "why": "Existing 50%-off-for-3-months promo only had its date window shifted by one day.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "legalzoom-2026-11-11T19",
+   "kind": "plan_change",
+   "why": "Page served two versions in one run: old Managed/Expert Service packages and a new Pro/Premium layout at the same $249/$299 with different bundled services (looks like a test).",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Repackaged (test)",
+    "deltaSub": "LLC formation packages, same prices",
+    "short": "Managed Service $249 → Pro $249 and Expert Service $299 → Premium $299, with different bundled services.",
+    "headline": "LegalZoom is showing some visitors a repackaged LLC formation lineup where the two paid packages keep their prices but swap the bundled services.",
+    "rows": [
+     ["Mid package, name and price", "Managed Service, $249", "Pro, $249"],
+     ["Mid package, post-trial service", "Business advisor, $49/mo after 30 days", "Attorney consults, $49/mo after 30 days"],
+     ["Top package, name and price", "Expert Service, $299", "Premium, $299"],
+     ["Top package, post-trial service", "Full team plan, $99/mo after 30 days", "Bookkeeping for 6 months, then $9.99/mo"]
+    ],
+    "who": "New LLC formation buyers who are shown the new layout; not clear how many visitors see it.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The new top package drops the accountant, tax-prep and always-on team service in favour of bookkeeping software, which lowers the recurring fee after the trial. Because both versions appeared in the same run, this is an A/B test, not a decided change.",
+    "caveat": "Unstable page: both versions were served within the same run. The phone number and many copy details also differ.",
+    "pattern": "Rename & reposition",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3,
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "new",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "semrush-2026-11-11T19", "kind": "wording", "why": "Enterprise button changed from Request demo to Talk to sales and feature line breaks reflowed; no price or limit change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "shopify-2026-11-11T19", "kind": "noise", "why": "Page flipped between CAD and USD rendering (CA$37 vs $44 etc.) with feature-list reordering; a currency/region rendering difference, not a price change.", "detail": "card", "record": null, "promo": null},
+  {"diff_id": "luzmo-2026-11-11T19", "kind": "wording", "why": "FAQ definition of an AI conversation expanded; the 500 conversations per month allowance is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "modal-2026-11-11T19", "kind": "new_feature", "why": "A Model APIs per-token rate card was added; no existing price changed.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "oneup-2026-11-11T19",
+   "kind": "limit_change",
+   "why": "Intermediate plan changed from Unlimited Posts to a cap of 800 Scheduled Posts.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Unlimited → 800",
+    "short": "Intermediate plan posts: Unlimited → 800 scheduled posts, price unchanged at $48 and $60.",
+    "pattern": "Limits tighten",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "abacus-ai-2026-11-11T19", "kind": "wording", "why": "Model list in the plan copy updated (Smaug + DeepSeek replaced by DeepSeek v4.1 + Kimi K3.1 Pro); no price or limit change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "plaud-ai-2026-11-11T19", "kind": "noise", "why": "A help prompt (Need help finding the right Plaud?) was removed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "composio-2026-11-11T19", "kind": "wording", "why": "Credits FAQ was rewritten and split into a table, with the same $18 per seat credits and the same $2 one-time free credits; no price or limit change.", "detail": "line", "record": null, "promo": null}
+ ]
+}
