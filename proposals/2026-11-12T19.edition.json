@@ -1,0 +1,231 @@
+{"type": "edition", "run": "2026-11-12T19", "week": "2026-W43",
+ "news": [
+  {
+   "id": "gbb-fireflies-claude-loom",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "16 Oct",
+   "topic": "AI packaging",
+   "rel": true,
+   "title": "Weekly Roundup: Anthropic, Fireflies, and Loom",
+   "url": "https://newsletter.pricingsaas.com/p/fireflies-publishes-its-api-limits-claude-s-free-plan-gets-docs-and-slides-and-loom-launches-record",
+   "gist": "Fireflies responded to agent traffic by publishing per-plan API limits instead of adding a fee, while Anthropic moved Claude Docs, Slides and Design onto its free tier: two bets on charging for usage rather than for access.",
+   "points": [
+    "Litterst reads the Fireflies limits as generous fair use that mostly catches extreme cases such as a runaway agent, with heavier users expected to upgrade",
+    "He gives two readings of the Claude move: earn on the work done inside commodity apps, or hand occasional AI users a concrete reason to try Claude",
+    "Loom’s new Record for agents, which turns narrated screen recordings into instructions an agent can act on, is kept for the Business + AI plan",
+    "The roundup also notes Docker dropping Build Cloud minutes from its plan listings and Mistral cutting Free plan API credits"
+   ],
+   "nums": [
+    ["230+", "pricing, packaging and product changes the newsletter observed that week"],
+    ["$200", "most an Anthropic Max subscriber now gets in monthly API credits"],
+    ["$20", "monthly Pro price previously needed for Claude Docs, Slides and Design"],
+    ["$0.10", "Dynatrace’s price per AI unit for its new Agentic Operations"],
+    ["68%", "top of Together AI’s Qwen3.8 Flash price rise"]
+   ],
+   "why": "If your team reaches a tool through agents or its API, read the published per-plan limits before automating, because the cap rather than the list price may decide which tier you need."
+  },
+  {
+   "id": "pricingsaas-w43",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": null,
+   "date": "Week 43",
+   "topic": "Market data",
+   "rel": true,
+   "title": "Cursor cuts Teams 25%, from $40 to $30+ per user a month, in a slower week: 204 changes against a 221 average",
+   "url": "https://pricingsaas.com/news/week/2026W43",
+   "gist": "PricingSaaS’s weekly review calls 12–18 Oct a slightly slower week, led by Cursor’s Teams cut; increases ran at their usual pace, cuts ran above it, and promotions and price reveals were below normal.",
+   "points": [
+    "Shopify’s higher annual Grow and Advanced prices are read as one arm of an A/B test, with monthly billing and Basic left alone",
+    "Precog swapped opaque credits for four public flat tiers, while ApprovalMax went the other way and replaced its listed prices with contact sales",
+    "PagerDuty began stating how many AI Actions each tier includes, and Buildkite and GorillaDesk now list fees that weren’t shown before",
+    "fal’s doubled Flux 3 Image edit rate is flagged as a repeat hike, and Adapt’s Managed plan cut is the week’s deepest"
+   ],
+   "nums": [
+    ["204", "changes logged in the week"],
+    ["221", "eight-week average of weekly changes"],
+    ["11", "price cuts, against a 7.8 average"],
+    ["19", "promotions, against 22.4 in a normal week"]
+   ],
+   "why": "With cuts above their usual rate, check whether a tool you pay for, Cursor Teams especially, now lists a lower seat price than the one on your contract."
+  },
+  {
+   "id": "agentdeals-w42",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "12–18 Oct",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Pricing Changes: October 12–18, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w42",
+   "gist": "AgentDeals’ digest for our week leads with Cursor selling new subscriptions only through the X Subscription, and records free allowances ending at Taskade, Gemini CLI’s personal tier and Tugboat.",
+   "points": [
+    "Existing Cursor subscribers keep their old plans, and third-party models are billed at API list price from prepaid credit on Premium and above",
+    "OpenAI retired GPT-5.5 from ChatGPT and Codex on every plan, and NVIDIA removed Kimi K3 from its free NIM endpoints",
+    "Zeabur announced it is shutting down, pausing shared-cluster services in December and stopping all servers at year end",
+    "Gemini CLI still works with an API key, Vertex AI or a Code Assist licence once the personal free tier is gone"
+   ],
+   "nums": [
+    ["$8", "monthly price of the X Subscription’s Plus tier, which includes Cursor"],
+    ["11,000", "one-time AI credits Taskade’s Free plan included before the change"],
+    ["1,000", "daily requests on Gemini CLI’s personal free tier, which ended"],
+    ["$39", "Tugboat’s cheapest plan now that its Free plan is gone"]
+   ],
+   "why": "Free tiers used for prototypes or CI can vanish with little notice, so check that your tools still have a free path and what the cheapest paid plan costs."
+  },
+  {
+   "id": "shopify-price-flip",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "16 Oct",
+   "topic": "Price testing",
+   "rel": true,
+   "title": "Shopify cut Grow and Advanced plan prices back down",
+   "url": "https://pricingsaas.com/news/article/shopify-s-grow-and-advanced-annual-prices-flip-back-to-79-and-299-a-day-after-a-hike",
+   "gist": "Shopify raised its annual Grow and Advanced prices and dropped them back a day later, and PricingSaaS argues the flip says more about how openly companies now test prices than about Shopify’s intentions.",
+   "points": [
+    "The higher prices carried no promo badge or end date, which is why the article treats them as one arm of a live experiment; Shopify hasn’t confirmed it",
+    "Customers can compare notes or screenshot prices, so a visible overnight reversal has a cost for the vendor",
+    "The advice is to stagger price tests by cohort rather than swap the whole page, and to watch whether Shopify returns to the higher prices"
+   ],
+   "nums": [
+    ["$79", "annual Grow price per month after the reversal, down from $89"],
+    ["$299", "annual Advanced price per month after the reversal, down from $359"],
+    ["20", "real pricing changes Pulse has logged on Shopify’s page since 1 Jan 2024"]
+   ],
+   "why": "A price you see once may be a test arm, so keep a screenshot of the quote and confirm which price applies before you commit to annual billing."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "AI usage moves onto credits",
+   "p": "Vendors replaced minutes, messages and seat quotas with credit allowances, so what a plan includes is now stated in one AI currency. Most of these come from PricingSaaS reports; Channel.io is from the feed captures.",
+   "points": [
+    {"id": "storylane-2026w43", "text": "replaced video-avatar-minute tiers with monthly AI credits, from 200 on Free to 20,000 on Premium"},
+    {"id": "wistia-2026w43", "text": "began listing included credits on its plan cards, 5,000+ a month on Business and 12,500+ on Enterprise"},
+    {"id": "sumo-logic-2026w43", "text": "kept 10 DojoAI prompts per user a day included and added purchasable pooled DojoAI Credits"},
+    {"id": "vizly-2026w43", "text": "replaced $19.99 and $29.99 message plans with credit-based plans at $29, $79 and $249 a month"},
+    {"id": "channel-2026w43", "text": "replaced managed-user and seat quotas with AI-centred CX and Marketing plans"},
+    {"id": "pageproof-2026w43", "text": "added AI credits to all plans while raising Team Plus from $3,999 to $4,999 a year"}
+   ]
+  },
+  {
+   "t": "The cheapest way in got dearer",
+   "p": "Several vendors removed their cheapest plan or raised its price, so the minimum spend rose even where higher tiers stayed put. All seven come from PricingSaaS reports.",
+   "points": [
+    {"id": "givewp-2026w43", "text": "removed the $199/year Essentials plan, making Pro at $399/year the entry plan"},
+    {"id": "learndash-2026w43", "text": "removed the $259 Essentials plan and folded its features into Pro at $399"},
+    {"id": "neon-one-2026w43", "text": "removed the $49/month Launch plan from its pricing page"},
+    {"id": "creativeforce-2026w43", "text": "removed its Core plan, leaving only quote-based Enterprise"},
+    {"id": "lindy-2026w43", "text": "raised the Team entry price from $29.99 to $49.99 per user a month by dropping the smaller credit tiers"},
+    {"id": "motion-2026w43", "text": "raised Starter from $750 to $999 a month and put Pro behind contact sales"},
+    {"id": "mediamodifier-2026w43", "text": "removed the free Starter plan and raised Professional yearly from $12.50 to $15.83 a month"}
+   ]
+  },
+  {
+   "t": "Free plans pulled both ways",
+   "p": "Free plans lost core usage, such as projects, leads and runners, while others gained collaboration features meant to bring whole teams in. All eight come from PricingSaaS reports.",
+   "points": [
+    {"id": "snaptrude-2026w43", "text": "cut free projects from 3 to 1"},
+    {"id": "kickofflabs-2026w43", "text": "cut the free allowance from 100 uniques to 50 leads a month and switched off campaign email on Free"},
+    {"id": "perfai-2026w43", "text": "cut Free from 500 to 100 monthly credits, with paid plans also cut at unchanged prices"},
+    {"id": "env0-2026w43", "text": "limited the free plan to 1 self-hosted runner"},
+    {"id": "raspberry-ai-2026w43", "text": "added a Free plan with 20 credits and no credit card required"},
+    {"id": "profound-2026w43", "text": "added shared Projects to its free Trial plan"},
+    {"id": "quizizz-2026w43", "text": "gave the free Basic plan full Google Classroom roster sync"},
+    {"id": "gitbook-2026w43", "text": "moved logo, font, footer and header customization down into the Free plan"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "More changes cost buyers more than saved them money",
+   "fig": "43 vs 28",
+   "figNote": "changes that cost buyers more vs less; the other 32 repackage",
+   "p": "List-price increases outnumbered cuts, 17 to 12. The rises ran from Runpod’s GPU rates and fal’s doubled image-edit price to Lindy, Motion and PeopleHR lifting entry and per-employee prices, while Dialpad’s Sales product, Adapt and Chargeflow made the deepest cuts. Most of these records come from PricingSaaS reports.",
+   "ids": ["runpod-2026w43", "fal-2026w43", "lindy-2026w43", "motion-2026w43", "peoplehr-2026w43", "dialpad-2026w43", "adapt-2026w43", "chargeflow-2026w43"]
+  },
+  {
+   "t": "A third of the week involved AI",
+   "fig": "34 of 103",
+   "figNote": "changes that touch AI features or AI pricing",
+   "p": "AI changes ran both ways: Runpod and fal raised compute and model rates, Flux and Hostinger enlarged AI allowances, and Storylane, Wistia and Sumo Logic moved AI features onto credits. Cursor’s Teams cut, tied to the xAI bundle, is the largest AI move of the week.",
+   "ids": ["runpod-2026w43", "fal-2026w43", "flux-2026w43", "hostinger-2026w43", "storylane-2026w43", "wistia-2026w43", "sumo-logic-2026w43", "cursor-2026w43"]
+  },
+  {
+   "t": "Limits tightened more often than they loosened",
+   "fig": "15 vs 10",
+   "figNote": "changes that tighten vs loosen a limit",
+   "p": "Tighter limits hit free plans and usage caps: Sauce Labs cut parallel sessions from 24 to 5 and Voxel51 cut compute hours, both at unchanged prices. Looser ones were mostly allowance bumps, such as Expo’s build concurrency and SignWell’s free API documents. Almost all come from PricingSaaS reports.",
+   "ids": ["sauce-labs-2026w43", "voxel51-2026w43", "perfai-2026w43", "snaptrude-2026w43", "expo-2026w43", "signwell-2026w43", "inworld-2026w43"]
+  },
+  {
+   "t": "Vendors changed what they count",
+   "fig": "12 of 103",
+   "figNote": "changes that switch the unit a price is counted in",
+   "p": "Precog moved from credits to flat tiers per source, Mixmax to pricing by monthly recipients, Workleap and Pingboard added a per-manager fee, and LeadMagic now charges per returned result rather than per request. CaseMark went against the AI trend, swapping pay-per-deliverable fees for seats. Rerun your own volumes before renewal.",
+   "ids": ["precog-2026w43", "mixmax-2026w43", "workleap-2026w43", "pingboard-2026w43", "leadmagic-2026w43", "casemark-2026w43", "bird-2026w43", "circleci-2026w43", "aircall-2026w43"]
+  },
+  {
+   "t": "The top of the list leans on price",
+   "fig": "11 of 103",
+   "figNote": "changes rated relevant this week",
+   "p": "Six of the 11 raise prices, from Atlassian’s Bitbucket Premium to Runpod’s GPU rates, but Shopify’s rise lasted a day and looks like a test. Three are cuts, led by Cursor’s Teams seat, and Moodle’s cut simply undid its own rise from earlier in the week. Most of the 11 come from PricingSaaS reports.",
+   "ids": ["atlassian-2026w43", "shopify-2026w43", "clickup-2026w43", "acuityscheduling-2026w43", "fal-2026w43", "runpod-2026w43", "cursor-2026w43", "dialpad-2026w43", "moodle-2026w43", "profound-2026w43", "aircall-2026w43"]
+  },
+  {
+   "t": "Consumers are barely touched, or we barely see them",
+   "fig": "5 of 103",
+   "figNote": "changes aimed only at consumers",
+   "p": "Business software dominates again, with 84 B2B-only changes. The consumer-only moves are small: Optery trimmed broker coverage, Strawberry Browser added a daily cap, CoinTracker cut Ultra and Colaberry made month-to-month dearer. Our feed captures for this week are also partial, covering mostly companies A to K.",
+   "ids": ["optery-2026w43", "strawberry-2026w43", "cointracker-2026w43", "colaberry-2026w43"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "AI is priced by usage, not by access",
+   "p": "Poyar’s week-42 piece found variable pricing already the norm for AI-native companies, and this week Anthropic gave free users its workspace apps while handing Max subscribers API credits, betting on usage over access. Our records show the same move in packaging: Storylane, Wistia, Vizly and Sumo Logic put AI on credits.",
+   "nums": [
+    ["76% vs 49%", "AI-native vs SaaS companies on variable or hybrid pricing"],
+    ["$200", "most an Anthropic Max subscriber now gets in monthly API credits"]
+   ],
+   "news": ["gbb-fireflies-claude-loom", "ai-monetization", "pricingsaas-w42"],
+   "changes": ["storylane-2026w43", "wistia-2026w43", "vizly-2026w43", "sumo-logic-2026w43", "cursor-2026w43"]
+  },
+  {
+   "t": "Free tiers: cut for developers, mixed elsewhere",
+   "p": "PricingSaaS counted more free-tier AI limits expanded than tightened in week 42, but this week’s developer-tool digest is all cuts: Taskade, Gemini CLI and Tugboat ended free allowances. Our records sit in between, with Snaptrude and env0 cutting free plans while Raspberry AI and GitBook gave theirs more.",
+   "nums": [
+    ["37 / 21", "free-tier AI limits expanded vs tightened in PricingSaaS’s week-42 count"],
+    ["11,000", "one-time AI credits Taskade’s Free plan no longer includes"]
+   ],
+   "news": ["agentdeals-w42", "pricingsaas-w42", "upsell"],
+   "changes": ["snaptrude-2026w43", "env0-2026w43", "kickofflabs-2026w43", "raspberry-ai-2026w43", "gitbook-2026w43"]
+  },
+  {
+   "t": "Price moves are a small slice of the market",
+   "p": "Two straight weekly reviews from PricingSaaS show plain increases and cuts as a small minority of all changes, with packaging, limits and promotions making up the rest. Even the headline price moves are less settled than they look: Shopify’s rise lasted one day.",
+   "nums": [
+    ["204", "changes PricingSaaS logged for 12–18 Oct"],
+    ["20 / 9", "price increases vs cuts PricingSaaS counted in week 42"]
+   ],
+   "news": ["pricingsaas-w43", "pricingsaas-w42", "shopify-price-flip"],
+   "changes": ["shopify-2026w43", "moodle-2026w43", "precog-2026w43", "mixmax-2026w43"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Tugboat",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.tugboatqa.com/pricing"],
+   "domains": ["tugboatqa.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w42",
+   "why": "Removed its Free plan (recorded by 16 Oct); the cheapest plan is now Intro at $39 a month."
+  }
+ ]
+}

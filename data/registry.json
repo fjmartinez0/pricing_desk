@@ -35529,10 +35529,14 @@
    "category": "Finance & Accounting",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.bookipi.com/pricing"
+   ],
+   "domains": [
+    "bookipi.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35561,7 +35565,7 @@
     "bluebeam.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35583,10 +35587,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.bizzabo.com/pricing"
+   ],
+   "domains": [
+    "bizzabo.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35640,7 +35648,7 @@
     "bigcommerce.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35719,7 +35727,7 @@
     "anedot.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35773,7 +35781,7 @@
     "afi.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35812,6 +35820,32 @@
    "source_url": "https://agentdeals.dev/digest/2026-w45",
    "url_attempts": 0,
    "notes": "Its Free plan was limited to non-commercial use some time between 20 Aug and 7 Nov 2026, at the same 100 snapshots a month."
+  },
+  "tugboat": {
+   "name": "Tugboat",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.tugboatqa.com/pricing"
+   ],
+   "domains": [
+    "tugboatqa.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-12",
+   "source": "agent 2026-11-12T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w42",
+   "url_attempts": 0,
+   "notes": "Removed its Free plan (recorded by 16 Oct); the cheapest plan is now Intro at $39 a month."
   }
  }
 }
