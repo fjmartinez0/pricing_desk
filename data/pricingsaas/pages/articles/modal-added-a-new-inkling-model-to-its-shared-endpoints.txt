@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+M
+Modal
+PACKAGING CHANGE
+Modal added a new Inkling model to its shared endpoints
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 13, 2026
+Modal added a new Inkling 2 Small model to its shared endpoints pricing.
+See before and after
+Enlarge
+Modal’s pricing page · Change detected Nov 13, 2026
+INKLING 2 SMALL·first seen Nov 13, 2026
+What changed
+Modal added a new model, Inkling 2 Small, to its shared endpoints rate card. Per Modal's pricing page, saved Nov 13, 2026, it is priced at $0.30 per 1M prompt tokens, $1.00 per 1M completion tokens, and $0.03 per 1M cached tokens.
+The addition is Modal's first pricing-page change since it dropped Notebooks from its Sandbox pricing section on Oct 26, 2026, according to Pulse's record — 18 days earlier. Modal does not state a reason for adding this particular model.
+Why it matters
+For product and platform teams buying inference by the token, Modal's shared endpoints table is a quick way to compare cost per model, and one more entry widens that shelf without touching rates on anything you're already running. If you're pricing your own AI features by usage, the pattern here is familiar: capacity grows by adding metered options to an existing table rather than renegotiating the table itself.
+This is also the kind of move Modal makes more than any other: a catalog change to its usage-metered rate card rather than a change to its own prices. For a team evaluating Modal against other inference providers, that steady drizzle of added models matters more for total cost than any single line in the table — it signals Modal is trying to be a shared endpoint for third-party models as much as a compute host. Watch whether Modal starts bundling discounted rates across its own and third-party models, which would be the next step beyond simply listing more options side by side.
+In context
+Modal has touched credits and usage billing more than any other pattern in its tracked history — seven changes since launching SSO and its first Nvidia H100 GPU tier in Apr 2024, most recently renaming free credits to free compute in Sep 2026. This is Modal's first change since dropping Notebooks from its Sandbox pricing section on Oct 26, 2026, 18 days earlier, against an average gap of about 46 days — faster than Modal's own typical pace, though a catalog addition is lower-stakes than a repricing. Across the market, 377 pricing changes across 259 companies touched credits and usage billing in the last 180 days — 12.3% of the 3,077 changes Pulse tracked — and peers making similar moves recently include Cargo, which cut its free plan to 0 monthly credits and Driver, which swapped its SLOC tiers for a free trial with credits, both Nov 9, 2026. The sharper read: Modal isn't repricing its own compute here, it's widening the shelf of third-party models it resells by the token.
+Common questions
+What would it cost to run 1M tokens through Inkling 2 Small?
+Multiply Modal's three listed per-token rates for Inkling 2 Small — prompt, cached and completion — by your expected monthly volume in each category; that gives you a total you can line up against the other models already on your Modal bill.
+Does this touch Modal's own compute or storage pricing?
+No — this entry only adds a new third-party model to the shared endpoints rate card; none of Modal's GPU, storage, egress or support pricing changed alongside it.
+Is Modal likely to reprice its own compute next?
+There's no signal of that in the record: Modal's last price move was a region-surcharge cut on Sep 3, 2026, and its tracked pace between changes averages about 46 days, so this catalog addition reads as routine rather than a lead-in to a repricing.
+Sources
+Pulse: Modal pricing changes, Nov 13, 2026pricingsaas.com/companies/modal/diffs/2026D317
+Modal pricing pagemodal.com/pricing
+Keep exploring
+All changes from ModalAll pricing news
+A
+Anthropic
+Anthropic launched Claude Sheets and Whiteboards
+W
+Wisprflow
+Wispr Flow drops numeric Free plan limits, makes Pro meetings unlimited
+S
+Slack
+Slack moved Slackbot to tiered usage limits

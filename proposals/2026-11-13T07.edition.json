@@ -1,0 +1,302 @@
+{"type": "edition", "run": "2026-11-13T07", "week": "2026-W41",
+ "news": [
+  {
+   "id": "pricingsaas-w41",
+   "lead": true,
+   "src": "PricingSaaS Pulse",
+   "by": null,
+   "date": "Week 41",
+   "topic": "Market data",
+   "rel": true,
+   "title": "Intercom tests a $19 seat while the rest of the market shows its prices: 15 reveals in a week of quiet cuts",
+   "url": "https://pricingsaas.com/news/week/2026W41",
+   "gist": "PricingSaaS’s review of 28 Sep–4 Oct describes a busier-than-usual week: price reveals and promotions ran at about twice their norm, cuts beat their average, and Intercom’s cheaper seat turned out to be a test.",
+   "points": [
+    "Slack moved Enterprise+ from contact sales to a listed per-user price, and Datadog published Kafka Console pricing per broker host",
+    "The review reads n8n’s and Synthesia’s smaller allowances as price rises made through credits rather than through list prices",
+    "MindsDB and fal raised inference and GPU rates again, and the review says a third rise would make it a trend",
+    "Psychz Networks had the week’s biggest hike, and OpenAI’s cached-input cut on GPT-6.1 Sol was the biggest cut"
+   ],
+   "nums": [
+    ["279", "changes logged in the week"],
+    ["210", "eight-week average of weekly changes"],
+    ["13", "price cuts, against a 6.8 average"],
+    ["15", "price reveals, against a normal 6.8"],
+    ["38", "promotions, against a 19.6 average"]
+   ],
+   "why": "With reveals and promotions both running high, a quote from last month may now be beaten by a listed price or an offer, so check again before you renew."
+  },
+  {
+   "id": "intercom-seat-test",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "3 Oct",
+   "topic": "Price testing",
+   "rel": true,
+   "title": "Intercom hikes Essential seat price back to $29 five days after cutting it to $19",
+   "url": "https://pricingsaas.com/news/article/intercom-hikes-essential-seat-price-back-to-29-five-days-after-cutting-it-to-19",
+   "gist": "Intercom’s Essential seat seemed to bounce from $19 back to $29, but fresh browser sessions and the page code show a live experiment that assigns each visitor a price on their first visit.",
+   "points": [
+    "The page source names a seat-price-reduction experiment with control and treatment arms, and a second experiment runs on Pro pricing",
+    "Advanced and Expert seat prices were identical in every session",
+    "Anyone who signed at the lower price should check whether their annual contract keeps it at renewal",
+    "This price point moved three times in five weeks, far faster than Intercom’s usual rhythm"
+   ],
+   "nums": [
+    ["$19", "Essential seat price shown to the test group"],
+    ["$29", "Essential seat price on annual billing shown to most visitors"],
+    ["52.6%", "size of the move back up to $29"],
+    ["63 days", "Intercom’s typical gap between pricing changes"]
+   ],
+   "why": "If a vendor’s page shows you a lower seat price than a colleague saw, get it in writing and ask what renewal will cost."
+  },
+  {
+   "id": "fal-gpu-rates",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "2 Oct",
+   "topic": "AI infrastructure",
+   "rel": true,
+   "title": "fal raises serverless H100 rate to $2.49/hr, adds GB200 GPU, doubles MiniMax video pricing",
+   "url": "https://pricingsaas.com/news/article/fal-raises-serverless-h100-rate-to-2-49-hr-adds-gb200-gpu-doubles-minimax-video-pricing",
+   "gist": "fal raised serverless rates on two heavily used GPU tiers, added Nvidia’s GB200 and doubled a video model’s per-second rate, and the article asks whether this starts a broader repricing of fal’s catalog.",
+   "points": [
+    "It is fal’s third real pricing change since tracking began in late July, and its second GPU rate rise",
+    "Developers building on fal now have to absorb the higher cost or pass it on to their own customers",
+    "The article reads the GB200 launch as fal keeping pace with new hardware while earning more from its older fleet",
+    "Most of the other late-September rises it lists, at Shipday, Cumul and Hedra, were seat prices rather than compute"
+   ],
+   "nums": [
+    ["$2.49", "new hourly H100 serverless rate, up from $1.89"],
+    ["32%", "rise in the H100 rate"],
+    ["33%", "rise in the B300 rate, to $5.99 an hour"],
+    ["$0.05", "new per-second MiniMax H3 Max rate, double the old $0.025"]
+   ],
+   "why": "If an AI tool you buy runs on rented GPUs, expect rises like these to reach you later as dearer credits or smaller allowances."
+  },
+  {
+   "id": "gbb-credit-flexibility",
+   "lead": false,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "2 Oct",
+   "topic": "AI credits",
+   "rel": true,
+   "title": "Monetizing Credit Flexibility",
+   "url": "https://newsletter.pricingsaas.com/p/monetizing-credit-flexibility",
+   "gist": "Credit-based plans let vendors steer upgrades, annual commitments and usage by changing when credits arrive, how long they last and what spends them, all without touching list prices.",
+   "points": [
+    "Runway lets unused monthly credits roll over for a month only on Max, which gives heavy users with uneven workloads a reason to move up",
+    "Framer adds bonus first-month credits on yearly Basic and Pro, and switching to monthly billing removes the bonus",
+    "Replit’s Free Mode lets paying users chat on a cheaper model without spending credits, and Lovable’s daily grants work in a similar way",
+    "Litterst’s advice is to choose the behavior you want first, then write the credit rules around it"
+   ],
+   "nums": [
+    ["2×", "credits in the first month on Framer’s yearly Basic and Pro plans"],
+    ["$0.50/GB", "Supabase’s new metered log ingestion rate after 20 GB on Pro and Team"],
+    ["200", "users Devin’s Team plan now allows, down from unlimited"]
+   ],
+   "why": "Credit rules such as rollovers, bonuses and expiry change what a plan is really worth, so compare them as carefully as the price."
+  },
+  {
+   "id": "gbb-agent-pnl",
+   "lead": false,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "9 Oct",
+   "topic": "AI pricing",
+   "rel": false,
+   "title": "The Agent P&L Framework (with Manu Mehra, Strategic Pricing at Databricks)",
+   "url": "https://newsletter.pricingsaas.com/p/tokens-aren-t-the-point",
+   "gist": "Per-token billing suits model makers and outcome pricing suits the few vendors with clean attribution; everyone else should price agents between a cost floor and a value ceiling and show buyers what each successful result costs.",
+   "points": [
+    "Mehra gives each agent a P&L: infrastructure, inference, evals and governance on the cost side; revenue, hours saved and errors avoided on the value side",
+    "The piece argues that credits explain how to bill but not what to charge or why the price sits above token costs",
+    "In PricingSaaS’s own testing, accuracy and rework is the biggest difference between good and frustrating agents",
+    "The roundup notes Slack A/B testing a public Enterprise+ price and Retool dropping its Enterprise AI credit offer"
+   ],
+   "nums": [
+    ["90-95%", "share of an analyst’s SQL an agent writes in Mehra’s productivity example"],
+    ["275+", "changes the newsletter observed in its weekly roundup"],
+    ["$45/user/month", "Enterprise+ price Slack is testing in public"],
+    ["~30%", "AI credit cut n8n made when it rebranded them as Assistant credits"]
+   ],
+   "why": "When a vendor pitches an agent, ask for its cost per successful outcome rather than its credit price to judge whether it pays for itself."
+  },
+  {
+   "id": "agentdeals-w40",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "28 Sep–4 Oct",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Changes: September 28–October 4, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w40",
+   "gist": "AgentDeals’ digest for the week is dominated by shrinking sign-up credits and shutdowns, plus infrastructure vendors billing separately for things that used to be included in instance prices.",
+   "points": [
+    "Browser Use and Exa cut their sign-up credits, while Neon and TraceLog raised free allowances",
+    "Pipedream stopped new Workflows sign-ups, and Solo is shutting down and deleting all sites with no recovery",
+    "Fly.io raised its machine memory price, so every preset costs more even though CPU prices are unchanged",
+    "Meta resumed charging for WhatsApp service messages once a number’s free monthly allowance runs out"
+   ],
+   "nums": [
+    ["$1", "Browser Use’s one-time sign-up credit, down from $15"],
+    ["1.4% to 21.9%", "rise in OVHcloud Gen3 total bills from separate storage and IPv4 charges"],
+    ["$0.04", "Modal’s new egress charge per GiB beyond the included allowance"],
+    ["1,000", "free WhatsApp service messages per business phone number a month"]
+   ],
+   "why": "Read infrastructure bills line by line after October, because new storage, IP and egress charges can raise the total while the headline rate stays the same."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "AI compute costs reached the price list",
+   "p": "Rises in GPU and model rates showed up straight away in what AI apps charge: more credits per video, smaller included caps, per-model meters. Buyers of AI media and agent tools feel the supplier’s costs within weeks.",
+   "points": [
+    {"id": "fal-2026w41", "text": "raised every serverless GPU rate again, H100 from $1.89 to $2.49 an hour, and doubled MiniMax video pricing"},
+    {"id": "mindsdb-2026w41", "text": "raised DeepSeek V4.1 Flash rates from $0.22/$0.66 to $0.30/$1.20 per million tokens and ended its credit-match promo"},
+    {"id": "lumaai-2026w41", "text": "roughly doubled Seedance 2.0 video-to-video credit costs, to 30–314 credits a second"},
+    {"id": "invideo-2026w41", "text": "cut annual Plus and Max seat prices but raised Seedance 1080p cost from 38 to 72 credits per 5s"},
+    {"id": "artlist-2026w41", "text": "halved included AI video caps on every plan, Core from 500 to 250, with credits unchanged"},
+    {"id": "betterstack-2026w41", "text": "moved its AI SRE add-on from a flat $5 per million tokens to per-model pricing"}
+   ]
+  },
+  {
+   "t": "Free plans got smaller",
+   "p": "Vendors cut free credits, caps and features, sometimes while enlarging paid plans, so the free tier works as a trial rather than a home. Three of the eight come from PricingSaaS reports.",
+   "points": [
+    {"id": "synthesia-2026w41", "text": "cut free Basic credits from 1,200 to 500 a month while raising Pro’s yearly credits from 44,000 to 72,000"},
+    {"id": "strawberry-2026w41", "text": "cut free plan credits from 2,000 to 500 a month"},
+    {"id": "spoki-2026w41", "text": "capped free service messages at 1,000 per number a month, down from unlimited"},
+    {"id": "plytix-2026w41", "text": "cut the free Standard plan from 500 SKUs to 100"},
+    {"id": "hivemq-2026w41", "text": "cut free Lab limits from 100 to 25 connections and made Lab a license valid for 30 days"},
+    {"id": "simscale-2026w41", "text": "cut Community plan core hours from 3000 to 2000"},
+    {"id": "linktree-2026w41", "text": "stopped listing selling products, courses and brand offers on the free plan"},
+    {"id": "heidi-health-2026w41", "text": "limited evidence answers and removed two AI features from Free"}
+   ]
+  },
+  {
+   "t": "More included at the same price",
+   "p": "At the other end, vendors raised quotas, seats and credits without changing prices, a cheap way to win share in crowded categories. Half of these come from PricingSaaS reports.",
+   "points": [
+    {"id": "moz-2026w41", "text": "tripled AI Visibility quotas on every Moz Pro plan, tracked prompts 50/100/200 → 150/300/600, at unchanged prices"},
+    {"id": "ideogram-2026w41", "text": "more than doubled priority credits at the same prices, Pro from 3,500 to 7,500 a month"},
+    {"id": "salesforce-2026w41", "text": "renamed its top editions Agentforce Max and raised included Flex Credits from 2.5M to 2.75M a year"},
+    {"id": "pagerduty-2026w41", "text": "raised the Plus plan’s seat limit from 40 to 50"},
+    {"id": "airtable-2026w41", "text": "replaced a flat cap of 50 automations per base with caps from 75 to 200 by plan"},
+    {"id": "g2-2026w41", "text": "removed the seat caps on Free, Starter and Professional, which now list unlimited users"},
+    {"id": "datadog-2026w41", "text": "made Cloud SIEM workflows triggered from security findings and signals free"},
+    {"id": "neon-2026w41", "text": "doubled free storage per project from 0.5 GB to 1 GB"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "More changes cost buyers more than saved them money",
+   "fig": "38 vs 23",
+   "figNote": "changes that cost buyers more vs less; the other 46 repackage",
+   "p": "The rises ran from Baremetrics’ new fixed tiers and fal’s GPU rates to Xero and CROSStrax lifting every plan, plus n8n’s smaller AI allowance. The savings were led by OpenAI’s cached-input cut, Logz.io’s cheaper metrics for new plans and 7shifts’ lower Premium price. Many of the week’s records, including Xero, CROSStrax and 7shifts, come from PricingSaaS reports.",
+   "ids": ["baremetrics-2026w41", "fal-2026w41", "xero-2026w41", "crosstrax-2026w41", "n8n-2026w41", "openai-api-2026w41", "logzio-2026w41", "7shifts-2026w41"]
+  },
+  {
+   "t": "A third of the week involved AI",
+   "fig": "36 of 107",
+   "figNote": "changes that touch AI features or AI pricing",
+   "p": "AI changes ran both ways. OpenAI and Cohere cut model prices while fal and MindsDB raised theirs; Salesforce and Moz enlarged AI allowances while n8n and Synthesia shrank them. LangChain changed the unit its AI compute is billed in.",
+   "ids": ["openai-api-2026w41", "cohere-2026w41", "fal-2026w41", "mindsdb-2026w41", "salesforce-2026w41", "moz-2026w41", "n8n-2026w41", "synthesia-2026w41", "langchain-2026w41"]
+  },
+  {
+   "t": "Limits loosened about as often as they tightened",
+   "fig": "15 vs 14",
+   "figNote": "changes that loosen vs tighten a limit",
+   "p": "Loosening came as bigger quotas at the same price, from Moz and Ideogram to Airtable’s automations and G2’s unlimited users. Tightening hit compute and AI caps: Render halved its largest Workflows instance and Artlist halved AI video caps, while SimScale and HiveMQ cut free allowances. Many of the smaller moves come from PricingSaaS reports.",
+   "ids": ["moz-2026w41", "ideogram-2026w41", "airtable-2026w41", "g2-2026w41", "render-2026w41", "artlist-2026w41", "simscale-2026w41", "hivemq-2026w41"]
+  },
+  {
+   "t": "Straight price cuts edged out straight increases",
+   "fig": "12 vs 11",
+   "figNote": "list-price cuts vs list-price increases",
+   "p": "Counted by list price alone, cuts slightly outnumbered rises, but two of the cuts come with catches: Intercom’s cheaper seat is a test, and InVideo’s cheaper seats came with dearer video credits. The increases were broader, with Xero, Jungleworks and CROSStrax raising every plan.",
+   "ids": ["openai-api-2026w41", "intercom-2026w41", "invideo-2026w41", "webgility-2026w41", "logzio-2026w41", "xero-2026w41", "jungleworks-2026w41", "crosstrax-2026w41", "meetalfred-2026w41", "beehiiv-2026w41"]
+  },
+  {
+   "t": "Free plans were a busy lever",
+   "fig": "16 of 107",
+   "figNote": "changes aimed at the free plan",
+   "p": "Synthesia, Strawberry Browser, Plytix and SimScale gave free users less, while Neon, Invoice Ninja and ToolJet gave them more and Beyond Pricing and Balena added free plans. Most of the free-plan moves come from PricingSaaS reports.",
+   "ids": ["synthesia-2026w41", "strawberry-2026w41", "plytix-2026w41", "simscale-2026w41", "neon-2026w41", "invoice-ninja-2026w41", "tooljet-2026w41", "beyond-pricing-2026w41", "balena-2026w41"]
+  },
+  {
+   "t": "The top of the list leans toward higher costs",
+   "fig": "21 of 107",
+   "figNote": "changes rated relevant this week",
+   "p": "Of the 21, 9 cost buyers more, 5 save them money and 7 repackage. The rises include Baremetrics, beehiiv, fal and Xero; the savings are led by OpenAI and Cohere, plus Airtable reversing its own new cap.",
+   "ids": ["baremetrics-2026w41", "beehiiv-2026w41", "fal-2026w41", "xero-2026w41", "render-2026w41", "openai-api-2026w41", "cohere-2026w41", "airtable-2026w41", "salesforce-2026w41", "kong-2026w41"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "AI compute costs are rising and being passed on",
+   "p": "PricingSaaS flagged repeat rate rises at fal and MindsDB, and the developer digest shows infrastructure bills climbing through new line items at OVHcloud, Fly.io and Modal. Our records show the knock-on effect: Luma and InVideo now charge more credits per Seedance video.",
+   "nums": [
+    ["32%", "rise in fal’s H100 serverless rate"],
+    ["1.4% to 21.9%", "rise in OVHcloud Gen3 total bills"]
+   ],
+   "news": ["fal-gpu-rates", "pricingsaas-w41", "agentdeals-w40"],
+   "changes": ["fal-2026w41", "mindsdb-2026w41", "lumaai-2026w41", "invideo-2026w41", "modal-2026w41"]
+  },
+  {
+   "t": "Credits became the main pricing lever",
+   "p": "Litterst’s two essays treat credits as a way to steer behavior and as a billing layer that still needs a value story, and the weekly review read n8n’s and Synthesia’s smaller allowances as quiet price rises. Our records show credits moving both ways, more at Salesforce and Ideogram, fewer at n8n and on Synthesia’s free plan.",
+   "nums": [
+    ["2×", "Framer’s first-month credit bonus on yearly plans"],
+    ["~30%", "n8n’s AI credit cut"]
+   ],
+   "news": ["gbb-credit-flexibility", "gbb-agent-pnl", "pricingsaas-w41"],
+   "changes": ["n8n-2026w41", "synthesia-2026w41", "salesforce-2026w41", "ideogram-2026w41", "langchain-2026w41", "rewst-2026w41"]
+  },
+  {
+   "t": "Pricing pages behave like experiments",
+   "p": "Intercom’s seat price turned out to be a live test, and Slack showed a public Enterprise+ price to only some visitors. Our records show the same instability: Airtable relaxed a new cap within days, and Baremetrics reversed a slider-based price cut a week later.",
+   "nums": [
+    ["52.6%", "size of Intercom’s move back up to $29"],
+    ["$45/user/month", "Slack’s Enterprise+ price in an A/B test"]
+   ],
+   "news": ["intercom-seat-test", "gbb-agent-pnl", "pricingsaas-w41"],
+   "changes": ["intercom-2026w41", "airtable-2026w41", "baremetrics-2026w41"]
+  },
+  {
+   "t": "Free starting credit is shrinking",
+   "p": "Browser Use and Exa cut their sign-up credits and Pika dropped a starter credit pack, while our records show Synthesia, Strawberry Browser, SimScale and HiveMQ trimming free allowances. The free amount that lets you try a tool before paying is getting smaller.",
+   "nums": [
+    ["$1", "Browser Use’s sign-up credit, down from $15"],
+    ["$25", "Pika starter credit pack that was dropped"]
+   ],
+   "news": ["agentdeals-w40", "gbb-credit-flexibility", "pricingsaas-w41"],
+   "changes": ["synthesia-2026w41", "strawberry-2026w41", "simscale-2026w41", "hivemq-2026w41", "plytix-2026w41"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Phase Two",
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "pricing_urls": ["https://phasetwo.io/pricing/hosting/"],
+   "domains": ["phasetwo.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w40",
+   "why": "The $149-a-month Starter Keycloak cluster is now sized for 5,000 active users, down from up to 15K (found 30 Sep)."
+  },
+  {
+   "name": "TraceLog",
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["tracelog.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w40",
+   "why": "Free plan raised from 5,000 to 10,000 sessions a month (between 28 Aug and 30 Sep)."
+  }
+ ]
+}

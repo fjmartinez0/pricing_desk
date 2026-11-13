@@ -35536,7 +35536,7 @@
     "bookipi.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35594,7 +35594,7 @@
     "bizzabo.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35670,10 +35670,16 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://aws.amazon.com/ec2/pricing/on-demand/",
+    "https://aws.amazon.com/s3/pricing/"
+   ],
+   "domains": [
+    "aws.amazon.com",
+    "amazon.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35834,7 +35840,7 @@
     "tugboatqa.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35846,6 +35852,56 @@
    "source_url": "https://agentdeals.dev/digest/2026-w42",
    "url_attempts": 0,
    "notes": "Removed its Free plan (recorded by 16 Oct); the cheapest plan is now Intro at $39 a month."
+  },
+  "phase-two": {
+   "name": "Phase Two",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://phasetwo.io/pricing/hosting/"
+   ],
+   "domains": [
+    "phasetwo.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-13",
+   "source": "agent 2026-11-13T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w40",
+   "url_attempts": 0,
+   "notes": "The $149-a-month Starter Keycloak cluster is now sized for 5,000 active users, down from up to 15K (found 30 Sep)."
+  },
+  "tracelog": {
+   "name": "TraceLog",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "tracelog.io"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-13",
+   "source": "agent 2026-11-13T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w40",
+   "url_attempts": 0,
+   "notes": "Free plan raised from 5,000 to 10,000 sessions a month (between 28 Aug and 30 Sep)."
   }
  }
 }

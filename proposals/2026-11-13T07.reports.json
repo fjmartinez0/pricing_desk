@@ -1,0 +1,132 @@
+{
+ "type": "reports",
+ "run": "2026-11-13T07",
+ "items": [
+  {
+   "report_id": "together:2026-W47#2",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "On-demand HGX B200 dedicated inference rate rose from $8.99/hr to $9.29/hr (+3%); separate from the existing image-generation price-cut record.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "+3%",
+    "short": "Together AI raised its on-demand HGX B200 dedicated inference rate from $8.99/hr to $9.29/hr.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 1,
+    "plan": "Dedicated Inference",
+    "deltaSub": "HGX B200, on-demand, per hour",
+    "headline": "Together AI raised the on-demand price of its HGX B200 GPU from $8.99/hr to $9.29/hr, and began posting an on-demand rate for HGX H200 where the page used to say Contact us.",
+    "rows": [
+     [
+      "HGX B200, on-demand",
+      "$8.99/hr",
+      "$9.29/hr"
+     ],
+     [
+      "HGX H200, on-demand",
+      "Contact us",
+      "$5.99/hr"
+     ],
+     [
+      "HGX B300, on-demand",
+      "Contact us",
+      "$11.49/hr"
+     ],
+     [
+      "GB300 NVL72, on-demand",
+      "Contact us",
+      "$15.79/hr"
+     ]
+    ],
+    "who": "Buyers of on-demand dedicated GPU inference capacity at list price; Reserved tiers still say Contact sales.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A small list-price rise on hardware already priced, alongside posted rates for newer GPUs, suggests demand for current-generation capacity is firm. The GPU Clusters page reportedly moved too, but only the B200 on-demand rate is cited here.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": {
+     "low": 0,
+     "high": 3,
+     "basis": "unit price"
+    }
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W47",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "GPT Image model cost doubled from 2 to 4 credits per image, halving monthly image allowances (Starter 300→150, Creator 1,300→650).",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "×2 credits",
+    "short": "Pika’s GPT Image model now costs 4 credits per image instead of 2, so Starter drops from 300 to 150 images and Creator from 1,300 to 650 per month.",
+    "pattern": "Limits tighten",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "openai:2026-W47#2",
+   "company": "openai",
+   "new_company": null,
+   "kind": "wording",
+   "why": "All four ChatGPT plan taglines reworded to 'Best for…' use-case copy; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "modal:2026-W47",
+   "company": "modal",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New model Inkling 2 Small added to the shared endpoints price list; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mindsdb:2026-W47#2",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Unversioned 'Claude Haiku' alias row removed in favour of the already-listed Claude Haiku 5.5; no price moved (saved page is a history page, not a diff).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "figma:2026-W47",
+   "company": "figma",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "'3D transforms (Beta)' row added to the feature comparison table; no price or tier change.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "alldata:2026-W46",
+   "company": "alldata",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Product group renamed from Solution Packs to Bundles; prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

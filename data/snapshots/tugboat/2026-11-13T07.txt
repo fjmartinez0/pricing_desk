@@ -1,0 +1,128 @@
+=== https://www.tugboatqa.com/pricing ===
+Sign In
+Try it FREE
+All plans include unlimited users and unlimited previews.
+Plans & Pricing
+Intro
+$39 /month
+For small teams who build small-ish websites, but still need custom support.
+‍
+Get Started
+Community support
+Shell access
+Centralized logging
+Command-line tool
+API
+Email capturing
+15GB preview storage
+1GB RAM
+1 CPU
+Standard support
+Compare all plans
+POPULAR
+Plus
+$119 /month
+For teams who build mid-sized sites and need extra processing power and storage.
+‍
+Get Started
+Everything in Intro
+60GB preview storage (4x Intro)
+2GB RAM
+2 CPUs
+Visual regression testing
+Compare all plans
+Premium
+$599+ /month
+For large teams who need customized implementation, performance, and support.
+‍
+Learn More
+Everything in Plus
+300GB - 7TB (Up to 120x more preview storage than Plus)
+16GB - 512 GB RAM
+6 - 64 CPUs (Up to 32x more processing power than Plus)
+Premium Support
+Accessibility + SEO audits
+Private previews
+VPN compatibility
+Premium options
+On-premise hosting and configuration
+Compare all plans
+What I love about Tugboat is how much it increases our velocity. It allows us to bring in stakeholders to review work well before new code goes to production.
+Jenna Tollerson, Engineering Lead
+Digital Services Georgia
+All Plans
+Intro
+Plus
+Premium
+Unlimited Users
+Invite as many people as you’d like to your Tugboat project.
+Unlimited Previews
+Create as many simultaneous previews as your storage allows.
+Storage
+15GB
+60GB
+300GB - 7TB
+Ram
+1GB
+2GB
+16GB - 512GB
+CPU
+1 CPU
+2 CPU
+6 - 64 CPUs
+Community Support
+Standard Support
+Visual Regression Testing
+Premium Support
+Accessibility + SEO Audits
+Private Previews
+VPN Compatibility
+Host with Dedicated Hardware
+Contact Sales
+Host On-premise with your Hardware
+Contact Sales
+Perpetual Software License
+Contact Sales
+FedRAMP-hosted Tugboat
+Contact Sales
+Does Tugboat work with my git provider?
+Does Tugboat offer a GitHub, GitLab, or Bitbucket integration?
+Yes! Tugboat integrations with GitHub, GitLab and Bitbucket enable you to automatically build and delete on-demand staging environments when you open or close a pull request or merge request. These integrations can also post a link to your git provider’s ticket, or offer a View deployment button right in the git ticket, depending on the provider.
+What about Premium?
+Tugboat works with dedicated hardware, and we even offer an on-premise Tugboat if your organization would prefer to run Tugboat on your own infrastructure.
+Can I use Tugboat with my self-hosted git repositories?
+Yes! You can sign into Tugboat using an email address, and link to a git URL to add self-hosted git repositories to your Tugboat project.
+Does Tugboat work with my hosting provider?
+Can I use Tugboat with Acquia Cloud, Pantheon?
+Yes! We’ve got clients using many providers. We’ve even got a tutorial to get you up and running with Pantheon and Tugboat.
+Can I use Tugboat with Heroku, AWS or some other cloud-hosting provider?
+Yes! Tugboat is hosting-provider agnostic; you can set up Tugboat deployment Previews independent of your host. If your code is in git, you can use Tugboat. We offer integrations with GitHub, GitLab, and Bitbucket; these integrations enable you to automatically build and delete on-demand staging environments when a pull request or merge request is opened or closed. We also offer a generic git option; if you don’t want to authenticate Tugboat with a git provider, you can still link to a generic git repository and manually build Tugboat Previews.
+Does Tugboat provide production-level hosting?
+Tugboat is designed to work with a variety of production hosts but does not provide production hosting itself.
+How does Tugboat work with my infrastructure?
+Can I use my own Docker images with Tugboat?
+Yes! You can call service images from Docker Hub or other Docker registries, and you can even use non-public images; Tugboat enables authentication with Docker registries from within Repository Settings. There’s one caveat, though; Tugboat doesn’t work with images that contain volumes, but we’re happy to point you at resources to make your own images without volumes.
+Can I build Tugboat staging environments using my latest database?
+Yes! We’ve got a starter config to help you import a MySQL database, and we support official Tugboat images for CouchDB, MariaDB, MongoDB, MySQL, Percona, PostgreSQL, and Redis. If you need an image for a different database, just let us know; we regularly add new images based on customer needs.
+To keep your database up-to-date, Tugboat offers the option to automatically refresh Base Previews at a time and interval you specify. If you take a database dump nightly, and want that database in your Tugboat Previews, you can have Tugboat refresh Base Previews every night after the new database dump is created.
+Language & frameworks
+Does Tugboat work with my language or framework?
+Probably. Tugboat supports almost anything that runs on Linux. Docker provides official images for Ruby, Python, PHP, Go, and Rust (and many more). If it has a Docker image and it doesn’t require volumes, you can use Tugboat to generate on-demand staging environments. Tugboat offers tutorials and starter config files for popular web frameworks, including Drupal, WordPress, and Hugo, and we regularly add new starter configs.
+Get rapid review environments for your team, at a low, fixed cost
+Try it FREE
+Support
+Check out our documentation
+Join us on Slack
+File a support ticket
+Browse our repositories
+Tugboat status
+Legal
+Privacy
+Terms
+Code of Conduct
+Accessibility Statement
+Newsletter
+Get monthly updates with articles, new features, and case studies.
+Subscribe to the Tugboat Newsletter
+"Tugboat" is a registered trademark of Tugboat QA, LLC.
+Follow us:

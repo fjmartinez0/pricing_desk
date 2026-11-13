@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PACKAGING CHANGE
+Together raised its HGX B200 GPU price and revealed more rates
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 13, 2026
+Together raised the price of its on-demand HGX B200 GPU.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 13, 2026
+What changed
+On Together's Dedicated Inference pricing page, the on-demand HGX B200 rate rose from $8.99 to $9.29 per hour, and three GPUs that previously showed "Contact us" now carry posted on-demand rates — HGX H200 at $5.99/hr, HGX B300 at $11.49/hr and GB300 NVL72 at $15.79/hr — per the page Pulse saved on Nov 13, 2026; the Reserved tier still reads "Contact sales" for all of them. On the separate GPU Clusters page, per the same Nov 13, 2026 save, HGX B200 and B300 rates rose across the Preemptible, On-Demand and Reserved tiers, and B300's Reserved rate — previously "Sold Out" — now shows $10.59/hr and $9.89/hr. Together also added a new serverless inference model, Inkling 2 Small, priced at $0.30 per 1M input tokens ($0.03 cached) and $1.00 per 1M output tokens, per Together's pricing page, saved by Pulse on Nov 13, 2026.
+Why it matters
+For a product leader buying or reselling GPU capacity, this diff is a signal about Together's pricing posture: the company is comfortable raising rates on hardware it already prices, and it's now willing to post a number for GPUs it used to route to a sales conversation. Posting prices for GPUs that used to read "Contact us" lowers the friction of self-serve evaluation — a buyer can size a workload without a call — but it also removes Together's ability to negotiate case-by-case on those tiers going forward.
+If you sell or bundle on top of GPU capacity, the signal is that list prices for frontier GPUs are becoming more public and more volatile at the same time; locking in a rate card for your own customers now carries more repricing risk than it did a quarter ago. Watch whether the GPU Clusters Reserved tier, which just picked up posted rates, keeps shifting — Reserved commitments are usually the stickiest prices on a GPU vendor's page.
+In context
+Together's pricing page changes often: Pulse has tracked 43 changes to it in the last 365 days, with the previous one landing just two days before this, on Nov 11. GPU rates are moving the most: in Pulse's tally of the last 180 days, Together accounts for 5 of the 92 price increases across 77 companies that pattern covers (3% of the 3,077 changes Pulse tracked), more than any other company in that count. Other compute vendors are hiking the same way: Crusoe raised its on-demand GPU rate to $5.40/GPU-hr in its Dec 1 price hikes, per Pulse's Nov 9, 2026 tracking Crusoe. The sharper read: Together is both raising rates on hardware it already prices and filling in the "Contact us" gaps on its newest hardware — a sign enterprise demand for frontier-GPU capacity is solid enough to post a number instead of routing buyers to sales.
+Common questions
+If we were quoted "Contact us" for one of these GPUs last week, is that quote still valid?
+Not necessarily — Together has now posted public on-demand rates for the GPUs that used to read "Contact us," so it's worth asking your sales contact whether an existing quote beats, matches or loses the new list price before renewing.
+Should we expect Together's other "Contact us" rows to get posted prices too?
+There's no commitment either way in this diff, but the pattern — several rows flipping from "Contact us" to a posted rate in one update — suggests Together is comfortable publishing prices for its newest hardware once demand is proven out.
+What should we watch next from Together?
+Whether the Reserved tier on Dedicated Inference ever gets posted rates for the newly-priced GPUs — right now it still reads "Contact sales" even though the on-demand column has numbers.
+Sources
+Pulse: Together pricing changes, Nov 13, 2026pricingsaas.com/companies/together/diffs/2026D317
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+P
+Pika
+Pika raised credit costs for its newest image model
+B
+Baseten
+Baseten scraps Basic/Pro/Enterprise tiers for Pay as you go and Production scale plans
+L
+Lumaai
+Lumaai changed how it meters Video-to-Video credits

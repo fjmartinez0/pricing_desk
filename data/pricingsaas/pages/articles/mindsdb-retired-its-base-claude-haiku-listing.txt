@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+M
+MindsDB
+PACKAGING CHANGE
+MindsDB retired its base Claude Haiku listing
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 13, 2026
+MindsDB removed the unversioned Claude Haiku model, replaced by Claude Haiku 5.5.
+See before and after
+Enlarge
+MindsDB’s pricing page · Change detected Nov 13, 2026
+What changed
+Pulse detected the change on Nov 13, 2026: the unversioned ‘Claude Haiku’ entry disappeared from MindsDB's per-token pricing catalog, and ‘Claude Haiku 5.5’ now sits in that table row, just below Claude Fable 5 and above Claude Haiku 4.5.
+Claude Haiku 5.5 is not new to the catalog — MindsDB added it on Nov 7, 2026 at $0.10 input and $0.50 output per 1M tokens, according to Pulse's tracked history of the page. The unversioned listing it replaces in that table position is gone; MindsDB's catalog now carries one fewer Claude Haiku entry at that price point.
+Why it matters
+For a product leader stress-testing their own AI-model rate card, this is a small example of catalog cleanup: MindsDB removed the unversioned 'Claude Haiku' entry and now lists the versioned 'Claude Haiku 5.5' at $0.10 input and $0.50 output per 1M tokens in its place, so buyers see one clearly named SKU instead of an alias.
+MindsDB's catalog has moved fast this year: Pulse has tracked 30 real pricing changes to its page since Mar 9, 2026, roughly one every 8 days. A cleanup like this one reads as routine upkeep, and no price moved in this diff.
+Watch whether MindsDB repeats the pattern on its other unversioned aliases as newer point releases arrive.
+In context
+MindsDB has been reshaping this rate card constantly: Pulse has tracked 30 real pricing changes since tracking began on Mar 9, 2026, averaging one every 8 days, most of them new-model additions like Muse Ember 1.0 two days earlier or Claude Haiku 5.5 itself on Nov 7. This one is rarer — a removal rather than an addition, tidying up a duplicate-priced alias rather than moving a number. Usage-based catalogs like MindsDB's sit inside a broader shift: 377 pricing changes in the last 180 days touched credits-and-usage billing, 12.3% of everything tracked in that window, according to Pulse's record. The sharper read: a catalog maintained this actively treats an unversioned alias as temporary scaffolding, not a permanent SKU — worth a look if your own usage-based pricing still carries aliases nobody has retired.
+Common questions
+Did MindsDB actually change the Claude Haiku price in this move?
+No — this diff only swaps which model name sits in that table row; price history should be checked against each model's own line rather than inferred from the removal alone.
+What should teams pinned to the unversioned 'Claude Haiku' name do?
+Repoint any pinned references to 'Claude Haiku 5.5' — it's the model now sitting in that catalog row; the unversioned alias is gone and MindsDB shows no sign it will return.
+Should competitors read this as a trend to copy?
+Not on its own — a single unversioned-to-versioned swap doesn't establish a pattern; what's worth tracking is whether MindsDB repeats it across its other model rows that still carry an unversioned alias alongside a newer, identically priced release.
+Sources
+Pulse: MindsDB pricing changes, Nov 13, 2026pricingsaas.com/companies/mindsdb/diffs/2026D317
+MindsDB pricing pagemindshub.ai/pricing
+Keep exploring
+All changes from MindsDBAll pricing news
+C
+Captions
+Captions listed seat counts on its Max and Frontier plans
+C
+Cohere
+Cohere moves Model Vault to per-GPU pricing at $3 to $12.50 an hour
+B
+Baseten
+Baseten added Volumes storage to its Sandboxes pricing

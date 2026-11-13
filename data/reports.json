@@ -73089,7 +73089,7 @@
    "article_files": [],
    "title": "Katana Manufacturing ERP launches $0 Free plan: 30 SKUs, unlimited users, no card — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T07",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "katana-manufacturing-erp",
@@ -73109,7 +73109,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "added katana-manufacturing-erp-2026w46",
    "decided_run": "2026-11-11T07"
   },
   {
@@ -74904,7 +74904,7 @@
    "article_files": [],
    "title": "ExpressVPN launches Black Friday sale with up to 80% off 2-year plans — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "expressvpn",
@@ -74918,7 +74918,7 @@
      "text": "Black Friday Early Access Sale: up to 80% off 2-year plans (replaces Halloween promo); 2-year Advanced $4.19/mo and Express Pro $7.19/mo"
     }
    },
-   "outcome": null,
+   "outcome": "promo expressvpn-promo-2026w46",
    "decided_run": "2026-11-11T07"
   },
   {
@@ -75852,7 +75852,7 @@
    "article_files": [],
    "title": "Dialpad Sales drops Meetings Essential bullet from Essentials plan — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "dialpad",
@@ -75892,7 +75892,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "added dialpad-2026w46",
    "decided_run": "2026-11-11T07"
   },
   {
@@ -75974,7 +75974,7 @@
    "article_files": [],
    "title": "Crystal Knows cuts Premium insights from daily to weekly, opens Your Story free — Nov 9, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-09T19",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "crystal",
@@ -75994,7 +75994,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "added crystal-2026w46",
    "decided_run": "2026-11-11T07"
   },
   {
@@ -77697,6 +77697,272 @@
    },
    "outcome": "dropped (wording)",
    "decided_run": "2026-11-12T07"
+  },
+  {
+   "report_id": "pika:2026-W47",
+   "ps_slug": "pika",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-raised-credit-costs-for-its-newest-image-model.txt"
+   ],
+   "title": "Pika's GPT Image 2.6 doubles to 4 credits, halving monthly image limits — Nov 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pika",
+   "decision": {
+    "kind": "limit_change",
+    "why": "GPT Image model cost doubled from 2 to 4 credits per image, halving monthly image allowances (Starter 300→150, Creator 1,300→650).",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "×2 credits",
+     "short": "Pika’s GPT Image model now costs 4 credits per image instead of 2, so Starter drops from 300 to 150 images and Creator from 1,300 to 650 per month.",
+     "pattern": "Limits tighten",
+     "seg": "B2C",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added pika-2026w47",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "mindsdb:2026-W47#2",
+   "ps_slug": "mindsdb",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mindsdb__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mindsdb-retired-its-base-claude-haiku-listing.txt"
+   ],
+   "title": "MindsDB pricing history | PricingSaaS",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "mindsdb",
+   "decision": {
+    "kind": "wording",
+    "why": "Unversioned 'Claude Haiku' alias row removed in favour of the already-listed Claude Haiku 5.5; no price moved (saved page is a history page, not a diff).",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "modal:2026-W47",
+   "ps_slug": "modal",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/modal/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/modal__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/modal-added-a-new-inkling-model-to-its-shared-endpoints.txt"
+   ],
+   "title": "Modal adds Inkling 2 Small at $0.30/$1.00 per 1M tokens, $0.03 cached — Nov 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "modal",
+   "decision": {
+    "kind": "new_feature",
+    "why": "New model Inkling 2 Small added to the shared endpoints price list; no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "figma:2026-W47",
+   "ps_slug": "figma",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/figma/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/figma__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/figma-added-3d-transforms-as-a-beta-feature.txt"
+   ],
+   "title": "Figma adds 3D transforms beta, bringing native depth and perspective design — Nov 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "figma",
+   "decision": {
+    "kind": "new_feature",
+    "why": "'3D transforms (Beta)' row added to the feature comparison table; no price or tier change.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "together:2026-W47#2",
+   "ps_slug": "together",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/together/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/together__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/together-raised-its-hgx-b200-gpu-price-and-revealed-more-rates.txt"
+   ],
+   "title": "Together AI: HGX B200 GPU price hikes to $9.29/hr + 3 more rates shown — Nov 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "together-ai",
+   "decision": {
+    "kind": "price_increase",
+    "why": "On-demand HGX B200 dedicated inference rate rose from $8.99/hr to $9.29/hr (+3%); separate from the existing image-generation price-cut record.",
+    "detail": "card",
+    "record": {
+     "group": "up",
+     "delta": "+3%",
+     "short": "Together AI raised its on-demand HGX B200 dedicated inference rate from $8.99/hr to $9.29/hr.",
+     "pattern": "Price increase",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 1,
+     "plan": "Dedicated Inference",
+     "deltaSub": "HGX B200, on-demand, per hour",
+     "headline": "Together AI raised the on-demand price of its HGX B200 GPU from $8.99/hr to $9.29/hr, and began posting an on-demand rate for HGX H200 where the page used to say Contact us.",
+     "rows": [
+      [
+       "HGX B200, on-demand",
+       "$8.99/hr",
+       "$9.29/hr"
+      ],
+      [
+       "HGX H200, on-demand",
+       "Contact us",
+       "$5.99/hr"
+      ],
+      [
+       "HGX B300, on-demand",
+       "Contact us",
+       "$11.49/hr"
+      ],
+      [
+       "GB300 NVL72, on-demand",
+       "Contact us",
+       "$15.79/hr"
+      ]
+     ],
+     "who": "Buyers of on-demand dedicated GPU inference capacity at list price; Reserved tiers still say Contact sales.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "A small list-price rise on hardware already priced, alongside posted rates for newer GPUs, suggests demand for current-generation capacity is firm. The GPU Clusters page reportedly moved too, but only the B200 on-demand rate is cited here.",
+     "model": "Usage",
+     "modelBefore": "Usage",
+     "modelAfter": "Usage",
+     "appliesTo": "unknown",
+     "magnitude": {
+      "low": 0,
+      "high": 3,
+      "basis": "unit price"
+     }
+    },
+    "promo": null
+   },
+   "outcome": "corroborates together-ai-2026w47, together-ai-2026w47-2",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "openai:2026-W47#2",
+   "ps_slug": "openai",
+   "week": "2026-W47",
+   "change_date": "2026-11-13",
+   "urls": [
+    "https://pricingsaas.com/companies/openai/diffs/2026D317"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/openai__2026D317.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openai-reworded-its-chatgpt-plan-taglines-by-use-case.txt"
+   ],
+   "title": "OpenAI repositions all 4 ChatGPT plan taglines by use case — Nov 13, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "openai",
+   "decision": {
+    "kind": "wording",
+    "why": "All four ChatGPT plan taglines reworded to 'Best for…' use-case copy; no price or limit changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "alldata:2026-W46",
+   "ps_slug": "alldata",
+   "week": "2026-W46",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/alldata/diffs/2026W46"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/alldata__2026W46.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openai-reworded-its-chatgpt-plan-taglines-by-use-case.txt"
+   ],
+   "title": "ALLDATA renames Solution Packs to Bundles, prices hold at $254.60-$359.10 — Nov 9, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-13T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "alldata",
+   "decision": {
+    "kind": "wording",
+    "why": "Product group renamed from Solution Packs to Bundles; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-13T07"
   }
  ]
 }
