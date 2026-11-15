@@ -77963,6 +77963,174 @@
    },
    "outcome": "dropped (wording)",
    "decided_run": "2026-11-13T07"
+  },
+  {
+   "report_id": "fireworks:2026-W47",
+   "ps_slug": "fireworks",
+   "week": "2026-W47",
+   "change_date": "2026-11-14",
+   "urls": [
+    "https://pricingsaas.com/companies/fireworks/diffs/2026D318"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fireworks__2026D318.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table.txt"
+   ],
+   "title": "Fireworks lists Kimi K3.1 Pro on serverless at $2.00 input, $10.00 output per 1M — Nov 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-14T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "fireworks-ai",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Kimi K3.1 Pro added to the serverless rate table; no existing prices changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-14T19"
+  },
+  {
+   "report_id": "perplexity:2026-W47",
+   "ps_slug": "perplexity",
+   "week": "2026-W47",
+   "change_date": "2026-11-14",
+   "urls": [
+    "https://pricingsaas.com/companies/perplexity/diffs/2026D318"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/perplexity__2026D318.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/perplexity-swapped-gemini-flash-for-gemini-hydrogen.txt"
+   ],
+   "title": "Perplexity AI swaps Gemini 3.8 Flash for Google's new Gemini 4 Hydrogen model — Nov 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-14T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "perplexity",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Model lineup tile swapped Gemini 3.8 Flash for Gemini 4 Hydrogen; no plan price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-14T19"
+  },
+  {
+   "report_id": "deepseek:2026-W47",
+   "ps_slug": "deepseek",
+   "week": "2026-W47",
+   "change_date": "2026-11-14",
+   "urls": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026D318"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/deepseek__2026D318.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/deepseek-launched-ocr-and-speech-apis-at-a-launch-discount.txt"
+   ],
+   "title": "DeepSeek launches OCR and Speech APIs at 50% off, from $0.058 per audio hour — Nov 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-14T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "deepseek",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Two new priced API products (OCR and Speech) launched at a limited-time 50% launch price; no existing prices changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-14T19"
+  },
+  {
+   "report_id": "heygen:2026-W47",
+   "ps_slug": "heygen",
+   "week": "2026-W47",
+   "change_date": "2026-11-14",
+   "urls": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D318"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/heygen__2026D318.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/heygen-added-professional-voice-clone-to-pro-at-no-charge.txt"
+   ],
+   "title": "HeyGen Pro plan now includes free Professional Voice Clone, once $29/mo — Nov 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-14T19",
+   "status": "decided",
+   "attempts": 0,
+   "waits": 1,
+   "company": "heygen",
+   "decision": {
+    "kind": "feature_move",
+    "why": "Professional Voice Clone, previously a $29/mo add-on, now appears as 1 included in the Pro plan.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "$29 / $0",
+     "short": "Professional Voice Clone on Pro: $29/mo add-on → 1 included at no extra charge.",
+     "pattern": "Bundling",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": null,
+   "decided_run": "2026-11-14T19"
+  },
+  {
+   "report_id": "retool:2026-W47",
+   "ps_slug": "retool",
+   "week": "2026-W47",
+   "change_date": "2026-11-14",
+   "urls": [
+    "https://pricingsaas.com/companies/retool/diffs/2026D318"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/retool__2026D318.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/retool-lifted-its-hard-cap-on-ai-credits.txt"
+   ],
+   "title": "Retool lets paid plans buy extra AI credit packs, lifting the old hard cap — Nov 14, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-14T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "retool",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Retool's monthly AI credit pool no longer has a hard cap: paid plans can now buy extra AI credit packs.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "Cap lifted",
+     "short": "AI credits on paid plans: no way to buy more → extra credit packs can be bought.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added retool-2026w47",
+   "decided_run": "2026-11-14T19"
   }
  ]
 }

@@ -1153,12 +1153,14 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": true,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.canva.com/us/pricing/"
+   ],
    "domains": [
     "canva.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": false,
    "ownership": "private",
    "hq": "APAC",
@@ -35479,10 +35481,15 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://getcargo.ai/pricing"
+   ],
+   "domains": [
+    "getcargo.ai",
+    "getcargo.io"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35616,10 +35623,14 @@
    "category": "Workforce Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://birdie.care/pricing"
+   ],
+   "domains": [
+    "birdie.care"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35679,7 +35690,7 @@
     "amazon.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35866,7 +35877,7 @@
     "phasetwo.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35902,6 +35913,187 @@
    "source_url": "https://agentdeals.dev/digest/2026-w40",
    "url_attempts": 0,
    "notes": "Free plan raised from 5,000 to 10,000 sessions a month (between 28 Aug and 30 Sep)."
+  },
+  "perplexity": {
+   "name": "Perplexity",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://pricingsaas.com/companies/perplexity/diffs/2026D318",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "perplexity"
+   ]
+  },
+  "svix": {
+   "name": "Svix",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.svix.com/pricing/"
+   ],
+   "domains": [
+    "svix.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w39",
+   "url_attempts": 0,
+   "notes": "Cut the Free plan from 200 to 50 messages per second and from 30-day to 7-day payload retention, and moved its SLA to a $20-a-month Basic plan."
+  },
+  "appsignal": {
+   "name": "AppSignal",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.appsignal.com/pricing"
+   ],
+   "domains": [
+    "appsignal.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w39",
+   "url_attempts": 0,
+   "notes": "Cut Free plan requests from 50,000 to 30,000 a month."
+  },
+  "nango": {
+   "name": "Nango",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.nango.dev/pricing"
+   ],
+   "domains": [
+    "nango.dev"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w39",
+   "url_attempts": 0,
+   "notes": "Replaced the Free plan’s per-resource allowances with a 10 GB-a-month data transfer limit."
+  },
+  "browserless": {
+   "name": "Browserless",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.browserless.io/pricing"
+   ],
+   "domains": [
+    "browserless.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w39",
+   "url_attempts": 0,
+   "notes": "Raised the Free plan session limit from 1 to 2 minutes."
+  },
+  "storj": {
+   "name": "Storj",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.storj.io/pricing"
+   ],
+   "domains": [
+    "storj.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w39",
+   "url_attempts": 0,
+   "notes": "Replaced STORJ token deposits with USDC, ended the 10% token deposit discount and exempted USDC payers from the $5 monthly minimum."
+  },
+  "firebase": {
+   "name": "Firebase",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://firebase.google.com/pricing"
+   ],
+   "domains": [
+    "firebase.google.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-14",
+   "source": "agent 2026-11-14T19",
+   "source_url": "https://agentdeals.dev/reports/2026-09",
+   "url_attempts": 0,
+   "notes": "Capped Remote Config on the free Spark plan at 100,000 fetch requests per day per project, for new projects from 1 Sep and older ones from 1 Dec."
   }
  }
 }

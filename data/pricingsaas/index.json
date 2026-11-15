@@ -32830,6 +32830,146 @@
    "file": "data/pricingsaas/pages/diffs/alldata__2026W46.txt",
    "title": "ALLDATA renames Solution Packs to Bundles, prices hold at $254.60-$359.10 — Nov 9, 2026 · PricingSaaS Pulse",
    "report_id": "alldata:2026-W46"
+  },
+  "https://pricingsaas.com/news/article/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/articles/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table.txt",
+   "title": "Fireworks added Kimi K3.1 Pro to its serverless rate table",
+   "published": "2026-11-14T11:04:36.651099+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/fireworks/diffs/2026D318"
+   ]
+  },
+  "https://pricingsaas.com/news/article/perplexity-swapped-gemini-flash-for-gemini-hydrogen": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/articles/perplexity-swapped-gemini-flash-for-gemini-hydrogen.txt",
+   "title": "Perplexity swapped Gemini Flash for Gemini Hydrogen",
+   "published": "2026-11-14T07:00:44.389154+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/perplexity/diffs/2026D318"
+   ]
+  },
+  "https://pricingsaas.com/news/article/deepseek-launched-ocr-and-speech-apis-at-a-launch-discount": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/articles/deepseek-launched-ocr-and-speech-apis-at-a-launch-discount.txt",
+   "title": "DeepSeek launched OCR and Speech APIs at a launch discount",
+   "published": "2026-11-14T06:40:04.23548+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/deepseek/diffs/2026D318"
+   ]
+  },
+  "https://pricingsaas.com/news/article/heygen-added-professional-voice-clone-to-pro-at-no-charge": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/articles/heygen-added-professional-voice-clone-to-pro-at-no-charge.txt",
+   "title": "Heygen added Professional Voice Clone to Pro at no charge",
+   "published": "2026-11-14T06:38:07.181343+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D318"
+   ]
+  },
+  "https://pricingsaas.com/news/article/retool-lifted-its-hard-cap-on-ai-credits": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/articles/retool-lifted-its-hard-cap-on-ai-credits.txt",
+   "title": "Retool lifted its hard cap on AI credits",
+   "published": "2026-11-14T06:34:33.45613+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/retool/diffs/2026D318"
+   ]
+  },
+  "https://pricingsaas.com/companies/fireworks/diffs/2026D318": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/diffs/fireworks__2026D318.txt",
+   "title": "Fireworks lists Kimi K3.1 Pro on serverless at $2.00 input, $10.00 output per 1M — Nov 14, 2026 · PricingSaaS Pulse",
+   "report_id": "fireworks:2026-W47"
+  },
+  "https://pricingsaas.com/companies/perplexity/diffs/2026D318": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/perplexity-swapped-gemini-flash-for-gemini-hydrogen"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/diffs/perplexity__2026D318.txt",
+   "title": "Perplexity AI swaps Gemini 3.8 Flash for Google's new Gemini 4 Hydrogen model — Nov 14, 2026 · PricingSaaS Pulse",
+   "report_id": "perplexity:2026-W47"
+  },
+  "https://pricingsaas.com/companies/deepseek/diffs/2026D318": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/deepseek-launched-ocr-and-speech-apis-at-a-launch-discount"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/diffs/deepseek__2026D318.txt",
+   "title": "DeepSeek launches OCR and Speech APIs at 50% off, from $0.058 per audio hour — Nov 14, 2026 · PricingSaaS Pulse",
+   "report_id": "deepseek:2026-W47"
+  },
+  "https://pricingsaas.com/companies/heygen/diffs/2026D318": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/heygen-added-professional-voice-clone-to-pro-at-no-charge"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/diffs/heygen__2026D318.txt",
+   "title": "HeyGen Pro plan now includes free Professional Voice Clone, once $29/mo — Nov 14, 2026 · PricingSaaS Pulse",
+   "report_id": "heygen:2026-W47"
+  },
+  "https://pricingsaas.com/companies/retool/diffs/2026D318": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-14T19",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/retool-lifted-its-hard-cap-on-ai-credits"
+   ],
+   "fetched_at": "2026-11-14T19:37:00-05:00",
+   "file": "data/pricingsaas/pages/diffs/retool__2026D318.txt",
+   "title": "Retool lets paid plans buy extra AI credit packs, lifting the old hard cap — Nov 14, 2026 · PricingSaaS Pulse",
+   "report_id": "retool:2026-W47"
   }
  }
 }

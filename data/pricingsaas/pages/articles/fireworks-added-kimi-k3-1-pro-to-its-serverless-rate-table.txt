@@ -1,0 +1,42 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+F
+Fireworks
+PACKAGING CHANGE
+Fireworks added Kimi K3.1 Pro to its serverless rate table
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 14, 2026
+Fireworks added Kimi K3.1 Pro as a new model on its serverless rate table.
+See before and after
+Enlarge
+Fireworks’ pricing page · Change detected Nov 14, 2026
+What changed
+Fireworks added Kimi K3.1 Pro as a new row in its Highlighted Serverless rates table. Per Fireworks's pricing page as of Nov 14, 2026, the model is listed at $2.00 per 1M input tokens, $0.20 per 1M cached input tokens, and $10.00 per 1M output tokens on the standard tier. A separately priced Priority tier for the same model lists at $3.00, $0.30, and $15.00 per 1M tokens for input, cached input, and output respectively, according to the same Nov 14, 2026 page.
+Why it matters
+For product leaders watching inference pricing, this is less about a single model's price than about where Fireworks keeps putting new models: directly into the Highlighted Serverless table rather than a separate or niche listing. Pairing that with a separately priced Priority tier for the same model shows Fireworks setting a standard price alongside a higher, latency-priority price for new releases as a matter of course, not as an exception.
+Teams evaluating serverless inference providers should treat that Priority/standard split as a lever to negotiate or avoid rather than a fixed line item, and watch whether Fireworks keeps extending it to future models at the same cadence.
+In context
+Fireworks has made 22 real pricing-page changes since tracking began on Nov 17, 2024, averaging one every 32 days per Pulse's record; its previous change, 19 days earlier on Oct 26, 2026, added SOC 2 and ISO compliance badges [[fireworks/2026W44]]. Model additions are Fireworks's single most common type of change — nine tracked, most recently new training-API models on Oct 17, 2026 [[fireworks/2026D290]] — so this fits an established pattern, not a new strategy. Modal added its own new model, Inkling 2 Small, to its rate card a day earlier, on Nov 13, 2026 [[modal/2026D317]], a reminder that new-model listings are landing across serverless providers on a near-weekly cadence this month. Pulse tracked 738 feature-addition changes across 549 companies in the last 180 days — 23.9% of all 3,083 changes tracked — so a listing like this now reads as routine rather than notable; the sharper read is which provider gets to a new model first and at what price, not whether a provider adds it.
+Common questions
+How would I estimate my own cost on this model?
+Multiply the per-1M-token rate by your expected input, cached-input, and output volume separately, and confirm which tier — standard or Priority — your workload actually needs before assuming the lower price applies.
+Does Fireworks explain why Priority access costs more?
+No — Fireworks's pricing page carries no stated reason for the Priority tier's higher price, and this briefing does not guess at one.
+Sources
+Pulse: Fireworks pricing changes, Nov 14, 2026pricingsaas.com/companies/fireworks/diffs/2026D318
+Fireworks pricing pagefireworks.ai/pricing
+Keep exploring
+All changes from FireworksAll pricing news
+O
+OpenAI
+OpenAI reworded its ChatGPT plan taglines by use case
+O
+OpenAI
+OpenAI reframed its plan taglines around use cases
+M
+Mercury
+Mercury added a free trial to Plus plan signups

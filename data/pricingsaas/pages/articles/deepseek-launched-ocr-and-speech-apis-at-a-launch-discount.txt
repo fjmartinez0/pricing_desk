@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+D
+DeepSeek
+PACKAGING CHANGE
+DeepSeek launched OCR and Speech APIs at a launch discount
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 14, 2026
+DeepSeek added OCR and Speech APIs at a launch discount.
+See before and after
+Enlarge
+DeepSeek’s pricing page · Change detected Nov 14, 2026
+OCR AND SPEECH APIS·first seen Nov 14, 2026
+What changed
+According to DeepSeek's pricing page as of Nov 14, 2026, the company added two priced API add-ons: a File Parsing/OCR API at a launch price of $0.225 per 1,000 pages, and Speech APIs covering Text-to-Speech at $0.45 per 10K characters and Speech-to-Text/ASR at a launch price of $0.058 per hour of audio, down from a standard $0.116 per hour. Both the OCR and Speech-to-Text launch prices are discounted 50% for a limited time, per DeepSeek's pricing page as of Nov 14, 2026.
+Why it matters
+For product leaders stitching together multi-modal AI pipelines, this adds two more metered line items to budget alongside DeepSeek's model-token pricing: OCR billed by the page, speech billed by the character or the hour. DeepSeek's own history is the sharper read here — its Search and Fetch APIs were listed at $0.75 per 1,000 requests, with server-side tool calls free until per-request billing started on Nov 1, 2026, according to Pulse's record [[deepseek/2026D290]] [[deepseek/2026D309]]. The 50% launch discount on OCR and Speech-to-Text, per DeepSeek's pricing page as of Nov 14, 2026, is another introductory rate, so the full rate may follow. Watch whether DeepSeek doubles the OCR and Speech-to-Text rates once the introductory window closes, the way Search/Fetch's free period gave way to metered billing.
+In context
+Pulse has tracked 10 real pricing changes from DeepSeek since Jul 27, 2026, averaging about one every 11 days, with 8 of them in the last 90 days DeepSeek. Pulse tracked DeepSeek's previous add-on, Search/Fetch, launching on Oct 17, 2026 at $0.75 per 1,000 requests with server-side tool calls free until Nov 1, 2026; Pulse detected the end of that free period on Nov 5, 2026 [[deepseek/2026D290]] [[deepseek/2026D309]]. New paid add-ons are common elsewhere too: Pulse tracked 167 pricing changes across 135 companies introducing add-ons in the last 180 days, including Uplisting's £8-per-listing AirDNA add-on on Nov 9, 2026 [[uplisting/2026W46]] and Getcargo's $10,000-a-month Managed add-on the same day [[getcargo/2026W46]]. Set against that pattern, DeepSeek's 50% launch discount on OCR and Speech-to-Text, per its pricing page as of Nov 14, 2026, is an introductory rate on a new metered line; Pulse's record has one earlier DeepSeek add-on whose free period ended on a stated date.
+Common questions
+How do we estimate the monthly cost of using DeepSeek's new OCR or speech APIs?
+Multiply DeepSeek's per-unit launch rate — by the page for OCR, by the character for Text-to-Speech, or by the hour for Speech-to-Text — by your expected monthly volume, and build in headroom since the launch pricing has no published end date.
+Could the 50% launch discount end, and how would we know?
+DeepSeek hasn't published an end date — the item calls it only a 'limited-time' launch price, per its pricing page as of Nov 14, 2026. Treat it as temporary and recheck before relying on today's per-unit rate for long-term budgeting.
+Does this change DeepSeek's core per-token model pricing?
+Not as reported — the diff only lists the two new OCR/Speech add-ons, with no mention of token-rate changes elsewhere. If per-token cost matters to your workload, confirm current rates directly on DeepSeek's pricing page before budgeting, since add-on launches and model-price moves are tracked separately.
+Sources
+Pulse: DeepSeek pricing changes, Nov 14, 2026pricingsaas.com/companies/deepseek/diffs/2026D318
+DeepSeek pricing pageapi-docs.deepseek.com/quick_start/pricing
+Keep exploring
+All changes from DeepSeekAll pricing news
+K
+Krea
+Krea's Nano Banana 2.1 unit-cost increase is one arm of a live A/B test
+S
+Slack
+Slack moved Slackbot to tiered usage limits
+L
+Lumaai
+Lumaai changed how it meters Video-to-Video credits

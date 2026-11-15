@@ -1,0 +1,82 @@
+{
+ "type": "reports",
+ "run": "2026-11-14T19",
+ "items": [
+  {
+   "report_id": "retool:2026-W47",
+   "company": "retool",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Retool's monthly AI credit pool no longer has a hard cap: paid plans can now buy extra AI credit packs.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Cap lifted",
+    "short": "AI credits on paid plans: no way to buy more → extra credit packs can be bought.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "perplexity:2026-W47",
+   "company": null,
+   "new_company": {
+    "name": "Perplexity",
+    "category": "AI & Machine Learning",
+    "segment": "Both",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/perplexity/diffs/2026D318",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Model lineup tile swapped Gemini 3.8 Flash for Gemini 4 Hydrogen; no plan price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "heygen:2026-W47",
+   "company": "heygen",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Professional Voice Clone, previously a $29/mo add-on, now appears as 1 included in the Pro plan.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "$29 / $0",
+    "short": "Professional Voice Clone on Pro: $29/mo add-on → 1 included at no extra charge.",
+    "pattern": "Bundling",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "fireworks:2026-W47",
+   "company": "fireworks-ai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Kimi K3.1 Pro added to the serverless rate table; no existing prices changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "deepseek:2026-W47",
+   "company": "deepseek",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Two new priced API products (OCR and Speech) launched at a limited-time 50% launch price; no existing prices changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}
