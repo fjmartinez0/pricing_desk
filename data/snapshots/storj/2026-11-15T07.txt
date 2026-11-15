@@ -1,0 +1,137 @@
+=== https://www.storj.io/pricing ===
+Skip to content
+Asset sale. Storj is selling Valdi.ai, Object Mount and Storj Object Storage through a court-supervised process. See the opportunity →
+Pricing
+Get started for free.
+Simple, stable pricing for Object Storage and Object Mount.
+Object Storage
+Store data where you need it.
+Storj offers a simple, high performance alternative to hyperscalers with consistent, stable pricing1.
+Consistently fast performance
+Enterprise-grade security and availability
+Drop-in replacement for AWS S3
+Most popular
+Free trial
+Begin your free trial of Object Storage with Object Mount.
+$0
+Free for 30 days
+Works with S3-compatible apps
+No credit card required
+2 free Object Mount licenses
+Start free trial
+Paid plan
+Standard
+Store your data on the globally distributed cloud.
+Monthly storage$7/TB
+Egress $7/TB
+Storage locations Distributed globally across tens of thousands of storage locations.
+Performance Consistently fast worldwide.
+Contact sales
+Paid plan
+Advanced
+Control where your data lives and how it’s managed.
+License pricing$10/TB
+Egress $7/TB
+Storage locations Distributed across U.S. SOC2 type 2 compliant data centers.
+Contact sales
+1Minimum monthly fee for Storj Object Storage Standard and Advanced plan accounts is $5. Full pricing details.
+Frequently asked questions.
+Find answers to commonly asked questions regarding Storj distributed storage pricing.
+How does Storj compare to other storage providers?
+Storj offers:
+Lower latency and consistent throughput for globally distributed teams
+Faster large-file uploads
+No API fees
+Competitive egress fees in most tiers
+Integrated file streaming access
+What durability does Storj offer?
+All tiers are designed for 11 nines (99.999999999%) durability via erasure coding and distributed architecture.
+What are the egress charges?
+The new pricing structure allowed us to reduce egress on the Standard tier from $20/TB to $7/TB. For the Advanced tier (formerly Regional Workflows), egress is now $7/TB.
+Are segment fees still charged?
+No. Segment fees have been eliminated across all new tiers. Segment fees still apply for users on legacy plans.
+Are there object size minimums?
+Yes. Standard: 50 KB minimum per object. Objects under 50 KB are billed as 50 KB.
+Is there an early deletion fee?
+In the Standard tier, objects have a minimum storage retention period of 30 days. If you delete an object before 30 days, the remaining GB-month is charged as an early deletion fee at the same rate. Customers using Object Mount with Storj Object Storage will be exempt from this charge.
+Is there a minimum usage fee?
+Yes. The minimum monthly fee is $5, and is not a usage credit. It is a floor on your monthly invoice. If your usage in a given month is less than $5, you are charged $5. You do not receive additional storage or egress in exchange for the difference. The minimum fee applies as follows:
+If your total usage for the month exceeds $5, no minimum fee is charged.
+If your total usage is less than $5, you are charged $5 for that month.
+Accounts paying with USDC are exempt from the minimum monthly fee.
+Accounts on custom or negotiated contracts are not subject to the standard minimum fee. Your account team will communicate any applicable terms.
+The minimum fee does not apply during the free trial period. It takes effect at the start of your first billing cycle after the trial ends.
+Accounts with a $0 balance at the end of a billing cycle and no active storage will be suspended and then deleted. Free trial accounts are excluded from this.
+For further details, please refer to this documentation article.
+How often am I billed?
+Storj bills monthly based on your usage during the previous billing cycle. The billing cycle always runs from the first to the last day of the month, and invoices are typically issued within a week after the month ends. For further details, please refer to this documentation article.
+How can I close my account?
+If you no longer wish to use Storj, you can close your account at any time via the account settings. For further details, please refer to this documentation article.
+Where can I get help or ask questions?
+Visit the pricing documentation, explore our support center, or connect with others in the community forum.
+Object Mount
+Access cloud storage like it’s local.
+Instantly work with files in the cloud as if they're already on your machine. Object Mount works with any S3 storage or pairs with Storj distributed storage for better performance and value.
+Works on Mac, Windows, and Linux.
+Stream files in real time.
+So fast it feels local.
+Free trial
+Included with Storj Object Storage.
+$0
+Works with Storj Object Storage
+2 licenses included free
+25GB free storage for 30 days
+Start your trial
+Teams
+For growing teams that need more.
+$29/license/mo
+Works with Storj Object Storage
+Optimized for collaboration
+Customer support
+Contact sales
+Bring your own cloud
+Works with AWS, GCP, Azure and more.
+$39/license/mo
+Everything in Teams plan
+Works with Storj Object Storage
+Works with any S3 storage
+Mount multiple clouds at once
+Contact sales for enterprise pricing
+Contact sales
+Frequently asked questions.
+Find answers to commonly asked questions regarding Storj Object Mount pricing.
+Can I use Object Mount with third-party S3 storage?
+Yes. Object Mount supports AWS, GCP, and other S3-compatible backends.
+What does a paid Object Mount license include?
+Each paid Teams tier license ($29/month) includes 500 GB of Storj Object Storage. That storage counts toward your metered usage. If your total monthly Storj storage usage is below $5, the $5 minimum monthly fee applies. The 500 GB is available to use as long as your account is active and in good standing. Any S3 tier seats ($39/month) do not include Storj storage, and the $5 Storj storage minimum does not apply to that tier.
+Do I need to meet the $5 minimum to keep my Object Mount licenses?
+Yes. To use Object Mount with Storj Object Storage, your account must remain active and meet the $5 monthly minimum. If your total Storj usage is below $5 in a given month, the minimum fee applies. Your 500 GB of included storage remains available as long as your account is active and in good standing. Your Object Mount licenses are available once your storage usage exceeds $5.
+What is a minimum retention fee?
+When an object is stored on the Storj network, infrastructure costs begin the moment it's written. Minimum retention fees ensure that storage is billed for at least 30 days regardless of when an object is deleted. If you delete an object on day 3, you are billed for the remaining 27 days.
+Is Object Mount subject to minimum retention fees?
+No. Object Mount is excluded from Storj's standard 30-day minimum retention fees. This is reflected in the $29/month license pricing.
+Why is there an exclusion?
+Object Mount is designed for filesystem-style workloads that don't map cleanly to object storage retention models. The $29/month license covers that cost structure so you don't have to manage it.
+What if my workload creates and deletes objects frequently?
+Object Mount supports high-churn workloads. For temp files and scratch space, we recommend keeping those on a local disk and using Object Mount for data that persists.
+Are there any limits to the exclusion?
+Yes. Accounts with usage patterns that generate disproportionate infrastructure load may be flagged for review. We reserve the right to apply minimum retention fees or, if necessary, restrict or discontinue service under our acceptable use policy.
+What does the $29/month license include?
+Access to Object Mount plus 0.5TB of included storage per month. This is additive to any other storage on your account. Standard rates apply above 0.5TB.
+A note for free-tier users
+Object Mount is included at no charge for all Storj object storage accounts. The same usage policies apply. If your usage generates disproportionate infrastructure load, we reserve the right to apply minimum retention fees or restrict access regardless of your plan tier.
+Is there a trial available?
+Yes. New customers with S3-compatible storage can start with a 30-day trial of Object Mount. After the trial, continue with Storj storage or the Any S3 tier ($39/license) with your existing storage provider.
+What workflows is Object Mount designed for?
+Object Mount is built for workflows that require direct file access to cloud storage.
+What makes Object Mount different from other cloud storage access tools?
+Object Mount provides POSIX access to object storage without modifying your files or requiring a gateway. It mounts directly to your existing buckets, so data accessed through Object Mount can still be accessed via the S3 API with other tools. There is no copying or importing required. Existing buckets can be mounted immediately without any data migration.
+Where can I get help with Object Mount setup or billing?
+Visit the Object Mount documentation, explore our support center, or connect with others in the community forum for guidance on setup, licensing, and billing.
+Companies are saving with Storj.
+Join businesses all over the world that are cutting their cloud costs by 80% or more.
+“Storj has the security, low cost, and reliability we were looking for. Almost any way you look at it, Storj is a better choice for us, than going to one of the bigger players.”
+Get in touch
+Speak with an expert.
+Chat with our team to find the best solutions for your needs and to get your questions answered.
+Schedule a meeting

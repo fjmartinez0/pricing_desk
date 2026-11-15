@@ -1159,8 +1159,8 @@
    "domains": [
     "canva.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": false,
    "ownership": "private",
    "hq": "APAC",
@@ -35489,7 +35489,7 @@
     "getcargo.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35630,7 +35630,7 @@
     "birdie.care"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35952,7 +35952,7 @@
     "svix.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -35978,7 +35978,7 @@
     "appsignal.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36004,7 +36004,7 @@
     "nango.dev"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36030,7 +36030,7 @@
     "browserless.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36056,7 +36056,7 @@
     "storj.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36082,7 +36082,7 @@
     "firebase.google.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36094,6 +36094,80 @@
    "source_url": "https://agentdeals.dev/reports/2026-09",
    "url_attempts": 0,
    "notes": "Capped Remote Config on the free Spark plan at 100,000 fetch requests per day per project, for new projects from 1 Sep and older ones from 1 Dec."
+  },
+  "qonversion": {
+   "name": "Qonversion",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://qonversion.io/pricing"
+   ],
+   "domains": [
+    "qonversion.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "url_attempts": 0,
+   "notes": "Cut its free-tier limit from $10k to $7k of monthly tracked revenue; its pricing page now shows the $7,000 threshold with 0.8% of tracked revenue above it."
+  },
+  "othor-ai": {
+   "name": "Othor AI",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "othor.ai"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "url_attempts": 0,
+   "notes": "Free plan cut from 5 data sources and unlimited analytics to 2 data sources and 20 requests a day."
+  },
+  "pagecrawl-io": {
+   "name": "PageCrawl.io",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "pagecrawl.io"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T07",
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "url_attempts": 0,
+   "notes": "Free tier restated as 6 pages with up to 220 checks, run as often as every 60 minutes, where it previously allowed 6 monitors; AgentDeals logged it as a reduction."
   }
  }
 }

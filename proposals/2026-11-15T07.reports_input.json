@@ -1,0 +1,47 @@
+{
+ "run": "2026-11-15T07",
+ "reports": [
+  {
+   "report_id": "pika:2026-W47#2",
+   "week": "2026-W47",
+   "change_date": "2026-11-15",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D319"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D319.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-launched-creator-team-and-pro-team-plans.txt"
+   ],
+   "title": "Pika launches Team plans: Creator $35/seat, Pro $95/seat with shared credits — Nov 15, 2026 · PricingSaaS Pulse",
+   "registry_guess": "pika",
+   "registry_name": "Pika",
+   "existing_records": [
+    {
+     "id": "pika-2026w47",
+     "short": "Pika’s GPT Image model now costs 4 credits per image instead of 2, so Starter drops from 300 to 150 images and Creator from 1,300 to 650 per month.",
+     "src": "PricingSaaS report"
+    }
+   ]
+  },
+  {
+   "report_id": "heygen:2026-W47#2",
+   "week": "2026-W47",
+   "change_date": "2026-11-15",
+   "urls": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D319"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/heygen__2026D319.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator.txt"
+   ],
+   "title": "HeyGen replaces Avatar IV/V with Avatar 6 lineup, adds Pro tier — Nov 15, 2026 · PricingSaaS Pulse",
+   "registry_guess": "heygen",
+   "registry_name": "HeyGen",
+   "existing_records": []
+  }
+ ]
+}

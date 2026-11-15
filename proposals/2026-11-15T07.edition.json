@@ -1,0 +1,240 @@
+{
+ "type": "edition",
+ "run": "2026-11-15T07",
+ "week": "2026-W39",
+ "news": [
+  {
+   "id": "gbb-free-mode-freemium",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "18 Sep",
+   "topic": "Free plans",
+   "rel": true,
+   "title": "Free Mode and the Future of Freemium",
+   "url": "https://newsletter.pricingsaas.com/p/free-mode-and-the-future-of-freemium",
+   "gist": "Free AI usage costs real money on every request, so freemium is turning from a way to win new users into a perk for paying ones: free usage layered on top of a paid plan’s credits.",
+   "points": [
+    "Replit dropped its free Starter plan and gave paying users a Free Mode that sits on top of the credits they already buy",
+    "Lovable gives Pro and Business users daily free credits with no monthly cap, plus separate Cloud and AI grants",
+    "Four ways to make usage free are named: by model, by speed, by type of action and by periodic refill",
+    "LLMs now do many of the first-draft jobs that free tiers used to win users with, so free plans acquire less"
+   ],
+   "nums": [
+    ["200 to 20", "Canva’s cut in free AI uses"],
+    ["30 hours", "monthly chat time in Replit’s Free Mode for paying users"],
+    ["36%", "share of the 4,381 companies PricingSaaS tracks that still have a free tier"],
+    ["65%", "share of credit-priced companies that offer a free plan"]
+   ],
+   "why": "If a vendor moves free usage behind its paid plans, a free trial no longer shows what heavy use costs, so price the paid plan and its credits before committing."
+  },
+  {
+   "id": "agentdeals-2026-sep14-20",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "14–20 Sep",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Changes: September 14–20, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w38",
+   "gist": "Developer free tiers shrank this week: CockroachDB stopped offering its free Basic plan to new deployments, Postman took cloud performance testing off Free, and Google kept older Gemini models for existing users only.",
+   "points": [
+    "PostHog startup credits no longer pay for its AI products, such as PostHog AI and Replay Vision",
+    "Groq swapped Qwen3.6 27B for Qwen3.8 27B on free and developer plans and shut the old model ID, so code calling it breaks",
+    "Canva’s free tier moved the other way, adding a Brand Kit, Affinity access and a small allowance of AI uses",
+    "Google stopped renewing standalone Developer Program Premium subscriptions"
+   ],
+   "nums": [
+    ["$400", "credit in the 30-day trial CockroachDB now gives new Cloud organizations"],
+    ["$7k", "Qonversion’s new free-tier cap on monthly tracked revenue, down from $10k"],
+    ["20 requests/day", "Othor AI’s new free-plan limit, alongside 2 data sources"]
+   ],
+   "why": "Free tiers and startup credits can disappear for new accounts at short notice, so check current terms before building a new project on them."
+  },
+  {
+   "id": "gbb-14-ai-monetization-trends",
+   "lead": false,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "25 Sep",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "14 Trends in AI Monetization",
+   "url": "https://newsletter.pricingsaas.com/p/14-trends-in-ai-monetization",
+   "gist": "AI lets customers get more done with fewer seats, so vendors are moving to hybrid fees, credits and outcome pricing, while buyers accept variable bills only when the spend can be forecast.",
+   "points": [
+    "Buyers prefer structured commitments such as Salesforce Pre-Commit, Workday Flex Credits and SAP AI Units to open-ended metering",
+    "Credit wallets, with balances, alerts and top-ups, are becoming a feature of the product itself",
+    "Outcome pricing such as Helply’s per-outcome rate is real, but the author doubts it goes mainstream soon",
+    "Most vendors fold MCP access into existing plans, and standalone MCP add-ons are still rare"
+   ],
+   "nums": [
+    ["66%", "vendors that combine a fixed fee with a usage charge, up from 45% in 2023"],
+    ["47% vs 39%", "vendors who blame unpredictable pricing vs too high a price when customers turn down AI features"],
+    ["4%", "median share of revenue that companies get from AI"],
+    ["959", "pricing changes PricingSaaS tracked across 500 companies in H1 2026"]
+   ],
+   "why": "Vendors say unpredictable bills are what stalls AI adoption, so buyers have leverage to ask for committed, forecastable AI spend instead of open metering."
+  },
+  {
+   "id": "agentdeals-2026-09-report",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "Sep 2026",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Report: September 2026",
+   "url": "https://agentdeals.dev/reports/2026-09",
+   "gist": "AgentDeals called September a hard month for developer free tiers: changes that hurt buyers far outnumbered those that helped, as limits shrank and products were retired.",
+   "points": [
+    "Product deprecations were the most common change type, ahead of reduced limits",
+    "OneSignal limited free mobile push to smaller organizations, new customers first and existing ones a month later",
+    "Modal’s Starter compute allowance no longer covers Shared Endpoints",
+    "Railway, Cloudflare Workers and Browserless were the month’s few improvements"
+   ],
+   "nums": [
+    ["20", "developer-tool pricing changes tracked in September"],
+    ["12 vs 3", "negative vs positive changes"],
+    ["7", "changes in AI/ML, the busiest category"]
+   ],
+   "why": "With model retirements and free-tier cuts arriving monthly, budget for migrations and paid tiers rather than assuming current free allowances will last."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Model costs reached list prices, in both directions",
+   "p": "AI inference and generation prices followed the underlying models: hosts raised rates where demand is strong and cut credit costs where newer models are cheaper. Usage-priced AI bills can change between invoices with no plan change.",
+   "points": [
+    {"id": "together-2026w39", "text": "raised Qwen3.7-Max serverless inference by 25%, to $2.50 input and $7.50 output per million tokens"},
+    {"id": "telnyx-2026w39", "text": "lifted its estimated production voice-agent rate from $0.056 to $0.06 a minute as one model’s rate rose"},
+    {"id": "krea-2026w39", "text": "cut MiniMax H3 Max video quotas fourfold on every tier, from 864 to 216 videos on Max"},
+    {"id": "lumaai-2026w39", "text": "cut Seedance 2.0 video credit costs about in half, from 107 to 51 credits a second at 720p"},
+    {"id": "substrate-2026w39", "text": "replaced GPT Image 2 with two 2.5 variants, taking the lowest price per request from $0.225 to $0.035"},
+    {"id": "aptible-2026w39", "text": "halved its LLM Gateway base fee from $400 to $200 a month plus usage"}
+   ]
+  },
+  {
+   "t": "Entry plans got narrower or pricier",
+   "p": "Several AI and developer products cut what free or cheap plans include, or removed them, pushing small buyers to a paid or sales-led step sooner; Anthropic moved the other way. The Cockroach Labs and Pika changes come from PricingSaaS reports.",
+   "points": [
+    {"id": "wispr-2026w39", "text": "capped free Android dictation at 1,000 words a week, where it had been unlimited"},
+    {"id": "vapi-2026w39", "text": "cut included concurrent calls from 10 to 4, with 10 now needing the $29 Core plan"},
+    {"id": "profound-2026w39", "text": "removed its $99 Starter and $399 Growth plans, leaving a free trial and Enterprise"},
+    {"id": "koala-2026w39", "text": "raised its entry plan from $9 to $25 a month, with more words and credits"},
+    {"id": "cockroach-labs-2026w39", "text": "replaced Basic, Standard and Advanced with Standard and Mission Critical, removing the free Basic tier"},
+    {"id": "pika-2026w39", "text": "stopped including the commercial license on Free and Starter"},
+    {"id": "anthropic-apps-2026w39", "text": "added Projects, up to 5, to the Free plan"}
+   ]
+  },
+  {
+   "t": "Fewer ways to buy, steered toward bigger bundles",
+   "p": "Market leaders cut the number of ways to buy rather than list prices, and smaller vendors removed middle or top plans. Menus get simpler but cheap ways in disappear. Salesforce, Microsoft 365, Temporal and Playbook come from PricingSaaS reports.",
+   "points": [
+    {"id": "salesforce-2026w39", "text": "dropped the products-by-role path (5 SKUs) from its Small Business page, leaving Starter Suite at $25 and Pro Suite at $100 per user a month"},
+    {"id": "microsoft-365-2026w39", "text": "made Teams Premium require a Teams Enterprise license and removed its Buy now option"},
+    {"id": "hubspot-2026w39", "text": "moved Agent Hub and Agent Builder down to Starter, while Marketing Hub Professional lost omni-channel automation"},
+    {"id": "temporal-2026w39", "text": "replaced Essentials, Business and Enterprise with Pay-As-You-Go at $25 per million actions, down from $50"},
+    {"id": "playbook-2026w39", "text": "removed its $400-a-month Business plan, moving that capacity to custom-priced Enterprise"},
+    {"id": "bugherd-2026w39", "text": "discontinued its $125-a-month Premium plan and folded its features into Pro"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "Leaders repackaged; none changed a list price",
+   "fig": "4 of 4",
+   "figNote": "changes at market leaders (tier 1) that were packaging moves",
+   "p": "HubSpot, Anthropic, Salesforce and Microsoft 365 all changed what plans include or how they are bought, not what they cost. Two of the four (Salesforce and Microsoft 365) come from PricingSaaS reports.",
+   "ids": ["hubspot-2026w39", "anthropic-apps-2026w39", "salesforce-2026w39", "microsoft-365-2026w39"]
+  },
+  {
+   "t": "Every list-price increase came from a smaller company",
+   "fig": "20 of 20",
+   "figNote": "changes tagged Price increase that were at smaller (tier 3) companies",
+   "p": "Straight list-price rises came only from smaller vendors, from Airbyte doubling Standard to small steps at Lokalise. Most of these records come from PricingSaaS reports, so they show where it looked, not the whole market.",
+   "ids": ["airbyte-2026w39", "lokalise-2026w39", "soldo-2026w39", "koala-2026w39", "casepeer-2026w39", "roomraccoon-2026w39", "quickcode-2026w39"]
+  },
+  {
+   "t": "Half the week’s changes left buyers worse off",
+   "fig": "48 of 95",
+   "figNote": "changes that raise prices or cut what is included",
+   "p": "Only 14 changes went in buyers’ favour, and the rest were packaging shifts with mixed effects. Price increases outnumbered price cuts 20 to 4.",
+   "ids": ["vapi-2026w39", "wispr-2026w39", "together-2026w39", "appfollow-2026w39", "frontcore-2026w39", "plecto-2026w39"]
+  },
+  {
+   "t": "Limits tightened about twice as often as they loosened",
+   "fig": "21 vs 11",
+   "figNote": "changes tagged Limits tighten vs Limits loosen",
+   "p": "Cutting allowances was the single most common move of the week, ahead of price increases. Cuts ranged from Vapi’s concurrent calls to API credits at Appfollow, while TheRundown and Ahrefs raised quotas; several of these records come from PricingSaaS reports.",
+   "ids": ["vapi-2026w39", "krea-2026w39", "veelapp-2026w39", "appfollow-2026w39", "coderpad-2026w39", "therundown-2026w39", "ahrefs-2026w39", "convex-2026w39"]
+  },
+  {
+   "t": "AI touched more than a quarter of changes",
+   "fig": "27 of 95",
+   "figNote": "changes involving AI features, models or usage",
+   "p": "AI changes ranged from model rates passed through at Together AI and Telnyx to new credit allowances at CommentSold and outcome pricing at Helply. Of the week’s 10 most relevant changes, 2 were AI costs passed through to customers.",
+   "ids": ["together-2026w39", "telnyx-2026w39", "commentsold-2026w39", "helply-2026w39", "hubspot-2026w39", "krea-2026w39"]
+  },
+  {
+   "t": "Billing terms moved both ways",
+   "fig": "4",
+   "figNote": "changes to billing terms",
+   "p": "Anthropic made its Max plans monthly-only, while BuildBetter and Moxo went annual-only and TermScout required annual prepay on a monthly seat price. Buyers lose flexibility in one direction or the other.",
+   "ids": ["anthropic-apps-2026w39", "buildbetter-2026w39", "moxo-2026w39", "termscout-2026w39"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Free AI usage is being rationed and moved to payers",
+   "p": "The week’s stories describe free allowances shrinking where AI makes them costly, with free usage reappearing as a perk on paid plans. The earlier-stories window for this edition is empty, so this trend rests on this edition’s stories and changes.",
+   "nums": [["200 to 20", "Canva’s cut in free AI uses"], ["12 vs 3", "negative vs positive developer-tool changes in September"]],
+   "news": ["gbb-free-mode-freemium", "agentdeals-2026-sep14-20", "agentdeals-2026-09-report"],
+   "changes": ["wispr-2026w39", "mindsdb-2026w39", "cockroach-labs-2026w39", "replit-2026w38", "anthropic-apps-2026w39"]
+  },
+  {
+   "t": "Buyers want forecastable AI bills",
+   "p": "Vendors are moving from seats to credits, hybrid fees and outcomes, but say unpredictability, more than price, is what makes customers refuse AI features. Credit allowances and committed-spend products are the response.",
+   "nums": [["66%", "vendors combining a fixed fee with a usage charge"], ["47% vs 39%", "vendors blaming unpredictable pricing vs too high a price"]],
+   "news": ["gbb-14-ai-monetization-trends", "gbb-free-mode-freemium"],
+   "changes": ["helply-2026w39", "commentsold-2026w39", "temporal-2026w39", "together-2026w39"]
+  },
+  {
+   "t": "Model churn changes what developers pay",
+   "p": "Retired and replaced models shift bills without any plan change, from Groq and Google restricting older models to hosts repricing popular ones. Deprecations were September’s most common developer-tool change.",
+   "nums": [["7", "AI/ML developer-tool changes in September"]],
+   "news": ["agentdeals-2026-sep14-20", "agentdeals-2026-09-report"],
+   "changes": ["together-2026w39", "substrate-2026w39", "lumaai-2026w39", "telnyx-2026w39"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Qonversion",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": ["https://qonversion.io/pricing"],
+   "domains": ["qonversion.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "why": "Cut its free-tier limit from $10k to $7k of monthly tracked revenue; its pricing page now shows the $7,000 threshold with 0.8% of tracked revenue above it."
+  },
+  {
+   "name": "Othor AI",
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["othor.ai"],
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "why": "Free plan cut from 5 data sources and unlimited analytics to 2 data sources and 20 requests a day."
+  },
+  {
+   "name": "PageCrawl.io",
+   "category": "Cloud & DevOps",
+   "segment": "Both",
+   "pricing_urls": [],
+   "domains": ["pagecrawl.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w38",
+   "why": "Free tier restated as 6 pages with up to 220 checks, run as often as every 60 minutes, where it previously allowed 6 monitors; AgentDeals logged it as a reduction."
+  }
+ ]
+}

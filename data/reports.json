@@ -78072,7 +78072,7 @@
    "first_seen_run": "2026-11-14T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 1,
+   "waits": 2,
    "company": "heygen",
    "decision": {
     "kind": "feature_move",
@@ -78131,6 +78131,75 @@
    },
    "outcome": "added retool-2026w47",
    "decided_run": "2026-11-14T19"
+  },
+  {
+   "report_id": "pika:2026-W47#2",
+   "ps_slug": "pika",
+   "week": "2026-W47",
+   "change_date": "2026-11-15",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D319"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D319.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-launched-creator-team-and-pro-team-plans.txt"
+   ],
+   "title": "Pika launches Team plans: Creator $35/seat, Pro $95/seat with shared credits — Nov 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-15T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pika",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Pika added seat-priced Creator Team ($35/seat) and Pro Team ($95/seat) plans with shared credits and a 2-seat minimum; separate from the earlier GPT Image credit-cost record.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New Team plans",
+     "short": "Pika added Creator Team at $35 per seat and Pro Team at $95 per seat, with shared credit pools and a 2-seat minimum.",
+     "pattern": "New tier",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added pika-2026w47-2",
+   "decided_run": "2026-11-15T07"
+  },
+  {
+   "report_id": "heygen:2026-W47#2",
+   "ps_slug": "heygen",
+   "week": "2026-W47",
+   "change_date": "2026-11-15",
+   "urls": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D319"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/heygen__2026D319.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator.txt"
+   ],
+   "title": "HeyGen replaces Avatar IV/V with Avatar 6 lineup, adds Pro tier — Nov 15, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-15T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "heygen",
+   "decision": {
+    "kind": "new_feature",
+    "why": "HeyGen refreshed its avatar engine lineup and added a Pro-only Avatar 6 Pro feature; no price or allowance changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-15T07"
   }
  ]
 }

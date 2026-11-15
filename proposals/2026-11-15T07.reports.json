@@ -1,0 +1,35 @@
+{
+ "type": "reports",
+ "run": "2026-11-15T07",
+ "items": [
+  {
+   "report_id": "pika:2026-W47#2",
+   "company": "pika",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "Pika added seat-priced Creator Team ($35/seat) and Pro Team ($95/seat) plans with shared credits and a 2-seat minimum; separate from the earlier GPT Image credit-cost record.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "New Team plans",
+    "short": "Pika added Creator Team at $35 per seat and Pro Team at $95 per seat, with shared credit pools and a 2-seat minimum.",
+    "pattern": "New tier",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "heygen:2026-W47#2",
+   "company": "heygen",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "HeyGen refreshed its avatar engine lineup and added a Pro-only Avatar 6 Pro feature; no price or allowance changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

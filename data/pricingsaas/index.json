@@ -28601,7 +28601,8 @@
     "https://pricingsaas.com/news/article/pika-added-a-new-image-model-to-its-credit-table",
     "https://pricingsaas.com/news/article/mindsdb-added-a-new-claude-haiku-model-to-its-rate-card",
     "https://pricingsaas.com/news/article/pika-cut-nano-banana-2-image-cost-from-8-to-7-credits",
-    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model"
+    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model",
+    "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans"
    ],
    "fetched_at": "2026-11-06T07:33:45-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D310.txt",
@@ -32283,7 +32284,8 @@
    "articles": [
     "https://pricingsaas.com/news/article/captions-listed-seat-counts-on-its-max-and-frontier-plans",
     "https://pricingsaas.com/news/article/langchain-renamed-langsmith-deployment-to-agent-server",
-    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model"
+    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model",
+    "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans"
    ],
    "fetched_at": "2026-11-10T07:30:11-05:00",
    "file": "data/pricingsaas/pages/diffs/captions__2026D314.txt",
@@ -32746,7 +32748,8 @@
    "first_seen": "2026-11-13T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model"
+    "https://pricingsaas.com/news/article/pika-raised-credit-costs-for-its-newest-image-model",
+    "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans"
    ],
    "fetched_at": "2026-11-13T07:35:03-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D317.txt",
@@ -32798,7 +32801,8 @@
    "first_seen": "2026-11-13T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/together-raised-its-hgx-b200-gpu-price-and-revealed-more-rates"
+    "https://pricingsaas.com/news/article/together-raised-its-hgx-b200-gpu-price-and-revealed-more-rates",
+    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator"
    ],
    "fetched_at": "2026-11-13T07:35:03-05:00",
    "file": "data/pricingsaas/pages/diffs/together__2026D317.txt",
@@ -32912,7 +32916,8 @@
    "first_seen": "2026-11-14T19",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table"
+    "https://pricingsaas.com/news/article/fireworks-added-kimi-k3-1-pro-to-its-serverless-rate-table",
+    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator"
    ],
    "fetched_at": "2026-11-14T19:37:00-05:00",
    "file": "data/pricingsaas/pages/diffs/fireworks__2026D318.txt",
@@ -32951,7 +32956,8 @@
    "first_seen": "2026-11-14T19",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/heygen-added-professional-voice-clone-to-pro-at-no-charge"
+    "https://pricingsaas.com/news/article/heygen-added-professional-voice-clone-to-pro-at-no-charge",
+    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator"
    ],
    "fetched_at": "2026-11-14T19:37:00-05:00",
    "file": "data/pricingsaas/pages/diffs/heygen__2026D318.txt",
@@ -32970,6 +32976,68 @@
    "file": "data/pricingsaas/pages/diffs/retool__2026D318.txt",
    "title": "Retool lets paid plans buy extra AI credit packs, lifting the old hard cap — Nov 14, 2026 · PricingSaaS Pulse",
    "report_id": "retool:2026-W47"
+  },
+  "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-15T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-15T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-launched-creator-team-and-pro-team-plans.txt",
+   "title": "Pika launched Creator Team and Pro Team plans",
+   "published": "2026-11-15T07:06:16.864108+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D319",
+    "https://pricingsaas.com/companies/pika/diffs/2026D317",
+    "https://pricingsaas.com/companies/pika/diffs/2026D310",
+    "https://pricingsaas.com/companies/captions/diffs/2026D314"
+   ]
+  },
+  "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-15T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-15T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/articles/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator.txt",
+   "title": "Heygen refreshed its Avatar engine lineup on Pro and Creator",
+   "published": "2026-11-15T06:57:48.93083+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/heygen/diffs/2026D319",
+    "https://pricingsaas.com/companies/heygen/diffs/2026D318",
+    "https://pricingsaas.com/companies/fireworks/diffs/2026D318",
+    "https://pricingsaas.com/companies/together/diffs/2026D317"
+   ]
+  },
+  "https://pricingsaas.com/companies/pika/diffs/2026D319": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-15T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans"
+   ],
+   "fetched_at": "2026-11-15T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/diffs/pika__2026D319.txt",
+   "title": "Pika launches Team plans: Creator $35/seat, Pro $95/seat with shared credits — Nov 15, 2026 · PricingSaaS Pulse",
+   "report_id": "pika:2026-W47#2"
+  },
+  "https://pricingsaas.com/companies/heygen/diffs/2026D319": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-15T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator"
+   ],
+   "fetched_at": "2026-11-15T07:35:09-05:00",
+   "file": "data/pricingsaas/pages/diffs/heygen__2026D319.txt",
+   "title": "HeyGen replaces Avatar IV/V with Avatar 6 lineup, adds Pro tier — Nov 15, 2026 · PricingSaaS Pulse",
+   "report_id": "heygen:2026-W47#2"
   }
  }
 }

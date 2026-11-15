@@ -1,0 +1,389 @@
+=== https://www.svix.com/pricing/ ===
+Pricing that grows with you
+Save 12+ months of development costs and headaches. Get started for free.
+Free
+For developers testing Svix or setting up their first webhooks.
+from
+$0
+per month
+Try for free
+No credit card required
+Embeddable webhooks UI
+50 messages / second
+7-day payload retention
+Up to 50k messages per month
+Dispatch, Stream and Ingest
+Basic
+For teams ready to start scaling their webhooks in production.
+from
+$20
+per month
+Get started
+Everything from Free
+Uptime SLA of 99.9%
+200 messages / second
+30-day payload retention
+50k free messages a month
+White label headers
+Professional
+For companies needing white-labeling, raised limits, and more functionality.
+from
+$490
+per month
+Try free for 30 days
+Everything from Basic
+Uptime SLA of 99.99%
+800 messages / second
+90-day payload retention
+50k free messages a month
+Unbranded application portal
+Static source IPs
+Object storage endpoints (AWS S3, Azure ABS, Google GCS, etc.)
+Advanced RBAC
+Enterprise
+For companies with advanced security, compliance, scale, SLA, or reliability needs.
+from
+Custom pricing
+based on your needs
+Contact sales
+Everything from Professional
+Uptime SLA of 99.999%
+24/7/365 on-call engineer
+OIDC & SAML Single-Sign-On
+Advanced Auth (mTLS, OAuth)
+Snowflake, Azure, S3 endpoints
+OpenTelemetry log streaming
+HIPAA compliance & BAA
+On-prem options
+High volume discounts
+Explore Enterprise
+See how Svix can help in the build vs buy matrix
+Only pay for what is actually sent
+Only attempted messages are counted towards usage. Messages filtered by Svix (e.g. when there are no endpoints) and retries are both free.
+Early stage startup?
+We have special startup plans to help you grow.
+To learn more check out the Svix for startups page.
+I did the classic "build vs. buy" research and "buy" really was best for Lob. We are incredibly happy we chose Svix, and it even got me promoted. The best benefit: we can basically forget webhooks exist!
+Read the full story
+Krys FloresStaff Engineer
+Frankly to be at feature parity with what we can do using Svix today, would take us at least a year. The support is 100th percentile and we are confident that no webhook will be dropped.
+Read the full story
+Kamil SindiHead of Engineering
+Managing our own webhook system was a nightmare... Ever since we added Svix we are all at ease. No more retries, no more endpoint failures, no random webhook errors. We had our best engineers working on it, and they are now free to focus on innovating on our product.
+Read the full story
+Aram Ben Shushan EhrlichEngineering Group Manager
+Svix had a level of product maturity and a brand that we were very comfortable with putting in front of our customers. Brex customers have a certain expectation of us, and we need partners that can deliver at that level.
+Read the full story
+Milo SpirigAPI Product Manager
+Svix's platform is reliable, fast, and makes our lives easier by handling the complexities of webhooks, allowing us to deliver a better experience for our users.
+Read the full story
+Morgan FainbergInfrastructure Engineer
+Svix combines deep webhook expertise with a mature, performant, feature-rich product. Capabilities such as the self-service portal, mTLS and OpenTelemetry support help us meet enterprise customer requirements while keeping our engineering team focused. We've been very happy with the product and the team behind it.
+James FosterPrincipal Software Engineer
+Integration gaps had cost us deals. Svix is how we get ahead of that – instead of chasing every integration request, we give developers the foundation to build what they need.
+Read the full story
+Arnaud FrammerySoftware Engineer, API Connect Squad
+At my previous company (WorkOS) we had to build a lot of infrastructure internally to support webhooks. It was very complex, hard to maintain, so when I started Resend I already knew we didn't want to build webhooks ourselves.
+Read the full story
+Zeno RochaCo-founder & CEO
+We are extremely happy with Svix! It has helped us launch webhooks for our customers extremely quickly, the infrastructure is reliable, and it has saved us countless engineering hours.
+Adar ArnonCo-founder & CTO
+I very much appreciate how much time Svix saved us. We were able to get a webhooks MVP out in less than a day.
+Read the full story
+Braden SidotiCo-founder & CTO
+Compare features
+Free
+$0/ month
+Try for free
+Basic
+from$20/ month
+Get started
+Professional
+from$490/ month
+Try free for 30 days
+Enterprise
+Price based on your needs
+Contact sales
+Free
+Basic
+Professional
+Enterprise
+Free
+$0/ month
+Try for free
+Basic
+from$20/ month
+Get started
+Professional
+from$490/ month
+Try free for 30 days
+Enterprise
+Price based on your needs
+Contact sales
+State of the art webhooks service
+Feature
+Free
+Basic
+Professional
+Enterprise
+Customizable webhook consumer portal
+Embed the portal in your dashboard to enable your webhook consumers to fully self-manage subscriptions and monitor webhook delivery.
+Included
+Reliable delivery
+Included
+Multi-tenancy
+Included
+Security built-in
+Included
+Built for scale
+Included
+SDKs for your favorite language
+Included
+Terraform Provider
+Included
+Signature verification libraries
+Included
+Advanced functionality
+Feature
+Free
+Basic
+Professional
+Enterprise
+Transformations
+Enable your customers to transform the stream before delivery.Learn more
+Included
+Connectors
+Connectors let you create pre-built integrations and transformations for your webhook consumers.Learn more
+Included
+Static Source IPs
+Always send webhooks from a static set of source IPs.Learn more
+—
+Included
+Unbranded Headers
+Change the webhook headers prefix to `webhook-` instead of `svix-`.
+—
+Included
+Unbranded Application Portal
+Remove all Svix branding from the Application Portal.
+—
+Included
+Gating and Monetization
+Turn advanced Svix capabilities (mTLS, OAuth, advanced destinations, transformations, and more) into paid add-ons for your customers to unlock net new revenue.
+—
+Included
+Polling Endpoints
+Give your customers a stream of events via polling.Learn more
+Included
+FIFO Endpoints
+Strict FIFO ordered webhook delivery.Learn more
+—
+Included
+Object storage endpoints (AWS S3, Azure ABS, Google GCS, etc.)
+Send webhooks directly to your customers' object storage buckets.Learn more
+—
+Included
+Message broker endpoints (AWS SQS, GCP Pub/Sub, RabbitMQ, etc.)
+Send webhooks directly to your customers' message brokers.
+—
+Included
+Database endpoints (Postgres, Redshift, BigQuery, ClickHouse, etc.)
+Send webhooks directly to your customers' databases.
+—
+Included
+Bring your own IP
+Send webhooks through your own network and IP addresses.
+—
+Included
+Retry schedule
+Webhooks are retried following an optimized retry scheduled with exponential backoff.Learn more
+Standard
+Custom
+Custom signature scheme
+Match the existing signature scheme you already have for full backwards compatibility.
+—
+Included
+OpenTelemetry observability data streaming
+Stream OpenTelemetry traces of webhook delivery directly to your observability platform of choice.
+—
+Included
+Additional webhook authentication methods (OAuth 2.0, mTLS, etc.)
+Webhook signatures are best practice; While not recommended, Svix also supports OAuth 2.0, mTLS, and others as those may be required by your customers for compliance reasons.
+—
+Included
+Automatically delete webhook payloads upon successful delivery
+—
+Included
+Preview access to beta functionality
+—
+Included
+Limits
+Feature
+Free
+Basic
+Professional
+Enterprise
+Payload retention
+Up to 7 days
+Up to 30 days
+Up to 90 days
+Custom
+Environments
+Create environments in specific geographies (e.g. US/EU), or for a specific purpose (e.g. prod/staging/dev).
+Unlimited
+Consumer applications
+These are where messages are sent to. Most people have one application for each of their customers.Learn more
+Unlimited
+Transformations
+Enable your customers to transform the stream before delivery.
+Unlimited
+Connectors
+Connectors let you create pre-built integrations and transformations for your webhook consumers.
+1
+3
+Unlimited
+Team members
+Number of team members that can access the Svix management dashboard.
+Unlimited
+API Rate Limit
+The number of API calls are allowed per second.
+50 msgs / second
+200 msgs / second
+800 msgs / second
+Custom
+Support & SLAs
+Feature
+Free
+Basic
+Professional
+Enterprise
+Uptime SLAs
+—
+99.9%
+99.99%
+99.999%
+Support SLAs
+—
+Basic
+Custom
+Support Method
+Slack Community
+Email
+Slack + Email + Phone
+Dedicated Shared Slack
+—
+Included
+Account Manager
+—
+Included
+White-Glove Onboarding
+—
+Included
+Page On-Call Engineers
+—
+Included
+Security and compliance
+Feature
+Free
+Basic
+Professional
+Enterprise
+Compliant with: HIPAA, PIPEDA, PCI-DSS, GDPR, CCPA and more
+Included
+Isolated regions for data residency requirements
+Included
+Google Workspace SSO
+Included
+SOC 2 Type II report
+—
+Included
+EEA Data Processing Agreement (DPA)
+—
+Included
+Business Associate Agreement (BAA)
+—
+Included
+Role-based access control
+Basic
+Advanced
+OIDC & SAML SSO
+—
+Included
+Private networking (VPC peering)
+Connect to Svix through a virtual private network connection.
+—
+Included
+Audit logs
+An audit log of activities on the account for security purposes.
+—
+Included
+On-Prem Deployment (incl. FIPS 140-3)
+—
+Included
+Custom regions (in addition to EU and US)
+—
+Included
+Billing
+Feature
+Free
+Basic
+Professional
+Enterprise
+Price
+$0 / month
+Starting from
+$20 / month
+Starting from
+$490 / month
+Custom
+Included messages / month
+Message above this number are billed on a per-message basis. Only attempted messages are counted towards usage. Messages filtered by Svix (e.g. when there are no sinks) and retries are both free.
+Each 64 KiB chunk of payload is billed as one message.
+50,000
+Custom
+Additional messages (on-demand)
+Only attempted messages are counted towards usage. Messages filtered by Svix (e.g. when there are no sinks) and retries are both free.
+Each 64 KiB chunk of payload is billed as one message.
+—
+$0.0001 per msg
+Custom
+Volume Discounts
+Chat with us to unlock volume discounts.
+—
+Included
+Contract Length
+Monthly
+Monthly or Annual
+Annual
+Included products
+Feature
+Free
+Basic
+Professional
+Enterprise
+Svix Dispatch for sending webhooks
+The Svix Dispatch webhook infrastructure for sending webhooks to your customers.Learn more
+Included
+Svix Stream for data streaming
+The Svix Stream data sharing platform. Directly share data with your customers, and let them send it to their systems of choice.Learn more
+Included
+Svix Ingest for receiving webhooks
+The Svix Ingest tool for receiving webhooks at scale.Learn more
+Included
+Svix Play: the webhook debugger
+The Svix Play tool for testing, debugging and inspecting webhooks.Learn more
+Included
+FAQ
+Build vs. buy a webhooks service?
+We created Svix because we believe that when it comes to webhooks, buying is much preferable to building. Buying means that you don't have to spend your precious engineering time and effort onto maintaining the webhooks system. For a thorough comparison, please refer to the build vs. buy matrix.
+How do I receive webhooks?
+Svix supports sending, receiving, and testing webhooks. The best way to receive webhooks from external services is to use Svix Ingest. Svix Ingest lets you receive webhooks with confidence thanks to highly reliable and low latency system that can handle high throughput and traffic spikes.
+Can I send, receive, and test webhooks for free?
+Yes! Svix offers a generous free tier for sending, receiving and testing webhooks. No credit card required! If you're only looking to test your webhooks, you can use the Svix Play webhooks tester without even signing up!
+How does Svix count webhook usage?
+Svix pricing consists of a base price and usage based price depending on the amount of webhooks you send. With Svix, you only pay for what is actually sent on your behalf, meaning that only attempted messages are counted towards usage. Messages filtered by Svix (e.g. when there are no endpoints) and retries are both free.
+How does the Professional free trial work?
+Professional plans start with a 30-day free trial that includes every Professional feature. When the trial ends, billing starts at $490 per month plus any usage beyond the 50,000 included messages.
+Can Svix handle our scale?
+We process billions of messages for our customers, and we power top companies like Brex, Benchling, and Drata. We can most likely handle your scale, but please reach out if you have any specific questions or requirements.
+Does Svix offer SLAs?
+We offer uptime SLAs of 99.999% on Enterprise, 99.99% on Professional, and 99.9% on Basic. The Free plan does not include an SLA.
