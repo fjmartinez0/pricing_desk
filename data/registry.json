@@ -20515,12 +20515,14 @@
    "category": "Collaboration & Productivity",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://accentvoice.com/plans-pricing"
+   ],
    "domains": [
     "accentvoice.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36108,7 +36110,7 @@
     "qonversion.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36168,6 +36170,136 @@
    "source_url": "https://agentdeals.dev/digest/2026-w38",
    "url_attempts": 0,
    "notes": "Free tier restated as 6 pages with up to 220 checks, run as often as every 60 minutes, where it previously allowed 6 monitors; AgentDeals logged it as a reduction."
+  },
+  "amplitude": {
+   "name": "Amplitude",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://amplitude.com/pricing"
+   ],
+   "domains": [
+    "amplitude.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T19",
+   "source_url": "https://newsletter.pricingsaas.com/p/the-ai-pricing-spectrum",
+   "url_attempts": 0,
+   "notes": "Removed per-plan AI Visibility prompt quotas from its pricing cards; AgentDeals also logged a renamed startup pricing program."
+  },
+  "twingate": {
+   "name": "Twingate",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.twingate.com/pricing"
+   ],
+   "domains": [
+    "twingate.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "url_attempts": 0,
+   "notes": "Free tier raised from 10 to up to 50 resources (AgentDeals, unconfirmed date)."
+  },
+  "simplelocalize": {
+   "name": "SimpleLocalize",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://simplelocalize.io/pricing/"
+   ],
+   "domains": [
+    "simplelocalize.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "url_attempts": 0,
+   "notes": "Free Community plan raised from 250 to 500 translation keys (AgentDeals, unconfirmed date)."
+  },
+  "ploi": {
+   "name": "Ploi",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://ploi.io/pricing"
+   ],
+   "domains": [
+    "ploi.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "url_attempts": 0,
+   "notes": "Free tier gained limits on sites and deployments, and a 5-day Pro trial appeared (AgentDeals, unconfirmed date)."
+  },
+  "lovable": {
+   "name": "Lovable",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://lovable.dev/pricing"
+   ],
+   "domains": [
+    "lovable.dev"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-15",
+   "source": "agent 2026-11-15T19",
+   "source_url": "https://newsletter.pricingsaas.com/p/free-mode-and-the-future-of-freemium",
+   "url_attempts": 0,
+   "notes": "No longer lists its free plan on the pricing page and gives Pro and Business users 5 free credits a day; exact change date not stated."
   }
  }
 }

@@ -1,0 +1,255 @@
+{"type": "edition", "run": "2026-11-15T19", "week": "2026-W38",
+ "news": [
+  {
+   "id": "ai-pricing-spectrum",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "11 Sep",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "The AI Pricing Spectrum",
+   "url": "https://newsletter.pricingsaas.com/p/the-ai-pricing-spectrum",
+   "gist": "Agent work now ranges from near-free routine tasks on cheap models to computer use that rivals human labor, so one credit meter can’t price it all; Litterst proposes bundled automation at the bottom, metered intelligence in the middle and fixed-price digital workers on top.",
+   "points": [
+    "Cheap, near-zero-cost work such as enriching accounts or tagging tickets should simply be included in the plan",
+    "Vendors should route each task to the cheapest capable model and meter it, keeping the routing margin",
+    "Expensive work needs governance: Notion switched its premium models off by default and lets admins set per-person spend",
+    "Argues against big generic credit balances, which feel unfair when a few advanced tasks drain what many simple ones would"
+   ],
+   "nums": [
+    ["100x", "rough cost gap between a frontier and a cheap model on a complex task"],
+    ["$600", "median OpenAI researcher’s daily token spend at API prices by mid-August"],
+    ["$2,000", "monthly price of the author’s mock-up Clay digital worker"],
+    ["200+", "pricing, packaging and product changes observed that week"]
+   ],
+   "why": "Buyers of agent products should expect bills split into included, metered and fixed-price layers, and should ask which layer each of their tasks lands in."
+  },
+  {
+   "id": "pricingsaas-w38",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Week 38, 7–13 Sep",
+   "date": "Week 38",
+   "topic": "Market data",
+   "rel": true,
+   "title": "Credits replace rate limits, flat rates replace meters: a normal week with structural moves",
+   "url": "https://pricingsaas.com/news/week/2026W38",
+   "gist": "An average-volume week in which packaging, not list prices, carried most of the change: Raycast traded rate limits for credits, Vercel traded CDN overages for a flat plan, and DeepSeek folded two models into one cheaper one.",
+   "points": [
+    "Canva cut its Pro individual plan from US$180 to US$144 a year while shrinking Free AI uses to 20",
+    "Together AI raised Qwen3.7-Max token prices and, per the review, raised them again the following week",
+    "Promotions ran below normal while price increases matched their eight-week average",
+    "Written with 82% of the week’s diffs published, so late changes show up only in the feed"
+   ],
+   "nums": [
+    ["196", "changes logged across 193 companies"],
+    ["86", "of them packaging changes, the largest group"],
+    ["15 / 8", "price increases vs price cuts"],
+    ["4,388", "pricing pages tracked"]
+   ],
+   "why": "Most of the week’s monetization moves changed units and packaging rather than list prices, so comparing headline prices alone misses them."
+  },
+  {
+   "id": "free-mode-freemium",
+   "lead": false,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "18 Sep",
+   "topic": "Freemium",
+   "rel": true,
+   "title": "Free Mode and the Future of Freemium",
+   "url": "https://newsletter.pricingsaas.com/p/free-mode-and-the-future-of-freemium",
+   "gist": "Because AI gives free tiers a real per-unit cost and does much of the work that used to lure free users in, freemium is shifting from an acquisition tactic to an expansion one, with free value moving inside paid plans through credit wallets.",
+   "points": [
+    "Four ways to give free value inside paid plans: by model, by speed, by action type and by recurring refill",
+    "Replit made Core its entry tier and gave paying users Free Mode chat and projects on top of their credits",
+    "Replit and Lovable still offer free plans but no longer show them on their pricing pages",
+    "Canva is cited as a legacy SaaS company cutting free AI allowances"
+   ],
+   "nums": [
+    ["36%", "of 4,381 tracked companies still have a free tier"],
+    ["65%", "of companies with credit pricing also offer a free plan"],
+    ["30 hours", "of Free Mode chat a month for paying Replit users"]
+   ],
+   "why": "The free tier on a pricing page is no longer the whole story: buyers should check what paid plans include at no extra charge, because that is where vendors now compete."
+  },
+  {
+   "id": "agentdeals-w37",
+   "lead": false,
+   "src": "AgentDeals digest",
+   "by": null,
+   "date": "7–13 Sep",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Pricing Changes: September 7–13, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w37",
+   "gist": "The week’s developer-tool digest confirmed only a few changes taking effect, led by CodeSandbox ending free VM credits and DeepSeek’s cheaper merged Flash model, and logged a longer list of unconfirmed free-tier edits.",
+   "points": [
+    "New CodeSandbox free accounts get no VM credits, so VM Sandboxes need a paid plan; existing balances were kept",
+    "DeepSeek’s retired Flash model names still route to V4.1-Flash, billed at the new lower Flash prices",
+    "Unconfirmed edits leaned generous: Twingate, SimpleLocalize and Infisical loosened free limits, while ploi.io added limits",
+    "Amplitude renamed its startup scholarship and kept the first year free for small startups"
+   ],
+   "nums": [
+    ["3", "changes confirmed as taking effect within the week"],
+    ["14", "changes logged without a confirmed effective date"],
+    ["250 → 500", "SimpleLocalize free-plan translation keys (unconfirmed)"]
+   ],
+   "why": "Free-tier terms for developer tools change quietly; checking whether credits and limits still apply to new accounts avoids surprise bills."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Free plans shrink or turn into trials",
+   "p": "Several companies removed free plans or cut what they include, often where each free user burns compute; only a couple added free tiers. This leans mostly on PricingSaaS-reported records, and it means free starts are giving way to paid entry plans and trials.",
+   "points": [
+    {"id": "replit-2026w38", "text": "removed its free Starter plan from the pricing page, making paid Core the entry tier"},
+    {"id": "contentdrips-2026w38", "text": "replaced its free plan with a 7-day, 50-credit trial"},
+    {"id": "boompop-2026w38", "text": "removed its free Starter plan, leaving Pro and Full Service"},
+    {"id": "kapwing-2026w38", "text": "cut free-plan AI credit minutes, auto-subtitling from 50 to 10"},
+    {"id": "codesandbox-2026w38", "text": "stopped including 40 hours of monthly VM credits on its free plan"},
+    {"id": "tembo-2026w38", "text": "cut free workspace seats from 3 users to 1"},
+    {"id": "enpass-2026w38", "text": "went the other way, adding a free plan capped at 25 items while dropping its lifetime licence"}
+   ]
+  },
+  {
+   "t": "AI allowances get spelled out",
+   "p": "Vendors stated how much AI each plan includes, through credits, fair-use terms or caps, where usage had been open-ended. Partly from PricingSaaS reports; together these turn AI from a feature into an allowance buyers have to size.",
+   "points": [
+    {"id": "canva-2026w38", "text": "relabelled Pro’s premium tools as AI tools and added a fair-use footnote"},
+    {"id": "raycast-2026w38", "text": "split Pro into Pro, Plus and Max with 500, 3,000 and 7,500 AI credits and dropped the flat $8 AI add-on"},
+    {"id": "mintlify-2026w38", "text": "disclosed agent credit costs: 25 credits per Assistant answer, 250 per automation update"},
+    {"id": "langfuse-2026w38", "text": "tiered Assistant usage by plan where no cap was stated before"},
+    {"id": "moxo-2026w38", "text": "switched its AI allowance from credits to a dollar amount of AI a year"},
+    {"id": "voc-ai-2026w38", "text": "stated exact monthly credit quotas on Basic and Pro"},
+    {"id": "tooljet-2026w38", "text": "added a $23 Basic plan built around AI credits"}
+   ]
+  },
+  {
+   "t": "Model access reprices in both directions",
+   "p": "A host raised a popular open model while DeepSeek cut its own, and routers and GPU clouds repackaged for heavier users. Mostly from PricingSaaS reports; it matches the week’s argument that AI costs now span a very wide range.",
+   "points": [
+    {"id": "together-ai-2026w38", "text": "raised Qwen3.7-Max serverless token prices by 60%"},
+    {"id": "deepseek-2026w38", "text": "merged two Flash models into one deepseek-flash model at lower prices"},
+    {"id": "not-diamond-2026w38", "text": "moved pay-as-you-go to a flat $0.05 per million tokens routed"},
+    {"id": "openrouter-2026w38", "text": "added a Business tier with an 8% platform fee and 1,000 workspaces"},
+    {"id": "ovhcloud-2026w38", "text": "doubled the GPU quota per notebook, training task or node from 4 to 8"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "Changes that cost buyers more outnumbered those that cost less",
+   "fig": "36 vs 15",
+   "figNote": "changes that made buying dearer vs cheaper; 37 more were repackaging",
+   "p": "Increases came through list prices, tighter limits and features moved out of plans; cuts were mostly list-price reductions. This week’s capture was partial and most records come from PricingSaaS reports, so treat the balance as indicative.",
+   "ids": ["legalzoom-2026w38", "together-ai-2026w38", "lorikeet-2026w38", "pleo-2026w38", "surferseo-2026w38", "expressvpn-2026w38"]
+  },
+  {
+   "t": "Limits tightened more often than they loosened",
+   "fig": "18 vs 12",
+   "figNote": "changes that tightened vs loosened usage, seat or feature limits",
+   "p": "Tightening was the single most common change type this week. Caps on previously unlimited seats or plans recurred, while loosening clustered in entry plans and allowances.",
+   "ids": ["schematic-2026w38", "ignition-2026w38", "betatesting-2026w38", "jelou-2026w38", "boulevard-2026w38", "ovhcloud-2026w38", "lytho-2026w38"]
+  },
+  {
+   "t": "List-price moves were nearly balanced",
+   "fig": "12 vs 10",
+   "figNote": "price increases vs price cuts",
+   "p": "Straight price changes split almost evenly. Increases hit add-ons and side products as well as core plans, while cuts leaned on intro terms and hosting.",
+   "ids": ["legalzoom-2026w38", "looka-2026w38", "mux-2026w38", "expressvpn-2026w38", "contabo-2026w38", "cyberghost-vpn-2026w38"]
+  },
+  {
+   "t": "A third of the week’s changes involved AI",
+   "fig": "29 of 88",
+   "figNote": "changes involving AI features, credits or model pricing",
+   "p": "AI showed up across credits, caps, tier moves and token prices rather than in one change type. Much of it was about making AI usage countable.",
+   "ids": ["raycast-2026w38", "mintlify-2026w38", "langfuse-2026w38", "together-ai-2026w38", "deepseek-2026w38", "vyond-2026w38"]
+  },
+  {
+   "t": "Free plans were a frequent target",
+   "fig": "7 of 88",
+   "figNote": "changes aimed at free plans",
+   "p": "Most of these removed or shrank free plans; mailfloss’s new free tier was the exception. Free-plan changes also appear inside wider restructures counted elsewhere, such as ContentDrips and Enpass.",
+   "ids": ["replit-2026w38", "boompop-2026w38", "kapwing-2026w38", "codesandbox-2026w38", "tembo-2026w38", "daloopa-2026w38", "mailfloss-2026w38"]
+  },
+  {
+   "t": "Smaller companies supplied almost all the changes",
+   "fig": "80 of 88",
+   "figNote": "changes at smaller (tier 3) companies",
+   "p": "Only Canva represented the market leaders, and seven changes came from notable companies. Smaller vendors often signal trends early, but this week’s mix also reflects a partial capture.",
+   "ids": ["canva-2026w38", "replit-2026w38", "together-ai-2026w38", "zoho-2026w38"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Free value moves inside paid plans",
+   "p": "Commentary and the week’s changes point the same way: free tiers are being cut or hidden while paying users get free usage through credit wallets. The news window holds no earlier stories, so this rests on this edition’s pieces and change records.",
+   "nums": [["36%", "of tracked companies still have a free tier, per PricingSaaS"]],
+   "news": ["free-mode-freemium", "agentdeals-w37", "ai-pricing-spectrum"],
+   "changes": ["replit-2026w38", "codesandbox-2026w38", "kapwing-2026w38", "contentdrips-2026w38", "boompop-2026w38"]
+  },
+  {
+   "t": "Agent pricing splits into layers",
+   "p": "Writers argue that one credit meter can’t cover AI work whose cost varies enormously, and vendors are responding with included usage, per-task credits and higher tiers. Expect more plans that separate cheap bundled AI from metered or premium work.",
+   "nums": [["100x", "cost gap between a frontier and a cheap model on a complex task"]],
+   "news": ["ai-pricing-spectrum", "pricingsaas-w38", "free-mode-freemium"],
+   "changes": ["raycast-2026w38", "mintlify-2026w38", "together-ai-2026w38", "deepseek-2026w38", "openrouter-2026w38"]
+  },
+  {
+   "t": "Packaging, not price, carries the change",
+   "p": "PricingSaaS counted packaging as the largest group of the week’s changes, and many records show features swapped, bundled or capped at an unchanged price. Tracking list prices alone would miss most of it.",
+   "nums": [["86", "of the week’s 196 logged changes were packaging"]],
+   "news": ["pricingsaas-w38", "ai-pricing-spectrum"],
+   "changes": ["heymarket-2026w38", "syncfusion-2026w38", "zoho-2026w38", "regpack-2026w38", "maropost-2026w38"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Amplitude",
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "pricing_urls": ["https://amplitude.com/pricing"],
+   "domains": ["amplitude.com"],
+   "source_url": "https://newsletter.pricingsaas.com/p/the-ai-pricing-spectrum",
+   "why": "Removed per-plan AI Visibility prompt quotas from its pricing cards; AgentDeals also logged a renamed startup pricing program."
+  },
+  {
+   "name": "Twingate",
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.twingate.com/pricing"],
+   "domains": ["twingate.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "why": "Free tier raised from 10 to up to 50 resources (AgentDeals, unconfirmed date)."
+  },
+  {
+   "name": "SimpleLocalize",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": ["https://simplelocalize.io/pricing/"],
+   "domains": ["simplelocalize.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "why": "Free Community plan raised from 250 to 500 translation keys (AgentDeals, unconfirmed date)."
+  },
+  {
+   "name": "Ploi",
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "pricing_urls": ["https://ploi.io/pricing"],
+   "domains": ["ploi.io"],
+   "source_url": "https://agentdeals.dev/digest/2026-w37",
+   "why": "Free tier gained limits on sites and deployments, and a 5-day Pro trial appeared (AgentDeals, unconfirmed date)."
+  },
+  {
+   "name": "Lovable",
+   "category": "Software Development & Testing",
+   "segment": "Both",
+   "pricing_urls": ["https://lovable.dev/pricing"],
+   "domains": ["lovable.dev"],
+   "source_url": "https://newsletter.pricingsaas.com/p/free-mode-and-the-future-of-freemium",
+   "why": "No longer lists its free plan on the pricing page and gives Pro and Business users 5 free credits a day; exact change date not stated."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "run": "2026-11-15T19",
+ "changes": [
+  {
+   "diff_id": "asana-2026-11-15T19",
+   "company": "asana",
+   "unstable": false,
+   "before_file": "data/snapshots/asana/2026-11-11T19.txt",
+   "after_file": "data/snapshots/asana/2026-11-15T19.txt",
+   "last_old_at": "2026-11-13T07:00:00-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/asana-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "bolster-2026-11-15T19",
+   "company": "bolster",
+   "unstable": false,
+   "before_file": "data/snapshots/bolster/2026-11-12T19.txt",
+   "after_file": "data/snapshots/bolster/2026-11-15T19.txt",
+   "last_old_at": "2026-11-14T19:00:05-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/bolster-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "google-workspace-2026-11-15T19",
+   "company": "google-workspace",
+   "unstable": true,
+   "before_file": "data/snapshots/google-workspace/2026-11-12T19.txt",
+   "after_file": "data/snapshots/google-workspace/2026-11-15T19_a.txt",
+   "alt_file": "data/snapshots/google-workspace/2026-11-15T19_b.txt",
+   "last_old_at": "2026-11-12T19:00:05-05:00",
+   "first_new_at": "2026-11-15T19:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/google-workspace-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "linear-2026-11-15T19",
+   "company": "linear",
+   "unstable": false,
+   "before_file": "data/snapshots/linear/2026-11-05T19.txt",
+   "after_file": "data/snapshots/linear/2026-11-15T19.txt",
+   "last_old_at": "2026-11-13T07:00:00-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/linear-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "shopify-2026-11-15T19",
+   "company": "shopify",
+   "unstable": false,
+   "before_file": "data/snapshots/shopify/2026-11-10T19.txt",
+   "after_file": "data/snapshots/shopify/2026-11-15T19.txt",
+   "last_old_at": "2026-11-12T07:00:06-05:00",
+   "first_new_at": "2026-11-14T19:00:05-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/shopify-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "brevo-2026-11-15T19",
+   "company": "brevo",
+   "unstable": false,
+   "before_file": "data/snapshots/brevo/2026-11-14T19.txt",
+   "after_file": "data/snapshots/brevo/2026-11-15T19.txt",
+   "last_old_at": "2026-11-14T19:00:05-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/brevo-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "ab-tasty-2026-11-15T19",
+   "company": "ab-tasty",
+   "unstable": false,
+   "before_file": "data/snapshots/ab-tasty/2026-11-08T19.txt",
+   "after_file": "data/snapshots/ab-tasty/2026-11-15T19.txt",
+   "last_old_at": "2026-11-10T07:00:05-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/ab-tasty-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "quintadb-2026-11-15T19",
+   "company": "quintadb",
+   "unstable": false,
+   "before_file": "data/snapshots/quintadb/2026-11-03T19.txt",
+   "after_file": "data/snapshots/quintadb/2026-11-15T19.txt",
+   "last_old_at": "2026-11-14T19:00:05-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/quintadb-2026-11-15T19.diff",
+   "attempts": 0
+  },
+  {
+   "diff_id": "jfrog-2026-11-15T19",
+   "company": "jfrog",
+   "unstable": false,
+   "before_file": "data/snapshots/jfrog/2026-11-11T19.txt",
+   "after_file": "data/snapshots/jfrog/2026-11-15T19.txt",
+   "last_old_at": "2026-11-14T19:00:05-05:00",
+   "first_new_at": "2026-11-15T07:00:00-05:00",
+   "week": "2026-W47",
+   "diff_file": ".run/diffs/jfrog-2026-11-15T19.diff",
+   "attempts": 0
+  }
+ ]
+}

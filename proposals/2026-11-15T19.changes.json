@@ -1,0 +1,90 @@
+{
+ "type": "changes",
+ "run": "2026-11-15T19",
+ "items": [
+  {
+   "diff_id": "asana-2026-11-15T19",
+   "kind": "noise",
+   "why": "An FAQ entry about sales tax was removed from the page; no price, plan or limit changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "bolster-2026-11-15T19",
+   "kind": "feature_move",
+   "why": "Premium and Enterprise lists dropped the coaching sessions (3x team coaching, Unlimited coaching) and added RFQ management and PO management; account manager is now labelled Full.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Coaching swapped",
+    "short": "Premium and Enterprise no longer list coaching sessions (3x team / Unlimited) and now list RFQ management and PO management.",
+    "pattern": "Bundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "google-workspace-2026-11-15T19",
+   "kind": "promo",
+   "why": "The 50% off first 3 months intro offer is gone from one version of the page (list prices unchanged) while the other version still shows it, so this may be a test.",
+   "detail": "card",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "50% off the first 3 months on Starter, Standard and Plus is missing from one version of the page and still shown on the other (page showed two versions, possible test); list prices unchanged"
+   }
+  },
+  {
+   "diff_id": "linear-2026-11-15T19",
+   "kind": "wording",
+   "why": "A new API rate limits row (Standard, 2x, 5x standard limits) was added to the comparison table; it is a new disclosure with no evidence that an existing limit changed, and no price changed.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "shopify-2026-11-15T19",
+   "kind": "non_software",
+   "why": "Only the as-of date on the Balance earnings-rate footnote changed (November 9 → November 12); rates are the same.",
+   "detail": "card",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "brevo-2026-11-15T19",
+   "kind": "noise",
+   "why": "Page sections were reordered in the text capture; plan prices and features are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "ab-tasty-2026-11-15T19",
+   "kind": "noise",
+   "why": "A demo-booking popup and a customer-count line were removed; no pricing content changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "quintadb-2026-11-15T19",
+   "kind": "wording",
+   "why": "Call-to-action copy for the build-help form was reworded; no pricing change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "diff_id": "jfrog-2026-11-15T19",
+   "kind": "wording",
+   "why": "A NIST label was added to the compliance coverage list; no pricing change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}
