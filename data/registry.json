@@ -36343,7 +36343,7 @@
     "printify.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36372,7 +36372,7 @@
     "premmerce.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36401,7 +36401,7 @@
     "lobbypms.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36430,7 +36430,7 @@
     "goodbarber.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36484,7 +36484,7 @@
     "courier.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36538,7 +36538,7 @@
     "cloudchipr.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36567,7 +36567,7 @@
     "close.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36621,7 +36621,7 @@
     "claila.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36650,7 +36650,7 @@
     "checklyhq.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36807,12 +36807,15 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://blues.com/pricing/"
+   ],
    "domains": [
-    "blues.com"
+    "blues.com",
+    "blues.io"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36834,12 +36837,14 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.bittitan.com/pricing-bittitan-migrationwiz/"
+   ],
    "domains": [
     "bittitan.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36861,12 +36866,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.bitdefender.com/en-us/consumer/total-security"
+   ],
    "domains": [
     "bitdefender.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36888,12 +36895,14 @@
    "category": "Marketing & Content",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.ayrshare.com/pricing"
+   ],
    "domains": [
     "ayrshare.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36942,12 +36951,14 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.apptoto.com/pricing"
+   ],
    "domains": [
     "apptoto.com"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37050,12 +37061,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
+   "pricing_urls": [
+    "https://www.11x.ai/products/alice/pricing"
+   ],
    "domains": [
     "11x.ai"
    ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37084,7 +37097,7 @@
     "staticforms.dev"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37096,6 +37109,332 @@
    "source_url": "https://agentdeals.dev/digest/2026-w44",
    "url_attempts": 0,
    "notes": "Cut its Free plan from 500 submissions a month to 250 every 30 days on 30 Oct; paid plans run from $6 to $19 a month."
+  },
+  "fieldwire": {
+   "name": "Fieldwire",
+   "tier": 3,
+   "category": "Project Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/fieldwire/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "fieldwire"
+   ]
+  },
+  "expend": {
+   "name": "Expend",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/expend/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "expend"
+   ]
+  },
+  "envato": {
+   "name": "Envato",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/envato/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "envato"
+   ]
+  },
+  "enso-connect": {
+   "name": "Enso Connect",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/ensoconnect/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "ensoconnect"
+   ]
+  },
+  "electroneek": {
+   "name": "ElectroNeek",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/electroneek/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "electroneek"
+   ]
+  },
+  "displayr": {
+   "name": "Displayr",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/displayr/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "displayr"
+   ]
+  },
+  "diffbot": {
+   "name": "Diffbot",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/diffbot/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "diffbot"
+   ]
+  },
+  "deepbrain": {
+   "name": "Deepbrain",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/deepbrain/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "deepbrain"
+   ]
+  },
+  "dataslayer": {
+   "name": "Dataslayer",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/dataslayer/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "dataslayer"
+   ]
+  },
+  "databox": {
+   "name": "Databox",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/databox/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "databox"
+   ]
+  },
+  "codecademy": {
+   "name": "Codecademy",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2C",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/codecademy/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "codecademy"
+   ]
+  },
+  "activtrak": {
+   "name": "Activtrak",
+   "tier": 3,
+   "category": "Workforce Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://pricingsaas.com/companies/activtrak/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "activtrak"
+   ]
+  },
+  "stability-ai": {
+   "name": "Stability AI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://docs.stability.ai/pricing"
+   ],
+   "domains": [
+    "stability.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-16",
+   "source": "agent 2026-11-16T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w43",
+   "url_attempts": 0,
+   "notes": "Cut Stable Audio 3.0 from 26 to 8 credits and Stable Audio 2.5 from 20 to 8 credits per generation on 19 Oct; its pricing page now shows 8 credits for both."
   }
  }
 }

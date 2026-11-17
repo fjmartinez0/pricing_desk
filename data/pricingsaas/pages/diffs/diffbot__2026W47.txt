@@ -1,0 +1,79 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Diffbot/All changes/Rate-limit metric changed
+D
+Diffbot
+Packaging changeMetric changeNov 9 → Nov 16, 2026 UTC
+Diffbot overhauls rate limits, switches from requests/sec to concurrent threads
+Detected Nov 15, 2026, 8:24 PM ETAI & Machine Learning
+The changeRate-limit metric changed
+Before · Nov 9 UTCrequests/min|sec
+After · Nov 16 UTCconcurrent threads
+changed
+1 change2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of Diffbot's pricing page, Pulse recorded one change: Rate-limit metric changed from requests/min|sec to concurrent threads across all plans: Free 5/min to 1 thread, Startup 5/sec to 25 threads, Plus 25/sec to 100 threads, Enterprise 25+/sec to 100+ threads. Pulse files it as a packaging change (metric change). The current page lists Startup at $299 and Plus at $899.
+This is the first pricing-page change Pulse has recorded for Diffbot. Diffbot has been tracked since 2026-07-05.
+In the same window UiPath, Zapier, Beautiful.ai, Apify and Workato also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Startup, Plus, EnterprisePricing model
+Changed
+requests/min|sec→concurrent threads
+Plan
+Field
+Before
+After
+Change
+Startup, Plus, Enterprise
+Pricing model
+requests/min|sec
+concurrent threads
+Changed
+Values as written on Diffbot's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Diffbot's pricing page (www.diffbot.com) from Nov 9, 2026 and Nov 16, 2026; the change is marked around the middle of the page, where "requests/min|sec" becomes "concurrent threads".
+Nov 9, 2026 UTCrequests/min|sec
+Nov 16, 2026 UTCconcurrent threads
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for Diffbot · Full history →
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+UiPathOct 5UiPath splits Maestro into Automate and Orchestrate offerings
+ZapierSep 28Zapier retires "Zap workflows" name, rebrands to "Zaps" in app
+Beautiful.aiSep 14Beautiful.ai swaps per-seat Teams pricing for a flat $40/mo covering 3 users
+ApifySep 7Apify slashes Starter plan price 34%, from $29 to $19/month
+WorkatoAug 31Workato: EDI (Orderful) and VPW add-ons discontinued
+Questions about this change
+Did Diffbot raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a packaging change: metric change.
+What changed on Diffbot's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Startup, Plus, Enterprise pricing model: requests/min|sec → concurrent threads, changed. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Diffbot change its pricing?
+Pulse recorded 0 other pricing-page changes for Diffbot in the 90 days before this one; Diffbot has been tracked since 2026-07-05.
+Diffbot plans today
+All plans
+Free
+Startup
+$299
+Plus
+$899
+Enterprise
+Contact
+Tracked alongside
+P
+ParseHub
+A
+Apify
+U
+UiPath
+W
+Workato
+Z
+Zapier
+B
+Beautiful.ai
