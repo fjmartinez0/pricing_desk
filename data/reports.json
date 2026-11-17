@@ -78642,7 +78642,7 @@
    "first_seen_run": "2026-11-16T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "microsoft-365",
    "decision": {
     "kind": "promo",
@@ -79571,7 +79571,7 @@
    "first_seen_run": "2026-11-16T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "artlist",
    "decision": {
     "kind": "price_increase",
@@ -81461,6 +81461,168 @@
    },
    "outcome": "promo codecademy-promo-2026w47",
    "decided_run": "2026-11-16T19"
+  },
+  {
+   "report_id": "mintlify:2026-W48",
+   "ps_slug": "mintlify",
+   "week": "2026-W48",
+   "change_date": "2026-11-17",
+   "urls": [
+    "https://pricingsaas.com/companies/mintlify/diffs/2026D321"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mintlify__2026D321.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mintlify-renamed-its-starter-plan-to-free.txt"
+   ],
+   "title": "Mintlify renames Starter plan to Free, keeps $0 price and 5 editors — Nov 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-17T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "mintlify",
+   "decision": {
+    "kind": "wording",
+    "why": "Mintlify renamed its entry plan from Starter to Free with price ($0) and limits unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-17T07"
+  },
+  {
+   "report_id": "huggingface:2026-W48",
+   "ps_slug": "huggingface",
+   "week": "2026-W48",
+   "change_date": "2026-11-17",
+   "urls": [
+    "https://pricingsaas.com/companies/huggingface/diffs/2026D321"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/huggingface__2026D321.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-dropped-nvidia-h100-endpoints-from-its-pricing-table.txt"
+   ],
+   "title": "Huggingface drops NVIDIA H100 inference endpoints from pricing table — Nov 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-17T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "hugging-face",
+   "decision": {
+    "kind": "price_hidden",
+    "why": "NVIDIA H100 (aws) inference endpoint rows ($4.50-$36.00/hr) disappeared from the hardware price table; no other prices changed and no retirement was stated.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_hidden)",
+   "decided_run": "2026-11-17T07"
+  },
+  {
+   "report_id": "bolt:2026-W48",
+   "ps_slug": "bolt",
+   "week": "2026-W48",
+   "change_date": "2026-11-17",
+   "urls": [
+    "https://pricingsaas.com/companies/bolt/diffs/2026D321"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/bolt__2026D321.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/bolt-added-collaborator-limits-to-its-free-pro-and-teams-plans.txt"
+   ],
+   "title": "Bolt caps Free at 3 collaborators, gives Pro and Teams unlimited seats — Nov 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-17T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "bolt",
+   "decision": {
+    "kind": "wording",
+    "why": "Bolt’s page now lists collaborator limits (Free 3, Pro and Teams unlimited); this is a first-time listing and the saved text does not show an actual limit changing.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-17T07"
+  },
+  {
+   "report_id": "openart:2026-W48",
+   "ps_slug": "openart",
+   "week": "2026-W48",
+   "change_date": "2026-11-17",
+   "urls": [
+    "https://pricingsaas.com/companies/openart/diffs/2026D321"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/openart__2026D321.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/openart-deepened-its-black-friday-discount-across-all-plans.txt"
+   ],
+   "title": "OpenArt: Black Friday sale raises annual discounts to 25-40% off — Nov 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-17T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "openart",
+   "decision": {
+    "kind": "promo",
+    "why": "OpenArt replaced its standing promo with a Black Friday sale, raising annual discounts from 10/20/22/27% to 25/30/35/40% with list prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "changed",
+     "text": "Black Friday sale: annual discount raised to 25% (Starter), 30% (Plus), 35% (Pro) and 40% (Wonder), from 10%, 20%, 22% and 27%; list prices unchanged"
+    }
+   },
+   "outcome": "promo openart-promo-2026w48",
+   "decided_run": "2026-11-17T07"
+  },
+  {
+   "report_id": "pika:2026-W48",
+   "ps_slug": "pika",
+   "week": "2026-W48",
+   "change_date": "2026-11-17",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D321"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D321.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/pika-lowered-credit-costs-for-its-ai-image-models.txt"
+   ],
+   "title": "Pika reprices GPT Image 2.6 and Nano Banana 2.1, top tiers up to 33% — Nov 17, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-17T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pika",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Pika cut the credit cost per image for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), so each plan’s monthly credits buy more images.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "5 → 4 / 4 → 3 credits",
+     "short": "Per-image credit cost falls for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), lifting images per plan, e.g. Starter 150 → 200 on GPT Image 2.6.",
+     "pattern": "Limits loosen",
+     "seg": "B2C",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added pika-2026w48",
+   "decided_run": "2026-11-17T07"
   }
  ]
 }

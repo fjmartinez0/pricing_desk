@@ -1,0 +1,43 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+H
+Huggingface
+PACKAGING CHANGE
+Huggingface dropped NVIDIA H100 endpoints from its pricing table.
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 17, 2026
+Huggingface removed NVIDIA H100 endpoints from its inference pricing table.
+See before and after
+Enlarge
+Huggingface’s pricing page · Change detected Nov 17, 2026
+What changed
+Huggingface removed the NVIDIA H100 (AWS) 1/2/4/8 GPU inference endpoint instances, priced at $4.50 to $36.00 per hour, from its Inference Endpoints hardware pricing table on Nov 17, 2026, according to Pulse. The hardware rows immediately around the removed block are unchanged, and no other instance type's price changed in this diff.
+Why it matters
+For a product leader buying or reselling GPU-backed infrastructure, a vendor dropping a GPU tier from its price list is usually a capacity or roadmap signal, not a price change: Huggingface still lists newer, larger GPU tiers on the same page, so this removal reads as retiring an older SKU rather than cutting a budget option. If your own usage-based pricing depends on a specific instance type a vendor offers, treat a delisted hardware row as an early warning to check current availability before a customer hits it. It's also a reminder that a removed row doesn't show up as a price increase or decrease in most trackers, so teams that monitor competitors by price delta alone can miss an option disappearing. Watch whether Huggingface's other GPU-based products follow a similar removal in its next few changes.
+In context
+Huggingface has made 21 real pricing changes since Pulse started tracking it on Nov 14, 2023, but removing a feature from the page is rare for this company: only two prior removals, both around early 2024, when it cut AutoTrain's higher Pro tier and then dropped the AutoTrain section entirely Apr 2024 Jan 2024. Its previous change, extending the hardware table to cover Jobs pricing, landed just 15 days earlier on Nov 2, 2026 Nov 2. Removals are uncommon across the market too: Pulse tracked 162 of 3,196 pricing changes in the last 180 days touching feature removals, spread across 145 companies, with Deno, Postman and Shopify the most frequent movers. Most of those recent removals trim a feature or perk from an existing plan rather than retire a priced hardware tier, which makes dropping a whole GPU option — not just a feature line — the less typical version of this pattern.
+Common questions
+Does this affect workloads already running on that hardware?
+The pricing page doesn't say; it only shows what's listed going forward, so a team with an active deployment on that hardware should confirm directly with Huggingface before assuming the option is still billable.
+Why pull this pricing entirely instead of marking it legacy?
+The record gives no stated reason, but removing a line outright rather than labeling it deprecated often points to capacity Huggingface no longer wants to sell on that hardware, not a pricing decision.
+Could Huggingface relist this pricing later if it changes course?
+Nothing in the record rules it out — Pulse has tracked 21 real pricing changes on Huggingface since Nov 14, 2023, so a reversal wouldn't be unusual for this page, even though the item gives no sign one is planned.
+Sources
+Pulse: Huggingface pricing changes, Nov 17, 2026pricingsaas.com/companies/huggingface/diffs/2026D321
+Huggingface pricing pagehuggingface.co/pricing
+Keep exploring
+All changes from HuggingfaceAll pricing news
+B
+Baseten
+Baseten added Volumes storage to its Sandboxes pricing
+M
+Mintlify
+Mintlify renamed its Starter plan to Free.
+M
+MindsDB
+MindsDB added Muse Ember to its model rate card

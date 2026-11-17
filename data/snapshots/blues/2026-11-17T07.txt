@@ -1,0 +1,153 @@
+=== https://blues.com/pricing/ ===
+Skip to main content
+Skip to footer
+Opens in a new tab
+Contact salesLogin
+Pricing Simplified
+Scalable pricing tailored to your deployed products and communication volume
+Talk to a humanStart building
+Step 1
+Build Your Device with Notecard
+Choose from Notecards which support Cellular, WiFi, Satellite, or LoRa - or a combination of radio access technologies for redundancy and improved connectivity coverage.
+Many RATs, one API
+All Notecards operate using the same API and can be swapped in and out depending on the connectivity needs of your individual deployments.
+Ultra-Low Powered
+Notecard uses as little as ~8µA when idle. This extremely low power usage allows applications to run for months or years on battery power.
+Secure by Design
+The Notecard integrates a Hardware Security Model (HSM) containing symmetric keys manufactured into the chip, providing robust protection against physical and cyber-attacks.
+Visit the Hardware StoreGet in touch for volume pricing
+Step 2
+Get Your Data into Notehub
+Only Pay for What You Use
+You only pay for what you use; there is no need to purchase blocks of credits that may not correspond to your consumption.
+You are only charged when your data consumption exceeds the inlcuded amount and a billable Event*.
+We Pay for Platform Events**
+We don’t charge for Blues generated Events, which include geolocation, session and other administrative information data, this can make up a substantial number of your total Events.
+Egress Data to Multiple Destinations
+Send your Events to multiple destinations for free, including data lakes, web services, and archives.
+*An Event is a record Notehub creates each time you, your devices, or your cloud apps send data or commands through your Notehub project.
+**Platform Events are Blues-provided metadata that help you make sure your devices stay connected and healthy.
+Step 3
+Discover Features Included in Every Plan
+Work with Events, not Individual Fields
+To minimize your wireless data usage, the Notecard is designed so that any number of data 'variables' can be ingressed in a single Event, through both JSON and binary data formats.
+High Event Size Limit
+A single Event can be up to 128KB. With the Notecard and Notehub, there’s no need to ‘pack’, ‘fragment’ or ‘reassemble’ data because of limits as low as 1024 bytes.
+Geolocation Included
+All Events are automatically tagged with their physical location at no extra charge. Our geolocation capabilities include the fusion of GPS, cellular tower, and Wi-Fi triangulation.
+Step 4
+Choose Your Plan
+Essential
+For customers prototyping or deploying fewer than 500 devices. Only pay for Events you ingress to Notehub — the first 5,000 Events each month are free, and Blues-generated Events are always free.
+First 5,000 Events free every month
+$0.00075 per ingressed Event after that
+Purchase additional Events anytime through Notehub
+Support via forum, email, and dedicated portal (3 business day response)
+Create a Notehub Account
+Enterprise
+For customers deploying 500+ devices. Commit to a volume of Events upfront and save 50% or more off the standard Essentials per-Event rate. The more you commit, the less you pay per Event. Price protection during your annual or multi-year agreement.
+Dedicated Success
+On top of the standard technical support, you will receive:
+$1,000/month
+Support response within 4 hours
+Assigned technical account manager
+Notehub project and fleet configuration support
+Reviews of solution architecture, code security, and more
+Additional optional SLA offerings available for purchase
+Committed Event Capacity
+% Discount
+Price per Event
+25M
+50.0%
+$0.0003750
+50M
+51.1%
+$0.0003671
+75M
+52.1%
+$0.0003592
+100M
+53.2%
+$0.0003513
+125M
+54.2%
+$0.0003434
+150M
+55.3%
+$0.0003355
+175M
+56.3%
+$0.0003276
+200M
+57.4%
+$0.0003197
+225M
+58.4%
+$0.0003118
+250M
+59.5%
+$0.0003039
+275M
+60.5%
+$0.0002961
+300M
+61.6%
+$0.0002882
+325M
+62.6%
+$0.0002803
+350M
+63.7%
+$0.0002724
+375M
+64.7%
+$0.0002645
+400M
+65.8%
+$0.0002566
+425M
+66.8%
+$0.0002487
+450M
+67.9%
+$0.0002408
+475M
+68.9%
+$0.0002329
+500M
+70.0%
+$0.0002250
+Pricing assumes annual payment in advance
+Contact Us
+Frequently Asked Questions
+What is the Notecard Cell+WiFi module?
+Notecard Cell+WiFi is a secure, low-power IoT system-on-module that combines LTE Cat-1 cellular and Wi‑Fi connectivity in a single device. It’s designed for fast, scalable deployment of connected products with minimal code and hardware complexity.
+How do I add both cellular and Wi‑Fi to my IoT device?
+With the Notecard Cell+WiFi, you can easily integrate dual connectivity by plugging the module into your host microcontroller or Notecarrier via the M.2 edge connector. It automatically manages connections and allows fallback between Wi‑Fi and cellular using the same developer-friendly JSON API.
+What LTE bands and Wi‑Fi standards are supported?
+The Notecard Cell+WiFi has variations that support NB-IoT, LTE Cat M, LTE Cat 1, LTE Cat 1 bis, and connects to 2.4GHz 802.11b/g/n Wi‑Fi networks. This ensures broad compatibility with carriers and routers worldwide.
+Does the Notecard Cell+WiFi support GPS for tracking?
+Yes. It includes a built-in GNSS module, providing GPS location tracking for asset monitoring, geofencing, and time synchronization applications.
+What microcontrollers are compatible with Notecard?
+Notecard is MCU-agnostic. It communicates via UART, I2C, or USB, and works with virtually any microcontroller or single-board computer, including STM32, ESP32, Raspberry Pi, Arduino, and more. Blues has also created two lightweight MCUs based on the Adafruit Feather architecture: the Cygnet and Swan.
+Is the Notecard secure for off-internet communication?
+Absolutely. All data is encrypted on device and sent via secure, off-internet tunnels to Notehub. The Notecard includes built-in ECC certificates and hardware-based authentication to protect your devices end-to-end.
+What is the power consumption of the Notecard Cell+WiFi?
+Notecards are optimized for low-power applications. In idle mode, the Notecard Cell+WiFi consumes as little as 8µA, making it ideal for battery-powered and energy-constrained deployments.
+Is cellular service included with the Notecard?
+Yes. Each Notecard Cell+WiFi includes 500MB of cellular data and 10 years of service with no subscription fees or contracts. You get reliable global connectivity right out of the box with flexible pricing to fit your needs.
+Does the Notecard support automatic failover between Wi‑Fi and cellular?
+Yes. Notecard Cell+WiFi can be configured to prioritize either cellular or Wi‑Fi and automatically fall back to the other when a stable connection is unavailable, ensuring reliable connectivity at all times.
+What is an Event? Give me examples.
+An Event is a record Notehub creates each time you, your devices, or your cloud apps send data or commands through your Notehub project. You pay for every Event except Platform Events, the behind-the-scenes housekeeping that keeps your devices connected and healthy.
+Examples of billable Events are:
+A device sends a reading to Notehub
+Your app sends a command or Note to a device through the Notehub API
+You change a setting (environment variable) that needs to reach a device
+An example of Platform Event is:
+When a device reports radio access technology (RAT) connection statistics
+Is there a starter kit for the Notecard Cell+WiFi?
+Yes. Blues offers a Notecard Cell+WiFi Starter Kit that includes everything you need to get started: a Global Notecard Cell+WiFi, a Notecarrier F, an antenna, a Feather MCU, and a link to our quickstart guide. It’s the fastest way to prototype and test connected applications.
+Don’t see the answers you’re looking for?
+Whether you own the business, product, tech stack (or all three!), we're ready to chat or to help you dive right in.
+Talk to a humanStart building

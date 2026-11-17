@@ -1,9 +1,10 @@
 {
  "current_week": "2026-W46",
- "today": "2026-11-16",
+ "today": "2026-11-17",
  "edition_date": "2026-11-12",
  "period": "2–8 Nov",
  "week_order": [
+  "2026-W48",
   "2026-W47",
   "2026-W46",
   "2026-W45",
@@ -19,6 +20,12 @@
   "2026-W35"
  ],
  "weeks": [
+  {
+   "week": "2026-W48",
+   "label": "16–22 Nov",
+   "start": "2026-11-16",
+   "source_week": "Pricing Desk capture"
+  },
   {
    "week": "2026-W47",
    "label": "9–15 Nov",
@@ -38648,6 +38655,157 @@
    "reported": true,
    "detail": "line",
    "score": 12.5
+  },
+  {
+   "id": "bolt-2026w48",
+   "week": "2026-W48",
+   "rank": 2,
+   "co": "Bolt",
+   "company": "bolt",
+   "tier": 3,
+   "group": "pack",
+   "delta": "Free: 3 collaborators",
+   "short": "Bolt now lists collaborator limits: Free is capped at up to 3 collaborators, while Pro and Teams show unlimited collaborators.",
+   "pattern": "Limits tighten",
+   "seg": "Both",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "16 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://bolt.new/pricing",
+   "evidence": {
+    "before": "data/snapshots/bolt/2026-11-10T19.txt",
+    "after": "data/snapshots/bolt/2026-11-17T07.txt",
+    "diff": "bolt-2026-11-17T07"
+   },
+   "detail": "line",
+   "score": 25.0
+  },
+  {
+   "id": "socket-2026w48",
+   "week": "2026-W48",
+   "rank": 5,
+   "co": "Socket",
+   "company": "socket",
+   "tier": 3,
+   "group": "pack",
+   "delta": "OSS offer reworked",
+   "short": "The free open-source offer changes from a free Team account to a free Business plan upgrade, now limited to public projects under an OSI-approved license.",
+   "pattern": "Free plans as funnels",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "free",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "16 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://socket.dev/pricing",
+   "evidence": {
+    "before": "data/snapshots/socket/2026-11-15T07.txt",
+    "after": "data/snapshots/socket/2026-11-17T07.txt",
+    "diff": "socket-2026-11-17T07"
+   },
+   "detail": "line",
+   "score": 12.5
+  },
+  {
+   "id": "klaviyo-2026w48",
+   "week": "2026-W48",
+   "rank": 3,
+   "co": "Klaviyo",
+   "company": "klaviyo",
+   "tier": 3,
+   "group": "down",
+   "delta": "$5 / $10",
+   "short": "Klaviyo’s Composer AI usage allowance rises from $5 to $10 of usage per month on the Free and Email plans and the Composer add-on.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "16 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.klaviyo.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/klaviyo/2026-11-07T19.txt",
+    "after": "data/snapshots/klaviyo/2026-11-17T07.txt",
+    "diff": "klaviyo-2026-11-17T07"
+   },
+   "detail": "line",
+   "score": 25.0
+  },
+  {
+   "id": "simplelocalize-2026w48",
+   "week": "2026-W48",
+   "rank": 4,
+   "co": "SimpleLocalize",
+   "company": "simplelocalize",
+   "tier": 3,
+   "group": "down",
+   "delta": "×1.3 to ×2",
+   "short": "The starting auto-translation character allowance rises on paid plans: Developer 150,000 → 200k, Team 300,000 → 500k, Business 500,000 → 1M, with monthly top-ups unchanged.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "16 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://simplelocalize.io/pricing/",
+   "evidence": {
+    "before": "data/snapshots/simplelocalize/2026-11-16T07.txt",
+    "after": "data/snapshots/simplelocalize/2026-11-17T07.txt",
+    "diff": "simplelocalize-2026-11-17T07"
+   },
+   "detail": "line",
+   "score": 25.0
+  },
+  {
+   "id": "pika-2026w48",
+   "week": "2026-W48",
+   "rank": 1,
+   "co": "Pika",
+   "company": "pika",
+   "tier": 3,
+   "group": "down",
+   "delta": "5 → 4 / 4 → 3 credits",
+   "short": "Per-image credit cost falls for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), lifting images per plan, e.g. Starter 150 → 200 on GPT Image 2.6.",
+   "pattern": "Limits loosen",
+   "seg": "B2C",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "17 Nov",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/pika/diffs/2026D321",
+   "evidence": {
+    "report": "pika:2026-W48",
+    "files": [
+     "data/pricingsaas/pages/diffs/pika__2026D321.txt",
+     "data/pricingsaas/pages/articles/pika-lowered-credit-costs-for-its-ai-image-models.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/pika/diffs/2026D321"
+    ]
+   },
+   "reported": true,
+   "detail": "line",
+   "score": 37.5
   }
  ],
  "categories": [
@@ -47210,6 +47368,36 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "socket": {
+   "name": "Socket",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "buildium": {
+   "name": "Buildium",
+   "tier": null,
+   "category": "Business Operations",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
+  },
+  "simplelocalize": {
+   "name": "SimpleLocalize",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -50279,6 +50467,25 @@
    "co": "Codecademy",
    "kind": "ended",
    "text": "Fall Flash Sale: 50% off Codecademy Pro with code FALLFLASH has ended",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "buildium-promo-2026w48",
+   "week": "2026-W48",
+   "company": "buildium",
+   "co": "Buildium",
+   "kind": "new",
+   "text": "Holiday offer: sign up for early access to limited-time savings, delivered when the sale starts",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "openart-promo-2026w48",
+   "week": "2026-W48",
+   "company": "openart",
+   "co": "OpenArt",
+   "kind": "changed",
+   "text": "Black Friday sale: annual discount raised to 25% (Starter), 30% (Plus), 35% (Pro) and 40% (Wonder), from 10%, 20%, 22% and 27%; list prices unchanged",
    "src": "PricingSaaS report",
    "reported": true
   }

@@ -1,0 +1,68 @@
+{
+ "type": "reports",
+ "run": "2026-11-17T07",
+ "items": [
+  {
+   "report_id": "pika:2026-W48",
+   "company": "pika",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Pika cut the credit cost per image for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), so each plan’s monthly credits buy more images.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "5 → 4 / 4 → 3 credits",
+    "short": "Per-image credit cost falls for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), lifting images per plan, e.g. Starter 150 → 200 on GPT Image 2.6.",
+    "pattern": "Limits loosen",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "openart:2026-W48",
+   "company": "openart",
+   "new_company": null,
+   "kind": "promo",
+   "why": "OpenArt replaced its standing promo with a Black Friday sale, raising annual discounts from 10/20/22/27% to 25/30/35/40% with list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Black Friday sale: annual discount raised to 25% (Starter), 30% (Plus), 35% (Pro) and 40% (Wonder), from 10%, 20%, 22% and 27%; list prices unchanged"
+   }
+  },
+  {
+   "report_id": "mintlify:2026-W48",
+   "company": "mintlify",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Mintlify renamed its entry plan from Starter to Free with price ($0) and limits unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "huggingface:2026-W48",
+   "company": "hugging-face",
+   "new_company": null,
+   "kind": "price_hidden",
+   "why": "NVIDIA H100 (aws) inference endpoint rows ($4.50-$36.00/hr) disappeared from the hardware price table; no other prices changed and no retirement was stated.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "bolt:2026-W48",
+   "company": "bolt",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Bolt’s page now lists collaborator limits (Free 3, Pro and Teams unlimited); this is a first-time listing and the saved text does not show an actual limit changing.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}
