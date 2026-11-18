@@ -1,0 +1,92 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Meilisearch/All changes/Outbound bandwidth added
+M
+Meilisearch
+Packaging changeFeature changeNov 9 → Nov 16, 2026 UTC
+Meilisearch Cloud switches to fixed per-instance pricing, XS from $14.88/mo
+Detected Nov 15, 2026, 10:01 PM ETData & Analytics
+The changeOutbound bandwidth added
+Before · Nov 9 UTCNot listed
+After · Nov 16 UTC$0.15/GB outbound bandwidth
+added
+2 changes2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of Meilisearch's pricing page, Pulse recorded 2 changes: Cloud moved from usage-based ($30 base) or resource-based billing to fixed per-instance pricing by region (XS $14.88 US East vs $18); disk $0.165/GiB; $0.15/GB outbound bandwidth added; Cloud bullets now list XS-XL instances, full-text/vector/hybrid search, 9 regions, unlimited members; Enterprise-grade compliance bullet dropped from Enterprise. Pulse files it as a packaging change (feature change, packaging change). Pulse's latest capture (Nov 17, 2026) lists Cloud XS at $14.88, Cloud S at $29.28, Cloud M at $58.08, Cloud L at $115.68 and Cloud XL at $259.36.
+This is the first pricing-page change Pulse has recorded for Meilisearch. Meilisearch has been tracked since 2026-07-15.
+In the same window Chromatic, Pinecone and Elastic also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+EnterpriseFeature
+Removed
+BeforeEnterprise-grade compliance bullet
+AfterNot listed
+—Packaging
+Added
+BeforeNot listed
+After$0.15/GB outbound bandwidth
+Plan
+Field
+Before
+After
+Change
+Enterprise
+Feature
+Enterprise-grade compliance bullet
+Not listed
+Removed
+—
+Packaging
+Not listed
+$0.15/GB outbound bandwidth
+Added
+Values as written on Meilisearch's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Meilisearch's pricing page (www.meilisearch.com) from Nov 9, 2026 and Nov 16, 2026; the change is marked near the top of the page, where $0.15/GB outbound bandwidth now appears.
+Nov 9, 2026 UTCOutbound bandwidth not listed
+Nov 16, 2026 UTC$0.15/GB outbound bandwidth
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for Meilisearch · Full history →
+Across Data & Analytics in the same window
+All Data & Analytics changes
+ChromaticNov 2Chromatic makes Enterprise snapshots and turbosnaps customizable, not unlimited
+PineconeOct 3Pinecone drops Starter 1M token promo, gates cross-region restore to paid tiers
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+Questions about this change
+Did Meilisearch raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a packaging change: feature change, packaging change.
+What changed on Meilisearch's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Enterprise feature removed: Enterprise-grade compliance bullet; packaging added: $0.15/GB outbound bandwidth. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Meilisearch change its pricing?
+Pulse recorded 0 other pricing-page changes for Meilisearch in the 90 days before this one; Meilisearch has been tracked since 2026-07-15.
+Meilisearch plans today
+All plans
+Cloud XS
+$14.88
+Cloud S
+$29.28
+Cloud M
+$58.08
+Cloud L
+$115.68
+Cloud XL
+$259.36
+Enterprise
+Contact
+Tracked alongside
+E
+Elastic
+A
+Algolia
+W
+Weaviate
+P
+Pinecone
+Q
+Qdrant
+C
+Chromatic

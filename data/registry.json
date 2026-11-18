@@ -36733,7 +36733,7 @@
     "buffer.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36789,7 +36789,7 @@
     "boomi.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36991,7 +36991,7 @@
     "adcreative.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37404,7 +37404,7 @@
     "activtrak.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37445,6 +37445,723 @@
    "source_url": "https://agentdeals.dev/digest/2026-w43",
    "url_attempts": 0,
    "notes": "Cut Stable Audio 3.0 from 26 to 8 credits and Stable Audio 2.5 from 20 to 8 credits per generation on 19 Oct; its pricing page now shows 8 credits for both."
+  },
+  "nutrisense": {
+   "name": "Nutrisense",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2C",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/nutrisense/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "nutrisense"
+   ]
+  },
+  "novu": {
+   "name": "Novu",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://novu.co/pricing/"
+   ],
+   "domains": [
+    "novu.co"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/novu/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "novu"
+   ]
+  },
+  "notta": {
+   "name": "Notta",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.notta.ai/en/pricing"
+   ],
+   "domains": [
+    "notta.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/notta/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "notta"
+   ]
+  },
+  "newswirejet": {
+   "name": "NewswireJet",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/newswirejet/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "newswirejet"
+   ]
+  },
+  "nectar": {
+   "name": "Nectar",
+   "tier": 3,
+   "category": "Workforce Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/nectarhr/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "nectarhr"
+   ]
+  },
+  "mrpeasy": {
+   "name": "MRPeasy",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.mrpeasy.com/pricing/"
+   ],
+   "domains": [
+    "mrpeasy.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/mrpeasy/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mrpeasy"
+   ]
+  },
+  "mimecast": {
+   "name": "Mimecast",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/mimecast/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mimecast"
+   ]
+  },
+  "meraevents": {
+   "name": "MeraEvents",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/meraevents/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "meraevents"
+   ]
+  },
+  "meilisearch": {
+   "name": "Meilisearch",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.meilisearch.com/pricing"
+   ],
+   "domains": [
+    "meilisearch.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/meilisearch/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "meilisearch"
+   ]
+  },
+  "medstack": {
+   "name": "MedStack",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/medstack/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "medstack"
+   ]
+  },
+  "medcrypt": {
+   "name": "Medcrypt",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/medcrypt/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "medcrypt"
+   ]
+  },
+  "mailgun": {
+   "name": "Mailgun",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.mailgun.com/pricing/"
+   ],
+   "domains": [
+    "mailgun.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/mailgun/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mailgun"
+   ]
+  },
+  "mailercloud": {
+   "name": "Mailercloud",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.mailercloud.com/pricing"
+   ],
+   "domains": [
+    "mailercloud.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/mailercloud/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mailercloud"
+   ]
+  },
+  "loop-subscriptions": {
+   "name": "Loop Subscriptions",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/loopsubscriptions/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "loopsubscriptions"
+   ]
+  },
+  "linked-helper": {
+   "name": "Linked Helper",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.linkedhelper.com/pricing"
+   ],
+   "domains": [
+    "linkedhelper.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/linkedhelper/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "linkedhelper"
+   ]
+  },
+  "leadfox": {
+   "name": "LeadFox",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/leadfox/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "leadfox"
+   ]
+  },
+  "koderai": {
+   "name": "koderAI",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/koder/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "koder"
+   ]
+  },
+  "isometric": {
+   "name": "Isometric",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://isometric.com/pricing"
+   ],
+   "domains": [
+    "isometric.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/isometric/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "isometric"
+   ]
+  },
+  "headspin": {
+   "name": "HeadSpin",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.headspin.io/pricing"
+   ],
+   "domains": [
+    "headspin.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/headspin/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "headspin"
+   ]
+  },
+  "grace-hill-training": {
+   "name": "Grace Hill Training",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/gracehill.training/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gracehill.training"
+   ]
+  },
+  "ghost": {
+   "name": "Ghost",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://ghost.org/pricing/"
+   ],
+   "domains": [
+    "ghost.org"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/ghost/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "ghost"
+   ]
+  },
+  "pronounce": {
+   "name": "Pronounce",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2C",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/getpronounce/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "getpronounce"
+   ]
+  },
+  "fingerprint": {
+   "name": "Fingerprint",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://fingerprint.com/pricing/"
+   ],
+   "domains": [
+    "fingerprint.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://pricingsaas.com/companies/fingerprint/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "fingerprint"
+   ]
+  },
+  "google-gemini-api": {
+   "name": "Google Gemini API",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://ai.google.dev/gemini-api/docs/pricing"
+   ],
+   "domains": [
+    "ai.google.dev"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "url_attempts": 0,
+   "notes": "Gemini 4 Carbon’s introductory pricing ends on 30 Nov and every rate doubles from 1 Dec, standard input going from $2.00 to $4.00 per million tokens."
+  },
+  "ipbase": {
+   "name": "ipbase",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "ipbase.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "url_attempts": 0,
+   "notes": "Free plan rose from 150 to 1,000 requests a month but is now limited to testing and non-commercial projects."
+  },
+  "numlookupapi": {
+   "name": "numlookupapi",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "numlookupapi.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "url_attempts": 0,
+   "notes": "Free plan rose from 100 to 250 requests a month, while commercial use now needs a paid plan."
+  },
+  "zipcodestack": {
+   "name": "Zipcodestack",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "zipcodestack.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-17",
+   "source": "agent 2026-11-17T19",
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "url_attempts": 0,
+   "notes": "Free plan moved from 300 credits to 1,000 requests a month at the same $0 price."
   }
  }
 }

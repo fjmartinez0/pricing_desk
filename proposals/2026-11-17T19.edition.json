@@ -1,0 +1,320 @@
+{"type": "edition", "run": "2026-11-17T19", "week": "2026-W47",
+ "news": [
+  {
+   "id": "gbb-linear-ai-at-cost",
+   "lead": true,
+   "src": "PricingSaaS newsletter (Good Better Best)",
+   "by": "Rob Litterst",
+   "date": "13 Nov",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "Linear Sells AI at Cost. Here’s Why.",
+   "url": "https://newsletter.pricingsaas.com/p/linear-ai",
+   "gist": "Linear keeps charging per seat and bills its agents’ model tokens at the provider’s rate with no markup, which Litterst says speeds up agent adoption but leaves little room for revenue to grow unless Linear starts charging for control.",
+   "points": [
+    "Everyday agent work sits inside the seat; opt-in credits cover only Coding Sessions and background Loops",
+    "Credits are a shared dollar balance that rolls over and lapses a year after purchase, with no refunds or bulk discount",
+    "Selling at cost shuts down discount haggling, since any discount would mean a loss",
+    "The suggested fix: keep tokens at cost and charge for oversight, such as which agent can touch which code"
+   ],
+   "nums": [
+    ["50%", "share of work in Linear created by AI agents, against 3% a year earlier"],
+    ["177%", "Linear’s net revenue retention on seat pricing"],
+    ["$0.07 to $0.20", "typical cost of one Loops run"],
+    ["$19,200", "yearly cost of 100 people on Business, which the author calls a low ceiling"]
+   ],
+   "why": "If a vendor says its AI is sold at cost, check whether compute and background jobs carry the same promise, because Linear’s pledge covers only model tokens."
+  },
+  {
+   "id": "slack-slackbot-limits",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "11 Nov",
+   "topic": "AI packaging",
+   "rel": true,
+   "title": "Slack moved Slackbot to tiered usage limits",
+   "url": "https://pricingsaas.com/news/article/slack-moved-slackbot-to-tiered-usage-limits",
+   "gist": "Slack dropped Slackbot’s ‘personal AI agent’ pitch for plan-by-plan quotas, and PricingSaaS reads the Business+ cap as a gate that pushes heavy AI users toward Enterprise+ rather than as a new charge.",
+   "points": [
+    "Free and Pro use is consumption based, while Enterprise+ is unlimited",
+    "No new price was published, and the page doesn’t say whether messages stop or just slow at the cap",
+    "It came days after Slack’s Enterprise+ price display flipped back to contact sales in a live A/B test",
+    "Recent Slack changes also added paid Success Plans and a paid Frontline teams add-on"
+   ],
+   "nums": [
+    ["15", "Slackbot messages per Business+ user each week"],
+    ["19", "real pricing-page changes Pulse has tracked at Slack since Jun 2023"],
+    ["60 days", "Slack’s average gap between pricing changes"]
+   ],
+   "why": "Business+ teams that lean on Slackbot for drafting or search should count their weekly use before renewal, since the pricing page’s only route past the cap is Enterprise+."
+  },
+  {
+   "id": "attio-ultra-self-serve",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "11 Nov",
+   "topic": "Packaging",
+   "rel": true,
+   "title": "Attio replaced Enterprise’s custom quote with a self-serve Ultra plan",
+   "url": "https://pricingsaas.com/news/article/attio-replaced-enterprise-s-custom-quote-with-a-self-serve-ultra-plan",
+   "gist": "Attio swapped its sales-quoted Enterprise tier for a self-serve Ultra plan with a fixed monthly credit allowance, which PricingSaaS reads as a move to self-serve at the top end and toward selling usage and governance separately.",
+   "points": [
+    "Overages and SSO, SCIM and audit-log governance are now paid add-ons rather than parts of a negotiated quote",
+    "New table rows cover SQL access through API or MCP, data connectors and session management",
+    "The article can’t say whether existing Enterprise contracts move to the new price",
+    "It is the first pricing restructure Pulse has recorded for Attio"
+   ],
+   "nums": [
+    ["$1,000", "monthly price of the new Ultra plan"],
+    ["20,000", "workspace credits a month included in Ultra"],
+    ["377", "credit and usage-billing changes Pulse tracked across 259 companies in 180 days"],
+    ["100 days", "gap since Attio’s previous pricing change"]
+   ],
+   "why": "Enterprise buyers renewing with Attio can now benchmark a quote against the listed Ultra price, but should model credit overages and governance add-ons, which are billed on top."
+  },
+  {
+   "id": "pika-team-plans",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "15 Nov",
+   "topic": "Seat pricing",
+   "rel": true,
+   "title": "Pika launched Creator Team and Pro Team plans",
+   "url": "https://pricingsaas.com/news/article/pika-launched-creator-team-and-pro-team-plans",
+   "gist": "Pika added seat-priced team plans with pooled credits on top of its credit-based individual plans, a hybrid PricingSaaS says many AI tools are trying so that revenue grows with both headcount and usage.",
+   "points": [
+    "Both team tiers need at least two paid seats, a minimum the author recommends copying",
+    "A single user still pays less on the existing individual Creator or Pro plan",
+    "Larger teams are sent to Enterprise, with custom credits and no listed seat price",
+    "The author flags that Pika’s individual credit caps have kept shrinking this month"
+   ],
+   "nums": [
+    ["$35", "per seat a month for Creator Team, with 5,200 shared credits"],
+    ["$95", "per seat a month for Pro Team, with 17,100 shared credits"],
+    ["5.3%", "share of the 3,089 pricing-page changes Pulse tracked in 180 days that involved seat pricing"],
+    ["9", "pricing changes at Pika in the last 90 days"]
+   ],
+   "why": "Small teams buying Pika should compare the pooled team credits with two individual plans, since a shared pool only helps when usage is uneven across people."
+  },
+  {
+   "id": "agentdeals-w46",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "9–15 Nov",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Pricing Changes: November 9–15, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w46",
+   "gist": "AgentDeals’ digest for our week has few direct price moves: E2B halved free concurrent sandboxes and Cloudflare for Startups stopped covering Workers AI for new members, while Bitrise opened its free Hobby plan to whole teams.",
+   "points": [
+    "Google said Gemini 4 Carbon’s introductory rates end on 30 Nov, with every rate doubling from December",
+    "Val Town, Gadget, Sourcegraph Cody and Netlify Visual Editor all announced shutdowns or end of life",
+    "Several small API tools raised free request allowances but barred commercial use on their free plans",
+    "GitHub Copilot is deprecating six models in December"
+   ],
+   "nums": [
+    ["$4.00", "Gemini 4 Carbon standard input price per million tokens from 1 Dec, double the introductory rate"],
+    ["10", "concurrent sandboxes on E2B’s free Hobby plan, down from 20"],
+    ["500", "monthly build minutes on Bitrise Hobby, which used to give 300 credits"],
+    ["$50,000", "top Workers AI cap that existing Cloudflare startup members keep until 1 Dec"]
+   ],
+   "why": "If you call Gemini 4 Carbon, budget for double the per-token cost from December, and don’t count on startup credits to cover AI usage without rechecking their terms."
+  },
+  {
+   "id": "huggingface-h100-delisted",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "17 Nov",
+   "topic": "AI infrastructure",
+   "rel": true,
+   "title": "Huggingface dropped NVIDIA H100 endpoints from its pricing table.",
+   "url": "https://pricingsaas.com/news/article/huggingface-dropped-nvidia-h100-endpoints-from-its-pricing-table",
+   "gist": "Hugging Face removed its AWS H100 inference endpoints from the hardware price list and left the other rows unchanged, and PricingSaaS reads the delisting as a capacity signal that trackers watching only prices would miss.",
+   "points": [
+    "Newer, larger GPU tiers stay listed, so the H100 looks retired rather than cut as a budget option",
+    "The page doesn’t say whether running deployments on that hardware are affected",
+    "Most removals Pulse sees trim perks from plans, so dropping a priced hardware tier is unusual",
+    "Only two of Hugging Face’s earlier tracked changes were removals, both in 2024"
+   ],
+   "nums": [
+    ["$4.50 to $36.00", "hourly price range of the removed 1- to 8-GPU H100 configurations"],
+    ["162", "feature-removal changes among the 3,196 Pulse tracked in 180 days"],
+    ["21", "real pricing changes Pulse has tracked at Hugging Face since Nov 2023"]
+   ],
+   "why": "If you run endpoints on a specific GPU type, confirm with the vendor that it stays available, since a row vanishing from the price list can be the first warning."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Rented compute got dearer",
+   "p": "GPU clouds raised Blackwell and Hopper rates, and tools built on rented compute raised prices or delisted options. AI products that resell this compute tend to pass such rises on later as dearer credits or smaller allowances.",
+   "points": [
+    {"id": "runpod-2026w47", "text": "raised Secure Cloud H100 SXM from $3.99 to $4.39 an hour and A100 SXM from $1.79 to $2.19"},
+    {"id": "together-ai-2026w47-2", "text": "raised HGX B200 on-demand from $8.19 to $9.29 and B300 from $9.99 to $11.49 per GPU hour"},
+    {"id": "hedra-2026w47-2", "text": "raised B300 to $8.25 and B200 to $7.26 per GPU-hour while cutting RTX PRO 6000 to $2.49"},
+    {"id": "hedra-2026w47", "text": "raised AMD Instinct MI355X compute by about 69% per GPU-second"},
+    {"id": "browser-use-2026w47", "text": "tripled cloud browser time from $0.02 to $0.06 per browser hour"},
+    {"id": "hugging-face-2026w47", "text": "stopped listing AWS H100 endpoints, which ran from $4.50 an hour for 1 GPU to $36.00 for 8"},
+    {"id": "fireworks-ai-2026w47", "text": "stopped listing Managed Training, leaving only the Serverless Training API"}
+   ]
+  },
+  {
+   "t": "AI allowances get a meter",
+   "p": "Vendors stopped treating AI as an unlimited perk and put a count on it: weekly quotas, credits or per-call overage. The real cost is often the upgrade the cap pushes. Most of these records come from PricingSaaS reports.",
+   "points": [
+    {"id": "slack-2026w47", "text": "capped Slackbot on Business+ at 15 messages per user each week, with Enterprise+ unlimited"},
+    {"id": "deepbrain-2026w47", "text": "replaced unlimited AI videos with credit balances, 700 credits a month on Personal"},
+    {"id": "apptoto-2026w47", "text": "put AI Receptionist and AI Assistant on usage credits starting at $100 for 5,000 credits"},
+    {"id": "scite-2026w47", "text": "began billing MCP and API use beyond the included credits per call, with a settable monthly spending limit"},
+    {"id": "pika-2026w47", "text": "doubled GPT Image to 4 credits per image, so Starter drops from 300 to 150 images a month"},
+    {"id": "clueso-2026w47", "text": "turned the free plan’s 1,000 monthly AI credits into a one-time grant"},
+    {"id": "retool-2026w47", "text": "began selling extra AI credit packs on paid plans, where buying more wasn’t possible before"}
+   ]
+  },
+  {
+   "t": "The seat gets redrawn",
+   "p": "Seats are being reworked rather than retired: some vendors added seat plans, some swapped seats for per-job prices, and others changed who counts as a billable seat. Part of this rests on PricingSaaS reports.",
+   "points": [
+    {"id": "canva-2026w47", "text": "began billing a paid seat for every Business member, not only those who accept an invite"},
+    {"id": "pika-2026w47-2", "text": "added team plans at $35 and $95 per seat with shared credit pools and a 2-seat minimum"},
+    {"id": "casemark-2026w47", "text": "replaced $20 and $100 seat plans with pay-as-you-go pricing of $25 per legal summary"},
+    {"id": "composio-2026w47", "text": "turned the $29 flat Pro plan into Standard at $18 per seat per month"},
+    {"id": "cognition-2026w47", "text": "cut the Teams plan cap from up to 200 users to up to 100, moving SSO and cost controls into Teams"},
+    {"id": "attio-2026w47", "text": "replaced Enterprise’s custom quote with a self-serve Ultra plan at $1,000 per month"},
+    {"id": "databox-2026w47", "text": "folded Free, Analyst and Team into a single Business plan at $399 a month billed annually"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "More changes cost buyers money than saved it",
+   "fig": "34 vs 23",
+   "figNote": "changes that cost buyers more vs less; the other 15 repackaged plans",
+   "p": "Increases led cuts by a clear margin. About half of all this week’s records come from PricingSaaS reports, including the steepest list-price rises at Cedreo, Rustici Software and Crowdin; our own captures leaned toward compute and usage rates.",
+   "ids": ["datadog-2026w47-2", "runpod-2026w47", "together-ai-2026w47-2", "cedreo-2026w47", "rustici-software-2026w47", "crowdin-2026w47", "remote-2026w47", "sarvam-ai-2026w47", "craft-2026w47"]
+  },
+  {
+   "t": "The larger companies leaned against buyers",
+   "fig": "7 of 12",
+   "figNote": "changes at tier 1 and 2 companies that cost buyers more",
+   "p": "All of these come from our own captures. Slack metered Slackbot, Canva billed every Business member a seat, and Runpod and Together AI raised GPU rates. Datadog’s NetFlow price fell and then rose back within days, so it shows up on both sides.",
+   "ids": ["slack-2026w47", "canva-2026w47", "runpod-2026w47", "together-ai-2026w47-2", "telnyx-2026w47", "wispr-flow-2026w47", "datadog-2026w47-2", "datadog-2026w47"]
+  },
+  {
+   "t": "Limits moved both ways",
+   "fig": "11 vs 10",
+   "figNote": "changes that tightened vs loosened a plan limit",
+   "p": "Limits tightened about as often as they loosened, so a steady list price says little about which way a plan moved. Tightening hit free and AI allowances at E2B, Composio and Pika; loosening added AI messages or retention at Jimdo, Supabase and Ably. Several of these records are PricingSaaS reports.",
+   "ids": ["e2b-2026w47", "composio-2026w47", "pika-2026w47", "speechify-2026w47", "buffer-2026w47", "jimdo-2026w47", "supabase-2026w47", "ably-2026w47", "dataslayer-2026w47"]
+  },
+  {
+   "t": "AI was in about a third of the changes",
+   "fig": "25 of 72",
+   "figNote": "changes involving AI features, models or compute",
+   "p": "The AI changes skewed toward costing more: compute rises, new credit meters and smaller free AI allowances. Gains such as Jimdo’s bigger message allowance and Together AI’s cheaper image models were smaller moves.",
+   "ids": ["runpod-2026w47", "together-ai-2026w47-2", "slack-2026w47", "composio-2026w47", "deepbrain-2026w47", "pika-2026w47", "jimdo-2026w47", "together-ai-2026w47"]
+  },
+  {
+   "t": "Free plans moved in both directions",
+   "fig": "8 of 72",
+   "figNote": "changes to free plans",
+   "p": "Bitrise opened its Hobby plan to whole teams, Supabase kept free audit logs for longer and CloudFix let free users run its fixers for 30 days, while E2B halved free sandboxes and Composio cut free tool calls. All but CloudFix are our own captures.",
+   "ids": ["bitrise-2026w47", "fly-io-2026w47", "e2b-2026w47", "composio-2026w47", "framer-2026w47", "supabase-2026w47", "clueso-2026w47", "cloudfix-2026w47"]
+  },
+  {
+   "t": "Black Friday offers arrived early",
+   "fig": "36",
+   "figNote": "promotion records this week, against 72 pricing changes",
+   "p": "First-year discounts appeared at TidyCal, Topaz Labs and ON1, Pictory widened its sale to every plan, and Kinsta’s annual offer got weaker. Some promotion records come from PricingSaaS reports, and promo prices end, so check the renewal price before signing.",
+   "ids": ["tidycal-promo-2026w47", "topaz-labs-promo-2026w47", "on1-promo-2026w47", "pictory-promo-2026w47", "kinsta-promo-2026w47"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Usage billing keeps spreading through AI features",
+   "p": "PricingSaaS’s 180-day count of credit and usage-billing changes has risen with each article that cites it (the definitions differ slightly), and this week Slack, Attio and Pika added quotas, overage meters and pooled credits. Linear is the counterexample, selling tokens at cost inside the seat.",
+   "nums": [
+    ["243", "credits-based metering changes at 175 companies in 180 days, cited 23 Oct"],
+    ["284", "credit or usage-billing changes at 201 companies, cited 31 Oct"],
+    ["377", "credit and usage-billing changes at 259 companies, cited 11 Nov"]
+   ],
+   "news": ["attio-ultra-self-serve", "slack-slackbot-limits", "pika-team-plans", "gbb-linear-ai-at-cost", "anthropic-max-ultra", "hubspot-free-email-credits", "gbb-notion-credits", "gbb-labs-api-credits"],
+   "changes": ["slack-2026w47", "attio-2026w47", "pika-2026w47-2", "deepbrain-2026w47", "apptoto-2026w47", "scite-2026w47"]
+  },
+  {
+   "t": "Compute and model rates keep climbing",
+   "p": "Since early October the stories have tracked GPU and model rates going up at fal, Together AI and now Gemini 4 Carbon, plus older hardware being delisted; launch-day cuts like Baseten’s are the main exception. This week our own captures saw Runpod, Together AI and Hedra raise GPU rates.",
+   "nums": [
+    ["32%", "fal’s H100 serverless rate rise in early October"],
+    ["68%", "top of Together AI’s Qwen3.8 Flash price rise in mid-October"],
+    ["$4.00", "Gemini 4 Carbon standard input per million tokens from 1 Dec, double the introductory rate"]
+   ],
+   "news": ["huggingface-h100-delisted", "agentdeals-w46", "fal-gpu-rates", "gbb-fireflies-claude-loom", "baseten-reflection-beam-cut"],
+   "changes": ["runpod-2026w47", "together-ai-2026w47-2", "hedra-2026w47-2", "hugging-face-2026w47", "together-ai-2026w46"]
+  },
+  {
+   "t": "Developer free tiers keep churning",
+   "p": "AgentDeals’ digests have logged free tiers shrinking or closing almost every week since September, alongside a steady run of shutdowns. November has been gentler so far, but this week still paired Bitrise’s wider free plan with E2B’s halved sandboxes and Cloudflare dropping Workers AI from new startup credits.",
+   "nums": [
+    ["12 vs 3", "negative vs positive developer-tool changes in September"],
+    ["3 vs 2", "positive vs negative changes in November through the 12th"]
+   ],
+   "news": ["agentdeals-w46", "agentdeals-nov", "agentdeals-sep", "agentdeals-w39", "agentdeals-w42", "agentdeals-w44"],
+   "changes": ["e2b-2026w47", "bitrise-2026w47", "composio-2026w47", "supabase-2026w47"]
+  },
+  {
+   "t": "The seat survives, with new jobs attached",
+   "p": "Earlier pieces argued seats lose ground as agents do more of the work, yet vendors keep seats and change what rides on them: Linear bundles agent work into the seat and Pika adds seat-priced team plans with pooled credits. Seat changes are still a small share of all pricing moves.",
+   "nums": [
+    ["66%", "vendors pairing a fixed fee with a usage charge, up from 45% in 2023"],
+    ["5.3%", "share of pricing changes tracked over 180 days that involved seat pricing"],
+    ["177%", "Linear’s net revenue retention on seat pricing"]
+   ],
+   "news": ["gbb-linear-ai-at-cost", "pika-team-plans", "gbb-14-ai-trends", "ai-monetization", "gu-agents-messaging"],
+   "changes": ["canva-2026w47", "pika-2026w47-2", "casemark-2026w47", "composio-2026w47", "cognition-2026w47"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Google Gemini API",
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "pricing_urls": ["https://ai.google.dev/gemini-api/docs/pricing"],
+   "domains": ["ai.google.dev"],
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "why": "Gemini 4 Carbon’s introductory pricing ends on 30 Nov and every rate doubles from 1 Dec, standard input going from $2.00 to $4.00 per million tokens."
+  },
+  {
+   "name": "ipbase",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["ipbase.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "why": "Free plan rose from 150 to 1,000 requests a month but is now limited to testing and non-commercial projects."
+  },
+  {
+   "name": "numlookupapi",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["numlookupapi.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "why": "Free plan rose from 100 to 250 requests a month, while commercial use now needs a paid plan."
+  },
+  {
+   "name": "Zipcodestack",
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "pricing_urls": [],
+   "domains": ["zipcodestack.com"],
+   "source_url": "https://agentdeals.dev/digest/2026-w46",
+   "why": "Free plan moved from 300 credits to 1,000 requests a month at the same $0 price."
+  }
+ ]
+}
