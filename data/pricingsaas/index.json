@@ -32806,7 +32806,8 @@
    "found_via": [],
    "articles": [
     "https://pricingsaas.com/news/article/together-raised-its-hgx-b200-gpu-price-and-revealed-more-rates",
-    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator"
+    "https://pricingsaas.com/news/article/heygen-refreshed-its-avatar-engine-lineup-on-pro-and-creator",
+    "https://pricingsaas.com/news/article/together-added-elorian-glimpse-to-its-chat-catalog"
    ],
    "fetched_at": "2026-11-13T07:35:03-05:00",
    "file": "data/pricingsaas/pages/diffs/together__2026D317.txt",
@@ -34462,7 +34463,8 @@
    "first_seen": "2026-11-17T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/pika-lowered-credit-costs-for-its-ai-image-models"
+    "https://pricingsaas.com/news/article/pika-lowered-credit-costs-for-its-ai-image-models",
+    "https://pricingsaas.com/news/article/pika-offered-fancy-subscribers-unlimited-video-generations"
    ],
    "fetched_at": "2026-11-17T07:41:18-05:00",
    "file": "data/pricingsaas/pages/diffs/pika__2026D321.txt",
@@ -34803,7 +34805,10 @@
    "fetched_at": "2026-11-17T19:42:15-05:00",
    "file": "data/pricingsaas/pages/diffs/lodgify__2026W47.txt",
    "title": "Lodgify slashes Professional and Ultimate yearly plans 60% for Black Friday — Nov 16, 2026 · PricingSaaS Pulse",
-   "report_id": "lodgify:2026-W47"
+   "report_id": "lodgify:2026-W47",
+   "articles": [
+    "https://pricingsaas.com/news/article/krea-launched-a-black-friday-sale"
+   ]
   },
   "https://pricingsaas.com/companies/linktree/diffs/2026W47": {
    "type": "diff",
@@ -34863,7 +34868,11 @@
    "fetched_at": "2026-11-17T19:42:15-05:00",
    "file": "data/pricingsaas/pages/diffs/koala__2026W47.txt",
    "title": "Koala launches Black Friday sale: 40% off annual plans through Dec 2 — Nov 16, 2026 · PricingSaaS Pulse",
-   "report_id": "koala:2026-W47"
+   "report_id": "koala:2026-W47",
+   "articles": [
+    "https://pricingsaas.com/news/article/krea-launched-a-black-friday-sale",
+    "https://pricingsaas.com/news/article/perplexity-swapped-gpt-6-1-sol-for-gpt-6-2-sol-in-its-model-lineup"
+   ]
   },
   "https://pricingsaas.com/companies/krea/diffs/2026W47": {
    "type": "diff",
@@ -35007,7 +35016,11 @@
    "fetched_at": "2026-11-17T19:42:15-05:00",
    "file": "data/pricingsaas/pages/diffs/invideo__2026W47.txt",
    "title": "InVideo halves Max annual price to $75/seat but cuts credits 8,000 to 5,000 — Nov 16, 2026 · PricingSaaS Pulse",
-   "report_id": "invideo:2026-W47"
+   "report_id": "invideo:2026-W47",
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-raised-its-survey-response-allowances",
+    "https://pricingsaas.com/news/article/pika-offered-fancy-subscribers-unlimited-video-generations"
+   ]
   },
   "https://pricingsaas.com/companies/hostinger/diffs/2026W47": {
    "type": "diff",
@@ -35212,6 +35225,689 @@
    "file": "data/pricingsaas/pages/diffs/env0__2026W47.txt",
    "title": "env0 drops Free-tier note that scheduled runs are skipped after 250 runs/month — Nov 16, 2026 · PricingSaaS Pulse",
    "report_id": "env0:2026-W47"
+  },
+  "https://pricingsaas.com/news/article/synthesia-raised-its-survey-response-allowances": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/synthesia-raised-its-survey-response-allowances.txt",
+   "title": "Synthesia raised its survey response allowances",
+   "published": "2026-11-18T10:02:26.825636+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D322",
+    "https://pricingsaas.com/companies/invideo/diffs/2026W47"
+   ]
+  },
+  "https://pricingsaas.com/news/article/shopify-introduced-a-tax-calculation-fee": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/shopify-introduced-a-tax-calculation-fee.txt",
+   "title": "Shopify introduced a tax calculation fee",
+   "published": "2026-11-18T07:18:47.622176+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/shopify/diffs/2026D322"
+   ]
+  },
+  "https://pricingsaas.com/news/article/krea-launched-a-black-friday-sale": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/krea-launched-a-black-friday-sale.txt",
+   "title": "Krea launched a Black Friday sale",
+   "published": "2026-11-18T07:15:57.482527+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D322",
+    "https://pricingsaas.com/companies/koala/diffs/2026W47",
+    "https://pricingsaas.com/companies/lodgify/diffs/2026W47"
+   ]
+  },
+  "https://pricingsaas.com/news/article/together-added-elorian-glimpse-to-its-chat-catalog": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/together-added-elorian-glimpse-to-its-chat-catalog.txt",
+   "title": "Together added Elorian Glimpse to its chat catalog",
+   "published": "2026-11-18T07:08:12.844836+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/together/diffs/2026D322",
+    "https://pricingsaas.com/companies/together/diffs/2026D317"
+   ]
+  },
+  "https://pricingsaas.com/news/article/mintlify-introduced-a-paid-starter-plan": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/mintlify-introduced-a-paid-starter-plan.txt",
+   "title": "Mintlify tested a paid $150 Starter plan",
+   "published": "2026-11-18T07:07:36.129665+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/mintlify/diffs/2026D322"
+   ]
+  },
+  "https://pricingsaas.com/news/article/cognition-flattened-its-teams-plan-pricing": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/cognition-flattened-its-teams-plan-pricing.txt",
+   "title": "Cognition flattened its Teams plan pricing",
+   "published": "2026-11-18T07:02:41.967177+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/cognition/diffs/2026D322"
+   ]
+  },
+  "https://pricingsaas.com/news/article/coderabbit-included-api-and-mcp-server-access-on-every-plan": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/coderabbit-included-api-and-mcp-server-access-on-every-plan.txt",
+   "title": "Coderabbit included API and MCP server access on every plan",
+   "published": "2026-11-18T07:02:19.013257+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/coderabbit/diffs/2026D322"
+   ]
+  },
+  "https://pricingsaas.com/news/article/vercel-cut-its-blob-storage-overage-rates": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/vercel-cut-its-blob-storage-overage-rates.txt",
+   "title": "Vercel cut its Blob storage overage rates",
+   "published": "2026-11-18T07:01:32.548528+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/vercel/diffs/2026D322"
+   ]
+  },
+  "https://pricingsaas.com/news/article/perplexity-swapped-gpt-6-1-sol-for-gpt-6-2-sol-in-its-model-lineup": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/perplexity-swapped-gpt-6-1-sol-for-gpt-6-2-sol-in-its-model-lineup.txt",
+   "title": "Perplexity swapped GPT-6.1 Sol for GPT-6.2 Sol in its model lineup",
+   "published": "2026-11-18T06:33:50.817111+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/perplexity/diffs/2026D322",
+    "https://pricingsaas.com/companies/koala/diffs/2026W47"
+   ]
+  },
+  "https://pricingsaas.com/news/article/pika-offered-fancy-subscribers-unlimited-video-generations": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-offered-fancy-subscribers-unlimited-video-generations.txt",
+   "title": "Pika offered Fancy subscribers unlimited video generations",
+   "published": "2026-11-18T06:31:10.588217+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D322",
+    "https://pricingsaas.com/companies/pika/diffs/2026D321",
+    "https://pricingsaas.com/companies/invideo/diffs/2026W47"
+   ]
+  },
+  "https://pricingsaas.com/companies/signeasy/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/signeasy__2026W47.txt",
+   "title": "Signeasy renames its sending unit from contracts to envelopes, prices unchanged — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "signeasy:2026-W47"
+  },
+  "https://pricingsaas.com/companies/skyvern/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/skyvern__2026W47.txt",
+   "title": "Skyvern lifts Enterprise cap to unlimited agents, adds SAML SSO and SOC-2 — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "skyvern:2026-W47"
+  },
+  "https://pricingsaas.com/companies/oneupapp/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/oneupapp__2026W47.txt",
+   "title": "OneUp merges DM and Comment automations into one feature across all plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "oneupapp:2026-W47"
+  },
+  "https://pricingsaas.com/companies/pagination/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/pagination__2026W47.txt",
+   "title": "Pagination.com adds 20 GB storage to Professional plan — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "pagination:2026-W47"
+  },
+  "https://pricingsaas.com/companies/signnow/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/signnow__2026W47.txt",
+   "title": "signNow raises Business Premium to $20 per user, cutting savings to $120 — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "signnow:2026-W47"
+  },
+  "https://pricingsaas.com/companies/qdrant/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/qdrant__2026W47.txt",
+   "title": "Qdrant Premium drops AWS/GCP-only limit on custom-key disk encryption — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "qdrant:2026-W47"
+  },
+  "https://pricingsaas.com/companies/optimantra/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/optimantra__2026W47.txt",
+   "title": "OptiMantra offers 50% off for 2 months, adds $19/mo AI Scribe add-on — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "optimantra:2026-W47"
+  },
+  "https://pricingsaas.com/companies/sentry/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/sentry__2026W47.txt",
+   "title": "Sentry trims Seer AI Debugger, dropping error prediction and code review — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "sentry:2026-W47"
+  },
+  "https://pricingsaas.com/companies/opensense/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/opensense__2026W47.txt",
+   "title": "Opensense drops platform license fee, opens integrations to lower plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "opensense:2026-W47"
+  },
+  "https://pricingsaas.com/companies/sarvam/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/sarvam__2026W47.txt",
+   "title": "Sarvam AI ends 50% Bulbul V4 Flash promo, trims Business rate to Rs 1.60 — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "sarvam:2026-W47"
+  },
+  "https://pricingsaas.com/companies/saleshood/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/saleshood__2026W47.txt",
+   "title": "SalesHood reveals pricing at $45-$85 per user/month and adds SalesHood MCP — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "saleshood:2026-W47"
+  },
+  "https://pricingsaas.com/companies/runpod/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/runpod__2026W47.txt",
+   "title": "RunPod raises H100, A100 and RTX Pro 6000 rates, prices new B300 clusters — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "runpod:2026-W47"
+  },
+  "https://pricingsaas.com/companies/roofr/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/roofr__2026W47.txt",
+   "title": "Roofr adds Outlook integration to comparison table next to Gmail — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "roofr:2026-W47"
+  },
+  "https://pricingsaas.com/companies/render/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/render__2026W47.txt",
+   "title": "Render drops 40 GB per-sandbox disk line from Sandboxes Beta card — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "render:2026-W47"
+  },
+  "https://pricingsaas.com/companies/renderforest/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/renderforest__2026W47.txt",
+   "title": "Renderforest adds $0 Free plan with 60 AI credits, lifts Lite to 1,000 a month — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "renderforest:2026-W47"
+  },
+  "https://pricingsaas.com/companies/redpanda/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/redpanda__2026W47.txt",
+   "title": "Redpanda caps free Community Edition at 50 CPU cores, pushes bigger users… — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "redpanda:2026-W47"
+  },
+  "https://pricingsaas.com/companies/pubnub/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/pubnub__2026W47.txt",
+   "title": "PubNub opens Free plan to live production apps, Starter pitched for growth — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "pubnub:2026-W47"
+  },
+  "https://pricingsaas.com/companies/protonpass/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/protonpass__2026W47.txt",
+   "title": "Proton Pass Black Friday deal drops Pass Plus to $1.99/mo, Unlimited to $6.49 — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "protonpass:2026-W47"
+  },
+  "https://pricingsaas.com/companies/proof/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/proof__2026W47.txt",
+   "title": "Proof adds 14-day free trial to $199/mo Pro+ plan, drops Most popular badge — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "proof:2026-W47"
+  },
+  "https://pricingsaas.com/companies/prowler/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/prowler__2026W47.txt",
+   "title": "Prowler adds Realtime exploit and toxic combo detection to Cloud, not Private — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "prowler:2026-W47"
+  },
+  "https://pricingsaas.com/companies/poweroffice/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/poweroffice__2026W47.txt",
+   "title": "PowerOffice prices Årsoppgjør annual accounts module from 1,095 NOK a year — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "poweroffice:2026-W47"
+  },
+  "https://pricingsaas.com/companies/pickfu/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/pickfu__2026W47.txt",
+   "title": "PickFu swaps PickFu+ credits for $200, $1,000 and $5,000 yearly tiers — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "pickfu:2026-W47"
+  },
+  "https://pricingsaas.com/companies/phrase/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/phrase__2026W47.txt",
+   "title": "Phrase renames platform to Localization Platform, prices unchanged — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "phrase:2026-W47"
+  },
+  "https://pricingsaas.com/companies/paychex/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/paychex__2026W47.txt",
+   "title": "Paychex publishes payroll pricing: $65/month plus $8 per employee — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "paychex:2026-W47"
+  },
+  "https://pricingsaas.com/companies/overleaf.page1/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/overleaf.page1__2026W47.txt",
+   "title": "Overleaf lists offline editing: 2 minutes on Free, 10 on paid plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "overleaf.page1:2026-W47"
+  },
+  "https://pricingsaas.com/companies/optery/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/optery__2026W47.txt",
+   "title": "Optery trims data broker removal coverage by 5 sites across all plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "optery:2026-W47"
+  },
+  "https://pricingsaas.com/companies/ornikar.main/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/ornikar.main__2026W47.txt",
+   "title": "Ornikar ends November promo, drops permis to 559,99 EUR only — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "ornikar.main:2026-W47"
+  },
+  "https://pricingsaas.com/companies/optinmonster/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/optinmonster__2026W47.txt",
+   "title": "OptinMonster swaps 40% intro deal for Black Friday up to 60% off, Pro now $29 — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "optinmonster:2026-W47"
+  },
+  "https://pricingsaas.com/companies/openart/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/openart__2026W47.txt",
+   "title": "OpenArt expands promo to up to 50% off GPT Image 2.6, Seedream, Kling, Recraft — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "openart:2026-W47#3"
+  },
+  "https://pricingsaas.com/companies/onstipe/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/onstipe__2026W47.txt",
+   "title": "Onstipe ends Halloween promo, pulling 20% off all plans and HLW20 code — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "onstipe:2026-W47"
+  },
+  "https://pricingsaas.com/companies/onpipeline/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/onpipeline__2026W47.txt",
+   "title": "Onpipeline adds WhatsApp integration, spotlights WhatsApp, email and SMS — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "onpipeline:2026-W47"
+  },
+  "https://pricingsaas.com/companies/liveagent/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/liveagent__2026W47.txt",
+   "title": "LiveAgent extends offer-price lock to existing customers switching plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "liveagent:2026-W47"
+  },
+  "https://pricingsaas.com/companies/oncord/diffs/2026W47": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [
+    "feed"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/oncord__2026W47.txt",
+   "title": "Oncord renames email send limit to \"Marketing Sends,\" adds SMS FAQ — Nov 16, 2026 · PricingSaaS Pulse",
+   "report_id": "oncord:2026-W47"
+  },
+  "https://pricingsaas.com/companies/synthesia/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-raised-its-survey-response-allowances"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/synthesia__2026D322.txt",
+   "title": "Synthesia splits pricing into individual/business tabs, hides Enterprise… — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "synthesia:2026-W48"
+  },
+  "https://pricingsaas.com/companies/shopify/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/shopify-introduced-a-tax-calculation-fee"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/shopify__2026D322.txt",
+   "title": "Shopify adds 0.35% tax calculation fee with new Tax managed by Shopify — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "shopify:2026-W48"
+  },
+  "https://pricingsaas.com/companies/krea/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/krea-launched-a-black-friday-sale"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/krea__2026D322.txt",
+   "title": "Krea launches Black Friday sale with up to 70% off yearly plans — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "krea:2026-W48"
+  },
+  "https://pricingsaas.com/companies/together/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/together-added-elorian-glimpse-to-its-chat-catalog"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/together__2026D322.txt",
+   "title": "Together AI adds Elorian Glimpse 1.0 ($0.60/$3.00), drops Qwen2.5 7B Turbo — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "together:2026-W48"
+  },
+  "https://pricingsaas.com/companies/mintlify/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/mintlify-introduced-a-paid-starter-plan"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/mintlify__2026D322.txt",
+   "title": "Mintlify adds $150/mo Starter plan with 10 editors, Agent and Autopilot — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "mintlify:2026-W48#2"
+  },
+  "https://pricingsaas.com/companies/cognition/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/cognition-flattened-its-teams-plan-pricing"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/cognition__2026D322.txt",
+   "title": "Devin drops Teams per-seat fee to flat $80/month, adds Devin Bots — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "cognition:2026-W48"
+  },
+  "https://pricingsaas.com/companies/coderabbit/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/coderabbit-included-api-and-mcp-server-access-on-every-plan"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/coderabbit__2026D322.txt",
+   "title": "CodeRabbit includes API and MCP server access on every plan now — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "coderabbit:2026-W48"
+  },
+  "https://pricingsaas.com/companies/vercel/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/vercel-cut-its-blob-storage-overage-rates"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/vercel__2026D322.txt",
+   "title": "Vercel cuts Blob overage rates 12.5%, adds volume-tiered pricing signal — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "vercel:2026-W48"
+  },
+  "https://pricingsaas.com/companies/perplexity/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/perplexity-swapped-gpt-6-1-sol-for-gpt-6-2-sol-in-its-model-lineup"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/perplexity__2026D322.txt",
+   "title": "Perplexity AI upgrades included AI model to GPT-6.2 Sol, replacing GPT-6.1 Sol — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "perplexity:2026-W48"
+  },
+  "https://pricingsaas.com/companies/pika/diffs/2026D322": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-18T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-offered-fancy-subscribers-unlimited-video-generations"
+   ],
+   "fetched_at": "2026-11-18T07:39:36-05:00",
+   "file": "data/pricingsaas/pages/diffs/pika__2026D322.txt",
+   "title": "Pika offers unlimited Wan 3.0 generations on Fancy plan through Nov 23 — Nov 18, 2026 · PricingSaaS Pulse",
+   "report_id": "pika:2026-W48#2"
   }
  }
 }

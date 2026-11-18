@@ -1,0 +1,92 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/RunPod/All changes/Price raised 8%
+R
+RunPod
+Pricing changePrice increaseNov 9 → Nov 16, 2026 UTC
+RunPod raises H100, A100 and RTX Pro 6000 rates, prices new B300 clusters
+Detected Nov 15, 2026, 10:55 PM ETCloud & DevOpsDirection: up
+The changePrice up 8%
+Before · Nov 9 UTC$2.49
+After · Nov 16 UTC$2.69
++8%
+1 change2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of RunPod's pricing page, Pulse recorded one change: Pod rates up (RTX Pro 6000 $2.49 to $2.69, H100 SXM $3.99 to $4.39, A100 SXM $1.79 to $2.19) and Serverless H100 $5.39 to $5.89; Clusters B200 $9.59, H100 $4.79, B300 $10.79 now priced. In detail: Secure Cloud Pod rates up on 9 of 21 GPUs (RTX Pro 6000 $2.49→$2.69, H100 SXM $3.99→$4.39, A100 PCIe $1.79→$2.09, A100 SXM $1.79→$2.19, Pro 6000 MIG 48GB $1.29→$1.39, RTX 6000 Ada $0.99→$1.09, RTX A6000 $0.59→$0.69, RTX 5090 $1.19→$1.39, L4 $0.59→$0.69); Serverless up on 5 of 13 (RTX 6000 Pro $3.49→$3.69, H100 $5.39→$5.89, A100 $2.72→$2.99, L40/L40S/6000 Ada $1.75→$1.89, 5090 $1.79→$1.89); on-demand Clusters B200 $9.59 and H100 SXM $4.79 /GPU/hr now priced (were Contact sales), B300 $10.79 added, L40S dropped. Pulse files it as a pricing change (price increase) with an upward direction. The current page lists Storage at $0.05 per GB/month, Pods - Community Cloud at $0.16 per GPU-hour, Pods - Secure Cloud at $0.27 per GPU-hour, Serverless at $0.58 per GPU-hour and Clusters at $1.79 per GPU-hour.
+It lands 7 days after RunPod's previous change, "RunPod exposes Community Cloud GPU rates: H100 from $1.99/hr, A100 from $1.19/hr" (Nov 8, 2026). Before that Pulse recorded "RunPod raises Serverless GPU prices up to 25%, drops savings claim" (Nov 1, 2026), "RunPod raises GPU rates: H200 cluster jumps 47% to $6.35/hr" (Oct 19, 2026) and "RunPod raises GPU cloud rates, B200 jumps to $7.99/hr and H100 to $3.99/hr" (Oct 11, 2026). RunPod has been tracked since 2026-04-29.
+In the same window Together AI, Modal and Lambda Labs also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+—Price
++8%
+$2.49→$2.69
+Plan
+Field
+Before
+After
+Change
+—
+Price
+$2.49
+$2.69
++8%
+Values as written on RunPod's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of RunPod's pricing page (www.runpod.io) from Nov 9, 2026 and Nov 16, 2026; the change is marked near the top of the page, where price reads $2.49 and then $2.69.
+Nov 9, 2026 UTCPrice at $2.49
+Nov 16, 2026 UTCPrice at $2.69
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+RunPod, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 15, 2026Price increaseRunPod raises H100, A100 and RTX Pro 6000 rates, prices new B300 clusters This change
+Nov 8, 2026PackagingRunPod exposes Community Cloud GPU rates: H100 from $1.99/hr, A100 from $1.19/hr
+Nov 1, 2026Price increaseRunPod raises Serverless GPU prices up to 25%, drops savings claim
+Oct 19, 2026Price increaseRunPod raises GPU rates: H200 cluster jumps 47% to $6.35/hr
+Oct 11, 2026Price increaseRunPod raises GPU cloud rates, B200 jumps to $7.99/hr and H100 to $3.99/hr
+Sep 7, 2026Price increaseRunPod hikes GPU rates on Pods: H100 up to $3.49/hr, A100 to $1.59/hr
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Together AINov 16Together AI: HGX B200 GPU rate rises to $9.29/hr; hidden prices revealed
+ModalNov 16Modal adds per-token pricing for 12 open-weight models like Kimi K3.1 Pro
+Lambda LabsNov 9Lambda Labs raises on-demand GPU prices, with H100 up to $4.59/hr
+Questions about this change
+Did RunPod raise prices in November 2026?
+Yes. Pulse captured RunPod's pricing page on Nov 9, 2026 and again on Nov 16, 2026 UTC and recorded 1 price increase: $2.49 → $2.69 (+8%).
+What changed on RunPod's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Price: $2.49 → $2.69 (+8%). Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does RunPod change its pricing?
+Pulse recorded 5 other pricing-page changes for RunPod in the 90 days before this one; the previous change was "RunPod exposes Community Cloud GPU rates: H100 from $1.99/hr, A100 from $1.19/hr" on Nov 8, 2026; RunPod has been tracked since 2026-04-29.
+RunPod plans today
+All plans
+Storage
+$0.05 per GB/month
+Pods - Community Cloud
+$0.16 per GPU-hour
+Pods - Secure Cloud
+$0.27 per GPU-hour
+Serverless
+$0.58 per GPU-hour
+Clusters
+$1.79 per GPU-hour
+Reserved Clusters
+Contact
+Price
+$2.69
+Tracked alongside
+L
+Lambda Labs
+P
+Paper
+V
+Vast.ai
+M
+Modal
+T
+Together AI
+C
+Coreweave

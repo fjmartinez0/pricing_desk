@@ -1,0 +1,92 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Skyvern/All changes/Enterprise concurrency limit changed
+S
+Skyvern
+Packaging changeFeature addedLimit raisedNov 9 → Nov 16, 2026 UTC
+Skyvern lifts Enterprise cap to unlimited agents, adds SAML SSO and SOC-2
+Detected Nov 15, 2026, 11:04 PM ETAI & Machine Learning
+The changeEnterprise: limit up
+Before · Nov 9 UTC100 concurrent runs
+After · Nov 16 UTCunlimited concurrent agents
+changed
+2 changes2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of Skyvern's pricing page, Pulse recorded 2 changes: Enterprise concurrency limit raised from 100 concurrent runs to unlimited concurrent agents; Enterprise adds SAML SSO, role-based access control, SOC-2 Type 2, Dedicated Agent Phone and Email Inbox; Bitwarden integration dropped from the list. In detail: Enterprise card adds SAML SSO, role-based access control, SOC-2 Type 2 compliance (was SOC-2 Report), Dedicated Agent Phone and Dedicated Agent Email Inbox. Bitwarden integration is no longer listed on the Enterprise card but remains in the comparison table. Pulse files it as a packaging change (feature added, limit raised). The current page lists Hobby at $29 and Pro at $149.
+It lands 14 days after Skyvern's previous change, "Skyvern scraps free plan, moving Hobby and Pro to 30,000-credit 14-day trials" (Nov 1, 2026). Before that Pulse recorded "Skyvern adds $10/mo SMS number add-on to Pro, between 2FA and 1Password" (Sep 28, 2026). Skyvern has been tracked since 2026-09-09.
+In the same window Cypress.io, Puppet, UiPath, Zapier and Make also changed their AI & Machine Learning pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+EnterpriseFeature
+Added
+Not listed→SAML SSO
+EnterpriseLimit
+Changed
+Before100 concurrent runs
+Afterunlimited concurrent agents
+Plan
+Field
+Before
+After
+Change
+Enterprise
+Feature
+Not listed
+SAML SSO
+Added
+Enterprise
+Limit
+100 concurrent runs
+unlimited concurrent agents
+Changed
+Values as written on Skyvern's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Skyvern's pricing page (www.skyvern.com) from Nov 9, 2026 and Nov 16, 2026; the change is marked near the top of the page, where "100 concurrent runs" becomes "unlimited concurrent agents".
+Nov 9, 2026 UTC100 concurrent runs
+Nov 16, 2026 UTCunlimited concurrent agents
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Skyvern, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 15, 2026Limit raisedSkyvern lifts Enterprise cap to unlimited agents, adds SAML SSO and SOC-2 This change
+Nov 1, 2026PackagingSkyvern scraps free plan, moving Hobby and Pro to 30,000-credit 14-day trials
+Sep 28, 2026PackagingSkyvern adds $10/mo SMS number add-on to Pro, between 2FA and 1Password
+Across AI & Machine Learning in the same window
+All AI & Machine Learning changes
+Cypress.ioOct 19Cypress.io adds Re-run optimization to Business plan and comparison table
+PuppetOct 12Puppet includes standard support in all plans, adds 24x7 premium option
+UiPathOct 5UiPath splits Maestro into Automate and Orchestrate offerings
+ZapierSep 28Zapier retires "Zap workflows" name, rebrands to "Zaps" in app
+MakeAug 24Make: Relation trees feature removed from comparison table
+Questions about this change
+Did Skyvern raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a packaging change: feature added, limit raised.
+What changed on Skyvern's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Enterprise feature added: SAML SSO; Enterprise limit: 100 concurrent runs → unlimited concurrent agents, changed. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Skyvern change its pricing?
+Pulse recorded 2 other pricing-page changes for Skyvern in the 90 days before this one; the previous change was "Skyvern scraps free plan, moving Hobby and Pro to 30,000-credit 14-day trials" on Nov 1, 2026; Skyvern has been tracked since 2026-09-09.
+Skyvern plans today
+All plans
+Hobby
+$29
+Pro
+$149
+Enterprise
+Contact
+Tracked alongside
+P
+Playwright
+P
+Puppet
+C
+Cypress.io
+U
+UiPath
+Z
+Zapier
+M
+Make

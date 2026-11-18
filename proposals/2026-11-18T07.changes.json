@@ -1,0 +1,281 @@
+{
+ "type": "changes",
+ "run": "2026-11-18T07",
+ "items": [
+  {"diff_id": "addigy-2026-11-18T07", "kind": "wording", "why": "A pricing-at-a-glance summary paragraph was added; no price or plan change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bolster-2026-11-18T07", "kind": "new_feature", "why": "A new Daily logs feature was added to the feature list; a competitor comparison cell for Buildertrend was reworded.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "clickup-2026-11-18T07",
+   "kind": "free_plan",
+   "why": "The Free plan lost its Brain² trial (500 credits per workspace) and AI features now show Not included on Free; AI is described as included on paid plans only.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "AI removed from Free",
+    "short": "Free plan loses its Brain² trial of 500 credits per workspace; AI features now show Not included on Free.",
+    "pattern": "AI moves between tiers",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 2,
+    "plan": "Free",
+    "deltaSub": "Free plan AI credit allowance",
+    "headline": "ClickUp now limits AI to paid plans: the Free plan’s Brain² trial with 500 credits per workspace is gone and its AI features are marked Not included.",
+    "rows": [
+     ["Free, AI Credits", "500 / workspace", "Not included"],
+     ["Free, Talk-to-Text", "Trial", "Not included"],
+     ["Page copy on AI", "Every plan ships with ClickUp Brain²", "Paid plans include ClickUp Brain²"]
+    ],
+    "who": "Workspaces on the Free plan; paid plans keep their pooled monthly AI credit allowances.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "AI is being positioned as a paid-plan benefit, which pushes free workspaces to upgrade to try Brain². This is an inference from the page copy changing from every plan to paid plans.",
+    "caveat": "Based on the pricing page and comparison table only; no announcement was found.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -100, "high": -100, "basis": "allowance"}
+   },
+   "promo": null
+  },
+  {"diff_id": "commpeak-2026-11-18T07", "kind": "new_feature", "why": "A banner announcing the CommPeak MCP was added; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "crystal-2026-11-18T07", "kind": "noise", "why": "Log in and Sign up links were split onto separate lines; layout only.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "expressvpn-2026-11-18T07",
+   "kind": "promo",
+   "why": "The Early Access Black Friday sale was replaced by a Black Friday sale ending soon, with slightly lower promo prices (Basic USD$2.99 → USD$2.79 per month); renewal prices unchanged.",
+   "detail": "card",
+   "record": null,
+   "promo": {"kind": "changed", "text": "Black Friday Sale: up to 81% off 2-year plans (was up to 80% in early access); Basic USD$2.79/mo, Advanced USD$3.99/mo, Express Pro USD$6.99/mo"}
+  },
+  {
+   "diff_id": "freshbooks-2026-11-18T07",
+   "kind": "promo",
+   "why": "The 80% off limited-time offer was replaced by a Black Friday deal of 90% off for 4 months plus free Payroll for 4 months; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "changed", "text": "Black Friday: 90% off FreshBooks for 4 months plus Payroll free for 4 months (was 80% off for 4 months)"}
+  },
+  {"diff_id": "n8n-2026-11-18T07", "kind": "noise", "why": "Only the community edition counter changed (210,368 → 210,917).", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "notion-2026-11-18T07",
+   "kind": "free_plan",
+   "why": "FAQ now says every Free Plan workspace has a limited number of blocks; before, a Free workspace used by one person could add as many blocks as it liked.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Solo block cap added",
+    "short": "Free-plan workspaces used by one person no longer get unlimited blocks; a limited number of blocks now applies to every Free workspace.",
+    "pattern": "Limits tighten",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 3,
+    "plan": "Free",
+    "deltaSub": "Free plan block storage, solo workspaces",
+    "headline": "Notion’s FAQ now says every Free Plan workspace has a block limit, where a Free workspace used by one person could previously add as many pages and blocks as it liked.",
+    "rows": [
+     ["Free, solo workspace block limit", "As many as you like", "Limited number"],
+     ["Free, multi-member workspace block limit", "Limited number", "Limited number"]
+    ],
+    "who": "People using the Free plan on their own; multi-member Free workspaces already had a limit.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "This tightens the free tier for solo users and nudges heavy personal users toward a paid plan. It is an inference from the FAQ wording alone.",
+    "caveat": "Only the FAQ text changed; the page gives no limit figure, date or enforcement details.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "scribe-2026-11-18T07",
+   "kind": "free_plan",
+   "why": "The free Basic plan now lists a cap of up to 10 guides created and shared; the earlier page listed no cap. Enterprise feature list was also reshuffled with no price change.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "10-guide cap",
+    "short": "The free Basic plan now lists a limit: create and share up to 10 guides.",
+    "pattern": "Limits tighten",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 3,
+    "plan": "Basic (Free)",
+    "deltaSub": "Free plan guides created and shared",
+    "headline": "Scribe’s pricing page now states that the free Basic plan lets users create and share up to 10 guides, a limit the earlier page did not list.",
+    "rows": [
+     ["Basic (Free), guides created and shared", "No limit listed", "Up to 10"]
+    ],
+    "who": "Free Basic users; the page does not say whether existing free accounts are capped.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A visible cap on the free plan turns it into a trial-style funnel toward paid seats. This is our interpretation of the added feature line.",
+    "caveat": "The earlier page listed no limit, so this may be a new cap or a limit that was newly disclosed.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "together-ai-2026-11-18T07", "kind": "new_feature", "why": "Elorian Glimpse 1.0 was added to the model price list, and Rnj-1 Instruct and Qwen2.5 7B Instruct Turbo were delisted; no existing model price changed.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "vercel-2026-11-18T07",
+   "kind": "price_cut",
+   "why": "Blob simple operations $0.40 → $0.35 per 1M and advanced operations $5 → $4.50 per 1M; rows now read Starting at, suggesting volume tiers. Other Starting at labels were dropped with no price change.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−12.5% / −10%",
+    "short": "Blob simple operations $0.40 → $0.35 per 1M and advanced operations $5 → $4.50 per 1M.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "elevenlabs-2026-11-18T07",
+   "kind": "promo",
+   "why": "The 30,000 credits for $1 banner was replaced by a Black Friday offer of up to 55% off ending December 1.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: up to 55% off, ends December 1"}
+  },
+  {"diff_id": "snyk-2026-11-18T07", "kind": "noise", "why": "Language selector and login/sign-up navigation added; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "raycast-2026-11-18T07", "kind": "noise", "why": "A Guides link was added to the footer navigation.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "modal-2026-11-18T07",
+   "kind": "metering",
+   "why": "A footnote now states a minimum of 128 MiB of memory per container for billing, matching the existing 0.125 core CPU minimum. It may be newly disclosed rather than newly introduced.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "128 MiB min",
+    "short": "Memory billing now shows a minimum of 128 MiB per container, alongside the existing minimum of 0.125 cores.",
+    "pattern": "Minimums",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "resend-2026-11-18T07", "kind": "noise", "why": "Rotating customer testimonials and avatar initials changed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "dropzone-ai-2026-11-18T07", "kind": "wording", "why": "Federal plan copy reworded (FedRAMP High wording); pricing is by request.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "day-2026-11-18T07", "kind": "support", "why": "A forward-deployed account executive service line was removed from the top plan feature list; it is a service, not software.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "klenty-2026-11-18T07",
+   "kind": "promo",
+   "why": "A Black Friday banner was added with up to 20% off all annual plans until Nov 30, 2026, and promo prices were struck through (Starter $50 → $40, Growth $70 → $56, Plus $99 → $89).",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: up to 20% off all annual plans, ends Nov 30, 2026 (Starter $40, was $50)"}
+  },
+  {"diff_id": "kilo-code-2026-11-18T07", "kind": "new_feature", "why": "A banner announcing Kilo Desktop general availability was added; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "webflow-2026-11-18T07", "kind": "new_feature", "why": "EU hosting and a WAF row were added to the plan feature lists as new capabilities; no existing price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "sambanova-2026-11-18T07", "kind": "wording", "why": "Meta-Llama-3.3-70B-Instruct was delisted from the price table; no price on a remaining model changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "pulumi-2026-11-18T07", "kind": "wording", "why": "Footer tagline reworded; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "browser-use-2026-11-18T07", "kind": "price_reveal", "why": "A table of typical per-run costs (about $0.03 to $0.05 per task) was added; these are estimates, and no plan price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "ashby-2026-11-18T07", "kind": "new_feature", "why": "AI Interviewer was added as a new paid add-on; no existing price changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "accelevents-2026-11-18T07", "kind": "wording", "why": "Plan labels were clarified (1 Event → Per Event, Unlimited Events → Per Year, Unlimited Events) and a per-plan feature table was added; prices stay $7,500 and $13,500.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "abacus-ai-2026-11-18T07", "kind": "wording", "why": "Listed model names were updated (GPT 6.1 Sol → GPT 6.2 Sol); no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "jobber-2026-11-18T07", "kind": "noise", "why": "A stray play icon was removed from the page text.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "sketchup-2026-11-18T07", "kind": "new_feature", "why": "An Import SketchUp files into Revit capability was added to the Studio plan list; no price change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "salesmotion-2026-11-18T07",
+   "kind": "free_plan",
+   "why": "The API-only start-free plan with 100 free credits was replaced by API and MCP included in Enterprise; API access went from custom team and enterprise plans to the Enterprise plan only.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Free API tier removed",
+    "short": "The API-only plan with 100 free credits is gone; API and MCP access are now listed as included in Enterprise only.",
+    "pattern": "Free plans as funnels",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "quriobot-2026-11-18T07",
+   "kind": "price_cut",
+   "why": "The unlimited-chats plan went from 94 $/m to 93 $/m; the other tiers did not move, so this may be a rounding or conversion artifact.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−1.1%",
+    "short": "Unlimited-chats plan 94 $/m → 93 $/m.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {"diff_id": "pdq-2026-11-18T07", "kind": "price_reveal", "why": "Unstable capture. The page was retitled PDQ pricing and now also shows Deploy & Inventory at $1,950 per admin per year, a price not previously on this page; Connect plan prices unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "airwallex-2026-11-18T07", "kind": "non_software", "why": "Only long fine-print lines about Yield returns and interest rates changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "adalo-2026-11-18T07", "kind": "noise", "why": "An Arabic language option was added to the language list.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "browse-ai-2026-11-18T07",
+   "kind": "limit_change",
+   "why": "Website allowances rose: the 3-user plan 5 → 10 websites and the 10-user plan 10 → 50 websites, with no price change.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×2 / ×5",
+    "short": "Website allowance 5 → 10 on the 3-user plan and 10 → 50 on the 10-user plan.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "ahrefs-2026-11-18T07", "kind": "wording", "why": "Intro copy, the Data Studio integration name and a prompt count (572 million → 578 million) changed; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "virtru-2026-11-18T07", "kind": "noise", "why": "A site navigation menu was added and a launch event banner removed; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "threadeo-2026-11-18T07", "kind": "new_feature", "why": "A Deposition Chat link was added to the product menu; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "payfacile-2026-11-18T07", "kind": "noise", "why": "A Skip to content accessibility link was added.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bonusly-2026-11-18T07", "kind": "price_hidden", "why": "The Bizy add-on pricing block ($2 per user per month, free during trial) was removed from the page.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "missive-2026-11-18T07", "kind": "noise", "why": "Customer testimonials were reordered and rotated; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "topaz-labs-2026-11-18T07", "kind": "noise", "why": "Black Friday banner repeats and duplicate plan blocks moved or dropped in the page render; the sale banner was already on the page.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "todoist-2026-11-18T07",
+   "kind": "feature_move",
+   "why": "Task Assist is no longer listed on paid plans and Todoist Automations (beta, with AI steps) is listed on Pro and Business; Ramble on Beginner went from Limited sessions to 10 sessions/month.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Task Assist replaced",
+    "short": "Task Assist is dropped from the plan lists and Todoist Automations (beta) added on Pro and Business; Beginner Ramble is now 10 sessions/month.",
+    "pattern": "AI moves between tiers",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "mid",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "cloudflare-2026-11-18T07", "kind": "wording", "why": "A doc note added file summaries to the usage that is billed separately; no rate change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "aws-2026-11-18T07", "kind": "new_feature", "why": "S3 Vectors full-text search and an optional Multipath Resilience inter-Region transfer charge were added, and pricing examples were rewritten; no existing rate changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "phase-two-2026-11-18T07", "kind": "wording", "why": "The announcement banner changed to Keycloak Skills; no price change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "browserless-2026-11-18T07", "kind": "wording", "why": "Page redesigned with a plan comparison table and rewritten FAQ; plan prices, unit allowances and overage rates are unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "simplelocalize-2026-11-18T07", "kind": "wording", "why": "FAQ wording changed from public suggestions to Community; limits unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "lovable-2026-11-18T07", "kind": "noise", "why": "The earlier snapshot had no plan cards rendered, so the full plan block appears as added; this looks like a capture difference, not a pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "close-2026-11-18T07", "kind": "wording", "why": "Plan taglines and feature blurbs were reworded and calling features regrouped; prices and allowances are unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bittitan-2026-11-18T07", "kind": "wording", "why": "The event banner now mentions SharePoint Site migration; no price change.", "detail": "line", "record": null, "promo": null}
+ ]
+}

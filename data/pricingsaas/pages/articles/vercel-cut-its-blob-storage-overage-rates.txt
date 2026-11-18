@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+V
+Vercel
+PRICE DECREASE
+Vercel cut its Blob storage overage rates
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 18, 2026
+Vercel lowered Blob storage overage rates on its Pro plan.
+See before and after
+Enlarge
+Vercel’s pricing page · Change detected Nov 18, 2026
+What changed
+Per Vercel's pricing page as of Nov 18, 2026, Pro plan Blob storage Simple Operations overage fell from $0.40 to $0.35 per 1M, a 12.5% cut. Advanced Operations overage also fell, from $5 to $4.50 per 1M, per Vercel's pricing page as of Nov 18, 2026, with that line now labeled 'Starting at $4.50 per 1M' rather than shown as a flat rate.
+Why it matters
+For a product leader watching Vercel's usage pricing, this is a rare instance of Vercel cutting a metered rate rather than raising or restructuring one. Vercel averaged a pricing change roughly every 11 days, with 15 changes in the last 90 days, according to Pulse — most of that activity has been new metered lines or additions rather than reductions. A modest cut to overage rates lowers the cost for teams that occasionally run past their included Blob operations allowance, which matters more as usage-based lines multiply across the platform.
+Watch whether the 'Starting at' label on Advanced Operations becomes a real volume-tiered rate card: that wording change, more than the discount itself, is the signal worth tracking. If Vercel follows its other usage-billing moves this year with a tiered structure, overage math gets more complex for teams forecasting cloud spend — worth modeling before assuming today's per-unit rate holds at higher volumes.
+In context
+Vercel has touched its usage-based lines constantly this year, and this cut comes right after a run of additions: Pulse tracked a 14x boost to Pro trace retention on Nov 6, 2026, plus new metered charges for Drives storage and Daemons CPU time earlier in October. Pulse tracked 400 pricing changes involving credits-and-usage billing across 268 companies in the last 180 days — 12.1% of the 3,298 changes it tracked in that window — so Vercel is moving with a market-wide shift toward metered pricing, not against it. This one is a single rate cut inside that metered-pricing trend. The sharper read: Vercel trimmed Simple Operations 12.5% per its pricing page on Nov 18, 2026 while relabeling Advanced Operations 'Starting at' — wording that may point to volume tiers, though Vercel's page does not say so.
+Common questions
+Does this cut apply automatically, or do we need to change anything?
+It's automatic — these are overage rates that only apply once a team's usage exceeds its plan's included Blob allowance, so no setup is needed to get the lower price; teams that stay within their included allowance won't notice any difference.
+Is this part of a bigger shift toward metered Blob pricing?
+Possibly — both Blob Operations rows are now labeled 'Starting at' instead of a flat rate on Vercel's pricing page as of Nov 18, 2026, which often signals a tiered price list is coming; Vercel has changed its pricing roughly every 11 days since Pulse began tracking it on Dec 29, 2025, so its next few updates are worth watching for a tiered rate card.
+Why would Vercel cut a usage rate instead of raising it like most of its recent changes?
+Vercel's tracked history leans toward new features, add-ons and price restructuring rather than price cuts, per Pulse, so this overage reduction is more the exception than the pattern — worth noting rather than expecting as a trend.
+Sources
+Pulse: Vercel pricing changes, Nov 18, 2026pricingsaas.com/companies/vercel/diffs/2026D322
+Vercel pricing pagevercel.com/pricing
+Keep exploring
+All changes from VercelAll pricing news
+T
+Together
+Together added a US geo-pinned premium tier for serverless models
+P
+Perplexity
+Perplexity swapped Gemini Flash for Gemini Hydrogen
+H
+Heygen
+Heygen refreshed its Avatar engine lineup on Pro and Creator

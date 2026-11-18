@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+A/B TEST
+Together added Elorian Glimpse to its chat catalog
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 18, 2026
+Together added Elorian Glimpse 1.0 to its serverless chat catalog.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 18, 2026
+What changed
+Together's Serverless Inference catalog added Elorian Glimpse 1.0 at $0.60 per 1M input tokens, $3.00 per 1M output tokens and $0.06 per 1M cached tokens, per the pricing page Pulse saved on Nov 18, 2026. Per that same Nov 18, 2026 page, Together dropped Rnj-1 Instruct, priced at $0.15 per 1M tokens each way, and Qwen2.5 7B Instruct Turbo, priced at $0.30 per 1M tokens each way, from the chat pricing table. Pulse's experiment detection flags this catalog change as one arm of a test (adding Elorian Glimpse 1.0 versus adding MiniMax M3.1 Flash, first seen in week 44), so the lineup may flip back. A 12-fetch check of together.ai/pricing on Nov 18, 2026 showed no experiment markers or price variance, but it reads server-side HTML only.
+Why it matters
+For teams building on serverless inference, catalog churn like this is the real cost signal, not the sticker price on any one model: Together's model lineup turns over on roughly the same cadence as its prices do, so a workload pinned to a single model name can lose that model, not just see it reprice. Elorian Glimpse lands in the budget tier of Together's chat catalog, with input pricing well below its output pricing, which rewards short-prompt, long-output workloads differently than the flat per-token pricing on the models it replaced.
+If your own product prices on top of a model layer like this one, the lesson is to build for substitution, not stability: pin an explicit model version, track the vendor's catalog on a schedule rather than assuming it is static, and keep a fallback ready for when a model you depend on disappears from the table. Watch whether Together's budget-tier lineup keeps turning over at this pace or settles once the newest entrants bed in.
+In context
+Pulse has tracked 44 real pricing changes on Together's page since it began tracking the company on Dec 29, 2025, a change roughly every 7 days, and this swap lands just 5 days after Together raised HGX B200 GPU prices on Nov 13, 2026. Catalog swaps are Together's most common type of move: Pulse has tracked at least three such swaps in the past year, including a Qwen3.8 Flash-for-Gemma swap on Sep 1, 2026. Pulse tracked 354 of 3,298 pricing changes across 289 companies as feature or catalog changes in the last 180 days, a pattern Perplexity and HubSpot lean on most. The sharper read: Together isn't repricing its catalog so much as continuously rotating it, so the real question for a buyer isn't what a given model costs today but how long it will still be on the table.
+Common questions
+How do I size what this would cost my own workload?
+Multiply Together's per-1M-token input and output rates for Elorian Glimpse by your own monthly token volume on each side — the same formula Together's own billing uses, available on its pricing page.
+What should I check before switching a workload to Elorian Glimpse?
+Benchmark output quality and latency yourself before committing — Pulse's pack tracks price and catalog changes, not model quality, and a newly added model has no track record yet on either.
+Should I expect more changes like this soon?
+Given Together's pace of change, build a quarterly review of its model catalog into your own roadmap rather than treating this swap as a one-time update.
+Sources
+Pulse: Together pricing changes, Nov 18, 2026pricingsaas.com/companies/together/diffs/2026D322
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+P
+Pika
+Pika launched Creator Team and Pro Team plans
+F
+Fireflies
+Fireflies narrowed its Enterprise HIPAA claim to require a BAA
+O
+OpenAI
+OpenAI reframed its plan taglines around use cases

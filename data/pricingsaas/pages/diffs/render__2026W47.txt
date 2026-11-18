@@ -1,0 +1,92 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Render/All changes/GB of disk included per sandbox removed
+R
+Render
+Product changeFeature removedNov 9 → Nov 16, 2026 UTC
+Render drops 40 GB per-sandbox disk line from Sandboxes Beta card
+Detected Nov 15, 2026, 10:53 PM ETSoftware Development & Testing
+The changeGB of disk included per sandbox removed
+Before · Nov 9 UTC40 GB of disk included per sandbox
+After · Nov 16 UTCNot listed
+removed
+1 change2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of Render's pricing page, Pulse recorded one change: Render Sandboxes (Beta) card no longer lists '40 GB of disk included per sandbox'. Card copy also trimmed ('Can run indefinitely' dropped, but the compare table still shows Maximum session length: No limit). Pulse files it as a product change (feature removed). The current page lists Pro at $25, Scale at $499, Postgres - 64c-256g at $3,000, Postgres - 64c-512g at $6,000 and Postgres - 128c-1024g at $11,000.
+It lands 7 days after Render's previous change, "Render Sandboxes now run indefinitely, Postgres adds connection pooling" (Nov 8, 2026). Before that Pulse recorded "Render launches Sandboxes beta: $0.12/CPU-hour microVMs for agent workloads" (Nov 1, 2026), "Render: Workflows comparison rows changed from concurrent task runs (20/50/100, then $10/mo per 50) to parallel task…" (Oct 26, 2026) and "Render Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved" (Oct 4, 2026). Render has been tracked since 2024-10-01.
+In the same window Digitalocean, Google Cloud, Aws and Railway also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+—Feature
+Removed
+Before40 GB of disk included per sandbox
+AfterNot listed
+Plan
+Field
+Before
+After
+Change
+—
+Feature
+40 GB of disk included per sandbox
+Not listed
+Removed
+Values as written on Render's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Render's pricing page (render.com) from Nov 9, 2026 and Nov 16, 2026; the change is marked around the middle of the page, where the GB of disk included per sandbox no longer appears.
+Nov 9, 2026 UTC40 GB of disk included per sandbox
+Nov 16, 2026 UTCGB of disk included per sandbox not listed
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Render, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 15, 2026Feature removedRender drops 40 GB per-sandbox disk line from Sandboxes Beta card This change
+Nov 8, 2026PackagingRender Sandboxes now run indefinitely, Postgres adds connection pooling
+Nov 1, 2026ImprovementRender launches Sandboxes beta: $0.12/CPU-hour microVMs for agent workloads
+Oct 26, 2026PackagingRender: Workflows comparison rows changed from concurrent task runs (20/50/100, then $10/mo per 50) to parallel task…
+Oct 4, 2026Price decreaseRender Key Value cuts compute prices up to 45% and adds 50 GB tier; Workflows max compute halved
+Sep 28, 2026PackagingRender: Workflows compute doubles to 8 CPU / 32 GB RAM
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+DigitaloceanNov 16DigitalOcean launches Secrets Manager add-on at $0.40/secret-month
+Google CloudNov 9Google Cloud Datastudio overhauls token allocation to per-user tiers, caps free…
+AwsNov 9Aws Mwaa adds per-second billing for Customer Managed Tasks in Serverless
+RailwaySep 21Railway launches usage-billed Sandboxes & VMs for AI agents and builds
+Questions about this change
+Did Render raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a product change: feature removed.
+What changed on Render's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Feature removed: 40 GB of disk included per sandbox. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Render change its pricing?
+Pulse recorded 5 other pricing-page changes for Render in the 90 days before this one; the previous change was "Render Sandboxes now run indefinitely, Postgres adds connection pooling" on Nov 8, 2026; Render has been tracked since 2024-10-01.
+Render plans today
+All plans
+Hobby
+Free
+Pro
+$25
+Scale
+$499
+Enterprise
+—
+Postgres - 64c-256gAdd-on
+$3,000
+Postgres - 64c-512gAdd-on
+$6,000
+Tracked alongside
+A
+Aws
+G
+Google Cloud
+M
+Microsoft Azure
+D
+Digitalocean
+H
+Heroku
+R
+Railway

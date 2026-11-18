@@ -35514,10 +35514,14 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.canvy.com/pricing"
+   ],
+   "domains": [
+    "canvy.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37484,7 +37488,7 @@
     "novu.co"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37513,7 +37517,7 @@
     "notta.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37592,7 +37596,7 @@
     "mrpeasy.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37671,7 +37675,7 @@
     "meilisearch.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37750,7 +37754,7 @@
     "mailgun.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37779,7 +37783,7 @@
     "mailercloud.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37833,7 +37837,7 @@
     "linkedhelper.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37912,7 +37916,7 @@
     "isometric.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37941,7 +37945,7 @@
     "headspin.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -37995,7 +37999,7 @@
     "ghost.org"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38049,7 +38053,7 @@
     "fingerprint.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38077,8 +38081,8 @@
    "domains": [
     "ai.google.dev"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38162,6 +38166,285 @@
    "source_url": "https://agentdeals.dev/digest/2026-w46",
    "url_attempts": 0,
    "notes": "Free plan moved from 300 credits to 1,000 requests a month at the same $0 price."
+  },
+  "signeasy": {
+   "name": "Signeasy",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/signeasy/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "signeasy"
+   ]
+  },
+  "sentry": {
+   "name": "Sentry",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/sentry/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "sentry"
+   ]
+  },
+  "redpanda": {
+   "name": "Redpanda",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/redpanda/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "redpanda"
+   ]
+  },
+  "qdrant": {
+   "name": "Qdrant",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/qdrant/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "qdrant"
+   ]
+  },
+  "proof": {
+   "name": "Proof",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/proof/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "proof"
+   ]
+  },
+  "poweroffice": {
+   "name": "PowerOffice",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/poweroffice/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "poweroffice"
+   ]
+  },
+  "phrase": {
+   "name": "Phrase",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/phrase/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "phrase"
+   ]
+  },
+  "overleaf": {
+   "name": "Overleaf",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/overleaf.page1/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "overleaf.page1"
+   ]
+  },
+  "opensense": {
+   "name": "Opensense",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/opensense/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "opensense"
+   ]
+  },
+  "onstipe": {
+   "name": "Onstipe",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/onstipe/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "onstipe"
+   ]
+  },
+  "oncord": {
+   "name": "Oncord",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.oncord.com/pricing"
+   ],
+   "domains": [
+    "oncord.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-18",
+   "source": "agent 2026-11-18T07",
+   "source_url": "https://pricingsaas.com/companies/oncord/diffs/2026W47",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "oncord"
+   ]
   }
  }
 }

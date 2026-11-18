@@ -1,0 +1,163 @@
+=== https://www.meilisearch.com/pricing ===
+NewMerchandise your search results without code. Searchandising launches Nov 19 on Product Hunt.Searchandising launches Nov 19 on Product Hunt.Follow Meilisearch
+59.9k
+Get startedRequest a demo
+Pricing
+Predictable costs. Limitless scale.
+Meilisearch Cloud starts at $20/month with a 14-day free trial. Self-hosting the open-source engine is free.
+Cloud
+Starting at
+$20/month
+Varies by region. See prices per region
+A fixed monthly price for your instance, no matter how many searches you run.
+XS to XL instances, up to 4 vCPU and 16 GB RAM
+Full-text, vector and hybrid search
+9 hosting regions in the US, EU, Asia Pacific and South America
+Unlimited team members, no per-seat fees
+No credit card required to start
+Start 14-day free trial
+Enterprise
+Priced for your needs
+Custom
+Mission-critical deployments with dedicated support and custom SLAs.
+Custom infrastructure and dedicated resources
+Up to 99.999% uptime SLA
+Dedicated Slack support channel
+SSO SAML and SOC 2 compliance
+Advanced analytics, merchandising, personalization and chat
+Contact us to get a quote
+Every plan includes fully managed infrastructure, resizing at any time, email support and a search analytics dashboard.
+Cost Estimator
+Find the right instance for your workload
+Estimate your monthly cost based on your documents, searches, and document size.
+Not sure how to estimate?
+Describe your business and we'll estimate your needs
+Estimate my usage
+Estimate your usage
+Adjust sliders to match your expected workload
+Monthly documents
+100K
+10K500K10M+
+Monthly searches
+10K
+1K250K10M+
+Average document size
+Small (1KB)Few filters, SaaS-like
+Medium (3KB)Short text, ~10 filters
+Large (8KB)Articles, long documents
+AI (12KB)Documents with embeddings
+Your estimate
+The smallest instance that fits your workload, priced for the region you pick.
+Region
+Asia Pacific (Singapore)
+Asia Pacific (Sydney)
+Asia Pacific (Tokyo)
+EU (Frankfurt)
+EU (London)
+EU (Paris)
+South America (São Paulo)
+US East (N. Virginia)
+US West (Oregon)
+$20/month
+XS instance (0.5 vCPU, 1 GB RAM)
+XS instance$14.88/mo
+Disk (32 GiB billed (2.9 GiB calculated))$5.28/mo
+All instance sizes in US East (N. Virginia)
+Size
+vCPU
+RAM
+Instance price
+XSYour fit
+0.5
+1 GB
+$14.88/mo
+S
+1
+2 GB
+$29.28/mo
+M
+2
+4 GB
+$58.08/mo
+L
+2
+8 GB
+$115.68/mo
+XL
+4
+16 GB
+$259.36/mo
+2XL+
+Custom
+Contact us
+Also billed with every instance
+Disk
+$0.165 per GiB
+32 GiB minimum, grows with your data
+Outbound bandwidth
+$0.15 per GB
+Billed on usage
+How billing works
+Item
+Price
+Starting price
+$20/monthXS instance (0.5 vCPU, 1 GB RAM) with 32 GiB of disk. Varies by region (see prices per region)
+Instance
+Fixed price by sizeBased on vCPU and memory, metered by the hour so a partial month costs less. XS to L share CPU; XL has dedicated cores; 2XL and larger through sales
+Disk performance
+IncludedFaster disk tiers available as an add-on from $52/month
+Team members
+FreeOne bill for all your projects, no per-seat fees
+Prices vary by region. The estimator above lists every instance size with its price for the region you pick.
+See full billing details
+Enterprise Benefits
+Unlock premium features and support with our Enterprise plan
+Slack Support
+Direct access to our engineering team via dedicated Slack channel
+Up to 99.999% SLA
+Industry-leading availability guarantee for mission-critical applications
+Volume Discounts
+Significant cost savings for high-volume usage and multiple instances
+SSO SAML
+Enterprise-grade single sign-on with SAML 2.0 support
+SOC 2 Compliance
+SOC 2 Type II certified for security and compliance
+Advisory Services
+Dedicated customer success team and technical advisory
+See all 11 benefitsShow fewer
+Advanced Analytics
+Track clicks, conversions, and search performance with detailed analytics
+Dedicated Resources
+Access faster and bigger instance sizes for maximum performance
+Sharding & Replication
+Distribute data across shards and replicas for high availability at scale
+Personalization
+Adapt search results for each user based on their preferences and behavior
+Dynamic search rules
+Boost, pin, or bury results based on the context of each request
+Even more
+Contact us to learn about all enterprise features
+Frequently asked questions
+How much does Meilisearch Cloud cost?
+Meilisearch Cloud starts at $20/month for an XS instance (0.5 vCPU, 1 GB RAM) with 32 GiB of disk. You pay a fixed monthly price for your instance size, whatever your search volume, plus disk at $0.165 per GiB (32 GiB minimum) and $0.15 per GB of outbound bandwidth. Larger self-serve instances go up to XL, and Enterprise deployments are priced individually. Prices vary by region: use the cost estimator above to see the price in your region.
+Is Meilisearch free?
+Yes, if you self-host. Meilisearch is open source under the MIT license, and you can deploy it on your own infrastructure for free with no usage limits. Meilisearch Cloud is a paid managed service starting at $20/month, with a 14-day free trial and no credit card required.
+Is there a free trial?
+Yes. Cloud includes a 14-day free trial. No credit card required to start.
+Should I self-host or use Cloud?
+Self-hosting is free and gives you full infrastructure control, but you manage updates, backups, and scaling yourself. Cloud takes care of all of that: it is fully managed, with automatic upgrades and email support included. Most teams start on Cloud and never need to self-host.
+How do I choose the right instance size?
+Use the cost estimator above to find the right instance based on your document count, search volume, and document size. You can upgrade or downgrade your instance at any time.
+I need to self-host for compliance reasons. Can I still get dedicated support?
+Yes. If regulatory, security, or data residency requirements mean you can't use Cloud, you can self-host Meilisearch on your own infrastructure and still get a dedicated support agreement, an SLA, and access to advanced features. Contact our team to discuss your requirements.
+How do I get help choosing?
+Talk to our team. We'll look at your traffic, document volume, and growth plans and recommend the plan and instance size that cost you the least over time.
+What is the difference between Cloud and Enterprise?
+Cloud is self-serve: you pick an instance from XS to XL (up to 4 vCPU and 16 GB RAM) starting at $20/month, and you can change size at any time. XL runs on dedicated CPU cores. Enterprise is for larger and mission-critical deployments: 2XL and larger instances, custom infrastructure, uptime SLAs up to 99.999%, SSO and dedicated support, priced through sales.
+What happens when my data or traffic grows?
+You can move to a larger instance at any time. Disk grows automatically with your data at $0.165 per GiB beyond the 32 GiB minimum, and outbound bandwidth is billed at $0.15 per GB.
+How much does Meilisearch cost at high volume?
+Self-serve Cloud instances go up to XL (4 vCPU, 16 GB RAM). Larger instances (2XL and above) and Enterprise contracts with volume discounts are available through our sales team. You can also self-host the open-source engine for free on your own infrastructure.
+Still deciding?
+Our team can recommend the plan that costs you the least as you grow.
+Talk to salesStart free trial

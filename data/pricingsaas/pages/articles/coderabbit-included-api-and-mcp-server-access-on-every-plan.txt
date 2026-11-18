@@ -1,0 +1,47 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+C
+Coderabbit
+PACKAGING CHANGE
+Coderabbit included API and MCP server access on every plan
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 18, 2026
+Coderabbit now includes API and MCP server access on every plan.
+See before and after
+Enlarge
+Coderabbit’s pricing page · Change detected Nov 18, 2026
+API AND MCP SERVER ACCESS·first seen Nov 18, 2026
+What changed
+Coderabbit added a new FAQ entry, "Which plans include the CodeRabbit API and MCP server?", to its pricing page. Its answer states that API and MCP server access is included with every plan, and that each API or MCP call works against whatever features that plan already covers.
+The Enterprise plan's own comparison-table line also changed wording: what was labeled "API access and usage metrics" under Enterprise Controls is now "Admin APIs and usage metrics," covering administration of users, seats, roles, audit logs and metrics rather than general API access, which the new FAQ now addresses separately.
+Why it matters
+For a product leader, this is a packaging signal more than a feature signal: Coderabbit is treating API and MCP access — the hooks a team would use to wire the reviewer into its own CI, agents or internal tools — as baseline plumbing rather than an Enterprise upsell. Admin APIs, covering user, seat, role, audit-log and metrics administration, stay Enterprise-gated, which is a more defensible place to draw an access line than raw API/MCP connectivity.
+Pulse has tracked 16 real pricing-page changes at Coderabbit in the last 365 days, including 8 in the last 90 days alone, averaging about one every 12 days since Pulse began tracking the company's page on May 18, 2026. The most recent change before this one came on Oct 10, 2026, when Coderabbit renamed its Agent product to CodeRabbit Engineer and dropped its per-minute overage rate, per Pulse's tracking — so a feature or limit on Coderabbit's page today is better read as a snapshot than a commitment.
+Watch whether the newly separated Admin APIs line gets its own price or seat limit next, now that it has been carved out from general API access rather than just renamed.
+In context
+Pulse has tracked 16 real pricing changes at Coderabbit in the last 365 days, against 27 compared snapshots since tracking began on May 18, 2026. The last one landed Oct 10, 2026, when it renamed its Agent product to CodeRabbit Engineer and cut the per-minute overage rate on its usage-based tier [[coderabbit/2026D283]], and before that it folded usage-based reviews into a new On-demand products section on Sep 21, 2026 [[coderabbit/2026W39]]. Today's move reads as the same instinct pointed outward instead of inward — simplifying what counts as baseline access rather than adding a new paid layer — and it follows a Sep 1, 2026 restructuring that renamed Pro/Pro Plus to Essentials/Team and added the Advanced tier in between [[coderabbit/2026D244]]. For a product leader, the practical read isn't this one FAQ line so much as the pace behind it: Pulse's tracking since May 2026 shows Coderabbit averaging a pricing-page change roughly every 12 days, so today's plan boundaries are worth re-checking before they anchor a build decision.
+Common questions
+What should we check before writing code against Coderabbit's API or MCP server?
+Confirm your org type first: Coderabbit's FAQ says the MCP server only works for cloud-hosted organizations, not a self-hosted CodeRabbit deployment or a self-hosted Git provider — worth checking before you build against it if your org runs self-hosted.
+Why did Coderabbit rename Enterprise's 'API access' line to 'Admin APIs'?
+Coderabbit hasn't published a stated reason for the rename, and its FAQ only describes what each line now covers, not why the wording changed — so treat it as a clarification rather than a new restriction until the company says otherwise.
+Could API or MCP access move behind a paywall again later?
+Nothing on Coderabbit's current pricing page or FAQ points to that, but the company has changed its page often enough, including altering add-on and overage pricing within the last 90 days, that it's worth re-reading the FAQ before assuming free access is permanent.
+Sources
+Pulse: Coderabbit pricing changes, Nov 18, 2026pricingsaas.com/companies/coderabbit/diffs/2026D322
+Coderabbit pricing pagecoderabbit.ai/pricing
+Keep exploring
+All changes from CoderabbitAll pricing news
+S
+Slack
+Slack ran an A/B test on Enterprise+ pricing
+A
+Attio
+Attio replaced Enterprise's custom quote with a self-serve Ultra plan
+H
+Heygen
+Heygen added Professional Voice Clone to Pro at no charge
