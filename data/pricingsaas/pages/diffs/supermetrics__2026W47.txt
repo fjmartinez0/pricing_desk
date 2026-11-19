@@ -1,0 +1,108 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Supermetrics/All changes/Annual discount messaging changed
+S
+Supermetrics
+Pricing changeLimit loweredFeature addedDiscount changeNov 9 → Nov 16, 2026 UTC
+Supermetrics: Annual discount messaging changed from flat 'Save 20%' to tiered: Starter now shows 'Save 25%', Growth shows…
+Detected Nov 15, 2026, 11:34 PM ETData & AnalyticsDirection: neutral
+The changeAnnual discount messaging changed
+Before · Nov 9 UTCflat 'Save 20%'
+After · Nov 16 UTCtiered
+changed
+3 changes2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of Supermetrics' pricing page, Pulse recorded 3 changes: Annual discount messaging changed from flat 'Save 20%' to tiered: Starter now shows 'Save 25%', Growth shows 'Save 20%' (replacing 'Recommended'), and the banner reads 'Save up to 25% with yearly plan'; Starter's base allotment shrank (data sources 3->2, accounts/source 3->2) at the same $44/mo price. Growth gained instead: base data sources 6->7 and higher extras caps (destinations, data sources. In detail: Starter's base allotment shrank (data sources 3->2, accounts/source 3->2) at the same $44/mo price. Growth gained instead: base data sources 6->7 and higher extras caps (destinations, data sources, accounts); Added 'AI Credits' as an explicit metered allowance in the plan comparison table: Starter 1,000/mo, Growth 4,000/mo, Enterprise Custom. Pulse files it as a pricing change (limit lowered, feature added, discount change) with a neutral direction. The current page lists Starter at $44 and Growth at $177.
+It lands 7 days after Supermetrics' previous change, "Supermetrics adds AI campaign management, stops listing Studio AI credit allowances" (Nov 8, 2026). Before that Pulse recorded "Supermetrics renames Management API access to Platform API access" (Oct 11, 2026), "Supermetrics drops Data API & MCP access from Starter and Growth" (Sep 28, 2026) and "Supermetrics strips automated refresh, dashboards from Starter, Growth…" (Sep 14, 2026). Supermetrics has been tracked since 2024-10-01.
+In the same window Mixpanel, Amplitude, Google and DAT Freight & Analytics also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+StarterLimit
+−33%
+3→2
+GrowthLimit
++17%
+6→7
+Starter, Growth, EnterpriseFeature
+Added
+Not listed→AI Credits
+Starter, GrowthDiscount
+Changed
+flat 'Save 20%'→tiered
+Plan
+Field
+Before
+After
+Change
+Starter
+Limit
+3
+2
+−33%
+Growth
+Limit
+6
+7
++17%
+Starter, Growth, Enterprise
+Feature
+Not listed
+AI Credits
+Added
+Starter, Growth
+Discount
+flat 'Save 20%'
+tiered
+Changed
+Values as written on Supermetrics' public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Supermetrics' pricing page (supermetrics.com) from Nov 9, 2026 and Nov 16, 2026; the change is marked near the top of the page, where "flat 'Save 20%'" becomes "tiered".
+Nov 9, 2026 UTCflat 'Save 20%'
+Nov 16, 2026 UTCtiered
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Supermetrics, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 15, 2026PackagingSupermetrics: Annual discount messaging changed from flat 'Save 20%' to tiered: Starter now shows 'Save 25%', Growth shows… This change
+Nov 8, 2026PackagingSupermetrics adds AI campaign management, stops listing Studio AI credit allowances
+Oct 11, 2026PackagingSupermetrics renames Management API access to Platform API access
+Sep 28, 2026PackagingSupermetrics drops Data API & MCP access from Starter and Growth
+Sep 14, 2026PackagingSupermetrics strips automated refresh, dashboards from Starter, Growth…
+Across Data & Analytics in the same window
+All Data & Analytics changes
+MixpanelNov 16Mixpanel lifts Free plan saved reports cap to unlimited, adds custom properties
+AmplitudeNov 16Amplitude adds HIPAA BAA for Growth and Enterprise, not Free or Plus
+GoogleOct 12Google Workspace swaps Gems for AI skills, rewords Gemini on Starter plan
+DAT Freight & AnalyticsOct 5DAT Freight & Analytics swaps Revenue boosters tile for Keep email in-house push
+Questions about this change
+Did Supermetrics raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a pricing change: limit lowered, feature added, discount change.
+What changed on Supermetrics' pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Starter limit: 3 → 2 (−33%); Growth limit: 6 → 7 (+17%); Starter, Growth, Enterprise feature added: AI Credits; Starter, Growth discount: flat 'Save 20%' → tiered, changed. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Supermetrics change its pricing?
+Pulse recorded 4 other pricing-page changes for Supermetrics in the 90 days before this one; the previous change was "Supermetrics adds AI campaign management, stops listing Studio AI credit allowances" on Nov 8, 2026; Supermetrics has been tracked since 2024-10-01.
+Supermetrics plans today
+All plans
+Starter
+$44
+Growth
+$177
+Enterprise
+Contact
+Tracked alongside
+G
+Google
+M
+Mixpanel
+A
+Amplitude
+T
+Tableau
+D
+DAT Freight & Analytics
+S
+Segment

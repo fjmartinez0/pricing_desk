@@ -1,0 +1,85 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/StackGuardian/All changes/Resilience policy pack added
+S
+StackGuardian
+Packaging changeFeature addedLimit loweredNov 9 → Nov 16, 2026 UTC
+StackGuardian swaps $0.20 credits for $200 AI packs, adds free startup plan
+Detected Nov 15, 2026, 11:13 PM ETCloud & DevOps
+The changeResilience policy pack added
+Before · Nov 9 UTCNot listed
+After · Nov 16 UTCResilience policy pack
+added
+2 changes2 capturesNov 9 → Nov 16, 2026 UTC
+What happened
+Between the Nov 9, 2026 and Nov 16, 2026 captures of StackGuardian's pricing page, Pulse recorded 2 changes: Pricing page rebuilt: adds Resilience policy pack and cross-region recovery (early access), migration credits for Pro/Enterprise, Founding 50 early-access program, marketplace billing, free Standard plan for startups/OSS/non-profits; Enterprise limits (5,000 SGCredits, 100 cloud accounts, 75 active workflows) now shown as Custom; pay-as-you-grow $0.20/credit replaced by $200 per 1,000 AI credits a. In detail: Pricing page rebuilt: adds Resilience policy pack (Standard+) and recovery/rollback/cross-region recovery (Pro+, early access), migration credits for Pro/Enterprise, Founding 50 early-access program, free Standard plan for startups/OSS/non-profits; Enterprise included limits (5,000 SGCredits, 100 cloud accounts, 75 active workflows) replaced by Custom, sized per organization. Pulse files it as a packaging change (feature added, limit lowered). Pulse's latest capture (Nov 18, 2026) lists Standard at $359, Pro at $1,459 and Enterprise at $0.20 SGCredit + $1.12 cloud account per day.
+This is the first pricing-page change Pulse has recorded for StackGuardian. StackGuardian has been tracked since 2026-07-05.
+In the same window env0, Pulumi, Spacelift and Hashicorp also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Pro, Enterprise, StandardFeature
+Added
+Not listed→Resilience policy pack
+EnterpriseLimit
+Limit lowered
+Enterprise included limits (5,000 SGCredits, 100 cloud accounts, 75 active workflows) replaced by Custom, sized per organization
+Plan
+Field
+Before
+After
+Change
+Pro, Enterprise, Standard
+Feature
+Not listed
+Resilience policy pack
+Added
+Enterprise
+Limit
+Enterprise included limits (5,000 SGCredits, 100 cloud accounts, 75 active workflows) replaced by Custom, sized per organization
+Limit lowered
+Values as written on StackGuardian's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of StackGuardian's pricing page (www.stackguardian.io) from Nov 9, 2026 and Nov 16, 2026; the change is marked near the top of the page, where Resilience policy pack now appears.
+Nov 9, 2026 UTCResilience policy pack not listed
+Nov 16, 2026 UTCResilience policy pack
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+First recorded change for StackGuardian · Full history →
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+env0Nov 16env0 drops Free-tier note that scheduled runs are skipped after 250 runs/month
+PulumiNov 9Pulumi: Enterprise usage pricing moved behind Contact Sales
+SpaceliftNov 2Spacelift rebuilds lineup: $399 Starter replaces quote-only, Free gets full card
+HashicorpOct 26Hashicorp Boundary adds agentic access management and MCP server betas
+Questions about this change
+Did StackGuardian raise prices in November 2026?
+No list-price increase was recorded between Nov 9, 2026 and Nov 16, 2026 UTC. The change Pulse detected was a packaging change: feature added, limit lowered.
+What changed on StackGuardian's pricing page between Nov 9, 2026 and Nov 16, 2026 UTC?
+Pro, Enterprise, Standard feature added: Resilience policy pack; Enterprise included limits (5,000 SGCredits, 100 cloud accounts, 75 active workflows) replaced by Custom, sized per organization. Pulse compared the captures it took on Nov 9, 2026 and Nov 16, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does StackGuardian change its pricing?
+Pulse recorded 0 other pricing-page changes for StackGuardian in the 90 days before this one; StackGuardian has been tracked since 2026-07-05.
+StackGuardian plans today
+All plans
+Free
+Standard
+$359
+Pro
+$1,459
+Enterprise
+$0.20 SGCredit + $1.12 cloud account per day
+Tracked alongside
+H
+Hashicorp
+T
+Terraform
+P
+Pulumi
+S
+Spacelift
+E
+env0
+H
+Harness

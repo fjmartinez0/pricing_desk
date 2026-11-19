@@ -82018,7 +82018,7 @@
    "first_seen_run": "2026-11-17T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "microsoft-365",
    "decision": {
     "kind": "promo",
@@ -83124,7 +83124,7 @@
    "first_seen_run": "2026-11-17T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 2,
+   "waits": 3,
    "company": "heygen",
    "decision": {
     "kind": "feature_move",
@@ -83793,7 +83793,7 @@
    "first_seen_run": "2026-11-18T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 1,
+   "waits": 2,
    "company": "optimantra",
    "decision": {
     "kind": "promo",
@@ -84712,7 +84712,7 @@
    "first_seen_run": "2026-11-18T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 1,
+   "waits": 2,
    "company": "shopify",
    "decision": {
     "kind": "metering",
@@ -84878,7 +84878,7 @@
    "first_seen_run": "2026-11-18T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 1,
+   "waits": 2,
    "company": "cognition",
    "decision": {
     "kind": "price_cut",
@@ -85055,6 +85055,2959 @@
    },
    "outcome": "promo pika-promo-2026w48",
    "decided_run": "2026-11-18T07"
+  },
+  {
+   "report_id": "postcron:2026-W47",
+   "ps_slug": "postcron",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/postcron/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/postcron__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Postcron adds Hashtags Finder row between LinkedIn PDFs and Watermark in plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "postcron",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A Hashtags Finder row was added to the plan comparison table with no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "sambanova:2026-W47",
+   "ps_slug": "sambanova",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/sambanova/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/sambanova__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SambaNova adds GLM-5.3 at $2.80 input, $8.80 output per 1M tokens — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "sambanova",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new model, GLM-5.3, was added to the per-token price list without changing existing prices.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "personio:2026-W47",
+   "ps_slug": "personio",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/personio/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/personio__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Personio Core Enterprise now promises 99.9% uptime SLA — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "personio",
+   "decision": {
+    "kind": "wording",
+    "why": "Core Enterprise now states a 99.9% uptime SLA where none was stated; this is a claim added to the page, not a price or plan change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "perplexity:2026-W47#2",
+   "ps_slug": "perplexity",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/perplexity/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/perplexity__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Perplexity AI swaps Gemini 3.8 Flash for new Gemini 4 Hydrogen in Computer — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "perplexity",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Gemini 4 Hydrogen replaced Gemini 3.8 Flash in the Computer model lineup with no price change; the week page repeats the Nov 14 day-page change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "murf:2026-W47",
+   "ps_slug": "murf",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/murf/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/murf__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Murf AI: Murf API Speech to Text (Beta) price cut from $0.24/hour to $0.12/hour — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "murf-ai",
+   "decision": {
+    "kind": "price_cut",
+    "why": "The Murf API Speech to Text (Beta) price was cut from $0.24 to $0.12 per hour.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "−50%",
+     "short": "Murf API Speech to Text (Beta) price cut from $0.24 to $0.12 per hour.",
+     "pattern": "Price cut",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "add-on",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added murf-ai-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "dreamhost:2026-W47",
+   "ps_slug": "dreamhost",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/dreamhost/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/dreamhost__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Dreamhost cuts Professional Email to $1.49/mo per mailbox on 2-year term — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "dreamhost",
+   "decision": {
+    "kind": "price_cut",
+    "why": "Professional Email starting price fell from $1.67/mo per mailbox (billed annually) to $1.49/mo per mailbox, now on a 2-year term, so the cut comes with a longer commitment.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "$1.67 / $1.49",
+     "short": "Professional Email starting price per mailbox per month fell from $1.67 (billed annually) to $1.49 on a 2-year term.",
+     "pattern": "Price cut",
+     "seg": "Both",
+     "ai": false,
+     "planLevel": "add-on",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added dreamhost-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "seqera:2026-W47",
+   "ps_slug": "seqera",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/seqera/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/seqera__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Seqera Spot resiliency allowance jumps 1,000x to 100 TB per month — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "seqera",
+   "decision": {
+    "kind": "limit_change",
+    "why": "The Cloud Basic zero-cost Spot resiliency allowance rose from 100 GB to 100 TB per month.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "×1,000",
+     "short": "Cloud Basic Spot resiliency allowance at zero cost raised from 100 GB to 100 TB per month.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "entry",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added seqera-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "vonage.page2:2026-W47",
+   "ps_slug": "vonage.page2",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vonage.page2/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vonage.page2__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Vonage replaces Priority and Premium contact center plans with CX Bundles — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "vonage",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Contact center Priority and Premium plans (contact-sales) were replaced by a Vonage CX Bundles page; no prices shown.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Plans → CX Bundles",
+     "short": "Contact center Priority and Premium plan tiers replaced by Vonage CX Bundles (Intelligent Workspace, Salesforce bundles, Premier for Salesforce Voice); no prices shown.",
+     "pattern": "Bundling",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added vonage-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "tripletex:2026-W47",
+   "ps_slug": "tripletex",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/tripletex/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/tripletex__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Tripletex lists Årsoppgjør add-on at 990 kr/yr, rewrites plan cards — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "tripletex",
+   "decision": {
+    "kind": "wording",
+    "why": "Plan card taglines and feature lists rewritten; the 990 kr/år Årsoppgjør add-on was already promoted and prices are unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "sai360:2026-W47",
+   "ps_slug": "sai360",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/sai360/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/sai360__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SAI360 renames entry-level Ethics & Compliance bundle to Foundation — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "sai360",
+   "decision": {
+    "kind": "wording",
+    "why": "The entry-level Ethics & Compliance bundle was renamed from Essentials to Foundation; no prices are published either way.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "klingai:2026-W47",
+   "ps_slug": "klingai",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/klingai/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/klingai__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Kling AI drops Kling 3.0 Turbo, 3.0 and Omni rows from video API price table — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "kling-ai",
+   "decision": {
+    "kind": "price_hidden",
+    "why": "Kling 3.0 Turbo, 3.0 and 3.0 Omni rows (and some other tables) disappeared from the video API price table; the saved text shows no prices and does not say the models were discontinued, so it is treated as prices removed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_hidden)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "uxpin:2026-W47",
+   "ps_slug": "uxpin",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/uxpin/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/uxpin__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "UXPin raises AI credits to 250 and 600, adds 100 per extra editor — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "uxpin",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Monthly AI credits raised on Core (200 → 250) and Growth (500 → 600), plus 100 per extra editor.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "+25% / +20%",
+     "short": "Monthly AI credits Core 200 → 250 and Growth 500 → 600, plus 100 per extra editor; credits shared account-wide.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added uxpin-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "fresh2wow:2026-W47",
+   "ps_slug": "fresh2wow",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/fresh2wow/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/fresh2wow__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Fresh2Wow splits Agency into brand-count sizes from $249/mo and raises Creator accounts to 25 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "fresh2wow",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Agency was split into selectable brand-count sizes (single $499/mo 15-brand plan replaced by an 8-brand size from $249/mo), and Creator accounts rose 10 → 25 and Starter 3 → 8.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "$499 / from $249",
+     "short": "Agency single $499/mo 15-brand plan became sizes from $249/mo (8 brands); Creator limit rose 10 → 25 and Starter 3 → 8.",
+     "pattern": "New tier",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "top",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added fresh2wow-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "wistia:2026-W47",
+   "ps_slug": "wistia",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/wistia/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/wistia__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Wistia highlights Mochine AI editing on its Free plan card — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "wistia",
+   "decision": {
+    "kind": "wording",
+    "why": "Free plan card now mentions Mochine AI editing, which the comparison table already listed; copy only.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "factory:2026-W47",
+   "ps_slug": "factory",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/factory/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/factory__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Factory launches free BYOK tier, trims Pro/Plus/Max feature lists — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "factory",
+   "decision": {
+    "kind": "free_plan",
+    "why": "A new Free tier at $0/mo for bring-your-own-inference use was added, while Pro, Plus and Max lost some feature bullets; paid prices unchanged.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New Free tier",
+     "short": "New Free tier at $0/mo for bring-your-own-inference use; Pro, Plus and Max each lost some listed features.",
+     "pattern": "Free plans as funnels",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "free",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added factory-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "versium:2026-W47",
+   "ps_slug": "versium",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/versium/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/versium__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Versium moves $10K+ subscription installments from monthly to quarterly — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "versium",
+   "decision": {
+    "kind": "wording",
+    "why": "Installments on $10,000+ subscriptions changed from monthly to quarterly; a payment-schedule note with no change to list prices or allowances.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "jelou:2026-W47",
+   "ps_slug": "jelou",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/jelou/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/jelou__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Jelou adds Functions pricing: 1M free, then $2.50 per extra 1M — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "jelou",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new Functions row was added to the comparison table (1M included, then $2.50 per extra 1M on Builder and Growth); it is a new capability and no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "ibm.maas360:2026-W47",
+   "ps_slug": "ibm.maas360",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/ibm.maas360/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/ibm.maas360__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "IBM Maas360 adds $6 Mobile Security Suite with built-in threat defense — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "ibm-maas360",
+   "decision": {
+    "kind": "plan_change",
+    "why": "A new Mobile Security Suite plan starting at $6 was added (MDM plus mobile threat defense); existing plan prices are unchanged.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New tier",
+     "short": "New Mobile Security Suite plan added at $6, between Essentials at $4.24 and Premier at $6.63.",
+     "pattern": "New tier",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "mid",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added ibm-maas360-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "simplepractice:2026-W47",
+   "ps_slug": "simplepractice",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/simplepractice/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/simplepractice__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SimplePractice adds free credentialing support to all plans, limited to two payers — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "simplepractice",
+   "decision": {
+    "kind": "support",
+    "why": "The free credentialing offer moved from a promo banner to a plan bullet with terms (two payers, new customers); this is a service offer, not a price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (support)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "veroscribe:2026-W47",
+   "ps_slug": "veroscribe",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/veroscribe/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/veroscribe__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Vero Scribe raises Pro to $89/mo yearly ($99 monthly) — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "vero-scribe",
+   "decision": {
+    "kind": "price_increase",
+    "why": "Pro rose from $69 to $89/mo billed yearly (month-to-month $89 to $99).",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "+29%",
+     "short": "Pro $69 → $89/mo billed yearly; month-to-month $89 → $99.",
+     "pattern": "Price increase",
+     "seg": "Both",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added vero-scribe-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "reply:2026-W47",
+   "ps_slug": "reply",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/reply/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/reply__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Reply launches Black Friday sale: 40% off Sales Outreach, 25% off Jason AI SDR — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "reply",
+   "decision": {
+    "kind": "promo",
+    "why": "A Black Friday sale was added: 40% off Sales Outreach plans and 25% off Jason AI SDR.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday: 40% off Sales Outreach plans (code BF26REPLY) and 25% off Jason AI SDR (code BF26JASON, via sales demo)"
+    }
+   },
+   "outcome": "promo reply-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "range:2026-W47",
+   "ps_slug": "range",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/range/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/range__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Range adds K-1 and state returns to Platinum, drops per-unit fees — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "range",
+   "decision": {
+    "kind": "feature_move",
+    "why": "Personal tax filing and up to 5 received K-1s moved into Platinum from Titanium-only, and Titanium's per-unit K-1 and state fees were removed.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Platinum gains filing",
+     "short": "Platinum now includes personal tax filing (1 federal and up to 2 state returns) and up to 5 received K-1s, previously Titanium-only; Titanium drops its $100 per extra K-1 and $500 per extra state fees.",
+     "pattern": "Bundling",
+     "seg": "B2C",
+     "ai": false,
+     "planLevel": "top",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added range-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "qualio:2026-W47",
+   "ps_slug": "qualio",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/qualio/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/qualio__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Qualio makes Growth plan quality event templates unlimited, up from 10 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "qualio",
+   "decision": {
+    "kind": "limit_change",
+    "why": "The Growth plan's quality event templates limit went from 10 to Unlimited.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "10 → Unlimited",
+     "short": "Growth plan quality event templates raised from up to 10 to Unlimited; Foundation (5) and Scale (Unlimited) unchanged.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "mid",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added qualio-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "zingtree:2026-W47",
+   "ps_slug": "zingtree",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/zingtree/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/zingtree__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Zingtree publishes $36,000/year starting price, moves to platform fee plus usage — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "zingtree",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Enterprise AI price went from hidden to a public starting price of $36,000/year, a price shown for the first time.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "xways:2026-W47",
+   "ps_slug": "xways",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/xways/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/xways__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "X-Ways Software cuts Forensics perpetual to $3,960, trims WinHex and training prices — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "x-ways",
+   "decision": {
+    "kind": "price_cut",
+    "why": "USD list prices trimmed about 1-2% (Forensics non-perpetual $1,560 → $1,540, perpetual $4,030 → $3,960; training $695 → $680).",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "−1% to −2%",
+     "short": "X-Ways Forensics perpetual $4,030 → $3,960 and non-perpetual $1,560 → $1,540; training $695 → $680.",
+     "pattern": "Price cut",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added x-ways-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "rudderstack:2026-W47",
+   "ps_slug": "rudderstack",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/rudderstack/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/rudderstack__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "RudderStack launches Lookout with Growth plan from $1,000/mo billed annually — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "rudderstack",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new product, Lookout, was added with its own plans, and the existing Core plan prices were unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "shiprocket:2026-W47",
+   "ps_slug": "shiprocket",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/shiprocket/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/shiprocket__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Shiprocket doubles first wallet recharge: pay Rs 500, get Rs 1000 with FLAT500 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "shiprocket",
+   "decision": {
+    "kind": "promo",
+    "why": "A top banner offers Rs 1000 wallet credit for a first Rs 500 recharge with code FLAT500.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "First wallet recharge of Rs 500 credits Rs 1000, code FLAT500, limited period"
+    }
+   },
+   "outcome": "promo shiprocket-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "regie:2026-W47",
+   "ps_slug": "regie",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/regie/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/regie__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Regie.ai quadruples Free plan starting credits to 1,000, Pro and Team prices hold — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "regie",
+   "decision": {
+    "kind": "free_plan",
+    "why": "The Free plan's one-time starting credits rose from 250 to 1,000 while Pro and Team prices held.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "×4",
+     "short": "Free plan one-time starting credits per person raised from 250 to 1,000; Pro ($41) and Team ($125 per seat) prices unchanged.",
+     "pattern": "Free plans as funnels",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "free",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added regie-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "remote:2026-W47",
+   "ps_slug": "remote",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/remote/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/remote__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Remote slashes Global Payroll starting price to $19 per employee — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "remote",
+   "decision": {
+    "kind": "duplicate",
+    "why": "The Global Payroll cut from $29 to $19 is already recorded as remote-2026w47.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "readme:2026-W47",
+   "ps_slug": "readme",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/readme/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/readme__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Readme puts AI Translations on Enterprise card as a NEW feature — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "readme",
+   "decision": {
+    "kind": "wording",
+    "why": "AI Translations was surfaced on the Enterprise card with a NEW flag; it was already in the comparison table, so this is positioning only.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "picktime:2026-W47",
+   "ps_slug": "picktime",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/picktime/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/picktime__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Picktime drops SSO from Pro; class packs, vouchers and Zapier exit Coming soon — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "picktime",
+   "decision": {
+    "kind": "feature_move",
+    "why": "SSO is no longer listed on the Pro plan after a page redesign, which may be a layout change; Pro's other additions are new listings.",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "SSO dropped from Pro",
+     "short": "SSO (auto-enabled for businesses with 100+ team members) is no longer listed on the Pro plan after the pricing page redesign.",
+     "pattern": "Unbundling",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "top",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added picktime-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "webpt:2026-W47",
+   "ps_slug": "webpt",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/webpt/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/webpt__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "WebPT reveals $79 to $249 per provider monthly pricing, drops plan tiers — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "webpt",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Pricing page now shows a $79 to $249 per provider monthly range where no prices were shown before.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "liner:2026-W47",
+   "ps_slug": "liner",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/liner/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/liner__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Liner's Pro and Max plans boost image-model count to 60+, catalog hits 308 LLMs — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "liner",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Model-catalog counts rose (306 to 308 LLMs, 50+ to 60+ image models); these are catalog claims, not plan allowances.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "prioritysoftware:2026-W47",
+   "ps_slug": "prioritysoftware",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/prioritysoftware/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/prioritysoftware__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Priority Software launches 50% off November Sale on Priority ERP — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "priority-software",
+   "decision": {
+    "kind": "promo",
+    "why": "A November Sale banner offers 50% off Priority ERP; plan cards still show contact-sales only.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "November Sale: 50% off Priority ERP, with countdown timer"
+    }
+   },
+   "outcome": "promo priority-software-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "meter:2026-W47",
+   "ps_slug": "meter",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/meter/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/meter__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Meter reframes Premium Installation as taking on customers' deployment risk — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "meter",
+   "decision": {
+    "kind": "wording",
+    "why": "The Premium Installation section was reworded and its scope list adjusted, with the same service and no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "metabase:2026-W47",
+   "ps_slug": "metabase",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/metabase/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/metabase__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Metabase brings Guest embeds with Powered by Metabase badge to its Starter plan — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "metabase",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Guest embeds with a Powered by Metabase badge were listed on Starter with no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "overleaf:2026-W47",
+   "ps_slug": "overleaf",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/overleaf/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/overleaf__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Overleaf adds offline editing limits: 2 min on Free, 10 min on paid plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "overleaf",
+   "decision": {
+    "kind": "new_feature",
+    "why": "An offline editing duration row (2 min on Free, 10 min on paid plans) was added to the comparison table, listing a capability for the first time.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "leadmagic:2026-W47",
+   "ps_slug": "leadmagic",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/leadmagic/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/leadmagic__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "LeadMagic labels unmetered Search API as Preview pricing, subject to change — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "leadmagic",
+   "decision": {
+    "kind": "wording",
+    "why": "The unmetered Search API was labeled 'Preview pricing' and the Ultimate SLA line was reworded, with no price or limit change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "langfuse:2026-W47",
+   "ps_slug": "langfuse",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/langfuse/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/langfuse__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Langfuse adds AI Gateway and a $100/mo hackathon credit program for 3 months — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "langfuse",
+   "decision": {
+    "kind": "new_feature",
+    "why": "An AI Gateway row was added to the plan comparison table and a Hackathons credit program ($100 in credits per month for 3 months) was added to the discounts section; no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "ionos.page2:2026-W47",
+   "ps_slug": "ionos.page2",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/ionos.page2/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/ionos.page2__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "IONOS raises .io domains to $102/yr, .info to $43, .net to $22 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "ionos",
+   "decision": {
+    "kind": "price_increase",
+    "why": "Domain list prices rose: .info $35 → $43, .net $20 → $22, .io $90 → $102 per year (the current-plans list on the page still shows .net at $20).",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "+10% to +23%",
+     "short": "Domain prices per year rose: .info $35 → $43, .net $20 → $22, .io $90 → $102.",
+     "pattern": "Price increase",
+     "seg": "Both",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added ionos-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "lawmatics:2026-W47",
+   "ps_slug": "lawmatics",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/lawmatics/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/lawmatics__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Lawmatics drops \"Everything in Basic\" claim from Essential plan's feature list — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "lawmatics",
+   "decision": {
+    "kind": "wording",
+    "why": "The Essential plan's feature list dropped its 'Everything in Basic' opening line; this is copy, with no allowance change shown.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "kahoot:2026-W47",
+   "ps_slug": "kahoot",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/kahoot/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/kahoot__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Kahoot! hikes Pro Start plan 67% to $15/month, up from $9/month — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "kahoot",
+   "decision": {
+    "kind": "price_increase",
+    "why": "Pro Start effective price rose from $9/month to $15/month (+67%) because the coupon discount was cut; the $19 list price is unchanged.",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "+67%",
+     "short": "Pro Start effective monthly price rose from $9 to $15 as the coupon discount shrank; the $19 list price is unchanged.",
+     "pattern": "Price increase",
+     "seg": "Both",
+     "ai": false,
+     "planLevel": "entry",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added kahoot-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "landbot:2026-W47",
+   "ps_slug": "landbot",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/landbot/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/landbot__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Landbot Black November: pay 6, get 12 months on annual plans, 50% off year one — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "landbot",
+   "decision": {
+    "kind": "promo",
+    "why": "Black November offer (10-30 Nov): pay 6, get 12 months on annual Starter, Professional and WhatsApp Pro; displayed annual prices fall to $22.50 and $55 while list prices of $36/$88 are unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black November, 10-30 Nov: pay 6 get 12 months on annual Starter, Professional and WhatsApp Pro, 50% off year one ($22.50 and $55 shown)"
+    }
+   },
+   "outcome": "promo landbot-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "kontainer:2026-W47",
+   "ps_slug": "kontainer",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/kontainer/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/kontainer__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Kontainer adds LLM Brand Guide Module as $70 add-on across three plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "kontainer",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new LLM Brand Guide Module add-on at +$70 was added to the add-on table on three plans; no existing price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "junglescout:2026-W47",
+   "ps_slug": "junglescout",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/junglescout/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/junglescout__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Jungle Scout adds AI Capabilities with Agents, MCP and Ask Cobalt — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "jungle-scout",
+   "decision": {
+    "kind": "new_feature",
+    "why": "An AI Capabilities section (Agents, MCP, Ask Cobalt) was added to the Cobalt comparison table; no price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "hypercare:2026-W47",
+   "ps_slug": "hypercare",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/hypercare/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/hypercare__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Hypercare Plus plan now includes multi-party data sharing agreements — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "hypercare",
+   "decision": {
+    "kind": "new_feature",
+    "why": "The Plus plan now lists multi-party data sharing agreements as an included feature; no price or tier move is shown.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "files:2026-W47",
+   "ps_slug": "files",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/files/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/files__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Files.com expands language support from 5 to 21 in web interface — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "files-com",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Language support listed in the features copy grew from 5 to 21 languages in the web interface; this is a feature description, not a plan quota, and no price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "virtuosity:2026-W47",
+   "ps_slug": "virtuosity",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/virtuosity/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/virtuosity__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Virtuosity: Added new 'Geotechnical Analysis 2D Advanced WorkSuite' bundle ($7,250/yr, PLAXIS 2D Advanced + GeoStudio 2D… — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "virtuosity",
+   "decision": {
+    "kind": "plan_change",
+    "why": "New Geotechnical Analysis 2D Advanced WorkSuite bundle added at $7,250/yr; the existing 2D WorkSuite ($10,030/yr) renamed Ultimate WorkSuite at the same price.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New tier",
+     "short": "New Geotechnical Analysis 2D Advanced WorkSuite bundle at $7,250/yr; the $10,030/yr 2D WorkSuite renamed Ultimate WorkSuite, price unchanged.",
+     "pattern": "New tier",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "mid",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added virtuosity-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "yooz:2026-W47",
+   "ps_slug": "yooz",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/yooz/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/yooz__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Yooz reveals Gold Edition pricing starting at $215/month, adds paid add-ons — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "yooz",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Gold Edition now shows Starting at $215/month where no price was listed before; add-ons still say Contact.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "yext:2026-W47",
+   "ps_slug": "yext",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/yext/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/yext__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Yext expands free scan to Central and South America, Corvo Plus stays $40 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "yext",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Free scan availability widened to Central and South America; no price or plan changed (Corvo Plus still $40).",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "vantage:2026-W47",
+   "ps_slug": "vantage",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vantage/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vantage__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Vantage: CoreWeave added as a new supported cloud provider integration in the Integrations carousel; total… — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "vantage",
+   "decision": {
+    "kind": "new_feature",
+    "why": "CoreWeave added to the integrations carousel (41 → 43 integrations); no price or plan change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "visualping:2026-W47",
+   "ps_slug": "visualping",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/visualping/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/visualping__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Visualping adds CC email alerts, renames Solutions support to Advanced support — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "visualping",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Extra email address in CC alert feature added and Solutions support relabelled Advanced support; no price or limit changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "vplan:2026-W47",
+   "ps_slug": "vplan",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vplan/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vplan__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "vPlan drops MFA+ from Enterprise card, makes automation limits monthly — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "vplan",
+   "decision": {
+    "kind": "wording",
+    "why": "Automation allowance relabelled as monthly runs with limits unchanged; MFA+ dropped from the Enterprise card text only, with no evidence the feature itself was removed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "village:2026-W47",
+   "ps_slug": "village",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/village/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/village__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Village cuts per-action credit costs but shrinks credit packs and Business pool, up to 34% fewer credits per dollar — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "village",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Per-action credit costs cut (warm intro paths 5 → 2 credits) but credit packs shrink ($100: 5,000 → 3,300) and the Business monthly pool falls 7,500 → 6,700.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "−34% credits per pack",
+     "short": "Credit packs shrink ($25: 1,000 → 700; $100: 5,000 → 3,300) and Business pool 7,500 → 6,700, while warm intro paths cost 2 credits instead of 5.",
+     "pattern": "Limits tighten",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added village-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "videodatabase:2026-W47",
+   "ps_slug": "videodatabase",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/videodatabase/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/videodatabase__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "VideoDatabase launches Strategist at $199/mo, double its $99 teaser price — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "videodatabase",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Strategist plan moved from Coming soon to live at $199/month with a 7-day free trial; it had only been teased at $99/month.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New tier",
+     "short": "Strategist plan launched at $199/month with a 7-day free trial; it was teased at $99/month while Coming soon.",
+     "pattern": "New tier",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "top",
+     "reach": 1
+    },
+    "promo": null
+   },
+   "outcome": "added videodatabase-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "vendorrisk:2026-W47",
+   "ps_slug": "vendorrisk",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/vendorrisk/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/vendorrisk__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "VendorRisk reveals tier pricing from $2,000/yr, adds AI Briefs module — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "vendorrisk",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Vendor-tier starting prices (from $2,000/yr) and per-module rates published for the first time; the new AI Briefs module is a new add-on, not a price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "ujet:2026-W47",
+   "ps_slug": "ujet",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/ujet/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/ujet__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "UJET rebuilds pricing around per-session CX & AI packages from $0.377; per-user licenses now from $65 standalone — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "ujet",
+   "decision": {
+    "kind": "metering",
+    "why": "Per-user Basic/Pro/Enterprise/Digital cards replaced by CX & AI packages priced per session (from $0.377), plus CX Platform subscription from $65/user/mo.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Per-session pricing",
+     "short": "Per-user plan cards replaced by CX & AI packages priced per session from $0.377 to $0.715, plus CX Platform from $65/user/mo.",
+     "pattern": "New billing units",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added ujet-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "typeform:2026-W47",
+   "ps_slug": "typeform",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/typeform/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/typeform__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Typeform adds nonprofit, NGO and student discounts via new FAQ — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "typeform",
+   "decision": {
+    "kind": "wording",
+    "why": "New FAQ mentions nonprofit, NGO and student discounts and links to a program page; no amounts or price changes on the page.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "tryprofound:2026-W47",
+   "ps_slug": "tryprofound",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/tryprofound/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/tryprofound__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Profound adds Qwen support, lifts Enterprise engine cap from 9 to 10 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "profound",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Enterprise answer engines tracked raised from up to 9 to up to 10, with Qwen added.",
+    "detail": "card",
+    "record": {
+     "group": "down",
+     "delta": "+11%",
+     "short": "Enterprise answer engines tracked: up to 9 → up to 10, with Qwen added.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "enterprise",
+     "reach": 1,
+     "plan": "Enterprise",
+     "deltaSub": "answer engines tracked, Enterprise",
+     "headline": "Profound raised the number of answer engines Enterprise can track from up to 9 to up to 10 and added Qwen to the supported list.",
+     "rows": [
+      [
+       "Answer engines tracked, Enterprise",
+       "Up to 9",
+       "Up to 10"
+      ]
+     ],
+     "who": "Enterprise customers; no price change reported.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "A small allowance increase that tracks the new engine, so Enterprise coverage grows without a price move. It reads as keeping pace with new AI search engines rather than a repackaging.",
+     "caveat": "The source cells for this change are garbled; the 9 → 10 figures come from its summary text.",
+     "model": "Flat",
+     "modelBefore": "Flat",
+     "modelAfter": "Flat",
+     "appliesTo": "unknown",
+     "magnitude": {
+      "low": 11,
+      "high": 11,
+      "basis": "allowance"
+     }
+    },
+    "promo": null
+   },
+   "outcome": "added profound-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "truedialog:2026-W47",
+   "ps_slug": "truedialog",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/truedialog/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/truedialog__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TrueDialog adds MCP for ChatGPT and Claude texting, hides RCS Agent pricing — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "truedialog",
+   "decision": {
+    "kind": "price_hidden",
+    "why": "RCS Agents no longer priced at $9.99/mo (now by request); an MCP integration was also added to all plans.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_hidden)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "supermetrics:2026-W47",
+   "ps_slug": "supermetrics",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/supermetrics/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/supermetrics__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Supermetrics: Annual discount messaging changed from flat 'Save 20%' to tiered: Starter now shows 'Save 25%', Growth shows… — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "supermetrics",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Starter base allowance cut (data sources 3 → 2, accounts per source 3 → 2) at the same $44/mo; Growth data sources 6 → 7; AI Credits now listed as an allowance.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Starter 3 → 2 sources",
+     "short": "Starter base data sources 3 → 2 and accounts per source 3 → 2 at the same $44/mo; Growth data sources 6 → 7; AI Credits listed at 1,000/mo (Starter) and 4,000/mo (Growth).",
+     "pattern": "Limits tighten",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "entry",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added supermetrics-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "tradingview:2026-W47",
+   "ps_slug": "tradingview",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/tradingview/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/tradingview__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TradingView adds Options volume profile and Expected move to Premium, Ultimate — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "tradingview",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Options volume profile and Expected move added to Premium and Ultimate technical analysis lists; no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "termly:2026-W47",
+   "ps_slug": "termly",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/termly/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/termly__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Termly swaps Fall for Cyberweek coupon, adds Starter seats, hides Agency… — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "termly",
+   "decision": {
+    "kind": "promo",
+    "why": "Coupon FALL2026 (20% off) replaced by Black Friday coupon CYBERWEEK26 (50% off, new customers only); Starter lists 5 users and Agency websites went from Starting at 10 to Custom.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "changed",
+     "text": "Coupon FALL2026 (20% off) replaced by CYBERWEEK26, 50% off for new customers only"
+    }
+   },
+   "outcome": "promo termly-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "trellus:2026-W47",
+   "ps_slug": "trellus",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/trellus/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/trellus__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Trellus swaps vague dialing limits for clear weekly minute caps — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "trellus",
+   "decision": {
+    "kind": "wording",
+    "why": "Vague Standard/High dialing labels replaced by stated weekly minute caps; the text does not show the underlying allowance changed, and prices are unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "tidycal:2026-W47",
+   "ps_slug": "tidycal",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/tidycal/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/tidycal__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TidyCal Black Friday deal cuts Pro yearly to $59.40 first year, then $99 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "tidycal",
+   "decision": {
+    "kind": "promo",
+    "why": "Black Friday promo on Pro yearly: $59.40 for the first year then $99/yr, for new accounts.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday: Pro yearly $59.40 first year, then $99/yr, for new accounts"
+    }
+   },
+   "outcome": "corroborates tidycal-promo-2026w47, tidycal-promo-2026w47-2",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "timetics:2026-W47",
+   "ps_slug": "timetics",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/timetics/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/timetics__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Timetics raises lifetime deal savings badge from 50% to 65% off — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "timetics",
+   "decision": {
+    "kind": "promo",
+    "why": "Black Friday coupon BFDEAL30 (about 30% off) applied to Lifetime deals, lifting the savings badge from up to 50% to up to 65%.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday coupon BFDEAL30 (about 30% off) on Lifetime deals, e.g. $99 → $69 and $189 → $132; savings badge now up to 65% (was up to 50%)"
+    }
+   },
+   "outcome": "promo timetics-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "theysaid:2026-W47",
+   "ps_slug": "theysaid",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/theysaid/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/theysaid__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TheySaid launches synthetic tester recruiting on Free, unlimited for Enterprise — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "theysaid",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Synthetic tester recruiting went live (was Recruit AI responders, coming soon); no price changed.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "thinkingmachineslab:2026-W47",
+   "ps_slug": "thinkingmachineslab",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/thinkingmachineslab/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/thinkingmachineslab__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Thinking Machines Lab drops checkpoint storage rate from pricing page — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "thinking-machines-lab",
+   "decision": {
+    "kind": "price_hidden",
+    "why": "Checkpoint storage rate ($0.10 per GB per month) removed from the Models & Pricing page and replaced by a link; token prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_hidden)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "thinkcell:2026-W47",
+   "ps_slug": "thinkcell",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/thinkcell/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/thinkcell__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "think-cell pricing FAQ discloses 50-user volume prices — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "think-cell",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "New pricing FAQ discloses 50-user volume prices for the first time; card prices for 1 user are unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "testrigor:2026-W47",
+   "ps_slug": "testrigor",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/testrigor/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/testrigor__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "testRigor drops 14-day free trial from Pay As You Go plan, now pay-per-use — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "testrigor",
+   "decision": {
+    "kind": "trial",
+    "why": "The 14-day free trial was dropped from the Pay As You Go plan.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (trial)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "termscout:2026-W47",
+   "ps_slug": "termscout",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/termscout/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/termscout__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TermScout adds $6,000 Scorecard add-on, sets $27,000 Certify annual minimum — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "termscout",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Prices shown for the first time: Additional Improvement Scorecard $6,000, Contract Re-analysis $500/review and a $27,000 Certify annual minimum; plan prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "techsmith:2026-W47",
+   "ps_slug": "techsmith",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/techsmith/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/techsmith__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "TechSmith relabels Camtasia plan cards, renames Pro perks, keeps prices flat — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "techsmith",
+   "decision": {
+    "kind": "wording",
+    "why": "Camtasia plan cards relabelled to match the unchanged compare table; prices flat.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (wording)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "taxdome:2026-W47",
+   "ps_slug": "taxdome",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/taxdome/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/taxdome__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Taxdome stops counting logins as activity for active client billing — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "taxdome",
+   "decision": {
+    "kind": "metering",
+    "why": "Active client billing definition changed: logins no longer count; only qualifying activity in the plan year does.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "Logins excluded",
+     "short": "Active client billing no longer counts logins: any activity in the past 12 months → qualifying activity in the plan year (uploads, signed letters, paid invoices).",
+     "pattern": "New billing units",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added taxdome-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "teamwork:2026-W47",
+   "ps_slug": "teamwork",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/teamwork/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/teamwork__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Teamwork launches AI credits: 2,500 on Accelerate, 7,500 on Optimize monthly — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "teamwork",
+   "decision": {
+    "kind": "metering",
+    "why": "AI credits now live as monthly allowances (Basics 1,000, Accelerate 2,500, Optimize 7,500), replacing the AI included for introductory period note.",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "AI credits: 2,500–7,500",
+     "short": "AI now metered with monthly credits (Basics 1,000, Accelerate 2,500, Optimize 7,500, Enterprise custom), replacing AI included for the introductory period; prices unchanged.",
+     "pattern": "AI gets a meter",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added teamwork-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "tatsoft:2026-W47",
+   "ps_slug": "tatsoft",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/tatsoft/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/tatsoft__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Tatsoft ends zero-fee edition upgrades, now requires active maintenance — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "tatsoft",
+   "decision": {
+    "kind": "became_paid",
+    "why": "Edition upgrades, previously ZERO fees, now require active maintenance (Premium Support and Maintenance, 20%/yr).",
+    "detail": "line",
+    "record": {
+     "group": "up",
+     "delta": "Upgrades now paid",
+     "short": "Edition upgrades no longer ZERO fees: they require active maintenance (Premium Support and Maintenance 20%/yr; 16%/yr for 3 years, 14%/yr for 5).",
+     "pattern": "Unbundling",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added tatsoft-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "sumup:2026-W47",
+   "ps_slug": "sumup",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/sumup/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/sumup__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SumUp launches £49 Payments Max at 0.69%, adds 12-month lock to Payments Plus — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "sumup",
+   "decision": {
+    "kind": "plan_change",
+    "why": "New Payments Max plan at £49/month with 0.69% fee; Payments Plus now £19/month on a 12-month commitment with the £189/year option removed.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "New £49 tier",
+     "short": "New Payments Max at £49/month with 0.69% in-person fee (24-month commitment, for £10,000+ monthly volume); Payments Plus now £19/month on a 12-month commitment, £189/year option removed.",
+     "pattern": "New tier",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "top",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added sumup-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "strivacity:2026-W47",
+   "ps_slug": "strivacity",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/strivacity/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/strivacity__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Strivacity adds AI Agents add-on, publishes MAU pricing from $17K/year — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "strivacity",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "The page replaced a hidden price with an MAU selector showing $17,000/year at 10K MAU, so a price is shown for the first time.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "supabase:2026-W47",
+   "ps_slug": "supabase",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/supabase/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/supabase__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Supabase extends Free plan Auth audit log retention to 24 hours — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "supabase",
+   "decision": {
+    "kind": "duplicate",
+    "why": "Already recorded as supabase-2026w47 (Free-plan Auth audit log retention 1 hour → 24 hours).",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "success:2026-W47",
+   "ps_slug": "success",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/success/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/success__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Success.ai adds HubSpot and Slack CRM integrations to Starter, prices unchanged — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "success-ai",
+   "decision": {
+    "kind": "new_feature",
+    "why": "Starter card now lists HubSpot and Slack CRM integrations; prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "profit:2026-W47",
+   "ps_slug": "profit",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/profit/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/profit__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Profit.co launches 50% off Black Friday & Cyber Monday sale with countdown timer — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "profit-co",
+   "decision": {
+    "kind": "promo",
+    "why": "A Black Friday & Cyber Monday banner offering 50% off with a countdown timer was added; plan prices are custom and unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday & Cyber Monday sale: 50% off, with countdown timer"
+    }
+   },
+   "outcome": "promo profit-co-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "predictleads:2026-W47",
+   "ps_slug": "predictleads",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/predictleads/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/predictleads__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "PredictLeads drops $40 minimum for prepaid credit packs from $0.0025/credit — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "predictleads",
+   "decision": {
+    "kind": "plan_change",
+    "why": "Pay-as-you-go tiers with a $40 monthly minimum were replaced by prepaid credit packs from $0.04 down to $0.0025 per credit with no minimum.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "$40 minimum removed",
+     "short": "Pay-as-you-go tiers with a $40 monthly minimum and 100 free credits a month were replaced by prepaid credit packs ($0.04 down to $0.0025 per credit) with no minimum and $20 of one-time free credits.",
+     "pattern": "Minimums",
+     "seg": "B2B",
+     "ai": false,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added predictleads-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "streak:2026-W47",
+   "ps_slug": "streak",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/streak/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/streak__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Streak adds MCP Server to connect Claude, ChatGPT and Gemini to CRM — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "streak",
+   "decision": {
+    "kind": "new_feature",
+    "why": "An MCP Server integration was added to the Pro+ and Enterprise feature lists with no price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "pressable:2026-W47",
+   "ps_slug": "pressable",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/pressable/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pressable__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Pressable offers up to 6 months free hosting on Premium plans through Nov 30 — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pressable",
+   "decision": {
+    "kind": "promo",
+    "why": "A holiday banner offers up to 6 months of free hosting on Premium plans for new customers, ending Nov 30.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Up to 6 months free hosting on Premium plans for new customers, ends Nov 30"
+    }
+   },
+   "outcome": "promo pressable-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "statsig:2026-W47",
+   "ps_slug": "statsig",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/statsig/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/statsig__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Statsig adds Agent Experimentation with evals, traces and AI Configs to plans — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "statsig",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new Agent Experimentation section was added to the plan comparison table with no change to existing prices.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "practicebetter:2026-W47",
+   "ps_slug": "practicebetter",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/practicebetter/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/practicebetter__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Practice Better adds $15/month Nutrition Planning add-on, 35% off promo — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "practice-better",
+   "decision": {
+    "kind": "new_feature",
+    "why": "A new Nutrition Planning add-on at $15 per month was added for a new capability, with no change to existing prices.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "stackguardian:2026-W47",
+   "ps_slug": "stackguardian",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/stackguardian/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/stackguardian__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "StackGuardian swaps $0.20 credits for $200 AI packs, adds free startup plan — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "stackguardian",
+   "decision": {
+    "kind": "new_feature",
+    "why": "The rebuilt page adds a Resilience policy pack and early-access items; the Enterprise limits became 'Custom' with no quantified allowance change, so no kept kind fits.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (new_feature)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "speakai:2026-W47",
+   "ps_slug": "speakai",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/speakai/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/speakai__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Speak AI includes tone and emotion analysis on every plan, not just Enterprise — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "speak-ai",
+   "decision": {
+    "kind": "feature_move",
+    "why": "Tone, emotion and energy analysis moved from an Enterprise custom-build feature to being stated as included on every plan.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "Enterprise → all plans",
+     "short": "Tone, emotion and energy analysis of audio and screen content, previously an Enterprise custom-build feature, is now stated as included on every plan.",
+     "pattern": "AI moves between tiers",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 2
+    },
+    "promo": null
+   },
+   "outcome": "added speak-ai-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "speechify:2026-W47",
+   "ps_slug": "speechify",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/speechify/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/speechify__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Speechify cuts Premium voice library claim from 1000+ to 400+ voices — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "speechify",
+   "decision": {
+    "kind": "duplicate",
+    "why": "The Premium voice library cut from 1000+ to 400+ is already recorded as speechify-2026w47.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "socialpilot:2026-W47",
+   "ps_slug": "socialpilot",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/socialpilot/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/socialpilot__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SocialPilot doubles yearly Black Friday discount to 30%, adds 20% monthly deal — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "socialpilot",
+   "decision": {
+    "kind": "promo",
+    "why": "The Black Friday yearly discount rose from 15% to 30% and a 20% monthly discount was added; list prices are unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "changed",
+     "text": "Black Friday: 30% off yearly plans (was 15%) and 20% off monthly plans, through Dec 18"
+    }
+   },
+   "outcome": "promo socialpilot-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "smoobu:2026-W47",
+   "ps_slug": "smoobu",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/smoobu/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/smoobu__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Smoobu Black Friday deal cuts 2-Year plans up to 70%, Pro+ now EUR16.50/mo — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "smoobu",
+   "decision": {
+    "kind": "promo",
+    "why": "A Black Friday promo raised the annual discounts from 10%/20% to 66%/70% on yearly and 2-year billing.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "changed",
+     "text": "Black Friday (code BLACKFRIDAY26): 66% off yearly and 70% off 2-year plans, up from 10% and 20%"
+    }
+   },
+   "outcome": "promo smoobu-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "pictory:2026-W47",
+   "ps_slug": "pictory",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/pictory/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pictory__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Pictory Black Friday: Professional annual drops to $29.50/mo, 50% off — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "pictory",
+   "decision": {
+    "kind": "promo",
+    "why": "A Black Friday code cuts Professional annual from $35 to $29.50 per month (50% off the $59 list price) as a limited-time offer.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday (code BLACKFRIDAY2026): Professional annual $29.50/mo, 50% off the $59 list price"
+    }
+   },
+   "outcome": "corroborates pictory-promo-2026w47",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "slackcorp:2026-W47",
+   "ps_slug": "slackcorp",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/slackcorp/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slackcorp__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Slack opens Slackbot to Free and Pro, caps Business+ at 15 messages a week — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "slack",
+   "decision": {
+    "kind": "duplicate",
+    "why": "The Slackbot caps and allowances by plan are already recorded as slack-2026w47.",
+    "detail": "card",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "smoothstay:2026-W47",
+   "ps_slug": "smoothstay",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/smoothstay/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/smoothstay__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "SmoothStay launches done-for-you guidebook setup for 5+ property hosts — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "smoothstay",
+   "decision": {
+    "kind": "support",
+    "why": "A done-for-you guidebook setup service for hosts with 5+ properties was added; this is a service, not a price or plan change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (support)",
+   "decided_run": "2026-11-18T19"
+  },
+  {
+   "report_id": "peec:2026-W47",
+   "ps_slug": "peec",
+   "week": "2026-W47",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/peec/diffs/2026W47"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/peec__2026W47.txt"
+   ],
+   "article_files": [],
+   "title": "Peec AI doubles tracked LLM models to 26, swaps Copilot for Bing AI Mode — Nov 16, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-18T19",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "peec",
+   "decision": {
+    "kind": "limit_change",
+    "why": "The top-tier LLM models tracked limit rose from 13 to 26, with Perplexity added to all plans and prices unchanged.",
+    "detail": "line",
+    "record": {
+     "group": "down",
+     "delta": "×2",
+     "short": "Top-tier LLM models tracked raised from 13 to 26, with Perplexity added to all plans; add-on prices of $30 and $70 unchanged.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": "added peec-2026w47",
+   "decided_run": "2026-11-18T19"
   }
  ]
 }
