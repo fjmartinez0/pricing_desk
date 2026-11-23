@@ -17524,7 +17524,7 @@
    "domains": [
     "unbounce.com"
    ],
-   "capture": "static",
+   "capture": "browser",
    "status": "active",
    "aiNative": null,
    "ownership": null,
@@ -26633,10 +26633,14 @@
    "category": "Finance & Accounting",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.allocatorbase.com/pricing"
+   ],
+   "domains": [
+    "allocatorbase.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -36684,7 +36688,7 @@
     "carepatron.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38488,7 +38492,7 @@
     "webpt.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38567,7 +38571,7 @@
     "videodatabase.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38596,7 +38600,7 @@
     "veroscribe.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38625,7 +38629,7 @@
     "vendorrisk.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38653,8 +38657,8 @@
    "domains": [
     "uxpin.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38683,7 +38687,7 @@
     "ujet.cx"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38712,7 +38716,7 @@
     "typeform.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38741,7 +38745,7 @@
     "truedialog.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38795,7 +38799,7 @@
     "termly.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38874,7 +38878,7 @@
     "strivacity.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38903,7 +38907,7 @@
     "statsig.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38932,7 +38936,7 @@
     "stackguardian.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -38961,7 +38965,7 @@
     "speakai.co"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39015,7 +39019,7 @@
     "smoobu.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39044,7 +39048,7 @@
     "seqera.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39066,14 +39070,12 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.sai360.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "sai360.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39083,8 +39085,8 @@
    "added": "2026-11-18",
    "source": "agent 2026-11-18T19",
    "source_url": "https://pricingsaas.com/companies/sai360/diffs/2026W47",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.sai360.com/pricing: page shows no prices",
    "ps_slugs": [
     "sai360"
    ]
@@ -39102,7 +39104,7 @@
     "qualio.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39124,14 +39126,12 @@
    "category": "Business Operations",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.priority-software.com/pricing/"
-   ],
+   "pricing_urls": [],
    "domains": [
     "priority-software.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39141,8 +39141,8 @@
    "added": "2026-11-18",
    "source": "agent 2026-11-18T19",
    "source_url": "https://pricingsaas.com/companies/prioritysoftware/diffs/2026W47",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.priority-software.com/pricing/: page shows no prices",
    "ps_slugs": [
     "prioritysoftware"
    ]
@@ -39160,7 +39160,7 @@
     "pressable.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39189,7 +39189,7 @@
     "predictleads.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39243,7 +39243,7 @@
     "picktime.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39265,14 +39265,12 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.meter.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "meter.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39282,8 +39280,8 @@
    "added": "2026-11-18",
    "source": "agent 2026-11-18T19",
    "source_url": "https://pricingsaas.com/companies/meter/diffs/2026W47",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.meter.com/pricing: page shows no prices",
    "ps_slugs": [
     "meter"
    ]
@@ -39301,7 +39299,7 @@
     "lawmatics.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39330,7 +39328,7 @@
     "landbot.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39359,8 +39357,8 @@
     "kling.ai",
     "klingai.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39389,7 +39387,7 @@
     "ibm.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39443,7 +39441,7 @@
     "files.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39473,7 +39471,7 @@
     "factory.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39487,6 +39485,35 @@
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
     "factory"
+   ]
+  },
+  "jasper": {
+   "name": "Jasper",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.jasper.ai/pricing"
+   ],
+   "domains": [
+    "jasper.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-22",
+   "source": "agent 2026-11-22T20",
+   "source_url": "https://pricingsaas.com/companies/jasper/diffs/2026D325",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "jasper"
    ]
   }
  }

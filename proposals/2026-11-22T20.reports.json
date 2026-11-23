@@ -1,0 +1,379 @@
+{
+ "type": "reports",
+ "run": "2026-11-22T20",
+ "items": [
+  {
+   "report_id": "wisprflow:2026-W48",
+   "company": "wispr-flow",
+   "new_company": null,
+   "kind": "free_plan",
+   "why": "Free plan Notetaker went from \"Limited Notetaker access (Mac, Windows, iPhone)\" to unlimited meetings with 30-day desktop history; the iPhone addition in the same week is a feature add and not the kept change.",
+   "detail": "card",
+   "record": {
+    "group": "down",
+    "delta": "Unlimited meetings",
+    "short": "Free plan Notetaker access goes from limited to unlimited meetings with 30-day meeting history on desktop.",
+    "pattern": "Free plans as funnels",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 3,
+    "plan": "Free",
+    "deltaSub": "Free plan Notetaker meetings",
+    "headline": "Wispr Flow lifted the cap on Notetaker meetings for Free users and now shows a 30-day meeting history on desktop.",
+    "rows": [
+     [
+      "Free plan, Notetaker access",
+      "Limited Notetaker access (Mac, Windows, iPhone)",
+      "Unlimited meetings · 30-day meeting history on desktop"
+     ]
+    ],
+    "who": "Free plan users; Pro already had unlimited Notetaker meetings, so the gap between the plans on this limit has closed.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A more generous free tier lowers the cost of trying Notetaker and shifts what Pro has to offer beyond meeting volume. The exact old cap was never shown, so the size of the loosening can't be measured.",
+    "caveat": "The previous limit was described only as \"Limited\", with no number, so the size of the change is unknown.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "all",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "together:2026-W48#2",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Qwen4 Max list price rose from $1.43/$0.0713/$4.28 to $1.50/$0.075/$4.50 per 1M tokens one day after the model was listed; a limited-time discounted rate runs to 11/23/2026 and Tencent Hy4 was added.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "+5%",
+    "short": "Qwen4 Max list price rises from $1.43 input and $4.28 output to $1.50 input and $4.50 output per 1M tokens.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1,
+    "plan": "Serverless Inference, Qwen4 Max",
+    "deltaSub": "Qwen4 Max output price, per 1M tokens",
+    "headline": "Together raised the list price of Qwen4 Max one day after listing it, while showing a limited-time discounted rate until 11/23/2026.",
+    "rows": [
+     [
+      "Qwen4 Max input, per 1M tokens",
+      "$1.43",
+      "$1.50"
+     ],
+     [
+      "Qwen4 Max cached input, per 1M tokens",
+      "$0.0713",
+      "$0.075"
+     ],
+     [
+      "Qwen4 Max output, per 1M tokens",
+      "$4.28",
+      "$4.50"
+     ],
+     [
+      "Limited-time discounted output rate, per 1M tokens",
+      "Not offered",
+      "$3.15"
+     ]
+    ],
+    "who": "Anyone paying per token for Qwen4 Max on Together's serverless inference; the model was only listed the day before.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Repricing a model within a day of launch suggests the launch price was provisional. The temporary discount makes the effective price lower until it ends, so the real cost after the window depends on whether the list price holds.",
+    "caveat": "A limited-time discounted rate ($1.05 input, $0.0525 cached, $3.15 output) is shown until 11/23/2026, so the effective price is lower until then. Together also added Tencent Hy4 at $0.83 input and $2.50 output per 1M tokens in the same capture.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": {
+     "low": 4.9,
+     "high": 5.1,
+     "basis": "unit price"
+    }
+   },
+   "promo": null
+  },
+  {
+   "report_id": "slack:2026-W48",
+   "company": "slack",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Slackbot row on the comparison table went from \"Consumption based\" to not included for Free and Pro, and the Enterprise+ claim changed from \"Unlimited Slackbot\" to \"Slackbot with no weekly message limits\"; the page appears to be running an experiment.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Slackbot removed",
+    "short": "Slackbot goes from \"Consumption based\" to not included on Free and Pro, and the Enterprise+ \"Unlimited Slackbot\" line is reworded.",
+    "pattern": "AI moves between tiers",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "free",
+    "reach": 3,
+    "plan": "Free and Pro",
+    "deltaSub": "Slackbot access, Free and Pro",
+    "headline": "Slack's pricing page stopped listing Slackbot on Free and Pro, reversing the usage-limited access it showed days earlier, and softened the Enterprise+ \"unlimited\" claim.",
+    "rows": [
+     [
+      "Slackbot on Free and Pro",
+      "Consumption based",
+      "Removed"
+     ],
+     [
+      "Enterprise+ card, Slackbot line",
+      "Unlimited Slackbot",
+      "Slackbot with no weekly message limits"
+     ]
+    ],
+    "who": "Free and Pro users who had Slackbot access; Enterprise+ customers see only a wording change with added usage-guideline caveats.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "If it holds, Slackbot becomes a paid-tier feature, which fits a pattern of AI assistants being gated up the ladder. The page has been flipping in recent days, so this may not be the final state.",
+    "caveat": "The page appears to run a live experiment script and the Slackbot and Enterprise+ details have changed repeatedly over recent days, so this may be one arm of a test rather than a decided change.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {
+   "report_id": "raycast:2026-W48",
+   "company": "raycast",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Raycast MCP capability added to Pro+; a new feature with no change to existing prices.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W48#3",
+   "company": "pika",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "GPT 2.5 Sunburst image model added at 1 credit per generation; existing prices unchanged, and the existing pika-2026w48 record is about a different change (repricing of Nano Banana 2.1 and GPT Image 2.6).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "perplexity:2026-W48#2",
+   "company": "perplexity",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Model name in the lineup changed from Gemini 4 Hydrogen to Gemini Neon with a \"New\" badge; no price or plan change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mistral:2026-W48",
+   "company": "mistral-ai",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Pro's listed $25.5/mo of included API credits was removed from its feature list, while model training opt-out was extended from Enterprise-only to Free, Pro and Team.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "−$25.5/mo credits",
+    "short": "Pro no longer lists $25.5/mo of bundled API credits; model training opt-out, previously Enterprise-only, now extends to Free, Pro and Team.",
+    "pattern": "Unbundling",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "mintlify:2026-W48#3",
+   "company": "mintlify",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "The $150/mo Starter plan test is already recorded as mintlify-2026w48; the extra Pro wording about password protection and advanced analytics is copy.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "mindsdb:2026-W48",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "GPT-6.2 Astra and Sol models and a new Image models section added to the catalog; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "lumaai:2026-W48",
+   "company": "lumaai",
+   "new_company": null,
+   "kind": "metering",
+   "why": "Gemini Omni Flash 720p video moved from up to 370 credits per video to 36 credits/sec, with other credit-rate changes the same day (Modify 39 → 38, MiniMax H3 Max reference images up, Ray3.14 HDR+EXR removed); the Seedance 2.5 Flash model added the next day is a new_feature and not recorded here.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Per-second billing",
+    "short": "Gemini Omni Flash 720p text/image-to-video moves from up to 370 credits per video to 36 credits/sec (max 360 for 10 sec) and Modify 39 → 38 credits/sec, while MiniMax H3 Max extra reference images rise from ~7–13 to 7–18 credits and Ray3.14 drops HDR+EXR.",
+    "pattern": "New billing units",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "krea:2026-W48#2",
+   "company": "krea",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday discounts on model usage prices shown on the Pro and Max cards; a limited-time offer, list prices not changed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday model-usage discounts on Pro and Max: Seedance 2.5 60%/75% off, Kling 4.0 20%/50% off, Krea 3 25%/50% off, GPT Image 2.6 20%/45% off, Nano Banana Pro 45%/65% off"
+   }
+  },
+  {
+   "report_id": "jasper:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Jasper",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.jasper.ai/pricing"
+    ],
+    "domains": [
+     "jasper.ai"
+    ],
+    "source_url": "https://pricingsaas.com/companies/jasper/diffs/2026D325",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "feature_move",
+   "why": "Plagiarism Checker (Copyscape add-on plagiarism search) row removed for Pro and Business in the plan comparison table.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Copyscape removed",
+    "short": "Jasper's plan comparison table no longer lists the Plagiarism Checker (Copyscape add-on plagiarism search) for Pro and Business.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "ideogram:2026-W48",
+   "company": "ideogram",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Ideogram 4.6 image model added to the credit-cost table; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "huggingface:2026-W48#2",
+   "company": "hugging-face",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Enterprise plan price shown as $50 → $500 per user per month between the Nov 20 and Nov 21 captures; a later capture shows $50 again.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+900%",
+    "short": "Enterprise plan listed at $500 per user per month, up from $50, though a later capture shows $50 again, so this may be a test or a reverted change.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "enterprise",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "gitlab:2026-W48",
+   "company": "gitlab",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Promotional included GitLab Credits cut from $12 to $8 (Premium) and $24 to $16 (Ultimate) per user per month; subscription list prices did not change and existing subscribers keep the old amounts through Dec 31, 2026.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "−33% credits",
+    "short": "Included GitLab Credits per user per month fall from $12 to $8 on Premium and $24 to $16 on Ultimate; existing subscribers keep the old amounts through Dec 31, 2026.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "docker:2026-W48",
+   "company": "docker",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New Cloud Sandboxes pay-as-you-go pricing ($0.07/hr to $1.12/hr) published and Desktop plan cards reorganised, with Pro $9, Team $15 and Business $24 unchanged; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "coderabbit:2026-W48#2",
+   "company": "coderabbit",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "Essentials lost Change Stack Chat and Agent access, while Triage Rules (Team and up) and Security Merge Blocking (Advanced and up) were added; the existing coderabbit-2026w48 record covers the earlier API/MCP change and not this one.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Essentials loses Agent",
+    "short": "Essentials no longer includes Change Stack Chat and Agent access, which now need Team or higher; Triage Rules arrive on Team and Security Merge Blocking on Advanced.",
+    "pattern": "AI moves between tiers",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "canva:2026-W48",
+   "company": "canva",
+   "new_company": null,
+   "kind": "promo",
+   "why": "New limited-time offer of 50% off Pro or Business for the first 3 months on monthly plans in select countries; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "50% off Canva Pro or Business for the first 3 months on monthly plans, select countries, not available with free trial"
+   }
+  },
+  {
+   "report_id": "baseten:2026-W48",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "bison-1 and groundhog-1 added to Model APIs token pricing; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  }
+ ]
+}

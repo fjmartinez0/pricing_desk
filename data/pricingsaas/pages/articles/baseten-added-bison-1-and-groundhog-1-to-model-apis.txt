@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+B
+Baseten
+PACKAGING CHANGE
+Baseten added bison-1 and groundhog-1 to Model APIs
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 21, 2026
+Baseten added bison-1 and groundhog-1 to its Model APIs token pricing.
+See before and after
+Enlarge
+Baseten’s pricing page · Change detected Nov 21, 2026
+What changed
+Baseten added two new models, bison-1 and groundhog-1, to the Model APIs token pricing table. Per Baseten's pricing page as of Nov 21, 2026, bison-1 is priced at $0.10 per 1M input tokens and groundhog-1 at $0.035 per 1M input tokens. Those same two input rates, $0.10 and $0.035, already price mammoth-1 and elephant-1 on the same table, which Pulse tracked as revealed on Oct 29, 2026.
+Why it matters
+For a product leader watching usage-based AI pricing, each model Baseten adds to its token-rate table is a cheap, no-commitment way to widen the menu without touching seat pricing elsewhere. bison-1 and groundhog-1 land at the same $0.10 and $0.035 input rates already set for mammoth-1 and elephant-1, per Baseten's pricing page as of Nov 21, 2026, so this reads as rounding out the low end of the catalog rather than a reprice of anything existing.
+Teams evaluating Baseten for inference should expect the rate card to keep growing: Pulse has tracked 15 pricing changes to Baseten's page since it started following the company on Jul 20, 2026, about 9 days apart on average. Watch whether bison-1 and groundhog-1 get cache-input and output pricing later — per Pulse's tracked history, elephant-1 and mammoth-1 were both added on Oct 22, 2026 with pricing listed as TBD, and both had input rates revealed by Oct 29, 2026.
+In context
+Pulse has tracked 15 real pricing changes to Baseten since it began following the company on Jul 20, 2026, with 13 of them in just the last 90 days, most recently a 20%-off Serverless Loops training launch on Nov 7, 2026. This latest move — two more names on the Model APIs token-rate table — keeps that cadence going without touching the dedicated-inference or sandbox pricing introduced when Baseten scrapped its Basic/Pro/Enterprise tiers on Nov 3, 2026. The sharper read: Baseten is treating its Model APIs catalog as a low-stakes testing ground, adding and pricing new models almost as fast as it reveals rates for ones added days earlier, as it did for elephant-1 and mammoth-1 on Oct 29, 2026. Pricing the same per-token way across a growing catalog, rather than bundling by plan, is a pattern Pulse tracked in 416 pricing changes across 276 companies in the credits-and-usage-billing lens over the last 180 days — companies like Pika and Lumaai lean on it most.
+Common questions
+What would adopting bison-1 or groundhog-1 cost at scale?
+Use the per-token rates above as your base and multiply by your projected monthly input-token volume for each model; Baseten doesn't list seat or volume pricing for Model APIs, so cost scales with usage alone. Worth also checking the cache-input column on Baseten's pricing page — some models there carry a lower cached-token rate that can cut the effective cost for repeat prompts.
+Is this part of a broader pattern or a one-off?
+Yes — in Baseten's event mix, features added and add-ons added moves (5 each) are tied for its most common type of pricing change, well ahead of the 3 price cuts and single restructuring Pulse has also tracked, so growing the catalog is closer to business as usual than a surprise.
+How do other AI infra vendors typically introduce new models — priced, or TBD?
+Unlike elephant-1 and mammoth-1's slower TBD-then-reveal path (see Why it matters), bison-1 and groundhog-1 shipped already priced. That's closer to how Pika rolled out its GPT 2.5 Sunburst image model at a flat 1 credit per generation on Nov 19, 2026 — pricing attached from day one rather than deferred.
+Sources
+Pulse: Baseten pricing changes, Nov 21, 2026pricingsaas.com/companies/baseten/diffs/2026D325
+Baseten pricing pagebaseten.co/pricing
+Keep exploring
+All changes from BasetenAll pricing news
+D
+Docker
+Docker launched Cloud Sandboxes and trimmed its Desktop plan cards
+R
+Retool
+Retool lifted its hard cap on AI credits
+P
+Pika
+Pika raised credit costs for its newest image model

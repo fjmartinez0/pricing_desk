@@ -1,0 +1,271 @@
+=== https://www.stackguardian.io/pricing ===
+Log inStart free
+StackGuardian
+Close
+Log inStart free
+Pricing
+Start free. Scale on your terms.
+Start free forever, or try any paid plan for 14 days with no credit card. Unlimited users on every plan.
+Every planUnlimited usersUnlimited runsNo per-resource feesAuto-remediate misconfigurationsInfra AI agents
+Free forever
+Ship governed deployments from repo to production.
+$0/month
+Start free
+Deployments
+10
+Cloud accounts
+1
+Monthly AI credits
+600
+Support
+Email
+Includes
+Any IaC
+GitOps from your Git provider
+Cloud discovery and misconfiguration checks
+Drift detection
+AI agents, MCP server and API
+Standard
+Standardize how your team ships with templates and policies.
+$359/month
+Start 14-day trial
+Deployments
+20
+Cloud accounts
+3
+Monthly AI credits
+2,000
+Support
+Next business day
+Everything in Free, plus
+Policy as code
+Templates and no-code forms
+SSO/SAML and audit trail
+Scheduled runs and custom runtimes
+Resilience policy pack Early access
+Pro
+Offer self-service to many developers and teams.
+$1,459/month
+Start 14-day trial
+Deployments
+30
+Cloud accounts
+10
+Monthly AI credits
+2,500
+Support
+Priority
+Everything in Standard, plus
+Private runners
+Custom roles
+Developer portal
+Advanced drift detection
+Recovery, rollback and cross-region recovery Early access
+Migration credits and onboarding
+Enterprise
+Scale, compliance and dedicated support for large organizations.
+Custom pricing
+Talk to sales
+Usage, AI credits and support SLA sized to your organization.
+Everything in Pro, plus
+ServiceNow (certified) and Backstage
+External approvals for regulated environments
+Dedicated customer success and architect
+Need more? Add a deployment for $1.15 a day or a cloud account for $1.12 a day, or 1,000 AI credits for $200. Prorated daily.
+Early access features go to our Founding 50 design partners first. Apply to join →
+Migration credits
+Pro and Enterprise include expert hours to move from Terraform Cloud or another IaC platform.
+Plan your migration →
+AWS and Azure Marketplace
+Buy through your cloud and count it toward eligible commitments.
+Ask about marketplace →
+Free Standard plan
+For startups under $1M in funding, open source and non‑profits.
+Apply →
+Template creators
+Get paid to maintain templates for our upcoming library.
+Apply →
+Compare plans
+What each plan includes
+Observe, orchestrate and operate infrastructure, for developers and agents.
+Free
+Standard
+Pro
+Enterprise
+Feature
+Free forever
+Standard
+Pro
+Enterprise
+Usage
+Deployments (active workflows)
+10
+20
+30
+Custom
+Cloud accounts
+1
+3
+10
+Custom
+Monthly AI credits (SGCredits)
+600
+2,000
+2,500
+Custom
+Users
+Unlimited
+Runs, including concurrent runs
+Unlimited
+Managed resources
+Unlimited
+Managed IaC code Early access
+Unlimited
+ObserveExplore →
+Cloud discovery and inventory
+Yes
+Misconfiguration checks for cost, security and compliance
+Yes
+Custom benchmarks
+Yes
+IaC coverage and insights dashboards
+Yes
+Code generation for resources created by hand
+Yes
+AI remediations of code and cloud findings a month Early access
+5
+25
+100
+Custom
+OrchestrateExplore →
+Any IaC: Terraform, OpenTofu, Helm, Ansible, CloudFormation and custom scripts
+Yes
+Workflows, stacks and workflow steps
+Yes
+Fully automated GitOps
+Yes
+GitOps with GitHub, GitLab, Bitbucket, Azure DevOps, Gitea and Forgejo
+Yes
+Self-hosted Git servers
+No
+Yes
+Custom runtimes from your own container image
+No
+Yes
+Templates and private library
+No
+Yes
+No-code forms
+No
+Yes
+Developer portal
+No
+Yes
+ServiceNow (certified) and Backstage
+No
+Yes
+Policy as code with OPA, Tirith, Checkov, Trivy, Wiz and more
+No
+Up to 300
+Yes
+Configuration policies
+No
+Yes
+Cost estimation with Infracost
+Yes
+OperateExplore →
+Drift detection
+Basic
+Advanced
+Scheduled runs and destroys
+No
+Up to 300
+Yes
+Audit trail of every run and approval
+No
+Yes
+External approval systems, for highly regulated environments
+No
+Yes
+Infrastructure recovery from your own state storage, with scheduled recovery checks
+No
+Yes
+Roll back to a previous run, straight into a reviewed plan Early access
+No
+Yes
+Resilience policy pack: multi-AZ, deletion protection and backup settings Early access
+No
+Yes
+Recovery readiness per application, against its SLA, RTO and RPO Planned
+No
+Yes
+Recovery into another region or account Early access
+No
+Yes
+Data restores through AWS Backup, Azure Backup, Rubrik, Cohesity, Veeam and Commvault Planned
+No
+Yes
+Scheduled recovery drills and audit evidence, for example for DORA Planned
+No
+Yes
+Across Observe, Orchestrate and Operate
+Agents and automationPowered by Kyro ↗
+AI agents for autonomous cloud ops, within your guardrails
+Yes
+StackGuardian CLI
+Yes
+MCP server for Claude Code, Cursor and other agents
+Yes
+Terraform provider
+Yes
+API and webhooks
+Yes
+Runners, security and support
+Shared runners managed by StackGuardian
+Yes
+Private runners in your cloud or data center
+No
+Yes
+SSO/SAML
+No
+Yes
+Custom roles
+No
+Yes
+Support
+Email
+Next business day
+Priority
+Custom SLA
+Migration credits: expert hours, setup and onboarding
+No
+Yes
+Dedicated customer success and architect
+No
+Yes
+Early access and Planned features go to our Founding 50 design partners first. Apply to join →
+FAQ
+Pricing questions
+Anything else? Talk to us.
+What is included in the 14-day trial?
+Every feature, on any paid plan. No credit card needed. At the end of the trial, pick a plan or stay on Free forever.
+What happens if I go past my plan’s limits?
+Your existing deployments keep running. To add more, an admin adds extra deployments (active workflows) at $1.15 a day or cloud accounts at $1.12 a day, prorated daily. Extra AI credits cost $200 per 1,000. Example: a team on Standard with 25 deployments pays $359 plus 5 × $1.15 × 30 = $531.50 a month.
+What is a deployment (active workflow)?
+A deployment is one workflow in StackGuardian. For Terraform or OpenTofu, one workflow manages one state file, so 20 state files means 20 deployments. Helm, Ansible, CloudFormation and script workflows count the same way: one workflow, one deployment. It counts as active from its first deploy until it is destroyed, however often you plan, apply or change it, and admins can mark it inactive. Users, runs and managed resources are never counted.
+What do AI credits pay for?
+AI credits, called SGCredits in the product, pay for all AI work in StackGuardian: generating and codifying infrastructure, remediating findings, troubleshooting failed runs and answering questions about your estate. These AI features are powered by Kyro, our AI agents. Meet Kyro. Each plan includes AI credits every month, and you can add more at $200 per 1,000.
+Do private runners cost extra?
+No. Private runners run in your own cloud or data center and connect to StackGuardian. Deploy as many as you need without an extra license. They are included from Pro.
+Who gets the Standard plan free?
+Startups with less than $1M in funding, open-source projects and non-profits. Tell us about your team and we will set you up.
+What do migration credits include?
+On Pro and Enterprise, a StackGuardian migration expert works with your team to plan the move from Terraform Cloud or another IaC platform, set up your first workflows and onboard your teams.
+How do I get early access features?
+Join the Founding 50, a small group of design partners who get early access and planned features first and help shape what ships next. Apply to join, and we will set up a 30-minute call.
+How can I pay?
+By credit card, through AWS Marketplace or Azure Marketplace, or through selected partners. Marketplace purchases can count toward eligible cloud commitment programs.
+Ready to simplify your IaC?
+Empower your teams with secure self-service deployments. Join thousands of engineers who trust StackGuardian.
+Free Forever ○ No Credit Card Required
+Start freeBook a demo →

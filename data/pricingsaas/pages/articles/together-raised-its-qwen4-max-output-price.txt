@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PRICE INCREASE
+Together raised its Qwen4 Max output price
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 20, 2026
+Together raised Qwen4 Max's per-token prices across the board.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 20, 2026
+QWEN4 MAX·first seen Nov 19, 2026
+What changed
+According to Together's pricing page, Qwen4 Max list rates rose on Nov 20, 2026, from $1.43 to $1.50 for input, $0.0713 to $0.075 for cached input, and $4.28 to $4.50 for output, all per 1M tokens. Together's pricing page also marks a limited-time discounted rate — $1.05 input, $0.0525 cached and $3.15 output per 1M tokens — as valid only through 11/23/2026. Separately, per Together's pricing page, Together added a new model, Tencent Hy4, to its serverless inference catalog on Nov 20, 2026, at $0.83 input, $0.042 cached and $2.50 output per 1M tokens.
+Why it matters
+For a product leader evaluating or reselling AI inference, the interesting part isn't the increase itself — it's the timing: Together's Qwen4 Max model was brand new, and per Together's pricing page its list rate had already moved to $1.50 input / $0.075 cached / $4.50 output per 1M tokens, up from $1.43 / $0.0713 / $4.28, as of Nov 20, 2026. Any team that just quoted a customer off Together's rate card, or built Qwen4 Max into its own usage-based pricing, is already behind the vendor's own price. Pulse has tracked 46 real pricing changes from Together since Dec 29, 2025, averaging about one every 7 days, so a wholesale AI-inference rate is less a fixed cost than a moving one to re-check before every quote. Together's pricing page marks its new discounted rate of $1.05 input / $0.0525 cached / $3.15 output per 1M tokens as valid only through 11/23/2026 — watch whether that becomes Together's real price once the window closes, or whether Qwen4 Max gets repriced again before then.
+In context
+Together's own record makes this look like business as usual: Pulse has tracked 46 real pricing changes from Together since Dec 29, 2025, including a 67% hike on Qwen3.7-Max on Nov 7, 2026 [[together/2026D311]] and a GPU-rate rise to $9.29/hr on Nov 13, 2026 [[together/2026D317]], so repricing a model one day after launch fits the pattern. The sharper read is the two-tier structure: Together is running a visible discount against its own new list price, echoing how, per Pulse's record, it let a Kimi K3 cached-input promo lapse back to $0.30 per 1M tokens on Oct 14, 2026 [[together/2026D287]]. Elsewhere, Pika [[pika]] and Lumaai [[lumaai]] both touched per-generation credit pricing on Nov 19, 2026, and Pulse tracked 416 such credit/usage-billing changes across 276 companies in the last 180 days — a live pattern, but still concentrated in AI-infra and generation tools rather than SaaS broadly. Together's pricing page marks the real signal here: whether its $1.05/$3.15 promo rate, valid only through 11/23/2026, expires the same way.
+Common questions
+How much more would this cost us per 1M tokens?
+Take the delta between Together's old and new Qwen4 Max rates on its pricing page and multiply it by your expected token volume for that model; because the discounted rate is temporary, budget off the full list price shown as of Nov 20, 2026, not the promo one.
+Does the record show why Together raised the price the same day the model launched?
+No — the pricing page shows the new rate and the discount but gives no stated reason, and there's no on-the-record comment from Together about this change, so treat any explanation as your own read rather than a stated rationale.
+Is raising a price one day after launch unusual for an AI inference vendor?
+Not really — in the same week Pika and Lumaai both revised their own credit-based pricing, and fast post-launch repricing is common enough across usage-billed AI tools that Pulse's data treats it as a live pattern rather than an outlier for Together specifically.
+Sources
+Pulse: Together pricing changes, Nov 20, 2026pricingsaas.com/companies/together/diffs/2026D324
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+M
+Mintlify
+Mintlify ran a pricing test for a new Starter plan
+M
+MindsDB
+MindsDB launched a new Image models category
+M
+Mintlify
+Mintlify renamed its Starter plan to Free.

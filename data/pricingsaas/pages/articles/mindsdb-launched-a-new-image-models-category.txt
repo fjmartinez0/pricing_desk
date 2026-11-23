@@ -1,0 +1,43 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+M
+MindsDB
+PACKAGING CHANGE
+MindsDB launched a new Image models category
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 19, 2026
+MindsDB added a new Image models category to its pricing page.
+See before and after
+Enlarge
+MindsDB’s pricing page · Change detected Nov 19, 2026
+IMAGE MODELS·first seen Nov 19, 2026
+What changed
+MindsDB added two new models to its LLM Gateway catalog on the pricing page Pulse saved on Nov 19, 2026: GPT-6.2 Astra at $8.00 input and $40.00 output per 1M tokens, and GPT-6.2 Sol at $2.00 input and $10.00 output per 1M tokens. The company also introduced a new Image models category on the pricing page Pulse saved on Nov 19, 2026, pricing GPT Image 2.6 Flare and GPT Image 2.6 Sunburst — both from OpenAI — at $5 per 1M tokens of text input, $8 per 1M tokens of image input and $30 per 1M tokens of image output. The rest of MindsDB's rate card — the Free and Pay-as-you-go plan structure and the existing LLM catalog — is unchanged by this addition.
+Why it matters
+MindsDB's whole model is pass-through pricing: customers pay provider rates, with caching savings passed on, and the Free and Pay-as-you-go tiers never had a model limit to defend. Extending that same per-token billing on text input, image input and image output to image generation says MindsDB is treating image models as just another row on the rate card rather than a separate product needing its own packaging. For a product leader weighing how to price AI-generated media, that is the sharper read: a usage-metered pass-through avoids the plan-redesign work a seat-based or credit-bundle model would require every time a new model or modality ships.
+It also means MindsDB's catalog keeps growing without any corresponding tier or plan change — a pattern worth copying if your own roadmap adds models or modalities faster than you want to touch pricing pages. Watch whether MindsDB keeps every new modality on the same token-metered structure, or eventually bundles some of it into a flat-rate tier as usage concentrates on a handful of models.
+In context
+MindsDB has touched its model rate card every nine days on average since Pulse began tracking it on Mar 9, 2026, with 18 of its 30 real pricing changes in the last 90 days alone, and this one came eight days after it added Muse Ember 1.0 on Nov 11, 2026. Pulse tracked 414 pricing changes touching credits and usage billing across 276 companies in the last 180 days, 12.2% of the 3,406 changes tracked in that window, and MindsDB's habit of bolting new models onto a flat per-token rate card is itself part of that pattern. Pika and Mintlify made similar usage-metered moves the same week; MindsDB's move reads less like a price change and more like a category extension, since the pass-through structure already covering dozens of text and reasoning models now covers image generation too. The sharper read for a product leader is less about this week's specific rates and more about what MindsDB is signaling: its packaging is modality-agnostic, so a new product line gets priced the same way a new model does, with no separate plan or tier to design.
+Common questions
+How would this price an image-heavy workflow?
+Multiply MindsDB's per-token image-input and image-output rates by your expected request volume to estimate spend; there is no seat count, plan limit or credit bundle to budget around, unlike usage-capped tools.
+Is this the first time MindsDB has priced image generation?
+Yes — this is the first Image models entry Pulse has tracked on MindsDB's pricing page, so there is no prior pricing history for this specific category to compare it against.
+Sources
+Pulse: MindsDB pricing changes, Nov 19, 2026pricingsaas.com/companies/mindsdb/diffs/2026D323
+MindsDB pricing pagemindshub.ai/pricing
+Keep exploring
+All changes from MindsDBAll pricing news
+J
+Jasper
+Jasper dropped its Copyscape plagiarism checker
+F
+Figma
+Figma added 3D transforms as a beta feature
+P
+Pika
+Pika ended free daily H3 Flex generations for subscribers

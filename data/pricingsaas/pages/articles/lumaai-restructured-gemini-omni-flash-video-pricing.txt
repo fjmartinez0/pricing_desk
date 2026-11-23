@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+L
+Lumaai
+PRICE DECREASE
+Lumaai restructured Gemini Omni Flash video pricing
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 19, 2026
+Lumaai moved Gemini Omni Flash video pricing to per-second billing.
+See before and after
+Enlarge
+Lumaai’s pricing page · Change detected Nov 19, 2026
+GEMINI OMNI FLASH·first seen Nov 19, 2026
+What changed
+Lumaai restructured Gemini Omni Flash video pricing (3-to-10-second clips) from a flat per-video rate to per-second billing: Text-to-Video and Image-to-Video at 720p moved from up to 370 credits per video to 36 credits per second, capping at 360 credits for a 10-second clip, and the Modify 720p rate was cut from 39 to 38 credits per second, per Lumaai's pricing page as of Nov 19, 2026.
+Separately, per Lumaai's pricing page as of Nov 19, 2026, Ray3.14 lost its HDR+EXR output tier (a 3x-cost multiplier option) — only SDR (base) and HDR (2x) remain for that model, while Ray3.2 still offers HDR+EXR. MiniMax H3 Max's extra reference images, the ones beyond the first 2 to 4 free, now cost 7 to 18 credits each, up from roughly 7 to 13 credits, per Lumaai's pricing page as of Nov 19, 2026.
+Why it matters
+For a product leader running usage-based AI pricing, Lumaai's move from flat per-video to per-second billing on Gemini Omni Flash is a structural change, not just a price cut: per-second metering ties cost directly to clip length, rewarding short generations and penalizing long ones in a way a flat per-video rate never did — worth modeling against your own typical clip length before assuming the new rate is cheaper for you specifically.
+The same diff also narrows an output tier (Ray3.14's HDR+EXR) while raising a different cost (MiniMax H3 Max reference images) — a sign Lumaai is actively tuning margin model by model rather than moving prices in one direction. Watch whether Ray3.2's HDR+EXR option survives the next update or gets trimmed too, which would signal Lumaai retiring that output format rather than just cutting one model's tier.
+In context
+Lumaai has reworked pricing frequently this year: per Pulse's tracked history, it cut Seedance pricing up to 73% on Sep 19, 2026 [[lumaai/2026D262]], doubled Seedance video-to-video costs on Oct 5, 2026 [[lumaai/2026W41]], then halved Video-to-Video rates again on Nov 7, 2026 [[lumaai/2026D311]] — and today's diff cuts one model's rate while raising another's, on a page it has changed every 13 days on average since tracking began Jul 20, 2026. Pulse tracked 414 credits-and-usage-billing changes across 276 companies in the last 180 days, and Pika is part of that same wave, offering unlimited Wan 3.0 generations on its Fancy plan through Nov 23 [[pika/2026D322]]. The sharper read: in AI-video pricing, cheaper and more expensive are often true of the same company in the same month, model by model, so a single headline number rarely describes the whole page.
+Common questions
+Is Gemini Omni Flash cheaper now or more expensive?
+It depends on clip length — the per-second structure benefits short clips, so run the math against your typical generation length before assuming the new rate saves you money across the board.
+What happened to Ray3.14's top output tier?
+HDR+EXR is gone as an option; only SDR and HDR remain on that model, while Ray3.2 still lists HDR+EXR, so check which Ray version your workflow depends on before this spreads further.
+Why did MiniMax H3 Max reference images get pricier?
+Lumaai's page gives no stated reason for the increase — worth watching whether it's an isolated adjustment or the start of a broader reference-image repricing.
+Sources
+Pulse: Lumaai pricing changes, Nov 19, 2026pricingsaas.com/companies/lumaai/diffs/2026D323
+Lumaai pricing pagelumalabs.ai/pricing
+Keep exploring
+All changes from LumaaiAll pricing news
+M
+Mintlify
+Mintlify renamed its Starter plan to Free.
+B
+Bolt
+Bolt capped Free at 3 collaborators and listed unlimited on Pro and Teams.
+C
+Cognition
+Cognition flattened its Teams plan pricing

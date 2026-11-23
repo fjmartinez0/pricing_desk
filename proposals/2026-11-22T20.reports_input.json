@@ -1,0 +1,382 @@
+{
+ "run": "2026-11-22T20",
+ "reports": [
+  {
+   "report_id": "wisprflow:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/wisprflow/diffs/2026D325",
+    "https://pricingsaas.com/companies/wisprflow/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/wisprflow__2026D325.txt",
+    "data/pricingsaas/pages/diffs/wisprflow__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/wisprflow-brought-notetaker-meeting-notes-to-iphone.txt",
+    "data/pricingsaas/pages/articles/wisprflow-made-free-plan-notetaker-meetings-unlimited.txt"
+   ],
+   "title": "Wispr Flow Free plan gets unlimited Notetaker meetings and 30-day history — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "wispr-flow",
+   "registry_name": "Wispr Flow",
+   "existing_records": []
+  },
+  {
+   "report_id": "together:2026-W48#2",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/together/diffs/2026D324",
+    "https://pricingsaas.com/companies/together/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/together__2026D324.txt",
+    "data/pricingsaas/pages/diffs/together__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-raised-its-enterprise-plan-price.txt",
+    "data/pricingsaas/pages/articles/together-added-qwen4-max-to-its-serverless-lineup.txt",
+    "data/pricingsaas/pages/articles/together-raised-its-qwen4-max-output-price.txt"
+   ],
+   "title": "Together AI: Qwen4 Max price hike to $4.50 output + 30% promo, adds Tencent Hy4 — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "together-ai",
+   "registry_name": "Together AI",
+   "existing_records": []
+  },
+  {
+   "report_id": "slack:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/jasper-dropped-its-copyscape-plagiarism-checker.txt",
+    "data/pricingsaas/pages/articles/slack-tested-pulling-slackbot-off-free-and-pro-plans.txt"
+   ],
+   "title": "Slack drops Slackbot from Free and Pro, swaps Enterprise+ unlimited claim for usage guidelines — Nov 19, 2026 · PricingSaaS Pulse",
+   "registry_guess": "slack",
+   "registry_name": "Slack",
+   "existing_records": []
+  },
+  {
+   "report_id": "raycast:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-20",
+   "urls": [
+    "https://pricingsaas.com/companies/raycast/diffs/2026D324"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/raycast__2026D324.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/coderabbit-stripped-change-stack-chat-and-agent-access-from-essentials.txt",
+    "data/pricingsaas/pages/articles/raycast-launched-raycast-mcp-for-its-pro-plan.txt"
+   ],
+   "title": "Raycast launches Raycast MCP, letting Claude Code and ChatGPT control the app — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "raycast",
+   "registry_name": "Raycast",
+   "existing_records": []
+  },
+  {
+   "report_id": "pika:2026-W48#3",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/pika__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/ideogram-added-a-new-image-model-to-its-credit-cost-table.txt",
+    "data/pricingsaas/pages/articles/pika-added-a-new-sunburst-image-model.txt"
+   ],
+   "title": "Pika adds GPT 2.5 Sunburst image model at 1 credit per generation — Nov 19, 2026 · PricingSaaS Pulse",
+   "registry_guess": "pika",
+   "registry_name": "Pika",
+   "existing_records": [
+    {
+     "id": "pika-2026w48",
+     "short": "Per-image credit cost falls for Nano Banana 2.1 (5 → 4) and GPT Image 2.6 (4 → 3), lifting images per plan, e.g. Starter 150 → 200 on GPT Image 2.6.",
+     "src": "PricingSaaS report"
+    }
+   ]
+  },
+  {
+   "report_id": "perplexity:2026-W48#2",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/perplexity/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/perplexity__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/perplexity-renamed-a-gemini-model-in-its-ai-lineup.txt"
+   ],
+   "title": "Perplexity AI swaps Gemini 4 Hydrogen for Gemini Neon in its AI model lineup — Nov 19, 2026 · PricingSaaS Pulse",
+   "registry_guess": "perplexity",
+   "registry_name": "Perplexity",
+   "existing_records": []
+  },
+  {
+   "report_id": "mistral:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/mistral/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mistral__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mistral-removed-pro-s-bundled-api-credits.txt"
+   ],
+   "title": "Mistral AI: Pro loses $25.5/mo API credits, training opt-out expands — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "mistral-ai",
+   "registry_name": "Mistral AI",
+   "existing_records": []
+  },
+  {
+   "report_id": "mintlify:2026-W48#3",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/mintlify/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mintlify__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mintlify-ran-a-pricing-test-for-a-new-starter-plan.txt"
+   ],
+   "title": "Mintlify launches $150/mo Starter plan + 1 more change — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "mintlify",
+   "registry_name": "Mintlify",
+   "existing_records": [
+    {
+     "id": "mintlify-2026w48",
+     "short": "Mintlify shows a new paid Starter plan at $150/mo billed annually ($180 monthly) with 10 editors and 5,000 credits, in what looks like an A/B test (3 of 12 fetches).",
+     "src": "PricingSaaS report"
+    }
+   ]
+  },
+  {
+   "report_id": "mindsdb:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/mindsdb/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/mindsdb__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/mindsdb-launched-a-new-image-models-category.txt"
+   ],
+   "title": "MindsDB: added GPT-6.2 Astra & Sol models + new Image models category — Nov 19, 2026 · PricingSaaS Pulse",
+   "registry_guess": "mindsdb",
+   "registry_name": "MindsDB",
+   "existing_records": []
+  },
+  {
+   "report_id": "lumaai:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/lumaai/diffs/2026D324",
+    "https://pricingsaas.com/companies/lumaai/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/lumaai__2026D324.txt",
+    "data/pricingsaas/pages/diffs/lumaai__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/coderabbit-stripped-change-stack-chat-and-agent-access-from-essentials.txt",
+    "data/pricingsaas/pages/articles/ideogram-added-a-new-image-model-to-its-credit-cost-table.txt",
+    "data/pricingsaas/pages/articles/lumaai-added-a-new-seedance-video-model.txt",
+    "data/pricingsaas/pages/articles/lumaai-restructured-gemini-omni-flash-video-pricing.txt",
+    "data/pricingsaas/pages/articles/mistral-removed-pro-s-bundled-api-credits.txt"
+   ],
+   "title": "Luma AI adds Seedance 2.5 Flash video model at 24–51 credits/sec — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "lumaai",
+   "registry_name": "Luma AI",
+   "existing_records": []
+  },
+  {
+   "report_id": "krea:2026-W48#2",
+   "week": "2026-W48",
+   "change_date": "2026-11-19",
+   "urls": [
+    "https://pricingsaas.com/companies/krea/diffs/2026D323"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/krea__2026D323.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/krea-discounted-its-model-usage-prices-for-black-friday.txt"
+   ],
+   "title": "Krea slashes model prices up to 75% in Black Friday discount blitz — Nov 19, 2026 · PricingSaaS Pulse",
+   "registry_guess": "krea",
+   "registry_name": "Krea",
+   "existing_records": []
+  },
+  {
+   "report_id": "jasper:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/jasper/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/jasper__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/jasper-dropped-its-copyscape-plagiarism-checker.txt"
+   ],
+   "title": "Jasper drops Copyscape plagiarism checker from plan comparison table — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": null,
+   "registry_name": null,
+   "existing_records": []
+  },
+  {
+   "report_id": "ideogram:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-20",
+   "urls": [
+    "https://pricingsaas.com/companies/ideogram/diffs/2026D324"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/ideogram__2026D324.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/ideogram-added-a-new-image-model-to-its-credit-cost-table.txt"
+   ],
+   "title": "Ideogram: Added a new Ideogram 4.6 image model to the credit-cost table with separate 2K and 4K rendering tiers, each… — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "ideogram",
+   "registry_name": "Ideogram",
+   "existing_records": []
+  },
+  {
+   "report_id": "huggingface:2026-W48#2",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/huggingface/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/huggingface__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/huggingface-raised-its-enterprise-plan-price.txt"
+   ],
+   "title": "Huggingface hikes Enterprise plan 10x, from $50 to $500 per user monthly — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "hugging-face",
+   "registry_name": "Hugging Face",
+   "existing_records": []
+  },
+  {
+   "report_id": "gitlab:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-20",
+   "urls": [
+    "https://pricingsaas.com/companies/gitlab/diffs/2026D324"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/gitlab__2026D324.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/gitlab-cut-the-included-gitlab-credits-on-premium-and-ultimate.txt"
+   ],
+   "title": "GitLab cuts Premium to $8 and Ultimate to $16 per user in credits promo — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "gitlab",
+   "registry_name": "GitLab",
+   "existing_records": []
+  },
+  {
+   "report_id": "docker:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-20",
+   "urls": [
+    "https://pricingsaas.com/companies/docker/diffs/2026D324"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/docker__2026D324.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/docker-launched-cloud-sandboxes-and-trimmed-its-desktop-plan-cards.txt"
+   ],
+   "title": "Docker launches Cloud Sandboxes at $0.07/hr, trims Desktop cards to Free/Teams — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "docker",
+   "registry_name": "Docker",
+   "existing_records": []
+  },
+  {
+   "report_id": "coderabbit:2026-W48#2",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/coderabbit/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/coderabbit__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/coderabbit-stripped-change-stack-chat-and-agent-access-from-essentials.txt"
+   ],
+   "title": "CodeRabbit strips Agent access from Essentials, adds Triage Rules for Team+ — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "coderabbit",
+   "registry_name": "CodeRabbit",
+   "existing_records": [
+    {
+     "id": "coderabbit-2026w48",
+     "short": "API and MCP server access is now included in every plan; before, API access was listed as Enterprise only.",
+     "src": "Pricing Desk capture"
+    }
+   ]
+  },
+  {
+   "report_id": "canva:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-20",
+   "urls": [
+    "https://pricingsaas.com/companies/canva/diffs/2026D324"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/canva__2026D324.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/canva-introduced-a-limited-time-discount-on-pro-and-business-plans.txt"
+   ],
+   "title": "Canva offers 50% off Pro and Business for first 3 months in select countries — Nov 20, 2026 · PricingSaaS Pulse",
+   "registry_guess": "canva",
+   "registry_name": "Canva",
+   "existing_records": []
+  },
+  {
+   "report_id": "baseten:2026-W48",
+   "week": "2026-W48",
+   "change_date": "2026-11-21",
+   "urls": [
+    "https://pricingsaas.com/companies/baseten/diffs/2026D325"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/baseten__2026D325.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/baseten-added-bison-1-and-groundhog-1-to-model-apis.txt",
+    "data/pricingsaas/pages/articles/coderabbit-stripped-change-stack-chat-and-agent-access-from-essentials.txt"
+   ],
+   "title": "Baseten adds bison-1 and groundhog-1 to Model APIs, from $0.035/1M tokens — Nov 21, 2026 · PricingSaaS Pulse",
+   "registry_guess": "baseten",
+   "registry_name": "Baseten",
+   "existing_records": []
+  }
+ ]
+}

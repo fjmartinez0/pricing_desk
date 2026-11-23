@@ -1,0 +1,55 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+I
+Ideogram
+PACKAGING CHANGE
+Ideogram added a new image model to its credit-cost table
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 20, 2026
+Ideogram added a 4.6 image model with separate 2K and 4K credit tiers.
+See before and after
+Enlarge
+Ideogram’s pricing page · Change detected Nov 20, 2026
+What changed
+Ideogram added a new 4.6 image model to its credit-cost table, with separate rows for 2K and 4K output. On Ideogram's pricing page, as of Nov 20, 2026, 2K renders cost 0.8 to 22 credits per image depending on the rendering setting, and 4K renders cost 6 to 60 credits per image.
+The new entry sits above Ideogram's other models in the same table; their credit costs are unchanged, and no plan or seat price changed either.
+Why it matters
+For a product leader pricing usage-based AI features, the move is a reminder that credit costs are rarely one number per model: splitting 2K and 4K into separate rows lets Ideogram charge more for heavier renders without touching its seat prices, a lever more image and video tools are reaching for as compute costs diverge by output size.
+A team generating mostly 2K images sees no change in what it pays; a team that leans on 4K renders now pays notably more per image at the high end of the range. Anyone packaging their own generation credits should watch whether other output dimensions — resolution, duration, model quality — deserve their own line in the credit table rather than one blended rate.
+In context
+Pulse has tracked 5 real pricing changes from Ideogram since it began following the company on Jul 27, 2026, averaging one every 27 days; this is Ideogram's second change in as many months, after a broader model and credits overhaul on Oct 15, 2026 and more than doubling priority credits on Plus, Pro and Team on Oct 3, 2026. Pulse tracked 416 credit-and-usage-billing changes among 276 companies in the last 180 days — 12.2% of 3,414 pricing changes tracked in that window — with Pika (13 changes), Lumaai (8) and Mintlify (7) the most active. Per Pulse's tracked history, Lumaai cut its Gemini Omni Flash video rate to 36 credits per second on Nov 19, 2026, and Pika added a GPT 2.5 Sunburst model at 1 credit per generation the same day. The sharper read: Ideogram isn't touching prices on existing work here — it's giving a new output tier its own credit rate before usage shows whether 2K and 4K renders should cost the same.
+Common questions
+What would this cost a team that mostly generates at 4K?
+Multiply your monthly image volume by the per-image rate for the rendering quality you'll use — on Ideogram's pricing page as of Nov 20, 2026, the 4K tier runs 6 to 60 credits per image depending on setting, so the quality slider moves the bill as much as the resolution does.
+Does this change what any current Ideogram plan costs?
+No — only the new model's own credit math moved. Use it as a cue to check whether your own usage-based features already separate output tiers, or still bill resolution and duration at one flat rate.
+Is per-tier credit pricing becoming the norm for AI image and video tools?
+Not yet — Pulse has seen the same model-level credit split from a handful of companies like Lumaai and Pika this month, but most of the market still prices a model with one blended rate.
+What people are saying
+@nikhilgoyalaiX
+“Ideogram 4.6 is out. For product images, the useful test is what stays unchanged after the edit.
+Ideogram says 4.6 improves precise edits and generates at up to native 4K. That isn't a promise that every logo, label or color survives untouched.
+For a hypothetical product brief, try this review loop:
+1. Start with an image you have permission to edit.
+2. Change one thing: background, material or color.
+3. Compare the label text, product shape and surrounding details against the original before the next edit.
+The app's Generate button shows the credit quote for the chosen settings. Very low quality supports up to 2K, not 4K. I haven't tested 4.6.”
+View original
+Sources
+Pulse: Ideogram pricing changes, Nov 20, 2026pricingsaas.com/companies/ideogram/diffs/2026D324
+Ideogram pricing pageideogram.ai/pricing
+Keep exploring
+All changes from IdeogramAll pricing news
+H
+Huggingface
+Huggingface raised its Enterprise plan price
+S
+Shopify
+Shopify introduced a tax calculation fee
+K
+Krea
+Krea launched a Black Friday sale

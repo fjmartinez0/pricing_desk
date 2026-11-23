@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+S
+Slack
+A/B TEST
+Slack tested pulling Slackbot off Free and Pro plans
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 19, 2026
+Slack's pricing page is live-testing whether Slackbot stays on Free and Pro.
+See before and after
+Enlarge
+Slack’s pricing page · Change detected Nov 19, 2026
+SLACKBOT·first seen Jan 13, 2026
+What changed
+Slack's pricing-page comparison table now shows a plain dash for Slackbot on Free and Pro, where the row had read ‘Consumption based’; Business+'s ‘Usage limits’ and Enterprise+'s ‘Unlimited’ labels were replaced with plain checkmarks. On the Enterprise+ plan card, the Slackbot line changed from ‘Unlimited Slackbot’ to ‘Slackbot with no weekly message limits,’ and its tooltip now adds ‘subject to our usage guidelines’ and ‘advanced feature limits’ language in place of ‘It's unlimited for your whole team.’
+Per Pulse's tracked history, Slack opened Slackbot to Free and Pro at 15 messages per user weekly on Nov 11, 2026 [[slack/2026D315]]. Pulse's own check of Slack's pricing page also found it running a live experimentation script, with the $45 Enterprise+ price Slack revealed on Nov 14, 2026 [[slack/2026D318]] appearing inconsistently across repeat page saves.
+Why it matters
+Because Slack's pricing page is running a live experimentation script right now, this swap may be one arm of an active test rather than a finished decision — worth a re-check before anyone assumes Slack permanently pulled Slackbot off Free and Pro. For a product leader watching how AI-assistant features get gated across tiers, Slack's own page can't currently be read as ground truth: the same page that varies the $45 Enterprise+ price, per Slack's pricing page on Nov 14, 2026 [[slack/2026D318]], appears to be varying Slackbot's availability too, which undercuts any single pricing-page save as the final word on Slack's packaging.
+Watch whether the Slackbot row and the Enterprise+ wording settle on one version across Slack's next few pricing-page saves, which would confirm a real policy change rather than a test in progress.
+In context
+Per Pulse's tracked history, Slack revealed a $45 Enterprise+ price on Nov 3, 2026 [[slack/2026D307]], hid it again on Nov 8 [[slack/2026D312]], opened Slackbot to Free and Pro at 15 messages per user weekly on Nov 11 [[slack/2026D315]], then revealed $45 again on Nov 14 [[slack/2026D318]] — four real changes in quick succession, from a company that has shipped a change only every 54 days on average since Pulse began tracking it on Jun 1, 2023. Pulse's own check of the page found it running a live experimentation script, so the sharper read is that Slack is testing packaging and pricing variants in public rather than settling on either. Pulse tracked 174 feature-removal changes across 157 companies in the last 180 days; Huggingface dropped its H100 inference endpoints from pricing on Nov 17, 2026 [[huggingface/2026D321]], and Buffer cut its Start Page the same week [[buffer/2026W47]] — but few of those companies are running a live pricing test on the same page at the same time, which is what sets Slack's case apart from an ordinary feature cut.
+Common questions
+Is this a permanent change or a pricing-page test?
+Treat it as unsettled for now — ping Slack sales or re-check in a week rather than updating a vendor comparison sheet off one snapshot.
+What does Slackbot cost on Free and Pro now?
+Nothing is listed there anymore, so plan as if it's gated behind a paid tier until Slack's page stabilizes.
+Should we expect Slack's $45 Enterprise+ price to hold?
+Not necessarily — per Slack's pricing page on Nov 14, 2026 [[slack/2026D318]], that's the most recent figure Pulse tracked, but it has flipped before and may again while this page keeps testing variants.
+Sources
+Pulse: Slack pricing changes, Nov 19, 2026pricingsaas.com/companies/slack/diffs/2026D323
+Slack pricing pageslack.com/pricing
+Keep exploring
+All changes from SlackAll pricing news
+R
+Retool
+Retool lifted its hard cap on AI credits
+P
+Pika
+Pika lowered credit costs for its AI image models
+S
+Slack
+Slack ran an A/B test on Enterprise+ pricing

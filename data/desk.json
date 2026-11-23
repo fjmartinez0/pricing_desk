@@ -1,6 +1,6 @@
 {
  "current_week": "2026-W47",
- "today": "2026-11-18",
+ "today": "2026-11-22",
  "edition_date": "2026-11-17",
  "period": "9–15 Nov",
  "week_order": [
@@ -38661,7 +38661,7 @@
   {
    "id": "bolt-2026w48",
    "week": "2026-W48",
-   "rank": 8,
+   "rank": 10,
    "co": "Bolt",
    "company": "bolt",
    "tier": 3,
@@ -38690,7 +38690,7 @@
   {
    "id": "socket-2026w48",
    "week": "2026-W48",
-   "rank": 20,
+   "rank": 25,
    "co": "Socket",
    "company": "socket",
    "tier": 3,
@@ -38719,7 +38719,7 @@
   {
    "id": "klaviyo-2026w48",
    "week": "2026-W48",
-   "rank": 9,
+   "rank": 11,
    "co": "Klaviyo",
    "company": "klaviyo",
    "tier": 3,
@@ -38748,7 +38748,7 @@
   {
    "id": "simplelocalize-2026w48",
    "week": "2026-W48",
-   "rank": 10,
+   "rank": 12,
    "co": "SimpleLocalize",
    "company": "simplelocalize",
    "tier": 3,
@@ -38777,7 +38777,7 @@
   {
    "id": "pika-2026w48",
    "week": "2026-W48",
-   "rank": 7,
+   "rank": 8,
    "co": "Pika",
    "company": "pika",
    "tier": 3,
@@ -38873,7 +38873,7 @@
   {
    "id": "buildkite-2026w48",
    "week": "2026-W48",
-   "rank": 11,
+   "rank": 13,
    "co": "Buildkite",
    "company": "buildkite",
    "tier": 3,
@@ -38902,7 +38902,7 @@
   {
    "id": "aikido-security-2026w48",
    "week": "2026-W48",
-   "rank": 12,
+   "rank": 14,
    "co": "Aikido Security",
    "company": "aikido-security",
    "tier": 3,
@@ -39764,7 +39764,7 @@
   {
    "id": "vercel-2026w48",
    "week": "2026-W48",
-   "rank": 13,
+   "rank": 15,
    "co": "Vercel",
    "company": "vercel",
    "tier": 3,
@@ -39793,7 +39793,7 @@
   {
    "id": "modal-2026w48",
    "week": "2026-W48",
-   "rank": 14,
+   "rank": 16,
    "co": "Modal",
    "company": "modal",
    "tier": 3,
@@ -39822,7 +39822,7 @@
   {
    "id": "salesmotion-2026w48",
    "week": "2026-W48",
-   "rank": 21,
+   "rank": 26,
    "co": "Salesmotion",
    "company": "salesmotion",
    "tier": 3,
@@ -39851,7 +39851,7 @@
   {
    "id": "quriobot-2026w48",
    "week": "2026-W48",
-   "rank": 22,
+   "rank": 27,
    "co": "Quriobot",
    "company": "quriobot",
    "tier": 3,
@@ -39880,7 +39880,7 @@
   {
    "id": "browse-ai-2026w48",
    "week": "2026-W48",
-   "rank": 15,
+   "rank": 17,
    "co": "Browse AI",
    "company": "browse-ai",
    "tier": 3,
@@ -39909,7 +39909,7 @@
   {
    "id": "todoist-2026w48",
    "week": "2026-W48",
-   "rank": 16,
+   "rank": 18,
    "co": "Todoist",
    "company": "todoist",
    "tier": 3,
@@ -40312,7 +40312,7 @@
   {
    "id": "mintlify-2026w48",
    "week": "2026-W48",
-   "rank": 23,
+   "rank": 28,
    "co": "Mintlify",
    "company": "mintlify",
    "tier": 3,
@@ -40347,7 +40347,7 @@
   {
    "id": "coderabbit-2026w48",
    "week": "2026-W48",
-   "rank": 17,
+   "rank": 19,
    "co": "CodeRabbit",
    "company": "coderabbit",
    "tier": 3,
@@ -40376,7 +40376,7 @@
   {
    "id": "warp-2026w48",
    "week": "2026-W48",
-   "rank": 5,
+   "rank": 6,
    "co": "Warp",
    "company": "warp",
    "tier": 2,
@@ -40437,7 +40437,7 @@
   {
    "id": "zoho-2026w48",
    "week": "2026-W48",
-   "rank": 6,
+   "rank": 7,
    "co": "Zoho",
    "company": "zoho",
    "tier": 2,
@@ -40498,7 +40498,7 @@
   {
    "id": "deepseek-2026w48",
    "week": "2026-W48",
-   "rank": 18,
+   "rank": 20,
    "co": "DeepSeek",
    "company": "deepseek",
    "tier": 3,
@@ -40527,7 +40527,7 @@
   {
    "id": "tdengine-2026w48",
    "week": "2026-W48",
-   "rank": 19,
+   "rank": 21,
    "co": "TDengine",
    "company": "tdengine",
    "tier": 3,
@@ -41555,6 +41555,215 @@
    "reported": true,
    "detail": "line",
    "score": 37.5
+  },
+  {
+   "id": "cognition-2026w48",
+   "week": "2026-W48",
+   "rank": 5,
+   "co": "Cognition",
+   "company": "cognition",
+   "tier": 2,
+   "group": "down",
+   "delta": "−$40/seat",
+   "short": "Teams was $80/month plus $40/mo per full dev seat; both page variants now show $80 per month with no per-seat fee (apparent test).",
+   "pattern": "Bundling",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "mid",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "22 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://devin.ai/pricing",
+   "evidence": {
+    "before": "data/snapshots/cognition/2026-11-10T19.txt",
+    "after": "data/snapshots/cognition/2026-11-22T20_a.txt",
+    "diff": "cognition-2026-11-22T20",
+    "alt": "data/snapshots/cognition/2026-11-22T20_b.txt"
+   },
+   "plan": "Teams",
+   "deltaSub": "per full dev seat, monthly",
+   "headline": "The Teams plan page dropped its $40 per full dev seat fee and now shows only $80 per month, in a version of the page that flipped between two layouts during the run.",
+   "rows": [
+    [
+     "Teams, base price per month",
+     "$80",
+     "$80"
+    ],
+    [
+     "Per full dev seat per month",
+     "$40",
+     "Not offered"
+    ]
+   ],
+   "who": "Teams plan buyers; unclear whether existing customers are affected.",
+   "stated": null,
+   "read": "Removing the seat fee moves Teams from a base plus seat price toward a flat price with shared credits, which would lower the cost for larger teams. Because the page showed two versions, this may be a test rather than a decided change.",
+   "model": "Hybrid → Flat",
+   "modelBefore": "Hybrid",
+   "modelAfter": "Flat",
+   "appliesTo": "unknown",
+   "caveat": "The page showed two different layouts in one run; the new Teams card also adds Devin Bots access. Treat as a possible A/B test.",
+   "score": 50.0
+  },
+  {
+   "id": "prismic-2026w48",
+   "week": "2026-W48",
+   "rank": 29,
+   "co": "Prismic",
+   "company": "prismic",
+   "tier": 3,
+   "group": "up",
+   "delta": "Feature removed",
+   "short": "Migration API, previously listed on the Free plan and marked Included in the comparison table, no longer appears on the pricing page.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "18 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://prismic.io/pricing",
+   "evidence": {
+    "before": "data/snapshots/prismic/2026-11-02T19.txt",
+    "after": "data/snapshots/prismic/2026-11-22T20.txt",
+    "diff": "prismic-2026-11-22T20"
+   },
+   "detail": "line",
+   "score": 12.5
+  },
+  {
+   "id": "benchmark-email-2026w48",
+   "week": "2026-W48",
+   "rank": 9,
+   "co": "Benchmark Email",
+   "company": "benchmark-email",
+   "tier": 3,
+   "group": "down",
+   "delta": "150 → 500",
+   "short": "Monthly AI credits go from 150 to 500 on Free and from 1,000 to 1,500 on paid plans.",
+   "pattern": "Limits loosen",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 3,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "18 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.benchmarkemail.com/pricing/",
+   "evidence": {
+    "before": "data/snapshots/benchmark-email/2026-11-02T19.txt",
+    "after": "data/snapshots/benchmark-email/2026-11-22T20.txt",
+    "diff": "benchmark-email-2026-11-22T20"
+   },
+   "detail": "line",
+   "score": 37.5
+  },
+  {
+   "id": "testfit-2026w48",
+   "week": "2026-W48",
+   "rank": 22,
+   "co": "TestFit",
+   "company": "testfit",
+   "tier": 3,
+   "group": "up",
+   "delta": "Per user",
+   "short": "Urban Planner at $75/month and Parking Solver at $195/month are now priced per user, and the Unlimited users line is gone from Urban Planner.",
+   "pattern": "New billing units",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "18 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.testfit.io/pricing",
+   "evidence": {
+    "before": "data/snapshots/testfit/2026-11-15T07.txt",
+    "after": "data/snapshots/testfit/2026-11-22T20.txt",
+    "diff": "testfit-2026-11-22T20"
+   },
+   "detail": "line",
+   "score": 25.0
+  },
+  {
+   "id": "mistral-ai-2026w48",
+   "week": "2026-W48",
+   "rank": 23,
+   "co": "Mistral AI",
+   "company": "mistral-ai",
+   "tier": 3,
+   "group": "up",
+   "delta": "−$25.5/mo credits",
+   "short": "Pro no longer lists $25.5/mo of bundled API credits; model training opt-out, previously Enterprise-only, now extends to Free, Pro and Team.",
+   "pattern": "Unbundling",
+   "seg": "Both",
+   "ai": true,
+   "planLevel": "entry",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "21 Nov",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/mistral/diffs/2026D325",
+   "evidence": {
+    "report": "mistral:2026-W48",
+    "files": [
+     "data/pricingsaas/pages/diffs/mistral__2026D325.txt",
+     "data/pricingsaas/pages/articles/mistral-removed-pro-s-bundled-api-credits.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/mistral/diffs/2026D325"
+    ]
+   },
+   "reported": true,
+   "detail": "line",
+   "score": 25.0
+  },
+  {
+   "id": "jasper-2026w48",
+   "week": "2026-W48",
+   "rank": 24,
+   "co": "Jasper",
+   "company": "jasper",
+   "tier": 3,
+   "group": "up",
+   "delta": "Copyscape removed",
+   "short": "Jasper’s plan comparison table no longer lists the Plagiarism Checker (Copyscape add-on plagiarism search) for Pro and Business.",
+   "pattern": "Unbundling",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-16",
+   "seenLabel": "16–22 Nov",
+   "when": "21 Nov",
+   "src": "PricingSaaS report",
+   "url": "https://pricingsaas.com/companies/jasper/diffs/2026D325",
+   "evidence": {
+    "report": "jasper:2026-W48",
+    "files": [
+     "data/pricingsaas/pages/diffs/jasper__2026D325.txt",
+     "data/pricingsaas/pages/articles/jasper-dropped-its-copyscape-plagiarism-checker.txt"
+    ],
+    "source": [
+     "https://pricingsaas.com/companies/jasper/diffs/2026D325"
+    ]
+   },
+   "reported": true,
+   "detail": "line",
+   "score": 25.0
   }
  ],
  "categories": [
@@ -50607,6 +50816,16 @@
    "hq": null,
    "funding": null,
    "employees": null
+  },
+  "jasper": {
+   "name": "Jasper",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null
   }
  },
  "promos": [
@@ -54052,6 +54271,25 @@
    "co": "Smoobu",
    "kind": "changed",
    "text": "Black Friday (code BLACKFRIDAY26): 66% off yearly and 70% off 2-year plans, up from 10% and 20%",
+   "src": "PricingSaaS report",
+   "reported": true
+  },
+  {
+   "id": "acdsee-promo-2026w48",
+   "week": "2026-W48",
+   "company": "acdsee",
+   "co": "ACDSee",
+   "kind": "changed",
+   "text": "Black Friday sale on ACDSee products, e.g. Photo Studio Ultimate 2027 $149.95 (full price $179.99), offer ends December 2nd, 2026",
+   "src": "Pricing Desk capture"
+  },
+  {
+   "id": "krea-promo-2026w48-2",
+   "week": "2026-W48",
+   "company": "krea",
+   "co": "Krea",
+   "kind": "new",
+   "text": "Black Friday model-usage discounts on Pro and Max: Seedance 2.5 60%/75% off, Kling 4.0 20%/50% off, Krea 3 25%/50% off, GPT Image 2.6 20%/45% off, Nano Banana Pro 45%/65% off",
    "src": "PricingSaaS report",
    "reported": true
   }

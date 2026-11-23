@@ -1,0 +1,45 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+R
+Raycast
+PACKAGING CHANGE
+Raycast launched Raycast MCP for its Pro+ plan
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 20, 2026
+Raycast added an MCP server to Pro+ for AI apps to control it.
+See before and after
+Enlarge
+Raycast’s pricing page · Change detected Nov 20, 2026
+RAYCAST MCP·first seen Nov 20, 2026
+What changed
+Raycast added a new "Raycast MCP" capability — a Model Context Protocol server — to the Pro+ plan, letting AI apps such as Claude Code and ChatGPT control Raycast directly. Pulse detected the change on Nov 20, 2026, when the entry appeared marked "New" in both the core-features list and the plan comparison table, sitting between the existing Bring Your Own Key and Cloud Sync items.
+Why it matters
+For a product leader, this is less about price and more about where Raycast is placing agent interoperability: gating MCP control behind the Pro+ tier rather than the free plan ties AI-agent access to the paid seat, the way seat-plus-AI-credit models increasingly do. Teams already paying for Pro+ get a new lever — letting Claude Code, ChatGPT or other MCP clients drive Raycast directly — at no incremental cost, which raises the bar for competing productivity tools that still treat MCP support as a separate SKU or private beta.
+If your own product has an agent-control surface, Raycast's move argues for folding it into an existing paid tier rather than metering it separately, at least until usage patterns justify a dedicated price. Watch whether Raycast later meters MCP calls the way it already meters AI credits on Pro+, or whether it stays a flat inclusion.
+In context
+Pulse counts 3 pricing-page changes from Raycast in the last 90 days, about 44 days apart on average, with this one landing 67 days after a Sep 14, 2026 restructuring that split Pro into three AI-credit tiers and added a $50 Max plan [[raycast/2026W38]]. Raycast has shipped feature additions before, too: Dictation landed on Pro, Teams Pro and Enterprise on Aug 24, 2026 [[raycast/2026W35]]. The pattern is common market-wide: Pulse tracked 824 of 3,414 pricing changes across 592 companies adding a feature in the last 180 days. The sharper read is that MCP access is turning into table stakes rather than a premium perk: Pulse tracked Coderabbit opening API and MCP server access on every plan on Nov 18, 2026 [[coderabbit/2026D322]], while Raycast still keeps its MCP server behind Pro+ — a stance closer to seat-plus-AI-credit bundling than the open-to-everyone approach peers are now trying.
+Common questions
+Does this cost Pro+ users anything extra?
+No — Raycast MCP is included in the existing Pro+ plan at no additional charge; there is no new add-on or fee for it, and the plan price and CTA are unchanged.
+How would a growing team actually use Raycast MCP?
+Any Pro+ seat can connect an MCP client like Claude Code or ChatGPT to Raycast, so multiply your Pro+ seat count to see how many seats in your org would gain that control.
+Did Raycast say why it's adding MCP support now?
+Pulse's record does not show one — neither the diff nor Raycast's pricing page gives a stated reason for adding MCP support now, so treat any rationale here as inferred, not confirmed.
+Sources
+Pulse: Raycast pricing changes, Nov 20, 2026pricingsaas.com/companies/raycast/diffs/2026D324
+Raycast pricing pageraycast.com/pricing
+Keep exploring
+All changes from RaycastAll pricing news
+S
+Slack
+Slack tested pulling Slackbot off Free and Pro plans
+M
+Modal
+Modal added a new Inkling model to its shared endpoints
+S
+Slack
+Slack ran an A/B test on Enterprise+ pricing

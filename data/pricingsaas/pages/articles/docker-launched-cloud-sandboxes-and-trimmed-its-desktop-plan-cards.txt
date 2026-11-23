@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+D
+Docker
+PACKAGING CHANGE
+Docker launched Cloud Sandboxes and trimmed its Desktop plan cards
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 20, 2026
+Docker launched Cloud Sandboxes, pay-as-you-go compute priced at $0.07 an hour.
+See before and after
+Enlarge
+Docker’s pricing page · Change detected Nov 20, 2026
+CLOUD SANDBOXES·first seen Sep 28, 2026
+What changed
+Docker rebuilt its pricing page around product lines instead of a single plan ladder. New Cloud Sandboxes pay-as-you-go pricing is now published, running from $0.07/hr for the Micro size up to $1.12/hr for XL, according to the pricing page Pulse saved on Nov 20, 2026. The page also added Sandboxes (a free, local isolated environment for coding agents) and AI Governance (custom-priced, centrally managed network, filesystem and MCP policy controls). Docker Desktop's plan cards changed from Personal, Pro, Team and Business to Free, Teams and Custom: Pro now appears only in the comparison table, and the old Business card became a Custom/Contact-sales tier. Subscription prices for the plans that remain listed did not move, according to the same page Pulse saved on Nov 20, 2026: Pro is still $9, Team $15, and Business $24 per user per month on annual billing.
+Why it matters
+For a product leader whose own pricing page tries to serve both self-serve developers and enterprise buyers, Docker's move is a reminder that restructuring around product lines (containers tooling vs. cloud compute vs. governance) can simplify the page even as it adds a brand-new usage-based line item. Collapsing the card lineup removes a decision point for most buyers, but it also demotes Pro to a comparison-table footnote and turns Business into a straight contact-sales tier — a trade worth watching if your own funnel depends on a visible mid-tier card. The new Cloud Sandboxes line puts Docker squarely in the pay-as-you-go compute business, not just container tooling, which is a different sales motion and a different metric to watch than a flat per-seat subscription. Watch whether Docker's existing Pro and Team subscribers get nudged toward Sandboxes usage billing over time, or whether it stays a separate, optional line.
+In context
+Docker has been building up to this for weeks: Pulse's record shows a $250 Cloud Sandboxes credit promo added Sep 28, 2026 in place of a whitepaper CTA the September promo, pulled Oct 27 the Oct 27 pull, and put back the next day, 23 days before this rebuild the Oct 28 relaunch. That back-and-forth, plus an Oct 12, 2026 move dropping Build Cloud minutes from the Pro, Team and Business listings the Oct 12 change, reads like a company testing messaging before committing to the structural rebuild shipped here. It is also a slower mover than most: Docker's own page has changed roughly every 80 days on average since Jan 2024, per Pulse's record, well behind the pace Pulse sees elsewhere for feature additions — 824 changes across 592 companies added a feature in the last 180 days, 24.1% of the 3,414 tracked. For a peer team, the lesson is that a page this overdue for a redesign tends to arrive all at once — a new product line, a trimmed plan ladder and a reworked architecture together, not piecemeal.
+Common questions
+Does this change what we'd pay on Pro, Team or Business?
+Check the comparison table, not the card row, if you're pricing out Pro going forward — Docker did not drop the plan, it just stopped giving it a dedicated card, so a quick glance at the page could make you think it disappeared.
+How would Cloud Sandboxes pricing work for a typical workload?
+Multiply the hourly rate for whichever Sandbox size you use — Micro at the low end, XL at the high end — by your expected runtime hours; the item describes no included allowance, so budget it as pure pay-as-you-go compute.
+Is the free Sandboxes product the same thing as Cloud Sandboxes?
+They're easy to conflate by name alone, so check which one a given workload actually uses: Sandboxes needs nothing beyond a free, local setup, while Cloud Sandboxes starts billing by the hour the moment you provision one.
+Sources
+Pulse: Docker pricing changes, Nov 20, 2026pricingsaas.com/companies/docker/diffs/2026D324
+Docker pricing pagedocker.com/pricing
+Keep exploring
+All changes from DockerAll pricing news
+M
+MindsDB
+MindsDB launched a new Image models category
+K
+Krea
+Krea discounted its model usage prices for Black Friday
+B
+Bolt
+Bolt capped Free at 3 collaborators and listed unlimited on Pro and Teams.

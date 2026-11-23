@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+M
+Mintlify
+A/B TEST
+Mintlify ran a pricing test for a new Starter plan
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 21, 2026
+Mintlify is running a pricing test with a new $150-a-month Starter plan.
+See before and after
+Enlarge
+Mintlify’s pricing page · Change detected Nov 21, 2026
+STARTER·first seen Jun 8, 2026
+What changed
+Mintlify's pricing page is running a cookie-based split test: a `mintlify starter variant` cookie assigns each visitor to a control or treatment arm, with no third-party experimentation vendor on the page, according to Mintlify's pricing page as Pulse saved it on Nov 21, 2026. The treatment arm shows a new Starter plan priced at $150 a month on annual billing, or $180 a month billed monthly, with 10 editor seats, Autopilot, Agent and Preview deployments, sitting between Free and Pro, according to Mintlify's pricing page as Pulse saved it on Nov 21, 2026. The control arm's page still lists only Free, Pro and Enterprise, per the same Nov 21, 2026 page.
+The treatment arm's Pro card also explicitly lists Password protection and Advanced analytics among its included features, wording the control arm's Pro card does not have, according to Mintlify's pricing page as Pulse saved it on Nov 21, 2026. Password protection itself has been sold as a paid Pro add-on since Jan 2025, per Pulse's tracking of Mintlify's pricing page.
+Why it matters
+For a pricing team, this is a reminder that a scraped pricing page is not always the only page: Mintlify is running this test behind a plain first-party cookie rather than a known experimentation vendor, so it's easy to miss unless the page is loaded more than once. The test targets a real gap in Mintlify's ladder, where Free's editor-seat cap sits far below Pro's unlimited seats. Pro has cost $450 a month since Mintlify introduced it on Jul 6, 2026, per Pulse's tracking of Mintlify's pricing page, a steep jump for a small team. A $150 Starter tier with 10 seats plus Autopilot and Agent, according to the same pricing page Pulse saved on Nov 21, 2026, gives Mintlify a cheaper on-ramp to try before committing to it.
+Watch whether the Starter tier survives the test and ships to every visitor, or stays one arm of an experiment that never goes live for everyone.
+In context
+Mintlify has made 27 real pricing-page changes since Pulse began tracking it on Oct 21, 2024, averaging one every 26 days, per Pulse's record of Mintlify's pricing page. The Starter plan here isn't new: Mintlify's pricing page already showed this same treatment arm, with Starter priced at $150/mo and 10 seats including Autopilot and Agent, on the page Pulse saved on Nov 18, 2026. Mintlify's $0 tier was itself called Starter until Nov 17, 2026, when it was renamed Free, according to Mintlify's pricing page as Pulse saved it that day — which is why the newly tested paid tier reuses that old name. Pulse tracked 72 of 3,415 pricing changes in the last 180 days, across 47 companies, touching a beta label — Figma and HubSpot show the pattern most often. The sharper read: Mintlify is price-testing a mid-tier rather than committing to it, so what counts as "Mintlify's pricing" depends on which arm a visitor lands in.
+Common questions
+How can I check which arm I'm seeing?
+Open your browser's cookie inspector on mintlify.com/pricing and look for `mintlify starter variant`: "treatment" means you're seeing the Starter plan described here, "control" means you're not. Reloading in a fresh private window can land you in either arm, since the assignment is set per visit.
+How should I size this for my own team?
+A 10-seat team exactly fills Starter's allotment, so the real comparison is $150 a month on annual billing for Starter against $450 a month for Pro's unlimited seats, per Mintlify's pricing page as Pulse saved it on Nov 21, 2026 — multiply your own seat count against each plan's rate to see which side of that line your team falls on.
+What should I watch for next?
+Check Mintlify's pricing page again in the coming weeks: if Starter is showing for every visitor, the test graduated to a permanent tier; if it disappears, Mintlify ended the experiment. Neither outcome is settled yet.
+Sources
+Pulse: Mintlify pricing changes, Nov 21, 2026pricingsaas.com/companies/mintlify/diffs/2026D325
+Mintlify pricing pagemintlify.com/pricing
+Keep exploring
+All changes from MintlifyAll pricing news
+C
+Cognition
+Cognition flattened its Teams plan pricing
+H
+Huggingface
+Huggingface raised its Enterprise plan price
+P
+Pika
+Pika offered Fancy subscribers unlimited video generations

@@ -1,0 +1,118 @@
+{
+  "type": "changes",
+  "run": "2026-11-22T20",
+  "items": [
+    {"diff_id": "anthropic-2026-11-22T20", "kind": "wording", "why": "Button label, search shortcut and rewritten data residency and web search copy; the 1.1x multiplier, $10 per 1,000 searches and all prices are unchanged.", "detail": "card", "record": null, "promo": null},
+    {"diff_id": "baremetrics-2026-11-22T20", "kind": "wording", "why": "Only a new Recovery Index link in the navigation; no pricing content changed.", "detail": "line", "record": null, "promo": null},
+    {
+      "diff_id": "cognition-2026-11-22T20",
+      "kind": "price_cut",
+      "why": "Unstable page: in both variants the Teams plan no longer shows the $40 per full dev seat fee and is listed at a flat $80 per month, which looks like a pricing test.",
+      "detail": "card",
+      "record": {
+        "group": "down",
+        "delta": "−$40/seat",
+        "short": "Teams was $80/month plus $40/mo per full dev seat; both page variants now show $80 per month with no per-seat fee (apparent test).",
+        "pattern": "Bundling",
+        "seg": "B2B",
+        "ai": true,
+        "planLevel": "mid",
+        "reach": 2,
+        "plan": "Teams",
+        "deltaSub": "per full dev seat, monthly",
+        "headline": "The Teams plan page dropped its $40 per full dev seat fee and now shows only $80 per month, in a version of the page that flipped between two layouts during the run.",
+        "rows": [
+          ["Teams, base price per month", "$80", "$80"],
+          ["Per full dev seat per month", "$40", "Not offered"]
+        ],
+        "who": "Teams plan buyers; unclear whether existing customers are affected.",
+        "stated": null,
+        "statedUrl": null,
+        "read": "Removing the seat fee moves Teams from a base plus seat price toward a flat price with shared credits, which would lower the cost for larger teams. Because the page showed two versions, this may be a test rather than a decided change.",
+        "caveat": "The page showed two different layouts in one run; the new Teams card also adds Devin Bots access. Treat as a possible A/B test.",
+        "model": "Hybrid → Flat",
+        "modelBefore": "Hybrid",
+        "modelAfter": "Flat",
+        "appliesTo": "unknown",
+        "magnitude": null
+      },
+      "promo": null
+    },
+    {"diff_id": "figma-2026-11-22T20", "kind": "noise", "why": "The Image editing (AI) row moved position in the feature list; the page text shows no plan columns, so no tier change can be confirmed and no price changed.", "detail": "card", "record": null, "promo": null},
+    {"diff_id": "sugarcrm-2026-11-22T20", "kind": "wording", "why": "Marketing tagline replaced; no pricing change.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "snyk-2026-11-22T20", "kind": "noise", "why": "Login link relabelled Log in.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "clerk-2026-11-22T20", "kind": "wording", "why": "Enterprise connections with Organizations line removed from one list and mentioned in the SSO connections description; prices unchanged.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "awardco-2026-11-22T20", "kind": "wording", "why": "FAQ rewritten and plans renamed (Standard, Standard + 1, Scale to Select, Advanced, Premier) with the same Recognition Type allowances; the $3,000 starting price is unchanged.", "detail": "line", "record": null, "promo": null},
+    {
+      "diff_id": "prismic-2026-11-22T20",
+      "kind": "feature_move",
+      "why": "Migration API is no longer listed on the Free plan or in the comparison table where it was marked Included; Prismic MCP is now listed on every plan.",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "Feature removed",
+        "short": "Migration API, previously listed on the Free plan and marked Included in the comparison table, no longer appears on the pricing page.",
+        "pattern": "Unbundling",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "all",
+        "reach": 1
+      },
+      "promo": null
+    },
+    {"diff_id": "pictory-2026-11-22T20", "kind": "new_feature", "why": "New MCP server for creating videos from AI assistants, included on all plans; the Black Friday 50% banner already existed and only moved to the top of the page.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "breezy-hr-2026-11-22T20", "kind": "noise", "why": "Rotating top banner changed from a report promo to a survey promo.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "quriobot-2026-11-22T20", "kind": "noise", "why": "Agency price moved $549 to $548, continuing a pattern of daily one or two dollar drift that looks like currency rendering rather than a decided price change.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "pdq-2026-11-22T20", "kind": "price_reveal", "why": "Page now also shows Deploy & Inventory at $1,950 per admin per year for the first time; PDQ Connect prices are unchanged.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "biorender-2026-11-22T20", "kind": "price_hidden", "why": "The $39 monthly price for the Individual plan was replaced by the text options available.", "detail": "line", "record": null, "promo": null},
+    {
+      "diff_id": "benchmark-email-2026-11-22T20",
+      "kind": "limit_change",
+      "why": "Monthly AI credits raised from 150 to 500 on Free and from 1,000 to 1,500 on paid plans.",
+      "detail": "line",
+      "record": {
+        "group": "down",
+        "delta": "150 → 500",
+        "short": "Monthly AI credits go from 150 to 500 on Free and from 1,000 to 1,500 on paid plans.",
+        "pattern": "Limits loosen",
+        "seg": "B2B",
+        "ai": true,
+        "planLevel": "all",
+        "reach": 3
+      },
+      "promo": null
+    },
+    {"diff_id": "praxedo-2026-11-22T20", "kind": "noise", "why": "Rotating customer testimonials changed.", "detail": "line", "record": null, "promo": null},
+    {
+      "diff_id": "acdsee-2026-11-22T20",
+      "kind": "promo",
+      "why": "Early Black Friday sale ended and became a Black Friday sale running to 2 December; Photo Studio for Mac 27 presale ended and it is now $119.99.",
+      "detail": "line",
+      "record": null,
+      "promo": {"kind": "changed", "text": "Black Friday sale on ACDSee products, e.g. Photo Studio Ultimate 2027 $149.95 (full price $179.99), offer ends December 2nd, 2026"}
+    },
+    {"diff_id": "name-com-2026-11-22T20", "kind": "noise", "why": "CA$ prices shifted by a cent or two (e.g. CA$8.84 to CA$8.86), which is currency rendering drift.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "veo3-ai-2026-11-22T20", "kind": "wording", "why": "Subheading removed; no pricing change.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "uplisting-2026-11-22T20", "kind": "wording", "why": "Banner for a prize giveaway added; it is a contest, not a price discount.", "detail": "line", "record": null, "promo": null},
+    {
+      "diff_id": "testfit-2026-11-22T20",
+      "kind": "metering",
+      "why": "Urban Planner no longer lists Unlimited users and both Urban Planner ($75) and Parking Solver ($195) are now labelled per user per month.",
+      "detail": "line",
+      "record": {
+        "group": "up",
+        "delta": "Per user",
+        "short": "Urban Planner at $75/month and Parking Solver at $195/month are now priced per user, and the Unlimited users line is gone from Urban Planner.",
+        "pattern": "New billing units",
+        "seg": "B2B",
+        "ai": false,
+        "planLevel": "entry",
+        "reach": 2
+      },
+      "promo": null
+    },
+    {"diff_id": "cloudflare-2026-11-22T20", "kind": "noise", "why": "Last updated stamp and Markdown copy links removed.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "checkly-2026-11-22T20", "kind": "noise", "why": "Webinar banner removed.", "detail": "line", "record": null, "promo": null},
+    {"diff_id": "boomi-2026-11-22T20", "kind": "wording", "why": "Marketing copy and button labels rewritten; Pay-As-You-Go stays at $99 per month plus usage with a 30-day trial.", "detail": "line", "record": null, "promo": null}
+  ]
+}
