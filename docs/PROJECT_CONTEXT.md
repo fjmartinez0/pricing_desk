@@ -1,6 +1,6 @@
 # Pricing Desk: project context, decisions and next steps
 
-**Updated:** Wed 11 Nov 2026. **Supersedes** every earlier handoff (v1–v7).
+**Updated:** Sun 22 Nov 2026. **Supersedes** every earlier handoff (v1–v7).
 **Owner:** fmz. **Language:** English.
 
 > **Claude: read this first.**
@@ -138,7 +138,7 @@ the job-board notes, and the job-posting status words.
 | D43 | **Page tweaks:** one coverage box per week view (`weekNoteHTML`), News newest first, masthead "Weekly edition", edition `period` = the week range. |
 | D44 | **Weekly edition stays** (Monday 19:00, captures twice a day). Decide on a daily "this week so far" panel after two weeks of data (around 8 Nov), based on how many Relevant changes arrive per day. |
 
-### Decisions of 24 Oct – 11 Nov 2026 (D45–D56)
+### Decisions of 24 Oct – 22 Nov 2026 (D45–D57)
 | # | Decision |
 |---|---|
 | D45 | **"Updated …" line** under the title: the last run time from `data/meta.json`, injected by `build_site.py` as `updated_at` (not stored in desk.json), shown in the reader's time zone, orange with "no update for …" after 36 hours. |
@@ -153,6 +153,7 @@ the job-board notes, and the job-posting status words.
 | D54 | **Ranking by importance, the same across weeks.** Within a tier (market leaders, notable, others), changes are ordered by `desk.importance()`: company weight (1.5 for `HEADLINE_COMPANIES` in `common.py`: OpenAI, Anthropic, Microsoft 365, Google Workspace, Salesforce, Adobe, Shopify, Atlassian, GitHub) × who it hits (reach, or 3 for all/free plans, 2 entry/mid, 1 top/enterprise/add-on) × size (10 + % change, capped at 100; 15 when no %) × 1.5 for a list or unit price; one-line records count half. Stored as `score`; `rank` is the order within a week. A month or "all weeks" view ranks on `score` (before, it took each week’s #1, then each #2, so the month front page was one item per week, whatever its size). Every merge reranks every week. |
 | D55 | **Agent errors say what went wrong.** From 7 Nov 19:00 to 10 Nov the Claude Code login on the Mac had expired ("OAuth session expired and could not be refreshed"); every agent call failed on its first request, and the alerts only said "Agent wrote no decision". `run_agent.sh` now classifies a failed call: usage limit (as before), expired login (skips the run's remaining agent tasks and sends "Claude login on the Mac mini has expired… run `claude`, then /login"), or any other error (sent with Claude's own message). |
 | D56 | **Edition archive, catch-up editions, bulleted write-ups, 90-day Market Trends.** Every edition is kept in `desk.json` under `editions[<week>]` (the top-level `news`, `patterns`, `stats_analysis`, `news_trends` stay the current edition's copy); editions published before this were restored from git with `restore_editions.py` (42, 44, 45, 46). On the page, the Period selector is also on **News** (a past week shows its edition; a month or all weeks stacks the editions, newest first), and **Main → What connects them** shows a past week's own written patterns. **Market Trends** is written from the stories of the last 90 days (up to 13 earlier editions), and its Stats library shows this edition's numbers first, earlier ones folded. **Statistics** stays per edition (Models & patterns is already cumulative). Format 2 (`EDITION_FORMAT`): a story has a one-sentence `gist` plus 2–4 `points`; a pattern has a 1–2 sentence `p` plus `points` `[{id, text}]`, one per change, and the page prints the company and "via PricingSaaS". A pattern bullet may only quote numbers its record shows (merge); story bullets' numbers must be in the article (recheck). Runs with no edition due write one **catch-up edition** from `EDITION_BACKFILL` (46 rewrite, then 43, 41, 40, 39, 38, 45, 44); a catch-up for an earlier week is archived only and never moves `current_week`; one rejected twice is skipped with an alert. Story ids are unique across editions; a rewrite unlinks its replaced stories from other editions' trends. Wide screens: lead story spans the row (text left, numbers right), patterns and themes in two balanced columns, Stats library in two columns. |
+| D57 | **Time limits on every waiting step; watchdog after one missed run.** The run of Thu 19 Nov 07:00 froze in capture at about 07:27: a page whose script never yields blocks Playwright's `page.content()`, which has no timeout. launchd never starts a job that is still running, so the next seven runs were skipped without a sound until the user killed it on Sun 22 Nov (the 13 Nov 19:00 and 14 Nov 07:00 runs were most likely the same). Now (1) `browser_capture` kills Chromium when one page takes over `BROWSER_PAGE_LIMIT_SEC` (120 s) and starts a new one for the next company; that company counts as a failed capture; (2) `scripts/limit.py` runs git, capture, PricingSaaS, each agent call, recheck and the page check with a time limit (`PD_LIMIT_*` in config.env), stopping the whole process tree on expiry; a capture stopped that way fails the run (alert) and removes its unsaved snapshots, an agent task stopped that way alerts and leaves its items queued; (3) the GitHub watchdog runs twice a day (10:00 and 22:00 Toronto in winter) and alerts when no run committed in 8 hours, with the command to tell a stuck run from a dead Mac. |
 
 ---
 
@@ -257,7 +258,7 @@ New fields on automated records (the page ignores them): `reach` (1–3), `state
 
 ---
 
-## 8. Current state (11 Nov 2026)
+## 8. Current state (11 Nov 2026; outage of 19–22 Nov below)
 
 **Running on the Mac mini since 24 Oct 2026**, twice a day (07:00, 19:00 Toronto), hybrid since 25 Oct.
 - **Registry:** 1,345 companies (29 tier 1, 40 tier 2, 1,276 tier 3): 410 active, 927 `needs_url`
@@ -272,6 +273,9 @@ New fields on automated records (the page ignores them): `reach` (1–3), `state
   before that run's merge: 35 of its now 130 changes, 8 of 9 Relevant). 46 is the first catch-up rewrite (D56).
   Week 42's hand-written edition (1–19 Oct) is kept as is. Week 47's edition is due Tue 17 Nov 19:00.
 - **Repo size:** `data/` 44 MB (2,457 PricingSaaS diff pages).
+- **Since 11 Nov:** the D56 catch-up finished (editions 38–47 in format 2). **Outage 19–22 Nov (D57):** the
+  Thu 19 Nov 07:00 run froze in capture; no run until the user killed it on Sun 22 Nov 20:1x. Nothing is lost:
+  the next capture compares each page with its last snapshot. Changes seen late are dated to week 47.
 
 | Week | Dates | Changes | Relevant | Promos | Coverage |
 |---|---|---|---|---|---|
@@ -356,6 +360,11 @@ If a step fails, the user pastes the error and Claude helps fix it before going 
 ---
 
 ## 10. Next steps, in order
+
+0. **After D57:** check the first runs finish (`+N changes` commits at 07:xx and 19:xx), and look in the log for
+   `browser: … still not read after 120 s` to learn which page froze the run of 19 Nov; if the same company
+   sticks every run, pause it or switch it to static. Decide about the old `com.pricingintel.daily` job
+   (~/pricing-intel, 02:30 on weekdays): unload it if that project is dead.
 
 1. **Edition archive (D56).** After applying the patch: `pdpy scripts/restore_editions.py` once, then validate,
    commit, push. Then watch the catch-up, one edition per run without an edition due (about four days):

@@ -58,6 +58,7 @@ CAPTURES_STARTED = dt.date(2026, 10, 24)   # first day of our own pricing-page c
 # ---------------------------------------------------------------- capture rules
 USER_AGENT = "PricingDesk/1.0 (personal software price tracker)"
 REQUEST_TIMEOUT_SEC = 30
+BROWSER_PAGE_LIMIT_SEC = 120     # one browser page in all (load + read), then Chromium is killed (D57)
 DELAY_BETWEEN_COMPANIES_SEC = float(os.environ.get("CAPTURE_DELAY_SEC", "2"))
 DEBOUNCE_CAPTURES = 2        # a new page version must be seen this many captures in a row
 UNSTABLE_RUNS_TO_REPORT = 3  # page flips between versions this many runs → report as a possible price test

@@ -1,9 +1,11 @@
-# The Mac can't report its own death. Once a day, check that a run committed in the
-# last 36 hours (runs happen at 07:00 and 19:00); if not, push an alert to the phone.
+# The Mac can't report its own death. Twice a day, about 3 hours after each run (07:00 and 19:00 Toronto),
+# check that a run committed in the last 8 hours; if not, push an alert to the phone. One missed run is
+# enough to alert (D57: a stuck run went unnoticed for 36 hours on 19–20 Nov).
 name: watchdog
 on:
   schedule:
-    - cron: "0 16 * * *"   # 12:00 Toronto (EDT), 11:00 (EST)
+    - cron: "0 15 * * *"   # 10:00 Toronto (EST), 11:00 (EDT)
+    - cron: "0 3 * * *"    # 22:00 Toronto (EST), 23:00 (EDT)
   workflow_dispatch:
 jobs:
   check:
@@ -22,8 +24,10 @@ jobs:
           last = dt.datetime.fromisoformat(meta["last_run_at"])
           age = dt.datetime.now(dt.timezone.utc) - last
           print(f"last run {last}, {age} ago")
-          if age > dt.timedelta(hours=36):
-              msg = f"No Pricing Desk run since {last:%a %d %b %H:%M}. Check the Mac mini (power, login, network)."
+          if age > dt.timedelta(hours=8):
+              msg = (f"No Pricing Desk run since {last:%a %d %b %H:%M}. On the Mac mini: launchctl list | grep "
+                     "pricing_desk. A number in the first column = a run is stuck (RUNBOOK); '-' = check power, "
+                     "login, network.")
               req = urllib.request.Request(f"https://ntfy.sh/{os.environ['NTFY_TOPIC']}", data=msg.encode(),
                   headers={"Title": "Pricing Desk: Mac mini silent", "Priority": "high", "Tags": "warning"})
               urllib.request.urlopen(req, timeout=20)

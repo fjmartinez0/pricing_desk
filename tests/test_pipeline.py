@@ -12,7 +12,8 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "scripts"))
+SCRIPTS = ROOT / "scripts"
+sys.path.insert(0, str(SCRIPTS))
 
 import apply_proposals as ap  # noqa: E402
 import capture  # noqa: E402
@@ -690,6 +691,54 @@ class EditionArchive(unittest.TestCase):
         for _ in range(common.EDITION_BACKFILL_TRIES):
             ap.edition_rejected(due, "too thin")
         self.assertEqual(common.load_json(ap.EDITION_BACKFILL_STATE), {"2026-W39": common.EDITION_BACKFILL_TRIES})
+
+class RunLimits(unittest.TestCase):
+    """D57: a step that never returns is stopped, with everything it started."""
+
+    def test_limit_stops_the_whole_process_group(self):
+        import subprocess, sys, time
+        secs = f"{300 + os.getpid() % 500}.5"          # a unique sleep to look for afterwards
+        child = ("import subprocess, time; "
+                 f"subprocess.Popen(['sleep', '{secs}'], start_new_session=True); "   # escapes the group, like Chromium
+                 f"subprocess.Popen(['sleep', '{secs}']); time.sleep(60)")
+        t = time.time()
+        rc = subprocess.run([sys.executable, str(SCRIPTS / "limit.py"), "1", sys.executable, "-c", child],
+                            capture_output=True, timeout=60).returncode   # an escaped child would hold the pipe open
+        marker = f"sleep {secs}"
+        self.assertEqual(rc, 124)
+        self.assertLess(time.time() - t, 15)
+        left = subprocess.run(["pgrep", "-f", marker], capture_output=True, text=True).stdout.strip()
+        self.assertEqual(left, "")
+        self.assertEqual(subprocess.run([sys.executable, str(SCRIPTS / "limit.py"), "5", "bash", "-c", "exit 3"]).returncode, 3)
+
+    def test_stuck_browser_page_is_skipped_and_the_next_one_works(self):
+        try:
+            import playwright  # noqa: F401
+        except ImportError:
+            self.skipTest("Playwright not installed")
+        import functools, http.server, threading
+        import browser_capture as bc
+        site = Path(tempfile.mkdtemp())
+        (site / "ok.html").write_text("<h1>Team $20/month</h1>")
+        (site / "hang.html").write_text("<h1>Pro $10</h1><script>setTimeout(()=>{while(true){}},300)</script>")
+        handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(site))
+        handler.log_message = lambda *a: None
+        srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+        threading.Thread(target=srv.serve_forever, daemon=True).start()
+        base = f"http://127.0.0.1:{srv.server_address[1]}"
+        limit, robots = bc.BROWSER_PAGE_LIMIT_SEC, bc.allowed_by_robots
+        bc.BROWSER_PAGE_LIMIT_SEC, bc.allowed_by_robots = 6, (lambda u: True)
+        session = bc.BrowserSession()
+        try:
+            with self.assertRaises(bc.FetchError) as e:
+                session.fetch_html(f"{base}/hang.html", timeout_ms=4000)
+            self.assertIn("stuck", str(e.exception))
+            self.assertIn("$20", session.fetch_html(f"{base}/ok.html", timeout_ms=4000))
+        finally:
+            session.close()
+            srv.shutdown()
+            bc.BROWSER_PAGE_LIMIT_SEC, bc.allowed_by_robots = limit, robots
+            shutil.rmtree(site)
 
 class Site(unittest.TestCase):
     def test_template_and_data(self):

@@ -38,21 +38,37 @@ fail() {
   exit 1
 }
 step() { echo "== $1"; }
+# Time limits (D57): launchd never starts a run while the last one is still going, so a step that never
+# returns would silently stop every later run. Each step that waits on the network, a browser or Claude
+# runs under scripts/limit.py (exit 124 = stopped). Override in config.env; values in seconds.
+L_GIT="${PD_LIMIT_GIT:-300}"; L_CAPTURE="${PD_LIMIT_CAPTURE:-5400}"; L_PRICINGSAAS="${PD_LIMIT_PRICINGSAAS:-2400}"
+L_AGENT="${PD_LIMIT_AGENT:-2700}"; L_RECHECK="${PD_LIMIT_RECHECK:-1200}"; L_PAGECHECK="${PD_LIMIT_PAGECHECK:-600}"
+lim() { python3 scripts/limit.py "$@"; }
+mins() { echo "$(( $1 / 60 )) min"; }
 agent() {   # run one agent task unless this run already hit the Claude usage limit
   if [ -f ".run/agent_limited_$RUN" ]; then echo "agent: skipped ($(basename "$1" .md)): usage limit or login"; return 0; fi
-  bash scripts/run_agent.sh "$@"
+  lim "$L_AGENT" bash scripts/run_agent.sh "$@"
+  if [ $? -eq 124 ]; then
+    python3 scripts/notify.py --problem "Agent task $(basename "$1" .md) stopped after $(mins "$L_AGENT") in run $RUN; its items stay queued for the next run."
+  fi
+  return 0
 }
 has() { python3 -c "import json,sys; d=json.load(open('$1')); sys.exit(0 if d.get('$2') else 1)" 2>/dev/null; }
 
 step "1 pull"
-git pull --ff-only || fail "git pull"
+lim "$L_GIT" git pull --ff-only || fail "git pull"
 cp data/desk.json .run/desk_before.json
 
 step "2 capture"
-python3 scripts/capture.py || fail "capture"
+lim "$L_CAPTURE" python3 scripts/capture.py; rc=$?
+if [ $rc -ne 0 ]; then
+  git clean -fdq -- data/snapshots     # snapshots of an unfinished capture: their state was never saved
+  [ $rc -eq 124 ] && fail "capture (stopped after $(mins "$L_CAPTURE"); the next run starts it again)"
+  fail "capture"
+fi
 
 step "2b pricingsaas"
-python3 scripts/pricingsaas_capture.py || python3 scripts/notify.py --problem "PricingSaaS reading failed in run $RUN; own captures unaffected."
+lim "$L_PRICINGSAAS" python3 scripts/pricingsaas_capture.py || python3 scripts/notify.py --problem "PricingSaaS reading failed or took over $(mins "$L_PRICINGSAAS") in run $RUN; own captures unaffected."
 
 step "3 agent"
 if has "proposals/$RUN.input.json" changes; then
@@ -83,14 +99,15 @@ step "5 merge"
 python3 scripts/apply_proposals.py || fail "merge"
 
 step "6 recheck"
-python3 scripts/recheck.py || python3 scripts/notify.py --problem "Recheck failed in run $RUN; records kept unchecked."
+lim "$L_RECHECK" python3 scripts/recheck.py || python3 scripts/notify.py --problem "Recheck failed or took over $(mins "$L_RECHECK") in run $RUN; records kept unchecked."
 
 step "7 validate"
 if ! python3 scripts/validate.py; then
   git stash push --include-untracked -m "failed validation $RUN" -- data proposals >/dev/null 2>&1
   fail "validate (changes stashed as 'failed validation $RUN'; nothing published)"
 fi
-python3 scripts/check_page.py || true      # a JavaScript error on the page → alert (D53); data still published
+lim "$L_PAGECHECK" python3 scripts/check_page.py   # a JavaScript error on the page → alert (D53); data still published
+[ $? -eq 124 ] && python3 scripts/notify.py --problem "Page check took over $(mins "$L_PAGECHECK") in run $RUN; data published unchecked."
 
 step "8 commit"
 python3 scripts/stamp_meta.py
@@ -98,7 +115,7 @@ git add data proposals
 if ! git diff --cached --quiet; then
   added=$(python3 -c "import json; d=json.load(open('.run/merge_$RUN.json')); print(len(d['added']))" 2>/dev/null || echo 0)
   git commit -q -m "run $RUN: +$added changes" || fail "git commit"
-  git push -q || { git pull --rebase -q && git push -q; } || fail "git push"
+  lim "$L_GIT" git push -q || { lim "$L_GIT" git pull --rebase -q && lim "$L_GIT" git push -q; } || fail "git push"
 fi
 
 step "9 notify"

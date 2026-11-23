@@ -65,6 +65,26 @@ Lines saying "unknown or already decided report_id" are expected: later runs dec
   few old stories were found. To retry, delete that week from `data/edition_backfill.json`. To rewrite a week
   again, add it to `EDITION_BACKFILL` in `common.py`.
 
+## Alert: "Pricing Desk: Mac mini silent" (D57)
+No run committed in 8 hours. On the Mac mini:
+```
+launchctl list | grep pricing_desk
+```
+- **A number in the first column** (e.g. `49880  0  com.fmz.pricing_desk`): a run is still going and launchd
+  skips the next ones. See where it is (`tail -25 logs/<newest>.log`, `ps -ax -o pid,etime,command | grep -E
+  'run_daily|capture|claude|chrom'`), then stop it and start a fresh run:
+  ```
+  kill -TERM -- -<that number>
+  sleep 5; rm -rf .run/lock
+  git status --short | grep -v '^?? data/snapshots/' | head
+  git clean -fdq -- data/snapshots && git checkout -- data/checks.jsonl
+  bash scripts/install_mac.sh --run-now
+  ```
+  If `git status` shows other files than snapshots and `data/checks.jsonl`, stop and look before running.
+- **`-` in the first column:** nothing is running; check power, login and network, then `--run-now`.
+- Since D57 every waiting step has a time limit, so a stuck run should stop by itself and alert
+  ("Run … stopped at: capture (stopped after 90 min…)" or "Agent task … stopped after 45 min").
+
 ## Alert: "The page has N JavaScript error(s)"
 `scripts/check_page.py` found a record or view the page can't draw; everything after it on the page stays empty.
 The data is published and safe. Run `pdpy scripts/check_page.py` to see which tab/period fails, and send the

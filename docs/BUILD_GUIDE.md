@@ -210,7 +210,7 @@ Status flow:
 | `common.py` | — | — | Paths, time zone, **all rules and thresholds**, enums, keep-rule table, watchlist, week helpers, JSON I/O, checks log, problem queue, number extraction |
 | `normalize.py` | — | — | HTML → stable text (drops script/style/nav/footer, volatile lines); `looks_like_pricing`; `comparable` for quote matching |
 | `fetch.py` | — | — | Static fetch with robots.txt, gzip, identifiable user agent; raises `Blocked` / `FetchError` |
-| `browser_capture.py` | — | — | The only Playwright module: one Chromium per run, `networkidle` + 1.5 s; a page that never goes idle is used after the timeout (D52) |
+| `browser_capture.py` | — | — | The only Playwright module: one Chromium per run, `networkidle` + 1.5 s; a page that never goes idle is used after the timeout (D52); a page not read within `BROWSER_PAGE_LIMIT_SEC` (120 s) kills Chromium, which restarts for the next page (D57) |
 | `seed_registry.py` | setup | desk.json → registry.json | Idempotent; adds missing companies + watchlist URLs |
 | `capture.py` | 2 | registry, capture_state → snapshots, backlog, `proposals/<run>.input.json`, `.run/diffs/` | State machine (§4.2) |
 | `pricingsaas_capture.py` | 2b | PricingSaaS /news (browser, "Load more"), weekly reviews, articles, diff pages → `data/pricingsaas/`, `data/reports.json` | Also reads `/feed` (every row of the latest weekly batch → `data/pricingsaas/feed/<period>.json`, D48). `--review WEEK…` backfill, `--feed-file saved.html` import (takes the run lock), `--max-fetches`, `--no-browser`, `--dry-run`; never fails the run |
@@ -229,7 +229,8 @@ Status flow:
 | `notify.py` | 9 | desk before/after, problems → ntfy | `--test`, `--problem "…"` |
 | `build_site.py` | CI | template + desk → `_site/` | `--out preview.html`; injects `updated_at` (meta.json) and `backfill` (reports.json, PricingSaaS feed lists) |
 | `add_company.py` | manual | registry | Add or fix companies, force browser, change status |
-| `run_daily.sh` | all | — | Lock file, steps, stash on failed validation, commit and push, failure alerts |
+| `run_daily.sh` | all | — | Lock file, steps (network, browser and agent steps under `limit.py`, D57), stash on failed validation, commit and push, failure alerts |
+| `limit.py` | all | — | `limit.py SECONDS cmd…`: runs a step with a time limit, stops its whole process tree on expiry, exit 124 (D57) |
 | `install_mac.sh` | setup | plist → `~/Library/LaunchAgents` | `--run-now` kicks a run |
 
 ### 4.1 Agent tasks and proposal formats
@@ -268,6 +269,8 @@ What a capture does:
 - `REGISTRY_BATCH` 30
 - `MIN_CAPTURE_OK_RATIO` 0.9
 - `BACKLOG_MAX_ATTEMPTS` 4
+- `BROWSER_PAGE_LIMIT_SEC` 120; step limits in `run_daily.sh` (config.env `PD_LIMIT_*`, seconds): git 300,
+  capture 5400, PricingSaaS 2400, each agent call 2700, recheck 1200, page check 600 (D57)
 - `EDITION_READY_AFTER` 42 h
 - `FIRST_AUTO_EDITION` 2026-W44
 - `EDITION_FORMAT` 2, `EDITION_BACKFILL` (8 weeks), `EDITION_BACKFILL_TRIES` 2, `NEWS_WINDOW_WEEKS` 13
