@@ -1,0 +1,91 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Splunk/All changes/Feature added
+S
+Splunk
+Packaging changeFeature addedNov 16 → Nov 23, 2026 UTC
+Splunk scraps Observability tiers for $95 Essentials, $150 Premier editions
+Detected Nov 22, 2026, 10:21 PM ETData & Analytics
+The changeFeature added
+2 changes2 capturesNov 16 → Nov 23, 2026 UTC
+What happened
+Between the Nov 16, 2026 and Nov 23, 2026 captures of Splunk's pricing page, Pulse recorded 2 changes: Observability Cloud tiers (Infrastructure $15, App & Infra $60, End-to-End $75) replaced by a la carte product prices plus Free, Essentials $95 and Premier $150 per host editions; bundle savings up to 31%; New Observability Cloud edition feature comparison: AI SRE included in all editions, Observability Logs, Agent Observability and AI Agent Evaluation per edition; Luna tokens renamed Eval-G1. Pulse files it as a packaging change (feature added, packaging change). The current page lists Splunk On-Call at $5, AppDynamics Infrastructure Edition at $6, AppDynamics Premium Edition at $33, AppDynamics Enterprise Edition at $50 and Observability Cloud Essentials Edition at $95.
+It lands 126 days after Splunk's previous change, "Splunk: removed "Activity-based pricing" model" (Jul 20, 2026). Splunk has been tracked since 2026-03-19.
+In the same window Dynatrace, Datadog, Sumologic and Elastic also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+—Feature
+Feature added
+New Observability Cloud edition feature comparison: AI SRE included in all editions, Observability Logs, Agent Observability and AI Agent Evaluation per edition; Luna tokens renamed Eval-G1.
+Observability CloudPackaging
+Packaging change
+Observability Cloud tiers (Infrastructure $15, App & Infra $60, End-to-End $75) replaced by a la carte product prices plus Free, Essentials $95 and Premier $150 per host editions; bundle savings up to 31%.
+Plan
+Field
+Before
+After
+Change
+—
+Feature
+New Observability Cloud edition feature comparison: AI SRE included in all editions, Observability Logs, Agent Observability and AI Agent Evaluation per edition; Luna tokens renamed Eval-G1.
+Feature added
+Observability Cloud
+Packaging
+—
+31%
+Packaging change
+Values as written on Splunk's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Splunk's pricing page (www.splunk.com) from Nov 16, 2026 and Nov 23, 2026; the change is marked around the middle of the page.
+Nov 16, 2026 UTC
+Nov 23, 2026 UTC
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Splunk, pricing history
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 22, 2026PackagingSplunk scraps Observability tiers for $95 Essentials, $150 Premier editions This change
+Jul 20, 2026PackagingSplunk: removed "Activity-based pricing" model
+Across Data & Analytics in the same window
+All Data & Analytics changes
+DynatraceNov 23Dynatrace launches $5/mo container monitoring, trims Foundation and Full-Stack
+DatadogNov 2Datadog drops Confluent Cloud from Kafka Console support
+SumologicOct 19Sumologic adds DojoAI Credits add-on for pooled monthly AI prompt capacity
+ElasticSep 14Elastic splits out new Elasticsearch Vector Database product tile
+Questions about this change
+Did Splunk raise prices in November 2026?
+No list-price increase was recorded between Nov 16, 2026 and Nov 23, 2026 UTC. The change Pulse detected was a packaging change: feature added, packaging change.
+What changed on Splunk's pricing page between Nov 16, 2026 and Nov 23, 2026 UTC?
+New Observability Cloud edition feature comparison: AI SRE included in all editions, Observability Logs, Agent Observability and AI Agent Evaluation per edition; Luna tokens renamed Eval-G1; Observability Cloud tiers (Infrastructure $15, App & Infra $60, End-to-End $75) replaced by a la carte product prices plus Free, Essentials $95 and Premier $150 per host editions; bundle savings up to 31%. Pulse compared the captures it took on Nov 16, 2026 and Nov 23, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Splunk change its pricing?
+Pulse recorded 0 other pricing-page changes for Splunk in the 90 days before this one; the previous change was "Splunk: removed "Activity-based pricing" model" on Jul 20, 2026; Splunk has been tracked since 2026-03-19.
+Splunk plans today
+All plans
+Observability Cloud Free Edition
+Free
+Splunk On-Call
+$5
+AppDynamics Infrastructure Edition
+$6
+AppDynamics Premium Edition
+$33
+AppDynamics Enterprise Edition
+$50
+Observability Cloud Essentials Edition
+$95
+Tracked alongside
+E
+Elastic
+D
+Datadog
+N
+New Relic
+D
+Dynatrace
+S
+Sumologic
+L
+Logrocket

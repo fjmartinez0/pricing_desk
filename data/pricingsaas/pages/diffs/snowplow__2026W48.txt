@@ -1,0 +1,112 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Snowplow/All changes/Self-Hosted Pipeline card for previous open source users removed
+S
+Snowplow
+Packaging changeNew planPlan renamedPositioningNov 16 → Nov 23, 2026 UTC
+Snowplow strips paid features from free trial, adds Private Managed Cloud plan
+Detected Nov 22, 2026, 10:18 PM ETData & Analytics
+The changeSelf-Hosted Pipeline card for previous open source users removed
+Before · Nov 16 UTCSelf-Hosted Pipeline card for previous open source users
+After · Nov 23 UTCNot listed
+removed
+5 changes2 capturesNov 16 → Nov 23, 2026 UTC
+What happened
+Between the Nov 16, 2026 and Nov 23, 2026 captures of Snowplow's pricing page, Pulse recorded 5 changes: New Your cloud (Private Managed Cloud) plan: Snowplow runs the pipeline inside your own AWS, GCP or Azure account, with SLAs, optional cross-region outage protection and VPC peering. Custom quote; Snowplow Platform (Fully Managed & Scalable) renamed Snowplow-hosted, now badged Recommended. Still custom quote; Self-Hosted Pipeline card for previous open source users removed from the plan grid. Th. In detail: Self-Hosted Pipeline card for previous open source users removed from the plan grid. The SLULA 1.1 self-hosted licence is still offered, now only in the FAQ; Signals free tier now listed: runs on the hosted trial environment with no end date, up to 5 million events a month; 14-day free trial no longer full product. Event compression, Data Product Studio, managed auto-scaling, pipeline observability, SLAs, surge protection, technical services, advanced governance and CVE patches are now paid-plan only; Signals is limited on the trial. Pulse files it as a packaging change (new plan, plan renamed, positioning, freemium change, trial change).
+It lands 153 days after Snowplow's previous change, "Snowplow drops free Community Edition for 14-day trial" (Jun 22, 2026). Snowplow has been tracked since 2026-05-22.
+In the same window Mixpanel and Amplitude also changed their Data & Analytics pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Your cloudPlan
+New plan
+New Your cloud (Private Managed Cloud) plan: Snowplow runs the pipeline inside your own AWS, GCP or Azure account, with SLAs, optional cross-region outage protection and VPC peering. Custom quote.
+Snowplow-hostedPlan
+Plan renamed
+Snowplow Platform (Fully Managed & Scalable) renamed Snowplow-hosted, now badged Recommended. Still custom quote.
+—Positioning
+Removed
+BeforeSelf-Hosted Pipeline card for previous open source users
+AfterNot listed
+—Free tier
+Added
+Not listed→Signals free tier
+Free trialTrial
+Trial change
+14-day free trial no longer full product. Event compression, Data Product Studio, managed auto-scaling, pipeline observability, SLAs, surge protection, technical services, advanced governance and CVE patches are now paid-plan only; Signals is limited on the trial.
+Plan
+Field
+Before
+After
+Change
+Your cloud
+Plan
+New Your cloud (Private Managed Cloud) plan: Snowplow runs the pipeline inside your own AWS, GCP or Azure account, with SLAs, optional cross-region outage protection and VPC peering. Custom quote.
+New plan
+Snowplow-hosted
+Plan
+Snowplow Platform (Fully Managed & Scalable) renamed Snowplow-hosted, now badged Recommended. Still custom quote.
+Plan renamed
+—
+Positioning
+Self-Hosted Pipeline card for previous open source users
+Not listed
+Removed
+—
+Free tier
+Not listed
+Signals free tier
+Added
+Free trial
+Trial
+14-day free trial no longer full product. Event compression, Data Product Studio, managed auto-scaling, pipeline observability, SLAs, surge protection, technical services, advanced governance and CVE patches are now paid-plan only; Signals is limited on the trial.
+Trial change
+Values as written on Snowplow's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Snowplow's pricing page (snowplow.io) from Nov 16, 2026 and Nov 23, 2026; the change is marked near the top of the page, where the Self-Hosted Pipeline card for previous open source users no longer appears.
+Nov 16, 2026 UTCSelf-Hosted Pipeline card for previous open source users
+Nov 23, 2026 UTCSelf-Hosted Pipeline card for previous open source users not listed
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Snowplow, pricing history
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 22, 2026PackagingSnowplow strips paid features from free trial, adds Private Managed Cloud plan This change
+Jun 22, 2026PackagingSnowplow drops free Community Edition for 14-day trial
+Across Data & Analytics in the same window
+All Data & Analytics changes
+MixpanelNov 16Mixpanel lifts Free plan saved reports cap to unlimited, adds custom properties
+AmplitudeNov 16Amplitude adds HIPAA BAA for Growth and Enterprise, not Free or Plus
+MixpanelOct 19Mixpanel cuts Growth yearly price to $100/month at 18M events a year
+AmplitudeSep 9Amplitude drops per-plan AI Visibility prompt quotas from pricing cards
+MixpanelSep 7Mixpanel touts free Experiments and Feature Flags in new banner
+Questions about this change
+Did Snowplow raise prices in November 2026?
+No list-price increase was recorded between Nov 16, 2026 and Nov 23, 2026 UTC. The change Pulse detected was a packaging change: new plan, plan renamed, positioning, freemium change, trial change.
+What changed on Snowplow's pricing page between Nov 16, 2026 and Nov 23, 2026 UTC?
+New Your cloud (Private Managed Cloud) plan: Snowplow runs the pipeline inside your own AWS, GCP or Azure account, with SLAs, optional cross-region outage protection and VPC peering. Custom quote; Snowplow Platform (Fully Managed & Scalable) renamed Snowplow-hosted, now badged Recommended. Still custom quote; positioning removed: Self-Hosted Pipeline card for previous open source users; free tier added: Signals free tier; 14-day free trial no longer full product. Event compression, Data Product Studio, managed auto-scaling, pipeline observability, SLAs, surge protection, technical services, advanced governance and CVE patches are now paid-plan only; Signals is limited on the trial. Pulse compared the captures it took on Nov 16, 2026 and Nov 23, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Snowplow change its pricing?
+Pulse recorded 0 other pricing-page changes for Snowplow in the 90 days before this one; the previous change was "Snowplow drops free Community Edition for 14-day trial" on Jun 22, 2026; Snowplow has been tracked since 2026-05-22.
+Snowplow plans today
+All plans
+Free trial
+Free
+Your cloud
+Contact
+Snowplow-hosted
+Contact
+Tracked alongside
+S
+Segment
+M
+mParticle
+M
+Mixpanel
+A
+Amplitude
+H
+Heap
+A
+Adobe

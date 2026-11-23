@@ -1,0 +1,150 @@
+=== https://www.nango.dev/pricing ===
+Download brand assets
+Logos and icons, SVG and PNG
+Brand guidelines
+Logos, colors, and usage rules
+13.3k Talk to us Log In Sign Up
+NEW
+Get up to $10,000 in Nango credits with our startup program.
+APPLY NOW
+Up to $10,000 in startup credits.
+APPLY NOW
+Pricing
+Fair and transparent pricing
+Start free. Pay only for connections, compute time
+and data transfer as you grow.
+Plans
+Free
+$0 /mo
+API & MCP auth, tools & syncs
+Hard-capped limits, reset monthly
+Get started
+Pay-as-you-go
+$50 /mo
+Pay-as-you-go rates
+$50 in credits, each month
+Get started
+Enterprise
+Custom pricing
+Discounts with commitments
+Self-hosting, MSA, SLA
+Contact us
+Building a startup?
+Get up to $10,000 in Nango credits and the Growth add-on free for six months.
+Explore the startup program
+Rates & limits
+Free limits
+Connections
+Each connection represents one authorized user account (for example, one user’s Salesforce account). Billed per connection per month, prorated for the time the connection exists.
+Compute time
+Execution time of your integrations on Nango. Used for tool calls, syncs, and webhook processing.
+Data transfer
+Data processed by Nango for your integrations. See FAQ for a detailed breakdown.
+Free limits
+10
+10 hours / mo
+10GB / mo
+Pay-as-you-go
+$0.29 / connection
+$0.72 / hour
+$0.5 / GB
+Enterprise
+Commitment discounts
+Contact us
+Features
+Free
+Auth with 1,400+ APIs & MCPs
+Pre-built authentication, secure credentials storage, and token refreshing.
+10k+ pre-built tools, triggers & syncs
+Thousands of pre-built integrations available immediately.
+Custom tools, triggers, and syncs
+Extend our pre-built templates, or build entirely custom integrations.
+Real-time webhooks
+Receive and process incoming webhooks from external APIs for syncing or triggers.
+UI components
+Embed a ready-made UI for account authorization or build your own using our APIs.
+Nango-managed & self-managed apps
+Use Nango-managed OAuth apps or bring your own OAuth app.
+Logs
+Monitor all integrations with built-in logs, metrics, and alerting.
+SOC 2 Type II
+Certified SOC 2 Type 2 for security and data protection. Request a report in our trust center.
+Shared Slack channel
+Direct access to our engineers via private Slack channel.
+Customize branding
+Match Nango’s UI components to your brand and remove “Secured by Nango.”
+Unlimited environments
+Run integrations in isolated environments (dev, staging, prod, etc.) to test and deploy safely.
+RBAC
+Control team member permissions with role-based access control.
+Realtime logs export
+Export traces to your observability tools in the OpenTelemetry format.
+SAML SSO
+Use any SAML or OIDC identity provider to log in to Nango.
+HIPAA
+HIPAA compliance with a Business Associate Agreement (BAA) for healthcare data.
+Requested integration delivery time
+Request new API integrations, or contribute directly to our open-source repo.
+Audit trail
+Detailed log of all changes in your account.
+SCIM
+Automatically provision users and manage permissions.
+SLAs
+Dedicated uptime and support service-level agreements.
+Self-hosting & BYOC
+Run Nango in your own infrastructure with our support.
+Solutions engineering
+Nango integration experts help you design your integrations.
+Free
+20 days
+Pay-as-you-go
+Growth add-on
+$450/mo
+5 days (Growth add-on)
+Enterprise
+2 days
+FAQ
+Can you add support for more APIs?
+Yes, we can add support for any public API or MCP server.
+Please follow this guide.
+If you have a test account for the API, we can also add pre-built tool calls & syncs for it.
+Turnaround times depend on your plan and can be as low as 2 days for Enterprise customers.
+What are Connections, Function compute time, and Data Transfer?
+1 Connection = 1 API key or access token of the external API. For example:
+3 users connect their Gmail = 3 connections.
+Connections are pro-rated for the time they are stored in your account.
+Function compute time measures how long your integrations run. Each run is
+rounded up to the nearest second.
+For example, if a tool call takes 300ms, you will be billed for 1 second of Function compute time. A sync
+that runs once an hour and takes 3 seconds per run consumes 24 x 3 = 72 seconds of compute time per day.
+Tool calls, syncs, and actions consume function compute time.
+Data Transfer measures the amount of data Nango processes for your integrations.
+This includes:
+Data sent from Nango to your backend
+Data sent from Nango to external APIs
+Data processed by Nango’s syncs
+Custom log messages you emit from your Nango Functions
+We only measure egress. Ingress transfers are free.
+Do you offer volume discounts?
+We offer significant volume discounts, with commitments, across all pricing metrics on the Enterprise plan.
+For example, connections can be as low as $0.01/connection/month at scale.
+Please reach out with your expected volumes for a custom quote!
+Is Nango suitable for high-volume use cases?
+Yes, definitely. We serve B2C and Fortune 500 companies. Our platform is built for high throughput, and all
+components scale horizontally.
+On the commercial side, we offer volume discounts on the Enterprise plan.
+Please reach out for a custom quote!
+Does Nango offer an EU-hosted cloud?
+We currently don’t have an EU cloud, but are considering this for the future. Meanwhile we offer BYOC
+instances in any AWS, GCP or Azure region on the Enterprise plan.
+How can I track my usage? Can I set spend alerts?
+Your Nango dashboard has a
+detailed breakdown of your usage.
+You can also set up spend alerts.
+How does support work?
+In-app chat for the free and pay-as-you-go plans.
+Private Slack Connect channel for the Growth add-on and Enterprise plan.
+All support is provided by Nango engineers with detailed knowledge of the platform.
+Ready to get started?
+Ship the integrations your customers need — with 1,400+ APIs and infrastructure built for scale.
+START BUILDING BOOK A CALL
