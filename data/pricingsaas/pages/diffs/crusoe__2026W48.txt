@@ -1,0 +1,79 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Crusoe/All changes/DeepSeek V4 Pro removed
+C
+Crusoe
+Packaging changePlan removedNov 16 → Nov 23, 2026 UTC
+Crusoe drops DeepSeek V4 Pro from Serverless Inference pricing
+Detected Nov 22, 2026, 7:54 PM ETCloud & DevOps
+The changeDeepSeek V4 Pro removed
+Before · Nov 16 UTCDeepSeek V4 Pro
+After · Nov 23 UTCNot listed
+removed
+1 change2 capturesNov 16 → Nov 23, 2026 UTC
+What happened
+Between the Nov 16, 2026 and Nov 23, 2026 captures of Crusoe's pricing page, Pulse recorded one change: DeepSeek V4 Pro removed from Managed Inference per-token pricing table (was $1.74 input / $3.48 output / $0.15 cached per 1M tokens). In detail: DeepSeek V4 Pro removed from the Serverless Inference per-token pricing table (was $1.74 input / $3.48 output / $0.15 cached per 1M tokens). Pulse files it as a packaging change (plan removed). The current page lists NVIDIA H100 (80GB) On-Demand at $3.90 per GPU-hr, Serverless Fine-Tuning - Qwen3.6 35B A3B FFT at $1.20 per 1M tokens, Serverless Fine-Tuning - Llama 3.3 70B Instruct at $6 per 1M tokens, Serverless Fine-Tuning - Qwen3 8B at $0.40 per 1M tokens and Managed Inference - Yutori n2 at $4 per 1M output tokens + $0.05 per 1M cached tokens.
+It lands 7 days after Crusoe's previous change, "Crusoe adds DeepSeek V4.1 Flash fine-tuning at $5.00 per 1M tokens" (Nov 15, 2026). Before that Pulse recorded "Crusoe raises H200 on-demand to $5.40/GPU-hr in Dec 1 GPU price hikes" (Nov 8, 2026), "Crusoe adds DeepSeek V4.1 Flash to Serverless Inference at $0.29/1M input" (Oct 11, 2026) and "Crusoe drops Kimi K2.6 ($0.70/$3.50 per 1M) from Managed Inference lineup" (Oct 4, 2026). Crusoe has been tracked since 2026-06-18.
+In the same window Siteground, Skyvia, Rewind, NitroPack and Honeycomb also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Serverless InferencePlan
+Removed
+DeepSeek V4 Pro→Not listed
+Plan
+Field
+Before
+After
+Change
+Serverless Inference
+Plan
+DeepSeek V4 Pro
+Not listed
+Removed
+Values as written on Crusoe's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Crusoe's pricing page (www.crusoe.ai) from Nov 16, 2026 and Nov 23, 2026; the change is marked around the middle of the page, where the DeepSeek V4 Pro no longer appears.
+Nov 16, 2026 UTCDeepSeek V4 Pro
+Nov 23, 2026 UTCDeepSeek V4 Pro not listed
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Crusoe, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 22, 2026PackagingCrusoe drops DeepSeek V4 Pro from Serverless Inference pricing This change
+Nov 15, 2026ImprovementCrusoe adds DeepSeek V4.1 Flash fine-tuning at $5.00 per 1M tokens
+Nov 8, 2026Price increaseCrusoe raises H200 on-demand to $5.40/GPU-hr in Dec 1 GPU price hikes
+Oct 11, 2026PackagingCrusoe adds DeepSeek V4.1 Flash to Serverless Inference at $0.29/1M input
+Oct 4, 2026PackagingCrusoe drops Kimi K2.6 ($0.70/$3.50 per 1M) from Managed Inference lineup
+Sep 28, 2026Price increaseCrusoe: GPT-OSS 20B fine-tuning price $0.40->$2.50 + 2 more changes
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+SitegroundNov 23Siteground adds 3 months free site extras to Black Friday deal of up to 88% off
+SkyviaNov 23Skyvia adds Black Friday banner with up to 40% off annual plans
+RewindNov 23Rewind adds Pilot Light preview for Jira and Confluence to Advanced plan
+NitroPackNov 23NitroPack Black Friday sale cuts annual plans up to 40%, Starter now $5/mo
+HoneycombNov 23Honeycomb drops frontend performance analysis from its Enterprise add-ons
+Questions about this change
+Did Crusoe raise prices in November 2026?
+No list-price increase was recorded between Nov 16, 2026 and Nov 23, 2026 UTC. The change Pulse detected was a packaging change: plan removed.
+What changed on Crusoe's pricing page between Nov 16, 2026 and Nov 23, 2026 UTC?
+Serverless Inference plan removed: DeepSeek V4 Pro. Pulse compared the captures it took on Nov 16, 2026 and Nov 23, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does Crusoe change its pricing?
+Pulse recorded 5 other pricing-page changes for Crusoe in the 90 days before this one; the previous change was "Crusoe adds DeepSeek V4.1 Flash fine-tuning at $5.00 per 1M tokens" on Nov 15, 2026; Crusoe has been tracked since 2026-06-18.
+Crusoe plans today
+All plans
+NVIDIA H100 (80GB) On-Demand
+$3.90 per GPU-hr
+Serverless Fine-Tuning - Qwen3.6 35B A3B FFT
+$1.20 per 1M tokens
+Serverless Fine-Tuning - Llama 3.3 70B Instruct
+$6 per 1M tokens
+Serverless Fine-Tuning - Qwen3 8B
+$0.40 per 1M tokens
+Managed Inference - Yutori n2
+$4 per 1M output tokens + $0.05 per 1M cached tokens
+Managed Inference - GLM 5.3
+$1.40 per 1M input tokens + $4.40 per 1M output tokens

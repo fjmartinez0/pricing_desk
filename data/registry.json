@@ -4215,7 +4215,9 @@
     "microsoft.microsoft365",
     "microsoft.security",
     "microsoft.teams.home",
-    "microsoft.teams.business"
+    "microsoft.teams.business",
+    "microsoft.powerbi",
+    "microsoft.copilot"
    ]
   },
   "mightynetworks": {
@@ -17169,7 +17171,8 @@
    "url_attempts": 0,
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
-    "hoorayhr.prijzen"
+    "hoorayhr.prijzen",
+    "hoorayhr"
    ]
   },
   "hellonote": {
@@ -19254,7 +19257,8 @@
    "url_attempts": 0,
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
-    "goto"
+    "goto",
+    "logmein"
    ]
   },
   "stream": {
@@ -32887,10 +32891,14 @@
    "category": "Workforce Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://help.boompop.com/en/articles/11814037-what-does-boompop-cost"
+   ],
+   "domains": [
+    "boompop.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39531,7 +39539,7 @@
     "stopsuite.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39587,7 +39595,7 @@
     "splunk.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39600,7 +39608,8 @@
    "url_attempts": 0,
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
-    "splunk"
+    "splunk",
+    "galileo"
    ]
   },
   "spiky-ai": {
@@ -39616,7 +39625,7 @@
     "spiky.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39645,7 +39654,7 @@
     "solvimon.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39674,7 +39683,7 @@
     "socialbee.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39696,14 +39705,12 @@
    "category": "Data & Analytics",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://snowplow.io/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "snowplow.io"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39713,8 +39720,8 @@
    "added": "2026-11-23",
    "source": "agent 2026-11-23T07",
    "source_url": "https://pricingsaas.com/companies/snowplow/diffs/2026W48",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://snowplow.io/pricing: page shows no prices",
    "ps_slugs": [
     "snowplow"
    ]
@@ -39732,7 +39739,7 @@
     "snappa.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39817,7 +39824,7 @@
     "sendbird.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39873,7 +39880,7 @@
     "sapling.ai"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39902,7 +39909,7 @@
     "salesmessage.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39951,14 +39958,12 @@
    "category": "Cloud & DevOps",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://rewind.com/pricing"
-   ],
+   "pricing_urls": [],
    "domains": [
     "rewind.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39968,8 +39973,8 @@
    "added": "2026-11-23",
    "source": "agent 2026-11-23T07",
    "source_url": "https://pricingsaas.com/companies/rewind/diffs/2026W48",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://rewind.com/pricing: page shows no prices",
    "ps_slugs": [
     "rewind"
    ]
@@ -40534,10 +40539,14 @@
    "category": "Collaboration & Productivity",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://boomeranggmail.com/subscriptions.html"
+   ],
+   "domains": [
+    "boomeranggmail.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40559,10 +40568,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.blumira.com/pricing"
+   ],
+   "domains": [
+    "blumira.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40584,10 +40597,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://bitwarden.com/pricing/"
+   ],
+   "domains": [
+    "bitwarden.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40609,10 +40626,14 @@
    "category": "Marketing & Content",
    "segment": "Both",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://bitly.com/a/pricing"
+   ],
+   "domains": [
+    "bitly.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40626,6 +40647,1234 @@
    "notes": "reported by PricingSaaS",
    "ps_slugs": [
     "bitly"
+   ]
+  },
+  "moqups": {
+   "name": "Moqups",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://moqups.com/pricing/"
+   ],
+   "domains": [
+    "moqups.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/moqups/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "moqups"
+   ]
+  },
+  "moosend": {
+   "name": "Moosend",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://moosend.com/pricing/"
+   ],
+   "domains": [
+    "moosend.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/moosend/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "moosend"
+   ]
+  },
+  "mindgenius": {
+   "name": "MindGenius",
+   "tier": 3,
+   "category": "Project Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.mindgenius.com/pricing/"
+   ],
+   "domains": [
+    "mindgenius.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/mindgenius/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mindgenius"
+   ]
+  },
+  "menusifu": {
+   "name": "Menusifu",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.menusifu.com/pricing"
+   ],
+   "domains": [
+    "menusifu.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/menusifu/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "menusifu"
+   ]
+  },
+  "meetedgar": {
+   "name": "MeetEdgar",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [
+    "https://meetedgar.com/pricing/"
+   ],
+   "domains": [
+    "meetedgar.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/meetedgar/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "meetedgar"
+   ]
+  },
+  "medrecords-ai": {
+   "name": "Medrecords AI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://medrecords.ai/pricing/"
+   ],
+   "domains": [
+    "medrecords.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/medrecords/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "medrecords"
+   ]
+  },
+  "marketman": {
+   "name": "MarketMan",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.marketman.com/pricing-for-restaurant-inventory-management-system"
+   ],
+   "domains": [
+    "marketman.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/marketman/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "marketman"
+   ]
+  },
+  "marginedge": {
+   "name": "MarginEdge",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.marginedge.com/pricing/"
+   ],
+   "domains": [
+    "marginedge.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/marginedge/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "marginedge"
+   ]
+  },
+  "mabl": {
+   "name": "mabl",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.mabl.com/pricing"
+   ],
+   "domains": [
+    "mabl.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/mabl/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "mabl"
+   ]
+  },
+  "linearb": {
+   "name": "LinearB",
+   "tier": 3,
+   "category": "Software Development & Testing",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://linearb.io/pricing"
+   ],
+   "domains": [
+    "linearb.io"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/linearb/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "linearb"
+   ]
+  },
+  "lemon-squeezy": {
+   "name": "Lemon Squeezy",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.lemonsqueezy.com/pricing"
+   ],
+   "domains": [
+    "lemonsqueezy.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/lemonsqueezy/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "lemonsqueezy"
+   ]
+  },
+  "leandata": {
+   "name": "LeanData",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "leandata.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/leandata/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "leandata"
+   ]
+  },
+  "leadstal": {
+   "name": "LeadStal",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "leadstal.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/leadstal/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "leadstal"
+   ]
+  },
+  "kudoboard": {
+   "name": "Kudoboard",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "kudoboard.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/kudoboard/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "kudoboard"
+   ]
+  },
+  "krisp": {
+   "name": "Krisp",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "krisp.ai"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/krisp/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "krisp"
+   ]
+  },
+  "knowbe4": {
+   "name": "KnowBe4",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "knowbe4.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/knowbe4/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "knowbe4"
+   ]
+  },
+  "klaxoon": {
+   "name": "Klaxoon",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "klaxoon.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/klaxoon/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "klaxoon"
+   ]
+  },
+  "kickbox": {
+   "name": "Kickbox",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "kickbox.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/kickbox/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "kickbox"
+   ]
+  },
+  "kdan": {
+   "name": "Kdan",
+   "tier": 3,
+   "category": "Collaboration & Productivity",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "kdan.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/kdan/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "kdan"
+   ]
+  },
+  "jupiterone": {
+   "name": "JupiterOne",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "jupiterone.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/jupiterone/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "jupiterone"
+   ]
+  },
+  "jotform": {
+   "name": "Jotform",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "jotform.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/jotform/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "jotform"
+   ]
+  },
+  "jeenie": {
+   "name": "Jeenie",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "jeenie.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/jeenie/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "jeenie"
+   ]
+  },
+  "hostaway": {
+   "name": "Hostaway",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "hostaway.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/hostaway/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "hostaway"
+   ]
+  },
+  "honeycomb": {
+   "name": "Honeycomb",
+   "tier": 3,
+   "category": "Cloud & DevOps",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "honeycomb.io"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/honeycomb/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "honeycomb"
+   ]
+  },
+  "hiver": {
+   "name": "Hiver",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "hiverhq.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/hiverhq/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "hiverhq"
+   ]
+  },
+  "hightouch": {
+   "name": "Hightouch",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "hightouch.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/hightouch/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "hightouch"
+   ]
+  },
+  "help-scout": {
+   "name": "Help Scout",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "helpscout.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/helpscout/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "helpscout"
+   ]
+  },
+  "helium-10": {
+   "name": "Helium 10",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "helium10.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/helium10/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "helium10"
+   ]
+  },
+  "gridspace": {
+   "name": "Gridspace",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "goguava.ai"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/gridspace/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gridspace"
+   ]
+  },
+  "gocanvas": {
+   "name": "GoCanvas",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "gocanvas.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/gocanvas/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gocanvas"
+   ]
+  },
+  "glockapps": {
+   "name": "GlockApps",
+   "tier": 3,
+   "category": "Marketing & Content",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [
+    "glockapps.com"
+   ],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/glockapps/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "glockapps"
+   ]
+  },
+  "meez": {
+   "name": "meez",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.getmeez.com/pricing"
+   ],
+   "domains": [
+    "getmeez.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/getmeez/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "getmeez"
+   ]
+  },
+  "ganttpro": {
+   "name": "GanttPRO",
+   "tier": 3,
+   "category": "Project Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://ganttpro.com/pricing/"
+   ],
+   "domains": [
+    "ganttpro.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/ganttpro/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "ganttpro"
+   ]
+  },
+  "gantter": {
+   "name": "Gantter",
+   "tier": 3,
+   "category": "Project Management",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.gantter.ai/pricing/"
+   ],
+   "domains": [
+    "gantter.ai"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/gantter/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gantter"
+   ]
+  },
+  "gallabox": {
+   "name": "Gallabox",
+   "tier": 3,
+   "category": "Sales & Customer Relationship Management (CRM)",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://gallabox.com/pricing"
+   ],
+   "domains": [
+    "gallabox.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/gallabox/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "gallabox"
+   ]
+  },
+  "frontstream": {
+   "name": "FrontStream",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.frontstream.com/pricing"
+   ],
+   "domains": [
+    "frontstream.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/frontstream/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "frontstream"
+   ]
+  },
+  "freeagent": {
+   "name": "FreeAgent",
+   "tier": 3,
+   "category": "Finance & Accounting",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.freeagent.com/pricing/"
+   ],
+   "domains": [
+    "freeagent.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/freeagent/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "freeagent"
+   ]
+  },
+  "fingercheck": {
+   "name": "Fingercheck",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://fingercheck.com/pricing/"
+   ],
+   "domains": [
+    "fingercheck.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/fingercheck/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "fingercheck"
+   ]
+  },
+  "filterpixel": {
+   "name": "FilterPixel",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://accounts.filterpixel.com/pricing"
+   ],
+   "domains": [
+    "filterpixel.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/filterpixel/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "filterpixel"
+   ]
+  },
+  "envoy": {
+   "name": "Envoy",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://envoy.com/pricing"
+   ],
+   "domains": [
+    "envoy.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/envoy/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "envoy"
+   ]
+  },
+  "eden-ai": {
+   "name": "Eden AI",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.edenai.co/pricing"
+   ],
+   "domains": [
+    "edenai.co"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/edenai/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "edenai"
+   ]
+  },
+  "ec-council": {
+   "name": "EC-Council",
+   "tier": 3,
+   "category": "Cybersecurity & Identity Management",
+   "segment": "Both",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/eccouncil/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "eccouncil"
+   ]
+  },
+  "dropified": {
+   "name": "Dropified",
+   "tier": 3,
+   "category": "Business Operations",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.dropified.com/pricing/"
+   ],
+   "domains": [
+    "dropified.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/dropified/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "dropified"
+   ]
+  },
+  "dimagi": {
+   "name": "Dimagi",
+   "tier": 3,
+   "category": "Data & Analytics",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [],
+   "domains": [],
+   "capture": "static",
+   "status": "needs_url",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-23",
+   "source": "agent 2026-11-23T19",
+   "source_url": "https://pricingsaas.com/companies/dimagi/diffs/2026W48",
+   "url_attempts": 0,
+   "notes": "reported by PricingSaaS",
+   "ps_slugs": [
+    "dimagi"
    ]
   }
  }

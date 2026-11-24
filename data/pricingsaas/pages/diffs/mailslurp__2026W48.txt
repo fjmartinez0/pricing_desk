@@ -1,0 +1,106 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/MailSlurp/All changes/Device previews → Preview runs
+M
+MailSlurp
+Packaging changeMetric changeFeature addedNov 16 → Nov 23, 2026 UTC
+MailSlurp lifts Starter rendering cap, adds Apple Mail and Outlook previews
+Detected Nov 22, 2026, 9:19 PM ETSoftware Development & Testing
+The changeDevice previews reworded
+Before · Nov 16 UTCDevice previews
+After · Nov 23 UTCPreview runs
+reworded
+3 changes2 capturesNov 16 → Nov 23, 2026 UTC
+What happened
+Between the Nov 16, 2026 and Nov 23, 2026 captures of MailSlurp's pricing page, Pulse recorded 3 changes: Apple Mail & Outlook desktop previews now covered in included preview runs for Free and Starter (previously not included); Rendering allowance unit changed from 'Device previews' to 'Preview runs' on all plans (Free 1, Starter 5, Pro 10, Growth 200 /mo): each included run now covers one email across all selected clients, including premium devices; usage beyond the allowance is billed per successf. In detail: Rendering allowance unit changed from 'Device previews' to 'Preview runs' on all plans (Free 1, Starter 5, Pro 10, Growth 200 /mo): each included run now covers one email across all selected clients, including premium devices; usage beyond the allowance is billed per successful target; Starter is no longer hard-capped on rendering: 'Fixed limits. Upgrade for more.' replaced by 'Additional rendering is billed per successful target' — Starter can now continue past its 5 included preview runs at the per-target rate (from $0.50), previously only Pro and Growth could. Pulse files it as a packaging change (metric change, packaging change, feature added). The current page lists Starter at $19.17, Pro at $45.83, Growth at $166.58, Inbox placement at $1 per test and Device rendering at $0.50 per render.
+It lands 14 days after MailSlurp's previous change, "MailSlurp hikes Growth plan 53% to $199/mo, adds 7-day trial on Starter" (Nov 8, 2026). Before that Pulse recorded "MailSlurp hikes Pro plan to $69, halves Free email allowance to 250" (Nov 1, 2026), "MailSlurp adds inbox placement testing to all plans, gates warmup to top tiers" (Oct 11, 2026) and "MailSlurp adds $0.01/credit email warmup usage rate + 1 more change" (Oct 4, 2026). MailSlurp has been tracked since 2026-02-28.
+In the same window Getresponse, Aws, Mailgun, HubSpot and Klaviyo also changed their Software Development & Testing pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Starter, Pro, GrowthPricing model
+Reworded
+Device previews→Preview runs
+Starter, Pro, GrowthPackaging
+Packaging change
+Starter is no longer hard-capped on rendering: 'Fixed limits. Upgrade for more.' replaced by 'Additional rendering is billed per successful target' — Starter can now continue past its 5 included preview runs at the per-target rate (from $0.50), previously only Pro and Growth could.
+StarterFeature
+Feature added
+Apple Mail & Outlook desktop previews now covered in included preview runs for Free and Starter (previously not included).
+Plan
+Field
+Before
+After
+Change
+Starter, Pro, Growth
+Pricing model
+Device previews
+Preview runs
+Reworded
+Starter, Pro, Growth
+Packaging
+Starter is no longer hard-capped on rendering: 'Fixed limits. Upgrade for more.' replaced by 'Additional rendering is billed per successful target' — Starter can now continue past its 5 included preview runs at the per-target rate (from $0.50), previously only Pro and Growth could.
+Packaging change
+Starter
+Feature
+Apple Mail & Outlook desktop previews now covered in included preview runs for Free and Starter (previously not included).
+Feature added
+Values as written on MailSlurp's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of MailSlurp's pricing page (mailslurp.com) from Nov 16, 2026 and Nov 23, 2026; the change is marked near the top of the page, where "Device previews" becomes "Preview runs".
+Nov 16, 2026 UTCDevice previews
+Nov 23, 2026 UTCPreview runs
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+MailSlurp, the last 90 days
+Full history
+Dates are the day each change was detected, Eastern time.
+Nov 22, 2026PackagingMailSlurp lifts Starter rendering cap, adds Apple Mail and Outlook previews This change
+Nov 8, 2026Price increaseMailSlurp hikes Growth plan 53% to $199/mo, adds 7-day trial on Starter
+Nov 1, 2026Price increaseMailSlurp hikes Pro plan to $69, halves Free email allowance to 250
+Oct 11, 2026ImprovementMailSlurp adds inbox placement testing to all plans, gates warmup to top tiers
+Oct 4, 2026PackagingMailSlurp adds $0.01/credit email warmup usage rate + 1 more change
+Sep 21, 2026PackagingMailSlurp adds AI token disclosures and email warm-up as usage caps quietly…
+Sep 6, 2026PackagingMailSlurp kills paid trials for Pro and Team, points users to Free plan
+Across Software Development & Testing in the same window
+All Software Development & Testing changes
+GetresponseNov 23Getresponse offers to buy out rivals' contracts and handle migration
+AwsNov 23Aws Polly brings $36/1M-char Generative voices to GovCloud, free voice cloning
+MailgunNov 16Mailgun cuts API keys to 1 on Free and Basic plans, adds custom dashboard
+HubSpotNov 9HubSpot Operations doubles Marketing Pro AEO to 50 prompts, 5,000 answers
+KlaviyoNov 9Klaviyo offers $1 first month on Marketing plan, reveals $20 Email pricing
+Questions about this change
+Did MailSlurp raise prices in November 2026?
+No list-price increase was recorded between Nov 16, 2026 and Nov 23, 2026 UTC. The change Pulse detected was a packaging change: metric change, packaging change, feature added.
+What changed on MailSlurp's pricing page between Nov 16, 2026 and Nov 23, 2026 UTC?
+Starter, Pro, Growth pricing model: Device previews → Preview runs, reworded; Starter is no longer hard-capped on rendering: 'Fixed limits. Upgrade for more.' replaced by 'Additional rendering is billed per successful target' — Starter can now continue past its 5 included preview runs at the per-target rate (from $0.50), previously only Pro and Growth could; Apple Mail & Outlook desktop previews now covered in included preview runs for Free and Starter (previously not included). Pulse compared the captures it took on Nov 16, 2026 and Nov 23, 2026 UTC; the before/after table above lists each item as written on the page.
+How often does MailSlurp change its pricing?
+Pulse recorded 7 other pricing-page changes for MailSlurp in the 90 days before this one; the previous change was "MailSlurp hikes Growth plan 53% to $199/mo, adds 7-day trial on Starter" on Nov 8, 2026; MailSlurp has been tracked since 2026-02-28.
+MailSlurp plans today
+All plans
+Free
+Starter
+$19.17
+Pro
+$45.83
+Growth
+$166.58
+Enterprise
+Contact
+Inbox placementAdd-on
+$1 per test
+Tracked alongside
+M
+Mailgun
+A
+Aws
+M
+Mailchimp
+G
+Getresponse
+K
+Klaviyo
+H
+HubSpot
