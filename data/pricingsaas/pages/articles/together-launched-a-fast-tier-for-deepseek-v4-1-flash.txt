@@ -1,0 +1,46 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PACKAGING CHANGE
+Together launched a Fast tier for DeepSeek V4.1 Flash
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 24, 2026
+Together added a new Fast serving tier for DeepSeek V4.1 Flash.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 24, 2026
+FAST TIER·first seen Nov 24, 2026
+What changed
+Together added a new 'Fast' serving tier for DeepSeek V4.1 Flash 1017 to its Serverless Inference lineup, priced at $0.60 per 1M input tokens and $2.40 per 1M output tokens — exactly double the existing base tier's rate on both figures — plus $0.012 per 1M cached tokens, per the pricing page Pulse saved on Nov 24, 2026. The base tier ($0.30 input, $1.20 output per 1M tokens) and the US geo-pinned variant for the same model were unchanged.
+Pulse has tracked Together's pricing page since Dec 29, 2025 across 60 comparisons, logging 47 real changes — 25 of them in the last 90 days, at an average pace of one every 7 days. This is the company's second change in 4 days: on Nov 20, 2026, Pulse recorded Together raising Qwen4 Max's output price to $4.50 alongside a 30% limited-time promo and the addition of a Tencent Hy4 model.
+Why it matters
+For a product leader buying inference, this is Together following a pattern increasingly common in AI serving: same model, multiple tiers priced by speed rather than capability. Fast costs twice the base rate, per the pricing page Pulse saved on Nov 24, 2026 — a straightforward latency premium a team can quantify against its own request volume, rather than a new model to evaluate from scratch.
+It also lands four days after Together's last change, on Nov 20, 2026 per Pulse's tracking, when it raised Qwen4 Max's output price and added another new model — continuing a near-weekly cadence of catalog and pricing changes that makes Together's serverless pricing page worth checking before any usage-based budget review, not just once a quarter. Watch whether 'Fast' tiers become a standard way AI inference providers monetize latency, the way seat tiers once monetized access — the premium here is a data point for what that markup looks like elsewhere.
+In context
+Together's pricing page moves fast: Pulse has tracked 47 real changes since Together first appeared on Dec 29, 2025, and this Fast tier follows a Nov 20, 2026 price hike on Qwen4 Max by just four days. The pattern lens counts 10 changes in Together's own history with credits-and-usage billing, and the market around it is just as active: 479 pricing changes across 302 companies touched usage billing in the last 180 days, 12.4% of everything Pulse tracked in that window, with peers like Affinda and Arcade also restructuring usage-based rates this week. The sharper read: AI inference pricing is segmenting by speed as much as by model choice now — a 'Fast' SKU at double the base rate is Together pricing latency directly, not just tokens, and it's a preview of how usage-based products elsewhere may start charging for responsiveness rather than just volume.
+Common questions
+How would I think about pricing a similar 'fast' tier for my own usage-based product?
+Price the premium as a multiple of your existing rate rather than a flat add-on — Together's Fast tier is exactly double its base rate, which gives customers an easy mental model: pay more, get priority.
+What should I check before assuming Together's serverless pricing is stable?
+Check the current pricing page directly — Together changes its page at a fast clip, and this is its second update in a matter of days, so treat any price here as a snapshot rather than a committed rate.
+How does this compare with what other AI inference and usage-based products are doing right now?
+Similarly active — peers like Affinda and Arcade also restructured usage-based pricing this week, suggesting speed-based tiering may become a standard lever, though the record doesn't show whether competitors to DeepSeek specifically are following Together's lead.
+Sources
+Pulse: Together pricing changes, Nov 24, 2026pricingsaas.com/companies/together/diffs/2026D328
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+M
+Mintlify
+Mintlify renamed its Starter plan to Free.
+W
+Wisprflow
+Wisprflow made Free plan Notetaker meetings unlimited
+P
+Pika
+Pika added a new Sunburst image model

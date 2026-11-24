@@ -1,0 +1,155 @@
+{
+ "type": "changes",
+ "run": "2026-11-24T07",
+ "items": [
+  {"diff_id": "addigy-2026-11-24T07", "kind": "wording", "why": "Plan comparison table reformatted and tagline and one summary bullet trimmed; the table still lists device security as included in every plan.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "apollomail-2026-11-24T07", "kind": "price_hidden", "why": "Organization plan price ($119 per seat per month, min 3 seats) replaced by Custom Pricing and Talk to Sales.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "bitrise-2026-11-24T07", "kind": "wording", "why": "OIDC policies add-on renamed and its description reworded; no price or tier change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "circle-2026-11-24T07", "kind": "noise", "why": "Plan names added to the top of the page text; prices and features unchanged.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "commpeak-2026-11-24T07",
+   "kind": "price_cut",
+   "why": "XX-Large dialer plan (up to 160 concurrent calls) dropped from $499 to $449.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−10%",
+    "short": "The XX-Large dialer plan (up to 160 concurrent calls) falls from $499 to $449.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {"diff_id": "figma-2026-11-24T07", "kind": "new_feature", "why": "AI feature list reorganised and expanded (FigJam boards, slide decks, agent descriptions); no existing price or allowance changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "hedra-2026-11-24T07", "kind": "wording", "why": "Link text changed from Play pricing to Open Play; no pricing change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "linear-2026-11-24T07", "kind": "noise", "why": "API rate limit cells reworded (2x standard limits to 2× standard) and a hidden Change Plan row removed; same limits.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "render-2026-11-24T07", "kind": "wording", "why": "Duplicated button text, seats renamed users, and sandbox limit wording; the Hobby bullet for Database PITR was dropped from the summary but the Postgres table still lists PITR as free.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "slack-2026-11-24T07", "kind": "wording", "why": "Slackbot Unlimited relabelled as no weekly message limits subject to usage guidelines; the cap structure already recorded in slack-2026w47 is unchanged.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "zoho-2026-11-24T07",
+   "kind": "feature_move",
+   "why": "In Zoho CRM, AI agents moved from the Standard plan feature list to the Professional plan feature list.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "AI agents up a tier",
+    "short": "Zoho CRM moves AI agents from the Standard plan to the Professional plan.",
+    "pattern": "AI moves between tiers",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2,
+    "plan": "CRM Standard and Professional",
+    "deltaSub": "plan that includes AI agents",
+    "headline": "Zoho CRM now lists AI agents, which build and deploy agents to automate sales activities, under Professional instead of Standard.",
+    "rows": [
+     ["Plan that includes AI agents", "Standard", "Professional"]
+    ],
+    "who": "Customers on the Standard plan who want AI agents. The page does not say whether current Standard customers keep access.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Zoho is using AI agents as a reason to move CRM buyers from Standard to the pricier Professional plan. It fits a wider pattern of AI features being placed in mid tiers.",
+    "caveat": "Based only on the plan feature lists; the page does not say whether existing Standard customers lose access.",
+    "model": "Seat",
+    "modelBefore": "Seat",
+    "modelAfter": "Seat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "baseten-2026-11-24T07", "kind": "new_feature", "why": "New model DeepSeek V4.1 Flash added to Serverless Loops token pricing; no existing price changed.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "elevenlabs-2026-11-24T07",
+   "kind": "promo",
+   "why": "Black Friday sale added: up to 55% off annual Creator and Pro plans until December 1; page now defaults to the yearly billing view.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: up to 55% off annual plans (Creator and Pro first year) until 1 Dec"}
+  },
+  {"diff_id": "wingspan-2026-11-24T07", "kind": "wording", "why": "Payouts renamed payments and international renamed global; added global payments copy; prices unchanged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "stripe-2026-11-24T07", "kind": "wording", "why": "Money management product description reworded.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "clerk-2026-11-24T07", "kind": "wording", "why": "FAQ rewritten and expanded (First Day Free, organizations, self-serve SSO); the $75 per connection and January 1, 2027 Directory Sync billing were already on the page.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "leadmagic-2026-11-24T07", "kind": "noise", "why": "Top-ups section moved lower on the page; content and prices identical.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "landingi-2026-11-24T07",
+   "kind": "promo",
+   "why": "Black Friday banner changed from a notify-me alert to a live sale; headline discount still up to 70%.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "changed", "text": "Black Friday sale now live: up to 70% off Landingi, biggest discounts limited in time"}
+  },
+  {"diff_id": "kinsta-2026-11-24T07", "kind": "noise", "why": "Rotating customer testimonials only.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "simplepractice-2026-11-24T07",
+   "kind": "promo",
+   "why": "Small Business Saturday offer replaces the earlier 50% off for 3 months: up to 70% off for 1 year, ending Nov 30.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "changed", "text": "Small Business Saturday: up to 70% off for 1 year on Starter and Essential plans (was 50% off for 3 months), plus $99 credentialing applications, until 30 Nov"}
+  },
+  {"diff_id": "pictory-2026-11-24T07", "kind": "wording", "why": "Black Friday banner reworded; same 50% off all plans offer.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "fly-io-2026-11-24T07",
+   "kind": "plan_change",
+   "why": "Managed Postgres range now starts with a $4/month Developer plan (storage included) instead of $38/month (Basic).",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "New tier",
+    "short": "Managed Postgres now starts at $4/month (Developer, storage included) instead of $38/month (Basic).",
+    "pattern": "New tier",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "entry",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "diff_id": "jobber-2026-11-24T07",
+   "kind": "promo",
+   "why": "Black Friday offer added across all plans: up to 50% off, ends Nov 30, new customers only.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: up to 50% off Core, Connect, Grow and Plus plans for new customers until 30 Nov"}
+  },
+  {"diff_id": "huntress-2026-11-24T07", "kind": "price_hidden", "why": "MSRP per-unit prices (for example $8.99/month for Managed EDR) removed from every product card; only Get Volume Pricing remains.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "on1-2026-11-24T07", "kind": "noise", "why": "Black Friday countdown timer text added; the Black Friday Prices banner already existed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "contentsquare-2026-11-24T07", "kind": "noise", "why": "Typo fix (Custumer to Customer).", "detail": null, "record": null, "promo": null},
+  {"diff_id": "composio-2026-11-24T07", "kind": "wording", "why": "Pricing page redesigned into a comparison table and tool count raised from 1,700+ to 1,800+; prices, allowances and Google Maps credit billing unchanged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "airwallex-2026-11-24T07", "kind": "wording", "why": "Global Accounts and Wallet renamed Borderless Cash with shortened descriptions; no price change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "adalo-2026-11-24T07", "kind": "support", "why": "Hire an Expert link added to the help menu.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "clickhouse-2026-11-24T07", "kind": "noise", "why": "Community counter changed from 51k to 51.1k.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "craft-2026-11-24T07", "kind": "noise", "why": "Team plan shown as CA$6.5 instead of $5 per member; the other plans on the page already showed CA$, so this is a currency rendering difference.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "robinhood-2026-11-24T07", "kind": "price_reveal", "why": "Crypto commission of 0.95% per trade now listed on the UK page for the first time.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "lastpass-2026-11-24T07",
+   "kind": "promo",
+   "why": "Black Friday sale added: new users get up to 50% off personal plans, expires Nov 30.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "new", "text": "Biggest sale of the year: new users get up to 50% off Premium, Families and Plus (first year) until 30 Nov"}
+  },
+  {"diff_id": "topaz-labs-2026-11-24T07", "kind": "noise", "why": "Only cookie consent banner text differs between versions; no pricing content changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "testfit-2026-11-24T07", "kind": "wording", "why": "Page copy and FAQ rewritten; prices and plan contents unchanged.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "logrocket-2026-11-24T07", "kind": "noise", "why": "Only the last updated date changed.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "phase-two-2026-11-24T07", "kind": "noise", "why": "Plan estimator slider default changed from 5,000 to 100,000 active users; no price change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "lovable-2026-11-24T07", "kind": "wording", "why": "Feature renamed from auto-retire abandoned apps to inactive apps.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "bittitan-2026-11-24T07", "kind": "noise", "why": "Navigation menu reorganised and event banner text removed; no pricing change.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "ayrshare-2026-11-24T07", "kind": "wording", "why": "Uptime claim reworded to historical uptime.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "apptoto-2026-11-24T07", "kind": "trial", "why": "FAQ clarifies that every plan includes 5,000 AI credits and free trials include 1,000.", "detail": null, "record": null, "promo": null},
+  {"diff_id": "predictleads-2026-11-24T07", "kind": "wording", "why": "Credit pricing presentation changed to a top-up calculator with the same $0.04 to $0.0025 per credit range; product descriptions reworded.", "detail": null, "record": null, "promo": null},
+  {
+   "diff_id": "lawmatics-2026-11-24T07",
+   "kind": "promo",
+   "why": "Two offers added at the bottom of the page: first month free and a $50 gift card for taking a demo.",
+   "detail": null,
+   "record": null,
+   "promo": {"kind": "new", "text": "First month of Lawmatics free; $50 gift card for taking a demo"}
+  }
+ ]
+}

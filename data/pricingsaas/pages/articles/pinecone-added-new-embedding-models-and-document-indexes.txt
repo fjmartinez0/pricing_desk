@@ -1,0 +1,47 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+P
+Pinecone
+NEW DISCOUNT
+Pinecone added new embedding models and Document indexes
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 24, 2026
+Pinecone added three new embedding models and Document indexes for vector search.
+See before and after
+Enlarge
+Pinecone’s pricing page · Change detected Nov 24, 2026
+DOCUMENT INDEXES·first seen Nov 24, 2026
+What changed
+Pinecone added three new embedding models — gemini-embedding-2, text-embedding-3-large and text-embedding-3-small — alongside its existing llama-text-embed-v2, multilingual-e5-large and pinecone-sparse-english-v0. The Starter plan is excluded from gemini-embedding-2; Builder, Standard and Enterprise plans include all three new models. Pinecone also introduced Document indexes alongside its existing Vector indexes.
+Through Dec 31, 2026, Pinecone is also doubling the included embedding-model token quota on Starter and Builder, per its pricing page, across every embedding model row — including the three just added.
+Why it matters
+For a product leader shipping retrieval or RAG features, this is a packaging signal as much as a cost one: Pinecone is making it cheaper to try more embedding models, including newer options, without committing teams to a permanent lower price. A promo with a fixed end date protects list price while still lowering the switching cost for teams piloting embedding choices — a pattern worth copying if your own usage-based tiers are gating experimentation more than revenue.
+Document indexes alongside Vector indexes also signals Pinecone widening its surface beyond pure vector search — a packaging move that matters more for roadmap than for immediate billing, since it was added to the plan-card feature list rather than priced separately.
+Watch whether the token quota reverts to its lower default after Dec 31, 2026, or whether Pinecone keeps the doubled allowance — a reversion would read as pure promotional trial-driving rather than a durable packaging change.
+In context
+Pinecone has made 20 real pricing changes since Pulse began tracking Pinecone on Jan 5, 2024, four of them in the last 90 days — faster than its roughly 51-day average gap between changes, per Pulse's history. The last one, on Oct 3, 2026, cut the opposite way: Pinecone dropped a Starter token promo and gated cross-region restore behind paid tiers [[pinecone/2026D276]]. This time it adds capacity and a temporary quota boost instead of taking one away. A time-boxed quota double, rather than a permanent price cut, is a lighter commitment for courting usage-sensitive teams evaluating embedding costs. Pulse tracked 479 pricing changes tied to credits and usage billing across 302 companies in the last 180 days — about one in eight of all tracked changes in that window — so quota promos like this one are a familiar lever even though it's new for Pinecone.
+Common questions
+Does the quota promo cover every plan?
+Check your own plan before counting on it: it only sweetens Starter and Builder, so if you're negotiating Standard or Enterprise this promo isn't a reason to pause talks.
+Does this change what Pinecone charges once you're past the included quota?
+Not based on this diff — the promo only raises the included free allowance on Starter and Builder; nothing here changes the per-token overage pricing the other plans already carry.
+What does a quota-doubling promo signal versus a straight price cut?
+Size it against your own usage: compare your current monthly embedding-token volume per model to the normal (non-promo) quota to see whether the double actually clears your workload or you would still spill into overage pricing once it ends.
+Sources
+Pulse: Pinecone pricing changes, Nov 24, 2026pricingsaas.com/companies/pinecone/diffs/2026D328
+Pinecone pricing pagepinecone.io/pricing
+Keep exploring
+All changes from PineconeAll pricing news
+F
+Framer
+Framer raised its Free plan's bandwidth limit
+O
+Openart
+OpenArt deepened its Black Friday discount across all plans
+S
+Shopify
+Shopify introduced a tax calculation fee

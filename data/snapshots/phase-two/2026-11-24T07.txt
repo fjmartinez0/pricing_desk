@@ -1,0 +1,240 @@
+=== https://phasetwo.io/pricing/hosting/ ===
+Skip to main content
+New: Keycloak Skills - the Phase Two plugin for Claude Code, Cursor and Codex. Fully manage your Keycloak from your coding agent.
+Pricing for Hosting
+See your price before you sign up.
+Phase Two hosting is priced per cluster, not per user. Users are unlimited on every tier — millions of users in the system is not an issue. Tiers differ in the authentication load the cluster is sized for. Estimate your plan, start free, and scale as you grow. No hidden fees and no sales call required (but happy to talk if you want to).
+Start for free
+Compare plans →
+Estimate your plan
+What's an active user?
+Active users
+100,000
+Registered users are always unlimited — this is the active load the cluster is sized for.
+Custom domains1
+Custom extensions
+IP allow / deny lists
+Recommended plan
+Premium
+100,000 active users → Premium
+Monthly
+Annual · Save up to 25%
+30-day free trial
+Starter
+For new projects and small teams getting auth into production.
+$149/month
+Free for 30 days, then $149/mo. Cancel anytime.
+Start for free
+Unlimited users · sized for 5K active users
+Dedicated, independently provisioned cluster
+95% uptime target (best effort, no SLA)
+Unlimited SSO connections · 2 custom domains
+Email support
+Most popular
+Premium
+For growing products with real traffic and uptime requirements.
+$749/month
+Billed annually. $999/mo billed monthly.
+Get started
+Unlimited users · sized for 100K active users
+99.5% uptime guarantee · Standard SLA
+Unlimited SSO connections · 5 custom domains
+Email support
+Built for scale
+Enterprise
+For high-scale products that need an uptime SLA and priority support.
+$2,499/month
+Billed annually. $2,999/mo billed monthly.
+Get started
+Unlimited users · sized for 500K active users
+99.95% uptime guarantee · Enhanced SLA
+Extend the SLA to 99.99% for an additional fee
+Unlimited SSO connections · 15 custom domains
+Dedicated support engineer + Slack
+Telemetry Export, alerting & coordinated upgrades
+Need something custom?
+Multi-region, on-premise, custom DPA, a 99.99% SLA, or more than 500K active users? We'll size it with you.
+Try it out
+Talk to sales
+Unlimited users. Tiers sized for the load.
+We do not charge per user and we do not cap how many users can be on a cluster. What we do is size each tier for a given amount of authentication traffic, so you can pick the one that matches how your product actually behaves.
+Starter
+5K
+active users
+Premium
+100K
+active users
+Enterprise
+500K
+active users
+What an “active user” assumes
+These sizings assume an active user, in a given month:
+30logins
+1,000token refreshes
+If your traffic is lighter than that, a tier will comfortably carry more users than its headline number. If it is heavier — short refresh lifespans, chatty machine-to-machine clients, a burst of logins at the top of every hour — it will carry fewer.
+These are soft limits
+There is no restriction on how many users can be on a cluster. Nothing is blocked, throttled, or surcharged when you go past the sizing for your tier — but performance may degrade, usually as higher latency on the token endpoints. We monitor CPU and memory on every cluster and reach out proactively. If you do hit degradation, we will work with you to adjust the use case, size the cluster correctly, or both.
+Every plan, side by side
+All paid plans run on dedicated, independently provisioned infrastructure and include the full Phase Two extension suite.
+Pricing plan comparison
+Starter
+Premium
+Enterprise
+Custom
+Core Features
+Dedicated cluster (HA)Documentation
+UsersDocumentation
+Unlimited
+Sized for active usersDocumentation
+5K
+100K
+500K
+500K+ · sized with you
+Realms per clusterDocumentation
+5
+20
+100
+Custom
+Additional clusters (discounted)Documentation
+—
+Migration assistanceDocumentation
+—
+SSO connectionsDocumentation
+Unlimited
+Custom domain(s)Documentation
+2
+5
+15
+Wildcard custom domainsDocumentation
+—
+App association filesDocumentation
+—
+Default theme CSS customizationDocumentation
+Custom themesDocumentation
+1
+Unlimited
+Custom extensions (1)Documentation
+—
+1
+Unlimited
+Password denylistsDocumentation
+Unlimited
+IP allow/disallow listDocumentation
+—
+2
+Unlimited
+Edge rate limit (per IP)Documentation
+1,000
+2,000
+4,000
+Custom
+Private network connectivity (2)Documentation
+—
+Add-on
+Environment variablesDocumentation
+Global deployment(s)Documentation
+Multi-region deployment(s)Documentation
+—
+On-premise deployment(s)
+—
+Extensions
+OrganizationsSource on GitHubDocumentation
+EventsSource on GitHubDocumentation
+Magic LinkSource on GitHubDocumentation
+ThemesSource on GitHubDocumentation
+Admin UISource on GitHub
+Admin PortalSource on GitHubDocumentation
+IdP WizardsSource on GitHubDocumentation
+SCIM user provisioningDocumentation
+Automation
+Management APIDocumentation
+Terraform providerTerraform RegistryDocumentation
+API secrets per organizationDocumentation
+10
+Custom
+Support and Observability
+Keycloak version upgradesDocumentation
+Automatic
+Automatic/Coordinated
+Custom schedule
+InsightsDocumentation
+—
+Infrastructure logsDocumentation
+Event metricsDocumentation
+Request observabilityDocumentation
+Telemetry ExportDocumentation
+—
+Alerting
+—
+Comms
+Email
+Slack/Email
+Dedicated support
+—
+Phone support
+—
+Availability
+RegionsDocumentation
+AMER, EU, APAC
+Custom
+Providers
+AWS
+AWS, Azure, GCP, or your choice
+Uptime GuaranteeDocumentation
+95% target
+99.5%
+99.95% · 99.99% add-on
+Up to 99.99%
+SLADocumentation
+Best effort
+Standard
+Enhanced · 99.99% add-on
+Custom · up to 99.99%
+Automated backupsDocumentation
+EU data residencyDocumentation
+SOC 2
+ISO 27001
+Keycloak Features
+User management
+Access control policies
+ABAC, RBAC, PBAC, GBAC
+Password policyDocumentation
+Identity brokeringDocumentation
+User federation
+Social identity providersDocumentation
+Supported protocols
+OIDC, OAuth 2.0, SAML
+SSO (Single Sign-On)Documentation
+Keycloak eventsDocumentation
+Keycloak admin APIDocumentation
+Authentication Methods
+Login passwordDocumentation
+Reset password
+PasskeysDocumentation
+Email OTPDocumentation
+SMS OTPDocumentation
+Magic linkDocumentation
+Passwordless with WebAuthnDocumentation
+Social loginDocumentation
+External IdPDocumentation
+Multi-factor authentication (MFA)Documentation
+Starter
+Premium
+Enterprise
+Custom
+(1) Additional fees based on extension complexity. (2) Available as an add-on; contact sales for pricing.
+Frequently asked
+How many users can I have?
+As many as you like, on every tier. There is no cap on registered users and no cap on how many of them use the cluster. We do not meter, bill, or gate on user count — what differs between tiers is the amount of authentication load the cluster is sized for.
+What does “sized for 5K / 100K / 500K active users” mean?
+It is the load we provision each tier's cluster to handle comfortably. The sizing assumes an active user logs in 30 times per month and refreshes their token 1,000 times per month — roughly 1,030 token requests per active user, per month. If your traffic pattern is lighter, a tier will carry more users than its headline number; if it is heavier, it will carry fewer.
+What happens if I exceed the sizing for my tier?
+Nothing is blocked and nothing is surcharged — these are soft limits, not enforced quotas. Past the sizing you may see performance degrade, typically as higher latency on the token endpoints. We monitor CPU and memory, reach out proactively, and work with you to tune the use case or resize the cluster.
+Can the Enterprise SLA go above 99.95%?
+Yes. Enterprise clusters carry a 99.95% uptime guarantee as standard, and that commitment can be extended to 99.99% for an additional fee. Talk to sales to scope it.
+Is there really a free trial?
+Yes. Every Starter cluster starts with a 30-day free trial. Cancel anytime before it ends and you won't be charged; otherwise it continues at $149/mo.
+Can I switch plans later?
+Yes, up or down at any time. Annual plans prorate the difference, and you can move up a tier as you grow.
+What about on-premise or multi-region?
+On-premise, air-gapped, and multi-region deployments are available on a Custom plan. Talk to sales for a scoped quote.

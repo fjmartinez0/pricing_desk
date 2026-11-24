@@ -1,0 +1,994 @@
+{
+ "type": "reports",
+ "run": "2026-11-24T07",
+ "items": [
+  {
+   "report_id": "together:2026-W49",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "A new Fast serving tier for DeepSeek V4.1 Flash was added to the Serverless Inference list; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "synthesia:2026-W49",
+   "company": "synthesia",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday discount on Pro deepened from $59 to $44 a month (51% off the $89 list); list price unchanged and the offer is time-boxed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Pro Black Friday discount deepened to 51% off the $89 list: $44 a month ($528 billed yearly), new subscribers only"
+   }
+  },
+  {
+   "report_id": "suno:2026-W49",
+   "company": "suno",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday sale added: extra 30% off annual plans with a countdown; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday: extra 30% off annual plans, first-year Pro $5.60/mo, Premier $16.80/mo, Platinum $70/mo"
+   }
+  },
+  {
+   "report_id": "pinecone:2026-W49",
+   "company": "pinecone",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Limited-time promo doubles included monthly embedding tokens on Starter and Builder through Dec 31, 2026; new embedding models were also listed, which alone would be new_feature.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Included monthly embedding tokens doubled on Starter and Builder through Dec 31, 2026 (e.g. llama-text-embed-v2 5M to 10M on Starter)"
+   }
+  },
+  {
+   "report_id": "otter:2026-W49",
+   "company": "otter-ai",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday promotion added: 50% off Pro and Business annual plans via promo codes.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday: 50% off Pro and Business annual plans with promo codes"
+   }
+  },
+  {
+   "report_id": "mindsdb:2026-W49",
+   "company": "mindsdb",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Jev 1.13.0 decision model input price rose from $0 to $0.042 per 1M tokens; new models listed in the same capture are new_feature.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "$0 / $0.042",
+    "short": "Jev 1.13.0 decision model input price goes from $0 to $0.042 per 1M tokens.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "intercom:2026-W49",
+   "company": "intercom",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Eligibility-gated Early Stage startup discount raised from 93% off to 96% off; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Early Stage startup discount raised from 93% off to 96% off"
+   }
+  },
+  {
+   "report_id": "framer:2026-W49",
+   "company": "framer",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Free plan monthly bandwidth limit rose from 1 GB to 5 GB.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "+400%",
+    "short": "Free plan monthly bandwidth limit rises from 1 GB to 5 GB.",
+    "pattern": "Limits loosen",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "braintrust:2026-W49",
+   "company": "braintrust",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Credit unit renamed from Model credits to Braintrust credits and a Patterns row added to the comparison table, with no price or allowance numbers changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W49",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "DeepSeek V4.1 Flash added to Serverless Loops token pricing (with a limited-time 20% off); no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "tango:2026-W48",
+   "company": "tango",
+   "new_company": null,
+   "kind": "free_plan",
+   "why": "Voice Transcription is now included in the Free plan; it was previously limited to Pro and Enterprise.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Now free",
+    "short": "Voice Transcription moves from Pro and Enterprise only to the Free plan.",
+    "pattern": "Free plans as funnels",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "suno:2026-W48",
+   "company": "suno",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "A new top Platinum plan was added at $120 a month ($100 a month billed annually) with 15,000 song credits and 120 song downloads a month.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "New tier",
+    "short": "Suno adds a Platinum plan at $120 a month ($100 a month billed annually) with 15,000 song credits and 120 song downloads a month.",
+    "pattern": "New tier",
+    "seg": "B2C",
+    "ai": true,
+    "planLevel": "top",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "devexpress:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "DevExpress",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/devexpress/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "plan_change",
+   "why": "TestCafe Studio ($249.99) and TestCafe Studio Pro ($499.99) were removed from the pricing page.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Removed",
+    "short": "TestCafe Studio ($249.99) and TestCafe Studio Pro ($499.99) are no longer on the pricing page.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "designpickle:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Design Pickle",
+    "category": "Marketing & Content",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/designpickle/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_reveal",
+   "why": "A call-only page was replaced by plan cards showing Always-on team from $2,200 a month; prices shown for the first time.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "deque:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Deque Systems",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/deque/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "trial",
+   "why": "An Axe MCP Server card was added to the free trials section; no price or entitlement change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "deepnote:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Deepnote",
+    "category": "Data & Analytics",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/deepnote/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Public apps added to the comparison table for Team and Enterprise; the GCR to GAR registry change is a technical rename.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "deepinfra:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "DeepInfra",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/deepinfra/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "GLM-5.3-Flash now shows a 33% off promotion (input $0.15 to $0.1005 per 1M); Qwen4-Max was also added, which alone is new_feature.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "GLM-5.3-Flash 33% off: input $0.15 → $0.1005 per 1M tokens, output $0.50 → $0.335"
+   }
+  },
+  {
+   "report_id": "deepbrain:2026-W48",
+   "company": "deepbrain",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Voiceover language coverage on paid plans rose from 50+ to 70+ languages.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "50+ / 70+",
+    "short": "Voiceover languages on paid plans go from 50+ to 70+.",
+    "pattern": "Limits loosen",
+    "seg": "Both",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "cyberghostvpn:2026-W48",
+   "company": "cyberghost-vpn",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The Early Access 83% promo was replaced by a Black Friday 85% off promo, moving the 2 Years + 4 Months plan from $2.19 to $1.99 a month; the shown price follows the promo, not a list-price change.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Early Access 83% off replaced by Black Friday 85% off; 2 Years + 4 Months plan $2.19/mo → $1.99/mo"
+   }
+  },
+  {
+   "report_id": "culturedcode:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Cultured Code",
+    "category": "Collaboration & Productivity",
+    "segment": "B2C",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/culturedcode/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Black Friday Week Sale added: 30% off Nov 23-30 applied in the App Store; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday Week Sale: 30% off Nov 23-30 in the App Store, Mac $34.99, iPhone $6.99, iPad $13.99, Vision Pro $20.99"
+   }
+  },
+  {
+   "report_id": "cultureamp:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Culture Amp",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/cultureamp/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Add-on renamed from People Science Consulting to People Science Services and its CTA changed from Request a quote to Learn more; no price shown.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "crystalknows:2026-W48",
+   "company": "crystal",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as crystal-2026w48 (free assessments limited to one take each, full results in Premium).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "crusoe:2026-W48",
+   "company": "crusoe",
+   "new_company": null,
+   "kind": "plan_change",
+   "why": "DeepSeek V4 Pro ($1.74 input / $3.48 output per 1M tokens) was removed from the Serverless Inference price list.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Removed",
+    "short": "DeepSeek V4 Pro ($1.74 input, $3.48 output per 1M tokens) is dropped from the Serverless Inference price list.",
+    "pattern": "Tier consolidation",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "craft:2026-W48",
+   "company": "craft",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday promo added: 40% off Plus and Family yearly, 20% off monthly; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday: 40% off Plus and Family yearly, 20% off monthly"
+   }
+  },
+  {
+   "report_id": "cpanel:2026-W48",
+   "company": "cpanel",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "A new Comet Backup add-on from $7.49 a month was listed; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "cosmolex:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "CosmoLex",
+    "category": "Finance & Accounting",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/cosmolex/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "The add-on showcase swapped one card for another; no entitlement or price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "coschedule:2026-W48",
+   "company": "coschedule",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Social Media MCP added to the Starter plan; no price or limit changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "corel:2026-W48",
+   "company": "corel",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday banner moved from Starts Early to Preview and added a free Grammarly Pro offer and bonus items; list and sale prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Black Friday banner moves from Starts Early to Preview, adding free Grammarly Pro and bonus items worth up to $354 on most products"
+   }
+  },
+  {
+   "report_id": "contractzen:2026-W48",
+   "company": "contractzen",
+   "new_company": null,
+   "kind": "feature_move",
+   "why": "API access bullet was removed from the Custom plan's included features and an Integration Services bullet added.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "API removed",
+    "short": "API access is dropped from the Custom plan's included features and Integration Services is added.",
+    "pattern": "Unbundling",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "enterprise",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "bookipi:2026-W48",
+   "company": "bookipi",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "AI Receptionist add-on monthly price rose from US$199 to US$199.99.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+0.5%",
+    "short": "AI Receptionist add-on goes from US$199 to US$199.99 a month.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {
+   "report_id": "bitdefender:2026-W48",
+   "company": "bitdefender",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The saved page is a history page, not a diff; its entry for the week of Nov 16 says a Black Friday banner (save up to 58%) was added with list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday banner: save up to 58% on consumer plans"
+   }
+  },
+  {
+   "report_id": "benchmarkemail:2026-W48",
+   "company": "benchmark-email",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Already recorded as benchmark-email-2026w48 (monthly AI credits 150 to 500 on Free, 1,000 to 1,500 on paid).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "baseten:2026-W48#2",
+   "company": "baseten",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "groundhog-1 ($0.035 input) and bison-1 ($0.10 input) were added to Model APIs; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "bark:2026-W48",
+   "company": "bark",
+   "new_company": null,
+   "kind": "non_software",
+   "why": "The JOY30 code was swapped for BIGDEAL, a discount on phone and watch devices; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "azul:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Azul",
+    "category": "Software Development & Testing",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/azul/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "A marketing bullet was cut from the Azul Prime card and Java 25 lost its coming-soon tag; no price or plan entitlement is shown to have changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "aws.polly:2026-W48",
+   "company": "aws",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Generative voices at $36.00 per 1M characters were added for GovCloud, plus a note that cloning a voice is free; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "avoxi:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "AVOXI",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/avoxi/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Global voice coverage claim changed from 150+ to 160+ countries; positioning copy, no price or plan change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "avalara:2026-W48",
+   "company": "avalara",
+   "new_company": null,
+   "kind": "wording",
+   "why": "The Core Compliance card feature list was reworded; prices and scope are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "aurum:2026-W48",
+   "company": "aurum",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black November bonuses added per plan (masterclass or consulting hours); prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black November bonuses: group masterclass on Up and Smart, 1h or 2h individual consulting on Company and VIP"
+   }
+  },
+  {
+   "report_id": "atlassian.confluence:2026-W48",
+   "company": "atlassian",
+   "new_company": null,
+   "kind": "metering",
+   "why": "A banner announces that usage-based billing for Confluence starts December 3, 2026; Image watermarks were also added to Enterprise.",
+   "detail": "card",
+   "record": {
+    "group": "pack",
+    "delta": "Usage billing",
+    "short": "Confluence announces that usage-based billing starts December 3, 2026.",
+    "pattern": "New billing units",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 3,
+    "plan": "Confluence, all plans",
+    "deltaSub": "billing basis, from Dec 3",
+    "headline": "Confluence now tells customers that usage-based billing starts on December 3, 2026, and asks them to review their included allowance, usage and forecast in Atlassian Administration.",
+    "rows": [
+     [
+      "Billing basis",
+      "Not stated",
+      "Usage-based billing from December 3, 2026"
+     ]
+    ],
+    "who": "Confluence Cloud customers; the banner asks them to check their allowance and forecast.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "A new usage meter on top of seat pricing suggests Atlassian wants part of the bill to follow consumption. The banner gives no rates or allowance sizes yet, so the cost impact is unknown.",
+    "caveat": "The saved text has only the banner wording; allowance sizes, rates and which plans are affected are not shown.",
+    "model": "Seat → Hybrid",
+    "modelBefore": "Seat",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": null,
+    "announced": "2026-11-23",
+    "effective": "2026-12-03"
+   },
+   "promo": null
+  },
+  {
+   "report_id": "assemblyai:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "AssemblyAI",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.assemblyai.com/pricing"
+    ],
+    "domains": [
+     "assemblyai.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/assemblyai/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Flagship speech-to-text model renamed AssemblyAI-STT-3.7 and now supports 32 languages (was 18); the $0.21/hr price is unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "ashbyhq:2026-W48",
+   "company": "ashby",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "New AI Interviewer paid add-on listed, with no price shown and no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "archbee:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Archbee",
+    "category": "Collaboration & Productivity",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.archbee.com/pricing"
+    ],
+    "domains": [
+     "archbee.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/archbee/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_cut",
+   "why": "Growing plan cut from $80 to $49 and Scaling from $350 to $199.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "−39% / −43%",
+    "short": "Growing drops from $80 to $49 and Scaling from $350 to $199.",
+    "pattern": "Price cut",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "arcade:2026-W48",
+   "company": "arcade",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Fixed per-video credit tables replaced by approximate typical credit costs; AI edit falls from 60 to about 20 credits, 30s video from 100 to about 90, while planning steps and AI-generated clips now use credits.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "Credit costs reset",
+    "short": "AI edit goes from 60 to about 20 credits and a 30s video from 100 to about 90, but planning steps now use credits.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {
+   "report_id": "approvalmax:2026-W48",
+   "company": "approvalmax",
+   "new_company": null,
+   "kind": "support",
+   "why": "Top-tier plan perk reworded from phone support to live video help; this is a support change, and the same-day Premium change is a likely duplicate.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "apploye:2026-W48",
+   "company": "apploye",
+   "new_company": null,
+   "kind": "promo",
+   "why": "The 40% off Power promo deadline moved from 19 Nov to 23 Nov; break-management rows were also added to paid plans.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "40% off Power and 30% off Activity Insights for the first 3 months, deadline extended from 19 Nov to 23 Nov"
+   }
+  },
+  {
+   "report_id": "appdynamics:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "AppDynamics",
+    "category": "Cloud & DevOps",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/appdynamics/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "AI SRE added to the editions; the Observability Cloud tier restructuring in the same report is already recorded under Splunk.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "aihr:2026-W48",
+   "company": "aihr",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Black Friday 25% off promo (to 2026-11-28) cuts Certificate Program from $1,125 to $845 and Full Academy Access from $1,850 to $1,387.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "25% off Black Friday: Certificate Program $845 (was $1,125), Full Academy Access $1,387 (was $1,850), until 28 Nov"
+   }
+  },
+  {
+   "report_id": "agendrix:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Agendrix",
+    "category": "Workforce Management",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/agendrix/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "New Payroll product at $30 per pay run plus $2.25 per employee is a new priced add-on for a new capability; no existing price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "aftershoot:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Aftershoot",
+    "category": "Marketing & Content",
+    "segment": "Both",
+    "pricing_urls": [
+     "https://aftershoot.com/pricing"
+    ],
+    "domains": [
+     "aftershoot.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/aftershoot/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Black Friday annual discount cut from 25% to 20% (ends Nov 27); list prices are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Black Friday annual discount lowered from 25% to 20%, ends 27 Nov; Select $8, Edit $24, Retouch $16, Complete $36 per month on annual billing"
+   }
+  },
+  {
+   "report_id": "aftership:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "AfterShip",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.aftership.com/pricing"
+    ],
+    "domains": [
+     "aftership.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/aftership/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "wording",
+   "why": "Tracking pricing page rebuilt with a monthly-volume selector; headline prices differ only because the default volume changed, and per-tier prices at matching volume are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "aftership.feed:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "AfterShip",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.aftership.com/pricing"
+    ],
+    "domains": [
+     "aftership.com"
+    ],
+    "source_url": "https://pricingsaas.com/companies/aftership.feed/diffs/2026W48",
+    "why": "reported by PricingSaaS; same company as the aftership report, a product line (Feed)"
+   },
+   "kind": "new_feature",
+   "why": "New Affiliates product ($40/month intro) added and the $999 Advanced Support add-on removed; no existing software price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "affinityco:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Affinity",
+    "category": "Sales & Customer Relationship Management (CRM)",
+    "segment": "B2B",
+    "pricing_urls": [
+     "https://www.affinity.co/pricing"
+    ],
+    "domains": [
+     "affinity.co"
+    ],
+    "source_url": "https://pricingsaas.com/companies/affinityco/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "new_feature",
+   "why": "Two AI rows (firm-specific context, 12 Ascend MCP skills) added to the comparison table for Scale, Advanced and Enterprise; no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "affinda:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Affinda",
+    "category": "AI & Machine Learning",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/affinda/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "price_reveal",
+   "why": "Pay as you go price shown for the first time, from $0.15/page, replacing the quote model.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "addigy:2026-W48",
+   "company": "addigy",
+   "new_company": null,
+   "kind": "wording",
+   "why": "A feature-comparison table now lists capabilities that were not shown before; there is no price or tier move.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "adapt:2026-W48",
+   "company": "adapt",
+   "new_company": null,
+   "kind": "wording",
+   "why": "Developer preview date for the self-hosted open-source agent moved from January 4, 2027 to January 12, 2027; no pricing impact.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "activecampaign:2026-W48",
+   "company": "activecampaign",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Active Intelligence credits cut from 500 to 50 on Plus and from 500 to 10 on Starter; Pro and Enterprise stay at 500.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "−90% / −98%",
+    "short": "Active Intelligence credits drop from 500 to 50 on Plus and from 500 to 10 on Starter.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "entry",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {
+   "report_id": "acronis:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Acronis",
+    "category": "Cybersecurity & Identity Management",
+    "segment": "B2C",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/acronis/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "promo",
+   "why": "Black Friday sale cuts annual prices: Essentials $49.99 to $44.99, Advanced $57.99 to $40.59, Premium $124.99 to $62.49; the page's list prices are unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday: Essentials $44.99, Advanced $40.59, Premium $62.49 per year (list $49.99, $57.99, $124.99)"
+   }
+  },
+  {
+   "report_id": "abacus:2026-W48",
+   "company": "abacus-ai",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Basic plan's top-LLM roster updated to GPT 6.2 Astra, GPT 6.2 Sol and Gemini 4 Neon; prices and credits unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "10to8:2026-W48",
+   "company": null,
+   "new_company": {
+    "name": "Sign In App",
+    "category": "Business Operations",
+    "segment": "B2B",
+    "pricing_urls": [],
+    "domains": [],
+    "source_url": "https://pricingsaas.com/companies/10to8/diffs/2026W48",
+    "why": "reported by PricingSaaS"
+   },
+   "kind": "limit_change",
+   "why": "Pro plan Spaces (desks) limit raised from 100 to 500.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×5",
+    "short": "Pro plan Spaces limit rises from 100 to 500.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "top",
+    "reach": 2
+   },
+   "promo": null
+  }
+ ]
+}

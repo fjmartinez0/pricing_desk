@@ -1,0 +1,285 @@
+=== https://www.apptoto.com/pricing ===
+Apptoto pricing scales with your needs
+Starting at just $30/mo ($10 for each additional user)
+Start a free 14 Day Trial
+No credit card required
+Paid Monthly
+Paid Annually
+Get 23% off
+${{ numWithCommas(sovs.new_price) }}
+per month
+paid annually
+paid monthly
+Need more? Contact sales@apptoto.com
+Base Includes
+All Listed features
+Unlimited Manual Messages
+Unlimited Booking Pages
+{{sovs.components['honeybee_calendars']}} Users & Calendars
+Each User & Calendar slot gives you 1 calendar and 1 user.
+E.g. if you chose {{ sovs.components['honeybee_calendars'] }}, then you can have up to {{ sovs.components['honeybee_calendars'] }} calendars and up to {{ sovs.components['honeybee_calendars'] }} users.
+{{numWithCommas(sovs.included_messages)}} Automated Message Credits / mo
+New
+Included in every plan
+AI Receptionist and AI Assistant, with $100 in AI credits to start.
+See what usage costs
+Messaging Outside US & Canada
+Apptoto supports sending text (SMS) & voice calls to many countries outside of the US & Canada; however we do charge extra for this. Enable this option
+to send messages to clients whose phone numbers do not start with +1.
+This cuts the number of Automated Message Credits in half.
+Your current subscription has this option turned on. Please contact support@apptoto.com if you would like to toggle this off.
+Add-Ons:
+Reputation Management ($30/mo$39/mo)
+9 out of 10 businesses using Apptoto's Reputation Management feature have collected new customer reviews from appointments — over 3,500 reviews collected in the last 6 months, with an average rating of 4.8★.
+Apptoto's Reputation Management Tool empowers businesses to grow their online presence by turning positive customer experiences into valuable online reviews.
+Automatically request reviews after appointments, track feedback, and nudge customers to post reviews on Google, Facebook, and other platforms.
+Includes 200 additional automated message credits per month to cover review requests without eating into your plan's credits.
+Annual discount applied! Save 23% by paying annually ($360/year vs $468/year).
+Includes 200 additional message credits
+Premium Setup (One-Time ${{ whiteglove_fee}} Fee)
+Our Premium "White Glove" onboarding covers up to {{ whiteglove_plan == 'gold' ? '3' : '5'}} hours of support and setup.
+During this time, one of our Apptoto Experts
+will work with you to define and configure your Apptoto account – this includes setting
+up and customizing all online scheduling and automated messages. We will then
+comprehensively train and turn over your new Apptoto service 100% ready to use. If
+more hours are needed, we will let you know and arrangements can be made.
+Fully refundable within 30 days if you aren't happy with Apptoto.
+* Your account has {{ sovs.users_used }} Users & {{ sovs.calendars_used }} Calendars.
+AI, included in every plan
+AI Receptionist
+New
+Answers calls, texts, and emails, and books, reschedules, and cancels on the calendar you already use.
+AI Assistant
+New
+Helps your staff with setup, workflows, and reports. Chatting with it is free.
+MCP server
+Connect Claude, ChatGPT, Gemini, or another AI assistant to your Apptoto account, then check your schedule, reply to messages, and manage contacts just by chatting.
+Agent-friendly API
+Apptoto's public Developer API gives your developers and AI agents the tools needed to integrate Apptoto into your workflow and your existing applications.
+OAuth sign-in, an llms.txt guide, and published agent skills let AI agents find their way around it on their own.
+Webhooks
+Send events like a new booking, a confirmation, or an incoming message to your own systems or AI agents the moment they happen.
+Reminders and messaging
+Soft phone
+New
+Make and receive calls right from the Apptoto website, on the same number Apptoto uses for your reminders.
+Automatic reminder messages
+Reduce no-shows by up to 90% by sending automatic reminder messages to your clients before their appointments.
+Text (SMS), email, and voice calls
+Automatic messages can be sent by text (SMS), email, or voice.
+Voice messages are sent by phone call and can include your own voice.
+Two-way messaging
+Easily carry on 2-way conversations with clients over whichever medium they reply.
+Automatic follow-ups
+Configure Apptoto to send automatic messages after appointments take place.
+Easily implement "recalls" by only sending follow-ups to clients who haven't booked since their last appointment.
+Rules-based messaging
+Rules based messaging lets you control which messages are sent automatically to what appointments.
+For example you can set up an automatic message to be sent only when the appointment contains the word 'consultation'.
+Auto replies (bots)
+Save time and money by using Apptoto's Auto Replies (Bots) feature.
+Apptoto lets you set up automatic replies and actions when clients respond to their messages.
+e.g. you can automatically send a reply back saying "Thank you, someone from our office will be in touch with you soon." if a client requests a reschedule.
+e.g. or, if a client dials 7, then send an email notification to staff@yourcompany.com.
+Realtime notifications
+Be notified immediately when clients cancel/confirm/request rescheduling or respond with extra information.
+Staff messaging
+Streamline communication by leveraging Apptoto's appointment Auto Messages to send messages to calendar owners and other members of your staff.
+e.g. send a reminder 1 hour before appointments that aren't at your location.
+This feature is enabled by turning on "Settings" > "Advanced" > "Enable the 'To:' field in Auto Messages"
+Online scheduling
+Online booking
+Increase revenue by putting your calendars online!
+Let your clients book time on your calendars with full control over what they see and how busy you appear depending on
+which "Appointment Type" they choose.
+Unlimited bookings
+There is no limit to the number of appointments that can be booked through your Apptoto Online Booking pages.
+Note that there is a limit to the number of appointments that can receive automatic messages (which is what the "Appointments" slider on the left controls).
+Multiple calendar support
+Appointments can be booked onto different calendars depending on the options your client choose when booking an appointment.
+Availability can be based on all of the calendars involved.
+Sign-up pages (group events)
+Let your clients add themselves as participants to existing events.
+Useful for group events and signups.
+Custom fields
+Show up prepared to the meeting by prompting your clients to
+enter additional information about themselves and the appointment.
+Entered data can be added directly to your calendar and CRM system.
+Capture mobile numbers
+Apptoto captures your client's mobile numbers when they book online!
+The mobile number can be added to your CRM system and used by Apptoto to send reliable messages before and after the appointment.
+Custom "Add to calendar" content
+You have full control over what appears in your client's calendars after they book with you.
+The appointment time, title, location, and body fields can all be customized to provide your clients with all the information they need directly from their own calendar.
+Calendars and integrations
+Two-way calendar sync
+Apptoto syncs directly with your existing calendar.
+Basic Integrations - Google, Microsoft, etc.
+This includes all of our standard integrations including:
+Google
+Office365
+Outlook
+iCloud
+CalDAV
+ICS
+CSV
+Zapier
+Clio
+Redtail CRM
+Stripe
+Square
+Payments Integration
+Accept payments when people book time with you and when you send them reminder messages.
+Integrates with Square & Stripe.
+Compliance and deliverability
+10 DLC Compliance
+Apptoto offers full A2P 10 DLC Compliance. We can help you register your brand properly with carriers to ensure reliable & safe delivery of Text messages.
+Reserved Caller ID
+All text & voice messages are sent from your own Apptoto caller id located in your area code.
+Optionally you can send voice messages from your existing number.
+Opt-out / Opt-in lists
+Easily manage who has opted-into or opted-out of receiving automatic messages directly from within Apptoto or your Address Book.
+Reporting and tools
+Charts and reports
+Monitor trends in your business related to your calendar. Track appointments over time.
+Calendar and inbox search
+Apptoto's search feature lets you find upcoming and past appointments quickly and easily.
+Quickly find appointments to send messages to. E.g. "all appointments tomorrow morning on brad's calendar".
+Calendar search also lets you quickly generate graphs based on search results. E.g. graph how many "consulting" appointments have arrived late over time.
+Inbox search lets you quickly find messages sent or received through Apptoto.
+Apptoto Mobile App
+The Apptoto Communicator App (iOS & Android) allows you to easily manage your appointment communication on the go.
+Support
+Premium Support - Email, Chat, Phone
+Phone support is available M-F 9am to 5pm (Pacific Standard Time)
+On larger plans
+Premium Integrations (min users: 6)
+This includes all of our premium integrations including:
+Salesforce
+Microsoft Exchange
+Enterprise Integrations (min users: 10)
+This includes all of our enterprise integrations powered our custom Salesforce object engine, and custom API Integrations:
+Custom Salesforce Objects
+Custom Salesforce Calendars
+Custom Salesforce Address Books
+Improveit360
+Eyefinity
+AcuityLogic
+SQL Integrations (min users: 16)
+Apptoto integrates with many on-premise SQL Based applications.
+Direct SQL Connection to on-prem database
+Chiro QuickCharts
+NextGen
+Time Matters
+Open Dental
+Data Warehouses
+Other On-Prem EHR/EMR Systems
+Custom SQL Databases
+HIPAA Compliance w/ BAA (min users: 16)
+Apptoto is HIPAA compliant with a signed BAA, available on plans with 16 or more calendars.
+BAA-covered accounts are hosted on dedicated HIPAA servers, separate from other users.
+Enterprise Support (Contact sales@apptoto.com)
+Yes, enterprise support is available!
+This includes:
+Custom BAA
+Single Sign On
+HL7
+Custom Reporting
+Multi Location Support
+Group Accounts
+Professional Services Available
+New
+AI Receptionist, AI Assistant, and soft phone
+What the AI Features Cost
+$0 to turn on. You pay only for what you use. Message credits cover delivery: call minutes, texts, and emails. AI credits cover the work the AI Receptionist does.
+What happens
+Message credits
+AI credits
+AI Receptionist answers a call
+2 per minute
+Yes, per call (~1 per minute)
+AI Receptionist sends a text or email
+1 per message
+Yes, per message
+You chat with the AI Assistant
+Free
+Soft phone call (you make)
+First 5 minutes free, then 1 per 2 minutes
+None
+Soft phone call (you answer)
+1 per 2 minutes
+None
+For example:
+A typical 3-minute call uses
+6 message credits and about
+3 AI credits.
+Message credits
+Included in your plan each month. The same credits your reminders use.
+AI credits
+5,000 AI credits ($100) to start. After that, add more in packs of $20, $50, $100, $200, or $400, with optional auto top-off.
+AI Receptionist is available in the US and Canada.
+Apptoto's Guarantee
+Apptoto offers a 30 day money back guarantee. If you are unhappy for whatever reason with Apptoto's service or support, we will happily refund you for any payment made within the last 30 days.
+No questions asked, contact sales@apptoto.com to request a refund if needed.
+Frequently Asked Questions
+Message credits
+What counts as a message credit?
+A message credit, shown on your plan as an Automated Message Credit, is used each time Apptoto sends an automated message on your behalf. This includes reminders, confirmations, follow-ups, notifications, campaign messages, and auto-replies.
+SMS (up to 300 characters): 1 message credit
+Voice call (up to 2 minutes): 1 message credit
+Email: 1 message credit
+International messages: Messages sent outside the US and Canada count as 2 message credits, with the same limits (300 characters per SMS, 2 minutes per voice call). Text messages and voice calls are supported in some, but not all, countries. See our list of supported locations.
+AI Receptionist calls and soft phone calls also use message credits. See "What does the soft phone cost?" below, and "AI Receptionist and AI credits" for the AI Receptionist.
+Are manually sent messages free?
+Yes, in the US and Canada. If you send a message manually through Apptoto's "Compose" feature or reply manually to a client, those messages do not count against your message credit limit.
+Do incoming replies from clients count against my message credits?
+No. Incoming replies to auto messages are free, including confirmations like "1" or "C." Manual conversations are free, too: if you reply to a client yourself and you two text back and forth, none of those messages count against your message credit limit.
+The one exception is auto-replies. If you've set Apptoto to watch for certain responses and reply instantly (for example, sending directions when someone confirms), each auto-reply the system sends uses 1 message credit, since Apptoto is sending it automatically on your behalf.
+Do compliance messages count against my message credits?
+Yes. Compliance messages are sent by Apptoto on your behalf, so they count against your message credit limit like any other automated message. These messages keep your reminders compliant with carrier rules and the TCPA, protecting your business from blocked messages and fines. Opt-in confirmations are only sent once per new contact, rather than with every message; therefore, compliance messages typically add just 1-3% to monthly volume.
+How many message credits will I need per month?
+Use this formula: appointments per month x automated messages per appointment = base message credits. Then add about 5% for auto-replies and compliance messages.
+"Messages per appointment" is the number of auto-messages in your sequence. A typical setup sends 2 to 3: a booking confirmation, a reminder the day before, and sometimes a same-day reminder or follow-up.
+Solo provider: 80 appointments x 2 messages = 160 message credits, plus buffer, about 170 per month
+Small business: 400 appointments x 3 messages = 1,200 message credits, plus buffer, about 1,260 per month
+High-volume practice: 1,200 appointments x 3 messages = 3,600 message credits, plus buffer, about 3,800 per month
+If the AI Receptionist will answer calls, add 2 message credits for each minute it spends on the phone. For example, 100 three-minute calls a month add 600 message credits.
+Want an instant estimate? Try our pricing calculator. Enter your monthly appointments and message setup to find the best plan for your business.
+What if I use more message credits than my plan allows?
+If you have "Allow Overages" enabled, messages will continue to deliver at a rate of $0.12 per message credit. If disabled, messages will stop once you've reached your message credit limit. Overages can be waived if you upgrade to the next plan during the current billing cycle.
+AI Receptionist and soft phone calls use message credits too, so they follow the same rule.
+What does the soft phone cost?
+On calls you make (outbound), the first 5 minutes are free. After that, the call uses 1 message credit for every 2 minutes. Calls you answer (inbound) use 1 message credit for every 2 minutes from the start.
+If a call goes to the AI Receptionist, AI Receptionist rates apply to that call.
+AI Receptionist and AI credits
+New
+What does it cost to turn on the AI Receptionist?
+Nothing. The AI Receptionist and AI Assistant are included in every plan, with no setup fee and no monthly fee. You pay only for what you use, and every plan comes with 5,000 AI credits (a $100 value) to start. Free trials include 1,000.
+What is the difference between message credits and AI credits?
+Message credits cover delivery: each minute of a call, each text, and each email. They come with your plan every month and are the same credits your reminders use.
+AI credits cover the work the AI Receptionist does to understand a caller and respond. You buy them in packs of $20, $50, $100, $200, or $400, and only the AI Receptionist uses them.
+What does an AI Receptionist call cost?
+Each call uses 2 message credits per minute, plus AI credits for the work done on the call. A typical 3-minute call uses 6 message credits and about 3 AI credits.
+Texts and emails the AI Receptionist sends use 1 message credit each, plus AI credits.
+When does billing start on a call?
+Billing starts when the AI Receptionist answers. Every answered call counts, including short calls.
+If a caller goes silent during the call, the AI Receptionist checks in after 1 minute and hangs up 20 seconds later. Calls end at 30 minutes.
+Is chatting with the AI Assistant free?
+Yes. Chatting with the AI Assistant is free. It does not use message credits or AI credits.
+How do I buy more AI credits?
+AI credits come in 5 packs: $20, $50, $100, $200, or $400. You can also turn on auto top-off, which buys a pack for you when your balance runs low. To buy AI credits, go to Settings > Account & Billing and click Purchase AI Credits.
+Where is the AI Receptionist available?
+The AI Receptionist answers calls, texts, and emails for businesses in the US and Canada.
+Plans and billing
+Which currency do you use?
+All prices listed on this page are in US Dollars (USD).
+Do I have to sign a contract?
+No contract is required for non-enterprise plans. Apptoto subscriptions are month-to-month or year-to-year. You can cancel at any time.
+If you need more than 25 users or 3,750 automated message credits, please contact sales@apptoto.com to discuss custom contract terms.
+What does the HIPAA plan include, and how is it priced differently?
+HIPAA plans start at $208/month and support 16 calendars/users. Plans scale up to 25 calendars on our pricing page, and enterprise pricing is available beyond that. Talk to our team.
+Apptoto's HIPAA-compliant plans include everything in our standard plans, plus a signed BAA, data encryption at rest and in transit, HITRUST-certified hosting, and account access limited to HIPAA-trained, background-checked staff. Customizable templates keep PHI out of reminders, and patients control their consent and contact preferences. Messages work the same as standard plans: same costs, same limits. The AI Receptionist, AI Assistant, and soft phone are included too.
+White Glove Service
+Let Apptoto subsidize your technology staff for a day.
+Our White Glove on-boarding packages start at $499 with up to 5 hours of dedicated support and setup. During this time one of our Customer Success team members will work with you to define and configure your Apptoto account - this includes setting up all desired automated messages, auto replies, and scheduling features.
+Need something more customized? We can still help, please contact support@apptoto.com for more information on all of our White Glove options.
