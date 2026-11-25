@@ -18689,7 +18689,7 @@
     "assemblysoftware.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39767,14 +39767,12 @@
    "category": "Marketing & Content",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [
-    "https://www.slicktext.com/pricing2"
-   ],
+   "pricing_urls": [],
    "domains": [
     "slicktext.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "needs_url",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -39784,8 +39782,8 @@
    "added": "2026-11-23",
    "source": "agent 2026-11-23T07",
    "source_url": "https://pricingsaas.com/companies/slicktext/diffs/2026W48",
-   "url_attempts": 0,
-   "notes": "reported by PricingSaaS",
+   "url_attempts": 1,
+   "notes": "rejected https://www.slicktext.com/pricing2: fetch failed 4 times: HTTP 404",
    "ps_slugs": [
     "slicktext"
    ]
@@ -40531,7 +40529,7 @@
     "brighthr.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42125,7 +42123,7 @@
     "avoxi.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42237,7 +42235,7 @@
     "agendrix.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42354,7 +42352,7 @@
     "affinda.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42383,7 +42381,7 @@
     "acronis.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42437,7 +42435,7 @@
     "gumloop.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,

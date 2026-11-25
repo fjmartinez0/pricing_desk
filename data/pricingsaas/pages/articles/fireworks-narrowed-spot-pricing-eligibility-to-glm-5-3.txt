@@ -1,0 +1,45 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+F
+Fireworks
+PACKAGING CHANGE
+Fireworks deepened its Spot discount to 50% but limited it to GLM-5.3
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 25, 2026
+Fireworks limited its Spot pricing discount to GLM-5.3 only.
+See before and after
+Enlarge
+Fireworks’ pricing page · Change detected Nov 25, 2026
+What changed
+Fireworks raised the discount on its Spot (best-effort) capacity tier from 30% to 50% off Standard per-token pricing, according to Fireworks's pricing page as of Nov 25, 2026, the day Pulse detected the change. Spot pricing lets customers run inference at a discount in exchange for best-effort availability instead of guaranteed capacity.
+The deeper discount now applies to just one model, GLM-5.3. Kimi K3 and DeepSeek V4.1 Flash, which previously carried Spot pricing, lost Spot-tier eligibility in the same update, and Fireworks says more models are expected to join the discounted tier over time.
+Why it matters
+For a team buying inference capacity, this is a reminder that Fireworks's cheapest tier isn't a flat discount across its whole catalog — it's a lever the company can open or close per model. Deepening the Spot discount further makes GLM-5.3 meaningfully cheaper for workloads that can tolerate interruption, but pulling Kimi K3 and DeepSeek V4.1 Flash means teams already built around Spot pricing for those models lose that option and fall back to Standard rates.
+The move also shows Fireworks setting Spot access model by model rather than as a uniform discount. Watch whether eligibility keeps rotating from model to model — a Spot tier that covers only one model at a time is a weaker guarantee than one that covers the whole catalog, and worth re-checking before you architect a workload around it.
+In context
+Pulse has logged 23 real pricing changes to Fireworks's page since tracking began in Nov 2024, averaging one every 31 days, with 7 in the last 90 days — this is the second change in 11 days, following a Kimi K3.1 Pro listing on Nov 14, 2026. Pulse also recorded a GPU price hike at Fireworks in May 2026. For comparison, Pulse tracked 91 price increases across 76 companies in the last 180 days, including Together, Hostman and Huggingface; Fireworks's change instead cuts the Spot rate for one model while removing it for two others. The sharper read: this isn't a blanket discount, it's eligibility Fireworks can open or close per model, so a team leaning on Spot pricing for one model should treat that access as provisional, not a fixed line item.
+Common questions
+What should a team using Kimi K3 or DeepSeek V4.1 Flash on Spot do now?
+Budget those workloads at Standard rates going forward, and check Fireworks's pricing page periodically — the company says more models are expected to rejoin the Spot tier over time, but gives no date.
+What does Fireworks's record not tell us about this change?
+It doesn't say how long GLM-5.3 will be the only Spot-eligible model. Treat the one-model window as temporary rather than Fireworks's new default, since the company has reshuffled Spot and GPU pricing multiple times before.
+Should we design our own discount tiers the way Fireworks does?
+If you offer a best-effort or discount tier, decide upfront whether eligibility applies per model or across your whole catalog — rotating eligibility like Fireworks's adds negotiation overhead for customers that a flat, catalog-wide discount avoids.
+Sources
+Pulse: Fireworks pricing changes, Nov 25, 2026pricingsaas.com/companies/fireworks/diffs/2026D329
+Fireworks pricing pagefireworks.ai/pricing
+Keep exploring
+All changes from FireworksAll pricing news
+T
+Together
+Together let its Qwen4 Max promo price expire
+B
+Braintrust
+Braintrust added Patterns to its feature comparison table
+W
+Wisprflow
+Wisprflow made Free plan Notetaker meetings unlimited

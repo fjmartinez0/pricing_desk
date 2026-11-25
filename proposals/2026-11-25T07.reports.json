@@ -1,0 +1,87 @@
+{
+ "type": "reports",
+ "run": "2026-11-25T07",
+ "items": [
+  {
+   "report_id": "zapier:2026-W49",
+   "company": "zapier",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Zapier added a limited-time promo making MCP tool calls free through Jan. 5, 2027; they previously used two tasks each; no list prices changed.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Zapier MCP tool calls free through Jan. 5, 2027 (previously two tasks per call)"
+   }
+  },
+  {
+   "report_id": "together:2026-W49#2",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Together AI's Qwen4 Max promo (valid until 11/23/2026) expired, so the price returned from $1.05/$3.15 to the list $1.50/$4.50 per 1M tokens; a new Kimi K3.1 Pro US geo-pinned model was also listed, which is a new_feature and not kept.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "ended",
+    "text": "Qwen4 Max promo ended 11/23/2026: $1.05 input / $3.15 output back to $1.50 / $4.50 per 1M tokens"
+   }
+  },
+  {
+   "report_id": "perplexity:2026-W49",
+   "company": "perplexity",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Perplexity cut the limited-time Max signup bonus from $450 to $350 in Computer credits; Pro and Max also lost the itemized bonus-credit line; plan prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "Max signup bonus cut from $450 to $350 in Computer credits"
+   }
+  },
+  {
+   "report_id": "openai:2026-W49",
+   "company": "openai",
+   "new_company": null,
+   "kind": "promo",
+   "why": "OpenAI widened its ChatGPT Business promo from 2x usage on Standard/Premium seats to 2x usage plus fast mode on all seats through Dec 31; plan tagline rewrites are wording only.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "changed",
+    "text": "ChatGPT Business: 2x usage plus fast mode at no extra cost for all seats, sign up by Nov 30, through Dec 31"
+   }
+  },
+  {
+   "report_id": "framer:2026-W49#2",
+   "company": "framer",
+   "new_company": null,
+   "kind": "new_feature",
+   "why": "Framer listed Automations for the first time in its plan table (Free 1, Basic 3, Pro 10, Enterprise custom); nothing previously offered was reduced and no price changed.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "fireworks:2026-W49",
+   "company": "fireworks-ai",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Fireworks raised the Spot discount from 30% to 50% off Standard pricing but limited it to GLM-5.3, removing Spot eligibility from Kimi K3 and DeepSeek V4.1 Flash.",
+   "detail": "line",
+   "record": {
+    "group": "pack",
+    "delta": "30% → 50%",
+    "short": "Spot discount deepens from 30% to 50% off Standard, but only GLM-5.3 stays eligible; Kimi K3 and DeepSeek V4.1 Flash lose Spot.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 1
+   },
+   "promo": null
+  }
+ ]
+}
