@@ -18682,10 +18682,14 @@
    "category": "Software Development & Testing",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.assemblysoftware.com/pricing"
+   ],
+   "domains": [
+    "assemblysoftware.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40498,7 +40502,7 @@
     "budibase.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -40520,10 +40524,14 @@
    "category": "Workforce Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.brighthr.com/pricing"
+   ],
+   "domains": [
+    "brighthr.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42110,10 +42118,14 @@
    "category": "Sales & Customer Relationship Management (CRM)",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.avoxi.com/pricing/"
+   ],
+   "domains": [
+    "avoxi.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42142,7 +42154,7 @@
     "assemblyai.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42171,7 +42183,7 @@
     "archbee.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42218,10 +42230,14 @@
    "category": "Workforce Management",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.agendrix.com/pricing"
+   ],
+   "domains": [
+    "agendrix.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42249,8 +42265,8 @@
    "domains": [
     "aftershoot.com"
    ],
-   "capture": "static",
-   "status": "candidate",
+   "capture": "browser",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42279,7 +42295,7 @@
     "aftership.com"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42309,7 +42325,7 @@
     "affinity.co"
    ],
    "capture": "static",
-   "status": "candidate",
+   "status": "active",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42331,10 +42347,14 @@
    "category": "AI & Machine Learning",
    "segment": "B2B",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.affinda.com/pricing"
+   ],
+   "domains": [
+    "affinda.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42356,10 +42376,14 @@
    "category": "Cybersecurity & Identity Management",
    "segment": "B2C",
    "watch": false,
-   "pricing_urls": [],
-   "domains": [],
+   "pricing_urls": [
+    "https://www.acronis.com/en-us/products/true-image/purchasing/"
+   ],
+   "domains": [
+    "acronis.com"
+   ],
    "capture": "static",
-   "status": "needs_url",
+   "status": "candidate",
    "aiNative": null,
    "ownership": null,
    "hq": null,
@@ -42399,6 +42423,32 @@
    "ps_slugs": [
     "10to8"
    ]
+  },
+  "gumloop": {
+   "name": "Gumloop",
+   "tier": 3,
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "watch": false,
+   "pricing_urls": [
+    "https://www.gumloop.com/pricing"
+   ],
+   "domains": [
+    "gumloop.com"
+   ],
+   "capture": "static",
+   "status": "candidate",
+   "aiNative": null,
+   "ownership": null,
+   "hq": null,
+   "funding": null,
+   "employees": null,
+   "ignore_patterns": [],
+   "added": "2026-11-24",
+   "source": "agent 2026-11-24T19",
+   "source_url": "https://www.growthunhinged.com/p/pass-through-pricing-for-ai",
+   "url_attempts": 0,
+   "notes": "Moved to passing tokens and compute through at cost plus an 8% orchestration fee, with a separate enterprise platform fee, and cut its price per credit by 70%; the change predates this week."
   }
  }
 }

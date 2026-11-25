@@ -1,0 +1,325 @@
+{"type": "edition", "run": "2026-11-24T19", "week": "2026-W48",
+ "news": [
+  {
+   "id": "gu-pass-through-pricing",
+   "lead": true,
+   "src": "Growth Unhinged",
+   "by": "Kyle Poyar",
+   "date": "22 Nov",
+   "topic": "AI pricing",
+   "rel": true,
+   "title": "A transparent pricing model for AI",
+   "url": "https://www.growthunhinged.com/p/pass-through-pricing-for-ai",
+   "gist": "Pass-through pricing, where customers pay for model tokens at or near list price plus a platform fee, is spreading, but Poyar argues it suits only products whose value can’t be separated from token use; the rest should charge for what sets them apart.",
+   "points": [
+    "Clay split its pricing into data passed through near cost and higher-margin platform actions, which Poyar likens to Costco’s membership model",
+    "Gumloop shows a cost breakdown on every chat so customers can switch to a cheaper model, and built a tool that forecasts credit use",
+    "The risks: looking like a wrapper around someone else’s model, and revenue that rises and falls with other companies’ price decisions",
+    "Anthropic’s linked billing beta lets platforms such as Asana, Linear and Ramp bill end customers for Claude API use without sharing keys"
+   ],
+   "nums": [
+    ["80%", "drop in price per token since January 2025, per OpenRouter data"],
+    ["5.5%", "OpenRouter’s take rate on its Standard plan, rising on Business"],
+    ["8%", "Gumloop’s orchestration fee on top of tokens and compute billed at cost"],
+    ["70%", "drop in Gumloop’s price per credit"],
+    ["42%", "rise in Gumloop’s Pro trial conversion rate"]
+   ],
+   "why": "When a vendor offers AI at cost plus a fee, add the fee and any platform charge to your expected token spend and compare that with a bundled plan, since falling model prices only reach you if the pass-through is real."
+  },
+  {
+   "id": "shopify-tax-calculation-fee",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "18 Nov",
+   "topic": "Usage fees",
+   "rel": true,
+   "title": "Shopify introduced a tax calculation fee",
+   "url": "https://pricingsaas.com/news/article/shopify-introduced-a-tax-calculation-fee",
+   "gist": "Shopify added a percentage fee for tax calculated through Tax managed by Shopify, and PricingSaaS reads it as a usage-style charge stacked on top of plan prices rather than a change to any tier’s price.",
+   "points": [
+    "The listed rates apply after an introductory discount period, so merchants may be paying less today",
+    "The page doesn’t say what the percentage is applied to, or whether it stacks on payment-processing fees",
+    "A Self-managed tax mode option appeared in the same feature table",
+    "It is the first pricing-restructure change Pulse has recorded for Shopify, which usually changes pricing slowly"
+   ],
+   "nums": [
+    ["0.35%", "tax calculation fee on Basic, Grow and Advanced"],
+    ["0.25%", "tax calculation fee on Plus"],
+    ["44 days", "Shopify’s average gap between pricing changes"],
+    ["380", "pricing-restructure changes across 319 companies that Pulse tracked in 180 days"]
+   ],
+   "why": "Merchants using Shopify’s tax engine should work out the fee against their own sales and check when the introductory discount ends before budgeting for next year."
+  },
+  {
+   "id": "mistral-pro-api-credits",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "21 Nov",
+   "topic": "AI credits",
+   "rel": true,
+   "title": "Mistral removed Pro’s bundled API credits",
+   "url": "https://pricingsaas.com/news/article/mistral-removed-pro-s-bundled-api-credits",
+   "gist": "Mistral stopped listing a monthly API credit perk on its Pro plan and opened model-training opt-out to Free, Pro and Team, which PricingSaaS reads as tightening its usage economics while removing a governance objection.",
+   "points": [
+    "Pro’s other listed features, such as faster responses and image generation, are unchanged",
+    "Training opt-out used to be listed only for Enterprise, so it no longer needs a sales conversation",
+    "It follows an October cut to Free plan API credits, a short gap by Mistral’s usual pace",
+    "Most credit changes Pulse sees reprice credits rather than remove them, so a straight cut is the rarer move"
+   ],
+   "nums": [
+    ["$25.5/mo", "API credits Pro no longer lists"],
+    ["40 days", "gap since Mistral trimmed Free plan API credits"],
+    ["58 days", "Mistral’s average gap between pricing changes"],
+    ["419", "credit and usage-billing changes across 276 companies that Pulse tracked in 180 days"]
+   ],
+   "why": "Teams that ran API calls against Pro’s included credits should budget for that usage separately now, since nothing on the page replaces the allowance."
+  },
+  {
+   "id": "mintlify-starter-test",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "18 Nov",
+   "topic": "Price testing",
+   "rel": true,
+   "title": "Mintlify tested a paid $150 Starter plan",
+   "url": "https://pricingsaas.com/news/article/mintlify-introduced-a-paid-starter-plan",
+   "gist": "Mintlify showed some visitors a new paid Starter tier with editor seats and a capped AI-credit allowance, a day after renaming its free Starter plan to Free, and PricingSaaS reads it as a live A/B test.",
+   "points": [
+    "The test arm was tied to a variant cookie, and the control version showed no Starter price",
+    "Pro’s card now calls out password protection and advanced analytics to stand apart from the cheaper tier",
+    "The Agent and Autopilot AI features sit in the new tier, so they become paid features rather than free extras",
+    "Existing free users keep their plan under the Free name, with price and editor limit unchanged"
+   ],
+   "nums": [
+    ["$150", "monthly Starter price on annual billing, or $180 billed monthly"],
+    ["5,000", "AI credits a month on the test Starter plan, against 10,000 on Pro"],
+    ["3", "of 12 page fetches that showed the paid Starter plan"],
+    ["27", "days, roughly, between Mintlify’s pricing changes"]
+   ],
+   "why": "If Mintlify’s page shows you a Starter price, get it confirmed in writing, since most visitors don’t see the plan yet and its credit cap may push a team to Pro sooner than the seat count suggests."
+  },
+  {
+   "id": "krea-seedance-cut",
+   "lead": false,
+   "src": "PricingSaaS Pulse",
+   "by": "Rob Litterst",
+   "date": "23 Nov",
+   "topic": "AI credits",
+   "rel": true,
+   "title": "Krea cut Basic plan’s Seedance video allowance despite a model upgrade",
+   "url": "https://pricingsaas.com/news/article/krea-cut-basic-plan-s-seedance-video-allowance-despite-a-model-upgrade",
+   "gist": "Krea’s Basic plan now gets about half as many Seedance videos a month after the model moved up a version, and PricingSaaS argues that pairing an upgrade with a quota cut hides a higher cost per video.",
+   "points": [
+    "Basic’s price and other allowances are unchanged; only the video line and the model version moved",
+    "The cut landed four days after Krea’s Black Friday discounts",
+    "Pulse’s diff shows the cut on Basic only, not on Pro, Max or Business",
+    "The author suggests holding quotas steady on a model upgrade and announcing any cut on its own"
+   ],
+   "nums": [
+    ["31", "approximate Seedance 2.0 Fast videos a month on Basic before the change"],
+    ["16", "Seedance 2.5 videos a month on Basic now"],
+    ["8-day", "average gap between Krea’s pricing changes"],
+    ["196", "limit-cut changes across 164 companies that Pulse tracked in 180 days"]
+   ],
+   "why": "Heavy video users on Krea Basic will run out about twice as fast, so compare the number of videos per month, not the model name, before renewing."
+  },
+  {
+   "id": "agentdeals-w47",
+   "lead": false,
+   "src": "AgentDeals",
+   "by": null,
+   "date": "16–22 Nov",
+   "topic": "Dev tools",
+   "rel": true,
+   "title": "Developer Tool Pricing Changes: November 16–22, 2026",
+   "url": "https://agentdeals.dev/digest/2026-w47",
+   "gist": "AgentDeals’ digest for our week is mostly model retirements at Cloudflare, Azure, xAI and MiniMax, plus Lemon Squeezy closing to new stores; Crowdin’s plan rework and Mistral’s dropped API credits are the only direct price moves.",
+   "points": [
+    "Requests to retired Workers AI and Azure OpenAI models fail with HTTP 410 Gone rather than moving to another model",
+    "Azure’s retirements include o1, o3 and o4-mini, and Microsoft Foundry also retires a Llama 4 model with no replacement named",
+    "Lemon Squeezy stops processing transactions, renewals included, at the end of March 2027 and points stores to Stripe Managed Payments",
+    "NVIDIA retired more free NIM endpoints, including gpt-oss-20b and a DeepSeek V4.1 Flash endpoint"
+   ],
+   "nums": [
+    ["24", "Workers AI models removed on 20 Nov"],
+    ["$75", "Crowdin Pro’s monthly price on annual billing, up from $50"],
+    ["40,000", "hosted words on Crowdin’s Free plan, down from 60,000"],
+    ["$25.50", "monthly API credits Mistral no longer lists on Pro"]
+   ],
+   "why": "If your code calls any of the retired models, requests now fail outright, so check model names and price the named replacements before your next bill."
+  },
+  {
+   "id": "gu-b2b-buyer-ai",
+   "lead": false,
+   "src": "Growth Unhinged",
+   "by": "Kyle Poyar",
+   "date": "18 Nov",
+   "topic": "Buyer research",
+   "rel": false,
+   "title": "The B2B buyer journey with AI",
+   "url": "https://www.growthunhinged.com/p/the-b2b-buyer-journey-with-ai",
+   "gist": "An analysis of real prompts about buying SaaS and AI tools finds buyers use AI mostly in the middle of the funnel to compare and test a shortlist, and that pricing is the top commercial theme, showing up early for AI products.",
+   "points": [
+    "Discovery of a new category still happens outside AI, so vendors need demand from other channels",
+    "Many buyers ask AI to rank options, so position on the list matters, not just being mentioned",
+    "Opaque pricing is a risk from the first prompt, and few B2B companies have made their pricing readable for AI",
+    "Recommended products then get tested with follow-up questions about capability and cost"
+   ],
+   "nums": [
+    ["27,374", "real user prompts about buying SaaS and AI products that were analyzed"],
+    ["57%", "share of prompts in the middle of the funnel"],
+    ["5.5%", "share of commercial prompts focused on pricing"],
+    ["10%", "share of top-of-funnel queries about pricing for AI coding agents and website builders, against 2% for CRM and ERP"]
+   ],
+   "why": "AI assistants now summarize vendor pricing for buyers, so check what an assistant says a tool costs against the live pricing page before you shortlist it."
+  }
+ ],
+ "patterns": [
+  {
+   "t": "Free plans get a hard number",
+   "p": "Several vendors put a cap on free plans that had none, or cut the free allowance outright; at ClickUp the AI trial went first. A free plan that fits today can stop fitting without a price change. Three of these records come from PricingSaaS reports.",
+   "points": [
+    {"id": "notion-2026w48", "text": "ended unlimited blocks for Free workspaces used by one person, so every Free workspace now has a block limit"},
+    {"id": "clickup-2026w48", "text": "removed the Free plan’s Brain² trial of 500 AI credits per workspace and marked AI as Not included"},
+    {"id": "scribe-2026w48", "text": "began listing a cap of 10 guides created and shared on the free Basic plan"},
+    {"id": "bolt-2026w48", "text": "capped Free at 3 collaborators, while Pro and Teams stay unlimited"},
+    {"id": "katana-manufacturing-erp-2026w48", "text": "cut the Free plan from all features to basic features, keeping the limit of 30 SKUs"},
+    {"id": "renderforest-2026w48", "text": "halved Free plan AI credits from 60 to 30"},
+    {"id": "pronounce-2026w48", "text": "cut free speaking activities from 10 to 5"},
+    {"id": "spoki-2026w48", "text": "dropped its permanent Free plan from the pricing cards, comparison table and FAQ"}
+   ]
+  },
+  {
+   "t": "Included AI credits get resized",
+   "p": "Bundled AI allowances moved in both directions, mostly without a price change: GitLab and Mistral cut them, Klaviyo and Benchmark Email added more. What a credit buys matters as much as the plan price. About half of these records come from PricingSaaS reports.",
+   "points": [
+    {"id": "gitlab-2026w48", "text": "cut included GitLab Credits per user per month from $12 to $8 on Premium and from $24 to $16 on Ultimate"},
+    {"id": "mistral-ai-2026w48", "text": "stopped listing $25.5/mo of bundled API credits on Pro"},
+    {"id": "krea-2026w48", "text": "cut Basic’s monthly Seedance allowance from ~31 videos to 16 at the same $5 price"},
+    {"id": "nereo-2026w48", "text": "raised Nano Banana Pro 1K generation from 3 to 5 credits, cutting images on Mini from 133 to 80"},
+    {"id": "pika-2026w48", "text": "lowered per-image credit costs, GPT Image 2.6 from 4 to 3, lifting Starter from 150 to 200 images"},
+    {"id": "klaviyo-2026w48", "text": "doubled the Composer AI usage allowance from $5 to $10 a month"},
+    {"id": "benchmark-email-2026w48", "text": "raised monthly AI credits from 150 to 500 on Free and from 1,000 to 1,500 on paid plans"},
+    {"id": "tella-2026w48", "text": "raised Pro from $13 to $16 per user a month while doubling its credits from 4,500 to 9,000"}
+   ]
+  },
+  {
+   "t": "New meters on things the plan used to cover",
+   "p": "Vendors put new meters on work the plan used to cover: tax calculation at Shopify, agent hours at Warp, traces and pipelines at Buildkite and Pulumi. Each fee looks small, but it grows with use and can end up costing more than the seat or plan price.",
+   "points": [
+    {"id": "shopify-2026w48", "text": "added a tax calculation fee of 0.35% on Basic, Grow and Advanced and 0.25% on Plus"},
+    {"id": "warp-2026w48", "text": "added a $3.50 per agent hour platform fee while moving to Start at $0 plus usage and Scale at $250 per team a month"},
+    {"id": "buildkite-2026w48", "text": "added an OpenTelemetry traces meter, with 10GB a month included on Pro and $0.50/GB after"},
+    {"id": "pulumi-2026w48", "text": "added a Delivery pipelines meter at $20 per pipeline per month, with the first pipeline free"},
+    {"id": "mailslurp-2026w48", "text": "moved rendering to Preview runs and billed extra Starter rendering per successful target from $0.50"},
+    {"id": "announcekit-2026w48", "text": "widened its monthly unique-person meter to count anyone who opens a page with the widget installed"},
+    {"id": "modal-2026w48", "text": "began showing a minimum of 128 MiB of memory billed per container"},
+    {"id": "testfit-2026w48", "text": "moved Urban Planner at $75/month and Parking Solver at $195/month to per-user pricing"}
+   ]
+  }
+ ],
+ "stats_analysis": [
+  {
+   "t": "Changes that cost buyers more led clearly",
+   "fig": "60 vs 34",
+   "figNote": "changes that cost buyers more vs less; the other 34 repackaged plans",
+   "p": "Increases ran well ahead of cuts, from Hugging Face’s Enterprise seat and Jobber’s AI Receptionist add-on to smaller free plans at Notion and ClickUp. On the buyer’s side most gains were looser limits, with outright price cuts at Archbee, Vercel and DeepSeek. More than half of this week’s records come from PricingSaaS reports.",
+   "ids": ["hugging-face-2026w48", "jobber-2026w48", "gitlab-2026w48", "salesmsg-2026w48", "prezi-2026w48", "notion-2026w48", "clickup-2026w48", "archbee-2026w48", "vercel-2026w48", "deepseek-2026w48"]
+  },
+  {
+   "t": "Larger companies split, but their free plans shrank",
+   "fig": "4 of 9",
+   "figNote": "changes at tier 1 and 2 companies that cost buyers more",
+   "p": "Three of the four were free-plan cuts, at Notion, ClickUp and Scribe, and the fourth was Shopify’s new tax fee. Buyers gained from Zoho’s free plan in LATAM, Wispr Flow’s unlimited free meetings and Cognition dropping its per-seat fee in what looks like a test. Shopify’s record is a PricingSaaS report; the rest are our own captures.",
+   "ids": ["notion-2026w48", "clickup-2026w48", "scribe-2026w48", "shopify-2026w48", "zoho-2026w48", "wispr-flow-2026w48", "cognition-2026w48", "synthesia-2026w48", "warp-2026w48"]
+  },
+  {
+   "t": "Limits tightened exactly as often as they loosened",
+   "fig": "21 vs 21",
+   "figNote": "changes that tightened vs loosened a plan limit",
+   "p": "A steady list price says little about which way a plan moved this week. Tightening hit credits and caps at GitLab, Nifty, Nereo and Krea; loosening raised seat, website and MCP caps at LiveAgent, Browse AI and Moqups. Many of these records are PricingSaaS reports.",
+   "ids": ["gitlab-2026w48", "nifty-2026w48", "nereo-2026w48", "krea-2026w48", "scribe-2026w48", "liveagent-2026w48", "browse-ai-2026w48", "moqups-2026w48", "sign-in-app-2026w48", "wispr-flow-2026w48"]
+  },
+  {
+   "t": "AI was in about a third of the changes",
+   "fig": "45 of 128",
+   "figNote": "changes involving AI features, models or credits",
+   "p": "Many AI changes resized credit allowances rather than list prices, in both directions. AI also moved between tiers: ClickUp took it off Free and Bearly AI put Deep Research behind a higher plan, while Dinero and Tango added AI features to their free plans.",
+   "ids": ["gitlab-2026w48", "pika-2026w48", "krea-2026w48", "klaviyo-2026w48", "clickup-2026w48", "bearly-ai-2026w48", "dinero-2026w48", "tango-2026w48", "jobber-2026w48"]
+  },
+  {
+   "t": "Free plans moved both ways",
+   "fig": "19 of 128",
+   "figNote": "changes to free plans",
+   "p": "Free plans lost room at Notion, ClickUp, Scribe and Salesmotion, and Spoki dropped its free plan altogether. Zoho added a free Zoho One plan in LATAM, and Wispr Flow, Benchmark Email and Sapling widened theirs. Spoki, Sapling and several smaller cases are PricingSaaS reports.",
+   "ids": ["notion-2026w48", "clickup-2026w48", "scribe-2026w48", "salesmotion-2026w48", "spoki-2026w48", "zoho-2026w48", "wispr-flow-2026w48", "benchmark-email-2026w48", "sapling-2026w48"]
+  },
+  {
+   "t": "Black Friday offers piled up",
+   "fig": "87",
+   "figNote": "promotion records this week, against 128 pricing changes",
+   "p": "Promotions ran at about two thirds the count of real pricing changes, led by first-year discounts on annual plans and model-usage discounts at AI tools such as ElevenLabs and Krea. Promo prices end, so check the renewal price before signing for a year; some promotion records come from PricingSaaS reports.",
+   "ids": ["elevenlabs-promo-2026w48", "krea-promo-2026w48-2", "synthesia-promo-2026w48", "otter-ai-promo-2026w48", "google-workspace-promo-2026w48", "quickbooks-promo-2026w48"]
+  }
+ ],
+ "news_trends": [
+  {
+   "t": "Credit allowances are the lever vendors keep pulling",
+   "p": "PricingSaaS’s 180-day count of credit and usage-billing changes has risen with nearly every article that cites it (definitions vary slightly). This week Mistral dropped Pro’s API credits and Krea cut a video quota, while our captures saw GitLab shrink included credits and Klaviyo double its AI allowance.",
+   "nums": [
+    ["243", "credits-based metering changes at 175 companies in 180 days, cited 23 Oct"],
+    ["377", "credit and usage-billing changes at 259 companies, cited 11 Nov"],
+    ["419", "credit and usage-billing changes at 276 companies, cited 21 Nov"]
+   ],
+   "news": ["mistral-pro-api-credits", "krea-seedance-cut", "mintlify-starter-test", "attio-ultra-self-serve", "slack-slackbot-limits", "hubspot-free-email-credits", "gbb-notion-credits"],
+   "changes": ["mistral-ai-2026w48", "krea-2026w48", "gitlab-2026w48", "klaviyo-2026w48", "pika-2026w48", "slack-2026w47", "attio-2026w47"]
+  },
+  {
+   "t": "AI sold closer to cost, with the margin in a fee",
+   "p": "Across two months the stories describe vendors billing model usage at or near cost and earning on something else: Gumloop’s orchestration fee, Linear’s seat, the labs’ subscriptions with bundled API credits. This week Growth Unhinged set out when that works, and Warp added a per-agent-hour platform fee.",
+   "nums": [
+    ["+8%", "Gumloop’s orchestration fee on top of at-cost tokens, cited 7 Oct"],
+    ["92%", "estimated gross margin on API usage, against 50% on subscriptions"],
+    ["80%", "drop in price per token since January 2025, per OpenRouter data"]
+   ],
+   "news": ["gu-pass-through-pricing", "gbb-linear-ai-at-cost", "gbb-labs-api-credits", "ai-monetization", "gbb-agent-pnl"],
+   "changes": ["warp-2026w48", "pulumi-2026w48", "deepseek-2026w48"]
+  },
+  {
+   "t": "Model retirements keep moving traffic onto new rates",
+   "p": "AgentDeals’ digests have logged model and endpoint retirements almost every week since October, and this week Cloudflare and Azure retired models outright, with no fallback. Hugging Face delisting its H100 endpoints and Krea cutting a quota on a model upgrade show that a model change can quietly change what you pay for.",
+   "nums": [
+    ["6", "deprecations in AgentDeals’ 19–25 Oct digest"],
+    ["24", "Workers AI models removed on 20 Nov"],
+    ["$4.50 to $36.00", "hourly range of the H100 endpoints Hugging Face stopped listing"]
+   ],
+   "news": ["agentdeals-w47", "agentdeals-w46", "agentdeals-w45", "agentdeals-w43", "huggingface-h100-delisted", "krea-seedance-cut"],
+   "changes": ["hugging-face-2026w47", "krea-2026w48", "pika-2026w48"]
+  },
+  {
+   "t": "Price tests run in public",
+   "p": "Since October, PricingSaaS has caught Intercom, Shopify and Slack showing different prices to different visitors or flipping them back within days, and this week Mintlify showed a paid Starter plan to some visitors only. This week’s records also flag likely tests at Cognition and Educative.",
+   "nums": [
+    ["$19", "Intercom Essential seat price shown to its test group"],
+    ["$79", "Shopify’s annual Grow price after a one-day reversal"],
+    ["3", "of 12 page fetches that showed Mintlify’s paid Starter plan"]
+   ],
+   "news": ["mintlify-starter-test", "intercom-seat-test", "shopify-price-flip", "slack-slackbot-limits"],
+   "changes": ["mintlify-2026w48", "cognition-2026w48", "educative-2026w48", "invideo-2026w48"]
+  }
+ ],
+ "missed": [
+  {
+   "name": "Gumloop",
+   "category": "AI & Machine Learning",
+   "segment": "B2B",
+   "pricing_urls": ["https://www.gumloop.com/pricing"],
+   "domains": ["gumloop.com"],
+   "source_url": "https://www.growthunhinged.com/p/pass-through-pricing-for-ai",
+   "why": "Moved to passing tokens and compute through at cost plus an 8% orchestration fee, with a separate enterprise platform fee, and cut its price per credit by 70%; the change predates this week."
+  }
+ ]
+}
