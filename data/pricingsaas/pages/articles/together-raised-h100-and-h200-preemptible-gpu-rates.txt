@@ -1,0 +1,45 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+T
+Together
+PRICE INCREASE
+Together raised H100 and H200 preemptible GPU rates
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 26, 2026
+Together raised its GPU cluster preemptible hourly rates.
+See before and after
+Enlarge
+Together’s pricing page · Change detected Nov 26, 2026
+What changed
+Per Together's pricing page as saved by Pulse on Nov 26, 2026, the GPU Clusters preemptible (pay-as-you-go) rate for NVIDIA HGX H100 rose from $1.99 to $2.00 per GPU-hour, and the rate for NVIDIA HGX H200 rose from $2.99 to $3.00 per GPU-hour.
+Pulse recorded no other GPU rate changes in this update; only the preemptible, pay-as-you-go column moved.
+Why it matters
+For a product leader buying or reselling GPU capacity, a one-cent per-hour bump on Together's H100 and H200 preemptible rates is easy to miss, but it shows that even mature, well-known GPU SKUs are not fixed: a team sizing a long-running inference job on preemptible GPU capacity should budget for these incremental creeps rather than treating a quoted hourly rate as permanent.
+It also reinforces the broader usage-metered pricing shift in AI infrastructure: vendors increasingly treat compute rates as a lever to tune frequently, much like SaaS vendors once tuned seat prices. Watch whether Together follows this preemptible move with a matching change on its other GPU rate tiers in the coming weeks.
+In context
+Together moves on pricing often: Pulse tracked 27 changes to its page in the last 90 days, a pace of about one every seven days, and this preemptible bump lands one day after its Qwen4 Max promo expired. It follows a separate GPU rate increase earlier this month on another high-end GPU tier, so this is the second GPU rate increase Together has made this month. Pulse data shows price increases made up 92 of the 3,872 pricing changes across the companies it tracks in the last 180 days, with Huggingface's 10x Enterprise plan hike and Hostman's Bare Metal price increase among the recent examples elsewhere. At one cent per GPU-hour, this increase is small on its own, but it adds to a run of GPU rate increases at Together.
+Common questions
+What would this cost a team running GPU clusters at scale?
+Multiply the new per-GPU-hour rate by your hourly GPU count and total runtime hours. It is metered by usage rather than seat count, so continuous, high-utilization workloads feel the increase first and most.
+Does Pulse's record say why Together raised these preemptible rates?
+No. The diff shows the rate change itself but not a stated reason, and Together has not published a note on this specific increase, so there is no company rationale to cite here.
+Does this change the math on reserved vs. preemptible GPU capacity?
+Slightly. The preemptible rate moved while reserved pricing did not, narrowing (not eliminating) the gap between the two, so teams already near a reserved-capacity commitment should re-run the comparison rather than assume preemptible stays cheaper by the same margin.
+Sources
+Pulse: Together pricing changes, Nov 26, 2026pricingsaas.com/companies/together/diffs/2026D330
+Together pricing pagetogether.ai/pricing
+Keep exploring
+All changes from TogetherAll pricing news
+L
+Lumaai
+Lumaai added a new Seedance video model
+B
+Baseten
+Baseten added bison-1 and groundhog-1 to Model APIs
+P
+Pika
+Pika added a Black Friday discount banner to its pricing page

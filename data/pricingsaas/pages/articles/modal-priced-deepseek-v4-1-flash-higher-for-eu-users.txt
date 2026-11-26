@@ -1,0 +1,44 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Back
+Pricing briefing
+M
+Modal
+PACKAGING CHANGE
+Modal priced DeepSeek V4.1 Flash higher for EU users
+By Rob Litterst, Co-founder, PricingSaaS
+Published Nov 26, 2026
+Modal added a pricier EU-region rate for DeepSeek V4.1 Flash.
+See before and after
+Enlarge
+Modal’s pricing page · Change detected Nov 26, 2026
+What changed
+Pulse saved Modal's pricing page on Nov 26, 2026 showing a new EU-region row for DeepSeek V4.1 Flash 1017, priced at $0.375/$0.0075/$1.50 per 1M tokens — above the existing non-EU variant's $0.25/$0.005/$1.00 per 1M tokens. The pricing page Pulse saved on Nov 26, 2026 also showed higher container caps on both paid-entry tiers: Starter's cap rose from 100 to 250, and Team's cap rose from 5,000 to 10,000. GPU concurrency limits were unchanged.
+Why it matters
+For a product leader selling usage-based AI infrastructure, this is one of the clearer live examples of a published rate card varying by region: Modal now lists two different per-token prices for the same model, DeepSeek V4.1 Flash, depending on the data-center region a customer selects. Pulse's record shows Modal has updated its pricing page roughly every 42 days on average since it began tracking the company in Jan 2024. This is Modal's second pricing change in 10 days, following its Nov 16, 2026 addition of per-token pricing for 12 other open-weight models, per Modal's change history on Pulse.
+Combined with higher Starter and Team container caps, the update hands existing customers more usable capacity under a published plan while adding a new axis — region — for a usage-priced product to differentiate on. Across the companies Pulse tracks, usage- and credit-based pricing changes made up 482 of the 3,872 pricing changes logged in the last 180 days (12.4%) across 305 companies, a sign that per-unit pricing keeps getting more granular rather than simpler. Watch whether more infrastructure vendors start pricing the same SKU differently by region, the way cloud compute pricing already does.
+In context
+Modal has touched regional pricing before: Pulse recorded it cutting its region surcharge floor from 1.5x to 1.15x across all tiers on Sep 3, 2026 [[modal/2026D246]], and this EU-priced DeepSeek row extends that region-aware approach to a specific model's rate card rather than a blanket multiplier. It also follows closely on two more Pulse-tracked moves: Nov 16, 2026 per-token pricing for 12 other open-weight models [[modal/2026W47]], and the Nov 13, 2026 addition of Inkling 2 Small at $0.30/$1.00 per 1M tokens [[modal/2026D317]]. Among the companies Pulse tracks for credits and usage billing, Pika, Lumaai and Invideo have touched this pattern most often in the last 180 days, though none of their recent moves split a single model's price by region the way Modal just did. The takeaway: Modal is using its rate card itself, not just discounts, as a pricing lever, with region now one of the inputs.
+Common questions
+How should I estimate the extra cost for my own EU workload?
+Take your current non-EU per-token spend on this model and scale it by the ratio between the EU and non-EU rates on Modal's pricing page rather than assuming a flat surcharge — the gap differs slightly across the input, cached-input and output figures.
+Does the container cap increase apply retroactively to current Starter and Team customers?
+Modal's pricing page doesn't say whether existing Starter and Team customers were moved to the new caps automatically or need to request the bump — worth confirming directly with Modal if your workload is already near the old ceiling.
+Is this the start of Modal pricing more models by region?
+There's no public signal of that yet — this is the first EU-specific per-token row Pulse has recorded for Modal, alongside a region surcharge floor it already applies across all tiers; whether Modal extends per-model regional pricing further isn't something the record shows.
+Sources
+Pulse: Modal pricing changes, Nov 26, 2026pricingsaas.com/companies/modal/diffs/2026D330
+Modal pricing pagemodal.com/pricing
+Keep exploring
+All changes from ModalAll pricing news
+K
+Krea
+Krea launched a Black Friday sale
+W
+Wisprflow
+Wisprflow brought Notetaker meeting notes to iPhone
+S
+Slack
+Slack tested pulling Slackbot off Free and Pro plans

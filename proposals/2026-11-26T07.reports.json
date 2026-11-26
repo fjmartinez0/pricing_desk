@@ -1,0 +1,86 @@
+{
+ "type": "reports",
+ "run": "2026-11-26T07",
+ "items": [
+  {
+   "report_id": "together:2026-W49#3",
+   "company": "together-ai",
+   "new_company": null,
+   "kind": "price_increase",
+   "why": "Together AI raised preemptible GPU Cluster hourly rates by one cent: H100 $1.99 → $2.00 and H200 $2.99 → $3.00.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "+0.5%",
+    "short": "Together AI’s preemptible H100 rate rose $1.99 → $2.00 per GPU-hour and H200 $2.99 → $3.00.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "add-on",
+    "reach": 2,
+    "plan": "GPU Clusters (preemptible)",
+    "deltaSub": "H100 preemptible, per GPU-hour",
+    "headline": "Together AI raised its preemptible GPU Cluster rates by one cent per GPU-hour, H100 to $2.00 and H200 to $3.00.",
+    "rows": [
+     [
+      "H100 preemptible, per GPU-hour",
+      "$1.99",
+      "$2.00"
+     ],
+     [
+      "H200 preemptible, per GPU-hour",
+      "$2.99",
+      "$3.00"
+     ]
+    ],
+    "who": "Customers running preemptible (pay-as-you-go) H100 and H200 GPU clusters; reserved and on-demand rates were not reported as changed.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "The move is tiny (about 0.3–0.5%) but continuous, high-utilisation workloads pay it on every GPU-hour. It looks like fine-tuning of compute rates rather than a repositioning.",
+    "caveat": "Both figures come from saved third-party captures of the page; the company has given no reason.",
+    "model": "Usage",
+    "modelBefore": "Usage",
+    "modelAfter": "Usage",
+    "appliesTo": "unknown",
+    "magnitude": {
+     "low": 0.33,
+     "high": 0.5,
+     "basis": "unit price"
+    }
+   },
+   "promo": null
+  },
+  {
+   "report_id": "pika:2026-W49",
+   "company": "pika",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Pika added a site-wide Black Friday banner advertising 60% off with a countdown, linking to Creator monthly checkout; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "60% off Black Friday site-wide banner with live countdown, linking to Creator plan monthly checkout"
+   }
+  },
+  {
+   "report_id": "modal:2026-W49",
+   "company": "modal",
+   "new_company": null,
+   "kind": "limit_change",
+   "why": "Modal raised container concurrency limits (Starter 100 → 250, Team 5000 → 10,000); a new DeepSeek V4.1 Flash model row was also added, which is a new feature and not recorded.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "Team ×2",
+    "short": "Container concurrency limit rises: Starter 100 → 250, Team 5000 → 10,000 containers; GPU concurrency unchanged.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  }
+ ]
+}

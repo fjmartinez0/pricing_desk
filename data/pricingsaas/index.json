@@ -39881,7 +39881,10 @@
    "fetched_at": "2026-11-23T19:46:39-05:00",
    "file": "data/pricingsaas/pages/diffs/huggingface__2026W48.txt",
    "title": "Huggingface hikes Enterprise plan 10x to $500/user, drops H100 endpoints — Nov 23, 2026 · PricingSaaS Pulse",
-   "report_id": "huggingface:2026-W48#3"
+   "report_id": "huggingface:2026-W48#3",
+   "articles": [
+    "https://pricingsaas.com/news/article/together-raised-h100-and-h200-preemptible-gpu-rates"
+   ]
   },
   "https://pricingsaas.com/companies/marketman/diffs/2026W48": {
    "type": "diff",
@@ -41718,7 +41721,8 @@
    "first_seen": "2026-11-25T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/together-let-its-qwen4-max-promo-price-expire"
+    "https://pricingsaas.com/news/article/together-let-its-qwen4-max-promo-price-expire",
+    "https://pricingsaas.com/news/article/together-raised-h100-and-h200-preemptible-gpu-rates"
    ],
    "fetched_at": "2026-11-25T07:48:08-05:00",
    "file": "data/pricingsaas/pages/diffs/together__2026D329.txt",
@@ -41789,6 +41793,92 @@
    "file": "data/pricingsaas/pages/diffs/fireworks__2026D329.txt",
    "title": "Fireworks hikes Spot discount to 50% off, narrows eligibility to GLM-5.3 — Nov 25, 2026 · PricingSaaS Pulse",
    "report_id": "fireworks:2026-W49"
+  },
+  "https://pricingsaas.com/news/article/pika-added-a-black-friday-discount-banner-to-its-pricing-page": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/articles/pika-added-a-black-friday-discount-banner-to-its-pricing-page.txt",
+   "title": "Pika added a Black Friday discount banner to its pricing page",
+   "published": "2026-11-26T09:12:58.471329+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/pika/diffs/2026D330"
+   ]
+  },
+  "https://pricingsaas.com/news/article/modal-priced-deepseek-v4-1-flash-higher-for-eu-users": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/articles/modal-priced-deepseek-v4-1-flash-higher-for-eu-users.txt",
+   "title": "Modal priced DeepSeek V4.1 Flash higher for EU users",
+   "published": "2026-11-26T08:08:13.985443+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/modal/diffs/2026D330"
+   ]
+  },
+  "https://pricingsaas.com/news/article/together-raised-h100-and-h200-preemptible-gpu-rates": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/articles/together-raised-h100-and-h200-preemptible-gpu-rates.txt",
+   "title": "Together raised H100 and H200 preemptible GPU rates",
+   "published": "2026-11-26T06:58:43.267322+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/together/diffs/2026D330",
+    "https://pricingsaas.com/companies/together/diffs/2026D329",
+    "https://pricingsaas.com/companies/huggingface/diffs/2026W48"
+   ]
+  },
+  "https://pricingsaas.com/companies/pika/diffs/2026D330": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/pika-added-a-black-friday-discount-banner-to-its-pricing-page"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/diffs/pika__2026D330.txt",
+   "title": "Pika blasts 60% off Black Friday banner with live countdown to Creator plan — Nov 26, 2026 · PricingSaaS Pulse",
+   "report_id": "pika:2026-W49"
+  },
+  "https://pricingsaas.com/companies/modal/diffs/2026D330": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/modal-priced-deepseek-v4-1-flash-higher-for-eu-users"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/diffs/modal__2026D330.txt",
+   "title": "Modal doubles container limits to 10,000 on Team, adds DeepSeek V4.1 Flash — Nov 26, 2026 · PricingSaaS Pulse",
+   "report_id": "modal:2026-W49"
+  },
+  "https://pricingsaas.com/companies/together/diffs/2026D330": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-26T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/together-raised-h100-and-h200-preemptible-gpu-rates"
+   ],
+   "fetched_at": "2026-11-26T07:46:52-05:00",
+   "file": "data/pricingsaas/pages/diffs/together__2026D330.txt",
+   "title": "Together AI nudges preemptible GPU rates up a cent: H100 hits $2.00, H200 $3.00 — Nov 26, 2026 · PricingSaaS Pulse",
+   "report_id": "together:2026-W49#3"
   }
  }
 }

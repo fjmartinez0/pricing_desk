@@ -1,0 +1,96 @@
+Skip to content
+Sign in
+⌘K
+Sign inGet started
+Home/Modal/All changes/Feature added
+M
+Modal
+Packaging changeLimit raisedFeature addedNov 25 → Nov 26, 2026
+Modal doubles container limits to 10,000 on Team, adds DeepSeek V4.1 Flash
+Detected Nov 26, 2026Cloud & DevOps
+Covered on Pulse:Modal priced DeepSeek V4.1 Flash higher for EU users
+The changeFeature added
+Before · Nov 25Not listed
+After · Nov 26$0.375
+2 changes2 capturesNov 25, 2026 → Nov 26, 2026
+What happened
+Between the Nov 25, 2026 and Nov 26, 2026 captures of Modal's pricing page, Pulse recorded 2 changes: Container concurrency limits raised: Starter 100 to 250 containers; Team 5000 to 10,000 containers (GPU concurrency unchanged at 10 and 50); New Model APIs entry: DeepSeek V4.1 Flash 1017 at $0.375 prompt, $0.0075 cached, $1.50 completion per 1M tokens (existing $0.25 variant remains). Pulse files it as a packaging change (limit raised, feature added). The current page lists Team at $250, Compute resources at $1.10 NVIDIA A10G instance hour + $1.95 L40S GPU hour and Sandbox + Notebooks compute at $2.40 per 100 GiB-Hour + $14.19 per 100 core-hours.
+It lands 10 days after Modal's previous change, "Modal adds per-token pricing for 12 open-weight models like Kimi K3.1 Pro" (Nov 15, 2026). Before that Pulse recorded "Modal adds Inkling 2 Small at $0.30/$1.00 per 1M tokens, $0.03 cached" (Nov 13, 2026), "Modal drops Notebooks from its Sandbox pricing section and product footer" (Oct 26, 2026) and "Modal drops Notebooks from Sandbox pricing, bills at 3x non-preemptible rates" (Oct 26, 2026). Modal has been tracked since 2023-11-14.
+In the same window Together AI, Huggingface and Lambda Labs also changed their Cloud & DevOps pricing pages. Those moves are listed further down, and the Pulse Agent can compare them side by side.
+Show more
+Starter, TeamLimit
+Limit raised
+Container concurrency limits raised: Starter 100 to 250 containers; Team 5000 to 10,000 containers (GPU concurrency unchanged at 10 and 50).
+—Feature
+Feature added
+Not listed→$0.375
+Plan
+Field
+Before
+After
+Change
+Starter, Team
+Limit
+—
+250
+Limit raised
+—
+Feature
+Not listed
+$0.375
+Feature added
+Values as written on Modal's public pricing page in the two captures Pulse compared; where the page states no number, the cells give the wording before and after.
+Evidence
+The two captures Pulse compared
+Full-page captures of Modal's pricing page (modal.com) from Nov 25, 2026 and Nov 26, 2026; the change is marked around the middle of the page, where "Not listed" becomes "$0.375".
+Nov 25, 2026Feature not listed
+Nov 26, 2026$0.375
+Sign in to see the evidence
+The two full-page captures with this change marked up are free with an account.
+Sign up freeLog in
+Modal, the last 90 days
+Full history
+Nov 26, 2026Limit raisedModal doubles container limits to 10,000 on Team, adds DeepSeek V4.1 Flash This change
+Nov 15, 2026Price revealedModal adds per-token pricing for 12 open-weight models like Kimi K3.1 Pro
+Nov 13, 2026Feature addedModal adds Inkling 2 Small at $0.30/$1.00 per 1M tokens, $0.03 cached
+Oct 26, 2026Feature removedModal drops Notebooks from Sandbox pricing, bills at 3x non-preemptible rates
+Oct 26, 2026Feature removedModal drops Notebooks from its Sandbox pricing section and product footer
+Oct 4, 2026PackagingModal adds $0.04/GiB network egress fee, with up to 100 TiB free per plan
+Sep 14, 2026Feature changeModal renames Enterprise SSO from Okta to standards-based SAML
+Across Cloud & DevOps in the same window
+All Cloud & DevOps changes
+Together AINov 26Together AI nudges preemptible GPU rates up a cent: H100 hits $2.00, H200 $3.00
+HuggingfaceNov 23Huggingface hikes Enterprise plan 10x to $500/user, drops H100 endpoints
+Lambda LabsNov 9Lambda Labs raises on-demand GPU prices, with H100 up to $4.59/hr
+Questions about this change
+Did Modal raise prices in November 2026?
+No list-price increase was recorded between Nov 25, 2026 and Nov 26, 2026. The change Pulse detected was a packaging change: limit raised, feature added.
+What changed on Modal's pricing page between Nov 25, 2026 and Nov 26, 2026?
+Container concurrency limits raised: Starter 100 to 250 containers; Team 5000 to 10,000 containers (GPU concurrency unchanged at 10 and 50); feature: Not listed → $0.375. Pulse compared the captures it took on Nov 25, 2026 and Nov 26, 2026; the before/after table above lists each item as written on the page.
+How often does Modal change its pricing?
+Pulse recorded 8 other pricing-page changes for Modal in the 90 days before this one; the previous change was "Modal adds per-token pricing for 12 open-weight models like Kimi K3.1 Pro" on Nov 15, 2026; Modal has been tracked since 2023-11-14.
+Modal plans today
+All plans
+Starter
+Free
+Team
+$250
+Enterprise
+Contact
+Compute resourcesAdd-on
+$1.10 NVIDIA A10G instance hour + $1.95 L40S GPU hour
+Sandbox + Notebooks computeAdd-on
+$2.40 per 100 GiB-Hour + $14.19 per 100 core-hours
+Tracked alongside
+A
+Anyscale
+R
+RaySearch Laboratories AB
+T
+Together AI
+H
+Huggingface
+L
+Lambda Labs
+P
+Paper
