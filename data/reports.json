@@ -90523,7 +90523,7 @@
    "first_seen_run": "2026-11-23T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "atlassian",
    "decision": {
     "kind": "metering",
@@ -90671,7 +90671,7 @@
    "first_seen_run": "2026-11-23T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "arcade",
    "decision": {
     "kind": "limit_change",
@@ -90801,7 +90801,7 @@
    "first_seen_run": "2026-11-23T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "apploye",
    "decision": {
     "kind": "promo",
@@ -91038,7 +91038,7 @@
    "first_seen_run": "2026-11-23T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "activecampaign",
    "decision": {
     "kind": "limit_change",
@@ -95628,7 +95628,7 @@
    "first_seen_run": "2026-11-23T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "bookipi",
    "decision": {
     "kind": "price_increase",
@@ -95756,7 +95756,7 @@
    "article_files": [],
    "title": "Higgsfield AI deepens Black Friday deal to 70% off annual plans — Nov 23, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-23T19",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 4,
    "company": "higgsfield-ai",
@@ -95770,7 +95770,7 @@
      "text": "Black Friday deepened to up to 70% off annual plans (from 65%): Plus $33 → $30/mo, Ultra $50 → $45/mo"
     }
    },
-   "outcome": null,
+   "outcome": "promo higgsfield-ai-promo-2026w48",
    "decided_run": "2026-11-23T19"
   },
   {
@@ -97516,7 +97516,7 @@
    "first_seen_run": "2026-11-23T19",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "crusoe",
    "decision": {
     "kind": "plan_change",
@@ -97941,7 +97941,7 @@
    "first_seen_run": "2026-11-24T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "synthesia",
    "decision": {
     "kind": "promo",
@@ -98004,7 +98004,7 @@
    "first_seen_run": "2026-11-24T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "intercom",
    "decision": {
     "kind": "promo",
@@ -98181,7 +98181,7 @@
    "first_seen_run": "2026-11-24T07",
    "status": "decided",
    "attempts": 0,
-   "waits": 3,
+   "waits": 4,
    "company": "otter-ai",
    "decision": {
     "kind": "promo",
@@ -98512,7 +98512,7 @@
    ],
    "title": "Fireworks hikes Spot discount to 50% off, narrows eligibility to GLM-5.3 — Nov 25, 2026 · PricingSaaS Pulse",
    "first_seen_run": "2026-11-25T07",
-   "status": "decided",
+   "status": "done",
    "attempts": 0,
    "waits": 1,
    "company": "fireworks-ai",
@@ -98532,7 +98532,7 @@
     },
     "promo": null
    },
-   "outcome": null,
+   "outcome": "corroborates fireworks-ai-2026w49",
    "decided_run": "2026-11-25T07"
   }
  ]
