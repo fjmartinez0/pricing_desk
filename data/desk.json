@@ -1,6 +1,6 @@
 {
  "current_week": "2026-W48",
- "today": "2026-11-26",
+ "today": "2026-11-27",
  "edition_date": "2026-11-24",
  "period": "16–22 Nov",
  "week_order": [
@@ -44915,7 +44915,7 @@
   {
    "id": "commpeak-2026w49",
    "week": "2026-W49",
-   "rank": 21,
+   "rank": 22,
    "co": "CommPeak",
    "company": "commpeak",
    "tier": 3,
@@ -44990,7 +44990,7 @@
   {
    "id": "fly-io-2026w49",
    "week": "2026-W49",
-   "rank": 22,
+   "rank": 23,
    "co": "Fly.io",
    "company": "fly-io",
    "tier": 3,
@@ -45189,7 +45189,7 @@
   {
    "id": "mindsdb-2026w49",
    "week": "2026-W49",
-   "rank": 23,
+   "rank": 24,
    "co": "MindsDB",
    "company": "mindsdb",
    "tier": 3,
@@ -45678,7 +45678,7 @@
   {
    "id": "accelevents-2026w49",
    "week": "2026-W49",
-   "rank": 24,
+   "rank": 25,
    "co": "Accelevents",
    "company": "accelevents",
    "tier": 3,
@@ -46066,7 +46066,7 @@
   {
    "id": "oneup-2026w49",
    "week": "2026-W49",
-   "rank": 25,
+   "rank": 26,
    "co": "OneUp",
    "company": "oneup",
    "tier": 3,
@@ -46124,7 +46124,7 @@
   {
    "id": "craft-2026w49",
    "week": "2026-W49",
-   "rank": 26,
+   "rank": 27,
    "co": "Craft",
    "company": "craft",
    "tier": 3,
@@ -46153,7 +46153,7 @@
   {
    "id": "mailercloud-2026w49",
    "week": "2026-W49",
-   "rank": 27,
+   "rank": 28,
    "co": "Mailercloud",
    "company": "mailercloud",
    "tier": 3,
@@ -46182,7 +46182,7 @@
   {
    "id": "circle-2026w49",
    "week": "2026-W49",
-   "rank": 28,
+   "rank": 29,
    "co": "Circle",
    "company": "circle",
    "tier": 3,
@@ -46266,7 +46266,7 @@
   {
    "id": "readme-2026w49-2",
    "week": "2026-W49",
-   "rank": 29,
+   "rank": 30,
    "co": "ReadMe",
    "company": "readme",
    "tier": 3,
@@ -46382,7 +46382,7 @@
   {
    "id": "stopsuite-2026w49",
    "week": "2026-W49",
-   "rank": 30,
+   "rank": 31,
    "co": "StopSuite",
    "company": "stopsuite",
    "tier": 3,
@@ -46659,7 +46659,7 @@
   {
    "id": "avalara-2026w49",
    "week": "2026-W49",
-   "rank": 31,
+   "rank": 32,
    "co": "Avalara",
    "company": "avalara",
    "tier": 3,
@@ -46717,7 +46717,7 @@
   {
    "id": "jfrog-2026w49",
    "week": "2026-W49",
-   "rank": 32,
+   "rank": 33,
    "co": "JFrog",
    "company": "jfrog",
    "tier": 3,
@@ -46742,6 +46742,93 @@
    },
    "detail": "line",
    "score": 12.5
+  },
+  {
+   "id": "clerk-2026w49",
+   "week": "2026-W49",
+   "rank": 34,
+   "co": "Clerk",
+   "company": "clerk",
+   "tier": 3,
+   "group": "up",
+   "delta": "Unlimited → 10 roles",
+   "short": "Custom roles in B2B Authentication: unlimited → up to 10 per instance, more on request via support.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-23",
+   "seenLabel": "23–29 Nov",
+   "when": "26 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://clerk.com/pricing",
+   "evidence": {
+    "before": "data/snapshots/clerk/2026-11-26T07.txt",
+    "after": "data/snapshots/clerk/2026-11-27T07.txt",
+    "diff": "clerk-2026-11-27T07"
+   },
+   "detail": "line",
+   "score": 12.5
+  },
+  {
+   "id": "announcekit-2026w49",
+   "week": "2026-W49",
+   "rank": 35,
+   "co": "AnnounceKit",
+   "company": "announcekit",
+   "tier": 3,
+   "group": "up",
+   "delta": "SOC 2 → Enterprise only",
+   "short": "Legal & Compliance add-on stays $49 but no longer includes SOC 2 report access, which is now for Enterprise from $799.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": false,
+   "planLevel": "add-on",
+   "reach": 1,
+   "magnitude": null,
+   "seen": "2026-11-23",
+   "seenLabel": "23–29 Nov",
+   "when": "26 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://www.announcekit.app/pricing",
+   "evidence": {
+    "before": "data/snapshots/announcekit/2026-11-23T07.txt",
+    "after": "data/snapshots/announcekit/2026-11-27T07.txt",
+    "diff": "announcekit-2026-11-27T07"
+   },
+   "detail": "line",
+   "score": 12.5
+  },
+  {
+   "id": "simplelocalize-2026w49",
+   "week": "2026-W49",
+   "rank": 21,
+   "co": "SimpleLocalize",
+   "company": "simplelocalize",
+   "tier": 3,
+   "group": "up",
+   "delta": "First-month bonus cut",
+   "short": "AI characters: first-month grants removed, so Developer 200k then 50k → 50k, Team 500k then 100k → 100k, Business 1M then 200k → 200k a month.",
+   "pattern": "Limits tighten",
+   "seg": "B2B",
+   "ai": true,
+   "planLevel": "all",
+   "reach": 2,
+   "magnitude": null,
+   "seen": "2026-11-23",
+   "seenLabel": "23–29 Nov",
+   "when": "26 Nov",
+   "src": "Pricing Desk capture",
+   "url": "https://simplelocalize.io/pricing/",
+   "evidence": {
+    "before": "data/snapshots/simplelocalize/2026-11-25T07.txt",
+    "after": "data/snapshots/simplelocalize/2026-11-27T07.txt",
+    "diff": "simplelocalize-2026-11-27T07"
+   },
+   "detail": "line",
+   "score": 25.0
   }
  ],
  "categories": [

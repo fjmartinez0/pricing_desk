@@ -41583,7 +41583,8 @@
    "found_via": [],
    "articles": [
     "https://pricingsaas.com/news/article/braintrust-added-patterns-to-its-feature-comparison-table",
-    "https://pricingsaas.com/news/article/perplexity-cut-its-max-plan-signup-bonus"
+    "https://pricingsaas.com/news/article/perplexity-cut-its-max-plan-signup-bonus",
+    "https://pricingsaas.com/news/article/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers"
    ],
    "fetched_at": "2026-11-24T07:48:47-05:00",
    "file": "data/pricingsaas/pages/diffs/braintrust__2026D328.txt",
@@ -41879,6 +41880,63 @@
    "file": "data/pricingsaas/pages/diffs/together__2026D330.txt",
    "title": "Together AI nudges preemptible GPU rates up a cent: H100 hits $2.00, H200 $3.00 — Nov 26, 2026 · PricingSaaS Pulse",
    "report_id": "together:2026-W49#3"
+  },
+  "https://pricingsaas.com/news/article/synthesia-raised-pro-plan-s-syren-avatar-video-allowance": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-27T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-27T07:45:46-05:00",
+   "file": "data/pricingsaas/pages/articles/synthesia-raised-pro-plan-s-syren-avatar-video-allowance.txt",
+   "title": "Synthesia raised Pro plan's Syren avatar video allowance",
+   "published": "2026-11-27T07:02:24.043905+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D331"
+   ]
+  },
+  "https://pricingsaas.com/news/article/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-27T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-27T07:45:46-05:00",
+   "file": "data/pricingsaas/pages/articles/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers.txt",
+   "title": "Attio replaced fixed Ask Attio credit counts with relative usage tiers",
+   "published": "2026-11-27T06:28:57.980107+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D331",
+    "https://pricingsaas.com/companies/braintrust/diffs/2026D328"
+   ]
+  },
+  "https://pricingsaas.com/companies/synthesia/diffs/2026D331": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-27T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/synthesia-raised-pro-plan-s-syren-avatar-video-allowance"
+   ],
+   "fetched_at": "2026-11-27T07:45:46-05:00",
+   "file": "data/pricingsaas/pages/diffs/synthesia__2026D331.txt",
+   "title": "Synthesia boosts Pro plan Syren avatar videos to ~96 per year, up from ~84 — Nov 27, 2026 · PricingSaaS Pulse",
+   "report_id": "synthesia:2026-W49#2"
+  },
+  "https://pricingsaas.com/companies/attio/diffs/2026D331": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-27T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers"
+   ],
+   "fetched_at": "2026-11-27T07:45:46-05:00",
+   "file": "data/pricingsaas/pages/diffs/attio__2026D331.txt",
+   "title": "Attio drops fixed Ask Attio credit counts for relative usage tiers across plans — Nov 27, 2026 · PricingSaaS Pulse",
+   "report_id": "attio:2026-W49"
   }
  }
 }

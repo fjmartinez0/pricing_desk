@@ -98674,6 +98674,107 @@
    },
    "outcome": "corroborates together-ai-2026w49, together-ai-promo-2026w49",
    "decided_run": "2026-11-26T07"
+  },
+  {
+   "report_id": "synthesia:2026-W49#2",
+   "ps_slug": "synthesia",
+   "week": "2026-W49",
+   "change_date": "2026-11-27",
+   "urls": [
+    "https://pricingsaas.com/companies/synthesia/diffs/2026D331"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/synthesia__2026D331.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/synthesia-raised-pro-plan-s-syren-avatar-video-allowance.txt"
+   ],
+   "title": "Synthesia boosts Pro plan Syren avatar videos to ~96 per year, up from ~84 — Nov 27, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-27T07",
+   "status": "decided",
+   "attempts": 0,
+   "waits": 1,
+   "company": "synthesia",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Pro plan's Syren avatar video allowance rose from ~84 to ~96 videos per year with no price change.",
+    "detail": "card",
+    "record": {
+     "group": "down",
+     "delta": "+14%",
+     "short": "Synthesia raised the Pro plan's Syren avatar video allowance from ~84 to ~96 videos per year.",
+     "pattern": "Limits loosen",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "mid",
+     "reach": 2,
+     "plan": "Pro",
+     "deltaSub": "Pro Syren avatar videos per year",
+     "headline": "Synthesia raised the Pro plan's Syren avatar video allowance from ~84 to ~96 videos per year, leaving the Pro price at $59.",
+     "rows": [
+      [
+       "Pro, Syren avatar videos per year",
+       "~84",
+       "~96"
+      ]
+     ],
+     "who": "Customers on the Pro plan; the monthly price is unchanged.",
+     "stated": null,
+     "statedUrl": null,
+     "read": "A small loosening of a volume cap, which is about 7 → 8 videos a month. It follows several recent quota changes on this plan, so the Syren allowance looks like it is still being tuned.",
+     "model": "Hybrid",
+     "modelBefore": "Hybrid",
+     "modelAfter": "Hybrid",
+     "appliesTo": "unknown",
+     "magnitude": {
+      "low": 0,
+      "high": 14,
+      "basis": "allowance"
+     }
+    },
+    "promo": null
+   },
+   "outcome": null,
+   "decided_run": "2026-11-27T07"
+  },
+  {
+   "report_id": "attio:2026-W49",
+   "ps_slug": "attio",
+   "week": "2026-W49",
+   "change_date": "2026-11-27",
+   "urls": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D331"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/attio__2026D331.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers.txt"
+   ],
+   "title": "Attio drops fixed Ask Attio credit counts for relative usage tiers across plans — Nov 27, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-27T07",
+   "status": "decided",
+   "attempts": 0,
+   "waits": 1,
+   "company": "attio",
+   "decision": {
+    "kind": "limit_change",
+    "why": "Ask Attio credit allotments of 100, 500, 1,000 and 2,500 per month were replaced by unnumbered relative usage tiers on Free, Plus, Pro and Ultra.",
+    "detail": "line",
+    "record": {
+     "group": "pack",
+     "delta": "Numbers → tiers",
+     "short": "Attio replaced fixed Ask Attio credit counts (100, 500, 1,000, 2,500 per month) with relative tiers: Limited usage, More usage, 3x Plus, 5x Plus.",
+     "pattern": "Limits tighten",
+     "seg": "B2B",
+     "ai": true,
+     "planLevel": "all",
+     "reach": 3
+    },
+    "promo": null
+   },
+   "outcome": null,
+   "decided_run": "2026-11-27T07"
   }
  ]
 }
