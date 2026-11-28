@@ -1,0 +1,114 @@
+{
+ "run": "2026-11-28T07",
+ "reports": [
+  {
+   "report_id": "slack:2026-W49",
+   "week": "2026-W49",
+   "change_date": "2026-11-25",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D332",
+    "https://pricingsaas.com/companies/slack/diffs/2026D329"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D332.txt",
+    "data/pricingsaas/pages/diffs/slack__2026D329.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/slack-ran-a-price-test-on-its-enterprise-plan.txt"
+   ],
+   "title": "Slack puts $45 price tag on Enterprise+ plan, ditching \"Contact sales — Nov 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "slack",
+   "registry_name": "Slack",
+   "existing_records": []
+  },
+  {
+   "report_id": "runwayml:2026-W49",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/runwayml__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/runway-deepened-its-first-year-discount-on-annual-plans.txt"
+   ],
+   "title": "Runway offers extra 30% off first year, Standard drops to $8.40/mo — Nov 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "runway",
+   "registry_name": "Runway",
+   "existing_records": []
+  },
+  {
+   "report_id": "framer:2026-W49#3",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/framer/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/framer__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/framer-dropped-its-content-editors-seat-tier.txt"
+   ],
+   "title": "Framer drops $10 Content editors seat tier, keeps $20 Additional editors — Nov 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "framer",
+   "registry_name": "Framer",
+   "existing_records": [
+    {
+     "id": "framer-2026w49",
+     "short": "Free plan bandwidth rises from 1 GB to 5 GB and automations appear as a limit: 1 on Free, 3 on Basic, 10 on Pro.",
+     "src": "Pricing Desk capture"
+    },
+    {
+     "id": "framer-2026w49-2",
+     "short": "Framer no longer lists the Content editors seat at $10 per editor; additional editors remain $20 per editor.",
+     "src": "Pricing Desk capture"
+    }
+   ]
+  },
+  {
+   "report_id": "attio:2026-W49#2",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/attio__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/attio-added-higher-ask-attio-credit-counts.txt"
+   ],
+   "title": "Attio swaps vague Ask Attio tiers for explicit 200 to 5,000 credits — Nov 28, 2026 · PricingSaaS Pulse",
+   "registry_guess": "attio",
+   "registry_name": "Attio",
+   "existing_records": [
+    {
+     "id": "attio-2026w49",
+     "short": "Ask Attio credits rise on every plan: Free 100 → 200, Plus 500 → 1000, Pro 1,000 → 3000, Ultra 2,500 → 5000.",
+     "src": "Pricing Desk capture"
+    }
+   ]
+  },
+  {
+   "report_id": "teamviewer:2026-W48",
+   "week": "2026-W48",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/teamviewer/diffs/2026W48"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/teamviewer__2026W48.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/runway-deepened-its-first-year-discount-on-annual-plans.txt"
+   ],
+   "title": "TeamViewer takes 30% off Business, Premium and Corporate in Black Friday sale until Dec 4 — Nov 23, 2026 · PricingSaaS Pulse",
+   "registry_guess": "teamviewer",
+   "registry_name": "TeamViewer",
+   "existing_records": []
+  }
+ ]
+}

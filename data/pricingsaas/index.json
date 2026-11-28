@@ -37645,7 +37645,10 @@
    "fetched_at": "2026-11-23T07:50:02-05:00",
    "file": "data/pricingsaas/pages/diffs/clickup__2026W48.txt",
    "title": "ClickUp pulls Brain2 AI from Free Forever, ends 500-credit trial — Nov 23, 2026 · PricingSaaS Pulse",
-   "report_id": "clickup:2026-W48"
+   "report_id": "clickup:2026-W48",
+   "articles": [
+    "https://pricingsaas.com/news/article/attio-added-higher-ask-attio-credit-counts"
+   ]
   },
   "https://pricingsaas.com/companies/claritysoft/diffs/2026W48": {
    "type": "diff",
@@ -37730,7 +37733,10 @@
    "fetched_at": "2026-11-23T07:50:02-05:00",
    "file": "data/pricingsaas/pages/diffs/cargo__2026W48.txt",
    "title": "Cargo adds $59/mo 500-credit tier with email support below its $165 plan — Nov 23, 2026 · PricingSaaS Pulse",
-   "report_id": "cargo:2026-W48"
+   "report_id": "cargo:2026-W48",
+   "articles": [
+    "https://pricingsaas.com/news/article/attio-added-higher-ask-attio-credit-counts"
+   ]
   },
   "https://pricingsaas.com/companies/caniphish/diffs/2026W48": {
    "type": "diff",
@@ -41515,7 +41521,8 @@
    "found_via": [],
    "articles": [
     "https://pricingsaas.com/news/article/suno-launched-a-black-friday-sale-on-annual-plans",
-    "https://pricingsaas.com/news/article/zapier-made-mcp-tool-calls-free-for-a-limited-time"
+    "https://pricingsaas.com/news/article/zapier-made-mcp-tool-calls-free-for-a-limited-time",
+    "https://pricingsaas.com/news/article/runway-deepened-its-first-year-discount-on-annual-plans"
    ],
    "fetched_at": "2026-11-24T07:48:47-05:00",
    "file": "data/pricingsaas/pages/diffs/suno__2026D328.txt",
@@ -41775,7 +41782,8 @@
    "first_seen": "2026-11-25T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/framer-added-automations-as-a-plan-limit"
+    "https://pricingsaas.com/news/article/framer-added-automations-as-a-plan-limit",
+    "https://pricingsaas.com/news/article/framer-dropped-its-content-editors-seat-tier"
    ],
    "fetched_at": "2026-11-25T07:48:08-05:00",
    "file": "data/pricingsaas/pages/diffs/framer__2026D329.txt",
@@ -41931,12 +41939,158 @@
    "first_seen": "2026-11-27T07",
    "found_via": [],
    "articles": [
-    "https://pricingsaas.com/news/article/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers"
+    "https://pricingsaas.com/news/article/attio-replaced-fixed-ask-attio-credit-counts-with-relative-usage-tiers",
+    "https://pricingsaas.com/news/article/attio-added-higher-ask-attio-credit-counts"
    ],
    "fetched_at": "2026-11-27T07:45:46-05:00",
    "file": "data/pricingsaas/pages/diffs/attio__2026D331.txt",
    "title": "Attio drops fixed Ask Attio credit counts for relative usage tiers across plans — Nov 27, 2026 · PricingSaaS Pulse",
    "report_id": "attio:2026-W49"
+  },
+  "https://pricingsaas.com/news/article/runway-deepened-its-first-year-discount-on-annual-plans": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/articles/runway-deepened-its-first-year-discount-on-annual-plans.txt",
+   "title": "Runway deepened its first-year discount on annual plans",
+   "published": "2026-11-28T07:11:02.34008+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D332",
+    "https://pricingsaas.com/companies/suno/diffs/2026D328",
+    "https://pricingsaas.com/companies/teamviewer/diffs/2026W48"
+   ]
+  },
+  "https://pricingsaas.com/news/article/attio-added-higher-ask-attio-credit-counts": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/articles/attio-added-higher-ask-attio-credit-counts.txt",
+   "title": "Attio added higher Ask Attio credit counts to its pricing table",
+   "published": "2026-11-28T07:05:37.974398+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D332",
+    "https://pricingsaas.com/companies/attio/diffs/2026D331",
+    "https://pricingsaas.com/companies/clickup/diffs/2026W48",
+    "https://pricingsaas.com/companies/cargo/diffs/2026W48"
+   ]
+  },
+  "https://pricingsaas.com/news/article/framer-dropped-its-content-editors-seat-tier": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/articles/framer-dropped-its-content-editors-seat-tier.txt",
+   "title": "Framer dropped its Content editors seat tier",
+   "published": "2026-11-28T07:05:31.96027+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/framer/diffs/2026D332",
+    "https://pricingsaas.com/companies/framer/diffs/2026D329"
+   ]
+  },
+  "https://pricingsaas.com/news/article/slack-ran-a-price-test-on-its-enterprise-plan": {
+   "type": "article",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [
+    "news"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/articles/slack-ran-a-price-test-on-its-enterprise-plan.txt",
+   "title": "Slack ran a price test on its Enterprise+ plan",
+   "published": "2026-11-28T06:55:51.962412+00:00",
+   "diffs": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D332",
+    "https://pricingsaas.com/companies/slack/diffs/2026D329"
+   ]
+  },
+  "https://pricingsaas.com/companies/runwayml/diffs/2026D332": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/runway-deepened-its-first-year-discount-on-annual-plans"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/runwayml__2026D332.txt",
+   "title": "Runway offers extra 30% off first year, Standard drops to $8.40/mo — Nov 28, 2026 · PricingSaaS Pulse",
+   "report_id": "runwayml:2026-W49"
+  },
+  "https://pricingsaas.com/companies/teamviewer/diffs/2026W48": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/runway-deepened-its-first-year-discount-on-annual-plans"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/teamviewer__2026W48.txt",
+   "title": "TeamViewer takes 30% off Business, Premium and Corporate in Black Friday sale until Dec 4 — Nov 23, 2026 · PricingSaaS Pulse",
+   "report_id": "teamviewer:2026-W48"
+  },
+  "https://pricingsaas.com/companies/attio/diffs/2026D332": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/attio-added-higher-ask-attio-credit-counts"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/attio__2026D332.txt",
+   "title": "Attio swaps vague Ask Attio tiers for explicit 200 to 5,000 credits — Nov 28, 2026 · PricingSaaS Pulse",
+   "report_id": "attio:2026-W49#2"
+  },
+  "https://pricingsaas.com/companies/framer/diffs/2026D332": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/framer-dropped-its-content-editors-seat-tier"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/framer__2026D332.txt",
+   "title": "Framer drops $10 Content editors seat tier, keeps $20 Additional editors — Nov 28, 2026 · PricingSaaS Pulse",
+   "report_id": "framer:2026-W49#3"
+  },
+  "https://pricingsaas.com/companies/slack/diffs/2026D332": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/slack-ran-a-price-test-on-its-enterprise-plan"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/slack__2026D332.txt",
+   "title": "Slack puts $45 price tag on Enterprise+ plan, ditching \"Contact sales — Nov 28, 2026 · PricingSaaS Pulse",
+   "report_id": "slack:2026-W49"
+  },
+  "https://pricingsaas.com/companies/slack/diffs/2026D329": {
+   "type": "diff",
+   "status": "fetched",
+   "first_seen": "2026-11-28T07",
+   "found_via": [],
+   "articles": [
+    "https://pricingsaas.com/news/article/slack-ran-a-price-test-on-its-enterprise-plan"
+   ],
+   "fetched_at": "2026-11-28T07:44:15-05:00",
+   "file": "data/pricingsaas/pages/diffs/slack__2026D329.txt",
+   "title": "Slack reveals Enterprise+ price: $45 per user/month billed annually — Nov 25, 2026 · PricingSaaS Pulse",
+   "report_id": "slack:2026-W49"
   }
  }
 }

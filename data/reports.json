@@ -98775,6 +98775,164 @@
    },
    "outcome": "corroborates attio-2026w49",
    "decided_run": "2026-11-27T07"
+  },
+  {
+   "report_id": "runwayml:2026-W49",
+   "ps_slug": "runwayml",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/runwayml/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/runwayml__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/runway-deepened-its-first-year-discount-on-annual-plans.txt"
+   ],
+   "title": "Runway offers extra 30% off first year, Standard drops to $8.40/mo — Nov 28, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-28T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "runway",
+   "decision": {
+    "kind": "promo",
+    "why": "Runway added an extra 30% off the first year of annual plans: Standard $12 → $8.40, Pro $28 → $19.60, Max $76 → $53.20 per month; list prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Extra 30% off first year on annual plans: Standard $8.40, Pro $19.60, Max $53.20 per month (was $12, $28, $76)"
+    }
+   },
+   "outcome": "corroborates runway-promo-2026w49",
+   "decided_run": "2026-11-28T07"
+  },
+  {
+   "report_id": "teamviewer:2026-W48",
+   "ps_slug": "teamviewer",
+   "week": "2026-W48",
+   "change_date": null,
+   "urls": [
+    "https://pricingsaas.com/companies/teamviewer/diffs/2026W48"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/teamviewer__2026W48.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/runway-deepened-its-first-year-discount-on-annual-plans.txt"
+   ],
+   "title": "TeamViewer takes 30% off Business, Premium and Corporate in Black Friday sale until Dec 4 — Nov 23, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-28T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "teamviewer",
+   "decision": {
+    "kind": "promo",
+    "why": "TeamViewer Black Friday sale: 30% off new Business, Premium and Corporate licenses until Dec 4 (Premium $120.90 → $84.63/mo, Corporate $245.90 → $172.13/mo, first year only); list prices unchanged.",
+    "detail": "line",
+    "record": null,
+    "promo": {
+     "kind": "new",
+     "text": "Black Friday: 30% off new Business, Premium and Corporate licenses, first year, until Dec 4 (Premium $84.63/mo, Corporate $172.13/mo billed yearly)"
+    }
+   },
+   "outcome": "promo teamviewer-promo-2026w48",
+   "decided_run": "2026-11-28T07"
+  },
+  {
+   "report_id": "attio:2026-W49#2",
+   "ps_slug": "attio",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/attio/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/attio__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/attio-added-higher-ask-attio-credit-counts.txt"
+   ],
+   "title": "Attio swaps vague Ask Attio tiers for explicit 200 to 5,000 credits — Nov 28, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-28T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "attio",
+   "decision": {
+    "kind": "duplicate",
+    "why": "Ask Attio credits of 200 / 1000 / 3000 / 5000 are already recorded in attio-2026w49 (the intermediate relative-tier wording was only a one-day state).",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-28T07"
+  },
+  {
+   "report_id": "framer:2026-W49#3",
+   "ps_slug": "framer",
+   "week": "2026-W49",
+   "change_date": "2026-11-28",
+   "urls": [
+    "https://pricingsaas.com/companies/framer/diffs/2026D332"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/framer__2026D332.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/framer-dropped-its-content-editors-seat-tier.txt"
+   ],
+   "title": "Framer drops $10 Content editors seat tier, keeps $20 Additional editors — Nov 28, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-28T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "framer",
+   "decision": {
+    "kind": "duplicate",
+    "why": "Removal of the $10 Content editors seat is already recorded as framer-2026w49-2.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (duplicate)",
+   "decided_run": "2026-11-28T07"
+  },
+  {
+   "report_id": "slack:2026-W49",
+   "ps_slug": "slack",
+   "week": "2026-W49",
+   "change_date": "2026-11-25",
+   "urls": [
+    "https://pricingsaas.com/companies/slack/diffs/2026D332",
+    "https://pricingsaas.com/companies/slack/diffs/2026D329"
+   ],
+   "files": [
+    "data/pricingsaas/pages/diffs/slack__2026D332.txt",
+    "data/pricingsaas/pages/diffs/slack__2026D329.txt"
+   ],
+   "article_files": [
+    "data/pricingsaas/pages/articles/slack-ran-a-price-test-on-its-enterprise-plan.txt"
+   ],
+   "title": "Slack puts $45 price tag on Enterprise+ plan, ditching \"Contact sales — Nov 28, 2026 · PricingSaaS Pulse",
+   "first_seen_run": "2026-11-28T07",
+   "status": "done",
+   "attempts": 0,
+   "waits": 0,
+   "company": "slack",
+   "decision": {
+    "kind": "price_reveal",
+    "why": "Slack's Enterprise+ plan shows $45 per user/month instead of 'Contact sales'; a price shown for the first time, and PricingSaaS reports it flipping between versions (likely a visibility test), so it is not a kept price change.",
+    "detail": "line",
+    "record": null,
+    "promo": null
+   },
+   "outcome": "dropped (price_reveal)",
+   "decided_run": "2026-11-28T07"
   }
  ]
 }

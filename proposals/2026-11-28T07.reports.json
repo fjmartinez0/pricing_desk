@@ -1,0 +1,62 @@
+{
+ "type": "reports",
+ "run": "2026-11-28T07",
+ "items": [
+  {
+   "report_id": "slack:2026-W49",
+   "company": "slack",
+   "new_company": null,
+   "kind": "price_reveal",
+   "why": "Slack's Enterprise+ plan shows $45 per user/month instead of 'Contact sales'; a price shown for the first time, and PricingSaaS reports it flipping between versions (likely a visibility test), so it is not a kept price change.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "runwayml:2026-W49",
+   "company": "runway",
+   "new_company": null,
+   "kind": "promo",
+   "why": "Runway added an extra 30% off the first year of annual plans: Standard $12 → $8.40, Pro $28 → $19.60, Max $76 → $53.20 per month; list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Extra 30% off first year on annual plans: Standard $8.40, Pro $19.60, Max $53.20 per month (was $12, $28, $76)"
+   }
+  },
+  {
+   "report_id": "framer:2026-W49#3",
+   "company": "framer",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Removal of the $10 Content editors seat is already recorded as framer-2026w49-2.",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "attio:2026-W49#2",
+   "company": "attio",
+   "new_company": null,
+   "kind": "duplicate",
+   "why": "Ask Attio credits of 200 / 1000 / 3000 / 5000 are already recorded in attio-2026w49 (the intermediate relative-tier wording was only a one-day state).",
+   "detail": "line",
+   "record": null,
+   "promo": null
+  },
+  {
+   "report_id": "teamviewer:2026-W48",
+   "company": "teamviewer",
+   "new_company": null,
+   "kind": "promo",
+   "why": "TeamViewer Black Friday sale: 30% off new Business, Premium and Corporate licenses until Dec 4 (Premium $120.90 → $84.63/mo, Corporate $245.90 → $172.13/mo, first year only); list prices unchanged.",
+   "detail": "line",
+   "record": null,
+   "promo": {
+    "kind": "new",
+    "text": "Black Friday: 30% off new Business, Premium and Corporate licenses, first year, until Dec 4 (Premium $84.63/mo, Corporate $172.13/mo billed yearly)"
+   }
+  }
+ ]
+}
