@@ -1,0 +1,173 @@
+{
+ "type": "changes",
+ "run": "2026-11-27T19",
+ "items": [
+  {"diff_id": "aihr-2026-11-27T19", "kind": "wording", "why": "Review counter ticked up, Enterprise copy now says 50+ HR professionals instead of 10+ and one content bullet was dropped; no price or plan change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bolster-2026-11-27T19", "kind": "noise", "why": "Demo sample-job counter changed from 7 to 8; no pricing change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "bugherd-2026-11-27T19", "kind": "new_feature", "why": "Session Replays & Console Logs added to the feature list of the agency-level plan; no existing price or tier allowance changed.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "coderabbit-2026-11-27T19", "kind": "wording", "why": "CodeRabbit Agent renamed Coding Agent in the feature table; availability and prices unchanged.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "framer-2026-11-27T19",
+   "kind": "plan_change",
+   "why": "The $10 per editor Content editors seat was removed from the plan comparison (two places); a Black Friday 50% off first year of Pro banner also appeared.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Seat type removed",
+    "short": "Framer no longer lists the Content editors seat at $10 per editor; additional editors remain $20 per editor.",
+    "pattern": "Tier consolidation",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "all",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "google-workspace-2026-11-27T19", "kind": "noise", "why": "Promo date window shifted by four days and a user-count validation message was added; the 50% off for 3 months offer and list prices are unchanged.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "legalzoom-2026-11-27T19",
+   "kind": "feature_move",
+   "why": "Pro and Premium renamed Managed Service and Expert Service at unchanged $249 and $299; attorney consultations and attorney review dropped from the mid tier and now sit only in the top tier.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Attorney: top tier only",
+    "short": "LegalZoom renamed Pro and Premium to Managed Service and Expert Service at the same $249 and $299, and moved attorney access to the top tier only.",
+    "pattern": "Unbundling",
+    "seg": "Both",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 2,
+    "plan": "LLC formation: Pro → Managed Service, Premium → Expert Service",
+    "deltaSub": "attorney access in the mid tier",
+    "headline": "LegalZoom’s mid-tier LLC package keeps its $249 price but now offers a business advisor instead of unlimited attorney consultations, which are reserved for the $299 top tier.",
+    "rows": [
+     ["Mid tier price (Pro → Managed Service)", "$249", "$249"],
+     ["Mid tier attorney consultations", "Unlimited 30-minute attorney consultations", "Removed"],
+     ["Mid tier LLC formation review", "Attorney guidance", "Business advisor review (not an attorney review)"],
+     ["Top tier price (Premium → Expert Service)", "$299", "$299"],
+     ["Top tier renewal after included period", "$9.99/mo", "$99/mo"]
+    ],
+    "who": "New buyers of the LLC formation packages; the mid tier loses attorney access, the top tier gains it plus tax prep and full bookkeeping.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Holding the headline prices while pulling attorney time out of the $249 package pushes buyers who want a lawyer toward the $299 tier, whose post-trial renewal is also higher. This is our inference from the page comparison.",
+    "caveat": "Plan names, feature wording and the included-subscription terms were all rewritten at once, so some differences may be presentation rather than substance.",
+    "model": "Flat",
+    "modelBefore": "Flat",
+    "modelAfter": "Flat",
+    "appliesTo": "unknown",
+    "magnitude": null
+   },
+   "promo": null
+  },
+  {"diff_id": "moodle-2026-11-27T19", "kind": "noise", "why": "Only converted local-currency amounts (EUR, INR, CAD, USD) moved by small amounts; the AUD base prices are unchanged, so this is currency rendering.", "detail": "card", "record": null, "promo": null},
+  {
+   "diff_id": "synthesia-2026-11-27T19",
+   "kind": "limit_change",
+   "why": "Team plan now lists up to 5 team members and admins instead of 10, and its video and dubbing allowances in the comparison table dropped sharply.",
+   "detail": "card",
+   "record": {
+    "group": "up",
+    "delta": "Seats 10 → 5",
+    "short": "Synthesia’s Team plan now includes up to 5 team members instead of 10, with Studio video shown at ~720 minutes a year instead of ~18,000.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "top",
+    "reach": 2,
+    "plan": "Team",
+    "deltaSub": "team members and admins included",
+    "headline": "Synthesia’s Team plan halved its included editors and admins from 10 to 5 and now shows far smaller yearly video and dubbing allowances.",
+    "rows": [
+     ["Team, editors included", "Up to 10", "Up to 5"],
+     ["Team, admins", "Up to 10", "Up to 5"],
+     ["Team, Studio video per year", "Up to ~18,000 minutes", "Up to ~720 minutes"],
+     ["Team, dubbing per year", "Up to 23,675 minutes", "Up to 947 minutes"]
+    ],
+    "who": "Team plan customers and prospects; Team price shown is unchanged.",
+    "stated": null,
+    "statedUrl": null,
+    "read": "Fewer included seats and smaller allowances at the same price push larger teams toward Enterprise or the $20 per seat add-on. This is our inference.",
+    "caveat": "The video and dubbing figures sit in the comparison table and may be a restatement of credit-based limits rather than a new cut; the seat reduction is stated plainly on the plan card.",
+    "model": "Hybrid",
+    "modelBefore": "Hybrid",
+    "modelAfter": "Hybrid",
+    "appliesTo": "unknown",
+    "magnitude": {"low": -96, "high": -50, "basis": "allowance"}
+   },
+   "promo": null
+  },
+  {"diff_id": "elevenlabs-2026-11-27T19", "kind": "new_feature", "why": "Language count in the text-to-speech comparison table rose from 74 to 90 on every plan; no price or limit change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "browser-use-2026-11-27T19", "kind": "wording", "why": "A note was added explaining that projects created before 13 November 2026 keep the old US browser rate; the headline $0.06 per browser hour was already on the page in the earlier snapshot, and the free credit note now says eligible signups.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "quriobot-2026-11-27T19", "kind": "noise", "why": "Agency from-price moved by $1 ($547 → $548), consistent with currency conversion rendering rather than a list price decision.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "omniconvert-2026-11-27T19",
+   "kind": "free_plan",
+   "why": "Founding Free is now stated as being for stores under 9,999 orders per year; credits and paid prices are unchanged. Agency pricing section was also removed.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "Free capped",
+    "short": "Founding Free, with 900 credits a month, is now limited to stores under 9,999 orders per year.",
+    "pattern": "Limits tighten",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "free",
+    "reach": 2
+   },
+   "promo": null
+  },
+  {"diff_id": "chaos-2026-11-27T19", "kind": "wording", "why": "Banner relabelled from Black Friday access to Last Chance; the 20% off offer itself is unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "browserstack-2026-11-27T19", "kind": "wording", "why": "Contact Sales and Inquire for Pricing buttons relabelled Reveal Pricing; no price is shown on the page.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "ukko-fi-2026-11-27T19", "kind": "noise", "why": "VAT labels switched to Finnish wording and form field labels changed; prices unchanged.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "avoma-2026-11-27T19", "kind": "noise", "why": "Footer typo fix (Al to AI).", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "sketch-2026-11-27T19",
+   "kind": "wording",
+   "why": "Banner changed to a Black Friday 25% off offer until 30 November.",
+   "detail": "line",
+   "record": null,
+   "promo": {"kind": "new", "text": "Black Friday: 25% off Sketch until 30 November"}
+  },
+  {"diff_id": "mindee-2026-11-27T19", "kind": "wording", "why": "Feature bullets reordered and relabelled (Polygons to Bounding boxes, Classification & Extraction added); Utilities & chaining is still listed in the comparison table; no price or limit change.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "attio-2026-11-27T19",
+   "kind": "limit_change",
+   "why": "Ask Attio credits raised on every plan: Free 100 → 200, Plus 500 → 1000, Pro 1,000 → 3000, Ultra 2,500 → 5000.",
+   "detail": "line",
+   "record": {
+    "group": "down",
+    "delta": "×2–×3",
+    "short": "Ask Attio credits rise on every plan: Free 100 → 200, Plus 500 → 1000, Pro 1,000 → 3000, Ultra 2,500 → 5000.",
+    "pattern": "Limits loosen",
+    "seg": "B2B",
+    "ai": true,
+    "planLevel": "all",
+    "reach": 3
+   },
+   "promo": null
+  },
+  {"diff_id": "checkly-2026-11-27T19", "kind": "new_feature", "why": "New optional overage spending limit on Starter and Team, plus rewritten billing text (yearly overage invoiced at each $300); no price or included-run change.", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "static-forms-2026-11-27T19", "kind": "wording", "why": "A plan limits summary table was added that restates prices and limits already on the page ($0, $6, $9, $19; 250, 3,000, 25,000, 30,000 submissions).", "detail": "line", "record": null, "promo": null},
+  {"diff_id": "notta-2026-11-27T19", "kind": "noise", "why": "Only the language switcher text changed.", "detail": "line", "record": null, "promo": null},
+  {
+   "diff_id": "landbot-2026-11-27T19",
+   "kind": "price_increase",
+   "why": "Professional WA list price rose from €160/mo to €180/mo; the FAQ now describes WhatsApp with your own number as a €100/mo add-on on top of the €80 Professional plan.",
+   "detail": "line",
+   "record": {
+    "group": "up",
+    "delta": "+12.5%",
+    "short": "Professional WA rose from €160/mo to €180/mo, now explained as Professional at €80/mo plus a €100/mo WhatsApp add-on.",
+    "pattern": "Price increase",
+    "seg": "B2B",
+    "ai": false,
+    "planLevel": "mid",
+    "reach": 1
+   },
+   "promo": null
+  },
+  {"diff_id": "sapling-2026-11-27T19", "kind": "noise", "why": "Free plan button text changed from Add to Chrome to separate Add writing assistant and Add AI detector buttons.", "detail": "line", "record": null, "promo": null}
+ ]
+}
